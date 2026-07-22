@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 8,
+  "items": [
+    {
+      "record_id": "list1_51119",
+      "concat": "[TITLE] [특수형태근로종사자] 특수건설기계\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 특수건설기계",
+      "query": [
+        "건설기계 안전",
+        "특수건설기계를 운전하는 사람을 위한 안전보건 자료",
+        "특수형태근로종사자 특수건설기계 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51121",
+      "concat": "[TITLE] [특수형태근로종사자] 골프장 캐디\n[SUMMARY] 특수형태근로종사자의 안전보건 - 골프장 캐디",
+      "query": [
+        "골프장 캐디 안전",
+        "골프장에서 일하는 캐디의 안전보건 자료",
+        "특수형태근로종사자 골프장 캐디 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51129",
+      "concat": "[TITLE] [특수형태근로종사자] 방문판매원\n[SUMMARY] 특수형태근로종사자의 안전보건 - 방문판매원",
+      "query": [
+        "방문판매원 안전",
+        "방문판매 일을 하는 사람을 위한 안전보건 자료",
+        "특수형태근로종사자 방문판매원 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51130",
+      "concat": "[TITLE] [특수형태근로종사자] 대여제품 방문점검원\n[SUMMARY] 특수형태근로종사자의 안전보건 - 대여제품 방문점검원",
+      "query": [
+        "방문점검원 안전",
+        "대여제품을 방문 점검하는 근로자 안전보건 자료",
+        "특수형태근로종사자 대여제품 방문점검원 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51051",
+      "concat": "[TITLE] 직무스트레스로 인한 건강장해 예방\n[SUMMARY] 직무스트레스로 인한 건강장해 예방 OPS",
+      "query": [
+        "직무스트레스 예방",
+        "일 때문에 생기는 스트레스와 건강 문제를 예방하는 자료",
+        "직무스트레스로 인한 건강장해 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51131",
+      "concat": "[TITLE] [특수형태근로종사자] 가전제품 설치·수리원\n[SUMMARY] 특수형태근로종사자의 안전보건 - 가전제품 설치·수리원",
+      "query": [
+        "가전 설치 수리 안전",
+        "가전제품을 설치하거나 수리하는 사람의 안전보건 자료",
+        "특수형태근로종사자 가전제품 설치 수리원 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51785",
+      "concat": "[TITLE] 동절기 화재폭발 예방 안전수칙 카드뉴스\n[SUMMARY] 동절기 화재폭발 예방 안전수칙 카드뉴스",
+      "query": [
+        "겨울 화재폭발 예방",
+        "겨울철 현장에서 화재나 폭발을 막는 안전수칙 카드뉴스",
+        "동절기 화재폭발 예방 안전수칙 카드뉴스"
+      ]
+    },
+    {
+      "record_id": "list1_51050",
+      "concat": "[TITLE] 사무실 건강장해 예방\n[SUMMARY] 사무실 건강장해 예방 OPS",
+      "query": [
+        "사무실 건강 예방",
+        "사무실에서 생길 수 있는 건강 문제를 예방하는 자료",
+        "사무실 건강장해 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51865",
+      "concat": "[TITLE] 이동식 사다리 작업수칙\n[SUMMARY] 이동식 사다리 작업수칙",
+      "query": [
+        "이동식 사다리 안전",
+        "이동식 사다리로 작업할 때 지켜야 할 안전수칙",
+        "이동식 사다리 작업수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51052",
+      "concat": "[TITLE] VDT 증후군 예방\n[SUMMARY] VDT 증후군 예방 OPS",
+      "query": [
+        "컴퓨터 작업 증후군",
+        "모니터 작업을 오래 할 때 생기는 VDT 증후군 예방 자료",
+        "VDT 증후군 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51542",
+      "concat": "[TITLE] 축사 지붕공사 추락사고 예방 OPS\n[SUMMARY] 축사 지붕공사 추락사고 예방 OPS",
+      "query": [
+        "축사 지붕 추락",
+        "축사 지붕공사를 하다가 떨어지는 사고를 막는 자료",
+        "축사 지붕공사 추락사고 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51306",
+      "concat": "[TITLE] (파키스탄) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (파키스탄) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "한파 질환 예방",
+        "파키스탄 노동자에게 안내할 겨울철 한랭질환 예방 수칙",
+        "파키스탄 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51308",
+      "concat": "[TITLE] (라오스) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (라오스) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "한파 질환 예방",
+        "라오스 노동자에게 안내할 겨울철 한랭질환 예방 수칙",
+        "라오스 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51305",
+      "concat": "[TITLE] (태국) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (태국) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "한파 질환 예방",
+        "태국 노동자에게 안내할 겨울철 한랭질환 예방 수칙",
+        "태국 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51304",
+      "concat": "[TITLE] (필리핀) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (필리핀) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "한파 질환 예방",
+        "필리핀 노동자에게 안내할 겨울철 한랭질환 예방 수칙",
+        "필리핀 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51307",
+      "concat": "[TITLE] (네팔) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (네팔) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "한파 질환 예방",
+        "네팔 노동자에게 안내할 겨울철 한랭질환 예방 수칙",
+        "네팔 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51303",
+      "concat": "[TITLE] (베트남) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (베트남) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "한파 질환 예방",
+        "베트남 노동자에게 안내할 겨울철 한랭질환 예방 수칙",
+        "베트남 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51302",
+      "concat": "[TITLE] (중국) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (중국) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "한파 질환 예방",
+        "중국 노동자에게 안내할 겨울철 한랭질환 예방 수칙",
+        "중국 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51036",
+      "concat": "[TITLE] 겨울철 정전기 화재폭발 예방 OPS\n[SUMMARY] 겨울철 정전기 화재폭발 예방 OPS",
+      "query": [
+        "정전기 화재폭발",
+        "겨울철 정전기로 인한 화재와 폭발을 예방하는 자료",
+        "겨울철 정전기 화재폭발 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50997",
+      "concat": "[TITLE] 맹판 설치 및 제거 작업시 안전수칙\n[SUMMARY] 맹판 설치 및 제거 작업시 안전수칙",
+      "query": [
+        "맹판 작업 안전",
+        "맹판을 설치하거나 제거할 때 지켜야 할 안전수칙",
+        "맹판 설치 제거 작업시 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_50303",
+      "concat": "[TITLE] 안전보건규칙 제241조 개정에 따른 홍보 OPS\n[SUMMARY] 개정사항 현장 설치사진 클린사업 홍보",
+      "query": [
+        "안전보건규칙 개정",
+        "안전보건규칙 241조 개정 내용을 알리는 홍보자료",
+        "안전보건규칙 제241조 개정 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50828",
+      "concat": "[TITLE] 화학물질 오투입으로 인한 화학사고 발생 OPS\n[SUMMARY] 화학물질 오투입으로 인한 화학사고 발생 OPS",
+      "query": [
+        "화학물질 오투입",
+        "화학물질을 잘못 넣어서 발생하는 사고 예방 자료",
+        "화학물질 오투입 화학사고 발생 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50846",
+      "concat": "[TITLE] 전지 취급 시 화재·폭발 예방 안전관리 OPS\n[SUMMARY] 전지 취급 시 화재·폭발 예방 안전관리 OPS",
+      "query": [
+        "전지 화재폭발",
+        "전지를 취급할 때 화재와 폭발을 막는 안전관리 자료",
+        "전지 취급 화재 폭발 예방 안전관리 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51241",
+      "concat": "[TITLE] (타지키스탄)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 안전",
+        "타지키스탄 노동자에게 안내할 동절기 건설현장 안전수칙 자료",
+        "타지키스탄 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51219",
+      "concat": "[TITLE] (스리랑카)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 안전",
+        "스리랑카 노동자에게 안내할 동절기 건설현장 안전수칙 자료",
+        "스리랑카 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51243",
+      "concat": "[TITLE] (동티모르)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 안전",
+        "동티모르 노동자에게 안내할 동절기 건설현장 안전수칙 자료",
+        "동티모르 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51242",
+      "concat": "[TITLE] (라오스)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 안전",
+        "라오스 노동자에게 안내할 동절기 건설현장 안전수칙 자료",
+        "라오스 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51317",
+      "concat": "[TITLE] (중국)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "대설 안전수칙",
+        "중국 노동자에게 안내할 눈 많이 올 때 사업장 안전수칙 자료",
+        "중국 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51244",
+      "concat": "[TITLE] (방글라데시)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 안전",
+        "방글라데시 노동자에게 안내할 동절기 건설현장 안전수칙 자료",
+        "방글라데시 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51246",
+      "concat": "[TITLE] (미얀마)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 안전",
+        "미얀마 노동자에게 안내할 동절기 건설현장 안전수칙 자료",
+        "미얀마 동절기 건설현장 OPS"
+      ]
+    }
+  ]
+}

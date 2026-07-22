@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 73,
+  "items": [
+    {
+      "record_id": "list1_38454",
+      "concat": "[TITLE] [여성근로자의 안전보건] 검침원\n[SUMMARY] [여성근로자의 안전보건] 검침원(가스, 전기, 수도 등)",
+      "query": [
+        "검침원 안전",
+        "가스 전기 수도 검침원이 일할 때 조심할 점",
+        "여성근로자 안전보건 검침원 가스 전기 수도"
+      ]
+    },
+    {
+      "record_id": "list1_39058",
+      "concat": "[TITLE] (네팔) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (네팔) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "네팔 제조 안전",
+        "네팔 근로자가 공장에서 볼 수 있는 안전보건 자료",
+        "네팔 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39060",
+      "concat": "[TITLE] (필리핀) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (필리핀) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "필리핀 근로자 안전",
+        "필리핀 외국인 근로자에게 공통으로 알려줄 안전보건 자료",
+        "필리핀 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39057",
+      "concat": "[TITLE] (네팔) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (네팔) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "네팔 근로자 안전",
+        "네팔 외국인 근로자에게 공통으로 필요한 안전보건 자료",
+        "네팔 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39059",
+      "concat": "[TITLE] (네팔) 외국인 근로자용 안전보건 OPL(서비스업)\n[SUMMARY] (네팔) 외국인 근로자용 안전보건 OPL(서비스업)",
+      "query": [
+        "네팔 서비스 안전",
+        "네팔 근로자가 서비스업에서 일할 때 보는 안전보건 자료",
+        "네팔 외국인 근로자용 안전보건 OPL 서비스업"
+      ]
+    },
+    {
+      "record_id": "list1_39092",
+      "concat": "[TITLE] (방글라데시) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (방글라데시) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "방글라데시 제조 안전",
+        "방글라데시 근로자가 공장에서 일할 때 필요한 안전보건 자료",
+        "방글라데시 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39091",
+      "concat": "[TITLE] (방글라데시) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (방글라데시) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "방글라데시 근로자 안전",
+        "방글라데시 외국인 근로자에게 공통으로 설명할 안전보건 자료",
+        "방글라데시 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39071",
+      "concat": "[TITLE] (베트남) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (베트남) 외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "베트남 서비스 안전",
+        "베트남 근로자가 서비스업에서 일할 때 필요한 안전 자료",
+        "베트남 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39090",
+      "concat": "[TITLE] (몽골) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (몽골) 외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "몽골 서비스 안전",
+        "몽골 근로자가 서비스업에서 일할 때 보는 안전보건 자료",
+        "몽골 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39070",
+      "concat": "[TITLE] (베트남) 외국인 근로자용 안전보건 OPL(건설)\n[SUMMARY] (베트남) 외국인 근로자용 안전보건 OPL(건설)",
+      "query": [
+        "베트남 건설 안전",
+        "베트남 근로자가 건설현장에서 볼 안전보건 자료",
+        "베트남 외국인 근로자용 안전보건 OPL 건설"
+      ]
+    },
+    {
+      "record_id": "list1_39095",
+      "concat": "[TITLE] (우즈베키스탄) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (우즈베키스탄) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "우즈베키스탄 제조 안전",
+        "우즈베키스탄 근로자가 제조업에서 일할 때 필요한 안전 자료",
+        "우즈베키스탄 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39072",
+      "concat": "[TITLE] (태국) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (태국) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "태국 근로자 안전",
+        "태국 외국인 근로자에게 공통으로 알려줄 안전보건 자료",
+        "태국 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39069",
+      "concat": "[TITLE] (베트남) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (베트남) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "베트남 제조 안전",
+        "베트남 근로자가 공장에서 일할 때 필요한 안전보건 자료",
+        "베트남 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39093",
+      "concat": "[TITLE] (방글라데시) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (방글라데시)외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "방글라데시 서비스 안전",
+        "방글라데시 근로자가 서비스업에서 볼 수 있는 안전보건 자료",
+        "방글라데시 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39094",
+      "concat": "[TITLE] (우즈베키스탄) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (우즈베키스탄) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "우즈베키스탄 근로자 안전",
+        "우즈베키스탄 외국인 근로자에게 공통으로 필요한 안전보건 자료",
+        "우즈베키스탄 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39068",
+      "concat": "[TITLE] (베트남) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (베트남) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "베트남 근로자 안전",
+        "베트남 외국인 근로자에게 공통으로 설명할 안전보건 자료",
+        "베트남 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39101",
+      "concat": "[TITLE] (파키스탄) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (파키스탄) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "파키스탄 제조 안전",
+        "파키스탄 근로자가 제조업에서 일할 때 필요한 안전보건 자료",
+        "파키스탄 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39067",
+      "concat": "[TITLE] (중국) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (중국) 외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "중국 서비스 안전",
+        "중국 근로자가 서비스업에서 일할 때 보는 안전보건 자료",
+        "중국 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39102",
+      "concat": "[TITLE] (파키스탄) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (파키스탄)외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "파키스탄 서비스 안전",
+        "파키스탄 근로자가 서비스업에서 일할 때 필요한 안전보건 자료",
+        "파키스탄 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39065",
+      "concat": "[TITLE] (중국) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (중국) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "중국 제조 안전",
+        "중국 근로자가 제조업에서 일할 때 필요한 안전보건 자료",
+        "중국 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39066",
+      "concat": "[TITLE] (중국) 외국인 근로자용 안전보건 OPL(건설)\n[SUMMARY] (중국) 외국인 근로자용 안전보건 OPL(건설)",
+      "query": [
+        "중국 건설 안전",
+        "중국 근로자가 건설현장에서 볼 수 있는 안전보건 자료",
+        "중국 외국인 근로자용 안전보건 OPL 건설"
+      ]
+    },
+    {
+      "record_id": "list1_39063",
+      "concat": "[TITLE] (필리핀) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (필리핀) 외국인 근로자용 안전보건 OPL(서비스)_필리핀",
+      "query": [
+        "필리핀 서비스 안전",
+        "필리핀 근로자가 서비스업에서 일할 때 필요한 안전보건 자료",
+        "필리핀 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39064",
+      "concat": "[TITLE] (중국) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (중국) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "중국 근로자 안전",
+        "중국 외국인 근로자에게 공통으로 알려줄 안전보건 자료",
+        "중국 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39062",
+      "concat": "[TITLE] (필리핀) 외국인 근로자용 안전보건 OPL(건설)\n[SUMMARY] (필리핀) 외국인 근로자용 안전보건 OPL(건설)",
+      "query": [
+        "필리핀 건설 안전",
+        "필리핀 근로자가 건설현장에서 일할 때 보는 안전보건 자료",
+        "필리핀 외국인 근로자용 안전보건 OPL 건설"
+      ]
+    },
+    {
+      "record_id": "list1_39073",
+      "concat": "[TITLE] (태국) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (태국) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "태국 제조 안전",
+        "태국 근로자가 제조업에서 일할 때 필요한 안전보건 자료",
+        "태국 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39075",
+      "concat": "[TITLE] (태국) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (태국) 외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "태국 서비스 안전",
+        "태국 근로자가 서비스업에서 일할 때 필요한 안전보건 자료",
+        "태국 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39074",
+      "concat": "[TITLE] (태국) 외국인 근로자용 안전보건 OPL(건설)\n[SUMMARY] (태국) 외국인 근로자용 안전보건 OPL(건설)",
+      "query": [
+        "태국 건설 안전",
+        "태국 근로자가 건설현장에서 볼 수 있는 안전보건 자료",
+        "태국 외국인 근로자용 안전보건 OPL 건설"
+      ]
+    },
+    {
+      "record_id": "list1_39076",
+      "concat": "[TITLE] (캄보디아) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (캄보디아) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "캄보디아 근로자 안전",
+        "캄보디아 외국인 근로자에게 공통으로 알려줄 안전보건 자료",
+        "캄보디아 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39077",
+      "concat": "[TITLE] (캄보디아) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (캄보디아) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "캄보디아 제조 안전",
+        "캄보디아 근로자가 제조업에서 일할 때 필요한 안전보건 자료",
+        "캄보디아 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39078",
+      "concat": "[TITLE] (캄보디아) 외국인 근로자용 안전보건 OPL(건설)\n[SUMMARY] (캄보디아) 외국인 근로자용 안전보건 OPL(건설)",
+      "query": [
+        "캄보디아 건설 안전",
+        "캄보디아 근로자가 건설현장에서 볼 수 있는 안전보건 자료",
+        "캄보디아 외국인 근로자용 안전보건 OPL 건설"
+      ]
+    }
+  ]
+}

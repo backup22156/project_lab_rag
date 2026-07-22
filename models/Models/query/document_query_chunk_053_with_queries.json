@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 53,
+  "items": [
+    {
+      "record_id": "list1_41243",
+      "concat": "[TITLE] (OPL) 지게차 운반 중 합판 묶음이 떨어져 깔림\n[SUMMARY] 국내 체류 외국인인 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "인도네시아 지게차 깔림",
+        "인도네시아 근로자용으로 지게차 운반 중 합판 묶음이 떨어져 깔리는 사고 자료",
+        "지게차 운반 합판 묶음 떨어져 깔림 국내 체류 외국인 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41265",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "필리핀 지게차 후진 끼임",
+        "필리핀 근로자용으로 어두운 곳에서 지게차가 후진하다 끼이는 사고 예방 자료",
+        "어두운 장소 지게차 후진 중 끼임 국내 체류 외국인 필리핀 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41268",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "라오스 지게차 포크 깔림",
+        "라오스 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 라오스 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41266",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 네팔 지게차 수리작업 근로자를 위한 안전보건 OPL",
+      "query": [
+        "네팔 지게차 포크 깔림",
+        "네팔 지게차 수리작업 근로자용으로 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 네팔 지게차 수리작업 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41269",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 몽골 근로자를 위한 안전보건 OPL",
+      "query": [
+        "몽골 지게차 포크 깔림",
+        "몽골 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 몽골 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41267",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 동티모르 근로자를 위한 안전보건 OPL",
+      "query": [
+        "동티모르 지게차 포크 깔림",
+        "동티모르 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 동티모르 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41270",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "미얀마 지게차 포크 깔림",
+        "미얀마 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 미얀마 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41271",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "방글라데시 지게차 포크 깔림",
+        "방글라데시 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 방글라데시 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41272",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "베트남 지게차 포크 깔림",
+        "베트남 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41273",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "스리랑카 지게차 포크 깔림",
+        "스리랑카 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 스리랑카 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41275",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "인도네시아 지게차 포크 깔림",
+        "인도네시아 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41274",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "우즈베키스탄 지게차 포크 깔림",
+        "우즈베키스탄 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41194",
+      "concat": "[TITLE] (OPL) 저장창고 적재단 위에서 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "우즈베키스탄 창고 추락",
+        "우즈베키스탄 근로자용으로 저장창고 적재단 위에서 일하다 떨어지는 사고 자료",
+        "저장창고 적재단 작업 중 떨어짐 국내 체류 외국인 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41196",
+      "concat": "[TITLE] (OPL) 저장창고 적재단 위에서 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "중국 창고 추락",
+        "중국 근로자용으로 저장창고 적재단 위에서 일하다 떨어지는 사고 자료",
+        "저장창고 적재단 작업 중 떨어짐 국내 체류 외국인 중국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41200",
+      "concat": "[TITLE] (OPL) 저장창고 적재단 위에서 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "파키스탄 창고 추락",
+        "파키스탄 근로자용으로 저장창고 적재단 위에서 일하다 떨어지는 사고 자료",
+        "저장창고 적재단 작업 중 떨어짐 국내 체류 외국인 파키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41201",
+      "concat": "[TITLE] (OPL) 저장창고 적재단 위에서 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "필리핀 창고 추락",
+        "필리핀 근로자용으로 저장창고 적재단 위에서 일하다 떨어지는 사고 자료",
+        "저장창고 적재단 작업 중 떨어짐 국내 체류 외국인 필리핀 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41211",
+      "concat": "[TITLE] (OPL) 벨트 컨베이어의 하부리턴롤러에 끼임\n[SUMMARY] 국내 체류 외국인인 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "인도네시아 컨베이어 끼임",
+        "인도네시아 근로자용으로 벨트 컨베이어 아래쪽 롤러에 끼이는 사고 자료",
+        "벨트 컨베이어 하부리턴롤러 끼임 국내 체류 외국인 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41208",
+      "concat": "[TITLE] (OPL) 벨트 컨베이어의 하부리턴롤러에 끼임\n[SUMMARY] 국내 체류 외국인인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "베트남 컨베이어 끼임",
+        "베트남 근로자용으로 벨트 컨베이어 아래쪽 롤러에 끼이는 사고 자료",
+        "벨트 컨베이어 하부리턴롤러 끼임 국내 체류 외국인 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41215",
+      "concat": "[TITLE] (OPL) 벨트 컨베이어의 하부리턴롤러에 끼임\n[SUMMARY] 국내 체류 외국인인 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "태국 컨베이어 끼임",
+        "태국 근로자용으로 벨트 컨베이어 아래쪽 롤러에 끼이는 사고 자료",
+        "벨트 컨베이어 하부리턴롤러 끼임 국내 체류 외국인 태국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41209",
+      "concat": "[TITLE] (OPL) 벨트 컨베이어의 하부리턴롤러에 끼임\n[SUMMARY] 국내 체류 외국인인 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "스리랑카 컨베이어 끼임",
+        "스리랑카 근로자용으로 벨트 컨베이어 아래쪽 롤러에 끼이는 사고 자료",
+        "벨트 컨베이어 하부리턴롤러 끼임 국내 체류 외국인 스리랑카 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41218",
+      "concat": "[TITLE] (OPL) 지게차 이송 중 파지묶음 사이에 끼임\n[SUMMARY] 국내 체류 외국인인 네팔 근로자를 위한 안전보건 OPL",
+      "query": [
+        "네팔 지게차 끼임",
+        "네팔 근로자용으로 지게차로 파지를 옮기다 묶음 사이에 끼이는 사고 자료",
+        "지게차 이송 파지묶음 사이 끼임 국내 체류 외국인 네팔 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41219",
+      "concat": "[TITLE] (OPL) 지게차 이송 중 파지묶음 사이에 끼임\n[SUMMARY] 국내 체류 외국인인 동티모르 근로자를 위한 안전보건 OPL",
+      "query": [
+        "동티모르 지게차 끼임",
+        "동티모르 근로자용으로 지게차로 파지를 옮기다 묶음 사이에 끼이는 사고 자료",
+        "지게차 이송 파지묶음 사이 끼임 국내 체류 외국인 동티모르 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41220",
+      "concat": "[TITLE] (OPL) 지게차 이송 중 파지묶음 사이에 끼임\n[SUMMARY] 국내 체류 외국인인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "라오스 지게차 끼임",
+        "라오스 근로자용으로 지게차로 파지를 옮기다 묶음 사이에 끼이는 사고 자료",
+        "지게차 이송 파지묶음 사이 끼임 국내 체류 외국인 라오스 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41242",
+      "concat": "[TITLE] (OPL) 지게차 운반 중 합판 묶음이 떨어져 깔림\n[SUMMARY] 국내 체류 외국인인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "우즈베키스탄 지게차 깔림",
+        "우즈베키스탄 근로자용으로 지게차 운반 중 합판 묶음이 떨어져 깔리는 사고 자료",
+        "지게차 운반 합판 묶음 떨어져 깔림 국내 체류 외국인 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41277",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "캄보디아 지게차 포크 깔림",
+        "캄보디아 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 캄보디아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41276",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "중국 지게차 포크 깔림",
+        "중국 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 중국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41280",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "파키스탄 지게차 포크 깔림",
+        "파키스탄 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 파키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41278",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 키르키스스탄 근로자를 위한 안전보건 OPL, 지게차 수리 중 포크 불시하강으로 깔리는 재해에 대한 설명과 재해사례를 담음",
+      "query": [
+        "키르키스스탄 지게차 포크 깔림",
+        "키르키스스탄 근로자용으로 지게차 수리 중 포크가 갑자기 내려와 깔리는 재해사례 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 키르키스스탄 근로자 안전보건 OPL 재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_41279",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "태국 지게차 포크 깔림",
+        "태국 근로자용으로 지게차를 수리하다 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 태국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41281",
+      "concat": "[TITLE] (OPL) 지게차 수리 중 포크 불시하강으로 깔림\n[SUMMARY] 국내 체류 외국인인 필리핀 지게차 수리작업 근로자를 위한 안전보건 OPL",
+      "query": [
+        "필리핀 지게차 포크 깔림",
+        "필리핀 지게차 수리작업 근로자용으로 포크가 갑자기 내려와 깔리는 사고 자료",
+        "지게차 수리 포크 불시하강 깔림 국내 체류 외국인 필리핀 지게차 수리작업 근로자 안전보건 OPL"
+      ]
+    }
+  ]
+}

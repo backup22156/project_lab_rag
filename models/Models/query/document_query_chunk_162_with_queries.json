@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 162,
+  "items": [
+    {
+      "record_id": "list3_43768",
+      "concat": "[TITLE] 근로자 건강진단 실무지침 제2권\n[SUMMARY] 근로자 건강진단 실시기준(고용노동부고시 제2021-33호) 제9조제1항에 의거하여 발간하는 근로자 건강진단 실무지침 제2권(유해인자별 특수건강진단 방법)",
+      "query": [
+        "근로자 건강진단 특수검진",
+        "유해인자별로 특수건강진단을 어떻게 하는지 알고 싶을 때 보는 자료",
+        "근로자 건강진단 실무지침 유해인자별 특수건강진단 방법"
+      ]
+    },
+    {
+      "record_id": "list3_43254",
+      "concat": "[TITLE] 2021년 화학사고 사례연구(NCC공장 분해가스 압축기 토출부 Bellows 파손 폭발 사고)\n[SUMMARY] 충남권 2021년 화학사고 사례연구(NCC공장 분해가스 압축기 토출부 Bellows 파손 폭발 사고)",
+      "query": [
+        "화학공장 폭발 압축기",
+        "NCC 공장에서 압축기 부품 파손으로 폭발한 사고 사례를 찾고 싶다",
+        "화학사고 사례연구 NCC공장 분해가스 압축기 토출부 Bellows 파손 폭발 사고"
+      ]
+    },
+    {
+      "record_id": "list3_43630",
+      "concat": "[TITLE] 방문직종 고객응대근로자 건강보호 매뉴얼 10종\n[SUMMARY] 방문직종 고객응대근로자 건강보호 매뉴얼 10종 - 다문화 방문교육지도사 - 대여제품점검원 - 도시가스점검·검침원 - 돌봄서비스종사원 - 방문간호사 - 방문상담원 - 설치·수리기현장기사 - 재가요양보호사 - 정신건강복지센터 상담사 - 방문판매원",
+      "query": [
+        "방문근로자 고객응대 건강",
+        "방문해서 일하는 고객응대 노동자 건강보호 방법 자료가 필요하다",
+        "방문직종 고객응대근로자 건강보호 매뉴얼 다문화 방문교육지도사 대여제품점검원 도시가스점검 검침원 돌봄서비스종사원 방문간호사 방문상담원 설치 수리기 현장기사 재가요양보호사 정신건강복지센터 상담사 방문판매원"
+      ]
+    },
+    {
+      "record_id": "list3_43771",
+      "concat": "[TITLE] 지붕공사 작업안전(개정판)\n[SUMMARY] 지붕공사 작업안전 매뉴얼 개정판",
+      "query": [
+        "지붕공사 안전",
+        "지붕 위에서 작업할 때 추락 사고를 막는 안전수칙 자료",
+        "지붕공사 작업안전 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_43649",
+      "concat": "[TITLE] 조선업 안전관리모델_엔진기계공\n[SUMMARY] 조선업 안전관리모델_엔진기계공",
+      "query": [
+        "조선소 엔진기계공 안전",
+        "조선업에서 엔진기계공 작업 안전관리 방법을 찾고 있다",
+        "조선업 안전관리모델 엔진기계공"
+      ]
+    },
+    {
+      "record_id": "list3_43647",
+      "concat": "[TITLE] 밀폐공간 질식재해예방 안전작업 가이드\n[SUMMARY] 밀폐공간 질식재해예방 안전작업 가이드 개정",
+      "query": [
+        "밀폐공간 질식 예방",
+        "밀폐공간에서 질식 사고를 예방하려면 어떤 안전작업을 해야 하는지 알고 싶다",
+        "밀폐공간 질식재해예방 안전작업 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_43613",
+      "concat": "[TITLE] [외국인]도금업 안전보건 소책자 (네팔어,베트남어,영어,우즈벡어,중국어,태국어)\n[SUMMARY] 도금업 안전보건 소책자 (용융도금업)",
+      "query": [
+        "도금업 외국인 안전",
+        "외국인 노동자에게 도금 작업 안전보건을 설명할 자료가 필요하다",
+        "외국인 도금업 안전보건 소책자 용융도금업 네팔어 베트남어 영어 우즈벡어 중국어 태국어"
+      ]
+    },
+    {
+      "record_id": "list3_43614",
+      "concat": "[TITLE] 수산화테트라메틸암모늄(TMAH) 취급 가이드북\n[SUMMARY] 수산화테트라메틸암모늄(TMAH) 유해 위험성, 재해예방 조치사항, 안전작업 매뉴얼 등",
+      "query": [
+        "TMAH 취급 안전",
+        "수산화테트라메틸암모늄을 다룰 때 위험성과 안전조치를 알고 싶다",
+        "수산화테트라메틸암모늄 TMAH 취급 가이드북 유해 위험성 재해예방 안전작업 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_43723",
+      "concat": "[TITLE] (발간안내)2021년 월간 안전보건 12월호\n[SUMMARY] 2021년 월간 안전보건 12월호가 발간됐습니다. 12월호 주제는 '단계적 일상회복' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "안전보건 단계적 일상회복",
+        "단계적 일상회복을 주제로 한 안전보건 월간 자료를 찾고 있다",
+        "월간 안전보건 단계적 일상회복"
+      ]
+    },
+    {
+      "record_id": "list3_43641",
+      "concat": "[TITLE] [특수형태근로종사자] 화물차주 교육교재\n[SUMMARY] [특수형태근로종사자] 화물차주 교육교재입니다. (수출입컨테이너, 시멘트, 철강재, 위험물질 운송) 자체교육 또는 위탁교육 시 활용하실 수 있습니다.",
+      "query": [
+        "화물차주 안전교육",
+        "화물차 운송 기사에게 안전보건 교육할 때 쓸 교재가 필요하다",
+        "특수형태근로종사자 화물차주 교육교재 수출입컨테이너 시멘트 철강재 위험물질 운송"
+      ]
+    },
+    {
+      "record_id": "list3_43999",
+      "concat": "[TITLE] 연구전문지 OSHRI:VIEW 통권 제88호\n[SUMMARY] 산업안전보건 이슈에 대한 전문가의 분석과 연구원에서 개발한 기술, 정책반영 사례, 전년도 우수한 연구 등을 전달하는 산업안전보건연구원의 연구전문지입니다.",
+      "query": [
+        "산업안전 연구 이슈",
+        "산업안전보건 연구원이 낸 연구 이슈 잡지 자료를 찾고 있다",
+        "연구전문지 OSHRI VIEW 산업안전보건연구원 산업안전보건 이슈 기술 정책반영 연구"
+      ]
+    },
+    {
+      "record_id": "list3_43640",
+      "concat": "[TITLE] [특수형태근로종사자] 가전제품 설치 및 수리원 교육교재\n[SUMMARY] [특수형태근로종사자] 가전제품 설치 및 수리원 교육교재입니다. 자체교육 또는 위탁교육 시 활용하실 수 있습니다.",
+      "query": [
+        "가전 설치기사 안전교육",
+        "가전제품 설치나 수리 일을 하는 사람에게 필요한 안전보건 교육자료",
+        "특수형태근로종사자 가전제품 설치 및 수리원 교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_43906",
+      "concat": "[TITLE] (발간안내)2022년 월간 안전보건 2월호\n[SUMMARY] 2022년 월간 안전보건 2월호가 발간됐습니다. 2월호 주제는 '직업성 암' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "직업성 암 안전보건",
+        "직업성 암을 주제로 다룬 월간 안전보건 자료를 찾는다",
+        "월간 안전보건 직업성 암"
+      ]
+    },
+    {
+      "record_id": "list3_44002",
+      "concat": "[TITLE] [발간안내] 2022년 월간 안전보건 4월호\n[SUMMARY] 2022년 월간 안전보건 4월호가 발간되었습니다. 4월호 주제는 '폐기물 처리업'입니다. ★ e-Book 보기 및 파일 다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "폐기물 처리업 안전",
+        "폐기물 처리업 재해예방을 다룬 안전보건 월간 자료를 찾고 있다",
+        "월간 안전보건 폐기물 처리업"
+      ]
+    },
+    {
+      "record_id": "list3_43936",
+      "concat": "[TITLE] [발간안내] 2022년 월간 안전보건 3월호\n[SUMMARY] 2022년 월간 안전보건 3월호가 발간되었습니다. 3월호 주제는 '산업용 로봇'입니다. ★ e-Book 보기 및 파일 다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "산업용 로봇 안전",
+        "산업용 로봇 관련 안전보건 사례나 자료가 실린 월간 자료",
+        "월간 안전보건 산업용 로봇"
+      ]
+    },
+    {
+      "record_id": "list3_43859",
+      "concat": "[TITLE] 2021년 도급사업 안전보건관리 운영 매뉴얼\n[SUMMARY] 2021년 도급사업 안전보건관리 운영 매뉴얼(적격 수급업체 선정 가이드라인 포함)",
+      "query": [
+        "도급사업 안전관리",
+        "도급 업체를 선정하고 관리할 때 필요한 안전보건 운영 방법을 찾고 있다",
+        "도급사업 안전보건관리 운영 매뉴얼 적격 수급업체 선정 가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_43902",
+      "concat": "[TITLE] 이산화탄소 소화설비에 의한 질식중독재해 예방 안전조치 매뉴얼\n[SUMMARY] 이산화탄소 소화설비에 의한 질식중독재해 예방 안전조치 매뉴얼",
+      "query": [
+        "이산화탄소 소화설비 질식",
+        "이산화탄소 소화설비 때문에 질식이나 중독 사고가 나는 것을 막는 안전조치 자료",
+        "이산화탄소 소화설비 질식중독재해 예방 안전조치 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_43648",
+      "concat": "[TITLE] 감정노동 종사자 건강보호 가이드 책자\n[SUMMARY] 고객응대근로자 건강보호 가이드라인(개정)",
+      "query": [
+        "감정노동 건강보호",
+        "고객응대 일을 하는 근로자의 감정노동 건강보호 방법을 알고 싶다",
+        "감정노동 종사자 건강보호 가이드 책자 고객응대근로자 건강보호 가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_43893",
+      "concat": "[TITLE] 냉동물류창고 화재사고예방 매뉴얼(개정판)\n[SUMMARY] 냉동물류창고 화재사고예방 매뉴얼(개정판)",
+      "query": [
+        "냉동창고 화재 예방",
+        "냉동 물류창고에서 화재 사고를 막기 위한 안전 매뉴얼을 찾고 있다",
+        "냉동물류창고 화재사고예방 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_43873",
+      "concat": "[TITLE] 고소작업대 안전관리 매뉴얼\n[SUMMARY] 고소작업대 안전관리 매뉴얼 - 고소작업대 개요, 사망재해 사례, 작업시 준수사상, 주의사항, 자체점검방법",
+      "query": [
+        "고소작업대 안전",
+        "높은 곳에서 쓰는 작업대의 사망사고 사례와 점검방법을 알고 싶다",
+        "고소작업대 안전관리 매뉴얼 사망재해 사례 작업 준수사항 주의사항 자체점검방법"
+      ]
+    },
+    {
+      "record_id": "list3_43864",
+      "concat": "[TITLE] (발간안내)2022년 월간 안전보건 1월호\n[SUMMARY] 2022년 월간 안전보건 1월호가 발간됐습니다. 1월호 주제는 '중대재해처벌법' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "중대재해처벌법 안전보건",
+        "중대재해처벌법을 주제로 한 월간 안전보건 자료를 찾는다",
+        "월간 안전보건 중대재해처벌법"
+      ]
+    },
+    {
+      "record_id": "list3_43769",
+      "concat": "[TITLE] 근로자 건강진단 실무지침 제3권\n[SUMMARY] 근로자 건강진단 실시기준(고용노동부고시 제2021-33호) 제9조제1항에 의거하여 발간하는 근로자 건강진단 실무지침 제3권(유해인자별 건강장해)",
+      "query": [
+        "근로자 건강진단 유해인자",
+        "유해인자별 건강장해 내용을 정리한 근로자 건강진단 실무자료가 필요하다",
+        "근로자 건강진단 실무지침 유해인자별 건강장해"
+      ]
+    },
+    {
+      "record_id": "list3_43253",
+      "concat": "[TITLE] 2021년 화학사고 사례연구(반응기 소포제 투입배관 설치 용접작업 중 폭발사고)\n[SUMMARY] 전북권 2021년 화학사고 사례연구(반응기 소포제 투입배관 설치 용접작업 중 폭발사고)",
+      "query": [
+        "용접작업 폭발 사고",
+        "반응기 배관을 용접하다 폭발한 화학사고 사례를 찾고 싶다",
+        "화학사고 사례연구 반응기 소포제 투입배관 설치 용접작업 폭발사고"
+      ]
+    },
+    {
+      "record_id": "list3_43813",
+      "concat": "[TITLE] 건설업 안전보건관리체계 자율점검표 책자\n[SUMMARY] 건설업 안전보건관리체계 자율점검표 책자",
+      "query": [
+        "건설업 안전 점검표",
+        "건설 현장에서 안전보건관리체계를 스스로 점검할 수 있는 체크리스트 자료",
+        "건설업 안전보건관리체계 자율점검표 책자"
+      ]
+    },
+    {
+      "record_id": "list3_43252",
+      "concat": "[TITLE] 2021년 화학사고 사례연구(Clay(점토형태의 충진물) Filter 용기 내부 화재)\n[SUMMARY] 전남권 2021년 화학사고 사례연구(Clay(점토형태의 충진물) Filter 용기 내부 화재)",
+      "query": [
+        "화학공장 필터 화재",
+        "점토 충진물이 들어간 필터 용기 내부에서 난 화재 사고 사례를 찾는다",
+        "화학사고 사례연구 Clay 점토형태 충진물 Filter 용기 내부 화재"
+      ]
+    },
+    {
+      "record_id": "list3_43250",
+      "concat": "[TITLE] 2021년 화학사고 사례연구(생산 절차 미준수로 인한 반응폭주 사고)\n[SUMMARY] 경남권 2021년 화학사고 사례연구(생산 절차 미준수로 인한 반응폭주 사고)",
+      "query": [
+        "반응폭주 사고",
+        "생산 절차를 지키지 않아 반응폭주가 발생한 화학사고 사례를 찾고 있다",
+        "화학사고 사례연구 생산 절차 미준수 반응폭주 사고"
+      ]
+    },
+    {
+      "record_id": "list3_43249",
+      "concat": "[TITLE] 2021년 화학사고 사례연구(의약품 원료 제조 공정 중 여과기(이동식 개방형) 화재사고)\n[SUMMARY] 수도권 2021년 화학사고 사례연구(의약품 원료 제조 공정 중 여과기(이동식 개방형) 화재사고)",
+      "query": [
+        "의약품 공정 화재",
+        "의약품 원료 제조 중 이동식 여과기에서 난 화재 사고 사례",
+        "화학사고 사례연구 의약품 원료 제조 공정 여과기 이동식 개방형 화재사고"
+      ]
+    },
+    {
+      "record_id": "list3_43251",
+      "concat": "[TITLE] 2021년 화학사고 사례연구(재생유 열분해공정 화재사고)\n[SUMMARY] 경북권 2021년 화학사고 사례연구(재생유 열분해공정 화재사고)",
+      "query": [
+        "재생유 화재 사고",
+        "재생유 열분해 공정에서 발생한 화재 사고 사례를 찾는다",
+        "화학사고 사례연구 재생유 열분해공정 화재사고"
+      ]
+    },
+    {
+      "record_id": "list3_43269",
+      "concat": "[TITLE] 2021년 공정안전보고서 작성예시집(염소)\n[SUMMARY] 2021년 공정안전보고서 작성예시집(염소)",
+      "query": [
+        "염소 공정안전보고서",
+        "염소를 취급하는 공정안전보고서 작성 예시가 필요하다",
+        "공정안전보고서 작성예시집 염소"
+      ]
+    },
+    {
+      "record_id": "list3_43268",
+      "concat": "[TITLE] 2021년 공정안전보고서 작성예시집(암모니아)\n[SUMMARY] 2021년 공정안전보고서 작성예시집(암모니아)",
+      "query": [
+        "암모니아 공정안전보고서",
+        "암모니아 취급 사업장에서 공정안전보고서를 작성할 때 참고할 예시",
+        "공정안전보고서 작성예시집 암모니아"
+      ]
+    }
+  ]
+}

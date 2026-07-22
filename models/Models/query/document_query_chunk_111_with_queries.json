@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 111,
+  "items": [
+    {
+      "record_id": "list1_31236",
+      "concat": "[TITLE] [중대재해사례]휴대용 연삭기 사용 중 감전\n[SUMMARY] [중대재해사례]휴대용 연삭기 사용 중 감전",
+      "query": [
+        "연삭기 감전 사고",
+        "휴대용 그라인더를 쓰다가 감전된 사고 사례",
+        "중대재해사례 휴대용 연삭기 사용 중 감전"
+      ]
+    },
+    {
+      "record_id": "list1_31240",
+      "concat": "[TITLE] [중대재해사례]압축진개차 개폐장치(파카)에 협착\n[SUMMARY] [중대재해사례]압축진개차 개폐장치(파카)에 협착",
+      "query": [
+        "쓰레기차 끼임 사고",
+        "청소차 뒤쪽 장치에 몸이 끼인 사고 사례",
+        "중대재해사례 압축진개차 개폐장치 파카 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31212",
+      "concat": "[TITLE] [중대재해사례]빈 드럼통 위에서 작업 중 추락\n[SUMMARY] 빈 드럼통 위에서 작업 중 추락[중대재해사례]",
+      "query": [
+        "드럼통 추락 사고",
+        "빈 드럼통 위에 올라가 작업하다 떨어진 사고 사례",
+        "중대재해사례 빈 드럼통 작업 중 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31213",
+      "concat": "[TITLE] [중대재해사례]이삿짐 운반용 리프트에서 화물 낙하\n[SUMMARY] [중대재해사례]이삿짐 운반용 리프트에서 화물 낙하",
+      "query": [
+        "이삿짐 리프트 화물 낙하",
+        "이사 리프트에서 짐이 떨어진 사고 사례",
+        "중대재해사례 이삿짐 운반용 리프트 화물 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31241",
+      "concat": "[TITLE] [중대재해사례]용련작업 원료호퍼 스크류에 협착\n[SUMMARY] [중대재해사례]용련작업 원료호퍼 스크류에 협착",
+      "query": [
+        "호퍼 스크류 끼임",
+        "원료 호퍼 안 스크류에 끼인 작업 사고 사례",
+        "중대재해사례 용련작업 원료호퍼 스크류 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31242",
+      "concat": "[TITLE] [중대재해사례]음식물쓰레기 이송용 스크류에 협착\n[SUMMARY] 음식물쓰레기 이송용 스크류에 협착-중대재해사례",
+      "query": [
+        "음식물쓰레기 스크류 끼임",
+        "음식물 쓰레기 이송 장치 스크류에 끼인 사고 사례",
+        "중대재해사례 음식물쓰레기 이송용 스크류 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31190",
+      "concat": "[TITLE] [중대재해사례]벽체 마감작업 중 비계 도괴\n[SUMMARY] [중대재해사례]벽체 마감작업 중 비계 도괴",
+      "query": [
+        "비계 무너짐 사고",
+        "벽 마감 작업 중 작업발판이 무너진 사고 사례",
+        "중대재해사례 벽체 마감작업 중 비계 도괴"
+      ]
+    },
+    {
+      "record_id": "list1_31211",
+      "concat": "[TITLE] [중대재해사례]버스상단에 광고스티커 부착 중 추락\n[SUMMARY] [중대재해사례]버스상단에 광고스티커 부착 중 추락",
+      "query": [
+        "버스 광고 추락",
+        "버스 위에 광고 스티커를 붙이다 떨어진 사고 사례",
+        "중대재해사례 버스상단 광고스티커 부착 중 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31189",
+      "concat": "[TITLE] [중대재해사례]발파작업 현장 법면에서 대형암괴 붕락\n[SUMMARY] [중대재해사례]발파작업 현장 법면에서 대형암괴 붕락",
+      "query": [
+        "발파 현장 낙석",
+        "발파 작업장 비탈면에서 큰 바위가 무너진 사고 사례",
+        "중대재해사례 발파작업 현장 법면 대형암괴 붕락"
+      ]
+    },
+    {
+      "record_id": "list1_31188",
+      "concat": "[TITLE] [중대재해사례]급수관로 굴착공사 중 토사 붕괴\n[SUMMARY] [중대재해사례]급수관로 굴착공사 중 토사 붕괴",
+      "query": [
+        "굴착 토사 붕괴",
+        "상수도 관로를 파다가 흙이 무너진 사고 사례",
+        "중대재해사례 급수관로 굴착공사 토사 붕괴"
+      ]
+    },
+    {
+      "record_id": "list1_31186",
+      "concat": "[TITLE] [중대재해사례]후진하는 백호우에 깔림\n[SUMMARY] [중대재해사례]후진하는 백호우에 깔림",
+      "query": [
+        "굴삭기 후진 깔림",
+        "뒤로 움직이는 포클레인에 작업자가 깔린 사고 사례",
+        "중대재해사례 후진하는 백호우 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_31187",
+      "concat": "[TITLE] [중대재해사례]건물 해체작업 중 슬라브 붕괴로 매몰\n[SUMMARY] [중대재해사례]건물 해체작업 중 슬라브 붕괴로 매몰",
+      "query": [
+        "건물 철거 매몰",
+        "건물을 부수는 작업 중 바닥 슬라브가 무너져 매몰된 사고 사례",
+        "중대재해사례 건물 해체작업 슬라브 붕괴 매몰"
+      ]
+    },
+    {
+      "record_id": "list1_31185",
+      "concat": "[TITLE] [중대재해사례]철탑크레인 설치작업 중 갠트리에 충돌\n[SUMMARY] [중대재해사례]철탑크레인 설치작업 중 갠트리에 충돌",
+      "query": [
+        "크레인 설치 충돌",
+        "타워크레인 설치 작업 중 구조물에 부딪힌 사고 사례",
+        "중대재해사례 철탑크레인 설치작업 갠트리 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_31183",
+      "concat": "[TITLE] [중대재해사례]지렛대로 철골빔을 뒤집던 중 지렛대에 맞음\n[SUMMARY] [중대재해사례]지렛대로 철골빔을 뒤집던 중 지렛대에 맞음",
+      "query": [
+        "철골빔 지렛대 사고",
+        "쇠 지렛대로 철골빔을 뒤집다가 맞은 사고 사례",
+        "중대재해사례 지렛대 철골빔 뒤집던 중 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_31184",
+      "concat": "[TITLE] [중대재해사례]집게차로 폐철근 반출작업 중 폐철근에 깔림\n[SUMMARY] [중대재해사례]집게차로 폐철근 반출작업 중 폐철근에 깔림",
+      "query": [
+        "집게차 철근 깔림",
+        "집게차로 폐철근을 옮기다 철근에 깔린 사고 사례",
+        "중대재해사례 집게차 폐철근 반출작업 폐철근 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_31181",
+      "concat": "[TITLE] [중대재해사례]굴러 떨어지는 파쇄암에 깔림\n[SUMMARY] [중대재해사례]굴러 떨어지는 파쇄암에 깔림",
+      "query": [
+        "돌 굴러 깔림",
+        "굴러 내려온 깨진 바위에 깔린 사고 사례",
+        "중대재해사례 굴러 떨어지는 파쇄암 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_31182",
+      "concat": "[TITLE] [중대재해사례]바지선 위치조정작업 중 고정용 로프가 파단\n[SUMMARY] 바지선 위치조정작업 중 고정용 로프가 파단[중대재해사례]",
+      "query": [
+        "바지선 로프 파단",
+        "바지선 위치를 맞추다가 묶어 둔 줄이 끊어진 사고 사례",
+        "중대재해사례 바지선 위치조정작업 고정용 로프 파단"
+      ]
+    },
+    {
+      "record_id": "list1_31179",
+      "concat": "[TITLE] [중대재해사례]조경석 설치작업 중 석재에 깔림\n[SUMMARY] [중대재해사례]조경석 설치작업 중 석재에 깔림",
+      "query": [
+        "조경석 깔림 사고",
+        "조경용 돌을 설치하다 석재에 깔린 사고 사례",
+        "중대재해사례 조경석 설치작업 석재 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_31180",
+      "concat": "[TITLE] [중대재해사례]철골부재 반출작업 중 부재에 깔림\n[SUMMARY] [중대재해사례]철골부재 반출작업 중 부재에 깔림",
+      "query": [
+        "철골 부재 깔림",
+        "철골 자재를 반출하다 부재에 깔린 사고 사례",
+        "중대재해사례 철골부재 반출작업 부재 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_31178",
+      "concat": "[TITLE] [중대재해사례]벌목작업 중 나무에 깔림\n[SUMMARY] [중대재해사례]벌목작업 중 나무에 깔림",
+      "query": [
+        "벌목 나무 깔림",
+        "나무를 베는 작업 중 쓰러지는 나무에 깔린 사고 사례",
+        "중대재해사례 벌목작업 중 나무 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_31176",
+      "concat": "[TITLE] [중대재해사례]고소작업대와 배관 사이에 협착\n[SUMMARY] [중대재해사례]고소작업대와 배관 사이에 협착",
+      "query": [
+        "고소작업대 끼임",
+        "높은 곳 작업대와 배관 사이에 작업자가 끼인 사고 사례",
+        "중대재해사례 고소작업대 배관 사이 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31177",
+      "concat": "[TITLE] [중대재해사례]미장작업용 모르타르 혼합기에 협착\n[SUMMARY] [중대재해사례]미장작업용 모르타르 혼합기에 협착",
+      "query": [
+        "모르타르 혼합기 끼임",
+        "미장 재료를 섞는 기계에 몸이 끼인 사고 사례",
+        "중대재해사례 미장작업용 모르타르 혼합기 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31175",
+      "concat": "[TITLE] [중대재해사례]경사로를 굴러 내려온 차량에 협착\n[SUMMARY] [중대재해사례]경사로를 굴러 내려온 차량에 협착",
+      "query": [
+        "경사로 차량 끼임",
+        "비탈길에서 굴러 내려온 차량에 끼인 사고 사례",
+        "중대재해사례 경사로 굴러 내려온 차량 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31174",
+      "concat": "[TITLE] [중대재해사례]지게차를 운전하다가 전도\n[SUMMARY] [중대재해사례]지게차를 운전하다가 전도",
+      "query": [
+        "지게차 전도 사고",
+        "지게차를 몰다가 넘어지는 사고 사례",
+        "중대재해사례 지게차 운전 중 전도"
+      ]
+    },
+    {
+      "record_id": "list1_31205",
+      "concat": "[TITLE] [중대재해사례]래들 내 작업 중 가연성가스 폭발\n[SUMMARY] [중대재해사례]래들 내 작업 중 가연성가스 폭발",
+      "query": [
+        "가스 폭발 사고",
+        "래들 안에서 작업하다 불에 타는 가스가 폭발한 사고 사례",
+        "중대재해사례 래들 내 작업 중 가연성가스 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_31204",
+      "concat": "[TITLE] [중대재해사례]판넬설치를 위해 철골상 대기 중 전격쇼크로 추락\n[SUMMARY] [중대재해사례]판넬설치를 위해 철골상 대기 중 전격쇼크로 추락",
+      "query": [
+        "철골 감전 추락",
+        "판넬 설치를 기다리던 작업자가 전기 충격을 받고 떨어진 사고 사례",
+        "중대재해사례 판넬설치 철골상 대기 중 전격쇼크 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31168",
+      "concat": "[TITLE] [중대재해사례]철골 데크플레이트 설치작업 중 추락\n[SUMMARY] [중대재해사례]철골 데크플레이트 설치작업 중 추락",
+      "query": [
+        "데크플레이트 추락",
+        "철골 위에서 데크판을 설치하다 떨어진 사고 사례",
+        "중대재해사례 철골 데크플레이트 설치작업 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31203",
+      "concat": "[TITLE] [중대재해사례]특고압선로 방호작업 중 감전\n[SUMMARY] [중대재해사례]특고압선로 방호작업 중 감전",
+      "query": [
+        "고압선 감전 사고",
+        "높은 전압 전선 주변 방호 작업 중 감전된 사고 사례",
+        "중대재해사례 특고압선로 방호작업 중 감전"
+      ]
+    },
+    {
+      "record_id": "list1_31202",
+      "concat": "[TITLE] [중대재해사례]커튼월 하지철물 설치작업 중 감전\n[SUMMARY] [중대재해사례]커튼월 하지철물 설치작업 중 감전",
+      "query": [
+        "커튼월 감전 사고",
+        "건물 외벽 커튼월 철물을 설치하다 감전된 사고 사례",
+        "중대재해사례 커튼월 하지철물 설치작업 감전"
+      ]
+    },
+    {
+      "record_id": "list1_31201",
+      "concat": "[TITLE] [중대재해사례]축사 인입전선 피복보호 작업 중 감전\n[SUMMARY] [중대재해사례]축사 인입전선 피복보호 작업 중 감전",
+      "query": [
+        "축사 전선 감전",
+        "축사로 들어오는 전선 보호 작업을 하다 감전된 사고 사례",
+        "중대재해사례 축사 인입전선 피복보호 작업 감전"
+      ]
+    }
+  ]
+}

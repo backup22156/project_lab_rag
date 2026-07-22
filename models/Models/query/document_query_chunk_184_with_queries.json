@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 184,
+  "items": [
+    {
+      "record_id": "list3_30427",
+      "concat": "[TITLE] 일터의 재발견\n[SUMMARY] 경영층 안전보건 자료 -안심경영 레시피 여섯번째 이야기",
+      "query": [
+        "일터 안전보건",
+        "회사 경영진이 볼 만한 안전보건 이야기 자료 찾기",
+        "일터의 재발견 안심경영 레시피 경영층 안전보건 자료"
+      ]
+    },
+    {
+      "record_id": "list3_31319",
+      "concat": "[TITLE] 일터에서의 안전보건 길라잡이 -중대재해사례OPL-\n[SUMMARY] 일터에서의 안전보건 길라잡이 -중대재해사례OPL- - 제조, 건설, 서비스(운수창고통신 포함) 업종별 중대재해사례 모음",
+      "query": [
+        "중대재해 사례",
+        "제조 건설 서비스업에서 일어난 큰 사고 사례를 모아둔 자료",
+        "일터 안전보건 길라잡이 중대재해사례 OPL 제조 건설 서비스 운수창고통신"
+      ]
+    },
+    {
+      "record_id": "list3_30429",
+      "concat": "[TITLE] 직업건강분야 국가수준 프로파일 및 안전보건공단 성과지표 개발연구\n[SUMMARY] 직업건강분야 국가수준 프로파일 및 안전보건공단 성과지표 개발을 하기 위한 연구보고서임",
+      "query": [
+        "직업건강 성과지표",
+        "직업건강 수준을 국가 단위로 보고 공단 성과를 평가하는 연구 자료",
+        "직업건강분야 국가수준 프로파일 안전보건공단 성과지표 개발연구"
+      ]
+    },
+    {
+      "record_id": "list3_32737",
+      "concat": "[TITLE] (제조,스리랑카)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "스리랑카 제조업 안전",
+        "스리랑카 출신 외국인 근로자에게 제조업 안전교육할 때 쓰는 교재",
+        "제조 스리랑카 Safety and Healthcare Manual Foreign Workers Manufacturing Industry 외국인 근로자 안전보건 교재 제조업"
+      ]
+    },
+    {
+      "record_id": "list3_32760",
+      "concat": "[TITLE] (제조,우즈벡)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "우즈벡 제조업 안전",
+        "우즈벡 근로자에게 제조업 현장 안전보건을 설명하는 교육자료",
+        "제조 우즈벡 Safety and Healthcare Manual Foreign Workers Manufacturing Industry 외국인 근로자 안전보건 교재 제조업"
+      ]
+    },
+    {
+      "record_id": "list3_32761",
+      "concat": "[TITLE] (제조,필리핀,영어)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "필리핀 제조업 안전",
+        "필리핀 영어권 외국인 근로자용 제조업 안전보건 교육자료",
+        "제조 필리핀 영어 Safety and Healthcare Manual Foreign Workers Manufacturing Industry 외국인 근로자 안전보건 교재 제조업"
+      ]
+    },
+    {
+      "record_id": "list3_32928",
+      "concat": "[TITLE] (건설,태국)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "태국 건설업 안전",
+        "태국 근로자에게 건설현장 안전보건을 교육할 때 쓰는 교재",
+        "건설 태국 Safety and Healthcare Manual Foreign Workers Construction Industry 외국인 근로자 안전보건 교재 건설업"
+      ]
+    },
+    {
+      "record_id": "list3_32927",
+      "concat": "[TITLE] (건설,필리핀,영어)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "필리핀 건설 안전",
+        "필리핀 영어권 외국인 근로자에게 건설업 안전보건을 알려주는 교재",
+        "건설 필리핀 영어 Safety and Healthcare Manual Foreign Workers Construction Industry 외국인 근로자 안전보건 교재 건설업"
+      ]
+    },
+    {
+      "record_id": "list3_33189",
+      "concat": "[TITLE] (건설,필리핀,영어)Safety and Healthcare Manual for Foreign Workers<Construction Industry>외국인 근로자용 안전보건 <건설업>\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "필리핀 건설업 안전",
+        "필리핀 영어권 외국인 근로자용 건설현장 안전보건 자료",
+        "건설 필리핀 영어 Safety and Healthcare Manual Foreign Workers Construction Industry 외국인 근로자용 안전보건 건설업"
+      ]
+    },
+    {
+      "record_id": "list3_30934",
+      "concat": "[TITLE] 청년 안전보건서포터즈 양성교육 교재\n[SUMMARY] 청년 안전보건서포터즈 양성교육을 위한 교육 교재 구성내용(목차) 제1장 일반분야 제2장 제조분야 제3장 건설분야 제4장 서비스분야 제5장 직업건강분야",
+      "query": [
+        "청년 안전보건 교육",
+        "청년 안전보건 서포터즈를 교육할 때 쓰는 교재",
+        "청년 안전보건서포터즈 양성교육 교재 일반 제조 건설 서비스 직업건강"
+      ]
+    },
+    {
+      "record_id": "list3_31092",
+      "concat": "[TITLE] Enforcement Regulations of Occupational Safety and Health Act,Local Rule on Occupational Safety and Health Standard\n[SUMMARY] 2012.1.26일자 개정된 산업안전보건법 시행규칙 및 별표, 산업안전보건에 관한 규칙 및 별표를 영역화하여 이주근로자 기술지원 및 개발도상국 기술지원, 국제포럼, 세미나 등 참석시 활용하고자 하는 자료임(외부 기관은 비공개로 공단내부에서 활용예정이며 외부기관 활용시에는 고용노동부의 승인이 필요함)",
+      "query": [
+        "산업안전보건법 영어",
+        "외국인 지원이나 국제 행사에서 쓸 산업안전보건 규칙 영어 자료",
+        "Enforcement Regulations Occupational Safety and Health Act Local Rule Occupational Safety and Health Standard 산업안전보건법 시행규칙 산업안전보건 기준 규칙"
+      ]
+    },
+    {
+      "record_id": "list3_31066",
+      "concat": "[TITLE] 서비스업 재해예방 제대로 알면 확! 줄일 수 있습니다.(스티커북)\n[SUMMARY] 서비스업종 재해예방을 위한 서한문, OPL(넘어짐/떨어짐), 안내표지스티커, 중량물표지스티커, 산업안전보건법 안내 소책자 - 서비스업종 캠페인, 직접기술지원 시 배포 - 서비스업 용역사업 대상사업장 배포",
+      "query": [
+        "서비스업 재해예방",
+        "서비스업 사업장에서 넘어짐 떨어짐 사고를 줄이기 위한 스티커 자료",
+        "서비스업 재해예방 스티커북 OPL 넘어짐 떨어짐 안내표지 중량물표지 산업안전보건법"
+      ]
+    },
+    {
+      "record_id": "list3_31068",
+      "concat": "[TITLE] 외국인 근로자를 위한 안전보건\n[SUMMARY] 외국인근로자용 안전보건 교육 책자",
+      "query": [
+        "외국인 안전보건",
+        "외국인 근로자에게 기본 안전보건 교육을 할 때 쓰는 책자",
+        "외국인 근로자를 위한 안전보건 교육 책자"
+      ]
+    },
+    {
+      "record_id": "list3_31069",
+      "concat": "[TITLE] 외국인근로자를 위한 간단한 회화집\n[SUMMARY] 외국인 근로자와 내국인의 의사소통 및 안전보건 지시 등의 회화집",
+      "query": [
+        "외국인 회화집",
+        "외국인 근로자에게 안전 지시를 전달할 때 쓰는 간단한 말 모음",
+        "외국인근로자를 위한 간단한 회화집 의사소통 안전보건 지시"
+      ]
+    },
+    {
+      "record_id": "list3_30671",
+      "concat": "[TITLE] 건설 중대재해 사례와 대책\n[SUMMARY] 건설경기 및 재해발생 현황",
+      "query": [
+        "건설 중대재해",
+        "건설현장에서 발생한 큰 사고 사례와 대책을 찾고 싶을 때",
+        "건설 중대재해 사례 대책 건설경기 재해발생 현황"
+      ]
+    },
+    {
+      "record_id": "list3_31040",
+      "concat": "[TITLE] 한국의 직업병감시체계\n[SUMMARY] - 한국의 직업병 감시체계 추진 개요 및 실적 요약을 통해 감시체계에 대한 산업보건관계자의 이해를 돕고 향후 추진에 관련 분야 실무자의 적극적인 협조를 유도함 Ⅰ. 감시체계 개요 1. 직업병 감시체계란 무엇인가? 2. 직업병 감시체계의 목적은? 3. 직업병 감시체계의 방법 및 종류 4. 직업병 감시체계의 효과 Ⅱ. 한국의 감시체계 구축의 역사 1. 한국의 직업성 감시체계 총 보고현황 2. 감시체계별 특징 및 성과 ○ 지역 감시체계 1) 석유화학공단 지역 감시체계 2) 천안지역 근골격계 질환 감시체계 3) 구미지역 작업관련성 감시체계 4) 창원지역 감시체계 5) 부산지역 감시체계 6) 인천지역 감시체계 ○ 질병 감시체계 1) 직업성 피부질환 감시체계 2) 직업성 폐암 감시체계 3) 조혈기계암 감시체계 4) 직업성 천식 감시체계 5) 뇌.심혈관 질환 감시체계 6) 악성 중피종 감시체계 ○ 권역별 감시체계 1)화학물질에 의한 암 발생 감시체계 중부권/ 남부권 ○ 기타 감시체계 1) 주사침 손상 감시체계 2) 사업장 중심 직업성 질환 감시체계 3) 응급실 손상 감시체계 3. 감시체계 관련 사이트 Ⅲ. 감시체계의 발전방향 및 로드맵",
+      "query": [
+        "직업병 감시체계",
+        "한국에서 직업병 감시체계가 어떻게 운영되는지 정리한 자료",
+        "한국의 직업병감시체계 직업성 질환 감시체계 지역 질병 권역별"
+      ]
+    },
+    {
+      "record_id": "list3_30771",
+      "concat": "[TITLE] 사망재해 예방 길라잡이(제조업 중심)\n[SUMMARY] 제조업 사망재해 예방을 위한 길라잡이(5대유형, 10대작업)",
+      "query": [
+        "제조업 사망재해",
+        "제조업에서 사망사고를 줄이기 위한 주요 작업별 예방자료",
+        "사망재해 예방 길라잡이 제조업 중심 제조업 사망재해 5대유형 10대작업"
+      ]
+    },
+    {
+      "record_id": "list3_30786",
+      "concat": "[TITLE] 개발도상국 진출기업을 위한 산업안전보건제도집(태국편)\n[SUMMARY] 태국 현지에 진출하였거나 진출예정인 국내기업들에게 태국 산업안전보건제도를 소개하고 산재발생시 7일이내 관련 지방 노동보호복지사무소에 연락할 수 있는 연락처 및 보고사항, 보고양식 등 현지에서 활용가능한 산업안전보건제도집을 발간",
+      "query": [
+        "태국 산업안전보건",
+        "태국에 진출하는 기업이 알아야 할 현지 산업안전보건 제도",
+        "개발도상국 진출기업 산업안전보건제도집 태국편 산재발생 보고 연락처"
+      ]
+    },
+    {
+      "record_id": "list3_30921",
+      "concat": "[TITLE] 산재예방 통합 데이터웨어하우스 구축방안 연구\n[SUMMARY] 공공기관의 산재예방 데이터 현황을 분석하고 데이터의 통합, 활용에 대한 공공사업의 필요성을 판단하고, 관련 통합 데이터 웨어하우스에 대한 목표모델을 제시함으로써 효과적인 산재예방 데이터의 활용방안을 제시",
+      "query": [
+        "산재예방 데이터",
+        "산재예방 자료를 통합해서 활용하는 데이터 시스템 연구",
+        "산재예방 통합 데이터웨어하우스 구축방안 연구 데이터 통합 활용 목표모델"
+      ]
+    },
+    {
+      "record_id": "list3_30660",
+      "concat": "[TITLE] 임업 안전작업 길라잡이\n[SUMMARY] 입업에서의 안전작업을 위한 유의사항, 사례 등 수록",
+      "query": [
+        "임업 안전작업",
+        "산림 작업을 할 때 주의할 안전수칙과 사고 사례 자료",
+        "임업 안전작업 길라잡이 안전작업 유의사항 사례"
+      ]
+    },
+    {
+      "record_id": "list3_30605",
+      "concat": "[TITLE] 중소규모 화학공장 공정안전 매뉴얼\n[SUMMARY] 화재폭발 및 독성물질 누출 우려가 있는 사업장에 대한 위험성평가 지도 및 공정안전 기술자료 제공 시 활용함",
+      "query": [
+        "화학공장 공정안전",
+        "중소 화학공장에서 화재 폭발 누출 위험을 관리하는 매뉴얼",
+        "중소규모 화학공장 공정안전 매뉴얼 화재폭발 독성물질 누출 위험성평가"
+      ]
+    },
+    {
+      "record_id": "list3_30601",
+      "concat": "[TITLE] 제3차 근로환경조사 표본설계보고서\n[SUMMARY] 근로환경조사를 통해서 신뢰성 있는 통계 작성이 가능하도록 표본설계 연구보고서",
+      "query": [
+        "근로환경조사 표본설계",
+        "근로환경조사를 신뢰성 있게 하기 위한 표본 설계 보고서",
+        "제3차 근로환경조사 표본설계보고서 통계 표본설계 연구보고서"
+      ]
+    },
+    {
+      "record_id": "list3_30610",
+      "concat": "[TITLE] 반도체 제조 사업장에 종사하는 근로자의 작업환경 및 유해요인 노출특성 연구\n[SUMMARY] 반도체 제조과정에서 작업자에게 노출 가능한 화학물질에 대한 노출농도 평가 등을 통해 근로자의 작업환경 및 화학물질 노출특성 연구",
+      "query": [
+        "반도체 작업환경",
+        "반도체 제조 근로자가 어떤 화학물질에 노출되는지 조사한 연구",
+        "반도체 제조 사업장 근로자 작업환경 유해요인 노출특성 연구"
+      ]
+    },
+    {
+      "record_id": "list3_30519",
+      "concat": "[TITLE] 12년도 산업안전분야 직원 워크숍\n[SUMMARY] 2년도 산업안전분야 직원 워크숍 교재 - 12년도 사업추진방향 및 세부계획 등",
+      "query": [
+        "산업안전 직원 워크숍",
+        "산업안전 분야 직원들이 사업 추진 방향을 공유한 워크숍 교재",
+        "산업안전분야 직원 워크숍 교재 사업추진방향 세부계획"
+      ]
+    },
+    {
+      "record_id": "list3_30591",
+      "concat": "[TITLE] 유해위험요인 자기관리 사업장 매뉴얼\n[SUMMARY] 위험성평가 절차 및 방법 등을 참고용으로 제공함으로써 사업장이 스스로 위험성평가를 수행하고 산업재해를 예방하는 데 목적이 있음",
+      "query": [
+        "위험성평가 매뉴얼",
+        "사업장이 스스로 위험요인을 찾아 관리하는 방법 자료",
+        "유해위험요인 자기관리 사업장 매뉴얼 위험성평가 절차 방법 산업재해 예방"
+      ]
+    },
+    {
+      "record_id": "list3_30599",
+      "concat": "[TITLE] 2012년 해빙기 건설현장 안전보건 가이드라인\n[SUMMARY] 2012년 해빙기 건설현장 안전보건 가이드라인",
+      "query": [
+        "해빙기 건설현장",
+        "봄철 해빙기에 건설현장에서 지켜야 할 안전보건 기준 자료",
+        "해빙기 건설현장 안전보건 가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_30600",
+      "concat": "[TITLE] 학교공사 안전·보건관리 지침서\n[SUMMARY] 건설재해 현황 및 발주 관계자의 안전관리 역할, 건설 안전보건 관련 주요제도, 건설재해예방을 위한 안전관리, 가설공사 작업안전, 학교공사 중대재해사례 등의 내용을 포함한 학교공사 안전보건관리 지침서",
+      "query": [
+        "학교공사 안전관리",
+        "학교 공사 현장에서 발주자와 관계자가 지켜야 할 안전보건 지침",
+        "학교공사 안전 보건관리 지침서 건설재해 발주 관계자 가설공사 중대재해사례"
+      ]
+    },
+    {
+      "record_id": "list3_31289",
+      "concat": "[TITLE] 전도 재해예방 안전기준 개정(안)연구\n[SUMMARY] 전도재해 예방을 위하여 산업안전보건규칙 제3조 제1항을 개정하기 위하여 국,내외 규정을 조사분석하여 개정(안)을 도출하였음.",
+      "query": [
+        "넘어짐 재해예방",
+        "사업장에서 사람이 넘어지는 사고를 막기 위한 안전기준 개정 자료",
+        "전도 재해예방 안전기준 개정 연구 산업안전보건규칙 국내외 규정 조사분석"
+      ]
+    },
+    {
+      "record_id": "list3_31105",
+      "concat": "[TITLE] (임업)사망재해예방 길라잡이\n[SUMMARY] 임업 현장에서 발생하는 사망재해에 대한 원인과 대책을 제시하여 산업재해예방에 활용하고자 함",
+      "query": [
+        "임업 사망재해",
+        "임업 현장에서 발생하는 사망사고 원인과 예방대책 자료",
+        "임업 사망재해예방 길라잡이 임업 현장 사망재해 원인 대책"
+      ]
+    },
+    {
+      "record_id": "list3_31107",
+      "concat": "[TITLE] (광업)사망재해예방 길라잡이\n[SUMMARY] 광업 현장에서 발생하는 사망재해에 대한 원인과 대책을 제시하여 산업재해예방에 활용하고자 함",
+      "query": [
+        "광업 사망재해",
+        "광산 작업 현장에서 생기는 사망사고 원인과 대책 자료",
+        "광업 사망재해예방 길라잡이 광업 현장 사망재해 원인 대책"
+      ]
+    }
+  ]
+}

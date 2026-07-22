@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 94,
+  "items": [
+    {
+      "record_id": "list1_33444",
+      "concat": "[TITLE] [중대재해_화학제품]가축분 퇴비 운반 중인 로더와 부딪힘\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "퇴비 로더 사고",
+        "가축분 퇴비를 운반하던 로더와 사람이 부딪힌 사고 사례를 찾고 있어요",
+        "중대재해 화학제품 가축분 퇴비 운반 로더 부딪힘 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33463",
+      "concat": "[TITLE] [중대재해_비금속]금속재질 핸드 그라인더 사용 중 감전\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "핸드 그라인더 감전",
+        "금속 핸드 그라인더를 쓰다가 감전된 사고 자료를 찾고 있어요",
+        "중대재해 비금속 금속재질 핸드 그라인더 사용 중 감전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33443",
+      "concat": "[TITLE] [중대재해_선박]선박 탱크 내부 용접작업 중 아르곤가스 누출에 의한 질식\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "선박 탱크 질식",
+        "선박 탱크 안에서 용접하다가 가스 때문에 질식한 사고 사례를 찾고 있어요",
+        "중대재해 선박 선박 탱크 내부 용접작업 아르곤가스 누출 질식 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33457",
+      "concat": "[TITLE] [중대재해_비금속]불안전한 피트 상부 이동 중 떨어짐\n[SUMMARY] 불안전한 피트 상부 이동 중 떨어짐 중대재해사례 OPL",
+      "query": [
+        "피트 추락 사고",
+        "공장 피트 위를 이동하다가 떨어진 사고 자료를 찾고 있어요",
+        "중대재해 비금속 불안전한 피트 상부 이동 중 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33442",
+      "concat": "[TITLE] [중대재해_선박]철판묶음 운반 중 섬유벨트 파단으로 낙하물에 맞음\n[SUMMARY] 철판묶음 운반 중 섬유벨트 파단으로 낙하물에 맞음 중대재해사례 OPL",
+      "query": [
+        "철판 운반 낙하물",
+        "철판 묶음을 옮기다가 벨트가 끊어져 떨어진 물체에 맞은 사고를 찾고 있어요",
+        "중대재해 선박 철판묶음 운반 섬유벨트 파단 낙하물 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33421",
+      "concat": "[TITLE] [중대재해_건설업]고소작업대에서 작업 중 떨어짐\n[SUMMARY] 중대재해사례 OPL - 고소작업대에서 작업 중 떨어짐",
+      "query": [
+        "고소작업대 추락",
+        "건설현장에서 고소작업대 작업 중 떨어진 사고 사례를 찾고 있어요",
+        "중대재해 건설업 고소작업대 작업 중 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33420",
+      "concat": "[TITLE] [중대재해_건설업]슬래브 단부에서 패널 자재 운반 중 떨어짐\n[SUMMARY] 중대재해사례 OPL : 슬래브 단부에서 패널 자재 운반 중 떨어짐",
+      "query": [
+        "슬래브 자재 추락",
+        "슬래브 가장자리에서 패널 자재를 옮기다가 떨어진 사고 자료를 찾고 있어요",
+        "중대재해 건설업 슬래브 단부 패널 자재 운반 중 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33455",
+      "concat": "[TITLE] [중대재해_비금속]어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "어두운 곳에서 지게차가 후진하다 사람이 끼인 사고 사례를 찾고 있어요",
+        "중대재해 비금속 어두운 장소 지게차 후진 중 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33456",
+      "concat": "[TITLE] [중대재해_비금속]철구조물 조립 중 불안전 철판이 넘어져 깔림\n[SUMMARY] ]철구조물 조립 중 불안전 철판이 넘어져 깔림-중대재해사례 OPL",
+      "query": [
+        "철판 넘어짐 깔림",
+        "철구조물을 조립하다 철판이 넘어져 깔린 사고 자료를 찾고 있어요",
+        "중대재해 비금속 철구조물 조립 불안전 철판 넘어짐 깔림 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33454",
+      "concat": "[TITLE] [중대재해_비금속]에어 재킷에 산소를 공급해 사상작업 중 화재\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "산소 화재 작업",
+        "에어 재킷에 산소를 넣고 사상작업을 하다가 불이 난 사고를 찾고 있어요",
+        "중대재해 비금속 에어 재킷 산소 공급 사상작업 화재 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33453",
+      "concat": "[TITLE] [중대재해_금속재료]프레스작업 중 금형 파손으로 이탈 물체에 맞음\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "프레스 금형 파손",
+        "프레스 작업 중 금형이 깨져 튄 물체에 맞은 사고 사례를 찾고 있어요",
+        "중대재해 금속재료 프레스작업 금형 파손 이탈 물체 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33452",
+      "concat": "[TITLE] [중대재해_금속재료]용탕 래들이 뒤집혀 용탕이 쏟아짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "용탕 래들 사고",
+        "용탕 래들이 뒤집혀 뜨거운 용탕이 쏟아진 사고 자료를 찾고 있어요",
+        "중대재해 금속재료 용탕 래들 뒤집힘 용탕 쏟아짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33450",
+      "concat": "[TITLE] [중대재해_화학제품]원심분리기 내부 톨루엔 증기 폭발\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "톨루엔 증기 폭발",
+        "원심분리기 안에서 톨루엔 증기가 폭발한 사고 사례를 찾고 있어요",
+        "중대재해 화학제품 원심분리기 내부 톨루엔 증기 폭발 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33451",
+      "concat": "[TITLE] [중대재해_금속재료]자동이송 포장작업 중 상부 제품이 하강해 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "포장작업 끼임",
+        "자동으로 이송되는 포장 작업 중 위쪽 제품이 내려와 끼인 사고를 찾고 있어요",
+        "중대재해 금속재료 자동이송 포장작업 상부 제품 하강 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33446",
+      "concat": "[TITLE] [중대재해_화학제품]실리콘 드럼 운반 중 드럼 내부로 빠져 질식\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "실리콘 드럼 질식",
+        "실리콘 드럼을 옮기다가 드럼 안으로 빠져 질식한 사고 자료를 찾고 있어요",
+        "중대재해 화학제품 실리콘 드럼 운반 드럼 내부 빠짐 질식 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33449",
+      "concat": "[TITLE] [중대재해_화학제품]가솔린 저장탱크에서 가솔린 배출 중 폭발·화재\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "가솔린 탱크 폭발",
+        "가솔린 저장탱크에서 가솔린을 빼내다가 폭발과 화재가 난 사고를 찾고 있어요",
+        "중대재해 화학제품 가솔린 저장탱크 가솔린 배출 폭발 화재 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33448",
+      "concat": "[TITLE] [중대재해_화학제품]아크릴수지 침전 및 저장 지하피트 내에서 유독가스 중독\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "지하피트 유독가스",
+        "아크릴수지 저장 지하피트 안에서 유독가스에 중독된 사고 사례를 찾고 있어요",
+        "중대재해 화학제품 아크릴수지 침전 저장 지하피트 유독가스 중독 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33447",
+      "concat": "[TITLE] [중대재해_화학제품]지게차 마스트와 프레임 사이에 끼임\n[SUMMARY] 지게차 중대재해사례 OPL",
+      "query": [
+        "지게차 마스트 끼임",
+        "지게차 마스트와 프레임 사이에 사람이 끼인 사고 자료를 찾고 있어요",
+        "중대재해 화학제품 지게차 마스트 프레임 사이 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33358",
+      "concat": "[TITLE] [중대재해_도소매]집게 크레인에서 떨어진 합성수지 더미에 맞음\n[SUMMARY] 집게 크레인에서 떨어진 합성수지 더미에 맞은 재해사례",
+      "query": [
+        "크레인 합성수지 맞음",
+        "집게 크레인에서 합성수지 더미가 떨어져 맞은 사고를 찾고 있어요",
+        "중대재해 도소매 집게 크레인 떨어진 합성수지 더미 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33357",
+      "concat": "[TITLE] [중대재해_도소매]창문 해체작업 중 떨어진 벽돌에 맞음\n[SUMMARY] 창문 해체작업 중대재해사례 OPL",
+      "query": [
+        "창문 해체 벽돌",
+        "창문을 해체하다 떨어진 벽돌에 맞은 사고 사례를 찾고 있어요",
+        "중대재해 도소매 창문 해체작업 떨어진 벽돌 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33356",
+      "concat": "[TITLE] [중대재해_도소매]아파트 에어컨 실외기 해체작업 중 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "실외기 해체 추락",
+        "아파트 에어컨 실외기를 해체하다 떨어진 사고 자료를 찾고 있어요",
+        "중대재해 도소매 아파트 에어컨 실외기 해체작업 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33353",
+      "concat": "[TITLE] [중대재해_도소매]타이어 교체 중 휠이 이탈되어 두부를 강타\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "타이어 휠 이탈",
+        "타이어를 교체하다 휠이 빠져 머리를 맞은 사고 사례를 찾고 있어요",
+        "중대재해 도소매 타이어 교체 휠 이탈 두부 강타 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33354",
+      "concat": "[TITLE] [중대재해_도소매]탱크로리 상부에서 작업 중 구조물에 걸려 넘어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "탱크로리 상부 넘어짐",
+        "탱크로리 위에서 작업하다 구조물에 걸려 넘어진 사고를 찾고 있어요",
+        "중대재해 도소매 탱크로리 상부 작업 구조물 걸림 넘어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33352",
+      "concat": "[TITLE] [중대재해_도소매]고물 작업장에 수집된 고철 해체작업 중 폭발\n[SUMMARY] 고물 작업장에 수집된 고철 해체작업 중 폭발 중대재해사례 OPL",
+      "query": [
+        "고철 해체 폭발",
+        "고물 작업장에서 모은 고철을 해체하다 폭발한 사고 자료를 찾고 있어요",
+        "중대재해 도소매 고물 작업장 고철 해체작업 폭발 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33350",
+      "concat": "[TITLE] [중대재해_보건사회]강풍 상황에서 옥탑 출입문 개방 순간 부식된 난간과 함께 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "옥탑 난간 추락",
+        "강풍에 옥탑 출입문을 열다가 부식된 난간과 함께 떨어진 사고를 찾고 있어요",
+        "중대재해 보건사회 강풍 옥탑 출입문 개방 부식된 난간 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33351",
+      "concat": "[TITLE] [중대재해_도소매]스티로폼 감용기 이물질 제거 중 끼임\n[SUMMARY] 스티로폼 감용기 이물질 제거 중 끼임-중대재해사례 OPL",
+      "query": [
+        "스티로폼 감용기 끼임",
+        "스티로폼 감용기에서 이물질을 빼다가 끼인 사고 사례를 찾고 있어요",
+        "중대재해 도소매 스티로폼 감용기 이물질 제거 중 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33405",
+      "concat": "[TITLE] [중대재해_건설업]굴착 내면에서 토사 제거 중 무너진 조경석에 맞음\n[SUMMARY] 중대재해사례 OPL : 굴착 내면에서 토사 제거 중 무너진 조경석에 맞음",
+      "query": [
+        "굴착 조경석 맞음",
+        "굴착한 곳에서 흙을 치우다가 조경석이 무너져 맞은 사고를 찾고 있어요",
+        "중대재해 건설업 굴착 내면 토사 제거 무너진 조경석 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33406",
+      "concat": "[TITLE] [중대재해_건설업]작업발판 자재 인양 중 떨어진 합판에 맞음\n[SUMMARY] 중대재해사례 OPL - 작업발판 자재 인양 중 떨어진 합판에 맞음",
+      "query": [
+        "작업발판 합판 맞음",
+        "작업발판 자재를 올리다가 합판이 떨어져 맞은 사고 자료를 찾고 있어요",
+        "중대재해 건설업 작업발판 자재 인양 떨어진 합판 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33458",
+      "concat": "[TITLE] [중대재해_비금속]가스절단 불티가 시너 용기에 튀어 화재 진화 중 화상\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "가스절단 불티 화재",
+        "가스절단 불티가 시너 용기에 튀어 불이 나고 화상을 입은 사고를 찾고 있어요",
+        "중대재해 비금속 가스절단 불티 시너 용기 화재 진화 중 화상 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33460",
+      "concat": "[TITLE] [중대재해_비금속]중량물 인양 중 러그 탈락으로 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "중량물 러그 깔림",
+        "무거운 물건을 들어 올리다가 러그가 빠져 깔린 사고 사례를 찾고 있어요",
+        "중대재해 비금속 중량물 인양 러그 탈락 깔림 OPL"
+      ]
+    }
+  ]
+}

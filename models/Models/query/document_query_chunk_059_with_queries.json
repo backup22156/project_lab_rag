@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 59,
+  "items": [
+    {
+      "record_id": "list1_41163",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "인도네시아 와이어로프 사고",
+        "인도네시아 근로자에게 와이어로프가 끊어져 인양 자재에 맞는 사고 예방 자료",
+        "와이어로프 파단 인양 자재 맞음 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41161",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 스리랑카 건설현장 근로자를 위한 안전보건 OPL",
+      "query": [
+        "스리랑카 와이어로프 사고",
+        "스리랑카 건설현장 근로자가 인양 자재에 맞는 사고를 예방하는 자료",
+        "와이어로프 파단 인양 자재 맞음 스리랑카 건설현장 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41162",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "우즈베키스탄 와이어로프 사고",
+        "우즈베키스탄 근로자에게 와이어로프 파단으로 자재가 떨어져 맞는 사고 예방 자료",
+        "와이어로프 파단 인양 자재 맞음 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41160",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "베트남 와이어로프 사고",
+        "베트남 근로자가 인양 작업 중 자재에 맞는 사고를 막는 안전 자료",
+        "와이어로프 파단 인양 자재 맞음 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41159",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "방글라데시 와이어로프 사고",
+        "방글라데시 근로자에게 인양 자재가 떨어져 맞는 사고 예방 자료",
+        "와이어로프 파단 인양 자재 맞음 방글라데시 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41158",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 미얀마 근로자를 위한 안전보건 OPL, 와이어로프 파단으로 인양 자재 맞는 재해에 대한 설명과 재해사례를 담음",
+      "query": [
+        "미얀마 와이어로프 사고",
+        "미얀마 근로자가 와이어로프가 끊겨 인양 자재에 맞는 사고 사례 자료",
+        "와이어로프 파단 인양 자재 맞음 미얀마 근로자 재해사례 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41050",
+      "concat": "[TITLE] (OPL) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "스리랑카 갈탄 중독",
+        "스리랑카 근로자가 콘크리트 양생 중 갈탄 연소가스에 중독되는 사고 예방 자료",
+        "콘크리트 양생작업 갈탄 연소가스 중독 스리랑카 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41052",
+      "concat": "[TITLE] (OPL) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "인도네시아 갈탄 중독",
+        "인도네시아 근로자에게 콘크리트 양생 작업 중 갈탄 가스 중독을 예방하는 자료",
+        "콘크리트 양생작업 갈탄 연소가스 중독 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41095",
+      "concat": "[TITLE] (OPL) 슬래브 단부에서 패널 자재 운반 중 떨어짐\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "방글라데시 슬래브 추락",
+        "방글라데시 근로자가 슬래브 가장자리에서 패널 자재를 옮기다 떨어지는 사고 예방 자료",
+        "슬래브 단부 패널 자재 운반 떨어짐 방글라데시 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41092",
+      "concat": "[TITLE] (OPL) 슬래브 단부에서 패널 자재 운반 중 떨어짐\n[SUMMARY] 국내 체류 외국인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "라오스 슬래브 추락",
+        "라오스 근로자가 슬래브 단부에서 자재 운반 중 추락하는 사고 예방 자료",
+        "슬래브 단부 패널 자재 운반 떨어짐 라오스 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41046",
+      "concat": "[TITLE] (OPL) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류 몽골 근로자를 위한 안전보건 OPL",
+      "query": [
+        "몽골 갈탄 중독",
+        "몽골 근로자가 콘크리트 양생 작업 중 갈탄 연소가스에 중독되는 사고 예방 자료",
+        "콘크리트 양생작업 갈탄 연소가스 중독 몽골 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41044",
+      "concat": "[TITLE] (OPL) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 중 동티모르",
+      "query": [
+        "동티모르 갈탄 중독",
+        "동티모르 근로자를 위한 콘크리트 양생 중 갈탄 가스 중독 예방 자료",
+        "콘크리트 양생작업 갈탄 연소가스 중독 동티모르 외국인근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41001",
+      "concat": "[TITLE] (OPL) 외부비계 위에서 강관파이프 해체 중 떨어짐\n[SUMMARY] 국내 체류 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "베트남 강관파이프 추락",
+        "베트남 근로자가 외부비계에서 강관파이프를 해체하다 떨어지는 사고 예방 자료",
+        "외부비계 강관파이프 해체 떨어짐 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40998",
+      "concat": "[TITLE] (OPL) 외부비계 위에서 강관파이프 해체 중 떨어짐\n[SUMMARY] 국내 체류 몽골 근로자를 위한 안전보건 OPL",
+      "query": [
+        "몽골 강관파이프 추락",
+        "몽골 근로자가 외부비계 위에서 강관파이프 해체 중 떨어지는 사고 예방 자료",
+        "외부비계 강관파이프 해체 떨어짐 몽골 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40992",
+      "concat": "[TITLE] (OPL) 이동식비계에서 작업 중 몸의 중심을 잃고 떨어짐\n[SUMMARY] 국내 체류 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "태국 이동식비계 추락",
+        "태국 근로자가 이동식비계에서 작업하다 중심을 잃고 떨어지는 사고 예방 자료",
+        "이동식비계 작업 몸의 중심 잃고 떨어짐 태국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40983",
+      "concat": "[TITLE] (OPL) 이동식비계에서 작업 중 몸의 중심을 잃고 떨어짐\n[SUMMARY] 국내 체류 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "미얀마 이동식비계 추락",
+        "미얀마 근로자가 이동식비계 작업 중 균형을 잃고 추락하는 사고 예방 자료",
+        "이동식비계 작업 몸의 중심 잃고 떨어짐 미얀마 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40991",
+      "concat": "[TITLE] (OPL) 이동식비계에서 작업 중 몸의 중심을 잃고 떨어짐\n[SUMMARY] 국내 체류 키르기스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "키르기스스탄 이동식비계 추락",
+        "키르기스스탄 근로자가 이동식비계에서 작업하다 떨어지는 사고를 막는 자료",
+        "이동식비계 작업 몸의 중심 잃고 떨어짐 키르기스스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40986",
+      "concat": "[TITLE] (OPL) 이동식비계에서 작업 중 몸의 중심을 잃고 떨어짐\n[SUMMARY] 국내 체류 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "스리랑카 이동식비계 추락",
+        "스리랑카 근로자가 이동식비계 위에서 균형을 잃고 떨어지는 사고 예방 자료",
+        "이동식비계 작업 몸의 중심 잃고 떨어짐 스리랑카 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40990",
+      "concat": "[TITLE] (OPL) 이동식비계에서 작업 중 몸의 중심을 잃고 떨어짐\n[SUMMARY] 국내 체류 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "캄보디아 이동식비계 추락",
+        "캄보디아 근로자가 이동식비계 작업 중 중심을 잃고 추락하는 사고 예방 자료",
+        "이동식비계 작업 몸의 중심 잃고 떨어짐 캄보디아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40976",
+      "concat": "[TITLE] (OPL) 배관 설치작업 중 이동식비계 전도되어 떨어짐\n[SUMMARY] 국내 체류 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "태국 배관 비계 추락",
+        "태국 근로자가 배관 설치 중 이동식비계가 넘어져 떨어지는 사고 예방 자료",
+        "배관 설치작업 이동식비계 전도 떨어짐 태국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41178",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "우즈베키스탄 클램프 사고",
+        "우즈베키스탄 근로자가 클램프가 빠져 떨어진 철 구조물에 맞는 사고 예방 자료",
+        "클램프 탈락 떨어진 철 구조물 맞음 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41058",
+      "concat": "[TITLE] (OPL) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "필리핀 갈탄 중독",
+        "필리핀 근로자가 콘크리트 양생 중 갈탄 연소가스에 중독되는 사고 예방 자료",
+        "콘크리트 양생작업 갈탄 연소가스 중독 필리핀 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41053",
+      "concat": "[TITLE] (OPL-중국) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류 중국 근로자를 위한 안전보건 OPL, 콘크리트 양생작업 중 갈탄 연소가스에 중독되는 재해에 관한 설명과 재해사례를 담음",
+      "query": [
+        "중국 갈탄 중독",
+        "중국 근로자가 콘크리트 양생 작업 중 갈탄 가스에 중독되는 사고 사례 자료",
+        "콘크리트 양생작업 갈탄 연소가스 중독 중국 근로자 재해사례 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41059",
+      "concat": "[TITLE] (OPL) 사다리 사용 고소작업 중 떨어짐\n[SUMMARY] 국내 체류 네팔 근로자를 위한 안전보건 OPL",
+      "query": [
+        "네팔 사다리 추락",
+        "네팔 근로자가 사다리를 사용해 높은 곳에서 작업하다 떨어지는 사고 예방 자료",
+        "사다리 사용 고소작업 떨어짐 네팔 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41066",
+      "concat": "[TITLE] (OPL) 사다리 사용 고소작업 중 떨어짐\n[SUMMARY] 국내 체류 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "스리랑카 사다리 추락",
+        "스리랑카 근로자가 사다리 고소작업 중 추락하는 사고를 예방하는 자료",
+        "사다리 사용 고소작업 떨어짐 스리랑카 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41061",
+      "concat": "[TITLE] (OPL) 사다리 사용 고소작업 중 떨어짐\n[SUMMARY] 국내 체류 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "라오스 사다리 추락",
+        "라오스 근로자가 사다리 작업 중 높은 곳에서 떨어지는 사고 예방 자료",
+        "사다리 사용 고소작업 떨어짐 라오스 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41065",
+      "concat": "[TITLE] (OPL) 사다리 사용 고소작업 중 떨어짐\n[SUMMARY] 국내 체류 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "베트남 사다리 추락",
+        "베트남 근로자가 사다리를 쓰는 고소작업 중 떨어지는 사고 예방 자료",
+        "사다리 사용 고소작업 떨어짐 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41067",
+      "concat": "[TITLE] (OPL) 사다리 사용 고소작업 중 떨어짐\n[SUMMARY] 국내 체류 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "우즈베키스탄 사다리 추락",
+        "우즈베키스탄 근로자가 사다리 고소작업을 하다 떨어지는 사고 예방 자료",
+        "사다리 사용 고소작업 떨어짐 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41073",
+      "concat": "[TITLE] (OPL) 사다리 사용 고소작업 중 떨어짐\n[SUMMARY] 국내 체류 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "파키스탄 사다리 추락",
+        "파키스탄 근로자가 사다리 사용 중 높은 곳에서 떨어지는 사고 예방 자료",
+        "사다리 사용 고소작업 떨어짐 파키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41077",
+      "concat": "[TITLE] (OPL) 지붕 샌드위치 패널 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "라오스 샌드위치패널 추락",
+        "라오스 근로자가 지붕 샌드위치 패널 설치 중 떨어지는 사고 예방 자료",
+        "지붕 샌드위치 패널 설치 떨어짐 라오스 근로자 안전보건 OPL"
+      ]
+    }
+  ]
+}

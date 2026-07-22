@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 50,
+  "items": [
+    {
+      "record_id": "list1_42211",
+      "concat": "[TITLE] 안전보안관 교육용 OPL\n[SUMMARY] 행정안전부 안전보안관에 대한 사전 교육 시 건설현장 주요 위험요인에 대한 가이드라인을 제시함으로써 중·소규모 건설현장 추락 사고를 예방",
+      "query": [
+        "건설현장 추락 교육",
+        "안전보안관 교육 때 중소규모 건설현장 위험요인을 설명할 자료가 필요해",
+        "안전보안관 교육용 OPL 건설현장 주요 위험요인 추락 사고 예방"
+      ]
+    },
+    {
+      "record_id": "list1_42193",
+      "concat": "[TITLE] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드 OPS",
+      "query": [
+        "열사병 물 그늘 휴식",
+        "더운 날 야외 작업할 때 열사병을 막기 위한 기본수칙 자료를 찾고 있어",
+        "열사병 예방 3대 기본수칙 물 그늘 휴식 이행가이드 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_42055",
+      "concat": "[TITLE] 건설현장 추락사고 예방 OPL\n[SUMMARY] 건설현장 추락사고 예방 OPL",
+      "query": [
+        "건설현장 추락 예방",
+        "건설현장에서 떨어짐 사고를 막기 위한 간단한 안전자료가 필요해",
+        "건설현장 추락사고 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_42109",
+      "concat": "[TITLE] 지붕공사 추락위험 안전점검수칙\n[SUMMARY] 5월부터 급증하는 지붕공사 중 추락 재해를 예방하기위해 '중대재해사례','예방대책', '키-메시지', '안전점검표'를 포함한 미디어를 배포하고자 합니다.",
+      "query": [
+        "지붕공사 추락 점검",
+        "지붕공사 중 떨어지는 사고를 막기 위한 점검표와 예방대책을 찾고 있어",
+        "지붕공사 추락위험 안전점검수칙 중대재해사례 예방대책 키메시지 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_42054",
+      "concat": "[TITLE] 건설현장 추락사고 예방 좋은예 나쁜예\n[SUMMARY] 건설현장 추락사고 예방 좋은예 나쁜예",
+      "query": [
+        "건설현장 추락 사례",
+        "건설현장 추락사고 예방을 좋은 예와 나쁜 예로 설명한 자료를 찾고 있어",
+        "건설현장 추락사고 예방 좋은예 나쁜예"
+      ]
+    },
+    {
+      "record_id": "list1_42153",
+      "concat": "[TITLE] (OPL) 일터에서 생활 속 거리두기\n[SUMMARY] 코로나19의 장기화 예상에 따라 새롭게 시행한 「생활 속 거리두기 지침」을 OPL을 통해 안내함으로써 일상 생활과 사회·경제활동을 영위할 수 있도록 하고자 함",
+      "query": [
+        "일터 거리두기",
+        "코로나 시기에 직장에서 생활 속 거리두기를 어떻게 해야 하는지 안내자료가 필요해",
+        "일터 생활 속 거리두기 OPL 코로나19 생활 속 거리두기 지침"
+      ]
+    },
+    {
+      "record_id": "list1_42255",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(동티모르)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "동티모르 근로자 열사병",
+        "동티모르 노동자에게 물 그늘 휴식 같은 온열질환 예방수칙을 안내할 자료가 필요해",
+        "외국인 노동자용 온열질환 예방수칙 동티모르 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42254",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(라오스)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "라오스 근로자 열사병",
+        "라오스 노동자에게 더운 날 작업 시 온열질환 예방수칙을 알려줄 자료를 찾고 있어",
+        "외국인 노동자용 온열질환 예방수칙 라오스 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42253",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(파키스탄)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "파키스탄 근로자 열사병",
+        "파키스탄 노동자에게 폭염 작업 중 물 그늘 휴식 수칙을 설명할 자료가 필요해",
+        "외국인 노동자용 온열질환 예방수칙 파키스탄 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42252",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(키르기스스탄)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "키르기스스탄 근로자 열사병",
+        "키르기스스탄 노동자에게 온열질환 예방수칙을 안내하는 자료를 찾고 있어",
+        "외국인 노동자용 온열질환 예방수칙 키르기스스탄 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42251",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(방글라데시)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "방글라데시 근로자 열사병",
+        "방글라데시 노동자에게 폭염 때 지켜야 할 온열질환 예방수칙을 알려주고 싶어",
+        "외국인 노동자용 온열질환 예방수칙 방글라데시 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42250",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(스리랑카)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "스리랑카 근로자 열사병",
+        "스리랑카 노동자를 위한 열사병 예방 기본수칙 자료를 찾고 있어",
+        "외국인 노동자용 온열질환 예방수칙 스리랑카 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42245",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(인도네시아)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "인도네시아 근로자 열사병",
+        "인도네시아 노동자에게 더위 작업 중 온열질환 예방수칙을 설명할 자료가 필요해",
+        "외국인 노동자용 온열질환 예방수칙 인도네시아 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42247",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(몽골)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "몽골 근로자 열사병",
+        "몽골 노동자에게 폭염 작업 시 물 그늘 휴식 수칙을 안내할 자료를 찾고 있어",
+        "외국인 노동자용 온열질환 예방수칙 몽골 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42246",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(캄보디아)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "캄보디아 근로자 열사병",
+        "캄보디아 노동자용 온열질환 예방수칙 안내자료가 필요해",
+        "외국인 노동자용 온열질환 예방수칙 캄보디아 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42243",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(베트남)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "베트남 근로자 열사병",
+        "베트남 노동자에게 폭염 작업 중 열사병 예방수칙을 알려줄 자료를 찾고 있어",
+        "외국인 노동자용 온열질환 예방수칙 베트남 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42248",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(네팔)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "네팔 근로자 열사병",
+        "네팔 노동자에게 온열질환 예방을 위한 물 그늘 휴식 수칙을 설명할 자료가 필요해",
+        "외국인 노동자용 온열질환 예방수칙 네팔 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42244",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(우즈베키스탄)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "우즈베키스탄 근로자 열사병",
+        "우즈베키스탄 노동자에게 더위 작업 안전수칙을 안내할 자료를 찾고 있어",
+        "외국인 노동자용 온열질환 예방수칙 우즈베키스탄 열사병 예방 3대 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42011",
+      "concat": "[TITLE] 제조업 등 유해위험방지계획서 심사확인 제도 안내 OPS\n[SUMMARY] 제조업 등 유해위험방지계획서 심사확인 제도 안내",
+      "query": [
+        "유해위험방지계획서 심사",
+        "제조업 사업장이 유해위험방지계획서 심사와 확인을 어떻게 받는지 알고 싶어",
+        "제조업 유해위험방지계획서 심사확인 제도 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_42097",
+      "concat": "[TITLE] 2020년 4대 악성 사고사망예방 키워드 및 슬로건\n[SUMMARY] 2020년 4대 악성 사고사망예방 키워드 및 슬로건 보급, 활용을 통해 사업장 관계자와 노동자의 안전의식 고취함",
+      "query": [
+        "사고사망 예방 슬로건",
+        "사업장에서 사고사망 예방 캠페인에 쓸 핵심 키워드와 슬로건 자료를 찾고 있어",
+        "4대 악성 사고사망예방 키워드 슬로건"
+      ]
+    },
+    {
+      "record_id": "list1_42020",
+      "concat": "[TITLE] [스토리텔링 사례 OPL]잘못된 경험이 불러오는 폐지압축기 끼임사고\n[SUMMARY] [스토리텔링 사례 OPL]폐지압축기 이물질 제거 작업중 끼임",
+      "query": [
+        "폐지압축기 끼임",
+        "폐지압축기 이물질 제거 중 끼임사고 사례를 쉽게 설명한 자료가 필요해",
+        "스토리텔링 사례 OPL 폐지압축기 끼임사고 이물질 제거 작업"
+      ]
+    },
+    {
+      "record_id": "list1_42021",
+      "concat": "[TITLE] [스토리텔링 사례 OPL]안전장치가 설치되어 있었으나 유효하지 않았다\n[SUMMARY] [스토리텔링 사례 OPL]프레스 점검중 끼임",
+      "query": [
+        "프레스 점검 끼임",
+        "프레스에 안전장치가 있어도 점검 중 끼임사고가 난 사례를 찾고 있어",
+        "스토리텔링 사례 OPL 프레스 점검 끼임 안전장치"
+      ]
+    },
+    {
+      "record_id": "list1_42018",
+      "concat": "[TITLE] [스토리텔링 사례 OPL]알면서도 당하는 사출성형기 '끼임' 사고\n[SUMMARY] [스토리텔링 사례 OPL]사출성형기 점검중 끼임",
+      "query": [
+        "사출성형기 끼임",
+        "사출성형기 점검 중 끼임사고가 발생한 사례 자료가 필요해",
+        "스토리텔링 사례 OPL 사출성형기 끼임 사고 점검"
+      ]
+    },
+    {
+      "record_id": "list1_42019",
+      "concat": "[TITLE] [스토리텔링 사례 OPL]베테랑도 피할 수 없는 파쇄기·분쇄기 끼임사고\n[SUMMARY] [스토리텔링 사례 OPL]폐플라스틱 파쇄작업 중 끼임",
+      "query": [
+        "파쇄기 끼임 사고",
+        "폐플라스틱 파쇄나 분쇄 작업 중 끼임사고 사례를 찾고 있어",
+        "스토리텔링 사례 OPL 파쇄기 분쇄기 끼임사고 폐플라스틱 파쇄작업"
+      ]
+    },
+    {
+      "record_id": "list1_42022",
+      "concat": "[TITLE] [스토리텔링 사례 OPL]혼합기 끼임사고 끊이지 않아...\n[SUMMARY] [스토리텔링 사례 OPL]혼합기 점검중 끼임사고 사례를 스토리텔링 방식으로 제작",
+      "query": [
+        "혼합기 끼임 사고",
+        "혼합기 점검 중 끼임사고가 발생한 사례를 스토리처럼 설명한 자료가 필요해",
+        "스토리텔링 사례 OPL 혼합기 끼임사고 점검"
+      ]
+    },
+    {
+      "record_id": "list1_42017",
+      "concat": "[TITLE] [스토리텔링 사례 OPL]심상찮은 공장 지붕 떨어짐 사고..어제 또 발생!\n[SUMMARY] [스토리텔링 사례 OPL]공장지붕 보수작업중 떨어짐",
+      "query": [
+        "공장 지붕 떨어짐",
+        "공장 지붕 보수작업 중 떨어짐 사고 사례를 설명한 자료를 찾고 있어",
+        "스토리텔링 사례 OPL 공장 지붕 떨어짐 사고 보수작업"
+      ]
+    },
+    {
+      "record_id": "list1_42016",
+      "concat": "[TITLE] [스토리텔링 사례 OPL]사다리 타기에 당신의 운명을 맡기시겠습니까?\n[SUMMARY] [스토리텔링 사례 OPL] 합판거푸집 해체 작업중 사다리에서 떨어짐",
+      "query": [
+        "사다리 떨어짐 사고",
+        "합판거푸집 해체 작업 중 사다리에서 떨어진 사고 사례 자료가 필요해",
+        "스토리텔링 사례 OPL 사다리 떨어짐 합판거푸집 해체 작업"
+      ]
+    },
+    {
+      "record_id": "list1_42015",
+      "concat": "[TITLE] [스토리텔링 사례 OPL]위험을 보고도 무시하였다. 다만, 그게 누구인지 모를 뿐이다.\n[SUMMARY] [스토리텔링 사례 OPL]환기구 개구부에서 떨어짐",
+      "query": [
+        "개구부 떨어짐 사고",
+        "환기구 같은 열린 곳에서 떨어진 사고 사례를 찾고 있어",
+        "스토리텔링 사례 OPL 환기구 개구부 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_41981",
+      "concat": "[TITLE] 승강기작업 안전점검표\n[SUMMARY] 승강기 작업 안전점검표(MR, MRL 방식)",
+      "query": [
+        "승강기 작업 점검표",
+        "승강기 작업 전에 확인해야 할 안전점검표 자료가 필요해",
+        "승강기작업 안전점검표 MR MRL 방식"
+      ]
+    },
+    {
+      "record_id": "list1_41938",
+      "concat": "[TITLE] LOTO 작업절차 바로알기\n[SUMMARY] 전국 제조업 사업장 등 비정형 작업 시 사용할 수 있는 LOTO 설비에 대한 절차 및 체크리스트 OPS",
+      "query": [
+        "LOTO 작업 절차",
+        "제조업에서 설비 점검이나 수리할 때 잠금표지 절차와 체크리스트를 찾고 있어",
+        "LOTO 작업절차 바로알기 제조업 비정형 작업 체크리스트 OPS"
+      ]
+    }
+  ]
+}

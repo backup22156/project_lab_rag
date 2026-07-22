@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 44,
+  "items": [
+    {
+      "record_id": "list1_43973",
+      "concat": "[TITLE] 클린사업 부정수급 자진신고 기간 안내 OPS\n[SUMMARY] 클린사업 부정수급 자진신고 기간 안내 - 1차: '22.4.1. ~ 5.31.(2개월) - 2차: '22.10.1. ~ 11.30.(2개월)",
+      "query": [
+        "클린사업 부정수급 신고",
+        "클린사업 지원금을 잘못 받은 경우 자진신고 기간을 알고 싶어",
+        "클린사업 부정수급 자진신고 기간 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43923",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이 OPS(산업용 방진마스크)\n[SUMMARY] 산업용 방진마스크 안전인증제품의 올바른 착용 및 사용방법 안내",
+      "query": [
+        "방진마스크 착용 방법",
+        "산업용 마스크를 제대로 쓰는 방법과 인증 표시가 궁금해",
+        "안전한 보호구 착용 길잡이 산업용 방진마스크 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43941",
+      "concat": "[TITLE] [Quick Message] 3호 어업 작업 중 익사사고 발생\n[SUMMARY] 선상 및 수중에서 어업 작업 중 익사 사고 연속 발생",
+      "query": [
+        "어업 익사 사고",
+        "배나 물속에서 어업 작업하다 빠지는 사고 예방 자료",
+        "Quick Message 어업 작업 익사사고 발생"
+      ]
+    },
+    {
+      "record_id": "list1_43988",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이 OPS(산업용 보안경)\n[SUMMARY] 산업용 보안경 안전인증제품의 올바른 착용 및 사용방법 안내 - 보안경 종류 - 안전인증 표시 - 보안경의 사용구분 - 구매, 사용 지침 등",
+      "query": [
+        "보안경 착용 방법",
+        "산업용 보안경 종류와 언제 써야 하는지 알고 싶어",
+        "안전한 보호구 착용 길잡이 산업용 보안경 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43987",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이 OPS(산업용 안전화)\n[SUMMARY] 산업용 안전화 안전인증제품의 올바른 착용 및 사용방법 안내 - 안전화 설명 - 안전인증 표시 - 안전화 등급에 따른 사용장소 - 구매, 사용 지침 등",
+      "query": [
+        "안전화 착용 방법",
+        "산업용 안전화를 고르고 사용하는 기준을 알고 싶어",
+        "안전한 보호구 착용 길잡이 산업용 안전화 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43652",
+      "concat": "[TITLE] [안전보건규칙 개정] 지붕작업 안전수칙\n[SUMMARY] 산업안전보건기준에 관한 규칙이 개정(2021.11.19.시행)됨에 따라 지붕작업 안전수칙을 안내해드립니다.",
+      "query": [
+        "지붕작업 안전수칙",
+        "지붕 위에서 일할 때 지켜야 하는 안전 기준이 바뀐 내용",
+        "안전보건규칙 개정 지붕작업 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_43921",
+      "concat": "[TITLE] [Quick Message] 2호 제조업체에서 세척 작업 중 트리클로로메탄에 집단 급성중독\n[SUMMARY] 제조업체에서 세척 작업 중 트리클로로메탄에 집단 급성중독",
+      "query": [
+        "세척작업 급성중독",
+        "제조업체에서 세척하다 화학물질에 여러 명이 중독된 사고 자료",
+        "Quick Message 제조업체 세척 작업 트리클로로메탄 집단 급성중독"
+      ]
+    },
+    {
+      "record_id": "list1_43610",
+      "concat": "[TITLE] [외국인]화재/폭발 위험관리 OPS (네팔어,베트남어,영어,우즈벡어,중국어,태국어)\n[SUMMARY] 화재/폭발 위험관리 안전점검 OPS로 위험물 안전 관리 수칙에 관한 정보를 6개 언어로 제공 6개 언어: 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어 ※ 그 외 10개 언어(미얀마, 인도네시아, 몽골, 캄보디아, 동티모르, 라오스, 방글라데시, 스리랑카, 키르기스스탄, 파키스탄)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]화재/폭발 위험관리 OPS (미얀마어 등 10개 언어)<등록일: 2023.5.15.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "화재 폭발 안전수칙",
+        "외국인 근로자에게 보여줄 화재 폭발 위험관리 자료",
+        "외국인 화재 폭발 위험관리 OPS 네팔어 베트남어 영어 우즈벡어 중국어 태국어"
+      ]
+    },
+    {
+      "record_id": "list1_43633",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이(벨트식안전대) OPS\n[SUMMARY] 벨트식안전대 안전인증제품의 올바른 착용 및 사용방법 안내",
+      "query": [
+        "안전대 착용 방법",
+        "벨트식 안전대를 올바르게 착용하고 사용하는 방법",
+        "안전한 보호구 착용 길잡이 벨트식안전대 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43674",
+      "concat": "[TITLE] [Quick Message] 폐기물처리용 컨베이어 끼임 사망사고 연속발생\n[SUMMARY] 최근 폐기물처리용 컨베이어 끼임 사망재해가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "컨베이어 끼임 사고",
+        "폐기물 처리 컨베이어에서 끼임 사망사고가 계속 난 사례",
+        "Quick Message 폐기물처리용 컨베이어 끼임 사망사고 연속발생"
+      ]
+    },
+    {
+      "record_id": "list1_43607",
+      "concat": "[TITLE] [외국인]차량계 건설기계 작업 전 안전점검 OPS (네팔어,베트남어,영어,우즈벡어,중국어,태국어)\n[SUMMARY] 차량계 건설기계 작업 전 안전점검 (네팔어,베트남어,영어,우즈벡어,중국어,태국어)",
+      "query": [
+        "건설기계 안전점검",
+        "외국인 근로자용 건설기계 작업 전 점검 자료",
+        "외국인 차량계 건설기계 작업 전 안전점검 OPS 네팔어 베트남어 영어 우즈벡어 중국어 태국어"
+      ]
+    },
+    {
+      "record_id": "list1_43609",
+      "concat": "[TITLE] [외국인]폐수처리 관리 OPS (네팔어,베트남어,영어,우즈벡어,중국어,태국어)\n[SUMMARY] 폐수처리 관리 안전점검 OPS",
+      "query": [
+        "폐수처리 안전점검",
+        "외국인 근로자에게 폐수처리 관리 안전수칙을 안내하는 자료",
+        "외국인 폐수처리 관리 OPS 네팔어 베트남어 영어 우즈벡어 중국어 태국어"
+      ]
+    },
+    {
+      "record_id": "list1_43608",
+      "concat": "[TITLE] [외국인]LOTO작업절차 OPS (네팔어,베트남어,영어,우즈벡어,중국어,태국어)\n[SUMMARY] 끼임사고 예방 LOTO작업절차 안내 OPS ※ 그 외 10개 언어(동티모르, 방글라데시 등)는 아래의 사이트 바로가기 [[[GO]]] 클릭",
+      "query": [
+        "LOTO 작업 절차",
+        "끼임사고를 막기 위한 잠금표지 작업 절차를 외국인에게 설명하는 자료",
+        "외국인 LOTO작업절차 OPS 네팔어 베트남어 영어 우즈벡어 중국어 태국어"
+      ]
+    },
+    {
+      "record_id": "list1_43631",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이(안전모) OPS\n[SUMMARY] 안전모 안전인증제품의 올바른 착용 및 사용방법 안내",
+      "query": [
+        "안전모 착용 방법",
+        "안전모를 올바르게 쓰고 사용하는 방법을 알고 싶어",
+        "안전한 보호구 착용 길잡이 안전모 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43632",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이(그네식안전대) OPS\n[SUMMARY] 그네식안전대 안전인증제품의 올바른 착용 및 사용방법 안내",
+      "query": [
+        "그네식 안전대 착용",
+        "그네식 안전대를 올바르게 착용하고 사용하는 방법",
+        "안전한 보호구 착용 길잡이 그네식안전대 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43523",
+      "concat": "[TITLE] 산재 사망사고 발생경보 OPS\n[SUMMARY] 산재 사망사고 발생경보 - 가정집 세탁기 수리 중 감전으로 추정되는 사고로 사망",
+      "query": [
+        "세탁기 수리 감전",
+        "가정집에서 세탁기 수리하다 감전으로 사망한 사고 경보 자료",
+        "산재 사망사고 발생경보 OPS 세탁기 수리 감전"
+      ]
+    },
+    {
+      "record_id": "list1_43519",
+      "concat": "[TITLE] 건설업 기초안전보건교육 이수증 온라인 조회 안내 OPS\n[SUMMARY] 건설업 기초안전보건교육 이수증 온라인 조회 안내 OPS",
+      "query": [
+        "건설기초교육 이수증 조회",
+        "건설현장 기초안전교육 이수증을 온라인으로 확인하는 방법",
+        "건설업 기초안전보건교육 이수증 온라인 조회 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43889",
+      "concat": "[TITLE] 2022년도 안전보건관리체계 구축 컨설팅 사업 안내\n[SUMMARY] 안전보건관리체계 확산 및 중대재해처벌법의 현장 안착을 위해 민간재해예방기관을 활용한 중소기업(50~299인, 제조·기타 업종) 컨설팅 지원 사업 안내",
+      "query": [
+        "안전보건관리체계 컨설팅",
+        "중소기업 안전보건관리체계 구축 컨설팅 지원사업 안내 자료",
+        "안전보건관리체계 구축 컨설팅 사업 안내"
+      ]
+    },
+    {
+      "record_id": "list1_43916",
+      "concat": "[TITLE] [Quick Message] 1호 화학공장 열교환기 기밀테스트 중 폭발사고 속보\n[SUMMARY] 화학공장 폭발 사망 사고 발생 퀵메세지",
+      "query": [
+        "화학공장 폭발 사고",
+        "화학공장에서 기밀테스트 중 폭발로 사망한 사고 속보",
+        "Quick Message 화학공장 열교환기 기밀테스트 폭발사고 속보"
+      ]
+    },
+    {
+      "record_id": "list1_43643",
+      "concat": "[TITLE] 미세먼지로 인한 건강장해 예방가이드\n[SUMMARY] 미세먼지로 인한 건강장해 예방가이드",
+      "query": [
+        "미세먼지 건강 예방",
+        "미세먼지 때문에 생기는 건강장해를 예방하는 방법",
+        "미세먼지로 인한 건강장해 예방가이드"
+      ]
+    },
+    {
+      "record_id": "list1_43890",
+      "concat": "[TITLE] 중대재해처벌법 누리집(홈페이지) 활용 안내\n[SUMMARY] 중대재해처벌법 누리집(홈페이지) 활용 안내 OPS 입니다. - 중대재해처벌법, 추락/끼임사고 예방 자료 등을 게시 (중대재해처벌법 누리집 → www.koshasafety.co.kr)",
+      "query": [
+        "중대재해처벌법 홈페이지",
+        "중대재해처벌법 자료와 추락 끼임 예방자료를 볼 수 있는 사이트 안내",
+        "중대재해처벌법 누리집 홈페이지 활용 안내"
+      ]
+    },
+    {
+      "record_id": "list1_43891",
+      "concat": "[TITLE] 중대재해처벌법 주요내용 안내\n[SUMMARY] 중대재해처벌법 주요내용 안내 OPS 입니다. 고용노동부 홈페이지(www.moel.go.kr) > 정책자료 > 안심일터 > '중대재해처벌법이란?' 참조",
+      "query": [
+        "중대재해처벌법 주요내용",
+        "중대재해처벌법이 어떤 내용인지 쉽게 정리한 안내 자료",
+        "중대재해처벌법 주요내용 안내"
+      ]
+    },
+    {
+      "record_id": "list1_43637",
+      "concat": "[TITLE] 특고종사자(택배원) 기술자료 OPS\n[SUMMARY] 특고종사자(택배원) 기술자료 OPS",
+      "query": [
+        "택배원 안전 자료",
+        "특수형태근로종사자인 택배원을 위한 안전보건 기술자료",
+        "특고종사자 택배원 기술자료 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43810",
+      "concat": "[TITLE] 사업장 내 사고 발생 시 국민행동요령 5종\n[SUMMARY] 국민행동요령 5종 -폭발사고, 화학적인자, 산소결핍, 구조물 붕괴, 화재사고",
+      "query": [
+        "사고 발생 행동요령",
+        "사업장에서 폭발 화재 산소결핍 같은 사고가 났을 때 행동 방법",
+        "사업장 내 사고 발생 시 국민행동요령 5종 폭발사고 화학적인자 산소결핍 구조물 붕괴 화재사고"
+      ]
+    },
+    {
+      "record_id": "list1_43756",
+      "concat": "[TITLE] 특수형태근로종사자 교육 확대 시행 안내 OPS\n[SUMMARY] 산업안전보건법 시행령 개정에 따라 확대된 특수형태근로종사자 교육 대상 안내",
+      "query": [
+        "특고 교육 대상",
+        "특수형태근로종사자 안전보건교육 대상이 늘어난 내용",
+        "특수형태근로종사자 교육 확대 시행 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43740",
+      "concat": "[TITLE] 이동식사다리 안전작업지침\n[SUMMARY] 이동식사다리 안전작업지침 준수사항",
+      "query": [
+        "이동식사다리 안전",
+        "이동식 사다리로 작업할 때 지켜야 할 안전지침",
+        "이동식사다리 안전작업지침"
+      ]
+    },
+    {
+      "record_id": "list1_43659",
+      "concat": "[TITLE] 제조업 작은설비 끼임, 낮은높이 추락 사고 예방 OPS\n[SUMMARY] 소규모 제조업 사업장 대상 작은설비 끼임, 낮은높이 추락 사고 예방 OPS",
+      "query": [
+        "작은설비 끼임 사고",
+        "소규모 제조업에서 기계에 끼이거나 낮은 곳에서 떨어지는 사고 예방 자료",
+        "제조업 작은설비 끼임 낮은높이 추락 사고 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43658",
+      "concat": "[TITLE] [안전보건규칙 개정] 기타 개정사항\n[SUMMARY] 산업안전보건기준에 관한 규칙이 개정(2021.11.19.시행)됨에 따라 기타 개정사항을 안내해드립니다. - 지붕, 달비계, 벌목작업은 별도로 게시되어 있습니다.",
+      "query": [
+        "안전보건규칙 개정사항",
+        "지붕 달비계 벌목 말고 산업안전보건기준 규칙에서 바뀐 다른 내용",
+        "안전보건규칙 개정 기타 개정사항"
+      ]
+    },
+    {
+      "record_id": "list1_43653",
+      "concat": "[TITLE] [안전보건규칙 개정] 달비계작업 안전수칙\n[SUMMARY] 산업안전보건기준에 관한 규칙이 개정(2021.11.19.시행)됨에 따라 달비계 작업 안전수칙을 안내해드립니다.",
+      "query": [
+        "달비계 안전수칙",
+        "달비계 작업할 때 바뀐 안전기준과 지켜야 할 수칙",
+        "안전보건규칙 개정 달비계작업 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_44092",
+      "concat": "[TITLE] 크레인 재해사례와 위험요인\n[SUMMARY] 크레인의 재해유형, 재해사례, 위험요인, 안전점검표(체크리스트) 첨부",
+      "query": [
+        "크레인 사고 위험",
+        "크레인 작업 중 어떤 재해가 나는지 사례와 위험요인을 보고 싶어",
+        "크레인 재해사례 위험요인 안전점검표 체크리스트"
+      ]
+    }
+  ]
+}

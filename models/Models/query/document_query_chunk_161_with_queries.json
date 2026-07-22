@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 161,
+  "items": [
+    {
+      "record_id": "list3_44485",
+      "concat": "[TITLE] [보건] 예비산업인력 안전보건나침반 교재\n[SUMMARY] 예비산업인력(직업계고 학생)의 현장실습 중 산재위험으로부터 보호하기 위해 개발한 교육용 교재 - 2022년 개정판",
+      "query": [
+        "현장실습 보건 안전",
+        "직업계고 보건 분야 실습생 안전교육 자료",
+        "보건 예비산업인력 안전보건나침반 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44484",
+      "concat": "[TITLE] [기계] 예비산업인력 안전보건나침반 교재\n[SUMMARY] 예비산업인력(직업계고 학생)의 현장실습 중 산재위험으로부터 보호하기 위해 개발한 교육용 교재 - 2022년 개정판",
+      "query": [
+        "현장실습 기계 안전",
+        "직업계고 기계 분야 실습생 안전교육 자료",
+        "기계 예비산업인력 안전보건나침반 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44483",
+      "concat": "[TITLE] [전기] 예비산업인력 안전보건나침반 교재\n[SUMMARY] 예비산업인력(직업계고 학생)의 현장실습 중 산재위험으로부터 보호하기 위해 개발한 교육용 교재 - 2022년 개정판",
+      "query": [
+        "현장실습 전기 안전",
+        "직업계고 전기 분야 실습생 안전교육 자료",
+        "전기 예비산업인력 안전보건나침반 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44482",
+      "concat": "[TITLE] [건설] 예비산업인력 안전보건나침반 교재\n[SUMMARY] 예비산업인력(직업계고 학생)의 현장실습 중 산재위험으로부터 보호하기 위해 개발한 교육용 교재 - 2022년 개정판",
+      "query": [
+        "현장실습 건설 안전",
+        "직업계고 건설 분야 실습생 안전교육 자료",
+        "건설 예비산업인력 안전보건나침반 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44481",
+      "concat": "[TITLE] [공통] 예비산업인력 안전보건나침반 교재\n[SUMMARY] 예비산업인력(직업계고 학생)의 현장실습 중 산재위험으로부터 보호하기 위해 개발한 교육용 교재 - 2022년 개정판",
+      "query": [
+        "현장실습 안전교육",
+        "직업계고 학생이 현장실습 전에 보는 공통 안전보건 자료",
+        "공통 예비산업인력 안전보건나침반 교재"
+      ]
+    },
+    {
+      "record_id": "list3_45160",
+      "concat": "[TITLE] 중소규모 건설현장을 위한 최초, 상시평가 중심의 위험성평가 실행 안내서\n[SUMMARY] 중소규모 건설현장을 위한 최초-상시평가 중심의 위험성평가 실행 안내서 < 추가 참고자료 > ① 건설업 사고사망 핵심위험요인(SIF) 평가표 - URL 주소: https://www.kosha.or.kr/kosha/business/constructionsafety.do?mode=view&articleNo=442143&article.offset=0&articleLimit=10 ② 위험성평가 및 점검회의록 양식 - URL 주소: https://www.kosha.or.kr/kosha/business/constructionsafety.do?mode=view&articleNo=444581&article.offset=0&articleLimit=10 ③ 건설업 위험성평가 실시규정 - URL 주소: https://www.kosha.or.kr/kosha/business/constructionsafety.do?mode=view&articleNo=440483&article.offset=0&articleLimit=10",
+      "query": [
+        "건설현장 위험성평가",
+        "작은 건설현장에서 처음 하는 위험성평가 방법 자료",
+        "중소규모 건설현장 최초 상시평가 중심 위험성평가 실행 안내서 건설업 사고사망 핵심위험요인 SIF 평가표 점검회의록"
+      ]
+    },
+    {
+      "record_id": "list3_45277",
+      "concat": "[TITLE] 해외진출기업을 위한 안전보건 제도집(캄보디아, 2023년 개정판)\n[SUMMARY] 해외진출기업을 위한 안전보건 제도집(캄보디아, 2023년 개정판)",
+      "query": [
+        "캄보디아 안전보건",
+        "캄보디아에 진출한 회사가 알아야 할 안전보건 제도 자료",
+        "해외진출기업 안전보건 제도집 캄보디아 개정판"
+      ]
+    },
+    {
+      "record_id": "list3_45199",
+      "concat": "[TITLE] 2023년 위험성평가 이행점검 매뉴얼\n[SUMMARY] 공공기관 위험성평가 이행점검 매뉴얼입니다.",
+      "query": [
+        "위험성평가 점검",
+        "공공기관 위험성평가가 제대로 이행됐는지 확인하는 매뉴얼",
+        "위험성평가 이행점검 매뉴얼 공공기관"
+      ]
+    },
+    {
+      "record_id": "list3_45204",
+      "concat": "[TITLE] 2023년 월간 안전보건 8월호\n[SUMMARY] 2023년 월간 안전보건 8월호입니다. 이번 호에는 '기타금속제품제조업 또는 금속가공업'에 대한 재해사례 및 안전수칙 내용이 수록되어 있습니다. ※ e-book 보기 및 파일 다운로드: 안전보건 자료실>안전보건 e-book>월간 안전보건",
+      "query": [
+        "금속가공 안전수칙",
+        "금속제품 제조업 재해사례와 안전수칙이 나온 월간 자료",
+        "월간 안전보건 기타금속제품제조업 금속가공업 재해사례 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list3_45275",
+      "concat": "[TITLE] 2023년 월간 안전보건 9월호\n[SUMMARY] 2023년 월간 안전보건 9월호입니다. 이번 호에는 '위생 및 유사서비스업'에 대한 재해사례 및 안전수칙 내용이 수록되어 있습니다.",
+      "query": [
+        "위생업 안전수칙",
+        "위생 서비스업 재해사례와 안전수칙을 다룬 자료",
+        "월간 안전보건 위생 및 유사서비스업 재해사례 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list3_45125",
+      "concat": "[TITLE] 방호장치·보호구 품질대상(大賞) 수상제품(2023)\n[SUMMARY] 방호장치·보호구 품질대상(大賞) 수상제품 안내",
+      "query": [
+        "보호구 수상제품",
+        "방호장치와 보호구 품질이 좋은 수상 제품 목록",
+        "방호장치 보호구 품질대상 수상제품 안내"
+      ]
+    },
+    {
+      "record_id": "list3_45190",
+      "concat": "[TITLE] 해외진출기업을 위한 안전보건 제도집(베트남, 2023년 개정판)\n[SUMMARY] 해외진출기업을 위한 안전보건 제도집(베트남, 2023년 개정판)",
+      "query": [
+        "베트남 안전보건",
+        "베트남에 진출한 회사가 알아야 할 안전보건 제도 자료",
+        "해외진출기업 안전보건 제도집 베트남 개정판"
+      ]
+    },
+    {
+      "record_id": "list3_45051",
+      "concat": "[TITLE] 장마철 건설현장 안전보건 길잡이\n[SUMMARY] 장마철 건설현장 안전보건 길잡이",
+      "query": [
+        "장마철 건설현장",
+        "비 많이 오는 장마철 건설현장 안전관리 자료",
+        "장마철 건설현장 안전보건 길잡이"
+      ]
+    },
+    {
+      "record_id": "list3_45188",
+      "concat": "[TITLE] 고정식·이동식 산업용 로봇의 협동작업 안전 가이드\n[SUMMARY] 고정식·이동식 산업용 로봇의 협동작업 안전 가이드 - 배경, 적용범위, 로봇 사용시 필요한 충돌방지조치, 로봇 충돌방지조치 점검표 - 참고1. 협동작업 안전 가이드 관련 Q&A - 참고2, 3 고정식, 이동식 로봇 충돌방지조치 예시",
+      "query": [
+        "산업용 로봇 안전",
+        "고정식 이동식 로봇을 사람과 같이 쓸 때 필요한 안전조치 자료",
+        "고정식 이동식 산업용 로봇 협동작업 안전 가이드 충돌방지조치 점검표 Q&A"
+      ]
+    },
+    {
+      "record_id": "list3_45110",
+      "concat": "[TITLE] 근골격계질환 예방을 위한 개선사례집\n[SUMMARY] 근골격계질환 예방을 위한 개선사례집",
+      "query": [
+        "근골격계질환 예방",
+        "작업 중 허리 어깨 손목 부담을 줄인 개선 사례 자료",
+        "근골격계질환 예방 개선사례집"
+      ]
+    },
+    {
+      "record_id": "list3_43058",
+      "concat": "[TITLE] 안전보건 이슈리포트 특집호(직업성 암)\n[SUMMARY] 직업성 암 관련 연구원의 역학조사 수행 성과 및 향후 추진 방향",
+      "query": [
+        "직업성 암",
+        "일터에서 생기는 암 관련 조사 성과와 앞으로의 방향 자료",
+        "안전보건 이슈리포트 특집호 직업성 암 역학조사 추진 방향"
+      ]
+    },
+    {
+      "record_id": "list3_45077",
+      "concat": "[TITLE] 소규모사업장 안전보건관리체계 구축지원 가이드(2023)\n[SUMMARY] 소규모사업장 안전보건관리체계 구축지원 가이드(2023)",
+      "query": [
+        "소규모사업장 안전보건",
+        "작은 사업장에서 안전보건관리체계를 만드는 지원 자료",
+        "소규모사업장 안전보건관리체계 구축지원 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_45159",
+      "concat": "[TITLE] 2023년 월간 안전보건 7월호\n[SUMMARY] 2023년 월간 안전보건 7월호입니다. 이번 호 주제는 '도소매 및 소비자용품수리업'입니다. ※ e-book 보기 및 파일 다운로드: 안전보건 자료실>안전보건 e-book>월간 안전보건",
+      "query": [
+        "도소매 안전수칙",
+        "가게나 수리업에서 생기는 재해사례와 안전수칙 자료",
+        "월간 안전보건 도소매 및 소비자용품수리업"
+      ]
+    },
+    {
+      "record_id": "list3_43451",
+      "concat": "[TITLE] (발간안내)2021년 월간 안전보건 9월호\n[SUMMARY] 2021년 월간 안전보건 9월호가 발간됐습니다. 9월호 주제는 '고객응대근로자와 감정노동' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 아카이브>월간 안전보건 메뉴 접속",
+      "query": [
+        "감정노동 안전보건",
+        "고객응대근로자와 감정노동 문제를 다룬 월간 안전보건 자료",
+        "월간 안전보건 고객응대근로자 감정노동"
+      ]
+    },
+    {
+      "record_id": "list3_43334",
+      "concat": "[TITLE] 전문건설공종 안전관리 해체공사 안전작업절차서\n[SUMMARY] 전문건설공종 안전관리 해체공사 안전작업절차서",
+      "query": [
+        "해체공사 안전",
+        "전문건설 해체공사 작업을 안전하게 하는 절차 자료",
+        "전문건설공종 안전관리 해체공사 안전작업절차서"
+      ]
+    },
+    {
+      "record_id": "list3_43407",
+      "concat": "[TITLE] 울산항 재해 및 아차사고 사례집\n[SUMMARY] <제작기관 : 울산항만공사> 울산항만공사에서 제작한 울산항 재해 및 아차사고 사례집을 항만근로자의 동종재해 예방을 위해 공유합니다. **울산항만공사의 허가를 받지 않은 무단 편집 및 배포를 금합니다.**",
+      "query": [
+        "울산항 사고사례",
+        "항만근로자 사고와 아차사고를 예방하기 위한 울산항 사례 자료",
+        "울산항 재해 아차사고 사례집 항만근로자 동종재해 예방"
+      ]
+    },
+    {
+      "record_id": "list3_43384",
+      "concat": "[TITLE] (발간안내)2021년 월간 안전보건 8월호\n[SUMMARY] 2021년 월간 안전보건 8월호가 발간됐습니다. 8월호 주제는 '배달종사자' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 아카이브>월간 안전보건 메뉴 접속",
+      "query": [
+        "배달종사자 안전",
+        "배달 일하는 사람들의 안전보건을 다룬 월간 자료",
+        "월간 안전보건 배달종사자"
+      ]
+    },
+    {
+      "record_id": "list3_43340",
+      "concat": "[TITLE] 2021 사업장 보건관리 우수사례 발표대회\n[SUMMARY] 2021 사업장 보건관리 우수사례 발표대회",
+      "query": [
+        "보건관리 우수사례",
+        "사업장에서 보건관리를 잘한 사례 발표 자료",
+        "사업장 보건관리 우수사례 발표대회"
+      ]
+    },
+    {
+      "record_id": "list3_43329",
+      "concat": "[TITLE] 산업안전보건 연구 전문지 OSHRI:View 제1호\n[SUMMARY] 산업안전보건 연구 전문지 OSHRI:View 제1호 - 구성 섹션 : 이슈, 프랙티스, 브리프, 연구원 소식 등",
+      "query": [
+        "산업안전보건 연구지",
+        "안전보건 연구 이슈와 사례를 담은 OSHRI View 첫 자료",
+        "산업안전보건 연구 전문지 OSHRI View 이슈 프랙티스 브리프 연구원 소식"
+      ]
+    },
+    {
+      "record_id": "list3_42977",
+      "concat": "[TITLE] 2021 안전보건 공생협력 프로그램 설명회 자료(책자)\n[SUMMARY] 안전보건 공생협력 프로그램 설명회 자료 - 사업장 대상 사업 홍보",
+      "query": [
+        "공생협력 설명회",
+        "사업장 대상 안전보건 공생협력 프로그램 안내 자료",
+        "안전보건 공생협력 프로그램 설명회 자료 책자"
+      ]
+    },
+    {
+      "record_id": "list3_43205",
+      "concat": "[TITLE] S마크 안전인증 문답집\n[SUMMARY] S마크 안전인증 관련 문답집 ** 본 책자에 수록된 내용과 S마크 인증기준 등 보다 상세한 자료는 안전보건공단 인증원 홈페이지를 참고하시기 바랍니다** (https://miis.kosha.or.kr/main.do)",
+      "query": [
+        "S마크 인증 질문",
+        "S마크 안전인증 관련 자주 묻는 질문 자료",
+        "S마크 안전인증 문답집 인증기준"
+      ]
+    },
+    {
+      "record_id": "list3_43335",
+      "concat": "[TITLE] (발간안내)2021년 월간 안전보건 7월호\n[SUMMARY] 2021년 월간 안전보건 7월호가 발간됐습니다. 7월호 주제는 '폭염' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 아카이브>월간 안전보건 메뉴 접속",
+      "query": [
+        "폭염 안전보건",
+        "더운 날씨 폭염을 주제로 한 월간 안전보건 자료",
+        "월간 안전보건 폭염"
+      ]
+    },
+    {
+      "record_id": "list3_43255",
+      "concat": "[TITLE] 2021년 화학사고 사례연구(2차전지용 Mn용해조 폭발)\n[SUMMARY] 충북권 2021년 화학사고 사례연구(2차전지용 Mn용해조 폭발)",
+      "query": [
+        "2차전지 폭발사고",
+        "배터리 공정에서 망간 용해조가 폭발한 화학사고 사례",
+        "화학사고 사례연구 2차전지용 Mn용해조 폭발"
+      ]
+    },
+    {
+      "record_id": "list3_43827",
+      "concat": "[TITLE] 2021 사례로 보는 중대재해예방 가이드\n[SUMMARY] 2021 사례로 보는 중대재해예방 가이드",
+      "query": [
+        "중대재해 예방사례",
+        "사례를 통해 중대재해를 예방하는 방법을 설명한 가이드",
+        "사례로 보는 중대재해예방 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_43767",
+      "concat": "[TITLE] 근로자 건강진단 실무지침 제1권\n[SUMMARY] 근로자 건강진단 실시기준(고용노동부고시 제2020-60호) 제9조제1항에 의거하여 발간하는 근로자 건강진단 실무지침 제1권(특수건강진단 개요)",
+      "query": [
+        "근로자 건강진단",
+        "특수건강진단 개요와 실시기준을 설명한 실무 자료",
+        "근로자 건강진단 실무지침 특수건강진단 개요 고용노동부고시 제2020-60호"
+      ]
+    }
+  ]
+}

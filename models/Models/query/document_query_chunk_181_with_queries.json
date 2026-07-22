@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 181,
+  "items": [
+    {
+      "record_id": "list3_31736",
+      "concat": "[TITLE] 2012년 연구보고서 야간작업 종사자의 특수건강진단 항목 및 진단방법 개발연구\n[SUMMARY] 야간작업 종사자의 특수건강진단 항목 및 진단방법 개발연구에 관한 보고서",
+      "query": [
+        "야간근무 건강검진",
+        "밤에 일하는 사람 특수건강진단 검사 항목 찾기",
+        "야간작업 종사자 특수건강진단 항목 진단방법 개발연구"
+      ]
+    },
+    {
+      "record_id": "list3_32403",
+      "concat": "[TITLE] (베트남)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Vietnamese)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "외국인 제조업 안전",
+        "베트남 근로자에게 제조업 사고예방 교육할 자료 찾기",
+        "베트남 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide Foreign Workers Vietnamese"
+      ]
+    },
+    {
+      "record_id": "list3_32418",
+      "concat": "[TITLE] 여성근로자의 안전과 건강\n[SUMMARY] 여성근로자의 안전과 건강 여성근로자의 특성 02 여성근로자의 취업 및 재해 현황 06 여성근로자의 재해 발생 유형·업종별 사례 14 직무스트레스 관리 32",
+      "query": [
+        "여성근로자 안전 건강",
+        "일하는 여성의 재해 사례와 직무스트레스 관리 자료",
+        "여성근로자 안전 건강 재해 현황 직무스트레스 관리"
+      ]
+    },
+    {
+      "record_id": "list3_32417",
+      "concat": "[TITLE] 장년근로자의 안전과 건강\n[SUMMARY] 장년근로자의 안전과 건강 장년근로자의 특성 업종 . 유형별 재해 현황 및 사례 건강 및 체력 관리",
+      "query": [
+        "장년근로자 안전 건강",
+        "나이 많은 근로자의 재해 예방과 건강관리 자료",
+        "장년근로자 안전 건강 재해 현황 건강 체력 관리"
+      ]
+    },
+    {
+      "record_id": "list3_32404",
+      "concat": "[TITLE] (Construction Industry) Safety guide for foreign workers (Vietnamese) (건설업)외국인근로자를 위한 안전작업길잡이(베트남)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "외국인 건설 안전",
+        "베트남 근로자에게 건설현장 작업별 안전교육할 자료",
+        "건설업 외국인근로자 안전작업길잡이 베트남 Construction Industry Safety Guide Foreign Workers Vietnamese"
+      ]
+    },
+    {
+      "record_id": "list3_33317",
+      "concat": "[TITLE] 현장 작업자를 위한 수공구작업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 수공구작업 안전에 대한 내용",
+      "query": [
+        "수공구 작업 안전",
+        "현장에서 손공구 사용할 때 안전하게 작업하는 방법",
+        "현장 작업자 수공구작업 안전 안전보건교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_33324",
+      "concat": "[TITLE] 현장 작업자를 위한 도소매 및 소비자용품수리업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 도소매 및 소비자용품수리업 안전에 대한 내용",
+      "query": [
+        "도소매업 안전",
+        "가게나 수리업 현장에서 일하는 근로자 안전교육 자료",
+        "현장 작업자 도소매 소비자용품수리업 안전 안전보건교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_33313",
+      "concat": "[TITLE] 현장 작업자를 위한 운반작업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 운반(인력운반, 동력운반)작업 안전에 대한 내용",
+      "query": [
+        "운반작업 안전",
+        "물건을 손으로 나르거나 장비로 옮길 때 안전수칙 자료",
+        "현장 작업자 운반작업 안전 인력운반 동력운반 안전보건교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_33310",
+      "concat": "[TITLE] 현장 작업자를 위한 건강관리\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 근로자 건강관리 (건강진단, 뇌심혈관질환, 근골격계질환)에 대한 내용",
+      "query": [
+        "근로자 건강관리",
+        "근로자 건강진단과 뇌심혈관질환 근골격계질환 관리 자료",
+        "현장 작업자 건강관리 건강진단 뇌심혈관질환 근골격계질환 안전보건교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_33316",
+      "concat": "[TITLE] 현장 작업자를 위한 프레스작업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 프레스작업 안전에 대한 내용",
+      "query": [
+        "프레스 작업 안전",
+        "공장에서 프레스 기계 작업할 때 사고 예방 교육 자료",
+        "현장 작업자 프레스작업 안전 안전보건교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_33312",
+      "concat": "[TITLE] 현장 작업자를 위한 기계가공작업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 기계가공작업 안전에 대한 내용",
+      "query": [
+        "기계가공 안전",
+        "절삭이나 가공기계 작업할 때 다치지 않게 하는 안전수칙",
+        "현장 작업자 기계가공작업 안전 안전보건교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_33321",
+      "concat": "[TITLE] 현장 작업자를 위한 위생 및 유사서비스업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 위생 및 유사서비스업 안전에 대한 내용",
+      "query": [
+        "위생서비스업 안전",
+        "청소나 위생 관련 서비스업 근로자 안전교육 자료",
+        "현장 작업자 위생 유사서비스업 안전 안전보건교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_33308",
+      "concat": "[TITLE] 현장 작업자를 위한 산업안전보건법\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 산업안전보건법(안전보건표지 포함)에 대한 내용",
+      "query": [
+        "산업안전보건법 교육",
+        "현장 근로자에게 산업안전보건법과 안전보건표지를 설명하는 자료",
+        "현장 작업자 산업안전보건법 안전보건표지 안전보건교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_33588",
+      "concat": "[TITLE] 금속 및 그 화합물의 노출기준 적용에 관한 연구\n[SUMMARY] 작업환경측정대상 금속 및 그 화합물에 대한 노출기준 설정을 위해 고려된 제반 사항을 검토하여 작업환경평가시 올바른 노출기준 적용방안을 연구",
+      "query": [
+        "금속 노출기준",
+        "작업환경측정에서 금속 물질 노출기준을 어떻게 적용하는지 찾기",
+        "금속 화합물 노출기준 적용 연구 작업환경측정 작업환경평가"
+      ]
+    },
+    {
+      "record_id": "list3_33630",
+      "concat": "[TITLE] 지방자치단체 공무원 교육교재\n[SUMMARY] 지방자치단체 공무원 교육 교재 - 산재예방의 필요성 및 의의 - 지방자치단체에서 꼭 지켜야할 산업안전보건법 - 유해위험요인별 재해예방 - 안전보건지침 및 재해사례 - 주요 산업안전보건법령",
+      "query": [
+        "공무원 산재예방 교육",
+        "지방자치단체 공무원이 알아야 할 산업안전보건법 교육자료",
+        "지방자치단체 공무원 교육교재 산재예방 산업안전보건법 재해예방"
+      ]
+    },
+    {
+      "record_id": "list3_32527",
+      "concat": "[TITLE] 안전보건지킴이 보수교육 교재(제조업)\n[SUMMARY] 산업재해발생시 처리실무, 위험성평가제도 개요, 위험성평가방법 및 절차 등에 관하여 설명함",
+      "query": [
+        "안전보건지킴이 교육",
+        "제조업 안전보건지킴이 보수교육과 위험성평가 자료",
+        "안전보건지킴이 보수교육 교재 제조업 산업재해 처리실무 위험성평가"
+      ]
+    },
+    {
+      "record_id": "list3_31432",
+      "concat": "[TITLE] GHS 기준의 유해위험성 분류 및 물질안전보건자료 작성\n[SUMMARY] 본 연구에서는 고용노동부 고시 제 2012-14호와 유엔경제사회이사회의 최신의 GHS 지침서(4차 버전)에 적합한 형태로 유해위험성을 분류하며, 이에 대한 결과를 공단에 제출한다. 그리고 MSDS 에디팅 프로그램을 활용하여 600종에 대해 MSDS를 신규 작성하여, 사업장의 근로자들에게 화학물질의 유해위험성을 제공하고, 이에 따른 안전 보건자료를 제공하여 산업재해 예방에 기여하고자 한다.",
+      "query": [
+        "GHS MSDS 작성",
+        "화학물질 유해위험성 분류와 물질안전보건자료 작성 방법",
+        "GHS 기준 유해위험성 분류 물질안전보건자료 MSDS 작성"
+      ]
+    },
+    {
+      "record_id": "list3_32559",
+      "concat": "[TITLE] 산업재해예방 안전수칙 가이드북\n[SUMMARY] 산업재해예방을 위한 4대 추진과제 및 17대 실천수칙을 안내, 홍보하기 위한 자료 필수 안전수칙 이크(IECR)에 대한 설명",
+      "query": [
+        "산재예방 안전수칙",
+        "사업장에서 꼭 지켜야 할 산업재해 예방 안전수칙 자료",
+        "산업재해예방 안전수칙 가이드북 필수 안전수칙 IECR"
+      ]
+    },
+    {
+      "record_id": "list3_31433",
+      "concat": "[TITLE] 유해화학물질의 유해성 위험성 평가 연구(I)\n[SUMMARY] 1) 근로자가 해당물질에 노출됨으로써 인체에 유해한 영향이 발생하게 될 개연성을 평가하여 산업안전보건법 제 39조 (유해인자의 관리 등) 및 시행규칙 제 81조(유해인자의 분류·관리)와 관련 관리수준의 적정성을 검증하고 관리수준의 제개정이 필요한 경우 적절한 관리수준을 제안 2) 국가 화학물질 관리수준의 과학적 근거 제공",
+      "query": [
+        "유해화학물질 위험성평가",
+        "화학물질이 인체에 해로운지 평가하고 관리수준을 정하는 연구",
+        "유해화학물질 유해성 위험성 평가 연구 산업안전보건법 관리수준"
+      ]
+    },
+    {
+      "record_id": "list3_31435",
+      "concat": "[TITLE] 유해화학물질의 유해성 위험성 평가 연구(III)\n[SUMMARY] 본 연구에서는 2-methylpentane(107-83-5), VM & P Naphtha (8032-32-4), Silicon Carbide(409-21-2), 4,4-methylene bis(2-chloroaniline)(101-14-4) 4개 물질에 대한 유해성 위험성 평가를 통해 현재 산업보건법상 노출기준물질로 설정되어 있는 물질 중 관리기준을 강화할 필요성이 있는 물질에 대해 고찰하고 관리기준의 상향조정이 필요할 경우 사회경제성평가를 통해 비용-편익면에서의 가능성을 함께 검토하고자 하였다.",
+      "query": [
+        "화학물질 유해성 평가",
+        "노출기준 물질의 관리기준을 강화해야 하는지 검토한 연구",
+        "유해화학물질 유해성 위험성 평가 연구 2-methylpentane VM & P Naphtha Silicon Carbide 4,4-methylene bis(2-chloroaniline)"
+      ]
+    },
+    {
+      "record_id": "list3_31434",
+      "concat": "[TITLE] 유해화학물질의 유해성 위험성 평가 연구(II)\n[SUMMARY] 본 연구의 목적은 화학물질의 유해성평가(용량-반응평가), 작업장에서의 노출평가 및 위험성 평가를 통하여 산업안전보건법상 관리 수준의 적정성을 검증하고 관리수준의 제·개정이 필요한 경우 적절한 관리수준을 제안하는 것이다.",
+      "query": [
+        "화학물질 위험성 평가",
+        "작업장 화학물질 노출평가와 관리수준 적정성 검토 자료",
+        "유해화학물질 유해성 위험성 평가 연구 용량반응평가 노출평가 관리수준"
+      ]
+    },
+    {
+      "record_id": "list3_31438",
+      "concat": "[TITLE] 국내 화학설비의 휴먼에러 사고방지를 위한 예방기술 및 관리개선 방안 연구\n[SUMMARY] - 화학설비 휴먼에러 분류체계 개발 - 국내 및 국외 화학설비의 중대산업사고 휴먼에러 분석 - 국내 사업장 현황 및 수요 조사 - 화학설비의 작업자 신뢰성 평가기법 개발 - 화학설비의 휴먼에러사고 방지를 위한 개선방안 제시 - 국내 화학설비의 인적요인 관련 개선활동 평가방안 제시",
+      "query": [
+        "화학설비 휴먼에러",
+        "화학공장에서 사람 실수로 생기는 사고를 줄이는 방법 연구",
+        "국내 화학설비 휴먼에러 사고방지 예방기술 관리개선 방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31436",
+      "concat": "[TITLE] 고위험물질의 관리기준 상세검토 연구\n[SUMMARY] 본 연구에서는 국내유통 화학물질 중 발암성, 변이원성, 생식독성, 표적장기독성 등 유해성이 높거나 작업환경측정 자료 분석 결과, 위험성이 높은 고위험물질에 대하여 유해성 평가자료의 확인 등 상세검토 및 분석을 실시하여 현행 관리수준의 적정성 평가 및 규제수준 제·개정 제안하고자 한다.",
+      "query": [
+        "고위험물질 관리기준",
+        "발암성 등 유해성이 큰 화학물질 관리기준을 검토한 자료",
+        "고위험물질 관리기준 상세검토 연구 발암성 변이원성 생식독성 표적장기독성"
+      ]
+    },
+    {
+      "record_id": "list3_31346",
+      "concat": "[TITLE] 유럽연합의 근로환경 정책 활용 방안에 대한 연구\n[SUMMARY] 유럽 취업자 근로환경조사는 유럽 근로환경 변화에 대한 시계열적 비교를 통해 현재를 평가하고 미래를 예측할 수 있어 유럽연합 수준 뿐 만 아니라 EU 회원국들의 정책결정 및 평가에 중요한 근거 자료로 활용.",
+      "query": [
+        "유럽 근로환경 정책",
+        "유럽의 근로환경조사를 산업안전보건 정책에 활용하는 방법",
+        "유럽연합 근로환경 정책 활용 방안 연구 유럽 취업자 근로환경조사"
+      ]
+    },
+    {
+      "record_id": "list3_31437",
+      "concat": "[TITLE] 살균제 에어로졸의 유해성 및 작업장 사용실태 조사 연구\n[SUMMARY] 1) 국내 바이오사이드 규제와 사용량 2) 국외 바이오사이드 규제 3) 바이오사이드 연구 및 노출사례 분석 4) 직업노출평가 우선순위 바이오사이드 선정 5) 대상 살균제 에어로졸에 대한 모니터링 기법 개발 및 노출평가 6) 바이오사이드 노출평가 7) 직업적 노출의 유해성/위험성 평가 및 규제 가능성 검토",
+      "query": [
+        "살균제 에어로졸",
+        "작업장에서 뿌리는 살균제 노출과 유해성을 조사한 연구",
+        "살균제 에어로졸 유해성 작업장 사용실태 조사 연구 바이오사이드 노출평가"
+      ]
+    },
+    {
+      "record_id": "list3_31294",
+      "concat": "[TITLE] 유해화학물질 바로 알기\n[SUMMARY] 사업주 준수사항, 근로자 준수사항, 유해화학물질, 포름알데히드(Formaldehyde), 벤젠(Benzene), 크롬(Chromium), 카드뮴(Cadmium)·, 니켈(Nickel), 디메틸포름아미드(DMF, N, N-Dime), 트리클로로에틸렌(TCE, Trichloethylene) , 노말헥산(n-Hexane), 톨루엔 디이소시아네이트 (Toluene Diisocianate) 석면(Asbestos) 아크릴아미드(Acrylamide) 스티렌(Styrene) 망간(Manganese) 톨루엔(Toluene) 수은(Mecury) 메틸 에틸 케톤 (MEK, Methyl Ethyl Ketone) 브롬화메틸(Methyl Bromide) 베릴륨(Beryllium)페놀(Phenol)",
+      "query": [
+        "유해화학물질 정보",
+        "벤젠 포름알데히드 석면 같은 유해화학물질을 쉽게 설명한 자료",
+        "유해화학물질 바로 알기 사업주 근로자 준수사항 포름알데히드 벤젠 크롬 카드뮴 니켈 DMF TCE"
+      ]
+    },
+    {
+      "record_id": "list3_31719",
+      "concat": "[TITLE] 산재예방사업 심층평가(Ⅰ)\n[SUMMARY] 산재예방사업의 심층평가를 위한 평가관점, 평가지표, 평가요소 등을 도출하고, 심층평가를 위한 세부 평가방법, 평가도구, 상호비교방법 등을 개발 및 검토하여 객관적이고 과학적인 평가방법을 개발하고자 수행된 연구",
+      "query": [
+        "산재예방사업 평가",
+        "산업재해 예방사업이 효과가 있는지 평가하는 방법 연구",
+        "산재예방사업 심층평가 평가지표 평가요소 평가방법 평가도구"
+      ]
+    },
+    {
+      "record_id": "list3_31342",
+      "concat": "[TITLE] 근로환경조사를 활용한 산재통계 분석 강화 방안 연구\n[SUMMARY] 2012년 정책연구과제 - 현 근로환경조사에서 자료 수집 및 분석 과정 등에서 발생할 수 있는 문제점들을 정리하고 근로환경조사가 발전할 수 있는 방향을 모색함으로서 근로환경조사를 이용한 보다 실질적인 산업재해통계가 작성될 수 있는 방안을 제시한다.",
+      "query": [
+        "근로환경조사 산재통계",
+        "근로환경조사 자료로 산업재해 통계를 더 잘 분석하는 방법",
+        "근로환경조사 활용 산재통계 분석 강화 방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_32401",
+      "concat": "[TITLE] (우즈벡)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Uzbek)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "외국인 제조업 안전",
+        "우즈벡 근로자에게 제조업 사고예방 교육할 자료 찾기",
+        "우즈벡 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide Foreign Workers Uzbek"
+      ]
+    },
+    {
+      "record_id": "list3_31723",
+      "concat": "[TITLE] 산업안전보건 인력수급 전망 및 원활한 수급방안에 관한 연구\n[SUMMARY] 국가기술자격증을 가진 직종의 배출과정 및 산업안전보건분야에서의 공급 현황을 파악하고, 정책 수행을 위한 기초 자료 제공을 목적으로 수행된 연구",
+      "query": [
+        "안전보건 인력수급",
+        "산업안전보건 분야 인력이 앞으로 얼마나 필요할지 전망한 연구",
+        "산업안전보건 인력수급 전망 원활한 수급방안 연구 국가기술자격증"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 175,
+  "items": [
+    {
+      "record_id": "list3_36316",
+      "concat": "[TITLE] (태국)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "태국 근로자 건강관리",
+        "태국인 노동자가 현장에서 건강검진과 질병 관리를 배울 자료",
+        "태국 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_36314",
+      "concat": "[TITLE] (파키스탄)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "파키스탄 근로자 건강관리",
+        "파키스탄 노동자를 위한 현장 건강관리 교육자료",
+        "파키스탄 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_36315",
+      "concat": "[TITLE] (스리랑카)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "스리랑카 근로자 건강관리",
+        "스리랑카 노동자가 현장에서 건강진단과 질환 관리를 배우는 자료",
+        "스리랑카 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_34393",
+      "concat": "[TITLE] GHS MSDS 이행관리 및 영업비밀 적용실태 조사 연구\n[SUMMARY] 국내 MSDS의 신뢰성 향상을 통한 화학물질 정보전달 체계의 개선에 기여하고자 함.",
+      "query": [
+        "MSDS 영업비밀",
+        "화학물질 자료에서 영업비밀 표시가 제대로 되는지 조사한 연구",
+        "GHS MSDS 이행관리 영업비밀 적용실태 조사 연구"
+      ]
+    },
+    {
+      "record_id": "list3_36311",
+      "concat": "[TITLE] (중국)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "중국 근로자 건강관리",
+        "중국인 노동자를 위한 현장 건강관리와 건강진단 자료",
+        "중국 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_34394",
+      "concat": "[TITLE] 세포배양 및 실험동물을 이용한 란탄산화물(La2O3)의 독성연구\n[SUMMARY] 란탄의 유해성, 위험성 평가를 위한 독성학적 특성을 규명하기 위해 란탄의 독성확인 1단계 연구로 입자크기가 다른 산화란탄을 이용하여 세포독성 및 기도주입에 의한 독성을 확인하고자 함.",
+      "query": [
+        "란탄산화물 독성",
+        "산화란탄이 세포나 실험동물에 어떤 독성이 있는지 본 연구",
+        "세포배양 실험동물 란탄산화물 La2O3 독성연구"
+      ]
+    },
+    {
+      "record_id": "list3_36313",
+      "concat": "[TITLE] (몽골)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "몽골 근로자 건강관리",
+        "몽골 노동자가 현장에서 건강을 관리하는 방법을 설명한 자료",
+        "몽골 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_34397",
+      "concat": "[TITLE] 만성발암성시험 표준작업지침서 개발 및 시험대상물질 선정에 관한 연구\n[SUMMARY] 만성발암성시험 표준작업지침서 개발 및 시험대상물질 선정에 관한 연구",
+      "query": [
+        "발암성시험 지침",
+        "만성 발암성 시험을 어떻게 표준화할지 정한 연구 자료",
+        "만성발암성시험 표준작업지침서 시험대상물질 선정 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34395",
+      "concat": "[TITLE] 만성흡입독성시험시설의 운영 및 신뢰성 확보방안 연구\n[SUMMARY] 만성흡입독성시험시설에서 수행되는 독성시험의 신뢰성을 확보하기 위한 시스템을 확보하고자 함.",
+      "query": [
+        "흡입독성시험 시설",
+        "흡입독성 시험시설을 믿을 수 있게 운영하는 방법 연구",
+        "만성흡입독성시험시설 운영 신뢰성 확보방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34396",
+      "concat": "[TITLE] 나노물질 분진 날림(Dustiness) 및 작업환경 평가 연구\n[SUMMARY] 나노물질 파우더가 공기 중으로 분산되는 정도와 나노물질의 분진날림을 측정하는 연구가 필요함을 알리고자 함.",
+      "query": [
+        "나노물질 분진날림",
+        "나노물질 가루가 작업장 공기 중에 퍼지는 정도를 평가한 연구",
+        "나노물질 분진 날림 Dustiness 작업환경 평가 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34628",
+      "concat": "[TITLE] 디젤배출물 노출 산업 및 인구 추정 연구\n[SUMMARY] 우리나라 디젤엔진배출물이 발생되는 산업별 근로자 수를 측정하고 일부 산업의 직종에서 디젤엔진배출물 노출수준을 평가하고자 함.",
+      "query": [
+        "디젤배출물 노출",
+        "디젤엔진 배출물에 노출되는 업종과 근로자 수를 추정한 연구",
+        "디젤배출물 노출 산업 인구 추정 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34959",
+      "concat": "[TITLE] 석면함유제품(금지유예품) 사용실태 조사 및 대체품 개발방안 연구\n[SUMMARY] 석면함유제품 사용의 완전금지를 위하여 금지유예품의 사용실태를 조사 및 대체촉진 방안",
+      "query": [
+        "석면제품 대체품",
+        "아직 쓰는 석면 함유 제품 실태와 대체 방법을 조사한 자료",
+        "석면함유제품 금지유예품 사용실태 조사 대체품 개발방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34966",
+      "concat": "[TITLE] 이동식_크레인_사망재해_원인분석_연구\n[SUMMARY] o 사망 사고 재해예방을 위해 이동식 크레인을 선정하여 연구 o 이동식 크레인에서 넘어짐의 예방을 위해 과경사 방지장치 등을 제시 o 각종 재해예방을 위한 안전보건기준에 관한 규칙의 개정안을 제시 o 인간공학적 관점의 가시성, 일관성, 양립성을 제시",
+      "query": [
+        "이동식 크레인 사고",
+        "이동식 크레인 사망사고 원인과 예방장치를 분석한 연구",
+        "이동식 크레인 사망재해 원인분석 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34957",
+      "concat": "[TITLE] 안전보건진단기관 내실화 및 평가제도 도입방안 연구\n[SUMMARY] 안전보건진단기관 신뢰성 및 내실화 등의 수준향상을 위하여 안전·보건진단기관 평가제도 연구",
+      "query": [
+        "안전보건진단기관 평가",
+        "안전보건 진단기관을 평가하고 내실화하는 제도 연구",
+        "안전보건진단기관 내실화 평가제도 도입방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34958",
+      "concat": "[TITLE] 풍속에 따른 크레인 작업중지 기준에 관한 연구\n[SUMMARY] 풍속에 따른 크레인 작업중지 기준에 관한 연구 보고서",
+      "query": [
+        "크레인 풍속 기준",
+        "바람이 어느 정도 불 때 크레인 작업을 멈춰야 하는지 연구한 자료",
+        "풍속 크레인 작업중지 기준 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34909",
+      "concat": "[TITLE] 식품가공기계의 안전성 향상 방안 연구(골절기 사용 사업장을 중심으로)\n[SUMMARY] 식품가공기계 관련한 재해특성 분석 및 골절기 사용 사업장의 사용실태 연구",
+      "query": [
+        "골절기 안전",
+        "식품가공기계 중 골절기 사용 사업장의 안전 문제를 다룬 연구",
+        "식품가공기계 안전성 향상 방안 골절기 사용 사업장 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34832",
+      "concat": "[TITLE] 시뮬레이션 기법을 활용한 화학사고 예방 연구\n[SUMMARY] 화학공장 안전확보 방안 제시 및 화학사고 조사시 과학적 원인조사를 위한 분석방법 제시",
+      "query": [
+        "화학사고 시뮬레이션",
+        "화학공장 사고 예방과 원인조사에 시뮬레이션을 활용한 연구",
+        "시뮬레이션 기법 화학사고 예방 연구"
+      ]
+    },
+    {
+      "record_id": "list3_35680",
+      "concat": "[TITLE] 현장작업자를 위한 기계ㆍ기구, 설비의 정비ㆍ보수 작업안전\n[SUMMARY] 현장작업자를 위한 기계ㆍ기구, 설비의 정비ㆍ보수 작업안전",
+      "query": [
+        "정비 보수 작업안전",
+        "현장 작업자가 기계나 설비를 정비할 때 지켜야 할 안전자료",
+        "현장작업자 기계 기구 설비 정비 보수 작업안전"
+      ]
+    },
+    {
+      "record_id": "list3_36312",
+      "concat": "[TITLE] (인도네시아)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "인도네시아 근로자 건강관리",
+        "인도네시아 노동자를 위한 현장 건강진단과 질환 관리 자료",
+        "인도네시아 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_35679",
+      "concat": "[TITLE] 현장작업자를 위한 줄걸이 용구의 안전한 사용과 관리\n[SUMMARY] 현장작업자를 위한 줄걸이 용구의 안전한 사용과 관리",
+      "query": [
+        "줄걸이 용구 안전",
+        "현장 작업자가 줄걸이 용구를 안전하게 쓰고 관리하는 방법",
+        "현장작업자 줄걸이 용구 안전한 사용 관리"
+      ]
+    },
+    {
+      "record_id": "list3_35955",
+      "concat": "[TITLE] 도소매업 - 장년근로자의 안전보건\n[SUMMARY] 도소매업 - 장년근로자의 안전보건",
+      "query": [
+        "도소매 장년근로자",
+        "도소매업에서 나이 든 근로자의 안전보건을 다룬 자료",
+        "도소매업 장년근로자 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_35678",
+      "concat": "[TITLE] 현장작업자를 위한 가스용접 작업안전\n[SUMMARY] 현장작업자를 위한 가스용접 작업안전",
+      "query": [
+        "가스용접 안전",
+        "현장 작업자가 가스용접 작업을 안전하게 하는 방법",
+        "현장작업자 가스용접 작업안전"
+      ]
+    },
+    {
+      "record_id": "list3_35956",
+      "concat": "[TITLE] 보건 및 사회복지사업 - 장년근로자의 안전보건\n[SUMMARY] 보건 및 사회복지사업 - 장년근로자의 안전보건",
+      "query": [
+        "사회복지 장년근로자",
+        "보건복지 분야 장년근로자의 안전보건 자료",
+        "보건 사회복지사업 장년근로자 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_35958",
+      "concat": "[TITLE] 임업 - 장년근로자의 안전보건\n[SUMMARY] 임업 - 장년근로자의 안전보건",
+      "query": [
+        "임업 장년근로자",
+        "임업에서 일하는 장년근로자 안전보건 자료",
+        "임업 장년근로자 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_35957",
+      "concat": "[TITLE] 음식 및 숙박업 - 장년근로자의 안전보건\n[SUMMARY] 음식 및 숙박업 - 장년근로자의 안전보건",
+      "query": [
+        "음식 숙박 장년근로자",
+        "음식점이나 숙박업에서 일하는 장년근로자 안전보건 자료",
+        "음식 숙박업 장년근로자 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_35959",
+      "concat": "[TITLE] 제조업 - 장년근로자의 안전보건\n[SUMMARY] 제조업 - 장년근로자의 안전보건",
+      "query": [
+        "제조업 장년근로자",
+        "제조업에서 일하는 장년근로자의 안전보건 자료",
+        "제조업 장년근로자 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_35589",
+      "concat": "[TITLE] 안전보건 연구실용화 RERORT(제2호)\n[SUMMARY] 산업안전보건연구원에서 산업안전보건 연구결과가 기계,기구 및 설비, 작업환경 등 산업현장에 적용되거나 산업안전보건정책에 반영된 실용화 사례를 보고서 형태로 발간",
+      "query": [
+        "안전보건 연구 실용화",
+        "산업안전보건 연구가 현장에 적용된 사례를 모은 보고서",
+        "안전보건 연구실용화 REPORT 산업안전보건 연구결과 실용화 사례"
+      ]
+    },
+    {
+      "record_id": "list3_34969",
+      "concat": "[TITLE] 도급금지 대상 등 선정 및 산안법령 개정을 위한 규제영향분석\n[SUMMARY] 도급인가의 구체적인 대상 선정과 그에 따른 규제영향 분석",
+      "query": [
+        "도급금지 규제영향",
+        "도급을 금지하거나 인가할 대상을 정하고 법령 개정을 검토한 연구",
+        "도급금지 대상 선정 산안법령 개정 규제영향분석"
+      ]
+    },
+    {
+      "record_id": "list3_34961",
+      "concat": "[TITLE] 가구제조업 유해요인 발생 특성에 따른 환기방안 연구\n[SUMMARY] 가구제조업의 재단 및 가공, 연마, 접착, 도장 등의 가구 제조과정에서 발생되는 목재분진 및 크실렌, 톨루엔, 포름알데히드, 이소시아네이트 등의 각종 유기화합물을 제어할 수 있는 환기개선 방안을 제시함으로써 가구제조업의 작업환경관리에 활용",
+      "query": [
+        "가구공장 환기",
+        "가구 제조 작업에서 목재분진과 유기화합물을 줄이는 환기 연구",
+        "가구제조업 유해요인 발생 특성 환기방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34964",
+      "concat": "[TITLE] 능동시료채취기와 수동시료채취기의 유기용제 측정효율 비교 2\n[SUMMARY] 능동시료채취기와 수동시료채취기의 유기용제 측정효율 비교 2 - 작업환경측정에 가장 보편적으로 사용되고 있는 활성탄관을 이용하는 능동시료채취 방법과 수동시료채취 방법 간의 유기용제 측정효율 등을 2013년도의 실험실적 평가에 이어 현장평가를 중심으로 그 차이를 확인하고 이를 통해 관련 기준마련을 위한 기초자료를 제공할 목적으로 실시",
+      "query": [
+        "유기용제 측정효율",
+        "능동식과 수동식 시료채취 방법의 유기용제 측정 차이를 비교한 연구",
+        "능동시료채취기 수동시료채취기 유기용제 측정효율 비교"
+      ]
+    }
+  ]
+}

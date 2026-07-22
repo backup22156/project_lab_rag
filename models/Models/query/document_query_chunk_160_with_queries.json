@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 160,
+  "items": [
+    {
+      "record_id": "list3_44790",
+      "concat": "[TITLE] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드<일반 목적용 기계 제조업(C, 291)>\n[SUMMARY] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드<일반 목적용 기계 제조업(C, 291)> 사업주가 쉽게 따라하는 안전보건의무 확보방안",
+      "query": [
+        "기계 제조업 안전",
+        "작은 기계 제조 사업장에서 안전보건관리체계를 어떻게 갖춰야 하는지 찾고 싶다",
+        "50인 미만 중소기업 안전보건관리체계 구축 가이드 일반 목적용 기계 제조업 C 291"
+      ]
+    },
+    {
+      "record_id": "list3_44789",
+      "concat": "[TITLE] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드<숙박 및 음식점업(I,55~56)>\n[SUMMARY] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드<숙박 및 음식점업(I,55~56)> 사업주가 쉽게 따라하는 안전보건의무 확보방안",
+      "query": [
+        "식당 숙박업 안전",
+        "작은 식당이나 숙박업 사업주가 안전보건 의무를 준비하는 방법을 알고 싶다",
+        "50인 미만 중소기업 안전보건관리체계 구축 가이드 숙박 및 음식점업 I 55~56"
+      ]
+    },
+    {
+      "record_id": "list3_44788",
+      "concat": "[TITLE] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드<목재 가구 제조업(C, 3202)>\n[SUMMARY] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드<목재 가구 제조업(C, 3202)> 사업주가 쉽게 따라하는 안전보건의무 확보방안",
+      "query": [
+        "가구 공장 안전",
+        "목재 가구를 만드는 작은 공장에서 안전보건관리체계를 세우는 자료를 찾는다",
+        "50인 미만 중소기업 안전보건관리체계 구축 가이드 목재 가구 제조업 C 3202"
+      ]
+    },
+    {
+      "record_id": "list3_44787",
+      "concat": "[TITLE] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드<도금업(C, 25922)>\n[SUMMARY] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드<도금업(C, 25922)> 사업주가 쉽게 따라하는 안전보건의무 확보방안",
+      "query": [
+        "도금 공장 안전",
+        "도금 작업을 하는 소규모 사업장에서 안전보건 의무를 어떻게 지키는지 알고 싶다",
+        "50인 미만 중소기업 안전보건관리체계 구축 가이드 도금업 C 25922"
+      ]
+    },
+    {
+      "record_id": "list3_44365",
+      "concat": "[TITLE] 외국인 근로자용 안전핸드북(대화집) 몽골어\n[SUMMARY] 외국인 근로자용 안전핸드북(대화집) 몽골어 - Safety handbook for foreign workers (dialogues) Mongolian 1. 작업 중 사용하는 간단한 표현 - Simple expressions used at work - 주의(경고), 금지(규제) - precaution (warning), prohibition (regulation) - 지시, 안내 - instruction, information 2. 안전표지 용어 - Terms of safety signs - 타포린, 위험테이프, 타워크레인 - tarpaulin, warning tape, tower crane 3. 일상생활 대화 - Everyday dialogues - 인사, 소개, 가족, 신상 - greetings, introduction, family and personal information - 숙소생활, 장소, 식사, 약속 - dormitory life, meal at a place, promises - 여가, 전화통화, 숫자, 기타 - leisure, telephone conversation, numbers, etc 4. 건강관련 대화 - Dialogues related to health - 아플 때 표현, 신체 부위 - expression of sickness, parts of body ※ 2010년 대우건설과 공동으로 개발한 책자 최신화",
+      "query": [
+        "몽골어 안전 대화",
+        "몽골 근로자에게 작업장 안전표지와 기본 대화를 설명하는 자료를 찾는다",
+        "외국인 근로자용 안전핸드북 대화집 몽골어 Safety handbook foreign workers dialogues Mongolian"
+      ]
+    },
+    {
+      "record_id": "list3_44675",
+      "concat": "[TITLE] 조선업 안전관리모델_시운전원\n[SUMMARY] 조선업 안전관리모델_시운전원",
+      "query": [
+        "조선업 시운전 안전",
+        "조선소에서 시운전원이 작업할 때 필요한 안전관리 자료를 찾고 있다",
+        "조선업 안전관리모델 시운전원"
+      ]
+    },
+    {
+      "record_id": "list3_44726",
+      "concat": "[TITLE] 2022년 중소기업 안전보건관리체계 우수사례 발표대회 자료집\n[SUMMARY] 2022년 중소기업 안전보건관리체계 우수사례 발표대회 자료집 배포(전자파일)",
+      "query": [
+        "중소기업 안전 우수사례",
+        "중소기업에서 안전보건관리체계를 잘 만든 사례 발표 자료를 보고 싶다",
+        "중소기업 안전보건관리체계 우수사례 발표대회 자료집"
+      ]
+    },
+    {
+      "record_id": "list3_44367",
+      "concat": "[TITLE] 외국인 근로자용 안전핸드북(대화집) 영어\n[SUMMARY] 외국인 근로자용 안전핸드북(대화집) 영어 - Safety handbook for foreign workers (dialogues) English 1. 작업 중 사용하는 간단한 표현 - Simple expressions used at work - 주의(경고), 금지(규제) - precaution (warning), prohibition (regulation) - 지시, 안내 - instruction, information 2. 안전표지 용어 - Terms of safety signs - 타포린, 위험테이프, 타워크레인 - tarpaulin, warning tape, tower crane 3. 일상생활 대화 - Everyday dialogues - 인사, 소개, 가족, 신상 - greetings, introduction, family and personal information - 숙소생활, 장소, 식사, 약속 - dormitory life, meal at a place, promises - 여가, 전화통화, 숫자, 기타 - leisure, telephone conversation, numbers, etc 4. 건강관련 대화 - Dialogues related to health - 아플 때 표현, 신체 부위 - expression of sickness, parts of body ※ 2010년 대우건설과 공동으로 개발한 책자 최신화",
+      "query": [
+        "영어 안전 대화",
+        "외국인 근로자에게 영어로 작업장 안전표지와 간단한 표현을 알려주는 자료를 찾는다",
+        "외국인 근로자용 안전핸드북 대화집 영어 Safety handbook foreign workers dialogues English"
+      ]
+    },
+    {
+      "record_id": "list3_44366",
+      "concat": "[TITLE] 외국인 근로자용 안전핸드북(대화집) 베트남어\n[SUMMARY] 외국인 근로자용 안전핸드북(대화집) 베트남어 - Safety handbook for foreign workers (dialogues) Vietnamese 1. 작업 중 사용하는 간단한 표현 - Simple expressions used at work - 주의(경고), 금지(규제) - precaution (warning), prohibition (regulation) - 지시, 안내 - instruction, information 2. 안전표지 용어 - Terms of safety signs - 타포린, 위험테이프, 타워크레인 - tarpaulin, warning tape, tower crane 3. 일상생활 대화 - Everyday dialogues - 인사, 소개, 가족, 신상 - greetings, introduction, family and personal information - 숙소생활, 장소, 식사, 약속 - dormitory life, meal at a place, promises - 여가, 전화통화, 숫자, 기타 - leisure, telephone conversation, numbers, etc 4. 건강관련 대화 - Dialogues related to health - 아플 때 표현, 신체 부위 - expression of sickness, parts of body ※ 2010년 대우건설과 공동으로 개발한 책자 최신화",
+      "query": [
+        "베트남어 안전 대화",
+        "베트남 근로자에게 작업 중 안전 표현과 생활 대화를 설명하는 자료가 필요하다",
+        "외국인 근로자용 안전핸드북 대화집 베트남어 Safety handbook foreign workers dialogues Vietnamese"
+      ]
+    },
+    {
+      "record_id": "list3_44364",
+      "concat": "[TITLE] 외국인 근로자용 안전핸드북(대화집) 우즈베키스탄어\n[SUMMARY] 외국인 근로자용 안전핸드북(대화집) 우즈베키스탄어 - Safety handbook for foreign workers (dialogues) Uzbek 1. 작업 중 사용하는 간단한 표현 - Simple expressions used at work - 주의(경고), 금지(규제) - precaution (warning), prohibition (regulation) - 지시, 안내 - instruction, information 2. 안전표지 용어 - Terms of safety signs - 타포린, 위험테이프, 타워크레인 - tarpaulin, warning tape, tower crane 3. 일상생활 대화 - Everyday dialogues - 인사, 소개, 가족, 신상 - greetings, introduction, family and personal information - 숙소생활, 장소, 식사, 약속 - dormitory life, meal at a place, promises - 여가, 전화통화, 숫자, 기타 - leisure, telephone conversation, numbers, etc 4. 건강관련 대화 - Dialogues related to health - 아플 때 표현, 신체 부위 - expression of sickness, parts of body ※ 2010년 대우건설과 공동으로 개발한 책자 최신화",
+      "query": [
+        "우즈베키스탄어 안전 대화",
+        "우즈베키스탄 근로자에게 작업장 안전표지와 기본 표현을 알려주는 자료를 찾고 있다",
+        "외국인 근로자용 안전핸드북 대화집 우즈베키스탄어 Safety handbook foreign workers dialogues Uzbek"
+      ]
+    },
+    {
+      "record_id": "list3_44363",
+      "concat": "[TITLE] 외국인 근로자용 안전핸드북(대화집) 중국어\n[SUMMARY] 외국인 근로자용 안전핸드북(대화집) 중국어 - Safety handbook for foreign workers (dialogues) Chinese 1. 작업 중 사용하는 간단한 표현 - Simple expressions used at work - 주의(경고), 금지(규제) - precaution (warning), prohibition (regulation) - 지시, 안내 - instruction, information 2. 안전표지 용어 - Terms of safety signs - 타포린, 위험테이프, 타워크레인 - tarpaulin, warning tape, tower crane 3. 일상생활 대화 - Everyday dialogues - 인사, 소개, 가족, 신상 - greetings, introduction, family and personal information - 숙소생활, 장소, 식사, 약속 - dormitory life, meal at a place, promises - 여가, 전화통화, 숫자, 기타 - leisure, telephone conversation, numbers, etc 4. 건강관련 대화 - Dialogues related to health - 아플 때 표현, 신체 부위 - expression of sickness, parts of body ※ 2010년 대우건설과 공동으로 개발한 책자 최신화",
+      "query": [
+        "중국어 안전 대화",
+        "중국인 근로자에게 작업장 안전표지와 간단한 안전 표현을 설명하는 자료를 찾는다",
+        "외국인 근로자용 안전핸드북 대화집 중국어 Safety handbook foreign workers dialogues Chinese"
+      ]
+    },
+    {
+      "record_id": "list3_45068",
+      "concat": "[TITLE] 2023 새로운 위험성평가 안내서\n[SUMMARY] 고시 개정에 따른 위험성평가 제도 해설서",
+      "query": [
+        "위험성평가 안내",
+        "개정된 위험성평가 제도를 쉽게 설명한 해설 자료를 찾고 싶다",
+        "새로운 위험성평가 안내서 고시 개정 제도 해설서"
+      ]
+    },
+    {
+      "record_id": "list3_45066",
+      "concat": "[TITLE] 민간재해예방기관 종사자 위험성평가 안내서\n[SUMMARY] 사업장 위험성평가에 관한 지침(고용노동부 고시) 개정에 따른 민간기관에서 기술지도 시 활용할 수 있는 안내서",
+      "query": [
+        "민간기관 위험성평가",
+        "민간 재해예방기관에서 사업장 기술지도할 때 쓸 위험성평가 자료를 찾는다",
+        "민간재해예방기관 종사자 위험성평가 안내서 사업장 위험성평가 지침 기술지도"
+      ]
+    },
+    {
+      "record_id": "list3_45067",
+      "concat": "[TITLE] 쉽고 간편한 위험성평가 방법 안내서\n[SUMMARY] 사업장 위험성평가에 관한 지침(고용노동부 고시) 개정에 따른 위험성평가 실시 방법 설명자료",
+      "query": [
+        "쉬운 위험성평가",
+        "사업장에서 위험성평가를 간단하게 실시하는 방법을 설명한 자료가 필요하다",
+        "쉽고 간편한 위험성평가 방법 안내서 사업장 위험성평가 지침 실시 방법"
+      ]
+    },
+    {
+      "record_id": "list3_45090",
+      "concat": "[TITLE] 2023년 월간 안전보건 6월호\n[SUMMARY] 2023년 월간 안전보건 6월호입니다. 이번 호 주제는 '육상화물취급업'입니다. ※ e-book 보기 및 파일 다운로드: 안전보건 자료실>안전보건 e-book>월간 안전보건",
+      "query": [
+        "육상화물 안전보건",
+        "화물 취급 일을 하는 업종의 재해사례와 안전수칙이 실린 월간 자료를 찾는다",
+        "월간 안전보건 육상화물취급업"
+      ]
+    },
+    {
+      "record_id": "list3_45036",
+      "concat": "[TITLE] 2023년 월간 안전보건 5월호\n[SUMMARY] 2023년 월간 안전보건 5월호입니다. 이번 호 주제는 '목재 및 종이제품 제조업'입니다. ※ e-book 보기 및 파일 다운로드: 안전보건 자료실>안전보건 e-book>월간 안전보건",
+      "query": [
+        "목재 종이 안전보건",
+        "목재나 종이제품 제조업의 재해사례와 안전수칙이 담긴 월간 자료를 보고 싶다",
+        "월간 안전보건 목재 및 종이제품 제조업"
+      ]
+    },
+    {
+      "record_id": "list3_45015",
+      "concat": "[TITLE] 어업 업종의 사고사망 예방을 위한 안전한 작업\n[SUMMARY] 어업 업종의 사고사망 현황 및 재해사례 등",
+      "query": [
+        "어업 사망사고 예방",
+        "어업에서 자주 나는 사고사망 사례와 안전하게 작업하는 방법을 알고 싶다",
+        "어업 업종 사고사망 예방 안전한 작업 재해사례"
+      ]
+    },
+    {
+      "record_id": "list3_44967",
+      "concat": "[TITLE] 중소규모 사업장 화재폭발 사고예방 핸드북\n[SUMMARY] 화학사고의 정의, 화재·폭발 및 누출 위험 개요, 화재·폭발 및 누출사고 예방을 위한 주요 확인사항, 사고사례 및 예방대책(중대산업사고 포함)으로 구성",
+      "query": [
+        "화재폭발 예방",
+        "작은 사업장에서 화학물질 화재 폭발이나 누출 사고를 막는 방법을 찾는다",
+        "중소규모 사업장 화재폭발 사고예방 핸드북 화학사고 누출 중대산업사고"
+      ]
+    },
+    {
+      "record_id": "list3_44925",
+      "concat": "[TITLE] 소규모 사업장 안전보건교육 가이드\n[SUMMARY] 소규모 사업장의 실효성 있는 안전보건교육 정착을 유도하고 위험성평가의 현장 작동성을 지원하기 위한 안전보건교육 가이드",
+      "query": [
+        "소규모 안전교육",
+        "작은 사업장에서 안전보건교육을 실제로 어떻게 운영해야 하는지 알고 싶다",
+        "소규모 사업장 안전보건교육 가이드 위험성평가 현장 작동성"
+      ]
+    },
+    {
+      "record_id": "list3_44991",
+      "concat": "[TITLE] 반도체 사업장 현장실습생 건강관리 길잡이\n[SUMMARY] 반도체 사업장 현장실습생의 직업성 암 예방 등 안전보건교육을 강화하기 위한 교육교재 * 해당 책자에 대한 자유로운 의견 부탁드립니다. https://ko.surveymonkey.com/r/BTD65KB",
+      "query": [
+        "반도체 실습생 건강",
+        "반도체 사업장에서 현장실습생이 직업성 암 같은 건강위험을 예방하는 교육자료를 찾는다",
+        "반도체 사업장 현장실습생 건강관리 길잡이 직업성 암 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_44999",
+      "concat": "[TITLE] 2023년 월간 안전보건 4월호\n[SUMMARY] 2023년 월간 안전보건 4월호입니다. 이번 호 주제는 '건물 등의 종합관리사업'입니다. ※ e-book 보기 및 파일 다운로드: 안전보건 자료실>안전보건 e-book>월간 안전보건",
+      "query": [
+        "건물관리 안전보건",
+        "건물 종합관리 일을 하는 업종의 재해사례와 안전수칙이 실린 월간 자료를 찾는다",
+        "월간 안전보건 건물 등의 종합관리사업"
+      ]
+    },
+    {
+      "record_id": "list3_44362",
+      "concat": "[TITLE] 외국인 근로자용 안전핸드북(대화집) 인도네시아어\n[SUMMARY] 외국인 근로자용 안전핸드북(대화집) 인도네시아어 - Safety handbook for foreign workers (dialogues) Indonesian 1. 작업 중 사용하는 간단한 표현 - Simple expressions used at work - 주의(경고), 금지(규제) - precaution (warning), prohibition (regulation) - 지시, 안내 - instruction, information 2. 안전표지 용어 - Terms of safety signs - 타포린, 위험테이프, 타워크레인 - tarpaulin, warning tape, tower crane 3. 일상생활 대화 - Everyday dialogues - 인사, 소개, 가족, 신상 - greetings, introduction, family and personal information - 숙소생활, 장소, 식사, 약속 - dormitory life, meal at a place, promises - 여가, 전화통화, 숫자, 기타 - leisure, telephone conversation, numbers, etc 4. 건강관련 대화 - Dialogues related to health - 아플 때 표현, 신체 부위 - expression of sickness, parts of body ※ 2010년 대우건설과 공동으로 개발한 책자 최신화",
+      "query": [
+        "인도네시아어 안전 대화",
+        "인도네시아 근로자에게 작업장 안전표지와 기본 대화를 알려주는 자료를 찾고 있다",
+        "외국인 근로자용 안전핸드북 대화집 인도네시아어 Safety handbook foreign workers dialogues Indonesian"
+      ]
+    },
+    {
+      "record_id": "list3_44887",
+      "concat": "[TITLE] 해빙기 건설현장 안전보건 길잡이\n[SUMMARY] 안전한 건설현장을 만들기 위한 해빙기 건설현장 안전보건 길잡이",
+      "query": [
+        "해빙기 건설 안전",
+        "봄철 해빙기에 건설현장에서 주의해야 할 안전보건 자료를 찾는다",
+        "해빙기 건설현장 안전보건 길잡이"
+      ]
+    },
+    {
+      "record_id": "list3_44983",
+      "concat": "[TITLE] 건설분야 TBM 실천 가이드\n[SUMMARY] 건설분야 TBM 실천 가이드",
+      "query": [
+        "건설 TBM",
+        "건설현장에서 작업 전 안전점검회의를 실천하는 방법을 알고 싶다",
+        "건설분야 TBM 실천 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_44603",
+      "concat": "[TITLE] 자체 도급공사 및 용역 안전경영 노하우!\n[SUMMARY] 자체 도급공사 및 용역 고위험 작업에 대한 위험 포인트 및 개선사례를 제시하는 가이드북을 제작, 보급하여 현장 안전감독 시 활용",
+      "query": [
+        "도급공사 안전",
+        "도급공사나 용역의 고위험 작업을 감독할 때 위험 포인트와 개선사례를 참고하고 싶다",
+        "자체 도급공사 용역 안전경영 노하우 고위험 작업 위험 포인트 개선사례"
+      ]
+    },
+    {
+      "record_id": "list3_44361",
+      "concat": "[TITLE] 외국인 근로자용 안전핸드북(대화집) 태국어\n[SUMMARY] 외국인 근로자용 안전핸드북(대화집) 태국어 - Safety handbook for foreign workers (dialogues) Thai 1. 작업 중 사용하는 간단한 표현 - Simple expressions used at work - 주의(경고), 금지(규제) - precaution (warning), prohibition (regulation) - 지시, 안내 - instruction, information 2. 안전표지 용어 - Terms of safety signs - 타포린, 위험테이프, 타워크레인 - tarpaulin, warning tape, tower crane 3. 일상생활 대화 - Everyday dialogues - 인사, 소개, 가족, 신상 - greetings, introduction, family and personal information - 숙소생활, 장소, 식사, 약속 - dormitory life, meal at a place, promises - 여가, 전화통화, 숫자, 기타 - leisure, telephone conversation, numbers, etc 4. 건강관련 대화 - Dialogues related to health - 아플 때 표현, 신체 부위 - expression of sickness, parts of body ※ 2010년 대우건설과 공동으로 개발한 책자 최신화",
+      "query": [
+        "태국어 안전 대화",
+        "태국 근로자에게 작업장 안전표지와 간단한 대화를 설명하는 자료가 필요하다",
+        "외국인 근로자용 안전핸드북 대화집 태국어 Safety handbook foreign workers dialogues Thai"
+      ]
+    },
+    {
+      "record_id": "list3_44486",
+      "concat": "[TITLE] [화공] 예비산업인력 안전보건나침반 교재\n[SUMMARY] 예비산업인력(직업계고 학생)의 현장실습 중 산재위험으로부터 보호하기 위해 개발한 교육용 교재 - 2022년 개정판",
+      "query": [
+        "화공 실습 안전",
+        "화공 분야 직업계고 학생이 현장실습 전에 볼 안전보건 교육자료를 찾는다",
+        "화공 예비산업인력 안전보건나침반 교재 직업계고 현장실습"
+      ]
+    },
+    {
+      "record_id": "list3_44689",
+      "concat": "[TITLE] 2022년도 안전문화 확산 공모사업 활동사례집\n[SUMMARY] 2022년도 안전문화 확산 공모사업 수행단체의 활동사례집을 제작하여 단체별 우수사례 공유 등으로 안전문화 확산 제고",
+      "query": [
+        "안전문화 우수사례",
+        "안전문화를 널리 알린 공모사업 활동 사례들을 모아둔 자료를 찾고 싶다",
+        "안전문화 확산 공모사업 활동사례집 수행단체 우수사례"
+      ]
+    },
+    {
+      "record_id": "list3_44528",
+      "concat": "[TITLE] [외국인] 만화_안전 패트롤 안젤이가 간다!(영어 및 5개 언어)\n[SUMMARY] [외국인] 만화_안전 패트롤 안젤이가 간다!(영어, 중국어, 우즈베크어, 베트남어, 네팔어, 태국어) 산업현장에서 발생할 수 있는 각종 재해를 예방하는 안전보건 수호요정 안젤이! 이해하기 쉽고 재밌게 볼 수 있도록 만화로 표현한 '안전 패트롤 안젤이가 간다'의 외국어편! (총 6개 언어로 제작: 영어, 중국어, 우즈베키스탄어, 베트남어, 네팔어, 태국어)",
+      "query": [
+        "외국인 안전 만화",
+        "외국인 근로자가 쉽게 볼 수 있는 산업현장 재해예방 만화 자료를 찾는다",
+        "외국인 만화 안전 패트롤 안젤이가 간다 영어 중국어 우즈베크어 베트남어 네팔어 태국어"
+      ]
+    },
+    {
+      "record_id": "list3_44487",
+      "concat": "[TITLE] [음식] 예비산업인력 안전보건나침반 교재\n[SUMMARY] 예비산업인력(직업계고 학생)의 현장실습 중 산재위험으로부터 보호하기 위해 개발한 교육용 교재 - 2022년 개정판",
+      "query": [
+        "음식 실습 안전",
+        "음식 분야 직업계고 학생이 현장실습 중 산재위험을 예방하는 교육자료를 찾는다",
+        "음식 예비산업인력 안전보건나침반 교재 직업계고 현장실습"
+      ]
+    }
+  ]
+}

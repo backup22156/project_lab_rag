@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 66,
+  "items": [
+    {
+      "record_id": "list1_39795",
+      "concat": "[TITLE] [중대재해사례 OPL]지게차 후진 중 운전자가 기둥에 부딪힘\n[SUMMARY] [중대재해사례 OPL]지게차 후진 중 운전자가 기둥에 부딪힘",
+      "query": [
+        "지게차 후진 사고",
+        "지게차를 후진하다가 운전자가 기둥에 부딪힌 사고 사례",
+        "지게차 후진 중 운전자 기둥 부딪힘 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39794",
+      "concat": "[TITLE] [중대재해사례 OPL]비계상 이동통로 설치 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]비계상 이동통로 설치 중 떨어짐",
+      "query": [
+        "비계 이동통로 추락",
+        "비계 위에 이동통로를 설치하다가 떨어진 사고 사례",
+        "비계상 이동통로 설치 중 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39798",
+      "concat": "[TITLE] [중대재해사례 OPL]동료작업자가 후진하는 지게차에 부딪힘\n[SUMMARY] [중대재해사례 OPL]동료작업자가 후진하는 지게차에 부딪힘",
+      "query": [
+        "후진 지게차 충돌",
+        "동료 작업자가 뒤로 움직이는 지게차에 부딪힌 사고 사례",
+        "동료작업자 후진 지게차 부딪힘 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39796",
+      "concat": "[TITLE] [중대재해사례 OPL]보행 근로자가 주행중인 지게차에 부딪힘\n[SUMMARY] [중대재해사례 OPL]보행 근로자가 주행중인 지게차에 부딪힘",
+      "query": [
+        "지게차 보행자 충돌",
+        "작업장 안에서 걸어가던 근로자가 움직이는 지게차에 부딪힌 사고",
+        "보행 근로자 주행중 지게차 부딪힘 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39799",
+      "concat": "[TITLE] [중대재해사례 OPL]보행자가 팔레트 운반 지게차에 부딪힘\n[SUMMARY] [중대재해사례 OPL]보행자가 팔레트 운반 지게차에 부딪힘",
+      "query": [
+        "팔레트 지게차 충돌",
+        "보행자가 팔레트를 운반하는 지게차에 부딪힌 사고 사례",
+        "보행자 팔레트 운반 지게차 부딪힘 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39802",
+      "concat": "[TITLE] [중대재해사례 OPL]지게차 포크 위 팔레트에 탑승하여 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]지게차 포크 위 팔레트에 탑승하여 작업 중 떨어짐",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 위 팔레트에 올라가 작업하다 떨어진 사고",
+        "지게차 포크 팔레트 탑승 작업 중 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39800",
+      "concat": "[TITLE] [중대재해사례 OPL]포크 아래의 수리 작업자가 떨어진 지게차에 맞음\n[SUMMARY] [중대재해사례 OPL]포크 아래의 수리 작업자가 떨어진 지게차에 맞음",
+      "query": [
+        "지게차 포크 사고",
+        "지게차 포크 아래에서 수리하던 작업자가 떨어진 지게차에 맞은 사고",
+        "포크 아래 수리 작업자 떨어진 지게차 맞음 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39804",
+      "concat": "[TITLE] [중대재해사례 OPL]지게차가 넘어지며 운전자가 지게차에 깔림\n[SUMMARY] [중대재해사례 OPL]지게차가 넘어지며 운전자가 지게차에 깔림, 깔림사례에 대한 주요 요인 및 안전대책",
+      "query": [
+        "지게차 전도 깔림",
+        "지게차가 넘어지면서 운전자가 깔린 사고와 안전대책 자료",
+        "지게차 넘어짐 운전자 깔림 주요 요인 안전대책 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39803",
+      "concat": "[TITLE] [중대재해사례 OPL]외부인이 지게차를 운전하던 중 지게차와 담벼락 사이에 끼임\n[SUMMARY] [중대재해사례 OPL]외부인이 지게차를 운전하던 중 지게차와 담벼락 사이에 끼임",
+      "query": [
+        "지게차 끼임 사고",
+        "외부인이 지게차를 몰다가 담벼락 사이에 끼인 사고 사례",
+        "외부인 지게차 운전 중 지게차 담벼락 사이 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39805",
+      "concat": "[TITLE] [중대재해사례 OPL]웅덩이로 넘어진 지게차에 운전자가 깔림\n[SUMMARY] [중대재해사례 OPL]웅덩이로 넘어진 지게차에 운전자가 깔림",
+      "query": [
+        "지게차 웅덩이 전도",
+        "지게차가 웅덩이 쪽으로 넘어져 운전자가 깔린 사고 사례",
+        "웅덩이 넘어진 지게차 운전자 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39764",
+      "concat": "[TITLE] [여성근로자용 OPL] 절단·베임·찔림 재해예방\n[SUMMARY] [여성근로자용 OPL] 절단·베임·찔림 재해예방",
+      "query": [
+        "베임 찔림 예방",
+        "여성 근로자가 일하다 베이거나 찔리는 사고를 예방하는 자료",
+        "여성근로자용 절단 베임 찔림 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39762",
+      "concat": "[TITLE] [여성근로자용 OPL] 요통 재해예방\n[SUMMARY] [여성근로자용 OPL] 요통 재해예방",
+      "query": [
+        "요통 예방",
+        "여성 근로자의 허리 통증과 요통 재해를 줄이는 안전보건 자료",
+        "여성근로자용 요통 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39759",
+      "concat": "[TITLE] [장년근로자용 OPL] 넘어짐 재해예방\n[SUMMARY] [장년근로자용 OPL] 넘어짐 재해예방",
+      "query": [
+        "넘어짐 예방",
+        "장년 근로자가 작업 중 넘어지는 사고를 예방하는 자료",
+        "장년근로자용 넘어짐 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39761",
+      "concat": "[TITLE] [여성근로자용 OPL] 작업장 통로 이동 시 재해예방\n[SUMMARY] [여성근로자용 OPL] 작업장 통로 이동 시 재해예방",
+      "query": [
+        "작업장 통로 사고",
+        "여성 근로자가 작업장 통로를 이동할 때 다치는 사고 예방 자료",
+        "여성근로자용 작업장 통로 이동 시 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39760",
+      "concat": "[TITLE] [여성근로자용 OPL] 여성근로자의 경제활동 및 안전보건\n[SUMMARY] [여성근로자용 OPL] 여성근로자의 경제활동 및 안전보건",
+      "query": [
+        "여성근로자 안전보건",
+        "여성 근로자의 경제활동과 산업현장 안전보건을 설명한 자료",
+        "여성근로자용 여성근로자 경제활동 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39756",
+      "concat": "[TITLE] [장년근로자용 OPL] 끼임 재해예방\n[SUMMARY] [장년근로자용 OPL] 끼임 재해예방",
+      "query": [
+        "끼임 사고 예방",
+        "장년 근로자가 기계나 설비에 끼이는 사고를 예방하는 자료",
+        "장년근로자용 끼임 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39755",
+      "concat": "[TITLE] [장년근로자용 OPL] 장년근로자의 경제활동 및 안전보건\n[SUMMARY] [장년근로자용 OPL] 장년근로자의 경제활동 및 안전보건",
+      "query": [
+        "장년근로자 안전보건",
+        "장년 근로자의 경제활동과 일터 안전보건을 설명한 자료",
+        "장년근로자용 장년근로자 경제활동 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39758",
+      "concat": "[TITLE] [장년근로자용 OPL] 공공근로사업 재해예방\n[SUMMARY] 공공근로사업 재해예방 [장년근로자용 OPL]",
+      "query": [
+        "공공근로 사고 예방",
+        "장년 근로자가 공공근로사업에서 다치지 않도록 하는 안전자료",
+        "장년근로자용 공공근로사업 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39757",
+      "concat": "[TITLE] [장년근로자용 OPL] 떨어짐 재해예방\n[SUMMARY] [장년근로자용 OPL] 떨어짐 재해예방",
+      "query": [
+        "떨어짐 예방",
+        "장년 근로자가 높은 곳에서 떨어지는 사고를 예방하는 자료",
+        "장년근로자용 떨어짐 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39763",
+      "concat": "[TITLE] [여성근로자용 OPL] 이상온도 접촉 재해예방\n[SUMMARY] [여성근로자용 OPL] 이상온도 접촉 재해예방",
+      "query": [
+        "뜨거운 물체 화상",
+        "여성 근로자가 뜨겁거나 차가운 물체에 닿아 다치는 사고 예방 자료",
+        "여성근로자용 이상온도 접촉 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39908",
+      "concat": "[TITLE] 정비·보수 작업 끼임 사망사고 예방\n[SUMMARY] 정비·보수 작업 끼임 사망사고 예방 OPL 1. 핵심 실천사항 2. 사고사례 3. 주요 위험포인트",
+      "query": [
+        "정비 끼임 사망",
+        "정비나 보수 작업 중 기계에 끼여 사망하는 사고를 막는 자료",
+        "정비 보수 작업 끼임 사망사고 예방 OPL 핵심 실천사항 사고사례 주요 위험포인트"
+      ]
+    },
+    {
+      "record_id": "list1_39910",
+      "concat": "[TITLE] 용접·용단 작업 화재·폭발 사망사고 예방\n[SUMMARY] 용접·용단 작업 화재·폭발 사망사고 예방 1. 핵심 실천사항 2. 사고사례 3. 주요 위험포인트",
+      "query": [
+        "용접 화재 폭발",
+        "용접이나 용단 작업 중 불이나 폭발로 사망하는 사고 예방 자료",
+        "용접 용단 작업 화재 폭발 사망사고 예방 핵심 실천사항 사고사례 주요 위험포인트"
+      ]
+    },
+    {
+      "record_id": "list1_39911",
+      "concat": "[TITLE] 음식업 사망사고 예방\n[SUMMARY] 음식업 사망사고 예방 OPL 1. 이륜차 - 핵심 실천사항, 사고사례, 위험포인트 2. 조리실 - 핵심 실천사항, 사고사례, 위험포인트",
+      "query": [
+        "음식업 사망사고",
+        "음식점에서 이륜차나 조리실 사고로 사망하지 않도록 예방하는 자료",
+        "음식업 사망사고 예방 OPL 이륜차 조리실 핵심 실천사항 사고사례 위험포인트"
+      ]
+    },
+    {
+      "record_id": "list1_39909",
+      "concat": "[TITLE] 크레인 작업 사망사고 예방\n[SUMMARY] 크레인 작업 사망사고 예방 OPL 1. 핵심 실천사항 2. 사고사례 3. 주요 위험포인트",
+      "query": [
+        "크레인 사망사고",
+        "크레인 작업 중 사망사고를 예방하기 위한 안전수칙 자료",
+        "크레인 작업 사망사고 예방 OPL 핵심 실천사항 사고사례 주요 위험포인트"
+      ]
+    },
+    {
+      "record_id": "list1_39913",
+      "concat": "[TITLE] 전기공사 중 추락·감전 사망사고 예방\n[SUMMARY] 전기공사 중 추락·감전 사망사고 예방 OPL 1. 활선작업 및 활선근접작업 2. 승주작업 3. 철탑 승·하강작업",
+      "query": [
+        "전기공사 추락 감전",
+        "전기공사 중 떨어지거나 감전되는 사망사고를 막는 자료",
+        "전기공사 중 추락 감전 사망사고 예방 OPL 활선작업 활선근접작업 승주작업 철탑 승하강작업"
+      ]
+    },
+    {
+      "record_id": "list1_39914",
+      "concat": "[TITLE] 건물관리업 사망사고 예방\n[SUMMARY] 건물관리업 사망사고 예방 OPL- 핵심, 실천사항, 사고사례, 주요 위험포인트, 주요 점검항목",
+      "query": [
+        "건물관리 사망사고",
+        "건물관리 업무 중 발생할 수 있는 사망사고 예방과 점검항목 자료",
+        "건물관리업 사망사고 예방 OPL 핵심 실천사항 사고사례 주요 위험포인트 주요 점검항목"
+      ]
+    },
+    {
+      "record_id": "list1_39915",
+      "concat": "[TITLE] 정보통신공사 중 추락·감전 사망사고 예방\n[SUMMARY] 정보통신공사 중 추락·감전 사망사고 예방 OPL 1.통신케이블 설치 및 수리-전주 작업 2.통신케이블 설치 및 수리-통신케이블 설치 작업",
+      "query": [
+        "정보통신공사 추락 감전",
+        "통신케이블 설치나 수리 중 추락과 감전 사망사고를 예방하는 자료",
+        "정보통신공사 중 추락 감전 사망사고 예방 OPL 통신케이블 설치 수리 전주 작업"
+      ]
+    },
+    {
+      "record_id": "list1_39410",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]그냥 들어가면 바로 사망. 즉사!(콘크리트 양생작업)\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL",
+      "query": [
+        "콘크리트 양생 질식",
+        "콘크리트 양생작업 장소에 그냥 들어갔다가 바로 사망할 수 있는 위험 안내 자료",
+        "산재 사고사망 절반 줄이기 그냥 들어가면 바로 사망 즉사 콘크리트 양생작업"
+      ]
+    },
+    {
+      "record_id": "list1_39729",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 필리핀(영어)_서비스업\n[SUMMARY] [외국인 노동자용 OPL] 필리핀(영어)_서비스업 1. 단순노무자-서비스업-지게차 2. 골절기 사용 시 작업 안전 3. 육절기(슬라이서) 사용 시 작업 안전 4. 산업폐기물 기계장치 위험요소와 안전대책",
+      "query": [
+        "필리핀 노동자 서비스업",
+        "필리핀 영어권 외국인 노동자를 위한 서비스업 안전보건 자료",
+        "외국인 노동자용 OPL 필리핀 영어 서비스업 단순노무자 지게차 골절기 육절기 산업폐기물 기계장치"
+      ]
+    },
+    {
+      "record_id": "list1_39726",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 파키스탄_공통\n[SUMMARY] [외국인 노동자용 OPL] 파키스탄_공통 1. 수공구 사용 시 작업 안전 2. 계단에서의 위험 방지 3. 보호구 4. 건물 등의 청소 시 작업 안전",
+      "query": [
+        "파키스탄 노동자 안전",
+        "파키스탄 외국인 노동자를 위한 공통 작업 안전수칙 자료",
+        "외국인 노동자용 OPL 파키스탄 공통 수공구 계단 위험 방지 보호구 건물 청소 작업 안전"
+      ]
+    }
+  ]
+}

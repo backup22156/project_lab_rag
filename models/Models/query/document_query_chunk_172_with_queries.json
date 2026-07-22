@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 172,
+  "items": [
+    {
+      "record_id": "list3_39372",
+      "concat": "[TITLE] 중소규모 사업장 화재폭발 사고예방 나침반\n[SUMMARY] 화재폭발 사고예방을 위해 중소규모 사업장 근로자를 대상으로 기술자료 및 사고사례 등 배포 제1장 화학사고 예방을 위한 화재·폭발의 이해 제2장 사업장 내 유해위험물질 취급에 따른 파악 방법 제3장 화재·폭발사고 발생률이 높은 물질별·설비별(OPL) 제4장 화학설비 등의 주요 안전장치 안내 제5장 자연재해 및 날씨(계절)별 화재·폭발·누출사고 예방대책 제6장 화재·폭발·누출 등 사고사례 및 예방대책 제7장 공정안전보고서 등 제도안내",
+      "query": [
+        "사업장 화재 폭발 예방",
+        "작은 사업장에서 화재나 폭발 사고를 막는 방법 자료",
+        "중소규모 사업장 화재폭발 사고예방 나침반"
+      ]
+    },
+    {
+      "record_id": "list3_39607",
+      "concat": "[TITLE] 노후화학설비 건전성 확보를 위한 화학공장 정비·보수작업 우수사례 발표대회\n[SUMMARY] 노후화학설비 건전성 확보를 위한 화학공장 정비·보수작업 우수사례 발표대회",
+      "query": [
+        "화학공장 정비 보수",
+        "오래된 화학설비를 안전하게 정비하고 보수한 사례 자료",
+        "노후화학설비 건전성 확보 화학공장 정비 보수작업 우수사례 발표대회"
+      ]
+    },
+    {
+      "record_id": "list3_37057",
+      "concat": "[TITLE] 이동식 크레인 안전작업 매뉴얼\n[SUMMARY] 건설현장 취약요인별 맞춤형 사고예방대책 중 건설기계 안전문화 기반조성을 목적으로 배포용 이동식 크레인 안전작업 매뉴얼을 제작 보급함",
+      "query": [
+        "이동식 크레인 안전",
+        "건설현장에서 이동식 크레인 작업할 때 안전하게 하는 방법",
+        "이동식 크레인 안전작업 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_30932",
+      "concat": "[TITLE] 건설 중대재해 사례와 대책\n[SUMMARY] 건설경기 및 재해발생 현황, 건설경기 현황, 건설재해 발생현황, 사망재해사례 관하여 설명함",
+      "query": [
+        "건설 사고 사례",
+        "건설현장에서 큰 사고가 난 사례와 예방 대책을 찾고 싶다",
+        "건설 중대재해 사례 대책"
+      ]
+    },
+    {
+      "record_id": "list3_31351",
+      "concat": "[TITLE] 건설 중대재해 사례와 대책\n[SUMMARY] 건설경기와 재해발생 현황 및 분류별 재해사례에 대한 대책",
+      "query": [
+        "건설 사고 사례",
+        "건설현장에서 큰 사고가 난 사례와 예방 대책을 찾고 싶다",
+        "건설 중대재해 사례 대책"
+      ]
+    },
+    {
+      "record_id": "list3_31869",
+      "concat": "[TITLE] 건설 중대재해 사례와 대책\n[SUMMARY] 건설경기 및 재해발생현황과 종목별 중대재해사례와 그에 대한 대책",
+      "query": [
+        "건설 사고 사례",
+        "건설현장에서 큰 사고가 난 사례와 예방 대책을 찾고 싶다",
+        "건설 중대재해 사례 대책"
+      ]
+    },
+    {
+      "record_id": "list3_38036",
+      "concat": "[TITLE] 안전보건네비게이션(청소종사자)\n[SUMMARY] 안전보건네비게이션(청소종사자)",
+      "query": [
+        "청소 노동자 안전",
+        "청소 일을 하는 사람이 알아야 할 안전보건 자료",
+        "안전보건네비게이션 청소종사자"
+      ]
+    },
+    {
+      "record_id": "list3_38038",
+      "concat": "[TITLE] 안전보건네비게이션(화물차량운전원)\n[SUMMARY] 안전보건네비게이션(화물차량운전원)",
+      "query": [
+        "화물차 운전 안전",
+        "화물차 운전자가 일하면서 조심해야 할 안전보건 자료",
+        "안전보건네비게이션 화물차량운전원"
+      ]
+    },
+    {
+      "record_id": "list3_38039",
+      "concat": "[TITLE] 안전보건네비게이션(서비스업 공통)\n[SUMMARY] 안전보건네비게이션(서비스업 공통)",
+      "query": [
+        "서비스업 안전보건",
+        "서비스업에서 공통으로 필요한 안전보건 자료를 찾고 있다",
+        "안전보건네비게이션 서비스업 공통"
+      ]
+    },
+    {
+      "record_id": "list3_38033",
+      "concat": "[TITLE] 안전보건네비게이션(음식및숙박업)\n[SUMMARY] 안전보건네비게이션(음식및숙박업)",
+      "query": [
+        "음식 숙박업 안전",
+        "음식점이나 숙박업에서 필요한 안전보건 안내 자료",
+        "안전보건네비게이션 음식및숙박업"
+      ]
+    },
+    {
+      "record_id": "list3_38034",
+      "concat": "[TITLE] 안전보건네비게이션(조리종사자)\n[SUMMARY] 안전보건네비게이션(조리종사자)",
+      "query": [
+        "조리사 안전",
+        "주방에서 일하는 사람이 알아야 할 안전보건 자료",
+        "안전보건네비게이션 조리종사자"
+      ]
+    },
+    {
+      "record_id": "list3_37814",
+      "concat": "[TITLE] 2016년 상반기 중대재해 사례와 대책\n[SUMMARY] 2016년 상반기(1~6월) 건설재해 현황통계(공사종류 및 금액별, 기인물별, 작업공종별 재해현황)과 건설 중대재해 사례 및 대책이 포함된 ‘건설업 중대재해 사례집’을 건설현장에 배포하여 건설재해예방에 기여하고자 합니다.",
+      "query": [
+        "건설 중대재해 사례",
+        "상반기 건설현장 중대재해 사례와 예방 대책 자료",
+        "중대재해 사례 대책 건설업 중대재해 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_37815",
+      "concat": "[TITLE] 2016년 3분기 중대재해 사례와 대책\n[SUMMARY] 2016년 3분기(7~9월) 건설재해 현황통계(공사종류 및 금액별, 기인물별, 작업공종별 재해현황)과 건설 중대재해 사례 및 대책이 포함된 ‘건설업 중대재해 사례집’을 건설현장에 배포하여 건설재해예방에 기여하고자 합니다.",
+      "query": [
+        "건설 중대재해 사례",
+        "건설현장 중대재해 사례와 예방 대책 자료",
+        "중대재해 사례 대책 건설업 중대재해 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_38237",
+      "concat": "[TITLE] 철거해체공사 표준안전작업 절차서\n[SUMMARY] 철거해체 공사 시 해체공법별 해체작업순서 및 안전작업방법, 구조검토 방법 및 절차 등에 관한 내용입니다.",
+      "query": [
+        "철거공사 안전",
+        "건물 철거 해체 작업을 안전하게 진행하는 절차 자료",
+        "철거해체공사 표준안전작업 절차서"
+      ]
+    },
+    {
+      "record_id": "list3_38395",
+      "concat": "[TITLE] 2017년 산업재해예방 유공자 우수 사례집\n[SUMMARY] 2017년 산업재해예방 유공자(정부포상자)의 산업재해예방 우수사례를 발굴하여 스토리텔링 방식으로 독자가 읽기 쉽게 구성하여 제작",
+      "query": [
+        "산재예방 우수사례",
+        "산업재해 예방을 잘한 사람들의 사례를 모은 자료",
+        "산업재해예방 유공자 우수 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_38195",
+      "concat": "[TITLE] 건설업 중대재해사례와 대책(2017.05)\n[SUMMARY] '16년 건설업 재해분석 및 4분기 중대재해사례와 대책",
+      "query": [
+        "건설 중대재해 사례",
+        "건설업 재해 분석과 중대재해 예방 대책 자료",
+        "건설업 중대재해사례 대책"
+      ]
+    },
+    {
+      "record_id": "list3_38061",
+      "concat": "[TITLE] 밀폐공간작업 질식재해예방 매뉴얼\n[SUMMARY] 밀폐공간작업시 질식재해예방을 위한 매뉴얼 - 밀폐공간개념 - 밀폐공간 파악 및 관리 - 밀폐공간작업 프로그램 - 밀폐공간작업시 조치기준 - 재해사례 등",
+      "query": [
+        "밀폐공간 질식 예방",
+        "밀폐된 공간에서 작업할 때 질식사고를 막는 방법",
+        "밀폐공간작업 질식재해예방 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_37985",
+      "concat": "[TITLE] '15년~'16년 건물 등의 종합관리사업 중대재해 사례집\n[SUMMARY] ○ '15년~'16년 건물 들의 종합관리사업의 중대재해사례집○ 구성 - 재해통계 - 재해사례 - 안전점검표(공통 및 업종)",
+      "query": [
+        "건물관리 사고 사례",
+        "건물관리 업무에서 발생한 중대재해 사례와 점검표 자료",
+        "건물 등의 종합관리사업 중대재해 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_37934",
+      "concat": "[TITLE] 퀵서비스 이륜차 배달 안전가이드(Guide)\n[SUMMARY] 퀵서비스 이륜차 운전근로자의 배달안전 가이드를 포켓북 형태로 제작",
+      "query": [
+        "퀵서비스 배달 안전",
+        "오토바이로 퀵서비스 배달할 때 안전운전 방법 자료",
+        "퀵서비스 이륜차 배달 안전가이드 Guide"
+      ]
+    },
+    {
+      "record_id": "list3_37987",
+      "concat": "[TITLE] '15년~'16년 위생 및 유사서비스업 중대재해 사례집\n[SUMMARY] ○ '15년~'16년 위생 및 유사서비스업 중대재해 사례집 ○ 구성 - 재해통계 - 재해사례 - 안전점검표(공통, 업종별)",
+      "query": [
+        "위생서비스 사고 사례",
+        "위생 서비스 업종에서 발생한 중대재해 사례와 안전점검 자료",
+        "위생 및 유사서비스업 중대재해 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_37986",
+      "concat": "[TITLE] '15년~'16년 운수업 중대재해사례집\n[SUMMARY] '15년~'16년 운수업 중대재해 사례집○ 구성 - 재해통계 - 재해사례 - 안전점검표(공통, 업종별)",
+      "query": [
+        "운수업 사고 사례",
+        "운수업에서 발생한 중대재해 사례와 안전점검 자료",
+        "운수업 중대재해사례집"
+      ]
+    },
+    {
+      "record_id": "list3_37988",
+      "concat": "[TITLE] '15년~'16년 도소매 및 소비자용품 수리업 중대재해 사례집\n[SUMMARY] ○ '15년~'16년 도소매 및 소비자용품 수리업 중대재해 사례집 ○ 구성 - 재해통계 - 재해사례 - 안전점검표(공통, 업종별)",
+      "query": [
+        "도소매 사고 사례",
+        "도소매업과 소비자용품 수리업 중대재해 사례 자료",
+        "도소매 및 소비자용품 수리업 중대재해 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_37823",
+      "concat": "[TITLE] 조리종사자 불안전한 행동 사례집\n[SUMMARY] 음식업 불안전한행동 재해사례집 -음식업 3SB(안전행동)운동 추진 사업의 원활한 수행을 위해 직원들이 활용할 수 있도록 음식업 불안전한행동 재해사례집 제작",
+      "query": [
+        "주방 사고 사례",
+        "조리 작업 중 위험한 행동 때문에 생긴 사고 사례 자료",
+        "조리종사자 불안전한 행동 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_39374",
+      "concat": "[TITLE] 건설 중대재해 사례집(2018.05)\n[SUMMARY] 건설 중대재해사례집",
+      "query": [
+        "건설 중대재해 사례",
+        "건설현장 중대재해 사례를 모아둔 자료",
+        "건설 중대재해 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_39234",
+      "concat": "[TITLE] 제조업 자율위험평가 가이드라인\n[SUMMARY] 제조업 자율위험평가 가이드라인",
+      "query": [
+        "제조업 위험평가",
+        "제조업에서 스스로 위험요인을 찾고 평가하는 방법",
+        "제조업 자율위험평가 가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_39343",
+      "concat": "[TITLE] 뇌심혈관계질환 예방 실무\n[SUMMARY] 1. 안전문화 2. 뇌심혈관계질환 예방",
+      "query": [
+        "뇌심혈관질환 예방",
+        "일터에서 뇌심혈관계질환을 예방하는 실무 자료",
+        "뇌심혈관계질환 예방 실무"
+      ]
+    },
+    {
+      "record_id": "list3_38960",
+      "concat": "[TITLE] 생활폐기물 수집운반 안전작업 가이드\n[SUMMARY] 생활폐기물 수집운반 작업별 개요, 유해위험요인 및 개선대책 등이 수록된 매뉴얼",
+      "query": [
+        "생활폐기물 작업 안전",
+        "쓰레기 수거와 운반 작업을 안전하게 하는 방법",
+        "생활폐기물 수집운반 안전작업 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_39281",
+      "concat": "[TITLE] 건설업 자율위험평가 가이드라인\n[SUMMARY] 노사가 함께 작업 및 공정의 사망 고위험요인을 스스로 파악, 위험성을 제거할 수 있도록 지원하기 위해 개발·보급하는 자료임",
+      "query": [
+        "건설업 위험평가",
+        "건설현장에서 노사가 함께 위험요인을 찾아 줄이는 방법",
+        "건설업 자율위험평가 가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_39226",
+      "concat": "[TITLE] 뇌심혈관질환의 직업적 요인\n[SUMMARY] 근로자건강센터 직원용 뇌심혈관질환예방 교재",
+      "query": [
+        "뇌심혈관질환 원인",
+        "일 때문에 생길 수 있는 뇌심혈관질환 위험요인 자료",
+        "뇌심혈관질환 직업적 요인 근로자건강센터 교재"
+      ]
+    },
+    {
+      "record_id": "list3_39233",
+      "concat": "[TITLE] 안전관리자가 알아야 할 타워크레인 작업 안전\n[SUMMARY] 안전관리자를 대상으로 한 건설현장에 설치된 타워크레인 설해체 및 운전에 대한 작업 안전 자료",
+      "query": [
+        "타워크레인 작업 안전",
+        "안전관리자가 알아야 할 타워크레인 설치 해체 운전 안전 자료",
+        "안전관리자 타워크레인 작업 안전"
+      ]
+    }
+  ]
+}

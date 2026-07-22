@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 78,
+  "items": [
+    {
+      "record_id": "list1_37406",
+      "concat": "[TITLE] 항공기 객실승무원 직무스트레스 예방\n[SUMMARY] 안전보건 OPL : 항공기 객실승무원 직무스트레스 예방",
+      "query": [
+        "승무원 스트레스 예방",
+        "비행기 객실승무원이 일하면서 받는 스트레스 관리 자료",
+        "항공기 객실승무원 직무스트레스 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37418",
+      "concat": "[TITLE] 송풍기 유지보수 작업안전\n[SUMMARY] 송풍기 유지보수 작업안전 OPL",
+      "query": [
+        "송풍기 점검 안전",
+        "송풍기 고치거나 관리할 때 지켜야 할 안전수칙",
+        "송풍기 유지보수 작업안전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37405",
+      "concat": "[TITLE] 지하철 기관사 직무스트레스 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "지하철 기관사 스트레스",
+        "지하철 운전하는 근로자의 직무 스트레스 예방 자료",
+        "지하철 기관사 직무스트레스 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37403",
+      "concat": "[TITLE] 산업폐기물 처리 기계장치 위험요소와 안전대책\n[SUMMARY] 산업폐기물 처리 기계장치 위험요소와 안전대책 OPL",
+      "query": [
+        "폐기물 기계 안전",
+        "산업폐기물 처리 기계를 사용할 때 위험한 점과 안전대책",
+        "산업폐기물 처리 기계장치 위험요소 안전대책 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37404",
+      "concat": "[TITLE] 산업폐기물 수작업 처리 위험요소와 안전대책\n[SUMMARY] 수작업으로 운반 중 바닥의 자재에 걸려 넘어짐",
+      "query": [
+        "폐기물 수작업 안전",
+        "산업폐기물을 손으로 옮기거나 처리할 때 넘어짐을 막는 자료",
+        "산업폐기물 수작업 처리 위험요소 안전대책"
+      ]
+    },
+    {
+      "record_id": "list1_37402",
+      "concat": "[TITLE] 호텔종사자의 직무스트레스 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "호텔 직원 스트레스",
+        "호텔에서 일하는 사람이 직무 스트레스를 줄이는 방법",
+        "호텔종사자 직무스트레스 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37400",
+      "concat": "[TITLE] 산업폐기물 운송 위험요소와 안전대책\n[SUMMARY] 안전보건 OPL-산업폐기물 운송 위험요소와 안전대책",
+      "query": [
+        "폐기물 운송 안전",
+        "산업폐기물을 운반할 때 생기는 위험과 예방 방법",
+        "산업폐기물 운송 위험요소 안전대책 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37401",
+      "concat": "[TITLE] 산업폐기물 기계장치 위험요소와 안전대책\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "폐기물 설비 안전",
+        "산업폐기물 관련 기계장치에서 생길 수 있는 위험과 대책",
+        "산업폐기물 기계장치 위험요소 안전대책 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37399",
+      "concat": "[TITLE] 달(달대)비계 및 말비계형 작업발판 설치 및 사용 안전수칙\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "달비계 말비계 안전",
+        "작업발판과 비계를 설치하고 사용할 때 필요한 안전수칙",
+        "달비계 달대비계 말비계형 작업발판 설치 사용 안전수칙 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37381",
+      "concat": "[TITLE] 감정노동에 따른 직무스트레스 예방\n[SUMMARY] 안전보건 OPL, 감정노동에 따른 직무스트레스 예방",
+      "query": [
+        "감정노동 스트레스",
+        "고객 응대 때문에 생기는 직무 스트레스를 예방하는 자료",
+        "감정노동 직무스트레스 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37398",
+      "concat": "[TITLE] 판매직 여성근로자 직무스트레스 예방\n[SUMMARY] 판매직 여성근로자 직무스트레스 예방 안전보건 OPL",
+      "query": [
+        "판매직 여성 스트레스",
+        "매장에서 일하는 여성 근로자의 직무 스트레스 예방 자료",
+        "판매직 여성근로자 직무스트레스 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37362",
+      "concat": "[TITLE] 거푸집동바리 등 설치 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "거푸집 동바리 안전",
+        "건설현장에서 거푸집 동바리를 설치할 때 안전하게 작업하는 방법",
+        "거푸집동바리 설치 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37397",
+      "concat": "[TITLE] 강재 작업발판 설치 및 사용 안전수칙\n[SUMMARY] 강재 작업발판 설치 및 사용 안전수칙-안전보건 OPL",
+      "query": [
+        "강재 발판 안전",
+        "철재 작업발판을 설치하고 사용할 때 지켜야 할 안전수칙",
+        "강재 작업발판 설치 사용 안전수칙 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37382",
+      "concat": "[TITLE] 건물청소원 직무스트레스 예방\n[SUMMARY] 건물청소원 직무스트레스 예방-안전보건 OPL",
+      "query": [
+        "청소원 스트레스",
+        "건물 청소 일을 하는 근로자의 직무 스트레스 예방 자료",
+        "건물청소원 직무스트레스 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37361",
+      "concat": "[TITLE] 창호 및 유리 설치 작업안전\n[SUMMARY] 안전보건 OPL : 창호 및 유리 설치 작업안전",
+      "query": [
+        "창문 유리 설치 안전",
+        "창호나 유리를 설치할 때 발생할 수 있는 사고를 예방하는 방법",
+        "창호 유리 설치 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37363",
+      "concat": "[TITLE] 건설현장 기계설비 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "건설 기계설비 안전",
+        "건설현장에서 기계설비 작업을 할 때 필요한 안전수칙",
+        "건설현장 기계설비 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37360",
+      "concat": "[TITLE] 방수 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "방수 작업 안전",
+        "건설현장에서 방수 작업을 할 때 사고를 예방하는 안전자료",
+        "방수 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37359",
+      "concat": "[TITLE] 도장 작업안전\n[SUMMARY] 도장작업 시 일어날 수 있는 재해 사례, 주요 위험요인, 안전대책",
+      "query": [
+        "페인트 작업 안전",
+        "도장 작업 중 생길 수 있는 위험요인과 안전대책 자료",
+        "도장 작업안전 재해사례 위험요인 안전대책"
+      ]
+    },
+    {
+      "record_id": "list1_37376",
+      "concat": "[TITLE] (음식 배달원)오토바이 배달 작업안전\n[SUMMARY] 안전보건 OPL : (음식 배달원)오토바이 배달 작업안전",
+      "query": [
+        "오토바이 배달 안전",
+        "음식 배달원이 오토바이로 배달할 때 지켜야 할 안전수칙",
+        "음식 배달원 오토바이 배달 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37378",
+      "concat": "[TITLE] 쓰레기수거및 재활용품 분리 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "쓰레기 수거 안전",
+        "쓰레기를 수거하거나 재활용품을 분리할 때 필요한 안전수칙",
+        "쓰레기수거 재활용품 분리 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37380",
+      "concat": "[TITLE] (환경미화원)환경미화 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "환경미화원 안전",
+        "환경미화 작업을 하는 근로자가 알아야 할 작업 안전수칙",
+        "환경미화원 환경미화 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37375",
+      "concat": "[TITLE] 플랜트 배관 용접공 건강장해 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "배관 용접 건강",
+        "플랜트 배관 용접공이 작업 중 건강장해를 예방하는 방법",
+        "플랜트 배관 용접공 건강장해 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37379",
+      "concat": "[TITLE] 택배 및 화물 운반 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "택배 화물 안전",
+        "택배나 화물을 옮길 때 다치지 않도록 지키는 안전수칙",
+        "택배 화물 운반 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37374",
+      "concat": "[TITLE] 콘크리트 견출공 건강장해 예방\n[SUMMARY] 콘크리트 견출공 작업중 발생하는 소음, 진동, 고농도 분진으로 인한 건강장해",
+      "query": [
+        "콘크리트 견출 건강",
+        "콘크리트 견출 작업 중 소음 진동 분진으로 인한 건강문제를 막는 자료",
+        "콘크리트 견출공 건강장해 예방 소음 진동 분진"
+      ]
+    },
+    {
+      "record_id": "list1_37377",
+      "concat": "[TITLE] 건물 등의 청소 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "건물 청소 안전",
+        "건물 청소 작업을 할 때 사고를 예방하는 안전수칙",
+        "건물 청소 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37373",
+      "concat": "[TITLE] 철골용접공 건강장해 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "철골 용접 건강",
+        "철골 용접 작업자가 작업 중 건강장해를 예방하는 자료",
+        "철골용접공 건강장해 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37370",
+      "concat": "[TITLE] 보일러 용접공 건강장해 예방\n[SUMMARY] 안전보건 OPL-보일러 용접공 건강장해 예방",
+      "query": [
+        "보일러 용접 건강",
+        "보일러 용접공이 작업 중 건강장해를 예방하는 방법",
+        "보일러 용접공 건강장해 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37371",
+      "concat": "[TITLE] 에폭시 도장공 건강장해 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "에폭시 도장 건강",
+        "에폭시 도장 작업자가 건강장해를 예방하기 위해 봐야 할 자료",
+        "에폭시 도장공 건강장해 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37357",
+      "concat": "[TITLE] 철근배근 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "철근 작업 안전",
+        "철근을 배근하는 작업에서 사고를 예방하는 안전수칙",
+        "철근배근 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37372",
+      "concat": "[TITLE] 우레탄 방수작업 도장공 건강장해 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "우레탄 방수 건강",
+        "우레탄 방수나 도장 작업 중 건강장해를 예방하는 자료",
+        "우레탄 방수작업 도장공 건강장해 예방 안전보건 OPL"
+      ]
+    }
+  ]
+}

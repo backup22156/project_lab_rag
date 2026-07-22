@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 28,
+  "items": [
+    {
+      "record_id": "list1_46899",
+      "concat": "[TITLE] [총칙] 보호구\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "보호구 착용",
+        "작업할 때 어떤 보호구를 써야 하는지 찾고 싶다",
+        "산업안전보건기준 총칙 보호구 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46897",
+      "concat": "[TITLE] [총칙] 작업계획서 작성 및 작업지휘자 지정 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "작업계획서 작업지휘자",
+        "위험한 작업 전에 계획서를 쓰고 지휘자를 정하는 기준을 찾고 싶다",
+        "산업안전보건기준 총칙 작업계획서 작성 작업지휘자 지정 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46895",
+      "concat": "[TITLE] [총칙] 붕괴 등에 의한 위험방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "붕괴 위험 방지",
+        "작업장에서 무너짐이나 붕괴 위험을 막는 기준이 필요하다",
+        "산업안전보건기준 총칙 붕괴 위험방지 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46898",
+      "concat": "[TITLE] [총칙] 관리감독자의 직무, 사용의 제한\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "관리감독자 직무",
+        "관리감독자가 해야 할 일과 사용 제한 기준을 알고 싶다",
+        "산업안전보건기준 총칙 관리감독자 직무 사용의 제한 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46896",
+      "concat": "[TITLE] [총칙] 추락에 의한 위험방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "추락 위험 방지",
+        "높은 곳에서 떨어지는 사고를 막는 작업장 기준을 찾고 싶다",
+        "산업안전보건기준 총칙 추락 위험방지 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46873",
+      "concat": "[TITLE] [안전기준] 목재가공용 기계\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "목재가공 기계",
+        "목재를 자르거나 가공하는 기계를 안전하게 쓰는 기준이 필요하다",
+        "산업안전보건기준 안전기준 목재가공용 기계 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46872",
+      "concat": "[TITLE] [안전기준] 원심기 및 분쇄기\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "원심기 분쇄기",
+        "원심기나 분쇄기를 사용할 때 지켜야 할 안전기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 원심기 분쇄기 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46894",
+      "concat": "[TITLE] [총칙] 비계의 재료 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "비계 재료",
+        "비계를 설치할 때 어떤 재료 기준을 지켜야 하는지 알고 싶다",
+        "산업안전보건기준 총칙 비계의 재료 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46871",
+      "concat": "[TITLE] [안전기준] 보일러 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "보일러 안전",
+        "사업장에서 보일러를 사용할 때 적용되는 안전기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 보일러 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46869",
+      "concat": "[TITLE] [안전기준] 양중기\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "양중기 안전",
+        "무거운 물건을 들어 올리는 장비의 안전기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 양중기 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46868",
+      "concat": "[TITLE] [안전기준] 크레인 안전조치 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "크레인 안전조치",
+        "크레인을 사용할 때 필요한 안전조치 기준을 알고 싶다",
+        "산업안전보건기준 안전기준 크레인 안전조치 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46870",
+      "concat": "[TITLE] [안전기준] 사출성형기 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "사출성형기 안전",
+        "사출성형기를 사용할 때 끼임 사고를 막는 기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 사출성형기 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46867",
+      "concat": "[TITLE] [안전기준] 크레인 조립 및 작업시 조치\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "크레인 조립 작업",
+        "크레인을 조립하거나 작업할 때 지켜야 할 조치를 찾고 싶다",
+        "산업안전보건기준 안전기준 크레인 조립 작업시 조치 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46866",
+      "concat": "[TITLE] [안전기준] 타워크레인 지지 및 이탈방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "타워크레인 지지",
+        "타워크레인이 흔들리거나 이탈하지 않게 하는 기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 타워크레인 지지 이탈방지 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46864",
+      "concat": "[TITLE] [안전기준] 리프트\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "리프트 안전",
+        "작업장에서 리프트를 사용할 때 필요한 안전기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 리프트 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46865",
+      "concat": "[TITLE] [안전기준] 이동식크레인\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "이동식크레인 안전",
+        "이동식크레인 작업을 할 때 지켜야 하는 안전기준이 필요하다",
+        "산업안전보건기준 안전기준 이동식크레인 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46863",
+      "concat": "[TITLE] [안전기준] 이삿짐운반용 리프트\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "이삿짐 리프트",
+        "이삿짐 운반용 리프트를 안전하게 사용하는 기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 이삿짐운반용 리프트 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46892",
+      "concat": "[TITLE] [총칙] 강관비계 및 틀비계\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "강관비계 틀비계",
+        "강관비계나 틀비계를 설치할 때 지켜야 할 기준을 알고 싶다",
+        "산업안전보건기준 총칙 강관비계 틀비계 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46891",
+      "concat": "[TITLE] [총칙] 달비계, 달대비계 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "달비계 달대비계",
+        "달비계나 달대비계를 사용할 때 필요한 안전기준을 찾고 싶다",
+        "산업안전보건기준 총칙 달비계 달대비계 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46893",
+      "concat": "[TITLE] [총칙] 비계의 조립·해체·점검 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "비계 조립 해체",
+        "비계를 조립하고 해체하거나 점검할 때 지켜야 할 기준이 필요하다",
+        "산업안전보건기준 총칙 비계 조립 해체 점검 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46890",
+      "concat": "[TITLE] [총칙] 말비계 및 이동식비계\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "말비계 이동식비계",
+        "말비계와 이동식비계를 사용할 때 안전하게 작업하는 기준을 찾고 싶다",
+        "산업안전보건기준 총칙 말비계 이동식비계 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46862",
+      "concat": "[TITLE] [안전기준] 양중기 와이어로프\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "양중기 와이어로프",
+        "양중기에 쓰는 와이어로프 안전기준을 확인하고 싶다",
+        "산업안전보건기준 안전기준 양중기 와이어로프 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46877",
+      "concat": "[TITLE] [안전기준] 방호장치의 해제금지 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "방호장치 해제금지",
+        "기계 방호장치를 함부로 풀면 안 되는 기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 방호장치 해제금지 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46889",
+      "concat": "[TITLE] [총칙] 환기장치\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "환기장치 기준",
+        "작업장 환기장치를 어떻게 설치하고 관리해야 하는지 알고 싶다",
+        "산업안전보건기준 총칙 환기장치 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46879",
+      "concat": "[TITLE] [총칙] 휴게시설 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "휴게시설 기준",
+        "근로자 휴게시설을 갖출 때 필요한 기준을 찾고 싶다",
+        "산업안전보건기준 총칙 휴게시설 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46878",
+      "concat": "[TITLE] [안전기준] 원동기·회전축 위험방지 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "회전축 위험방지",
+        "원동기나 회전축에 끼이는 위험을 막는 기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 원동기 회전축 위험방지 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46888",
+      "concat": "[TITLE] [총칙] 잔재물 등의 조치기준\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "잔재물 정리",
+        "작업장에 남은 자재나 잔재물을 어떻게 처리해야 하는지 알고 싶다",
+        "산업안전보건기준 총칙 잔재물 조치기준 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46875",
+      "concat": "[TITLE] [안전기준] 공작기계\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "공작기계 안전",
+        "공작기계를 사용할 때 지켜야 할 안전기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 공작기계 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46876",
+      "concat": "[TITLE] [안전기준] 탑승의 제한 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "탑승 제한",
+        "장비나 기계에 사람이 타면 안 되는 제한 기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 탑승의 제한 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46874",
+      "concat": "[TITLE] [안전기준] 프레스 및 전단기\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "프레스 전단기",
+        "프레스나 전단기를 사용할 때 필요한 안전기준을 찾고 싶다",
+        "산업안전보건기준 안전기준 프레스 전단기 OPS"
+      ]
+    }
+  ]
+}

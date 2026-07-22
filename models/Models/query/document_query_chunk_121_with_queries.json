@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 121,
+  "items": [
+    {
+      "record_id": "list1_30237",
+      "concat": "[TITLE] (선박건조 및 수리업)유압자키 안전작업\n[SUMMARY] 유압자키 안전작업OPL",
+      "query": [
+        "유압자키 안전",
+        "조선소에서 유압자키를 사용할 때 안전하게 작업하는 방법",
+        "선박건조 수리업 유압자키 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30235",
+      "concat": "[TITLE] (선박건조 및 수리업)에어아크 가우징 안전작업\n[SUMMARY] 에어아크 가우징 안전작업 OPL",
+      "query": [
+        "에어아크 가우징 안전",
+        "선박 작업장에서 에어아크 가우징할 때 필요한 안전수칙",
+        "선박건조 수리업 에어아크 가우징 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30230",
+      "concat": "[TITLE] (선박건조 및 수리업)아르곤용접 안전작업\n[SUMMARY] (선박건조 및 수리업)아르곤용접 안전작업-아르곤용접 안전작업",
+      "query": [
+        "아르곤용접 안전",
+        "조선소에서 아르곤용접 작업을 할 때 안전하게 하는 방법",
+        "선박건조 수리업 아르곤용접 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30231",
+      "concat": "[TITLE] (선박건조 및 수리업)안벽용승강설비 안전\n[SUMMARY] 안벽용승강설비 안전OPL",
+      "query": [
+        "안벽 승강설비 안전",
+        "선박 작업장 안벽에서 승강설비를 이용할 때 주의할 점",
+        "선박건조 수리업 안벽용승강설비 안전"
+      ]
+    },
+    {
+      "record_id": "list1_30229",
+      "concat": "[TITLE] (선박건조 및 수리업)수직부재 취부 안전작업\n[SUMMARY] 수직부재 취부 안전작업OPL",
+      "query": [
+        "수직부재 취부 안전",
+        "선박 수리 현장에서 수직부재를 취부할 때 안전수칙",
+        "선박건조 수리업 수직부재 취부 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30227",
+      "concat": "[TITLE] (선박건조 및 수리업)산소절단기 안전작업\n[SUMMARY] 산소절단기 안전작업OPL",
+      "query": [
+        "산소절단기 안전",
+        "조선소에서 산소절단기를 사용할 때 안전하게 작업하는 방법",
+        "선박건조 수리업 산소절단기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30225",
+      "concat": "[TITLE] (선박건조 및 수리업)블록용 안전통로\n[SUMMARY] 블록용 안전통로 OPL",
+      "query": [
+        "블록 안전통로",
+        "선박 블록 작업장에서 안전통로를 확보하는 방법",
+        "선박건조 수리업 블록용 안전통로"
+      ]
+    },
+    {
+      "record_id": "list1_30228",
+      "concat": "[TITLE] (선박건조 및 수리업)샤클 안전작업\n[SUMMARY] 샤클 안전작업 OPL",
+      "query": [
+        "샤클 안전",
+        "선박 작업장에서 샤클을 사용할 때 안전하게 작업하는 방법",
+        "선박건조 수리업 샤클 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30224",
+      "concat": "[TITLE] (선박건조 및 수리업)레버풀러 안전작업\n[SUMMARY] 레버풀러 안전작업 OPL",
+      "query": [
+        "레버풀러 안전",
+        "조선소에서 레버풀러를 사용할 때 주의해야 할 안전수칙",
+        "선박건조 수리업 레버풀러 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30223",
+      "concat": "[TITLE] (선박건조 및 수리업)디젤지게차 안전작업\n[SUMMARY] 디젤지게차 안전작업 OPL",
+      "query": [
+        "디젤지게차 안전",
+        "선박 작업장에서 디젤지게차를 운전할 때 안전하게 작업하는 방법",
+        "선박건조 수리업 디젤지게차 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30222",
+      "concat": "[TITLE] (선박건조 및 수리업)곤돌라 안전작업\n[SUMMARY] 곤돌라 안전작업 OPL",
+      "query": [
+        "곤돌라 안전",
+        "선박 건조 현장에서 곤돌라를 사용할 때 필요한 안전수칙",
+        "선박건조 수리업 곤돌라 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30221",
+      "concat": "[TITLE] (선박건조 및 수리업)고소작업대 안전작업\n[SUMMARY] 고소작업대 안전작업 OPL",
+      "query": [
+        "고소작업대 안전",
+        "조선소에서 고소작업대를 사용할 때 안전하게 작업하는 방법",
+        "선박건조 수리업 고소작업대 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30247",
+      "concat": "[TITLE] (선박건조 및 수리업)마그리프트 안전작업\n[SUMMARY] 마그리프트 안전작업 OPL",
+      "query": [
+        "마그리프트 안전",
+        "선박 수리 현장에서 마그리프트를 사용할 때 주의할 점",
+        "선박건조 수리업 마그리프트 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30249",
+      "concat": "[TITLE] (선박건조 및 수리업)양중클램프의 점검\n[SUMMARY] 양중클램프의 점검OPL",
+      "query": [
+        "양중클램프 점검",
+        "조선소에서 양중클램프를 쓰기 전에 점검하는 방법",
+        "선박건조 수리업 양중클램프 점검"
+      ]
+    },
+    {
+      "record_id": "list1_30220",
+      "concat": "[TITLE] (선박건조 및 수리업)가스매니폴드 안전작업\n[SUMMARY] 가스매니폴드 안전작업",
+      "query": [
+        "가스매니폴드 안전",
+        "선박 작업장에서 가스매니폴드를 사용할 때 안전수칙",
+        "선박건조 수리업 가스매니폴드 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_29284",
+      "concat": "[TITLE] 보건및사회복지사업-병실 작업\n[SUMMARY] 보건및사회복지사업의 대표 작업 단위를 선정하여 작업 특성에 맞는 안전한 작업방법 및 재해 사례를 수록",
+      "query": [
+        "병실 작업 안전",
+        "병원 병실에서 일할 때 필요한 안전한 작업방법과 재해사례",
+        "보건및사회복지사업 병실 작업 안전한 작업방법 재해 사례"
+      ]
+    },
+    {
+      "record_id": "list1_28868",
+      "concat": "[TITLE] 금속가공업 안전길라잡이 - DISH정치\n[SUMMARY] 금속가공업 안전길라잡이 - DISH정치 본 자료는 금속가공업 재해예방과 현장감 있는 자료 개발을 위하여 공단과 현대제철 인천공장이 공동개발한 자료로서 타 현장의 작업 내용과 일부 다를 수 있음을 알려드립니다. 본 자료를 비 상업적 목적으로 사용하는 것은 권장하지만, 상업적 용도로 복사, 복제, 전재 및 배포하는 것은 금지되어 있습니다.",
+      "query": [
+        "금속가공 DISH 정치",
+        "금속가공 현장에서 DISH 정치 작업 안전자료를 찾고 싶을 때",
+        "금속가공업 안전길라잡이 DISH정치"
+      ]
+    },
+    {
+      "record_id": "list1_29285",
+      "concat": "[TITLE] 보건및사회복지사업-조리 작업\n[SUMMARY] 보건및사회복지사업의 대표 작업 단위를 선정하여 작업 특성에 맞는 안전한 작업방법 및 재해 사례를 수록",
+      "query": [
+        "조리 작업 안전",
+        "보건복지 사업장에서 조리 작업을 할 때 안전한 방법과 재해사례",
+        "보건및사회복지사업 조리 작업 안전한 작업방법 재해 사례"
+      ]
+    },
+    {
+      "record_id": "list1_28763",
+      "concat": "[TITLE] 금속가공업 안전길라잡이 - 스카핑작업1\n[SUMMARY] 금속가공업 안전길라잡이 - 스카핑작업1 본 자료는 금속가공업 재해예방과 현장감 있는 자료 개발을 위하여 공단과 현대제철 인천공장이 공동개발한 자료로서 타 현장의 작업 내용과 일부 다를 수 있음을 알려드립니다. 본 자료를 비 상업적 목적으로 사용하는 것은 권장하지만, 상업적 용도로 복사, 복제, 전재 및 배포하는 것은 금지되어 있습니다.",
+      "query": [
+        "스카핑작업 안전",
+        "금속가공 현장에서 스카핑 작업 재해예방 자료를 찾을 때",
+        "금속가공업 안전길라잡이 스카핑작업"
+      ]
+    },
+    {
+      "record_id": "list1_28810",
+      "concat": "[TITLE] 식료품제조업 안전길라잡이 - 액젓제조(실험)\n[SUMMARY] 본 자료는 식료품제조업에 종사하는 근로자의 재해예방을 위해 한국산업안전보건공단과 CJ제일제당이 공동개발한 자료로서 타 현장의 작업 내용과 일부 다를 수 있음을 알려드립니다. 본 자료를 비 상업적 목적으로 사용하는 것은 권장하지만, 상업적 용도로 복사, 복제, 전재 및 배포하는 것은 금지되어 있습니다.",
+      "query": [
+        "액젓 제조 안전",
+        "식료품 제조업에서 액젓을 만들거나 실험할 때 안전자료",
+        "식료품제조업 안전길라잡이 액젓제조 실험"
+      ]
+    },
+    {
+      "record_id": "list1_28798",
+      "concat": "[TITLE] 식료품제조업 안전길라잡이 - 물엿제조(건조기 내부 케이크 제거작업)\n[SUMMARY] 본 자료는 식료품제조업에 종사하는 근로자의 재해예방을 위해 한국산업안전보건공단과 CJ제일제당이 공동개발한 자료로서 타 현장의 작업 내용과 일부 다를 수 있음을 알려드립니다. 본 자료를 비 상업적 목적으로 사용하는 것은 권장하지만, 상업적 용도로 복사, 복제, 전재 및 배포하는 것은 금지되어 있습니다.",
+      "query": [
+        "물엿 건조기 청소",
+        "물엿 제조 중 건조기 안에 붙은 케이크를 제거할 때 안전자료",
+        "식료품제조업 안전길라잡이 물엿제조 건조기 내부 케이크 제거작업"
+      ]
+    },
+    {
+      "record_id": "list2_52302",
+      "concat": "[TITLE] 소다 캔 효과의 무서운 사실\n[SUMMARY] 탄산음료를 흔들면 갑자기 거품이 확! 터지는 현상을 소다 캔 효과라고 해요! 이 현상.. 오폐수 현장에서는 무시무시한 일을 일으키는데요... *고용노동부x긱블(@geekble_kr) \"나를 믿지마세요. 안전 장비를 믿으세요\"",
+      "query": [
+        "소다 캔 효과",
+        "탄산음료처럼 거품이 터지는 현상이 오폐수 현장에서 위험한 이유",
+        "소다 캔 효과 오폐수 현장 안전 장비"
+      ]
+    },
+    {
+      "record_id": "list2_52287",
+      "concat": "[TITLE] 레고로 만든 파쇄기로 ㅇㅇㅇ까지..\n[SUMMARY] 고작 레고로 만든 파쇄기의 파워 어느 정도일지 상상 되시나요? *고용노동부x긱블(@geekble_kr) \"나를 믿지마세요. 안전 장비를 믿으세요\"",
+      "query": [
+        "레고 파쇄기 안전",
+        "파쇄기가 얼마나 위험한지 레고 실험으로 보여주는 안전 영상",
+        "레고로 만든 파쇄기 안전 장비"
+      ]
+    },
+    {
+      "record_id": "list2_52301",
+      "concat": "[TITLE] 안전모를 꼭 써야 하는 이유\n[SUMMARY] 150km/h 야구공을 맞는 것과, 2m 높이에서 떨어지는 것 어느 쪽이 더 아플까요??? *고용노동부x긱블(@geekble_kr)",
+      "query": [
+        "안전모 이유",
+        "현장에서 안전모를 꼭 써야 하는 이유를 쉽게 설명한 영상",
+        "안전모 꼭 써야 하는 이유"
+      ]
+    },
+    {
+      "record_id": "list2_52300",
+      "concat": "[TITLE] 지게차 안전벨트를 하지 않았을 때 벌어지는 일\n[SUMMARY] 앉아있던 의자만 기울어도 콰당! 쉽게 넘어지는데요! 무게 중심이 위에 있는 지게차가 넘어지면... *고용노동부x긱블(@geekble_kr)",
+      "query": [
+        "지게차 안전벨트",
+        "지게차가 넘어질 때 안전벨트를 안 하면 어떤 일이 생기는지 보여주는 영상",
+        "지게차 안전벨트 하지 않았을 때 벌어지는 일"
+      ]
+    },
+    {
+      "record_id": "list2_51920",
+      "concat": "[TITLE] 35. Worker loses consciousness in manure spreader tank – 사고 조사: 분뇨 살포기 탱크 내 근로자 질식 사고\n[SUMMARY] 국외 우수사례 동영상(출처 : WORKSAFE BC)",
+      "query": [
+        "분뇨 탱크 질식",
+        "분뇨 살포기 탱크 안에서 근로자가 의식을 잃은 사고 조사 영상",
+        "Worker loses consciousness in manure spreader tank 사고 조사 분뇨 살포기 탱크 근로자 질식 사고"
+      ]
+    },
+    {
+      "record_id": "list2_51919",
+      "concat": "[TITLE] 34. Kitchen Safety: Preventing Lifting Injuries – 주방 안전수칙: 중량물 취급 부상 예방\n[SUMMARY] 국외 우수사례 동영상(출처 : WORKSAFE BC)",
+      "query": [
+        "주방 중량물 부상",
+        "주방에서 무거운 물건을 들다가 다치지 않도록 하는 안전수칙 영상",
+        "Kitchen Safety Preventing Lifting Injuries 주방 안전수칙 중량물 취급 부상 예방"
+      ]
+    },
+    {
+      "record_id": "list2_51918",
+      "concat": "[TITLE] 33. Kitchen Safety: Preventing Slips, Trips, and Falls – 주방 안전수칙: 미끄러짐, 걸림, 넘어짐 예방\n[SUMMARY] 국외 우수사례 동영상(출처 : WORKSAFE BC)",
+      "query": [
+        "주방 미끄럼 넘어짐",
+        "주방에서 미끄러지거나 걸려 넘어지는 사고를 예방하는 안전수칙 영상",
+        "Kitchen Safety Preventing Slips Trips and Falls 주방 안전수칙 미끄러짐 걸림 넘어짐 예방"
+      ]
+    },
+    {
+      "record_id": "list2_51917",
+      "concat": "[TITLE] 32. Kitchen Safety: Using Deep Fryers Safely – 주방 안전수칙: 튀김기 안전\n[SUMMARY] 국외 우수사례 동영상(출처 : WORKSAFE BC)",
+      "query": [
+        "튀김기 안전",
+        "주방에서 튀김기를 안전하게 사용하는 방법을 알려주는 영상",
+        "Kitchen Safety Using Deep Fryers Safely 주방 안전수칙 튀김기 안전"
+      ]
+    },
+    {
+      "record_id": "list2_51915",
+      "concat": "[TITLE] 30. Kitchen Safety: Preventing Cuts from Meat Slicers – 주방 안전수칙: 육류절단기 베임 예방\n[SUMMARY] 국외 우수사례 동영상(출처 : WORKSAFE BC)",
+      "query": [
+        "육류절단기 베임",
+        "주방에서 육류절단기를 쓰다가 베이는 사고를 예방하는 안전수칙 영상",
+        "Kitchen Safety Preventing Cuts from Meat Slicers 주방 안전수칙 육류절단기 베임 예방"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 100,
+  "items": [
+    {
+      "record_id": "list1_31571",
+      "concat": "[TITLE] (기타제조업)공업용미싱\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "공업용 미싱 안전",
+        "공장에서 쓰는 재봉틀 작업할 때 조심할 점 자료",
+        "기타제조업 공업용미싱 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31572",
+      "concat": "[TITLE] (기타제조업)기어호빙기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "기어 호빙기 안전",
+        "기어 깎는 기계를 사용할 때 위험요인과 안전수칙을 찾고 싶다",
+        "기타제조업 기어호빙기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31649",
+      "concat": "[TITLE] (도소매및소비자용품수리업)물품진열작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "물품 진열 안전",
+        "매장에서 물건을 진열하다 다치지 않게 하는 방법 자료",
+        "도소매및소비자용품수리업 물품진열작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31650",
+      "concat": "[TITLE] (도소매및소비자용품수리업)자동바닥청소기(탑승/보행식)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "바닥 청소기 안전",
+        "탑승식이나 보행식 자동 바닥청소기를 쓸 때 안전수칙 자료",
+        "도소매및소비자용품수리업 자동바닥청소기 탑승 보행식 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31651",
+      "concat": "[TITLE] (도소매및소비자용품수리업)자동세차기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "자동 세차기 안전",
+        "자동세차기 작업 중 끼임이나 사고를 막는 안전 자료",
+        "도소매및소비자용품수리업 자동세차기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31652",
+      "concat": "[TITLE] (도소매및소비자용품수리업)적재물관리\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "적재물 관리 안전",
+        "쌓아 둔 물건이 넘어지거나 떨어지지 않게 관리하는 방법",
+        "도소매및소비자용품수리업 적재물관리 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31624",
+      "concat": "[TITLE] (건물관리업)청소용구\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "청소도구 안전",
+        "건물 청소할 때 쓰는 도구 때문에 생기는 사고 예방 자료",
+        "건물관리업 청소용구 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31623",
+      "concat": "[TITLE] (건물관리업)주차차단기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "주차 차단기 안전",
+        "건물 주차장 차단기를 점검하거나 사용할 때 안전수칙 자료",
+        "건물관리업 주차차단기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31622",
+      "concat": "[TITLE] (건물관리업)조명교체작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "조명 교체 안전",
+        "건물에서 전등이나 조명을 바꿀 때 떨어짐 감전 예방 자료",
+        "건물관리업 조명교체작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31621",
+      "concat": "[TITLE] (건물관리업)전열기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "전열기 안전",
+        "건물에서 전기난방기나 전열기를 사용할 때 화재 예방 자료",
+        "건물관리업 전열기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31620",
+      "concat": "[TITLE] (건물관리업)아파트 지하계단\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "지하계단 안전",
+        "아파트 지하 계단에서 청소나 이동 중 사고를 막는 자료",
+        "건물관리업 아파트 지하계단 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31648",
+      "concat": "[TITLE] (도소매및소비자용품수리업)도소매용 일반작업용리프트\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작함.",
+      "query": [
+        "작업용 리프트 안전",
+        "도소매 현장에서 물건 올리는 리프트를 쓸 때 안전수칙 자료",
+        "도소매및소비자용품수리업 도소매용 일반작업용리프트 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31647",
+      "concat": "[TITLE] (도소매및소비자용품수리업)고압가스저장소\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "고압가스 저장소 안전",
+        "가게나 수리업 현장의 고압가스 저장소 관리 안전 자료",
+        "도소매및소비자용품수리업 고압가스저장소 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31626",
+      "concat": "[TITLE] (위생 및 유사서비스업)굴착기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "굴착기 안전",
+        "위생 서비스 작업장에서 굴착기를 다룰 때 사고 예방 자료",
+        "위생 및 유사서비스업 굴착기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31627",
+      "concat": "[TITLE] (위생 및 유사서비스업)도로변 조경/제초작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "도로변 제초 안전",
+        "도로 옆에서 조경이나 풀베기 작업할 때 안전수칙 자료",
+        "위생 및 유사서비스업 도로변 조경 제초작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31630",
+      "concat": "[TITLE] (위생 및 유사서비스업)산업용 청소기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "산업용 청소기 안전",
+        "큰 청소기를 사용해 청소 작업할 때 위험요인과 안전수칙 자료",
+        "위생 및 유사서비스업 산업용 청소기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31628",
+      "concat": "[TITLE] (위생 및 유사서비스업)리어카\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "리어카 안전",
+        "청소나 수거 작업에서 리어카를 끌 때 다치지 않는 방법",
+        "위생 및 유사서비스업 리어카 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31629",
+      "concat": "[TITLE] (위생 및 유사서비스업)벨트컨베이어\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "벨트컨베이어 안전",
+        "위생 작업장에서 컨베이어를 사용할 때 끼임 사고 예방 자료",
+        "위생 및 유사서비스업 벨트컨베이어 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31653",
+      "concat": "[TITLE] (도소매및소비자용품수리업)주유시설\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "주유시설 안전",
+        "주유소나 유류 취급 시설에서 작업할 때 화재 사고 예방 자료",
+        "도소매및소비자용품수리업 주유시설 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31654",
+      "concat": "[TITLE] (도소매및소비자용품수리업)지하탱크 유류이송작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "지하탱크 유류이송",
+        "지하 탱크에서 기름을 옮기는 작업 안전수칙 자료",
+        "도소매및소비자용품수리업 지하탱크 유류이송작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31655",
+      "concat": "[TITLE] (도소매및소비자용품수리업)탱크로리 적재 및 하역작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "탱크로리 하역 안전",
+        "탱크로리에 기름을 싣거나 내릴 때 안전하게 작업하는 방법",
+        "도소매및소비자용품수리업 탱크로리 적재 하역작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31656",
+      "concat": "[TITLE] (도소매및소비자용품수리업)한랭작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "한랭작업 안전",
+        "추운 환경에서 일할 때 건강과 사고를 예방하는 자료",
+        "도소매및소비자용품수리업 한랭작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31660",
+      "concat": "[TITLE] (임업)우드그랩(원목집게)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "원목집게 안전",
+        "임업 현장에서 우드그랩으로 나무를 집어 옮길 때 안전수칙 자료",
+        "임업 우드그랩 원목집게 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31657",
+      "concat": "[TITLE] (도소매및소비자용품수리업)POP 게시작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "POP 게시 안전",
+        "매장에서 광고판이나 안내물을 붙이는 작업 중 사고 예방 자료",
+        "도소매및소비자용품수리업 POP 게시작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31658",
+      "concat": "[TITLE] (임업)나무운반 미끄럼틀(수라)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "나무운반 수라",
+        "산에서 원목을 미끄럼틀로 운반할 때 안전하게 작업하는 방법",
+        "임업 나무운반 미끄럼틀 수라 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31662",
+      "concat": "[TITLE] (임업)타워야더(삭도집재기)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "타워야더 안전",
+        "임업 현장에서 삭도집재기로 원목을 모을 때 안전수칙 자료",
+        "임업 타워야더 삭도집재기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31661",
+      "concat": "[TITLE] (임업)조재(원목 절단)작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "원목 절단 안전",
+        "벌목 후 나무를 자르는 조재 작업 중 다치지 않는 방법",
+        "임업 조재 원목 절단작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31659",
+      "concat": "[TITLE] (임업)소형집재기(아끼야윈치)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "소형집재기 안전",
+        "임업 현장에서 아끼야윈치로 나무를 모을 때 안전수칙 자료",
+        "임업 소형집재기 아끼야윈치 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31663",
+      "concat": "[TITLE] (임업)트랙터집재기(파미윈치)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작함",
+      "query": [
+        "트랙터 집재기 안전",
+        "파미윈치 같은 트랙터 집재기로 원목을 옮길 때 안전 자료",
+        "임업 트랙터집재기 파미윈치 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31625",
+      "concat": "[TITLE] (위생 및 유사서비스업)가로 청소작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "가로 청소 안전",
+        "도로나 거리 청소 작업 중 사고를 예방하는 안전수칙 자료",
+        "위생 및 유사서비스업 가로 청소작업 OPL"
+      ]
+    }
+  ]
+}

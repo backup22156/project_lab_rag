@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 106,
+  "items": [
+    {
+      "record_id": "list1_31278",
+      "concat": "[TITLE] 유리, 도기 및 관련 장식도장 종사자 - 도자기 제조\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "도자기 제조 안전",
+        "도자기 만드는 작업에서 생길 수 있는 위험을 알고 싶어요",
+        "유리 도기 장식도장 종사자 도자기 제조"
+      ]
+    },
+    {
+      "record_id": "list1_31276",
+      "concat": "[TITLE] 공구제조 및 관련 종사자 - CNC 선반작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "CNC 선반 작업",
+        "CNC 선반을 다룰 때 조심해야 할 점을 찾고 있어요",
+        "공구제조 관련 종사자 CNC 선반작업"
+      ]
+    },
+    {
+      "record_id": "list1_31280",
+      "concat": "[TITLE] 종이 제조장치 조작종사자 - 리와인더작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "리와인더 작업 안전",
+        "종이 감는 기계 작업 위험요인을 알고 싶어요",
+        "종이 제조장치 조작종사자 리와인더작업"
+      ]
+    },
+    {
+      "record_id": "list1_31272",
+      "concat": "[TITLE] 서비스 종사자 - 목욕도우미\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "목욕도우미 안전",
+        "목욕을 도와주는 일을 할 때 생기는 사고 예방 자료를 찾고 있어요",
+        "서비스 종사자 목욕도우미"
+      ]
+    },
+    {
+      "record_id": "list1_31271",
+      "concat": "[TITLE] 서비스 종사자 - 물류창고 화물취급\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "물류창고 화물취급",
+        "창고에서 물건 옮기고 쌓는 작업 안전자료가 필요해요",
+        "서비스 종사자 물류창고 화물취급"
+      ]
+    },
+    {
+      "record_id": "list1_31270",
+      "concat": "[TITLE] 판매종사자 - 근골격계질환\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "판매직 근골격계질환",
+        "판매 일을 하면서 허리나 어깨에 무리가 가는 문제를 예방하고 싶어요",
+        "판매종사자 근골격계질환"
+      ]
+    },
+    {
+      "record_id": "list1_31479",
+      "concat": "[TITLE] [직업건강]공기매개 감염병에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "공기 감염병 예방",
+        "일터에서 공기로 옮는 감염병을 막는 방법을 찾고 있어요",
+        "직업건강 공기매개 감염병 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31484",
+      "concat": "[TITLE] [직업건강]관리대상유해물질의 종류와 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "유해물질 종류 유해성",
+        "관리해야 하는 유해물질이 어떤 것들이고 몸에 어떤 해가 있는지 알고 싶어요",
+        "직업건강 관리대상유해물질 종류 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31480",
+      "concat": "[TITLE] [직업건강]유비저(말레이병) 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "유비저 예방",
+        "말레이병이라고 하는 감염병을 직장에서 어떻게 예방하는지 찾고 있어요",
+        "직업건강 유비저 말레이병 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31482",
+      "concat": "[TITLE] [직업건강]가스상물질의 종류와 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "가스 유해성",
+        "가스 형태의 물질이 건강에 어떤 영향을 주는지 알고 싶어요",
+        "직업건강 가스상물질 종류 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31481",
+      "concat": "[TITLE] [직업건강]혈액매개 감염병에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "혈액 감염병 예방",
+        "피를 통해 옮는 감염병을 작업장에서 예방하는 자료를 찾고 있어요",
+        "직업건강 혈액매개 감염병 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31478",
+      "concat": "[TITLE] [직업건강]곤충 및 동물매개 감염병에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "동물 감염병 예방",
+        "곤충이나 동물 때문에 생기는 감염병을 일터에서 막는 방법을 찾고 있어요",
+        "직업건강 곤충 동물매개 감염병 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31477",
+      "concat": "[TITLE] [직업건강]호흡기보호 프로그램\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "호흡기 보호 프로그램",
+        "분진이나 유해가스 작업장에서 마스크 관리와 호흡 보호 방법을 알고 싶어요",
+        "직업건강 호흡기보호 프로그램"
+      ]
+    },
+    {
+      "record_id": "list1_31475",
+      "concat": "[TITLE] [직업건강]최적작업을 위한 조명\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "작업장 조명",
+        "일하기 좋은 밝기와 조명 조건에 대한 자료를 찾고 있어요",
+        "직업건강 최적작업 조명"
+      ]
+    },
+    {
+      "record_id": "list1_31476",
+      "concat": "[TITLE] [직업건강]한랭에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "한랭질환 예방",
+        "추운 곳에서 일할 때 생기는 건강 문제를 예방하는 방법이 필요해요",
+        "직업건강 한랭 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31486",
+      "concat": "[TITLE] [직업건강]국소배기장치의 이해\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "국소배기장치",
+        "유해물질이 나오는 작업장에서 빨아들이는 환기장치를 알고 싶어요",
+        "직업건강 국소배기장치 이해"
+      ]
+    },
+    {
+      "record_id": "list1_31487",
+      "concat": "[TITLE] [직업건강]금지유해물질의 종류와 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "금지 유해물질",
+        "사용하면 안 되는 유해물질 종류와 위험성을 알고 싶어요",
+        "직업건강 금지유해물질 종류 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31488",
+      "concat": "[TITLE] [직업건강]물질안전보건자료(MSDS)의 이해\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "MSDS 이해",
+        "물질안전보건자료를 어떻게 봐야 하는지 쉽게 알고 싶어요",
+        "직업건강 물질안전보건자료 MSDS 이해"
+      ]
+    },
+    {
+      "record_id": "list1_31489",
+      "concat": "[TITLE] [직업건강]밀폐공간 보건작업 프로그램\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "밀폐공간 보건 프로그램",
+        "밀폐된 공간에서 일할 때 필요한 보건관리 절차를 찾고 있어요",
+        "직업건강 밀폐공간 보건작업 프로그램"
+      ]
+    },
+    {
+      "record_id": "list1_31490",
+      "concat": "[TITLE] [직업건강]밀폐공간 질식재해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "밀폐공간 질식 예방",
+        "탱크나 맨홀 같은 곳에서 질식 사고를 막는 방법을 찾고 있어요",
+        "직업건강 밀폐공간 질식재해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31491",
+      "concat": "[TITLE] [직업건강]산알칼리류의 종류와 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "산 알칼리 유해성",
+        "산이나 알칼리 물질이 몸에 얼마나 해로운지 알고 싶어요",
+        "직업건강 산알칼리류 종류 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31494",
+      "concat": "[TITLE] [직업건강]실험실 안전\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "실험실 안전",
+        "실험실에서 사고를 예방하려면 무엇을 조심해야 하는지 찾고 있어요",
+        "직업건강 실험실 안전"
+      ]
+    },
+    {
+      "record_id": "list1_31492",
+      "concat": "[TITLE] [직업건강]석면의 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "석면 유해성",
+        "석면이 건강에 왜 위험한지 설명하는 자료를 찾고 있어요",
+        "직업건강 석면 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31495",
+      "concat": "[TITLE] [직업건강]용접흄에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "용접흄 건강장해",
+        "용접할 때 나오는 연기 때문에 생기는 건강 문제를 예방하고 싶어요",
+        "직업건강 용접흄 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31497",
+      "concat": "[TITLE] [직업건강]전체환기장치의 이해\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "전체환기장치",
+        "작업장 전체 공기를 바꾸는 환기장치 자료를 찾고 있어요",
+        "직업건강 전체환기장치 이해"
+      ]
+    },
+    {
+      "record_id": "list1_31499",
+      "concat": "[TITLE] [직업건강]치과보철물에 포함된 베릴륨의 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "치과 보철 베릴륨",
+        "치과 보철물에 들어간 베릴륨이 건강에 해로운지 알고 싶어요",
+        "직업건강 치과보철물 베릴륨 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31498",
+      "concat": "[TITLE] [직업건강]중금속의 종류와 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "중금속 유해성",
+        "중금속 종류와 건강에 미치는 영향을 알고 싶어요",
+        "직업건강 중금속 종류 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31501",
+      "concat": "[TITLE] [직업건강]허용기준 설정물질의 종류와 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "허용기준 물질",
+        "노출 기준이 정해진 유해물질 종류와 위험성을 찾고 있어요",
+        "직업건강 허용기준 설정물질 종류 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31500",
+      "concat": "[TITLE] [직업건강]허가대상 유해물질의 종류와 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "허가대상 유해물질",
+        "허가를 받아야 취급할 수 있는 유해물질 자료를 찾고 있어요",
+        "직업건강 허가대상 유해물질 종류 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31473",
+      "concat": "[TITLE] [직업건강]진동에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "진동 건강장해",
+        "진동이 많은 작업을 할 때 몸에 생기는 문제를 예방하고 싶어요",
+        "직업건강 진동 건강장해 예방"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 38,
+  "items": [
+    {
+      "record_id": "list1_45688",
+      "concat": "[TITLE] [근로자용] 로더(Loader) 작업안전\n[SUMMARY] 위험기계·기구(로더 Loader) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "로더 안전",
+        "로더 장비로 작업할 때 지켜야 할 안전수칙을 찾고 싶어요",
+        "근로자용 로더 Loader 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45684",
+      "concat": "[TITLE] [근로자용] 벨트 컨베이어 작업안전\n[SUMMARY] 위험기계·기구(벨트 컨베이어) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "벨트 컨베이어 안전",
+        "벨트 컨베이어 작업 중 끼임 사고를 막는 방법을 찾고 싶어요",
+        "근로자용 벨트 컨베이어 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45686",
+      "concat": "[TITLE] [근로자용] 타워크레인 작업안전\n[SUMMARY] 위험기계·기구(타워크레인) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "타워크레인 안전",
+        "타워크레인 작업할 때 근로자가 알아야 할 안전수칙을 찾고 싶어요",
+        "근로자용 타워크레인 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45685",
+      "concat": "[TITLE] [관리자용] 타워크레인 작업안전\n[SUMMARY] 위험기계·기구(타워크레인) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "타워크레인 관리 안전",
+        "타워크레인 작업을 관리할 때 확인해야 할 안전수칙을 찾고 싶어요",
+        "관리자용 타워크레인 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45687",
+      "concat": "[TITLE] [관리자용] 로더(Loader) 작업안전\n[SUMMARY] 위험기계·기구(로더 Loader) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "로더 관리 안전",
+        "로더 장비 작업을 관리할 때 필요한 안전자료를 찾고 싶어요",
+        "관리자용 로더 Loader 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45683",
+      "concat": "[TITLE] [관리자용] 벨트 컨베이어 작업안전\n[SUMMARY] 위험기계·기구(벨트 컨베이어) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "벨트 컨베이어 관리",
+        "벨트 컨베이어 작업을 관리할 때 필요한 안전수칙을 찾고 싶어요",
+        "관리자용 벨트 컨베이어 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45682",
+      "concat": "[TITLE] [근로자용] 천장 크레인 작업안전\n[SUMMARY] 위험기계·기구(천장 크레인) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "천장 크레인 안전",
+        "천장 크레인으로 작업할 때 근로자가 볼 안전수칙을 찾고 싶어요",
+        "근로자용 천장 크레인 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45678",
+      "concat": "[TITLE] [근로자용] 지게차 작업안전\n[SUMMARY] 위험기계·기구(지게차) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "지게차 안전",
+        "지게차 작업할 때 작업자가 지켜야 할 안전수칙을 찾고 싶어요",
+        "근로자용 지게차 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45681",
+      "concat": "[TITLE] [관리자용] 천장 크레인 작업안전\n[SUMMARY] 위험기계·기구(천장 크레인) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "천장 크레인 관리",
+        "천장 크레인 작업을 관리할 때 점검할 안전사항을 찾고 싶어요",
+        "관리자용 천장 크레인 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45677",
+      "concat": "[TITLE] [관리자용] 지게차 작업안전\n[SUMMARY] 위험기계·기구(지게차) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "지게차 관리 안전",
+        "지게차 작업을 관리하는 사람이 확인할 안전자료를 찾고 싶어요",
+        "관리자용 지게차 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45680",
+      "concat": "[TITLE] [근로자용] 이동식 크레인 작업안전\n[SUMMARY] 위험기계·기구(이동식 크레인) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "이동식 크레인 안전",
+        "이동식 크레인으로 작업할 때 근로자 안전수칙을 찾고 싶어요",
+        "근로자용 이동식 크레인 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45675",
+      "concat": "[TITLE] [관리자용] 굴착기 작업안전\n[SUMMARY] 위험기계·기구(굴착기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "굴착기 관리 안전",
+        "굴착기 작업을 관리할 때 필요한 안전수칙 자료를 찾고 싶어요",
+        "관리자용 굴착기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45679",
+      "concat": "[TITLE] [관리자용] 이동식 크레인 작업안전\n[SUMMARY] 위험기계·기구(이동식 크레인) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "이동식 크레인 관리",
+        "이동식 크레인 작업을 관리할 때 확인해야 할 안전사항을 찾고 싶어요",
+        "관리자용 이동식 크레인 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45676",
+      "concat": "[TITLE] [근로자용] 굴착기 작업안전\n[SUMMARY] 위험기계·기구(굴착기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "굴착기 안전",
+        "굴착기로 작업할 때 근로자가 알아야 할 안전수칙을 찾고 싶어요",
+        "근로자용 굴착기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45815",
+      "concat": "[TITLE] [근로자용] 디클로로메탄 작업안전\n[SUMMARY] 화학물질(디클로로메탄) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "디클로로메탄 안전",
+        "디클로로메탄을 취급하는 근로자용 안전수칙을 찾고 싶어요",
+        "근로자용 디클로로메탄 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45813",
+      "concat": "[TITLE] [근로자용] 수산화테트라메틸암모늄 작업안전\n[SUMMARY] 화학물질(수산화테트라메틸암모늄) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "수산화테트라메틸암모늄 안전",
+        "수산화테트라메틸암모늄을 다루는 작업자 안전자료를 찾고 싶어요",
+        "근로자용 수산화테트라메틸암모늄 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45814",
+      "concat": "[TITLE] [관리자용] 디클로로메탄 작업안전\n[SUMMARY] 화학물질(디클로로메탄) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "디클로로메탄 관리",
+        "디클로로메탄 취급 작업을 관리할 때 필요한 안전자료를 찾고 싶어요",
+        "관리자용 디클로로메탄 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45796",
+      "concat": "[TITLE] [관리자용] 퍼클로로에틸렌 작업안전\n[SUMMARY] 화학물질(퍼클로로에틸렌) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "퍼클로로에틸렌 관리",
+        "퍼클로로에틸렌 취급 작업 관리자가 볼 안전수칙을 찾고 싶어요",
+        "관리자용 퍼클로로에틸렌 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45799",
+      "concat": "[TITLE] [근로자용] 아크릴로니트릴 작업안전\n[SUMMARY] 화학물질(아크릴로니트릴) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "아크릴로니트릴 안전",
+        "아크릴로니트릴을 취급하는 근로자 안전수칙을 찾고 싶어요",
+        "근로자용 아크릴로니트릴 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45812",
+      "concat": "[TITLE] [관리자용] 수산화테트라메틸암모늄 작업안전\n[SUMMARY] 화학물질(수산화테트라메틸암모늄) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "수산화테트라메틸암모늄 관리",
+        "수산화테트라메틸암모늄 취급 작업 관리용 안전자료를 찾고 싶어요",
+        "관리자용 수산화테트라메틸암모늄 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45798",
+      "concat": "[TITLE] [관리자용] 아크릴로니트릴 작업안전\n[SUMMARY] 화학물질(아크릴로니트릴) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "아크릴로니트릴 관리",
+        "아크릴로니트릴 취급 작업을 관리할 때 필요한 안전자료를 찾고 싶어요",
+        "관리자용 아크릴로니트릴 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45797",
+      "concat": "[TITLE] [근로자용] 퍼클로로에틸렌 작업안전\n[SUMMARY] 화학물질(퍼클로로에틸렌) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "퍼클로로에틸렌 안전",
+        "퍼클로로에틸렌을 다루는 근로자용 안전수칙을 찾고 싶어요",
+        "근로자용 퍼클로로에틸렌 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45795",
+      "concat": "[TITLE] [근로자용] N,N-디메틸아세트아미드 작업안전\n[SUMMARY] 화학물질(N,N-디메틸아세트아미드) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "디메틸아세트아미드 안전",
+        "N,N-디메틸아세트아미드를 취급하는 근로자 안전자료를 찾고 싶어요",
+        "근로자용 N,N-디메틸아세트아미드 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45794",
+      "concat": "[TITLE] [관리자용] N,N-디메틸아세트아미드 작업안전\n[SUMMARY] 화학물질(N,N-디메틸아세트아미드) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "디메틸아세트아미드 관리",
+        "N,N-디메틸아세트아미드 취급 작업 관리용 안전수칙을 찾고 싶어요",
+        "관리자용 N,N-디메틸아세트아미드 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45599",
+      "concat": "[TITLE] 산업용 리프트 재정지원 사업 안내문\n[SUMMARY] 산업용 리프트 안전검사 대상 확대에 따른 재정지원 사업 안내 OPL",
+      "query": [
+        "산업용 리프트 지원",
+        "산업용 리프트 안전검사 대상이 늘어나면서 받을 수 있는 지원사업 안내를 찾고 싶어요",
+        "산업용 리프트 재정지원 사업 안내문 OPL 안전검사 대상 확대"
+      ]
+    },
+    {
+      "record_id": "list1_45790",
+      "concat": "[TITLE] [관리자용] 메틸알코올 작업안전\n[SUMMARY] 화학물질(메틸알코올) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "메틸알코올 관리",
+        "메틸알코올 취급 작업을 관리할 때 볼 안전자료를 찾고 싶어요",
+        "관리자용 메틸알코올 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45791",
+      "concat": "[TITLE] [근로자용] 메틸알코올 작업안전\n[SUMMARY] 화학물질(메틸알코올) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "메틸알코올 안전",
+        "메틸알코올을 다루는 근로자용 안전수칙을 찾고 싶어요",
+        "근로자용 메틸알코올 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45793",
+      "concat": "[TITLE] [근로자용] 디메틸포름아미드 작업안전\n[SUMMARY] 화학물질(디메틸포름아미드) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "디메틸포름아미드 안전",
+        "디메틸포름아미드를 취급하는 근로자 안전자료를 찾고 싶어요",
+        "근로자용 디메틸포름아미드 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45827",
+      "concat": "[TITLE] 겨울철 한파로 인한 한랭질환 예방가이드(17개국)\n[SUMMARY] 겨울철 한파로 인한 한랭질환 예방가이드(17개국) - 네팔, 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 베트남, 스리랑카, 영어, 우즈벡, 인도네시아, 중국, 캄보디아, 키르기스스탄, 태국, 파키스탄, 필리핀",
+      "query": [
+        "한파 한랭질환",
+        "겨울철 한파 때 외국인 근로자도 볼 수 있는 한랭질환 예방자료를 찾고 싶어요",
+        "겨울철 한파 한랭질환 예방가이드 17개국"
+      ]
+    },
+    {
+      "record_id": "list1_45792",
+      "concat": "[TITLE] [관리자용] 디메틸포름아미드 작업안전\n[SUMMARY] 화학물질(디메틸포름아미드) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "디메틸포름아미드 관리",
+        "디메틸포름아미드 취급 작업 관리자가 볼 안전수칙을 찾고 싶어요",
+        "관리자용 디메틸포름아미드 작업안전 OPS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 84,
+  "items": [
+    {
+      "record_id": "list1_35703",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 사출성형기\n[SUMMARY] [작업전 안전점검 OPL_설비별] 사출성형기",
+      "query": [
+        "사출성형기 안전점검",
+        "사출성형기 작업 전에 무엇을 확인해야 하는지 찾고 싶다",
+        "작업전 안전점검 OPL 설비별 사출성형기"
+      ]
+    },
+    {
+      "record_id": "list1_35704",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 분쇄기\n[SUMMARY] [작업전 안전점검 OPL_설비별] 분쇄기",
+      "query": [
+        "분쇄기 안전점검",
+        "분쇄기 쓰기 전에 안전하게 점검하는 방법을 찾고 있다",
+        "작업전 안전점검 OPL 설비별 분쇄기"
+      ]
+    },
+    {
+      "record_id": "list1_35695",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 목재가공용 둥근톱\n[SUMMARY] [작업전 안전점검 OPL_설비별] 목재가공용 둥근톱 (Circular saw)",
+      "query": [
+        "둥근톱 안전점검",
+        "목재 자르는 둥근톱 작업 전에 확인할 안전수칙이 필요하다",
+        "작업전 안전점검 OPL 설비별 목재가공용 둥근톱"
+      ]
+    },
+    {
+      "record_id": "list1_35694",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 산업용 로봇\n[SUMMARY] [작업전 안전점검 OPL_설비별] 산업용 로봇 (Industrial robot)",
+      "query": [
+        "산업용 로봇 안전점검",
+        "공장 로봇 작업 전에 사고를 막기 위해 확인할 내용을 찾고 있다",
+        "작업전 안전점검 OPL 설비별 산업용 로봇"
+      ]
+    },
+    {
+      "record_id": "list1_35693",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 교류아크용접기\n[SUMMARY] [작업전 안전점검 OPL_설비별] 교류아크용접기 (AC arc welder)",
+      "query": [
+        "아크용접기 안전점검",
+        "교류 아크 용접기를 쓰기 전에 확인해야 할 안전사항이 궁금하다",
+        "작업전 안전점검 OPL 설비별 교류아크용접기"
+      ]
+    },
+    {
+      "record_id": "list1_35692",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] CO2 용접기\n[SUMMARY] [작업전 안전점검 OPL_설비별] CO2 용접기 (CO2 welder)",
+      "query": [
+        "CO2 용접기 점검",
+        "CO2 용접기 작업 전에 안전하게 확인할 사항을 찾고 있다",
+        "작업전 안전점검 OPL 설비별 CO2 용접기"
+      ]
+    },
+    {
+      "record_id": "list1_35779",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 기계 등의 일반기준\n[SUMMARY] [일터에서의 안전보건 OPL] 기계 등의 일반기준",
+      "query": [
+        "기계 안전 기준",
+        "일터에서 기계를 사용할 때 기본적으로 지켜야 할 안전기준을 찾고 있다",
+        "일터에서의 안전보건 OPL 기계 등의 일반기준"
+      ]
+    },
+    {
+      "record_id": "list1_35691",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 공기압축기\n[SUMMARY] [작업전 안전점검 OPL_설비별] 공기압축기 (Air compressor)",
+      "query": [
+        "공기압축기 안전점검",
+        "공기압축기 사용 전에 어떤 부분을 점검해야 하는지 알고 싶다",
+        "작업전 안전점검 OPL 설비별 공기압축기"
+      ]
+    },
+    {
+      "record_id": "list1_35788",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 계단의 위험 방지\n[SUMMARY] [일터에서의 안전보건 OPL] 계단의 위험 방지",
+      "query": [
+        "계단 안전",
+        "사업장 계단에서 넘어지거나 다치는 위험을 줄이는 방법을 찾고 있다",
+        "일터에서의 안전보건 OPL 계단의 위험 방지"
+      ]
+    },
+    {
+      "record_id": "list1_35780",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 잔재물 등의 조치기준\n[SUMMARY] [일터에서의 안전보건 OPL] 잔재물 등의 조치기준",
+      "query": [
+        "잔재물 정리 기준",
+        "작업장에 남은 자재나 폐기물을 어떻게 정리해야 하는지 찾고 있다",
+        "일터에서의 안전보건 OPL 잔재물 등의 조치기준"
+      ]
+    },
+    {
+      "record_id": "list1_35782",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 환기장치\n[SUMMARY] [일터에서의 안전보건 OPL] 환기장치",
+      "query": [
+        "환기장치 안전",
+        "작업장 환기장치를 안전하게 관리하는 기준을 찾고 있다",
+        "일터에서의 안전보건 OPL 환기장치"
+      ]
+    },
+    {
+      "record_id": "list1_35781",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 휴게시설\n[SUMMARY] [일터에서의 안전보건 OPL] 휴게시설",
+      "query": [
+        "휴게시설 기준",
+        "직장에서 근로자 휴게시설을 어떻게 갖춰야 하는지 알고 싶다",
+        "일터에서의 안전보건 OPL 휴게시설"
+      ]
+    },
+    {
+      "record_id": "list1_35785",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 추락에 의한 위험방지\n[SUMMARY] [일터에서의 안전보건 OPL] 추락에 의한 위험방지",
+      "query": [
+        "추락 방지",
+        "높은 곳에서 일할 때 떨어지는 사고를 막는 안전수칙을 찾고 있다",
+        "일터에서의 안전보건 OPL 추락에 의한 위험방지"
+      ]
+    },
+    {
+      "record_id": "list1_35792",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 전도의 방지\n[SUMMARY] [일터에서의 안전보건 OPL] 전도의 방지",
+      "query": [
+        "넘어짐 방지",
+        "일터에서 미끄러지거나 넘어지는 사고를 예방하는 방법이 필요하다",
+        "일터에서의 안전보건 OPL 전도의 방지"
+      ]
+    },
+    {
+      "record_id": "list1_35787",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 보호구\n[SUMMARY] [일터에서의 안전보건 OPL] 보호구",
+      "query": [
+        "보호구 안전",
+        "작업할 때 어떤 보호구를 쓰고 관리해야 하는지 찾고 있다",
+        "일터에서의 안전보건 OPL 보호구"
+      ]
+    },
+    {
+      "record_id": "list1_35790",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 안전 난간의 구조 및 설치 요건\n[SUMMARY] 안전 난간의 구조 및 설치 요건 [일터에서의 안전보건 OPL]",
+      "query": [
+        "안전난간 설치",
+        "작업장 안전난간을 어떤 구조로 설치해야 하는지 알고 싶다",
+        "일터에서의 안전보건 OPL 안전 난간의 구조 및 설치 요건"
+      ]
+    },
+    {
+      "record_id": "list1_35791",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 사전조사 및 작업계획서 작성 등\n[SUMMARY] [일터에서의 안전보건 OPL] 사전조사 및 작업계획서 작성 등",
+      "query": [
+        "작업계획서 작성",
+        "작업 전에 현장을 조사하고 작업계획서를 쓰는 기준을 찾고 있다",
+        "일터에서의 안전보건 OPL 사전조사 및 작업계획서 작성"
+      ]
+    },
+    {
+      "record_id": "list1_35789",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 위험물 보관 및 비상구 설치관리 등\n[SUMMARY] [일터에서의 안전보건 OPL] 위험물 보관 및 비상구 설치관리 등",
+      "query": [
+        "위험물 비상구",
+        "위험물 보관과 비상구 설치 관리를 어떻게 해야 하는지 찾고 있다",
+        "일터에서의 안전보건 OPL 위험물 보관 및 비상구 설치관리"
+      ]
+    },
+    {
+      "record_id": "list1_35700",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 콘크리트 펌프카\n[SUMMARY] [작업전 안전점검 OPL_설비별] 콘크리트 펌프카 (Concrete pump car)",
+      "query": [
+        "콘크리트 펌프카 점검",
+        "콘크리트 펌프카 작업 전에 확인해야 할 안전점검 내용을 찾고 있다",
+        "작업전 안전점검 OPL 설비별 콘크리트 펌프카"
+      ]
+    },
+    {
+      "record_id": "list1_35738",
+      "concat": "[TITLE] [작업전 안전점검 OPL_계절별] 태풍 등 자연재난\n[SUMMARY] [작업전 안전점검 OPL_계절별] 태풍 등 자연재난",
+      "query": [
+        "태풍 안전점검",
+        "태풍 같은 자연재난 전에 작업장에서 확인해야 할 안전사항이 필요하다",
+        "작업전 안전점검 OPL 계절별 태풍 등 자연재난"
+      ]
+    },
+    {
+      "record_id": "list1_35740",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 중량물 들어 올릴때 특별 조치\n[SUMMARY] [일터에서의 안전보건 OPL] 중량물 들어 올릴때 특별 조치",
+      "query": [
+        "중량물 들어올리기",
+        "무거운 물건을 들어 올릴 때 필요한 특별 안전조치를 찾고 있다",
+        "일터에서의 안전보건 OPL 중량물 들어 올릴때 특별 조치"
+      ]
+    },
+    {
+      "record_id": "list1_35741",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 근골격계작업으로 인한 건강장해 예방\n[SUMMARY] [일터에서의 안전보건 OPL] 근골격계작업으로 인한 건강장해 예방",
+      "query": [
+        "근골격계질환 예방",
+        "반복 작업이나 무리한 자세로 생기는 근골격계 건강문제를 예방하고 싶다",
+        "일터에서의 안전보건 OPL 근골격계작업으로 인한 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_35742",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 사무실에서의 건강장해 예방\n[SUMMARY] [일터에서의 안전보건 OPL] 사무실에서의 건강장해 예방",
+      "query": [
+        "사무실 건강 예방",
+        "사무실에서 일할 때 생길 수 있는 건강문제를 예방하는 방법을 찾고 있다",
+        "일터에서의 안전보건 OPL 사무실에서의 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_35744",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 분진에 의한 건강장해 예방\n[SUMMARY] [일터에서의 안전보건 OPL] 분진에 의한 건강장해 예방",
+      "query": [
+        "분진 건강 예방",
+        "작업 중 먼지에 노출될 때 건강장해를 막는 방법을 찾고 있다",
+        "일터에서의 안전보건 OPL 분진에 의한 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_35745",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 방사선에 의한 건강장해 예방\n[SUMMARY] 방사선에 의한 건강장해 예방[일터에서의 안전보건 OPL]",
+      "query": [
+        "방사선 건강 예방",
+        "방사선 노출 작업에서 건강장해를 예방하는 안전수칙을 찾고 있다",
+        "일터에서의 안전보건 OPL 방사선에 의한 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_35746",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 소음 및 진동에 의한 건강장해 예방\n[SUMMARY] [일터에서의 안전보건 OPL] 소음 및 진동에 의한 건강장해 예방",
+      "query": [
+        "소음 진동 예방",
+        "소음이나 진동이 있는 작업장에서 건강피해를 줄이는 방법이 필요하다",
+        "일터에서의 안전보건 OPL 소음 및 진동에 의한 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_35750",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 관리대상 유해물질에 의한 건강장해 예방(2)\n[SUMMARY] [일터에서의 안전보건 OPL] 관리대상 유해물질에 의한 건강장해 예방(2)",
+      "query": [
+        "유해물질 건강 예방",
+        "관리대상 유해물질을 다룰 때 건강장해를 막는 방법을 찾고 있다",
+        "일터에서의 안전보건 OPL 관리대상 유해물질에 의한 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_35752",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 중량물 취급시 위험방지\n[SUMMARY] [일터에서의 안전보건 OPL] 중량물 취급시 위험방지",
+      "query": [
+        "중량물 취급 안전",
+        "무거운 물건을 옮기거나 다룰 때 사고를 예방하는 방법을 찾고 있다",
+        "일터에서의 안전보건 OPL 중량물 취급시 위험방지"
+      ]
+    },
+    {
+      "record_id": "list1_35772",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 차량계 하역운반기계 등 : 화물자동차\n[SUMMARY] [일터에서의 안전보건 OPL] 차량계 하역운반기계 등 : 화물자동차",
+      "query": [
+        "화물자동차 안전",
+        "화물자동차로 짐을 싣고 내릴 때 필요한 안전수칙을 찾고 있다",
+        "일터에서의 안전보건 OPL 차량계 하역운반기계 화물자동차"
+      ]
+    },
+    {
+      "record_id": "list1_35756",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 정전기 및 전자파로 인한 재해 방지\n[SUMMARY] [일터에서의 안전보건 OPL] 정전기 및 전자파로 인한 재해 방지",
+      "query": [
+        "정전기 전자파",
+        "정전기나 전자파 때문에 생기는 사고를 막는 방법을 찾고 있다",
+        "일터에서의 안전보건 OPL 정전기 및 전자파로 인한 재해 방지"
+      ]
+    }
+  ]
+}

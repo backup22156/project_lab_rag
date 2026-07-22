@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 58,
+  "items": [
+    {
+      "record_id": "list1_41138",
+      "concat": "[TITLE] (OPL) 콘크리트 미장 작업 중 개구부로 떨어짐\n[SUMMARY] 국내 체류 외국인 네팔 근로자를 위한 안전보건 OPL",
+      "query": [
+        "콘크리트 미장 추락",
+        "미장 작업하다가 바닥 구멍으로 떨어지는 사고 자료",
+        "네팔 근로자 콘크리트 미장 작업 개구부 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41140",
+      "concat": "[TITLE] (OPL) 콘크리트 미장 작업 중 개구부로 떨어짐\n[SUMMARY] 국내 체류 외국인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "콘크리트 미장 추락",
+        "미장 작업 중 열린 구멍으로 떨어진 사고 자료",
+        "라오스 근로자 콘크리트 미장 작업 개구부 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41137",
+      "concat": "[TITLE] (OPL) 철골 보 상부에서 볼트 조임작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "철골 볼트 추락",
+        "철골 위에서 볼트 조이다가 떨어진 사고 자료",
+        "필리핀 근로자 철골 보 상부 볼트 조임작업 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41136",
+      "concat": "[TITLE] (OPL) 철골 보 상부에서 볼트 조임작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "철골 볼트 추락",
+        "철골 보 위에서 볼트 조임 작업 중 떨어진 사고 자료",
+        "파키스탄 근로자 철골 보 상부 볼트 조임작업 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41127",
+      "concat": "[TITLE] (OPL) 철골 보 상부에서 볼트 조임작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "철골 볼트 추락",
+        "철골 위 볼트 작업하다 떨어지는 사고 예방 자료",
+        "방글라데시 근로자 철골 보 상부 볼트 조임작업 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41133",
+      "concat": "[TITLE] (OPL) 철골 보 상부에서 볼트 조임작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "철골 볼트 추락",
+        "철골 보 위에서 볼트 조이다가 추락한 사고 자료",
+        "캄보디아 근로자 철골 보 상부 볼트 조임작업 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41130",
+      "concat": "[TITLE] (OPL) 철골 보 상부에서 볼트 조임작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "철골 볼트 추락",
+        "철골 상부에서 볼트 조임 중 떨어진 사고 자료",
+        "우즈베키스탄 근로자 철골 보 상부 볼트 조임작업 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41134",
+      "concat": "[TITLE] (OPL) 철골 보 상부에서 볼트 조임작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 키르기스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "철골 볼트 추락",
+        "철골 보에서 볼트 작업하다가 떨어지는 사고 자료",
+        "키르기스스탄 근로자 철골 보 상부 볼트 조임작업 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41126",
+      "concat": "[TITLE] (OPL) 철골 보 상부에서 볼트 조임작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "철골 볼트 추락",
+        "철골 위에서 볼트 조임 작업 중 추락한 사례 자료",
+        "미얀마 근로자 철골 보 상부 볼트 조임작업 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41104",
+      "concat": "[TITLE] (OPL) 슬래브 단부에서 패널 자재 운반 중 떨어짐\n[SUMMARY] 국내 체류 외국인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "슬래브 자재 추락",
+        "슬래브 끝에서 패널 자재 옮기다 떨어진 사고 자료",
+        "파키스탄 근로자 슬래브 단부 패널 자재 운반 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41103",
+      "concat": "[TITLE] (OPL) 슬래브 단부에서 패널 자재 운반 중 떨어짐\n[SUMMARY] 국내 체류 외국인 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "슬래브 자재 추락",
+        "슬래브 단부에서 패널 운반 중 떨어지는 사고 자료",
+        "태국 근로자 슬래브 단부 패널 자재 운반 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41096",
+      "concat": "[TITLE] (OPL) 슬래브 단부에서 패널 자재 운반 중 떨어짐\n[SUMMARY] 국내 체류 외국인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "슬래브 자재 추락",
+        "슬래브 가장자리에서 패널 자재 나르다 떨어진 사고 자료",
+        "베트남 근로자 슬래브 단부 패널 자재 운반 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41097",
+      "concat": "[TITLE] (OPL) 슬래브 단부에서 패널 자재 운반 중 떨어짐\n[SUMMARY] 국내 체류 외국인 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "슬래브 자재 추락",
+        "슬래브 위에서 패널 운반하다가 추락한 사고 자료",
+        "스리랑카 근로자 슬래브 단부 패널 자재 운반 떨어짐 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41156",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "인양 중 와이어로프가 끊어져 자재에 맞는 사고 자료",
+        "라오스 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41157",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 몽골 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "와이어로프 파단으로 들어올린 자재에 맞은 사고 자료",
+        "몽골 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41155",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 동티모르 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "인양 작업 중 줄이 끊어져 자재에 맞는 사고 자료",
+        "동티모르 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41176",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 베트남 중량물 취급 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "클램프가 빠져 떨어진 철 구조물에 맞은 사고 자료",
+        "베트남 중량물 취급 근로자 클램프 탈락 철 구조물 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41177",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "클램프 탈락으로 철 구조물이 떨어져 맞은 사고 자료",
+        "스리랑카 근로자 클램프 탈락 철 구조물 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41172",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "철 구조물 고정 클램프가 빠져 맞는 사고 자료",
+        "라오스 근로자 클램프 탈락 철 구조물 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41175",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "떨어진 철 구조물에 작업자가 맞는 사고 자료",
+        "방글라데시 근로자 클램프 탈락 철 구조물 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41171",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 동티모르 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "클램프가 빠져 철 구조물이 떨어진 사고 자료",
+        "동티모르 근로자 클램프 탈락 철 구조물 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41173",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 몽골 근로자를 위한 안전보건 OPL, 클램프 탈락으로 떨어진 철 구조물에 맞는 재해에 대한 설명과 재해사례를 담음",
+      "query": [
+        "클램프 철 구조물",
+        "클램프 탈락으로 떨어진 철 구조물에 맞는 재해 사례 자료",
+        "몽골 근로자 클램프 탈락 철 구조물 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41174",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "철 구조물 클램프 탈락으로 작업자가 맞은 사고 자료",
+        "미얀마 근로자 클램프 탈락 철 구조물 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41170",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 네팔 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "클램프 빠짐으로 철 구조물에 맞는 사고 자료",
+        "네팔 근로자 클램프 탈락 철 구조물 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41169",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "와이어로프가 끊어져 인양 자재에 맞은 사고 자료",
+        "필리핀 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41168",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "인양 자재가 와이어로프 파단으로 떨어져 맞는 사고 자료",
+        "파키스탄 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41167",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "자재 인양 중 와이어로프 끊김 사고 자료",
+        "태국 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41166",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 키르기스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "와이어로프 파단 때문에 인양 자재에 맞는 사고 자료",
+        "키르기스스탄 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41164",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "인양 작업 중 와이어로프가 끊어져 맞은 사고 자료",
+        "중국 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41165",
+      "concat": "[TITLE] (OPL) 와이어로프 파단으로 인양 자재 맞음\n[SUMMARY] 국내 체류 외국인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "와이어로프 자재 맞음",
+        "와이어로프 끊김으로 들어올린 자재에 맞은 사고 자료",
+        "캄보디아 근로자 와이어로프 파단 인양 자재 맞음 안전보건 OPL"
+      ]
+    }
+  ]
+}

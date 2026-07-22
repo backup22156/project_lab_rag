@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 79,
+  "items": [
+    {
+      "record_id": "list1_37356",
+      "concat": "[TITLE] 석재 및 타일 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "석재 타일 안전",
+        "석재나 타일 작업할 때 다치지 않게 하는 안전수칙 자료",
+        "석재 타일 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37369",
+      "concat": "[TITLE] 건축물 배관 용접공 건강장해 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "배관 용접 건강",
+        "건축물 배관 용접할 때 생길 수 있는 건강 문제 예방 자료",
+        "건축물 배관 용접공 건강장해 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37358",
+      "concat": "[TITLE] 수장 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "수장 작업 안전",
+        "건설현장 수장 작업할 때 필요한 안전수칙 자료",
+        "수장 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37354",
+      "concat": "[TITLE] 금속 및 잡철물 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "금속 잡철물 안전",
+        "건설현장에서 금속이나 잡철물 작업할 때 안전하게 하는 방법",
+        "금속 잡철물 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37355",
+      "concat": "[TITLE] 판넬 등 외부 마감 작업안전\n[SUMMARY] 안전보건 OPL-판넬 등 외부 마감 작업안전",
+      "query": [
+        "외부 마감 안전",
+        "판넬 같은 외부 마감 작업을 할 때 사고를 막는 안전수칙",
+        "판넬 외부 마감 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37353",
+      "concat": "[TITLE] 노천 발파 작업안전\n[SUMMARY] 노천 발파 작업안전 안전보건 OPL",
+      "query": [
+        "노천 발파 안전",
+        "야외 발파 작업을 할 때 지켜야 할 안전수칙 자료",
+        "노천 발파 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37352",
+      "concat": "[TITLE] 기초파일 작업안전\n[SUMMARY] 기초파일 작업안전-안전보건 OPL",
+      "query": [
+        "기초파일 안전",
+        "기초파일 작업 중 사고를 예방하기 위한 안전 자료",
+        "기초파일 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37351",
+      "concat": "[TITLE] 조적,미장,견출 작업안전\n[SUMMARY] 안전보건 OPL, 조적,미장,견출 작업안전",
+      "query": [
+        "조적 미장 견출",
+        "조적 미장 견출 작업할 때 필요한 안전수칙 자료",
+        "조적 미장 견출 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37350",
+      "concat": "[TITLE] 갱폼제작 및 설치 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "갱폼 설치 안전",
+        "갱폼을 제작하거나 설치할 때 사고를 예방하는 안전수칙",
+        "갱폼제작 설치 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37364",
+      "concat": "[TITLE] 건설현장 전기설비 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "전기설비 작업 안전",
+        "건설현장에서 전기설비 작업할 때 필요한 안전수칙 자료",
+        "건설현장 전기설비 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37349",
+      "concat": "[TITLE] H-PILE 토류판 흙막이 지보공 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "흙막이 지보공 안전",
+        "H파일 토류판 흙막이 지보공 작업 안전수칙 자료",
+        "H-PILE 토류판 흙막이 지보공 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37365",
+      "concat": "[TITLE] 철골 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "철골 작업 안전",
+        "철골 작업을 할 때 사고를 막기 위한 안전수칙 자료",
+        "철골 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37471",
+      "concat": "[TITLE] 화학공정 설비 조작 위험과 예방_열교환기\n[SUMMARY] 안전보건 OPL, 화학공정 설비 조작 위험과 예방_열교환기",
+      "query": [
+        "열교환기 조작 위험",
+        "화학공정에서 열교환기 설비를 조작할 때 위험과 예방 방법",
+        "화학공정 설비 조작 위험 예방 열교환기 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37466",
+      "concat": "[TITLE] 물반응성 물질(유기금속 화합물)의 취급 및 저장 안전수칙\n[SUMMARY] 안전보건 OPL : 물반응성 물질(유기금속 화합물)의 취급 및 저장 안전수칙",
+      "query": [
+        "물반응성 물질 저장",
+        "유기금속 화합물을 취급하거나 보관할 때 필요한 안전수칙",
+        "물반응성 물질 유기금속 화합물 취급 저장 안전수칙 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37468",
+      "concat": "[TITLE] 물반응성 물질(금속 인화물 및 금속탄화물)의 취급 및 저장 안전수칙\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "금속 인화물 저장",
+        "금속 인화물이나 금속탄화물 취급 저장 안전수칙 자료",
+        "물반응성 물질 금속 인화물 금속탄화물 취급 저장 안전수칙 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37467",
+      "concat": "[TITLE] 물반응성 물질(금속수소화물)의 취급 및 저장 안전수칙\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "금속수소화물 안전",
+        "금속수소화물을 취급하거나 저장할 때 지켜야 할 안전수칙",
+        "물반응성 물질 금속수소화물 취급 저장 안전수칙 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37469",
+      "concat": "[TITLE] 소용량 탱크 및 드럼 화기 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "탱크 드럼 화기",
+        "작은 탱크나 드럼 주변에서 화기 작업할 때 안전하게 하는 방법",
+        "소용량 탱크 드럼 화기 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37470",
+      "concat": "[TITLE] 배관내 이송물질 표시 안전가이드\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "배관 물질 표시",
+        "배관 안에 흐르는 물질을 표시하는 안전 가이드 자료",
+        "배관내 이송물질 표시 안전가이드 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37465",
+      "concat": "[TITLE] 물반응성 물질(금속류)의 취급 및 저장 안전수칙\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "금속류 저장 안전",
+        "물과 반응하는 금속류를 취급하거나 보관할 때 안전수칙",
+        "물반응성 물질 금속류 취급 저장 안전수칙 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37464",
+      "concat": "[TITLE] 전열기기 사용 작업안전\n[SUMMARY] 전열기기 과다 사용으로 인한 사고발생사례와 전열기기 사용,취급에 대한 안전수칙",
+      "query": [
+        "전열기기 안전",
+        "전열기기를 많이 쓰거나 취급할 때 사고를 예방하는 방법",
+        "전열기기 사용 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37439",
+      "concat": "[TITLE] 기계톱을 이용한 벌목 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "기계톱 벌목 안전",
+        "기계톱으로 나무를 벨 때 지켜야 하는 작업 안전수칙",
+        "기계톱 이용 벌목 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37447",
+      "concat": "[TITLE] LPG연료 자동차 수리작업안전\n[SUMMARY] LPG연료 자동차 수리작업안전에 관한 안전보건 OPL",
+      "query": [
+        "LPG 자동차 수리",
+        "LPG 연료 자동차를 수리할 때 필요한 작업 안전수칙",
+        "LPG연료 자동차 수리작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37446",
+      "concat": "[TITLE] 종이재단기 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "종이재단기 안전",
+        "종이재단기를 사용할 때 손 다침을 막는 작업 안전수칙",
+        "종이재단기 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37463",
+      "concat": "[TITLE] 위험물질 누출 예방을 위한 방유제 설치 방법\n[SUMMARY] 위험물질 누출 예방을 위한 방유제 설치 방법 OPL",
+      "query": [
+        "방유제 설치 방법",
+        "위험물질이 새는 것을 막기 위한 방유제 설치 방법 자료",
+        "위험물질 누출 예방 방유제 설치 방법 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37367",
+      "concat": "[TITLE] 토사 되메움 작업안전\n[SUMMARY] 토사 되메움 작업안전-안전보건 OPL",
+      "query": [
+        "되메움 작업 안전",
+        "토사를 되메우는 작업을 할 때 사고를 예방하는 안전수칙",
+        "토사 되메움 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37368",
+      "concat": "[TITLE] 굴착 작업안전\n[SUMMARY] 굴착 작업안전 안전보건 OPL",
+      "query": [
+        "굴착 작업 안전",
+        "굴착 작업 중 무너짐 같은 사고를 막는 안전수칙 자료",
+        "굴착 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37366",
+      "concat": "[TITLE] 콘크리트펌프카 레미콘타설 작업안전\n[SUMMARY] 안전보건 OPL, 콘크리트펌프카 레미콘타설 작업안전",
+      "query": [
+        "콘크리트펌프카 안전",
+        "콘크리트펌프카로 레미콘을 타설할 때 필요한 안전수칙",
+        "콘크리트펌프카 레미콘타설 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37425",
+      "concat": "[TITLE] 기어 및 감속기 안전점검을 통한 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "기어 감속기 점검",
+        "기어와 감속기를 안전하게 점검하고 작업하는 방법",
+        "기어 감속기 안전점검 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37487",
+      "concat": "[TITLE] 환경미화원 종사 사업장의 세척시설 설치 기준\n[SUMMARY] 환경미화원 종사 사업장의 세척시설 설치 기준-안전보건 OPL",
+      "query": [
+        "환경미화원 세척시설",
+        "환경미화원이 일하는 사업장에 필요한 세척시설 기준 자료",
+        "환경미화원 종사 사업장 세척시설 설치 기준 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37494",
+      "concat": "[TITLE] 황화수소 노출 근로자 건강관리\n[SUMMARY] 황화수소 노출 사례와 노출공정 또는 작업에 대한 소개와 안전 대책 및 수칙",
+      "query": [
+        "황화수소 건강관리",
+        "황화수소에 노출되는 근로자의 건강관리와 안전대책 자료",
+        "황화수소 노출 근로자 건강관리 안전 대책 수칙"
+      ]
+    }
+  ]
+}

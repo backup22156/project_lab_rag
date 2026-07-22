@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 62,
+  "items": [
+    {
+      "record_id": "list1_40421",
+      "concat": "[TITLE] 건설업 근로자 추락사고예방자료(나쁜예/좋은예) OPL\n[SUMMARY] 추락사고예방 나쁜예/좋은예 사진을 위주로 OPL 제작 안내하여 건설사고 예방",
+      "query": [
+        "건설 추락 예방",
+        "건설 현장에서 떨어지는 사고를 막는 나쁜 예 좋은 예 사진 자료",
+        "건설업 근로자 추락사고예방자료 나쁜예 좋은예 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40420",
+      "concat": "[TITLE] 건설현장 추락사고예방 기획감독 안내 및 점검표 OPL\n[SUMMARY] 추락 위험이 높은 건설현장에 재해예방수칙과 자율점검내용을 사전에 안내한 후 불시감독을 통해 건설사고 예방",
+      "query": [
+        "건설현장 추락 점검",
+        "추락 위험이 큰 건설현장 점검표와 예방수칙을 찾고 싶다",
+        "건설현장 추락사고예방 기획감독 안내 점검표 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40431",
+      "concat": "[TITLE] (외국어)분뇨저장조 등 질식위험장소에 그냥 들어가면 바로 사망. 즉사!\n[SUMMARY] 양돈농가 외국인 노동자의 질식재해 예방자료 외국어 7종(태국어, 네팔어, 베트남어, 캄보디아어, 중국어, 미안마어, 몽골어) 제작",
+      "query": [
+        "분뇨저장조 질식",
+        "양돈농가 외국인 노동자가 분뇨저장조에 들어갈 때 질식 위험을 알리는 자료",
+        "외국어 분뇨저장조 질식위험장소 사망 즉사 양돈농가 외국인 노동자"
+      ]
+    },
+    {
+      "record_id": "list1_40389",
+      "concat": "[TITLE] 3대 악성 사고사망 반드시 막아야 합니다.\n[SUMMARY] 3대 악성 사고사망 예방을 위한 핵심 메시지 전달",
+      "query": [
+        "사고사망 예방",
+        "꼭 막아야 하는 큰 산업재해 사고사망 예방 핵심 메시지 자료",
+        "3대 악성 사고사망 예방 핵심 메시지"
+      ]
+    },
+    {
+      "record_id": "list1_40211",
+      "concat": "[TITLE] 서비스업 민간위탁사업(기초) 7대업종 안전보건자료\n[SUMMARY] 서비스업 기초안전지원 사업 대상 사업장 배포용 자료",
+      "query": [
+        "서비스업 안전보건",
+        "서비스업 사업장에 나눠주는 기본 안전보건 자료가 필요하다",
+        "서비스업 민간위탁사업 기초 7대업종 안전보건자료"
+      ]
+    },
+    {
+      "record_id": "list1_40347",
+      "concat": "[TITLE] 미세먼지로 인한 실외작업자 건강장해 예방\n[SUMMARY] 미세먼지로 인한 실외작업자 건강장해 예방 1.미세먼지란? 2.미세먼지에 무방비로 노출되어 있는 옥외작업자들 3.옥외작업자 단계별 건강수칙 4.노동자 건강 지키는 올바른 마스크 착용법",
+      "query": [
+        "미세먼지 실외작업",
+        "밖에서 일하는 사람이 미세먼지에 노출될 때 건강을 지키는 방법",
+        "미세먼지 실외작업자 건강장해 예방 옥외작업자 마스크 착용법"
+      ]
+    },
+    {
+      "record_id": "list1_40384",
+      "concat": "[TITLE] 데크플레이트(Deck Plate) 사고예방 OPL\n[SUMMARY] 데크플레이(Deck Plate) 시공순서 및 단계별 핵심 고려사항 및 주요 사고사례 OPL",
+      "query": [
+        "데크플레이트 사고",
+        "데크플레이트 시공할 때 사고 사례와 단계별 주의사항 자료",
+        "데크플레이트 Deck Plate 사고예방 OPL 시공순서 사고사례"
+      ]
+    },
+    {
+      "record_id": "list1_40194",
+      "concat": "[TITLE] 미세먼지로 인한 근로자 건강장해예방 가이드\n[SUMMARY] 미세먼지 정의 미세먼지 대기오염경보 발령기준 미세먼지 건강보호대책 등",
+      "query": [
+        "미세먼지 근로자 건강",
+        "미세먼지가 심할 때 노동자 건강보호 대책과 경보 기준을 알고 싶다",
+        "미세먼지 근로자 건강장해예방 가이드 대기오염경보 건강보호대책"
+      ]
+    },
+    {
+      "record_id": "list1_40293",
+      "concat": "[TITLE] 감정노동 해결, 당신도 함께 하실래요?\n[SUMMARY] 고객응대 근로자 보호조치 시행 홍보 및 고객대응절차 안내",
+      "query": [
+        "감정노동 고객응대",
+        "고객을 상대하는 근로자를 보호하는 조치와 응대 절차 안내 자료",
+        "감정노동 고객응대 근로자 보호조치 고객대응절차"
+      ]
+    },
+    {
+      "record_id": "list1_39985",
+      "concat": "[TITLE] [중대재해사례 OPL]에스컬레이터 벽체 청소작업 중 사다리가 넘어지면서 작업자 떨어짐\n[SUMMARY] [중대재해사례 OPL]에스컬레이터 벽체 청소작업 중 사다리가 넘어지면서 작업자 떨어짐",
+      "query": [
+        "에스컬레이터 청소 추락",
+        "에스컬레이터 벽 청소 중 사다리가 넘어져 떨어진 사고 사례",
+        "중대재해사례 OPL 에스컬레이터 벽체 청소작업 사다리 넘어짐 작업자 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40178",
+      "concat": "[TITLE] 사다리는 통로입니다\n[SUMMARY] 사다리에 의한 재해발생 사다리는 통로로 활용하는 것이고, 작업발판으로 사용할 수 없습니다. 사고 근절을 위해서 사업주는 사다리 대신 이동식비계 또는 말비계 같은 안전한 작업발판 제공 작업자는 안전모 착용, 안전대 사용(부착설비에 부착)",
+      "query": [
+        "사다리 작업발판",
+        "사다리를 작업발판처럼 쓰면 안 되는 이유와 안전한 대체 작업발판 안내",
+        "사다리는 통로 작업발판 이동식비계 말비계 안전모 안전대"
+      ]
+    },
+    {
+      "record_id": "list1_40176",
+      "concat": "[TITLE] 산업안전보건법 전부 개정 안내\n[SUMMARY] 산업안전보건법 전부 개정 안내 리플렛",
+      "query": [
+        "산업안전보건법 개정",
+        "산업안전보건법이 전부 개정된 내용을 쉽게 알려주는 안내 리플렛",
+        "산업안전보건법 전부 개정 안내 리플렛"
+      ]
+    },
+    {
+      "record_id": "list1_39984",
+      "concat": "[TITLE] [중대재해사례 OPL]무대 바닥 청소 중 바닥 개구부에서 추락\n[SUMMARY] [중대재해사례 OPL]무대 바닥 청소 중 바닥 개구부에서 추락",
+      "query": [
+        "무대 바닥 추락",
+        "무대 바닥을 청소하다가 열린 구멍으로 떨어진 중대재해 사례",
+        "중대재해사례 OPL 무대 바닥 청소 바닥 개구부 추락"
+      ]
+    },
+    {
+      "record_id": "list1_39983",
+      "concat": "[TITLE] [중대재해사례 OPL]차량탑재형 고소작업대가 넘어지면서 작업대에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]차량탑재형 고소작업대가 넘어지면서 작업대에서 떨어짐",
+      "query": [
+        "고소작업대 넘어짐",
+        "차량에 달린 고소작업대가 넘어져 작업자가 떨어진 사고 사례",
+        "중대재해사례 OPL 차량탑재형 고소작업대 넘어짐 작업대 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39982",
+      "concat": "[TITLE] [중대재해사례 OPL]쓰레기 수거차량 적재함에 매달려 이동 중 떨어짐\n[SUMMARY] 쓰레기 수거차량 적재함에 매달려 이동 중 떨어짐에 관한 중대재해사례 OPL",
+      "query": [
+        "쓰레기 수거차 추락",
+        "쓰레기 수거차 적재함에 매달려 이동하다 떨어진 사고 사례",
+        "중대재해사례 OPL 쓰레기 수거차량 적재함 매달림 이동 중 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39981",
+      "concat": "[TITLE] [중대재해사례 OPL]암롤박스 수리 중 뒷문이 닫히면서 머리 끼임\n[SUMMARY] [중대재해사례 OPL]암롤박스 수리 중 뒷문이 닫히면서 머리 끼임",
+      "query": [
+        "암롤박스 끼임",
+        "암롤박스를 수리하다 뒷문이 닫혀 머리가 끼인 사고 사례",
+        "중대재해사례 OPL 암롤박스 수리 뒷문 닫힘 머리 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_39980",
+      "concat": "[TITLE] [중대재해사례 OPL]벌도 되어 넘어가는 고사목에 맞음\n[SUMMARY] [중대재해사례 OPL]벌도 되어 넘어가는 고사목에 맞음",
+      "query": [
+        "고사목 벌도 사고",
+        "베어져 넘어가는 죽은 나무에 맞은 중대재해 사례",
+        "중대재해사례 OPL 벌도 고사목 넘어감 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_39974",
+      "concat": "[TITLE] [중대재해사례 OPL]지게차에 걸려 넘어지려는 3단 팔레트를 막으려다 무너지는 팔레트에 깔림\n[SUMMARY] 지게차에 걸려 넘어지려는 3단 팔레트를 막으려다 무너지는 팔레트에 깔림 - 하역작업에 대한 교육과 안전수칙 내용포함",
+      "query": [
+        "지게차 팔레트 깔림",
+        "지게차에 걸려 쓰러지는 3단 팔레트를 막으려다 깔린 사고 사례",
+        "중대재해사례 OPL 지게차 3단 팔레트 무너짐 깔림 하역작업 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_39979",
+      "concat": "[TITLE] [중대재해사례 OPL]나무 지주목을 밟고 가지 제거 작업부위 확인 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]나무 지주목을 밟고 가지 제거 작업부위 확인 중 떨어짐",
+      "query": [
+        "나무 가지 작업 추락",
+        "나무 지주목을 밟고 가지 제거 부위를 확인하다 떨어진 사고 사례",
+        "중대재해사례 OPL 나무 지주목 가지 제거 작업부위 확인 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39973",
+      "concat": "[TITLE] [중대재해사례 OPL]화장실을 다녀오는 근로자가 폐스티로폼 운반 지게차와 충돌\n[SUMMARY] [중대재해사례 OPL]화장실을 다녀오는 근로자가 폐스티로폼 운반 지게차와 충돌",
+      "query": [
+        "지게차 충돌 사고",
+        "화장실을 다녀오던 근로자가 폐스티로폼 운반 지게차와 부딪힌 사례",
+        "중대재해사례 OPL 폐스티로폼 운반 지게차 근로자 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_39920",
+      "concat": "[TITLE] [중대재해사례 OPL]축사내 분료처리작업시 황화수소 중독에 의한 질식\n[SUMMARY] [중대재해사례 OPL]축사내 분료처리작업시 황화수소 중독에 의한 질식",
+      "query": [
+        "축사 분뇨 질식",
+        "축사 안에서 분뇨처리 작업 중 황화수소에 중독되어 질식한 사고 사례",
+        "중대재해사례 OPL 축사내 분료처리작업 황화수소 중독 질식"
+      ]
+    },
+    {
+      "record_id": "list1_39921",
+      "concat": "[TITLE] [중대재해사례 OPL]정화조 내부 작업시 황화수소 중독에 의한 질식\n[SUMMARY] [중대재해사례 OPL]정화조 내부 작업시 황화수소 중독에 의한 질식",
+      "query": [
+        "정화조 황화수소 질식",
+        "정화조 내부에서 작업하다 황화수소에 중독되어 질식한 사고 사례",
+        "중대재해사례 OPL 정화조 내부 작업 황화수소 중독 질식"
+      ]
+    },
+    {
+      "record_id": "list1_39923",
+      "concat": "[TITLE] [중대재해사례 OPL]하수관거 정비 작업시 황화수소 중독에 의한 질식\n[SUMMARY] 맨홀내부 작업 중 산소결핍으로 인한 사고사례, 안전대에 대한 설명",
+      "query": [
+        "하수관거 질식 사고",
+        "맨홀 안 하수관거 정비 작업 중 산소가 부족해 질식한 사고 사례",
+        "중대재해사례 OPL 하수관거 정비 작업 황화수소 중독 질식 맨홀 산소결핍 안전대"
+      ]
+    },
+    {
+      "record_id": "list1_39922",
+      "concat": "[TITLE] [중대재해사례 OPL]바지선 선창 내부 점검을 위해 내려가던 중 질식\n[SUMMARY] [중대재해사례 OPL]바지선 선창 내부 점검을 위해 내려가던 중 질식",
+      "query": [
+        "바지선 선창 질식",
+        "바지선 선창 안을 점검하러 내려가다가 질식한 사고 사례",
+        "중대재해사례 OPL 바지선 선창 내부 점검 질식"
+      ]
+    },
+    {
+      "record_id": "list1_39926",
+      "concat": "[TITLE] [중대재해사례 OPL]콘크리트 보온 양생용 숯불난로 교체 중 일산화탄소 질식(중독)사고\n[SUMMARY] [중대재해사례 OPL]콘크리트 보온 양생용 숯불난로 교체 중 일산화탄소 질식(중독)사고",
+      "query": [
+        "콘크리트 양생 일산화탄소",
+        "콘크리트 보온 양생용 숯불난로를 바꾸다가 일산화탄소에 질식한 사고",
+        "중대재해사례 OPL 콘크리트 보온 양생용 숯불난로 교체 일산화탄소 질식 중독사고"
+      ]
+    },
+    {
+      "record_id": "list1_39925",
+      "concat": "[TITLE] [중대재해사례 OPL]돈사 슬러리 피트 내 벽체 해체 중 황화수소 중독에 의한 질식\n[SUMMARY] [중대재해사례 OPL]돈사 슬러리 피트 내 벽체 해체 중 황화수소 중독에 의한 질식 사례",
+      "query": [
+        "돈사 슬러리 질식",
+        "돈사 슬러리 피트 안에서 벽체 해체 중 황화수소에 중독된 질식 사고",
+        "중대재해사례 OPL 돈사 슬러리 피트 벽체 해체 황화수소 중독 질식"
+      ]
+    },
+    {
+      "record_id": "list1_39924",
+      "concat": "[TITLE] [중대재해사례 OPL]폐수처리장 점검 중 황화수소 중독에 의한 질식\n[SUMMARY] [중대재해사례 OPL]폐수처리장 점검 중 황화수소 중독에 의한 질식",
+      "query": [
+        "폐수처리장 질식",
+        "폐수처리장을 점검하다 황화수소에 중독되어 질식한 사고 사례",
+        "중대재해사례 OPL 폐수처리장 점검 황화수소 중독 질식"
+      ]
+    },
+    {
+      "record_id": "list1_39928",
+      "concat": "[TITLE] [중대재해사례 OPL]건설현장 콘크리트 보온양생작업 시 숯불난로 교체 중 일산화탄소 질식(중독)사고\n[SUMMARY] [중대재해사례 OPL]건설현장 콘크리트 보온양생작업 시 숯불난로 교체 중 일산화탄소 질식(중독)사고",
+      "query": [
+        "건설현장 양생 질식",
+        "건설현장에서 콘크리트 보온양생 중 숯불난로 교체하다 일산화탄소에 질식한 사고",
+        "중대재해사례 OPL 건설현장 콘크리트 보온양생작업 숯불난로 교체 일산화탄소 질식 중독사고"
+      ]
+    },
+    {
+      "record_id": "list1_39927",
+      "concat": "[TITLE] [중대재해사례 OPL]맨홀 내부 제수변실 밸브 시험가동 중 산소결핍에 의한 질식\n[SUMMARY] [중대재해사례 OPL]맨홀 내부 제수변실 밸브 시험가동 중 산소결핍에 의한 질식",
+      "query": [
+        "맨홀 산소결핍 질식",
+        "맨홀 안 제수변실에서 밸브 시험가동 중 산소 부족으로 질식한 사고",
+        "중대재해사례 OPL 맨홀 내부 제수변실 밸브 시험가동 산소결핍 질식"
+      ]
+    },
+    {
+      "record_id": "list1_39929",
+      "concat": "[TITLE] [중대재해사례 OPL]저장탱크내 세척작업 확인 중 질식\n[SUMMARY] [중대재해사례 OPL]저장탱크내 세척작업 확인 중 질식",
+      "query": [
+        "저장탱크 세척 질식",
+        "저장탱크 안에서 세척작업 확인 중 질식한 사고 사례",
+        "중대재해사례 OPL 저장탱크내 세척작업 확인 질식"
+      ]
+    }
+  ]
+}

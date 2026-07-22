@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 32,
+  "items": [
+    {
+      "record_id": "list1_46403",
+      "concat": "[TITLE] 고소작업대 작업안전(16개국어)\n[SUMMARY] 위험기계·기구(고소작업대) 작업안전에 관한 OPS 자료입니다.",
+      "query": [
+        "고소작업대 안전",
+        "높은 곳에서 쓰는 작업대 작업할 때 지켜야 할 안전수칙",
+        "고소작업대 작업안전 16개국어 위험기계 기구 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46527",
+      "concat": "[TITLE] 키메세지(10월_화학물질 중독예방)\n[SUMMARY] - 화학물질 중독 예방 대책 안내 - 화학물질 중독 예방 관련 콘텐츠 안내 (콘텐츠 바로가기 링크 탑재)",
+      "query": [
+        "화학물질 중독",
+        "화학물질 때문에 중독 사고가 나지 않게 예방하는 방법",
+        "키메세지 화학물질 중독예방 예방 대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46405",
+      "concat": "[TITLE] 트리클로로메탄 작업안전(16개국어)\n[SUMMARY] 화학물질(트리클로로메탄) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "트리클로로메탄 안전",
+        "트리클로로메탄을 다루는 작업자가 봐야 할 안전수칙",
+        "트리클로로메탄 작업안전 16개국어 화학물질 근로자용 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46520",
+      "concat": "[TITLE] 비상대피 시설 설치 운영 가이드\n[SUMMARY] 비상대피 시설 설치 운영 가이드",
+      "query": [
+        "비상대피 시설",
+        "위급할 때 대피할 수 있는 시설을 설치하고 운영하는 방법",
+        "비상대피 시설 설치 운영 가이드"
+      ]
+    },
+    {
+      "record_id": "list1_46406",
+      "concat": "[TITLE] 굴착기 작업안전 (16개국어)\n[SUMMARY] 위험기계·기구(굴착기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "굴착기 안전",
+        "굴착기로 작업할 때 사고를 막기 위한 안전수칙",
+        "굴착기 작업안전 16개국어 위험기계 기구 근로자용 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46404",
+      "concat": "[TITLE] 항타기 작업안전(16개국어)\n[SUMMARY] 위험기계·기구(항타기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "항타기 안전",
+        "항타기 작업 중 사고를 예방하려면 지켜야 할 안전수칙",
+        "항타기 작업안전 16개국어 위험기계 기구 근로자용 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44883",
+      "concat": "[TITLE] 2023년 위험성평가중심 안전보건관리체계구축 컨설팅 자율신청 안내\n[SUMMARY] 2023년 위험성평가중심 안전보건관리체계구축 컨설팅 자율신청 안내",
+      "query": [
+        "위험성평가 컨설팅",
+        "사업장에서 위험성평가 중심으로 안전보건관리체계를 만드는 컨설팅 신청",
+        "위험성평가중심 안전보건관리체계구축 컨설팅 자율신청 안내"
+      ]
+    },
+    {
+      "record_id": "list1_46012",
+      "concat": "[TITLE] 2024년 중소규모 사업장을 위한 안전보건관리체계 구축 컨설팅 신청 안내\n[SUMMARY] 2024년 중소규모 사업장을 위한 안전보건관리체계 구축 컨설팅 신청 안내",
+      "query": [
+        "안전보건 컨설팅",
+        "중소규모 사업장이 안전보건관리체계 구축 컨설팅을 신청하는 방법",
+        "중소규모 사업장 안전보건관리체계 구축 컨설팅 신청 안내"
+      ]
+    },
+    {
+      "record_id": "list1_46199",
+      "concat": "[TITLE] 김 양식장 화학물질 안전하게 사용해요 OPS\n[SUMMARY] 김 양식장 재해사례 및 착용 보호구 등",
+      "query": [
+        "김 양식장 화학물질",
+        "김 양식장에서 화학물질을 안전하게 쓰는 방법과 보호구",
+        "김 양식장 화학물질 안전하게 사용해요 OPS 재해사례 보호구"
+      ]
+    },
+    {
+      "record_id": "list1_46336",
+      "concat": "[TITLE] 조리실 환기장치 설치비용 지원사업 안내\n[SUMMARY] 2024년 건강일터 조성지원 사업 중 조리실 환기장치 설치비용 지원사업 안내 OPS",
+      "query": [
+        "조리실 환기장치 지원",
+        "조리실에 환기장치를 설치할 때 비용 지원을 받는 사업 안내",
+        "조리실 환기장치 설치비용 지원사업 안내 건강일터 조성지원 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46349",
+      "concat": "[TITLE] 온열질환 예방 퀵가이드_외국어버전\n[SUMMARY] 온열질환 예방 퀵가이드_외국어버전",
+      "query": [
+        "온열질환 외국어",
+        "외국인 근로자도 볼 수 있는 더위 질환 예방 안내자료",
+        "온열질환 예방 퀵가이드 외국어버전"
+      ]
+    },
+    {
+      "record_id": "list1_46317",
+      "concat": "[TITLE] 리튬 취급 안전수칙 꼭 지켜주세요\n[SUMMARY] 리튬의 위험성 전지 제조업체 사고 사례 리튬 취급 핵심 안전수칙 리튬 취급 안전수칙 자체 점검표",
+      "query": [
+        "리튬 안전수칙",
+        "리튬을 취급할 때 어떤 위험이 있고 무엇을 점검해야 하는지",
+        "리튬 취급 안전수칙 위험성 전지 제조업체 사고 사례 자체 점검표"
+      ]
+    },
+    {
+      "record_id": "list1_46269",
+      "concat": "[TITLE] 안전보건자료실 사용방법 안내 OPS(활용가이드)\n[SUMMARY] 공단에서 운영하는 콘텐츠 보급 플랫폼 중 하나인 안전보건자료실(공단 홈페이지 내) 사용방법 안내 OPS 입니다.",
+      "query": [
+        "안전보건자료실 사용법",
+        "공단 홈페이지에서 안전보건 자료를 찾아 쓰는 방법",
+        "안전보건자료실 사용방법 안내 OPS 활용가이드 콘텐츠 보급 플랫폼"
+      ]
+    },
+    {
+      "record_id": "list1_46300",
+      "concat": "[TITLE] 위기탈출 안전보건 앱 사용방법 안내 OPS(활용가이드)\n[SUMMARY] 공단에서 운영하는 콘텐츠 보급 플랫폼 중 하나인 위기탈출 안전보건 앱 사용방법 안내 OPS 입니다.",
+      "query": [
+        "안전보건 앱 사용법",
+        "위기탈출 안전보건 앱을 어떻게 사용하는지 알려주는 안내자료",
+        "위기탈출 안전보건 앱 사용방법 안내 OPS 활용가이드 콘텐츠 보급 플랫폼"
+      ]
+    },
+    {
+      "record_id": "list1_46347",
+      "concat": "[TITLE] 키메세지(7월_온열질환예방)\n[SUMMARY] - 온열질환 예방 대책 안내 - 온열질환 관련 콘텐츠 안내 (콘텐츠 바로가기 링크 탑재)",
+      "query": [
+        "온열질환 예방",
+        "여름철 더위로 생기는 온열질환을 예방하는 자료와 대책",
+        "키메세지 온열질환예방 예방 대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46346",
+      "concat": "[TITLE] 2024년 온열질환 예방가이드_외국어버전\n[SUMMARY] 2024년 온열질환 예방가이드_외국어버전",
+      "query": [
+        "온열질환 예방 외국어",
+        "외국어로 된 온열질환 예방가이드를 찾고 싶을 때",
+        "온열질환 예방가이드 외국어버전"
+      ]
+    },
+    {
+      "record_id": "list1_46334",
+      "concat": "[TITLE] 온열질환 예방 가이드OPS_외국어버전\n[SUMMARY] 온열질환 예방 가이드OPS의 네팔, 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 베트남, 스리랑카, 영어, 우즈베키스탄, 인도네시아, 중국, 캄보디아, 키르기스스탄, 태국, 파키스탄, 필리핀 총 17개 언어 번역본",
+      "query": [
+        "온열질환 가이드 외국어",
+        "네팔어 베트남어 영어 등 여러 언어로 된 온열질환 예방 안내",
+        "온열질환 예방 가이드OPS 외국어버전 17개 언어 번역본"
+      ]
+    },
+    {
+      "record_id": "list1_46268",
+      "concat": "[TITLE] 미디어 현장배송 사용방법 안내 OPS(활용가이드)\n[SUMMARY] 공단에서 운영하는 콘텐츠 보급 플랫폼 중 하나인 미디어 현장배송(공단 홈페이지와 별도 운영) 서비스 사용방법 안내 OPS 입니다.",
+      "query": [
+        "미디어 현장배송",
+        "안전보건 미디어 자료를 현장으로 배송받는 서비스 사용방법",
+        "미디어 현장배송 사용방법 안내 OPS 활용가이드 콘텐츠 보급 플랫폼"
+      ]
+    },
+    {
+      "record_id": "list1_46302",
+      "concat": "[TITLE] 업종별 맞춤형 안전보건가이드 OPS(도소매 및 소비자용품 수리업, 쇄석 채취업, 항만 내의 육상하역업, 축산업, 어선어업)\n[SUMMARY] 다양한 업종의 소규모 사업장 안전보건 확보를 지원하기 위한 「업종별 맞춤형 안전보건 가이드」 추가 5종 24. 도소매 및 소비자용품 수리업 25. 쇄석 채취업 26. 항만 내의 육상하역업 27. 축산업 28. 어선어업",
+      "query": [
+        "업종별 안전보건",
+        "도소매 쇄석 항만 축산 어선어업 같은 업종별 안전보건 가이드",
+        "업종별 맞춤형 안전보건가이드 OPS 도소매 소비자용품 수리업 쇄석 채취업 항만 육상하역업 축산업 어선어업"
+      ]
+    },
+    {
+      "record_id": "list1_46235",
+      "concat": "[TITLE] 장마철 건설현장 안전수칙\n[SUMMARY] 장마철 건설현장 안전수칙",
+      "query": [
+        "장마철 건설현장",
+        "비가 많이 오는 장마철 건설현장에서 지켜야 할 안전수칙",
+        "장마철 건설현장 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_46316",
+      "concat": "[TITLE] 키메세지(6월_장마철 재해예방)\n[SUMMARY] 장마철 호우 및 폭우에 대비하여 관련 정보 및 안전보건 콘텐츠 안내",
+      "query": [
+        "장마철 재해예방",
+        "호우와 폭우가 올 때 현장에서 사고를 줄이는 안전보건 자료",
+        "키메세지 장마철 재해예방 호우 폭우 안전보건 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46314",
+      "concat": "[TITLE] 영상과 함께보는 쇄석채취업 주요 사망사고 예방대책\n[SUMMARY] 떨어짐,무너짐,깔림 등 쇄석채취업종의 주요 사망사고 사례 및 예방대책 교육용 자료",
+      "query": [
+        "쇄석채취업 사망사고",
+        "쇄석채취 작업에서 떨어짐 무너짐 깔림 사고를 예방하는 방법",
+        "영상과 함께보는 쇄석채취업 주요 사망사고 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_46303",
+      "concat": "[TITLE] 온열질환 예방 가이드OPS\n[SUMMARY] 온열질환 예방 가이드OPS",
+      "query": [
+        "온열질환 가이드",
+        "더운 날 작업할 때 온열질환을 예방하는 안내자료",
+        "온열질환 예방 가이드OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46297",
+      "concat": "[TITLE] 배달종사자 호우태풍 안전수칙 가이드\n[SUMMARY] 배달종사자 호우태풍 안전수칙 가이드",
+      "query": [
+        "배달 호우 태풍",
+        "비바람이나 태풍 때 배달종사자가 지켜야 할 안전수칙",
+        "배달종사자 호우태풍 안전수칙 가이드"
+      ]
+    },
+    {
+      "record_id": "list1_46296",
+      "concat": "[TITLE] 여름철 배달종사자 온열질환 예방가이드\n[SUMMARY] 여름철 배달종사자 온열질환 예방가이드",
+      "query": [
+        "배달 온열질환",
+        "여름철 배달 일을 할 때 더위 질환을 예방하는 방법",
+        "여름철 배달종사자 온열질환 예방가이드"
+      ]
+    },
+    {
+      "record_id": "list1_46291",
+      "concat": "[TITLE] 화학공장 지진대비 안전관리\n[SUMMARY] 사업장의 지진대책 필요성 국내 연도별 지진발생 현황 위험물 저장 취급설비의 점검 및 보강 화학공장 지진발생 시 행동요령",
+      "query": [
+        "화학공장 지진",
+        "지진이 났을 때 화학공장에서 위험설비를 점검하고 대응하는 방법",
+        "화학공장 지진대비 안전관리 지진대책 위험물 저장 취급설비 행동요령"
+      ]
+    },
+    {
+      "record_id": "list1_46292",
+      "concat": "[TITLE] 화학공장 태풍대비 안전관리\n[SUMMARY] 태풍의 위험성 태풍대비 안전조치 태풍주의보와 경보 화학공장 태풍대비 안전점검",
+      "query": [
+        "화학공장 태풍",
+        "태풍이 오기 전 화학공장에서 해야 할 안전점검과 조치",
+        "화학공장 태풍대비 안전관리 태풍주의보 경보 안전점검"
+      ]
+    },
+    {
+      "record_id": "list1_46213",
+      "concat": "[TITLE] 온열질환 예방 퀵가이드(실내외)\n[SUMMARY] 온열질환 예방 퀵가이드(실내외)",
+      "query": [
+        "온열질환 실내외",
+        "실내와 실외 작업 모두에서 더위 질환을 예방하는 빠른 안내",
+        "온열질환 예방 퀵가이드 실내외"
+      ]
+    },
+    {
+      "record_id": "list1_46293",
+      "concat": "[TITLE] 화학공장 폭염대비 안전관리\n[SUMMARY] 폭염으로 인한 사고사례 폭염기간 안전관리 화학공장 폭염대비 안전관리",
+      "query": [
+        "화학공장 폭염",
+        "폭염 기간에 화학공장에서 사고를 막기 위한 안전관리 방법",
+        "화학공장 폭염대비 안전관리 폭염 사고사례 안전관리"
+      ]
+    },
+    {
+      "record_id": "list1_46294",
+      "concat": "[TITLE] 화학공장 폭우대비 안전관리\n[SUMMARY] 폭우(장마철) 위험성 침수로 인한 폭발 사고사례 장마철 금수성물질의 위험성 화학공장 폭우 대비 안전점검",
+      "query": [
+        "화학공장 폭우",
+        "장마철 폭우 때 화학공장에서 침수와 폭발 위험을 점검하는 방법",
+        "화학공장 폭우대비 안전관리 장마철 침수 폭발 금수성물질 안전점검"
+      ]
+    }
+  ]
+}

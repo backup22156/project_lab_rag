@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 36,
+  "items": [
+    {
+      "record_id": "list1_45737",
+      "concat": "[TITLE] [관리자용] 갠트리 크레인 작업안전\n[SUMMARY] 위험기계·기구(갠트리 크레인) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "갠트리 크레인 안전",
+        "갠트리 크레인 작업을 관리할 때 확인해야 하는 안전수칙",
+        "관리자용 갠트리 크레인 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45735",
+      "concat": "[TITLE] [관리자용] 항타기 작업안전\n[SUMMARY] 위험기계·기구(항타기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "항타기 안전",
+        "항타기 작업 현장을 관리할 때 필요한 안전수칙",
+        "관리자용 항타기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45734",
+      "concat": "[TITLE] [근로자용] 전기용접장치 작업안전\n[SUMMARY] 위험기계·기구(전기용접장치) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "전기 용접 안전",
+        "전기용접장치를 쓰는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 전기용접장치 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45732",
+      "concat": "[TITLE] [근로자용] 잭(Jack) 작업안전\n[SUMMARY] 위험기계·기구(잭 Jack) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "잭 작업 안전",
+        "잭을 사용해서 작업하는 근로자가 조심해야 할 안전수칙",
+        "근로자용 잭 Jack 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45733",
+      "concat": "[TITLE] [관리자용] 전기용접장치 작업안전\n[SUMMARY] 위험기계·기구(전기용접장치) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "전기 용접 관리",
+        "전기용접장치 작업을 관리할 때 필요한 안전 점검 내용",
+        "관리자용 전기용접장치 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45731",
+      "concat": "[TITLE] [관리자용] 잭(Jack) 작업안전\n[SUMMARY] 위험기계·기구(잭 Jack) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "잭 안전 관리",
+        "잭 사용 작업을 관리할 때 확인해야 하는 안전수칙",
+        "관리자용 잭 Jack 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45729",
+      "concat": "[TITLE] [관리자용] 압출기 작업안전\n[SUMMARY] 위험기계·기구(압출기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "압출기 안전 관리",
+        "압출기 작업을 관리하는 사람이 확인할 안전수칙",
+        "관리자용 압출기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45730",
+      "concat": "[TITLE] [근로자용] 압출기 작업안전\n[SUMMARY] 위험기계·기구(압출기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "압출기 작업 안전",
+        "압출기를 사용하는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 압출기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45727",
+      "concat": "[TITLE] [관리자용] 드릴머신 작업안전\n[SUMMARY] 위험기계·기구(드릴머신) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "드릴머신 안전 관리",
+        "드릴머신 작업을 관리할 때 확인해야 하는 안전수칙",
+        "관리자용 드릴머신 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45725",
+      "concat": "[TITLE] [관리자용] 호이스트 작업안전\n[SUMMARY] 위험기계·기구(호이스트) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "호이스트 안전 관리",
+        "호이스트 작업을 관리하는 사람이 확인할 안전수칙",
+        "관리자용 호이스트 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45728",
+      "concat": "[TITLE] [근로자용] 드릴머신 작업안전\n[SUMMARY] 위험기계·기구(드릴머신) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "드릴머신 작업 안전",
+        "드릴머신을 사용하는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 드릴머신 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45726",
+      "concat": "[TITLE] [근로자용] 호이스트 작업안전\n[SUMMARY] 위험기계·기구(호이스트) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "호이스트 작업 안전",
+        "호이스트를 사용하는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 호이스트 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45724",
+      "concat": "[TITLE] [근로자용] 천공기 작업안전\n[SUMMARY] 위험기계·기구(천공기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "천공기 작업 안전",
+        "천공기를 사용하는 근로자가 조심해야 할 작업 안전수칙",
+        "근로자용 천공기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45722",
+      "concat": "[TITLE] [근로자용] 보일러 작업안전\n[SUMMARY] 위험기계·기구(보일러) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "보일러 작업 안전",
+        "보일러를 다루는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 보일러 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45720",
+      "concat": "[TITLE] [근로자용] 주차설비 작업안전\n[SUMMARY] 위험기계·기구(주차설비) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "주차설비 작업 안전",
+        "주차설비를 다루는 근로자가 알아야 할 안전수칙",
+        "근로자용 주차설비 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45723",
+      "concat": "[TITLE] [관리자용] 천공기 작업안전\n[SUMMARY] 위험기계·기구(천공기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "천공기 안전 관리",
+        "천공기 작업을 관리할 때 확인해야 하는 안전수칙",
+        "관리자용 천공기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45721",
+      "concat": "[TITLE] [관리자용] 보일러 작업안전\n[SUMMARY] 위험기계·기구(보일러) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "보일러 안전 관리",
+        "보일러 작업을 관리하는 사람이 확인할 안전수칙",
+        "관리자용 보일러 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45719",
+      "concat": "[TITLE] [관리자용] 주차설비 작업안전\n[SUMMARY] 위험기계·기구(주차설비) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "주차설비 안전 관리",
+        "주차설비 작업을 관리할 때 필요한 안전 점검 내용",
+        "관리자용 주차설비 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45705",
+      "concat": "[TITLE] [관리자용] 일반작업용 리프트 작업안전\n[SUMMARY] 위험기계·기구(일반작업용 리프트) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "작업용 리프트 안전",
+        "일반작업용 리프트를 관리할 때 확인해야 할 안전수칙",
+        "관리자용 일반작업용 리프트 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45706",
+      "concat": "[TITLE] [근로자용] 일반작업용 리프트 작업안전\n[SUMMARY] 위험기계·기구(일반작업용 리프트) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "리프트 작업 안전",
+        "일반작업용 리프트를 사용하는 근로자가 알아야 할 안전수칙",
+        "근로자용 일반작업용 리프트 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45703",
+      "concat": "[TITLE] [관리자용] 휴대용 기계톱 작업안전\n[SUMMARY] 위험기계·기구(휴대용 기계톱) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "휴대용 기계톱 안전",
+        "휴대용 기계톱 작업을 관리할 때 확인해야 하는 안전수칙",
+        "관리자용 휴대용 기계톱 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45704",
+      "concat": "[TITLE] [근로자용] 휴대용 기계톱 작업안전\n[SUMMARY] 위험기계·기구(휴대용 기계톱) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "기계톱 작업 안전",
+        "휴대용 기계톱을 쓰는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 휴대용 기계톱 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45700",
+      "concat": "[TITLE] [근로자용] 산업용 로봇 작업안전\n[SUMMARY] 위험기계·기구(산업용 로봇) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "산업용 로봇 안전",
+        "산업용 로봇 작업자가 알아야 할 작업 안전수칙",
+        "근로자용 산업용 로봇 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45702",
+      "concat": "[TITLE] [근로자용] 용융설비 작업안전\n[SUMMARY] 위험기계·기구(용융설비) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "용융설비 작업 안전",
+        "용융설비를 사용하는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 용융설비 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45701",
+      "concat": "[TITLE] [관리자용] 용융설비 작업안전\n[SUMMARY] 위험기계·기구(용융설비) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "용융설비 안전 관리",
+        "용융설비 작업을 관리할 때 확인해야 하는 안전수칙",
+        "관리자용 용융설비 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45699",
+      "concat": "[TITLE] [관리자용] 산업용 로봇 작업안전\n[SUMMARY] 위험기계·기구(산업용 로봇) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "산업용 로봇 관리",
+        "산업용 로봇 작업을 관리하는 사람이 확인할 안전수칙",
+        "관리자용 산업용 로봇 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45698",
+      "concat": "[TITLE] [근로자용] 분쇄기 작업안전\n[SUMMARY] 위험기계·기구(분쇄기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "분쇄기 작업 안전",
+        "분쇄기를 사용하는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 분쇄기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45697",
+      "concat": "[TITLE] [관리자용] 분쇄기 작업안전\n[SUMMARY] 위험기계·기구(분쇄기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "분쇄기 안전 관리",
+        "분쇄기 작업을 관리할 때 확인해야 하는 안전수칙",
+        "관리자용 분쇄기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45695",
+      "concat": "[TITLE] [관리자용] 콘크리트 펌프카 작업안전\n[SUMMARY] 위험기계·기구(콘크리트 펌프카) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "콘크리트 펌프카 관리",
+        "콘크리트 펌프카 작업을 관리할 때 필요한 안전수칙",
+        "관리자용 콘크리트 펌프카 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45696",
+      "concat": "[TITLE] [근로자용] 콘크리트 펌프카 작업안전\n[SUMMARY] 위험기계·기구(콘크리트 펌프카) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "콘크리트 펌프카 안전",
+        "콘크리트 펌프카를 사용하는 근로자가 알아야 할 작업 안전수칙",
+        "근로자용 콘크리트 펌프카 작업안전 OPS"
+      ]
+    }
+  ]
+}

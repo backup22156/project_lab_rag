@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 118,
+  "items": [
+    {
+      "record_id": "list1_30219",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)핸드펌프 안전작업\n[SUMMARY] 핸드펌프 안전작업",
+      "query": [
+        "핸드펌프 안전",
+        "공장에서 핸드펌프 사용할 때 안전하게 작업하는 방법",
+        "일상생활용 전기기계기구제조업 핸드펌프 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30218",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)트롤리컨베이어 안전작업\n[SUMMARY] 트롤리컨베이어 안전작업",
+      "query": [
+        "트롤리컨베이어 안전",
+        "트롤리컨베이어로 물건을 옮길 때 안전수칙 자료",
+        "일상생활용 전기기계기구제조업 트롤리컨베이어 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30210",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)이동식반자동 컨베이어 안전작업\n[SUMMARY] 이동식반자동 컨베이어 안전작업",
+      "query": [
+        "이동식 컨베이어 안전",
+        "이동식 반자동 컨베이어 작업할 때 주의할 점",
+        "일상생활용 전기기계기구제조업 이동식반자동 컨베이어 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30217",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)커팅기(플라즈마) 안전작업\n[SUMMARY] 커팅기(플라즈마) 안전작업",
+      "query": [
+        "플라즈마 커팅기 안전",
+        "플라즈마 절단기 사용할 때 지켜야 할 안전수칙",
+        "일상생활용 전기기계기구제조업 커팅기 플라즈마 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30211",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)에어발란스 안전작업\n[SUMMARY] (일상생활용 전기기계기구제조업)이재기 안전작업",
+      "query": [
+        "에어발란스 안전",
+        "에어발란스 장비로 작업할 때 안전하게 쓰는 방법",
+        "일상생활용 전기기계기구제조업 에어발란스 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30212",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)자동열용착기 안전작업\n[SUMMARY] (일상생활용 전기기계기구제조업)자동열용착기 안전작업",
+      "query": [
+        "자동열용착기 안전",
+        "자동 열용착기 작업 중 사고를 막는 안전수칙",
+        "일상생활용 전기기계기구제조업 자동열용착기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30213",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)플라스틱 분쇄기 안전작업\n[SUMMARY] 저속분쇄기 안전작업",
+      "query": [
+        "플라스틱 분쇄기 안전",
+        "플라스틱 분쇄기 사용할 때 끼임 사고 예방 방법",
+        "일상생활용 전기기계기구제조업 플라스틱 분쇄기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30216",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)진동용착기 안전작업\n[SUMMARY] (일상생활용 전기기계기구제조업)진동용착기 안전작업 OPL",
+      "query": [
+        "진동용착기 안전",
+        "진동용착기 작업할 때 필요한 안전수칙 자료",
+        "일상생활용 전기기계기구제조업 진동용착기 안전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30215",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)조립컨베이어 안전작업\n[SUMMARY] (일상생활용 전기기계기구제조업)조립컨베이어 안전작업 리플릿",
+      "query": [
+        "조립컨베이어 안전",
+        "조립 컨베이어 라인에서 작업할 때 안전하게 하는 법",
+        "일상생활용 전기기계기구제조업 조립컨베이어 안전작업 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30214",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)전조기 안전작업\n[SUMMARY] 전조기 안전작업",
+      "query": [
+        "전조기 안전",
+        "전조기 장비를 사용할 때 사고 예방 안전수칙",
+        "일상생활용 전기기계기구제조업 전조기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30353",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)차량용리프트\n[SUMMARY] (도소매 및 소비자용품 수리업)차량용리프트",
+      "query": [
+        "차량용 리프트 안전",
+        "수리업에서 차량용 리프트 사용할 때 안전자료",
+        "도소매 및 소비자용품 수리업 차량용리프트"
+      ]
+    },
+    {
+      "record_id": "list1_30577",
+      "concat": "[TITLE] 사고사망재해 예방 홍보 리플릿(건설업)\n[SUMMARY] 사고사망재해 예방 홍보 리플릿(건설업)",
+      "query": [
+        "건설 사고사망 예방",
+        "건설현장 사망사고를 줄이기 위한 홍보자료",
+        "사고사망재해 예방 홍보 리플릿 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_30352",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)자동문\n[SUMMARY] (도소매 및 소비자용품 수리업)자동문",
+      "query": [
+        "자동문 안전",
+        "매장이나 수리업 현장에서 자동문 관련 안전자료",
+        "도소매 및 소비자용품 수리업 자동문"
+      ]
+    },
+    {
+      "record_id": "list1_30351",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)쇼핑카트\n[SUMMARY] (도소매 및 소비자용품 수리업)쇼핑카트",
+      "query": [
+        "쇼핑카트 안전",
+        "마트에서 쇼핑카트 사용 중 사고 예방 자료",
+        "도소매 및 소비자용품 수리업 쇼핑카트"
+      ]
+    },
+    {
+      "record_id": "list1_30350",
+      "concat": "[TITLE] (음식 및 숙박업)회전식국솥\n[SUMMARY] (음식 및 숙박업)회전식국솥 리플릿",
+      "query": [
+        "회전식국솥 안전",
+        "음식점 주방에서 회전식 국솥 사용할 때 안전수칙",
+        "음식 및 숙박업 회전식국솥 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30349",
+      "concat": "[TITLE] (음식 및 숙박업)파절기\n[SUMMARY] (음식 및 숙박업)파절기",
+      "query": [
+        "파절기 안전",
+        "음식점에서 파절기 사용할 때 다치지 않는 방법",
+        "음식 및 숙박업 파절기"
+      ]
+    },
+    {
+      "record_id": "list1_30348",
+      "concat": "[TITLE] (음식 및 숙박업)튀김기\n[SUMMARY] (음식 및 숙박업)튀김기",
+      "query": [
+        "튀김기 안전",
+        "음식점 주방에서 튀김기 작업할 때 화상 사고 예방",
+        "음식 및 숙박업 튀김기"
+      ]
+    },
+    {
+      "record_id": "list1_30361",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)고속절단기\n[SUMMARY] (도소매 및 소비자용품 수리업)고속절단기",
+      "query": [
+        "고속절단기 안전",
+        "도소매 수리업에서 고속절단기 사용할 때 안전수칙",
+        "도소매 및 소비자용품 수리업 고속절단기"
+      ]
+    },
+    {
+      "record_id": "list1_30347",
+      "concat": "[TITLE] (음식 및 숙박업)제면기\n[SUMMARY] (음식 및 숙박업)제면기",
+      "query": [
+        "제면기 안전",
+        "음식점에서 제면기 사용할 때 끼임 사고 예방",
+        "음식 및 숙박업 제면기"
+      ]
+    },
+    {
+      "record_id": "list1_30367",
+      "concat": "[TITLE] (교육서비스업)회전식국솥\n[SUMMARY] (교육서비스업)회전식국솥",
+      "query": [
+        "회전식국솥 안전",
+        "학교 급식실에서 회전식 국솥 사용할 때 안전자료",
+        "교육서비스업 회전식국솥"
+      ]
+    },
+    {
+      "record_id": "list1_30362",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)골절기\n[SUMMARY] (도소매 및 소비자용품 수리업)골절기",
+      "query": [
+        "골절기 안전",
+        "매장이나 수리업 현장에서 골절기 사용할 때 안전수칙",
+        "도소매 및 소비자용품 수리업 골절기"
+      ]
+    },
+    {
+      "record_id": "list1_30358",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)이동대차\n[SUMMARY] (도소매 및 소비자용품 수리업)이동대차",
+      "query": [
+        "이동대차 안전",
+        "도소매 현장에서 이동대차로 물건 옮길 때 안전수칙",
+        "도소매 및 소비자용품 수리업 이동대차"
+      ]
+    },
+    {
+      "record_id": "list1_30360",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)트럭\n[SUMMARY] (도소매 및 소비자용품 수리업)트럭",
+      "query": [
+        "트럭 안전",
+        "도소매 수리업에서 트럭 작업할 때 사고 예방 자료",
+        "도소매 및 소비자용품 수리업 트럭"
+      ]
+    },
+    {
+      "record_id": "list1_30357",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)컨베이어\n[SUMMARY] (도소매 및 소비자용품 수리업)컨베이어",
+      "query": [
+        "컨베이어 안전",
+        "도소매 현장에서 컨베이어 사용할 때 안전하게 작업하는 법",
+        "도소매 및 소비자용품 수리업 컨베이어"
+      ]
+    },
+    {
+      "record_id": "list1_30359",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)냉동고 및 냉장고\n[SUMMARY] (도소매 및 소비자용품 수리업)냉동고 및 냉장고",
+      "query": [
+        "냉동고 냉장고 안전",
+        "매장에서 냉동고나 냉장고 작업할 때 안전수칙",
+        "도소매 및 소비자용품 수리업 냉동고 냉장고"
+      ]
+    },
+    {
+      "record_id": "list1_30368",
+      "concat": "[TITLE] (교육서비스업)다짐기\n[SUMMARY] (교육서비스업)다짐기",
+      "query": [
+        "다짐기 안전",
+        "학교 시설 작업에서 다짐기 사용할 때 안전자료",
+        "교육서비스업 다짐기"
+      ]
+    },
+    {
+      "record_id": "list1_30355",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)지게차\n[SUMMARY] (도소매 및 소비자용품 수리업)지게차",
+      "query": [
+        "지게차 안전",
+        "도소매 현장에서 지게차 작업할 때 사고 예방 자료",
+        "도소매 및 소비자용품 수리업 지게차"
+      ]
+    },
+    {
+      "record_id": "list1_30369",
+      "concat": "[TITLE] (교육서비스업)바구니운반카\n[SUMMARY] (교육서비스업)바구니운반카",
+      "query": [
+        "바구니운반카 안전",
+        "학교 급식이나 시설에서 바구니운반카 사용할 때 안전수칙",
+        "교육서비스업 바구니운반카"
+      ]
+    },
+    {
+      "record_id": "list1_30370",
+      "concat": "[TITLE] (교육서비스업)부침기\n[SUMMARY] (교육서비스업)부침기",
+      "query": [
+        "부침기 안전",
+        "학교 급식실에서 부침기 사용할 때 안전수칙",
+        "교육서비스업 부침기"
+      ]
+    },
+    {
+      "record_id": "list1_30371",
+      "concat": "[TITLE] (교육서비스업)세미기\n[SUMMARY] (교육서비스업)세미기",
+      "query": [
+        "세미기 안전",
+        "학교 급식실에서 세미기 사용할 때 사고 예방 자료",
+        "교육서비스업 세미기"
+      ]
+    }
+  ]
+}

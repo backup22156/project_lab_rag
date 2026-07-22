@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 114,
+  "items": [
+    {
+      "record_id": "list1_32806",
+      "concat": "[TITLE] (제조,중국)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Wood cutting외국인 근로자 안전보건 매뉴얼 - 제조업 : 목재재단\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "중국 목재재단 안전",
+        "중국 외국인 근로자에게 목재 자르는 작업을 안전하게 교육할 자료",
+        "중국 외국인 근로자 안전보건 매뉴얼 제조업 목재재단"
+      ]
+    },
+    {
+      "record_id": "list1_32805",
+      "concat": "[TITLE] (제조,우즈벡)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Wood cutting외국인 근로자 안전보건 매뉴얼 - 제조업 : 목재재단\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "우즈벡 목재재단 안전",
+        "우즈벡 외국인 근로자에게 목재 자르는 작업을 안전하게 교육할 자료",
+        "우즈벡 외국인 근로자 안전보건 매뉴얼 제조업 목재재단"
+      ]
+    },
+    {
+      "record_id": "list1_32804",
+      "concat": "[TITLE] (제조,베트남)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Wood cutting외국인 근로자 안전보건 매뉴얼 - 제조업 : 목재재단\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "베트남 목재재단 안전",
+        "베트남 외국인 근로자에게 목재 자르는 작업을 안전하게 교육할 자료",
+        "베트남 외국인 근로자 안전보건 매뉴얼 제조업 목재재단"
+      ]
+    },
+    {
+      "record_id": "list1_32803",
+      "concat": "[TITLE] (제조,스리랑카)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Wood cutting외국인 근로자 안전보건 매뉴얼 - 제조업 : 목재재단\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "스리랑카 목재재단 안전",
+        "스리랑카 외국인 근로자에게 목재 자르는 작업을 안전하게 교육할 자료",
+        "스리랑카 외국인 근로자 안전보건 매뉴얼 제조업 목재재단"
+      ]
+    },
+    {
+      "record_id": "list1_32807",
+      "concat": "[TITLE] (제조,태국)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Wood cutting외국인 근로자 안전보건 매뉴얼 - 제조업 : 목재재단\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "태국 목재재단 안전",
+        "태국 외국인 근로자에게 목재 자르는 작업을 안전하게 교육할 자료",
+        "태국 외국인 근로자 안전보건 매뉴얼 제조업 목재재단"
+      ]
+    },
+    {
+      "record_id": "list1_32808",
+      "concat": "[TITLE] (제조,인도네시아)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "인도네시아 밀폐공간 도장 안전",
+        "인도네시아 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "인도네시아 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32809",
+      "concat": "[TITLE] (제조,태국)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "태국 밀폐공간 도장 안전",
+        "태국 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "태국 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32841",
+      "concat": "[TITLE] (제조,파키스탄)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "파키스탄 밀폐공간 도장 안전",
+        "파키스탄 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "파키스탄 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32842",
+      "concat": "[TITLE] (제조,중국)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "중국 밀폐공간 도장 안전",
+        "중국 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "중국 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32856",
+      "concat": "[TITLE] (제조,필리핀,영어)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (1) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(1)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "필리핀 영어 사출기 안전",
+        "필리핀 근로자에게 영어로 사출기 가공 작업 안전을 교육할 자료",
+        "필리핀 영어 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32855",
+      "concat": "[TITLE] (제조,중국)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (1) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(1)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "중국 사출기 가공 안전",
+        "중국 외국인 근로자에게 사출기 가공 작업 사고 예방을 교육할 자료",
+        "중국 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32851",
+      "concat": "[TITLE] (제조,몽골)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (1) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(1)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "몽골 사출기 가공 안전",
+        "몽골 외국인 근로자에게 사출기 가공 작업 사고 예방을 교육할 자료",
+        "몽골 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32854",
+      "concat": "[TITLE] (제조,우즈벡)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (1) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(1)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "우즈벡 사출기 가공 안전",
+        "우즈벡 외국인 근로자에게 사출기 가공 작업 사고 예방을 교육할 자료",
+        "우즈벡 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32852",
+      "concat": "[TITLE] (제조,방글라데시)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (1) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(1)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "방글라데시 사출기 가공 안전",
+        "방글라데시 외국인 근로자에게 사출기 가공 작업 사고 예방을 교육할 자료",
+        "방글라데시 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32853",
+      "concat": "[TITLE] (제조,베트남)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (1) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(1)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "베트남 사출기 가공 안전",
+        "베트남 외국인 근로자에게 사출기 가공 작업 사고 예방을 교육할 자료",
+        "베트남 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32850",
+      "concat": "[TITLE] (제조,태국)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (1) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(1)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "태국 사출기 가공 안전",
+        "태국 외국인 근로자에게 사출기 가공 작업 사고 예방을 교육할 자료",
+        "태국 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32849",
+      "concat": "[TITLE] (제조,인도네시아)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (1) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(1)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "인도네시아 사출기 가공 안전",
+        "인도네시아 외국인 근로자에게 사출기 가공 작업 사고 예방을 교육할 자료",
+        "인도네시아 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32845",
+      "concat": "[TITLE] (제조,스리랑카)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "스리랑카 밀폐공간 도장 안전",
+        "스리랑카 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "스리랑카 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32847",
+      "concat": "[TITLE] (제조,우즈벡)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "우즈벡 밀폐공간 도장 안전",
+        "우즈벡 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "우즈벡 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32846",
+      "concat": "[TITLE] (제조,베트남)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "베트남 밀폐공간 도장 안전",
+        "베트남 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "베트남 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32848",
+      "concat": "[TITLE] (제조,필리핀,영어)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "필리핀 영어 밀폐공간 도장",
+        "필리핀 근로자에게 영어로 밀폐공간 도장 작업 안전을 교육할 자료",
+        "필리핀 영어 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32844",
+      "concat": "[TITLE] (제조,방글라데시)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "방글라데시 밀폐공간 도장 안전",
+        "방글라데시 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "방글라데시 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_32843",
+      "concat": "[TITLE] (제조,몽골)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Painting in closed spaces 외국인 근로자 안전보건 매뉴얼 - 제조업 : 밀폐공간 도장\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "몽골 밀폐공간 도장 안전",
+        "몽골 외국인 근로자에게 밀폐된 공간에서 도장 작업 안전을 알려주는 자료",
+        "몽골 외국인 근로자 안전보건 매뉴얼 제조업 밀폐공간 도장"
+      ]
+    },
+    {
+      "record_id": "list1_31085",
+      "concat": "[TITLE] 외국인 근로자 안전, 안전작업 실천과 함께합니다(도소매업)\n[SUMMARY] - 도소매업 중국교포 근로자 재해예방을 위한 재해사례 및 안전수칙 OPL",
+      "query": [
+        "외국인 도소매 안전",
+        "도소매업에서 일하는 외국인 근로자에게 안전작업 수칙을 알려주는 자료",
+        "외국인 근로자 안전 안전작업 실천 도소매업 재해사례 안전수칙 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31084",
+      "concat": "[TITLE] 외국인 근로자안전 안전작업실천과 함께합니다(음식업)\n[SUMMARY] - 음식업 중국교포 근로자의 재해예방을 위한 재해사례 및 안전수칙 OPL",
+      "query": [
+        "외국인 음식업 안전",
+        "음식점에서 일하는 외국인 근로자에게 재해예방과 안전수칙을 교육할 자료",
+        "외국인 근로자 안전 안전작업실천 음식업 재해사례 안전수칙 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31032",
+      "concat": "[TITLE] 제조업 재해다발 업종에서 발생하는 재해사례 17종\n[SUMMARY] 제조업 재해다발 및 재해증가 업종의 대표적인 재해사례를 중심으로 요약 정리",
+      "query": [
+        "제조업 재해 사례",
+        "제조업에서 사고가 자주 나는 업종의 대표 재해사례를 모아놓은 자료",
+        "제조업 재해다발 업종 발생 재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_31071",
+      "concat": "[TITLE] 이삿짐 취급 근로자 재해예방OPL\n[SUMMARY] - 이삿짐 취급 근로자의 재해예방 OPL",
+      "query": [
+        "이삿짐 작업 안전",
+        "이삿짐을 나르거나 취급하는 근로자의 사고 예방 자료",
+        "이삿짐 취급 근로자 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30930",
+      "concat": "[TITLE] “경견완증후군”을 예방합시다!\n[SUMMARY] “경견완증후군”을 예방합시다! 경견완증후군 예방! 이렇게 하세요 “스마트 기기” 올바른 습관으로 스마트하게 사용하세요!",
+      "query": [
+        "목 어깨 통증 예방",
+        "스마트기기 사용으로 목과 어깨 팔이 아플 때 예방하는 방법 자료",
+        "경견완증후군 예방 스마트 기기 올바른 습관"
+      ]
+    },
+    {
+      "record_id": "list1_30929",
+      "concat": "[TITLE] “손목터널증후군”을 예방합시다!\n[SUMMARY] “손목터널증후군(또는 수근관증후군)”을 예방합시다! 이런 증상을 느낀다면 “손목터널증후군”을 의심하세요! 이렇게 예방하세요! 손목터널증후군 예방 스트레칭",
+      "query": [
+        "손목터널증후군 예방",
+        "손목이 저리고 아플 때 의심되는 손목터널증후군 예방 스트레칭 자료",
+        "손목터널증후군 수근관증후군 예방 스트레칭"
+      ]
+    },
+    {
+      "record_id": "list1_30861",
+      "concat": "[TITLE] 근로자 건강보호를 위한 휴게,세면,목욕시설 등 위생시설을 꼭 설치하여야 합니다.\n[SUMMARY] ㅇ 산업안전보건법령 중 근로자 건강보호를 위한 - 휴게시설(안전보건규칙 제79조) - 환경미화업무 등(제79조의2) - 수면장소(시설)(제80조) 등에 따라 ㅇ 사업주의 의무로 사업장내 적절한 휴게,세면,목욕시설 등 위생시설의 설치에 대한 제도안내를 위한 리플렛",
+      "query": [
+        "휴게시설 세면시설 설치",
+        "사업장에서 근로자 건강보호를 위해 휴게실 세면 목욕시설을 설치해야 하는 기준 안내",
+        "근로자 건강보호 휴게 세면 목욕시설 위생시설 설치 산업안전보건법령"
+      ]
+    }
+  ]
+}

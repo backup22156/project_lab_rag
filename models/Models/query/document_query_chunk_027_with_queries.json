@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 27,
+  "items": [
+    {
+      "record_id": "list1_46929",
+      "concat": "[TITLE] [근로자용] 노말헥산 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "노말헥산 질병 예방",
+        "노말헥산을 다루는 근로자가 봐야 할 직업병 예방 자료",
+        "근로자용 노말헥산 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46925",
+      "concat": "[TITLE] [근로자용] 스티렌 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "스티렌 질병 예방",
+        "스티렌 취급 근로자에게 필요한 직업병 예방 안내",
+        "근로자용 스티렌 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46928",
+      "concat": "[TITLE] [관리자용] 노말헥산 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "노말헥산 관리자",
+        "노말헥산 취급 작업장을 관리할 때 필요한 직업병 예방 자료",
+        "관리자용 노말헥산 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46926",
+      "concat": "[TITLE] [관리자용] 시클로헥산 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "시클로헥산 관리자",
+        "시클로헥산 취급 현장 관리자가 확인할 직업병 예방 자료",
+        "관리자용 시클로헥산 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46927",
+      "concat": "[TITLE] [근로자용] 시클로헥산 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "시클로헥산 질병 예방",
+        "시클로헥산을 쓰는 근로자가 알아야 할 건강장해 예방 안내",
+        "근로자용 시클로헥산 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46924",
+      "concat": "[TITLE] [관리자용] 스티렌 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "스티렌 관리자",
+        "스티렌 취급 사업장 관리자가 봐야 할 직업병 예방 자료",
+        "관리자용 스티렌 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46949",
+      "concat": "[TITLE] [근로자용] 전리방사선 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "방사선 질병 예방",
+        "전리방사선에 노출될 수 있는 근로자용 직업병 예방 자료",
+        "근로자용 전리방사선 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46923",
+      "concat": "[TITLE] [근로자용] 크실렌 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "크실렌 질병 예방",
+        "크실렌을 취급하는 근로자가 볼 수 있는 직업병 예방 안내",
+        "근로자용 크실렌 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46922",
+      "concat": "[TITLE] [관리자용] 크실렌 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "크실렌 관리자",
+        "크실렌 취급 작업장을 관리할 때 필요한 직업병 예방 자료",
+        "관리자용 크실렌 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46921",
+      "concat": "[TITLE] [근로자용] 톨루엔 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "톨루엔 질병 예방",
+        "톨루엔을 다루는 근로자가 참고할 직업병 예방 안내",
+        "근로자용 톨루엔 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46920",
+      "concat": "[TITLE] [관리자용] 톨루엔 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "톨루엔 관리자",
+        "톨루엔 취급 사업장 관리자가 확인할 직업병 예방 자료",
+        "관리자용 톨루엔 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46919",
+      "concat": "[TITLE] [근로자용] 벤젠 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "벤젠 질병 예방",
+        "벤젠을 취급하는 근로자가 알아야 할 직업병 예방 자료",
+        "근로자용 벤젠 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46915",
+      "concat": "[TITLE] [관리자용] 수은 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "수은 관리자",
+        "수은 취급 현장을 관리하는 사람이 볼 직업병 예방 자료",
+        "관리자용 수은 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46918",
+      "concat": "[TITLE] [관리자용] 벤젠 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "벤젠 관리자",
+        "벤젠 취급 작업장 관리자가 참고할 직업병 예방 안내",
+        "관리자용 벤젠 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46917",
+      "concat": "[TITLE] [근로자용] 수은 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "수은 질병 예방",
+        "수은을 다루는 근로자를 위한 직업병 예방 자료",
+        "근로자용 수은 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46912",
+      "concat": "[TITLE] [근로자용] 메틸브로마이드 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "메틸브로마이드 예방",
+        "메틸브로마이드에 노출될 수 있는 근로자가 볼 직업병 예방 자료",
+        "근로자용 메틸브로마이드 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46913",
+      "concat": "[TITLE] [관리자용] 일산화탄소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "일산화탄소 관리자",
+        "일산화탄소 위험이 있는 작업장 관리자가 확인할 직업병 예방 자료",
+        "관리자용 일산화탄소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46914",
+      "concat": "[TITLE] [근로자용] 일산화탄소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "일산화탄소 예방",
+        "일산화탄소에 노출될 수 있는 근로자를 위한 직업병 예방 안내",
+        "근로자용 일산화탄소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46909",
+      "concat": "[TITLE] [관리자용] 유기주석 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "유기주석 관리자",
+        "유기주석 취급 사업장 관리자가 봐야 할 직업병 예방 자료",
+        "관리자용 유기주석 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46911",
+      "concat": "[TITLE] [관리자용] 메틸브로마이드 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "메틸브로마이드 관리자",
+        "메틸브로마이드 취급 현장 관리자가 확인할 직업병 예방 자료",
+        "관리자용 메틸브로마이드 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46908",
+      "concat": "[TITLE] [근로자용] 염화비닐 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "염화비닐 예방",
+        "염화비닐을 취급하는 근로자가 참고할 직업병 예방 자료",
+        "근로자용 염화비닐 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46910",
+      "concat": "[TITLE] [근로자용] 유기주석 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "유기주석 예방",
+        "유기주석을 다루는 근로자가 알아야 할 직업병 예방 안내",
+        "근로자용 유기주석 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46907",
+      "concat": "[TITLE] [관리자용] 염화비닐 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "염화비닐 관리자",
+        "염화비닐 취급 작업장을 관리할 때 필요한 직업병 예방 자료",
+        "관리자용 염화비닐 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46904",
+      "concat": "[TITLE] [총칙] 작업장 출입금지 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "작업장 출입금지",
+        "작업장에 들어가지 못하게 해야 하는 기준과 관리 방법 자료",
+        "총칙 작업장 출입금지 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46906",
+      "concat": "[TITLE] [총칙] 작업장 관리\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "작업장 관리 기준",
+        "작업장을 안전하게 관리할 때 확인해야 하는 기본 기준 자료",
+        "총칙 작업장 관리 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46905",
+      "concat": "[TITLE] [총칙] 안전난간 및 지붕 위험방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "안전난간 지붕",
+        "안전난간이나 지붕에서 위험을 막는 기준을 찾고 싶을 때 보는 자료",
+        "총칙 안전난간 지붕 위험방지 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46900",
+      "concat": "[TITLE] [총칙] 계단\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "계단 안전 기준",
+        "사업장 계단 설치와 이용 안전 기준을 확인하는 자료",
+        "총칙 계단 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46902",
+      "concat": "[TITLE] [총칙] 작업장 비상구 설치 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "작업장 비상구",
+        "작업장에 비상구를 어떻게 설치해야 하는지 확인하는 자료",
+        "총칙 작업장 비상구 설치 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46901",
+      "concat": "[TITLE] [총칙] 통로\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "작업장 통로",
+        "사업장 통로를 안전하게 확보하고 관리하는 기준 자료",
+        "총칙 통로 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46903",
+      "concat": "[TITLE] [총칙] 작업장 출입구 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "작업장 출입구",
+        "작업장 출입구를 안전하게 설치하고 관리하는 기준 자료",
+        "총칙 작업장 출입구 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    }
+  ]
+}

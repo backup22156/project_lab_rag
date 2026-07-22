@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 97,
+  "items": [
+    {
+      "record_id": "list1_31841",
+      "concat": "[TITLE] 터널작업\n[SUMMARY] - 터널 천공- 터널 장약- 터널 발파- 터널 버럭 처리 리플릿",
+      "query": [
+        "터널 공사 안전",
+        "터널에서 천공 장약 발파 작업할 때 필요한 안전수칙 자료",
+        "터널작업 터널 천공 장약 발파 버럭 처리 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_32445",
+      "concat": "[TITLE] (파키스탄)직종별 OPL-농업, 임업\n[SUMMARY] (파키스탄)직종별 OPL-농업, 임업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "파키스탄 농업 안전",
+        "파키스탄 근로자가 농업이나 임업 일을 할 때 보는 안전자료",
+        "파키스탄 직종별 OPL 농업 임업"
+      ]
+    },
+    {
+      "record_id": "list1_31847",
+      "concat": "[TITLE] 한증막 안전\n[SUMMARY] - 유해가스 재해사례 - 유해가스 재해발생 원인 - 재해예방 대책",
+      "query": [
+        "한증막 가스 안전",
+        "한증막에서 유해가스 사고를 막는 방법과 예방대책 자료",
+        "한증막 안전 유해가스 재해사례 재해발생 원인 재해예방 대책"
+      ]
+    },
+    {
+      "record_id": "list1_32433",
+      "concat": "[TITLE] (방글라데시)직종별 OPL-농업, 임업\n[SUMMARY] (방글라데시)직종별 OPL-농업, 임업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "방글라데시 농업 안전",
+        "방글라데시 근로자가 농업이나 임업 일을 할 때 보는 안전자료",
+        "방글라데시 직종별 OPL 농업 임업"
+      ]
+    },
+    {
+      "record_id": "list1_32443",
+      "concat": "[TITLE] (파키스탄)직종별 OPL-제조업\n[SUMMARY] (파키스탄)직종별 OPL-제조업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "파키스탄 제조업 안전",
+        "파키스탄 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "파키스탄 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32444",
+      "concat": "[TITLE] (파키스탄)직종별 OPL-건설업\n[SUMMARY] (파키스탄)직종별 OPL-건설업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "파키스탄 건설업 안전",
+        "파키스탄 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "파키스탄 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32441",
+      "concat": "[TITLE] (몽골)직종별 OPL-건설업\n[SUMMARY] (몽골)직종별 OPL-건설업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "몽골 건설업 안전",
+        "몽골 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "몽골 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32442",
+      "concat": "[TITLE] (몽골)직종별 OPL-농업, 임업\n[SUMMARY] (몽골)직종별 OPL-농업, 임업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "몽골 농업 안전",
+        "몽골 근로자가 농업이나 임업 일을 할 때 보는 안전자료",
+        "몽골 직종별 OPL 농업 임업"
+      ]
+    },
+    {
+      "record_id": "list1_32440",
+      "concat": "[TITLE] (몽골)직종별 OPL-제조업\n[SUMMARY] (몽골)직종별 OPL-제조업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "몽골 제조업 안전",
+        "몽골 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "몽골 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32439",
+      "concat": "[TITLE] (인도네시아)직종별 OPL-농업, 임업\n[SUMMARY] (인도네시아)직종별 OPL-농업, 임업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "인도네시아 농업 안전",
+        "인도네시아 근로자가 농업이나 임업 일을 할 때 보는 안전자료",
+        "인도네시아 직종별 OPL 농업 임업"
+      ]
+    },
+    {
+      "record_id": "list1_32438",
+      "concat": "[TITLE] (인도네시아)직종별 OPL-건설업\n[SUMMARY] (인도네시아)직종별 OPL-건설업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "인도네시아 건설업 안전",
+        "인도네시아 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "인도네시아 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32437",
+      "concat": "[TITLE] (인도네시아)직종별 OPL-제조업\n[SUMMARY] (인도네시아)직종별 OPL-제조업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "인도네시아 제조업 안전",
+        "인도네시아 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "인도네시아 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32434",
+      "concat": "[TITLE] (중국)직종별 OPL-제조업\n[SUMMARY] (중국)직종별 OPL-제조업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "중국 제조업 안전",
+        "중국 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "중국 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32436",
+      "concat": "[TITLE] (중국)직종별 OPL-농업, 임업\n[SUMMARY] (중국)직종별 OPL-농업, 임업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "중국 농업 안전",
+        "중국 근로자가 농업이나 임업 일을 할 때 보는 안전자료",
+        "중국 직종별 OPL 농업 임업"
+      ]
+    },
+    {
+      "record_id": "list1_32435",
+      "concat": "[TITLE] (중국)직종별 OPL-건설업\n[SUMMARY] (중국)직종별 OPL-건설업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "중국 건설업 안전",
+        "중국 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "중국 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32431",
+      "concat": "[TITLE] (방글라데시)직종별 OPL-제조업\n[SUMMARY] (방글라데시)직종별 OPL-제조업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "방글라데시 제조업 안전",
+        "방글라데시 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "방글라데시 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32446",
+      "concat": "[TITLE] (스리랑카)직종별 OPL-제조업\n[SUMMARY] (스리랑카)직종별 OPL-제조업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "스리랑카 제조업 안전",
+        "스리랑카 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "스리랑카 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32448",
+      "concat": "[TITLE] (스리랑카)직종별 OPL-농업, 임업\n[SUMMARY] (스리랑카)직종별 OPL-농업, 임업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "스리랑카 농업 안전",
+        "스리랑카 근로자가 농업이나 임업 일을 할 때 보는 안전자료",
+        "스리랑카 직종별 OPL 농업 임업"
+      ]
+    },
+    {
+      "record_id": "list1_32447",
+      "concat": "[TITLE] (스리랑카)직종별 OPL-건설업\n[SUMMARY] (스리랑카)직종별 OPL-건설업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "스리랑카 건설업 안전",
+        "스리랑카 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "스리랑카 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32449",
+      "concat": "[TITLE] 직종별OPL-태국-제조업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "태국 제조업 안전",
+        "태국 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "태국 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32450",
+      "concat": "[TITLE] 직종별OPL-태국-건설업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "태국 건설업 안전",
+        "태국 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "태국 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32452",
+      "concat": "[TITLE] 직종별OPL-우즈벡-제조업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "우즈벡 제조업 안전",
+        "우즈벡 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "우즈벡 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32453",
+      "concat": "[TITLE] 직종별OPL-우즈벡-건설업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "우즈벡 건설업 안전",
+        "우즈벡 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "우즈벡 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32451",
+      "concat": "[TITLE] 직종별OPL-태국-농임어업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "태국 농어업 안전",
+        "태국 근로자가 농업 임업 어업 일을 할 때 보는 안전자료",
+        "태국 직종별 OPL 농임어업"
+      ]
+    },
+    {
+      "record_id": "list1_32454",
+      "concat": "[TITLE] 직종별OPL-우즈벡-농임어업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "우즈벡 농어업 안전",
+        "우즈벡 근로자가 농업 임업 어업 일을 할 때 보는 안전자료",
+        "우즈벡 직종별 OPL 농임어업"
+      ]
+    },
+    {
+      "record_id": "list1_32455",
+      "concat": "[TITLE] 직종별OPL-베트남-제조업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "베트남 제조업 안전",
+        "베트남 근로자가 제조업 현장에서 볼 수 있는 안전자료",
+        "베트남 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_32457",
+      "concat": "[TITLE] 직종별OPL-베트남-농임어업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "베트남 농어업 안전",
+        "베트남 근로자가 농업 임업 어업 일을 할 때 보는 안전자료",
+        "베트남 직종별 OPL 농임어업"
+      ]
+    },
+    {
+      "record_id": "list1_32456",
+      "concat": "[TITLE] 직종별OPL-베트남-건설업\n[SUMMARY] OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "베트남 건설업 안전",
+        "베트남 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "베트남 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32430",
+      "concat": "[TITLE] (필리핀,영어)직종별 OPL-농업, 임업\n[SUMMARY] (필리핀,영어)직종별 OPL-농업, 임업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "필리핀 농업 안전",
+        "필리핀 영어권 근로자가 농업이나 임업 일을 할 때 보는 안전자료",
+        "필리핀 영어 직종별 OPL 농업 임업"
+      ]
+    },
+    {
+      "record_id": "list1_32429",
+      "concat": "[TITLE] (필리핀,영어)직종별 OPL-건설업\n[SUMMARY] (필리핀,영어)직종별 OPL-건설업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "필리핀 건설업 안전",
+        "필리핀 영어권 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "필리핀 영어 직종별 OPL 건설업"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 63,
+  "items": [
+    {
+      "record_id": "list1_39977",
+      "concat": "[TITLE] [중대재해사례 OPL]부러져 떨어지는 나뭇가지에 작업자 맞음\n[SUMMARY] [중대재해사례 OPL]부러져 떨어지는 나뭇가지에 작업자 맞음 - 재해개요, 발생원인 및 예방대책",
+      "query": [
+        "나뭇가지 작업 사고",
+        "나무 작업 중 떨어지는 가지에 맞은 사고 예방 자료",
+        "중대재해사례 OPL 부러져 떨어지는 나뭇가지 작업자 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_39976",
+      "concat": "[TITLE] [중대재해사례 OPL]쓰러지는 벌도목에 작업자 맞음\n[SUMMARY] [중대재해사례 OPL]쓰러지는 벌도목에 작업자 맞음",
+      "query": [
+        "벌도목 맞음 사고",
+        "나무를 베는 작업 중 쓰러지는 나무에 맞은 사고 사례",
+        "중대재해사례 OPL 쓰러지는 벌도목 작업자 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_39978",
+      "concat": "[TITLE] [중대재해사례 OPL]훈증목 운반 중 지주목이 쓰러지면서 깔림\n[SUMMARY] [중대재해사례 OPL]훈증목 운반 중 지주목이 쓰러지면서 깔림",
+      "query": [
+        "훈증목 운반 깔림",
+        "나무 운반 중 지지목이 넘어져 작업자가 깔린 사고 사례",
+        "중대재해사례 OPL 훈증목 운반 지주목 쓰러짐 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_39975",
+      "concat": "[TITLE] [중대재해사례 OPL]지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐",
+      "query": [
+        "지게차 포크 추락",
+        "지게차 포크 위 팔레트에서 지붕 빗물받이 작업하다 떨어진 사고",
+        "중대재해사례 OPL 지게차 포크 팔레트 지붕 빗물받이 교체 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39966",
+      "concat": "[TITLE] [중대재해사례 OPL]작업장 보행 중 제품 상차를 위해 후진하던 지게차와 충돌\n[SUMMARY] [중대재해사례 OPL]작업장 보행 중 제품 상차를 위해 후진하던 지게차와 충돌",
+      "query": [
+        "후진 지게차 충돌",
+        "작업장 안에서 걷다가 뒤로 오던 지게차와 부딪힌 사고",
+        "중대재해사례 OPL 작업장 보행 제품 상차 후진 지게차 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_39965",
+      "concat": "[TITLE] [중대재해사례 OPL]각파이프 묶음 하차 작업 중 적재함에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]각파이프 묶음 하차 작업 중 적재함에서 떨어짐",
+      "query": [
+        "적재함 하차 추락",
+        "트럭 적재함에서 각파이프 묶음을 내리다가 떨어진 사고",
+        "중대재해사례 OPL 각파이프 묶음 하차 작업 적재함 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39968",
+      "concat": "[TITLE] [중대재해사례 OPL]적재물 점검 중인 지게차 운전자가 무너지는 주물사 포대에 깔림\n[SUMMARY] [중대재해사례 OPL]적재물 점검 중인 지게차 운전자가 무너지는 주물사 포대에 깔림",
+      "query": [
+        "포대 무너짐 깔림",
+        "지게차 운전자가 적재물을 확인하다 무너진 주물사 포대에 깔린 사고",
+        "중대재해사례 OPL 적재물 점검 지게차 운전자 주물사 포대 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_39972",
+      "concat": "[TITLE] [중대재해사례 OPL]자재 고임목 설치 중 지게차 운반물과 야적물 사이에 끼임\n[SUMMARY] [중대재해사례 OPL]자재 고임목 설치 중 지게차 운반물과 야적물 사이에 끼임",
+      "query": [
+        "지게차 끼임 사고",
+        "고임목을 설치하다 지게차 운반물과 쌓아둔 자재 사이에 낀 사고",
+        "중대재해사례 OPL 자재 고임목 지게차 운반물 야적물 사이 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_39971",
+      "concat": "[TITLE] [중대재해사례 OPL]운전자가 기어 중립 상태에서 하차 후, 전면 적치 장소 점검 중 적재된 수로관과 포크 사이에 끼임\n[SUMMARY] [중대재해사례 OPL]운전자가 기어 중립 상태에서 하차 후, 전면 적치 장소 점검 중 적재된 수로관과 포크 사이에 끼임",
+      "query": [
+        "지게차 포크 끼임",
+        "운전자가 지게차에서 내린 뒤 적재 장소를 보다가 수로관과 포크 사이에 낀 사고",
+        "중대재해사례 OPL 기어 중립 하차 적치 장소 수로관 포크 사이 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_39967",
+      "concat": "[TITLE] [중대재해사례 OPL]지게차 포크로 받친 철구조물이 넘어지며 작업자를 덮침\n[SUMMARY] [중대재해사례 OPL]지게차 포크로 받친 철구조물이 넘어지며 작업자를 덮침",
+      "query": [
+        "철구조물 넘어짐",
+        "지게차 포크로 받치던 철구조물이 넘어져 작업자를 덮친 사고",
+        "중대재해사례 OPL 지게차 포크 철구조물 넘어짐 작업자 덮침"
+      ]
+    },
+    {
+      "record_id": "list1_39970",
+      "concat": "[TITLE] [중대재해사례 OPL]작업장 내 이동 중인 근로자를 후진하는 지게차가 충돌\n[SUMMARY] [중대재해사례 OPL]작업장 내 이동 중인 근로자를 후진하는 지게차가 충돌",
+      "query": [
+        "후진 지게차 근로자",
+        "작업장 안에서 이동 중인 근로자를 후진하던 지게차가 친 사고",
+        "중대재해사례 OPL 작업장 이동 근로자 후진 지게차 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_39969",
+      "concat": "[TITLE] [중대재해사례 OPL]폐기물 운반중인 지게차가 경사로에서 덕트 보온재 재단작업 중인 작업자를 충돌\n[SUMMARY] [중대재해사례 OPL]폐기물 운반중인 지게차가 경사로에서 덕트 보온재 재단작업 중인 작업자를 충돌",
+      "query": [
+        "지게차 경사로 충돌",
+        "경사로에서 폐기물을 운반하던 지게차가 보온재 재단 작업자를 친 사고",
+        "중대재해사례 OPL 폐기물 운반 지게차 경사로 덕트 보온재 재단 작업자 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_39936",
+      "concat": "[TITLE] [중대재해사례 OPL]보온재가 노출된 샌드위치판넬 주위에서 용접작업 중 화재\n[SUMMARY] [중대재해사례 OPL]보온재가 노출된 샌드위치판넬 주위에서 용접작업 중 화재",
+      "query": [
+        "샌드위치판넬 용접 화재",
+        "보온재가 드러난 샌드위치판넬 근처에서 용접하다 불이 난 사고",
+        "중대재해사례 OPL 보온재 노출 샌드위치판넬 용접작업 화재"
+      ]
+    },
+    {
+      "record_id": "list1_39930",
+      "concat": "[TITLE] [중대재해사례 OPL]하수처리장내 약품 투입 중 황화수소 중독에 의한 질식\n[SUMMARY] [중대재해사례 OPL]하수처리장내 약품 투입 중 황화수소 중독에 의한 질식",
+      "query": [
+        "하수처리장 질식",
+        "하수처리장에서 약품을 넣는 중 황화수소에 중독되어 질식한 사고",
+        "중대재해사례 OPL 하수처리장 약품 투입 황화수소 중독 질식"
+      ]
+    },
+    {
+      "record_id": "list1_39931",
+      "concat": "[TITLE] [중대재해사례 OPL]상수도 맨홀 내부 유량체크 중 일산화탄소 중독에 의한 질식\n[SUMMARY] 상수도 맨홀 내부 유량체크 중 일산화탄소 중독에 의한 질식 [중대재해사례 OPL]",
+      "query": [
+        "상수도 맨홀 질식",
+        "상수도 맨홀 안에서 유량을 확인하다 일산화탄소에 중독된 사고",
+        "중대재해사례 OPL 상수도 맨홀 유량체크 일산화탄소 중독 질식"
+      ]
+    },
+    {
+      "record_id": "list1_39937",
+      "concat": "[TITLE] [중대재해사례 OPL]유류탱크 상부 맨홀 접속관의 아래부위 용단 작업 중 폭발\n[SUMMARY] [중대재해사례 OPL]유류탱크 상부 맨홀 접속관의 아래부위 용단 작업 중 폭발",
+      "query": [
+        "유류탱크 용단 폭발",
+        "기름 탱크 맨홀 배관 아래를 자르던 중 폭발한 사고",
+        "중대재해사례 OPL 유류탱크 상부 맨홀 접속관 아래부위 용단 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_39934",
+      "concat": "[TITLE] [중대재해사례 OPL]가스절단기 사용을 위한 점화 중 LPG 가스통 폭발\n[SUMMARY] [중대재해사례 OPL]가스절단기 사용을 위한 점화 중 LPG 가스통 폭발",
+      "query": [
+        "LPG 가스통 폭발",
+        "가스절단기에 불을 붙이다 LPG 가스통이 폭발한 사고",
+        "중대재해사례 OPL 가스절단기 점화 LPG 가스통 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_39935",
+      "concat": "[TITLE] [중대재해사례 OPL]산소절단기로 보일러용 폐연료탱크 용단 작업 중 폭발\n[SUMMARY] [중대재해사례 OPL]산소절단기로 보일러용 폐연료탱크 용단 작업 중 폭발",
+      "query": [
+        "폐연료탱크 용단 폭발",
+        "산소절단기로 보일러 폐연료탱크를 자르다가 폭발한 사고",
+        "중대재해사례 OPL 산소절단기 보일러용 폐연료탱크 용단 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_39932",
+      "concat": "[TITLE] [중대재해사례 OPL]바닥 방수제 배합공정 중 정전기에 의한 화재폭발\n[SUMMARY] [중대재해사례 OPL]바닥 방수제 배합공정 중 정전기에 의한 화재폭발",
+      "query": [
+        "방수제 정전기 폭발",
+        "바닥 방수제를 섞는 공정에서 정전기로 불이 나고 폭발한 사고",
+        "중대재해사례 OPL 바닥 방수제 배합공정 정전기 화재폭발"
+      ]
+    },
+    {
+      "record_id": "list1_39933",
+      "concat": "[TITLE] [중대재해사례 OPL]용접작업 중 가연성 자재에 용접불티로 인한 화재\n[SUMMARY] [중대재해사례 OPL]용접작업 중 가연성 자재에 용접불티로 인한 화재",
+      "query": [
+        "용접불티 화재",
+        "용접 작업 중 튄 불티가 가연성 자재에 옮겨붙은 사고",
+        "중대재해사례 OPL 용접작업 가연성 자재 용접불티 화재"
+      ]
+    },
+    {
+      "record_id": "list1_39940",
+      "concat": "[TITLE] [중대재해사례 OPL]용접 불티에 의한 가연물 발화로 인한 화재\n[SUMMARY] [중대재해사례 OPL]용접 불티에 의한 가연물 발화로 인한 화재 : 발생원인 및 예방대책 수록",
+      "query": [
+        "용접 불티 발화",
+        "용접 불티가 주변 가연물에 붙어 화재가 난 사고 예방 자료",
+        "중대재해사례 OPL 용접 불티 가연물 발화 화재 발생원인 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_39939",
+      "concat": "[TITLE] [중대재해사례 OPL]사일로 철거 작업 중 폭발화재\n[SUMMARY] [중대재해사례 OPL]사일로 철거 작업 중 폭발화재",
+      "query": [
+        "사일로 철거 폭발",
+        "사일로를 철거하는 작업 중 폭발과 화재가 난 사고",
+        "중대재해사례 OPL 사일로 철거 작업 폭발화재"
+      ]
+    },
+    {
+      "record_id": "list1_39938",
+      "concat": "[TITLE] [중대재해사례 OPL]소화조의 음식폐기물 이송배관 교체 작업 중 화재\n[SUMMARY] 하수처리시설 소화조에서의 재해사례와 화재,폭발 방지대책",
+      "query": [
+        "소화조 배관 화재",
+        "하수처리시설 소화조에서 음식폐기물 이송배관을 교체하다 불이 난 사고",
+        "중대재해사례 OPL 소화조 음식폐기물 이송배관 교체 작업 화재"
+      ]
+    },
+    {
+      "record_id": "list1_39943",
+      "concat": "[TITLE] [중대재해사례 OPL]철근 용단작업 중 아세틸렌 용기 폭발\n[SUMMARY] [중대재해사례 OPL]철근 용단작업 중 아세틸렌 용기 폭발",
+      "query": [
+        "아세틸렌 용기 폭발",
+        "철근을 자르는 작업 중 아세틸렌 용기가 폭발한 사고",
+        "중대재해사례 OPL 철근 용단작업 아세틸렌 용기 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_39941",
+      "concat": "[TITLE] [중대재해사례 OPL]배관청소를 위한 피그 작업 준비 중 폭발화재\n[SUMMARY] 배관청소를 위한 피그 작업 준비 중 폭발화재 및 재해사례",
+      "query": [
+        "피그 작업 폭발",
+        "배관청소 피그 작업을 준비하다 폭발과 화재가 난 사고",
+        "중대재해사례 OPL 배관청소 피그 작업 준비 폭발화재"
+      ]
+    },
+    {
+      "record_id": "list1_39942",
+      "concat": "[TITLE] [중대재해사례 OPL]알코올 폐기를 위해 불이 있는 철제통에 붓던 중 화재\n[SUMMARY] [중대재해사례 OPL]알코올 폐기를 위해 불이 있는 철제통에 붓던 중 화재",
+      "query": [
+        "알코올 폐기 화재",
+        "알코올을 버리려고 불이 있는 철제통에 붓다가 불이 난 사고",
+        "중대재해사례 OPL 알코올 폐기 불 있는 철제통 화재"
+      ]
+    },
+    {
+      "record_id": "list1_39944",
+      "concat": "[TITLE] [중대재해사례 OPL]에어재킷을 착용하고 용접 작업 중 화재 사고\n[SUMMARY] [중대재해사례 OPL]에어재킷을 착용하고 용접 작업 중 화재 사고",
+      "query": [
+        "에어재킷 용접 화재",
+        "에어재킷을 입고 용접 작업을 하다가 화재가 난 사고",
+        "중대재해사례 OPL 에어재킷 착용 용접 작업 화재 사고"
+      ]
+    },
+    {
+      "record_id": "list1_39945",
+      "concat": "[TITLE] [중대재해사례 OPL]위험물질(인화성액체)의 난로에 붓던 중 화재\n[SUMMARY] [중대재해사례 OPL]위험물질(인화성액체)의 난로에 붓던 중 화재",
+      "query": [
+        "인화성액체 난로 화재",
+        "불이 붙기 쉬운 액체를 난로에 붓다가 화재가 난 사고",
+        "중대재해사례 OPL 위험물질 인화성액체 난로 화재"
+      ]
+    },
+    {
+      "record_id": "list1_39946",
+      "concat": "[TITLE] [중대재해사례 OPL]LPG-산소 용접기를 사용하여 철제드럼 용단 작업 중 폭발사고\n[SUMMARY] LPG-산소 용접기를 사용하여 철제드럼 용단 작업 중 폭발사고 중대재해사례 OPL",
+      "query": [
+        "철제드럼 용단 폭발",
+        "LPG 산소 용접기로 철제드럼을 자르다가 폭발한 사고",
+        "중대재해사례 OPL LPG 산소 용접기 철제드럼 용단 폭발사고"
+      ]
+    },
+    {
+      "record_id": "list1_39948",
+      "concat": "[TITLE] [안전보건 OPL]위험물 안전 관리 수칙(물반응성 물질)\n[SUMMARY] [안전보건 OPL]위험물 안전 관리 수칙(물반응성 물질)",
+      "query": [
+        "물반응성 물질 안전",
+        "물과 반응하는 위험물질을 안전하게 관리하는 수칙 자료",
+        "안전보건 OPL 위험물 안전 관리 수칙 물반응성 물질"
+      ]
+    }
+  ]
+}

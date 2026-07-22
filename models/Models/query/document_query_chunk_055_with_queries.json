@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 55,
+  "items": [
+    {
+      "record_id": "list1_40893",
+      "concat": "[TITLE] (OPL-중국) 외부 비계위에서 방수작업 중 떨어짐\n[SUMMARY] 국내 체류 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "비계 방수 추락",
+        "외부 비계에서 방수 작업하다 떨어지는 사고 예방 자료",
+        "중국 근로자 안전보건 OPL 외부 비계 방수작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40891",
+      "concat": "[TITLE] (OPL) 외부 비계위에서 방수작업 중 떨어짐\n[SUMMARY] 국내 체류 우즈베키스탄 방수작업 근로자를 위한 안전보건OPL",
+      "query": [
+        "비계 방수 추락",
+        "비계 위에서 방수 작업하는 외국인 근로자 추락사고 자료",
+        "우즈베키스탄 방수작업 근로자 안전보건 OPL 외부 비계 방수작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40879",
+      "concat": "[TITLE] (OPL) 비계상 이동통로 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 키르기스스탄 근로자를 위한 안전보건OPL : 비계상 이동통로 설치 중 떨어짐 사례",
+      "query": [
+        "비계 통로 추락",
+        "비계 이동통로를 설치하다가 떨어진 사고 사례 자료",
+        "키르기스스탄 근로자 안전보건 OPL 비계상 이동통로 설치 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40885",
+      "concat": "[TITLE] (OPL) 외부 비계위에서 방수작업 중 떨어짐\n[SUMMARY] 국내 체류 라오스 근로자를 위한 안전보건OPL",
+      "query": [
+        "비계 방수 추락",
+        "외부 비계에서 방수 작업 중 떨어지는 사고 예방 자료",
+        "라오스 근로자 안전보건 OPL 외부 비계 방수작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40878",
+      "concat": "[TITLE] (OPL) 비계상 이동통로 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "비계 통로 추락",
+        "비계 위 이동통로 설치 중 추락하는 사고 예방 자료",
+        "캄보디아 근로자 안전보건 OPL 비계상 이동통로 설치 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40872",
+      "concat": "[TITLE] (OPL) 비계상 이동통로 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건OPL",
+      "query": [
+        "비계 통로 추락",
+        "비계 이동통로 설치 작업 중 떨어지는 사고 사례를 찾고 싶다",
+        "방글라데시 근로자 안전보건 OPL 비계상 이동통로 설치 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40876",
+      "concat": "[TITLE] (OPL) 비계상 이동통로 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 인도네시아 건설 근로자를 위한 안전보건OPL",
+      "query": [
+        "비계 통로 추락",
+        "건설 현장에서 비계 이동통로 설치하다 추락한 외국인 근로자 자료",
+        "인도네시아 건설 근로자 안전보건 OPL 비계상 이동통로 설치 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40863",
+      "concat": "[TITLE] (OPL) 설비공사 중 작업발판 사이로 떨어짐\n[SUMMARY] 국내 체류 외국인 키르기스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "작업발판 추락",
+        "설비공사 중 작업발판 사이로 떨어지는 사고 예방 자료",
+        "키르기스스탄 근로자 안전보건 OPL 설비공사 작업발판 사이 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40861",
+      "concat": "[TITLE] (OPL-중국) 설비공사 중 작업발판 사이로 떨어짐\n[SUMMARY] 국내 체류 외국인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "작업발판 추락",
+        "설비공사 작업 중 발판 사이로 떨어진 사고 자료",
+        "중국 근로자 안전보건 OPL 설비공사 작업발판 사이 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40871",
+      "concat": "[TITLE] (OPL) 비계상 이동통로 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 미얀마 근로자를 위한 안전보건OPL",
+      "query": [
+        "비계 통로 추락",
+        "비계 위에서 이동통로를 만들다가 떨어지는 사고 자료",
+        "미얀마 근로자 안전보건 OPL 비계상 이동통로 설치 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40870",
+      "concat": "[TITLE] (OPL) 비계상 이동통로 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 몽골 근로자를 위한 안전보건OPL",
+      "query": [
+        "비계 통로 추락",
+        "비계 이동통로 설치 중 떨어지는 사고 예방 자료",
+        "몽골 근로자 안전보건 OPL 비계상 이동통로 설치 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40856",
+      "concat": "[TITLE] (OPL) 설비공사 중 작업발판 사이로 떨어짐\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건OPL",
+      "query": [
+        "작업발판 추락",
+        "설비공사 중 작업발판 틈으로 떨어지는 사고 자료",
+        "방글라데시 근로자 안전보건 OPL 설비공사 작업발판 사이 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40855",
+      "concat": "[TITLE] (OPL) 설비공사 중 작업발판 사이로 떨어짐\n[SUMMARY] 국내 체류 외국인 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "작업발판 추락",
+        "설비공사 현장에서 작업발판 사이로 떨어지는 사고 예방 자료",
+        "미얀마 근로자 안전보건 OPL 설비공사 작업발판 사이 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40968",
+      "concat": "[TITLE] (OPL) 배관 설치작업 중 이동식비계 전도되어 떨어짐\n[SUMMARY] 국내 체류 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "이동식비계 전도",
+        "배관 설치 작업 중 이동식 비계가 넘어져 떨어진 사고 자료",
+        "방글라데시 근로자 안전보건 OPL 배관 설치작업 이동식비계 전도 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40842",
+      "concat": "[TITLE] (OPL) 외벽 거푸집 설치 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "외벽 거푸집 추락",
+        "외벽 거푸집 설치 작업 중 떨어지는 사고 예방 자료",
+        "스리랑카 근로자 안전보건 OPL 외벽 거푸집 설치 작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40908",
+      "concat": "[TITLE] (OPL) 발판에 걸린 자재 인양함을 빼내던 중 작업발판에서 떨어짐\n[SUMMARY] 국내 체류 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "자재 인양함 추락",
+        "작업발판에 걸린 자재 인양함을 빼다가 떨어진 사고 자료",
+        "인도네시아 근로자 안전보건 OPL 자재 인양함 작업발판 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40846",
+      "concat": "[TITLE] (OPL) 외벽 거푸집 설치 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "외벽 거푸집 추락",
+        "외벽 거푸집을 설치하다가 떨어지는 사고 자료",
+        "캄보디아 근로자 안전보건 OPL 외벽 거푸집 설치 작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40906",
+      "concat": "[TITLE] (OPL) 발판에 걸린 자재 인양함을 빼내던 중 작업발판에서 떨어짐\n[SUMMARY] 국내 체류 스리랑카 자재 인양작업 근로자를 위한 안전보건OPL",
+      "query": [
+        "자재 인양함 추락",
+        "자재 인양함이 발판에 걸려 빼내던 중 추락한 사고 자료",
+        "스리랑카 자재 인양작업 근로자 안전보건 OPL 자재 인양함 작업발판 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40966",
+      "concat": "[TITLE] (OPL) 배관 설치작업 중 이동식비계 전도되어 떨어짐\n[SUMMARY] 국내 체류 몽골 배관설치 근로자를 위한 안전보건 OPL",
+      "query": [
+        "이동식비계 전도",
+        "배관 설치 중 이동식 비계가 넘어져 추락하는 사고 예방 자료",
+        "몽골 배관설치 근로자 안전보건 OPL 배관 설치작업 이동식비계 전도 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40962",
+      "concat": "[TITLE] (OPL) 내부비계위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] 국내 체류 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "내부비계 미장 추락",
+        "내부 비계 위에서 벽체 미장 작업하다 떨어지는 사고 자료",
+        "필리핀 근로자 안전보건 OPL 내부비계 벽체 미장작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40960",
+      "concat": "[TITLE] (OPL) 내부비계위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] 국내 체류 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "내부비계 미장 추락",
+        "벽체 미장 작업 중 내부 비계에서 떨어지는 사고 예방 자료",
+        "태국 근로자 안전보건 OPL 내부비계 벽체 미장작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40953",
+      "concat": "[TITLE] (OPL) 내부비계위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] 국내 체류 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "내부비계 미장 추락",
+        "내부 비계 위 미장 작업 중 추락한 사고 사례 자료",
+        "베트남 근로자 안전보건 OPL 내부비계 벽체 미장작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40954",
+      "concat": "[TITLE] (OPL) 내부비계위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] 국내 체류 스리랑카 근로자를 위한 안전보건 OPL : 내부비계위에서 벽체 미장작업 중 떨어짐 사례",
+      "query": [
+        "내부비계 미장 추락",
+        "내부 비계에서 벽체 미장 작업하다 떨어진 사고 사례를 찾고 싶다",
+        "스리랑카 근로자 안전보건 OPL 내부비계 벽체 미장작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40956",
+      "concat": "[TITLE] (OPL) 내부비계위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] 국내 체류 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "내부비계 미장 추락",
+        "내부 비계 위에서 미장 작업 중 떨어지는 사고 자료",
+        "인도네시아 근로자 안전보건 OPL 내부비계 벽체 미장작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40951",
+      "concat": "[TITLE] (OPL) 내부비계위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] 국내 체류 미얀마 미장작업 근로자를 위한 안전보건 OPL",
+      "query": [
+        "내부비계 미장 추락",
+        "미장 작업 근로자가 내부 비계에서 떨어지는 사고 예방 자료",
+        "미얀마 미장작업 근로자 안전보건 OPL 내부비계 벽체 미장작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40941",
+      "concat": "[TITLE] (OPL-중국) 벽면 거푸집고정용 핀 제거작업중 떨어짐\n[SUMMARY] 국내 체류 중국 근로자를 위한 안전보건OPL",
+      "query": [
+        "거푸집 핀 추락",
+        "벽면 거푸집 고정 핀을 제거하다가 떨어진 사고 자료",
+        "중국 근로자 안전보건 OPL 벽면 거푸집고정용 핀 제거작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40947",
+      "concat": "[TITLE] (OPL) 내부비계위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 네팔근로자를 위한 안전보건 OPL",
+      "query": [
+        "내부비계 미장 추락",
+        "내부 비계에서 벽체 미장 작업을 하다 떨어지는 사고 자료",
+        "네팔 근로자 안전보건 OPL 내부비계 벽체 미장작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40945",
+      "concat": "[TITLE] (OPL) 벽면 거푸집고정용 핀 제거작업중 떨어짐\n[SUMMARY] 국내 체류 파키스탄 근로자를 위한 안전보건OPL",
+      "query": [
+        "거푸집 핀 추락",
+        "벽면 거푸집 고정용 핀 제거 중 추락한 사고 예방 자료",
+        "파키스탄 근로자 안전보건 OPL 벽면 거푸집고정용 핀 제거작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40938",
+      "concat": "[TITLE] (OPL) 벽면 거푸집고정용 핀 제거작업중 떨어짐\n[SUMMARY] 국내 체류 스리랑카 근로자를 위한 안전보건OPL",
+      "query": [
+        "거푸집 핀 추락",
+        "거푸집 고정 핀 제거 작업 중 떨어지는 사고 자료",
+        "스리랑카 근로자 안전보건 OPL 벽면 거푸집고정용 핀 제거작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_40932",
+      "concat": "[TITLE] (OPL) 벽면 거푸집고정용 핀 제거작업중 떨어짐\n[SUMMARY] 국내 체류 동티모르 근로자를 위한 안전보건OPL",
+      "query": [
+        "거푸집 핀 추락",
+        "벽면 거푸집 핀을 빼다가 떨어지는 사고 사례 자료",
+        "동티모르 근로자 안전보건 OPL 벽면 거푸집고정용 핀 제거작업 떨어짐"
+      ]
+    }
+  ]
+}

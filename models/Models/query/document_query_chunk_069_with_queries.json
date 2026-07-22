@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 69,
+  "items": [
+    {
+      "record_id": "list1_39691",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 방글라데시_서비스업\n[SUMMARY] [외국인 노동자용 OPL] 방글라데시_서비스업 1. 단순노무자-서비스업-지게차 2. 골절기 사용 시 작업 안전 3. 육절기(슬라이서) 사용 시 작업 안전 4. 산업폐기물 기계장치 위험요소와 안전대책",
+      "query": [
+        "방글라데시 노동자 서비스업",
+        "방글라데시 근로자에게 서비스업 안전교육할 때 쓸 자료",
+        "외국인 노동자용 OPL 방글라데시 서비스업 지게차 골절기 육절기 산업폐기물"
+      ]
+    },
+    {
+      "record_id": "list1_39692",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 방글라데시_공통\n[SUMMARY] [외국인 노동자용 OPL] 방글라데시_공통 1. 수공구 사용 시 작업 안전 2. 계단에서의 위험 방지 3. 보호구 4. 건물 등의 청소 시 작업 안전",
+      "query": [
+        "방글라데시 노동자 안전",
+        "방글라데시 근로자에게 공통 안전수칙을 알려주는 자료",
+        "외국인 노동자용 OPL 방글라데시 공통 수공구 계단 보호구 청소"
+      ]
+    },
+    {
+      "record_id": "list1_39486",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 건물 등의 청소 시 작업 안전\n[SUMMARY] [외국인 노동자용 OPL] 건물 등의 청소 시 작업 안전(16개 언어)",
+      "query": [
+        "청소 작업 안전",
+        "건물 청소할 때 외국인 노동자에게 보여줄 안전자료",
+        "외국인 노동자용 OPL 건물 청소 작업 안전 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39694",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 베트남_건설업\n[SUMMARY] [외국인 노동자용 OPL] 베트남_건설업 1. 단순노무자-건설업-비계 위에서의 작업 2. 형틀목공 3. 지붕 위 작업원",
+      "query": [
+        "베트남 노동자 건설",
+        "베트남 근로자에게 건설현장 작업 안전을 설명하는 자료",
+        "외국인 노동자용 OPL 베트남 건설업 비계 형틀목공 지붕 작업"
+      ]
+    },
+    {
+      "record_id": "list1_39484",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 계단에서의 위험 방지\n[SUMMARY] [외국인 노동자용 OPL] 계단에서의 위험 방지(16개 언어)",
+      "query": [
+        "계단 안전",
+        "외국인 노동자에게 계단에서 다치지 않게 설명하는 자료",
+        "외국인 노동자용 OPL 계단 위험 방지 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39485",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 보호구\n[SUMMARY] [외국인 노동자용 OPL] 보호구(16개 언어)",
+      "query": [
+        "보호구 착용",
+        "외국인 노동자에게 보호구 사용을 안내하는 자료",
+        "외국인 노동자용 OPL 보호구 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39480",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 골절기 사용 시 작업 안전\n[SUMMARY] [외국인 노동자용 OPL] 골절기 사용 시 작업 안전(16개 언어)",
+      "query": [
+        "골절기 안전",
+        "골절기 사용할 때 외국인 노동자에게 필요한 안전수칙",
+        "외국인 노동자용 OPL 골절기 사용 작업 안전 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39481",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 육절기(슬라이서) 사용 시 작업 안전\n[SUMMARY] [외국인 노동자용 OPL] 육절기(슬라이서) 사용 시 작업 안전(16개 언어)",
+      "query": [
+        "육절기 안전",
+        "슬라이서 기계 사용할 때 외국인 노동자 안전교육 자료",
+        "외국인 노동자용 OPL 육절기 슬라이서 사용 작업 안전 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39479",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 단순노무자 - 서비스업- 지게차\n[SUMMARY] [외국인 노동자용 OPL] 단순노무자 - 서비스업- 지게차(16개 언어)",
+      "query": [
+        "서비스업 지게차",
+        "서비스업 단순노무자가 지게차 주변에서 일할 때 볼 안전자료",
+        "외국인 노동자용 OPL 단순노무자 서비스업 지게차 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39478",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 지붕 위 작업원\n[SUMMARY] [외국인 노동자용 OPL] 지붕 위 작업원(16개 언어)",
+      "query": [
+        "지붕 작업 안전",
+        "지붕 위에서 일하는 외국인 노동자에게 필요한 안전자료",
+        "외국인 노동자용 OPL 지붕 위 작업원 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39483",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 수공구 사용 시 작업 안전\n[SUMMARY] [외국인 노동자용 OPL] 수공구 사용 시 작업 안전(16개 언어)",
+      "query": [
+        "수공구 안전",
+        "외국인 노동자에게 손공구를 안전하게 쓰는 법을 알려주는 자료",
+        "외국인 노동자용 OPL 수공구 사용 작업 안전 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39391",
+      "concat": "[TITLE] 음식업 기계·기구 재해사례 및 예방대책\n[SUMMARY] 음식업 기계·기구 재해사례 및 예방대책 - 제면기 / 채소절단기",
+      "query": [
+        "음식업 기계 사고",
+        "음식점에서 제면기나 채소절단기 사고를 막는 자료",
+        "음식업 기계 기구 재해사례 예방대책 제면기 채소절단기"
+      ]
+    },
+    {
+      "record_id": "list1_39477",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 형틀목공\n[SUMMARY] [외국인 노동자용 OPL] 형틀목공(16개 언어)",
+      "query": [
+        "형틀목공 안전",
+        "외국인 형틀목공 작업자에게 보여줄 안전교육 자료",
+        "외국인 노동자용 OPL 형틀목공 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39415",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]감정노동 예방은 이렇게 합시다!\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL",
+      "query": [
+        "감정노동 예방",
+        "고객응대 업무에서 감정노동을 줄이는 안전보건 자료",
+        "산재 사고사망 절반 줄이기 감정노동 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39361",
+      "concat": "[TITLE] 퀵서비스업 사고사례 및 예방대책\n[SUMMARY] ○ 퀵서비스업 사고사례 및 예방대책 - 2판 (초판 : 2012-서비스-230 / 퀵 서비스 배달업무 이런사고 많이 납니다!)",
+      "query": [
+        "퀵서비스 사고",
+        "퀵서비스 배달 업무에서 많이 나는 사고와 예방 방법",
+        "퀵서비스업 사고사례 예방대책 퀵 서비스 배달업무"
+      ]
+    },
+    {
+      "record_id": "list1_39393",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]불량비계 추방\n[SUMMARY] 건설현장 불량비계 추방을 위한 OPL - 불량비계 정의 및 벌칙 - 비계설치사례, 설치기준, 작업발판 구조",
+      "query": [
+        "불량비계 추방",
+        "건설현장에서 위험한 비계를 없애기 위한 안전자료",
+        "산재 사고사망 절반 줄이기 불량비계 추방 건설현장 OPL 비계 설치기준 작업발판"
+      ]
+    },
+    {
+      "record_id": "list1_39388",
+      "concat": "[TITLE] (음식및숙박업) 채소절단기\n[SUMMARY] (음식및숙박업) 채소절단기 구조 및 올바른 사용방법",
+      "query": [
+        "채소절단기 사용법",
+        "음식점에서 채소절단기를 안전하게 쓰는 방법",
+        "음식및숙박업 채소절단기 구조 올바른 사용방법"
+      ]
+    },
+    {
+      "record_id": "list1_39387",
+      "concat": "[TITLE] (음식및숙박업) 제면기\n[SUMMARY] (음식및숙박업) 제면기 구조 및 올바른 사용방법",
+      "query": [
+        "제면기 사용법",
+        "음식점에서 제면기를 안전하게 쓰는 방법",
+        "음식및숙박업 제면기 구조 올바른 사용방법"
+      ]
+    },
+    {
+      "record_id": "list1_39354",
+      "concat": "[TITLE] 안전보건콘텐츠 제작촬영 안내\n[SUMMARY] VR 안전보건 콘텐츠 제작 과정 및 촬영 장소 섭외용으로 제작",
+      "query": [
+        "안전보건 콘텐츠 촬영",
+        "VR 안전보건 콘텐츠를 만들 때 촬영 장소 섭외용 안내자료",
+        "안전보건콘텐츠 제작촬영 안내 VR 안전보건 콘텐츠 제작 촬영 장소 섭외"
+      ]
+    },
+    {
+      "record_id": "list1_39346",
+      "concat": "[TITLE] 안전보건자료 활용가이드(opl)\n[SUMMARY] 공단에서 제공하는 자료를 쉽게 활용 할 수 있는 방법을 한페이지로 제작",
+      "query": [
+        "안전보건자료 활용",
+        "공단 안전보건자료를 어디서 어떻게 쓰는지 알려주는 안내서",
+        "안전보건자료 활용가이드 OPL 공단 자료 활용 방법"
+      ]
+    },
+    {
+      "record_id": "list1_39159",
+      "concat": "[TITLE] 택배 서비스업 재해예방 안전보건 점검 체크리스트(OPL)\n[SUMMARY] 택배업 종사 노동자가 쉽게 보고 인식 할 수 있는 OPL을 배포하여 안전하게 작업이 될 수 있도록 유도",
+      "query": [
+        "택배 안전 체크리스트",
+        "택배 노동자가 작업 전에 확인할 안전보건 점검표",
+        "택배 서비스업 재해예방 안전보건 점검 체크리스트 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39135",
+      "concat": "[TITLE] 출퇴근재해예방 안전OPL\n[SUMMARY] -제목 : 출퇴근재해예방 안전OPL -내용 : 통상적인 출퇴근재해 인정지침이 2018년1월1일부로 시행됨에 따라 출퇴근재해예방을 위한 교통수단별 위험요인 안내",
+      "query": [
+        "출퇴근 사고 예방",
+        "출퇴근 중 교통수단별 위험을 줄이는 안전자료",
+        "출퇴근재해예방 안전OPL 출퇴근재해 인정지침 교통수단별 위험요인"
+      ]
+    },
+    {
+      "record_id": "list1_39227",
+      "concat": "[TITLE] 이삿짐운반용 리프트 안전수칙(OPL)\n[SUMMARY] 봄철 이사 급증으로 이삿짐운반용 리프트 안전수칙 기술정보 자료",
+      "query": [
+        "이삿짐 리프트 안전",
+        "이사할 때 쓰는 리프트 안전수칙 자료",
+        "이삿짐운반용 리프트 안전수칙 OPL 기술정보"
+      ]
+    },
+    {
+      "record_id": "list1_39147",
+      "concat": "[TITLE] 다중이용시설 화재 대처요령\n[SUMMARY] 병원 등 다중이용시설 화재 발생 시 대처요령 등",
+      "query": [
+        "화재 대처요령",
+        "병원 같은 사람이 많은 시설에서 불이 났을 때 대처하는 방법",
+        "다중이용시설 화재 대처요령 병원 화재 발생"
+      ]
+    },
+    {
+      "record_id": "list1_39260",
+      "concat": "[TITLE] 건설현장 재해예방 One Page 기술자료\n[SUMMARY] 건설현장 사망사고 다발 7대 작업안전",
+      "query": [
+        "건설현장 재해예방",
+        "건설현장에서 사망사고가 자주 나는 작업 안전자료",
+        "건설현장 재해예방 One Page 기술자료 사망사고 다발 7대 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38986",
+      "concat": "[TITLE] 폐가스처리설비(스크러버) 안전\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "스크러버 안전",
+        "폐가스처리설비 스크러버 작업 안전자료",
+        "폐가스처리설비 스크러버 안전 안전보건OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39258",
+      "concat": "[TITLE] 고위험 건설기계장비 안전점검표\n[SUMMARY] 고위험 건설기계장비 안전점검표(굴삭기, 트럭류, 이동식크레인, 지게차, 고소작업대(차))",
+      "query": [
+        "건설기계 안전점검표",
+        "굴삭기 지게차 크레인 같은 고위험 건설장비 점검표",
+        "고위험 건설기계장비 안전점검표 굴삭기 트럭류 이동식크레인 지게차 고소작업대"
+      ]
+    },
+    {
+      "record_id": "list1_38987",
+      "concat": "[TITLE] 폐수처리설비\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "폐수처리설비 안전",
+        "폐수처리설비 작업장에서 필요한 안전보건 자료",
+        "폐수처리설비 안전보건OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38989",
+      "concat": "[TITLE] 폐가스처리설비(플래어스택)\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "플래어스택 안전",
+        "폐가스처리설비 플래어스택 작업 안전자료",
+        "폐가스처리설비 플래어스택 안전보건OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38988",
+      "concat": "[TITLE] 소각설비(RTO) 안전\n[SUMMARY] 소각설비(RTO) 안전 안전보건OPL(업종)",
+      "query": [
+        "RTO 소각설비 안전",
+        "소각설비 RTO 작업장에서 필요한 안전자료",
+        "소각설비 RTO 안전 안전보건OPL"
+      ]
+    }
+  ]
+}

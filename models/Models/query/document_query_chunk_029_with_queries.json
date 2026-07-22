@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 29,
+  "items": [
+    {
+      "record_id": "list1_46861",
+      "concat": "[TITLE] [안전기준] 차량계 하역운반기계\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "하역운반기계 안전",
+        "사업장에서 지게차나 운반차로 물건을 나를 때 지켜야 하는 안전기준",
+        "안전기준 차량계 하역운반기계 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46859",
+      "concat": "[TITLE] [안전기준] 구내운반차\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "구내운반차 안전",
+        "공장 안에서 운반차를 운전할 때 필요한 안전수칙을 찾고 싶다",
+        "안전기준 구내운반차 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46857",
+      "concat": "[TITLE] [안전기준] 화물자동차\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "화물자동차 안전",
+        "화물차로 짐을 싣고 내릴 때 지켜야 하는 사업장 안전기준",
+        "안전기준 화물자동차 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46860",
+      "concat": "[TITLE] [안전기준] 지게차\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "지게차 안전기준",
+        "지게차 작업할 때 사고를 막기 위한 기본 안전기준이 필요하다",
+        "안전기준 지게차 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46858",
+      "concat": "[TITLE] [안전기준] 고소작업대\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "고소작업대 안전",
+        "높은 곳에서 작업대를 사용할 때 지켜야 하는 안전기준 자료",
+        "안전기준 고소작업대 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46855",
+      "concat": "[TITLE] [안전기준] 차량계 건설기계 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "건설기계 안전",
+        "굴착기 같은 건설기계를 현장에서 쓸 때 필요한 안전기준",
+        "안전기준 차량계 건설기계 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46856",
+      "concat": "[TITLE] [안전기준] 컨베이어\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "컨베이어 안전",
+        "컨베이어 설비에서 끼임 사고를 막기 위한 안전기준을 찾는다",
+        "안전기준 컨베이어 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46854",
+      "concat": "[TITLE] [안전기준] 항타기 및 항발기\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "항타기 항발기 안전",
+        "말뚝 박거나 뽑는 장비를 사용할 때 필요한 안전기준",
+        "안전기준 항타기 항발기 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46852",
+      "concat": "[TITLE] [안전기준] 산업용 로봇\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "산업용 로봇 안전",
+        "공장에서 산업용 로봇을 점검하거나 운전할 때 필요한 안전기준",
+        "안전기준 산업용 로봇 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46853",
+      "concat": "[TITLE] [안전기준] 굴착기\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "굴착기 안전기준",
+        "건설현장에서 굴착기를 운전하거나 작업할 때 지켜야 하는 안전기준",
+        "안전기준 굴착기 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46851",
+      "concat": "[TITLE] [안전기준] 충전부 방호 및 접지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "충전부 접지 안전",
+        "전기가 흐르는 부분을 막고 접지할 때 적용하는 안전기준",
+        "안전기준 충전부 방호 접지 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46848",
+      "concat": "[TITLE] [안전기준] 폭발위험장소 전기기계기구 선정 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "폭발위험 전기설비",
+        "폭발 위험이 있는 장소에서 전기기계기구를 고를 때 필요한 기준",
+        "안전기준 폭발위험장소 전기기계기구 선정 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46849",
+      "concat": "[TITLE] [안전기준] 비상전원 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "비상전원 기준",
+        "작업장 비상전원 설비를 어떻게 갖춰야 하는지 알고 싶다",
+        "안전기준 비상전원 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46850",
+      "concat": "[TITLE] [안전기준] 누전차단기 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "누전차단기 안전",
+        "사업장에서 누전차단기를 설치하고 관리할 때 필요한 안전기준",
+        "안전기준 누전차단기 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46847",
+      "concat": "[TITLE] [안전기준] 배선 및 이동전선으로 인한 위험방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "이동전선 안전",
+        "작업장에서 배선이나 이동전선 때문에 생기는 감전 위험을 막는 기준",
+        "안전기준 배선 이동전선 위험방지 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46846",
+      "concat": "[TITLE] [안전기준] 전기작업에 대한 위험방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "전기작업 안전",
+        "전기작업을 할 때 감전 사고를 예방하기 위한 안전기준",
+        "안전기준 전기작업 위험방지 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46845",
+      "concat": "[TITLE] [안전기준] 정전기 재해예방\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "정전기 재해예방",
+        "정전기로 인한 화재나 폭발 사고를 막기 위한 안전기준",
+        "안전기준 정전기 재해예방 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46844",
+      "concat": "[TITLE] [안전기준] 철골작업 시 위험방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "철골작업 안전",
+        "철골 작업 중 떨어짐이나 맞음 사고를 막기 위한 안전기준",
+        "안전기준 철골작업 위험방지 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46843",
+      "concat": "[TITLE] [안전기준] 해체작업 시 위험방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "해체작업 안전",
+        "건물이나 구조물을 해체할 때 필요한 사고 예방 안전기준",
+        "안전기준 해체작업 위험방지 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46841",
+      "concat": "[TITLE] [보건기준] 국소배기장치의 성능 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "국소배기장치 성능",
+        "유해물질 작업장에서 국소배기장치를 제대로 관리하는 기준",
+        "보건기준 국소배기장치 성능 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46842",
+      "concat": "[TITLE] [보건기준] 관리대상 유해물질 설비기준 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "유해물질 설비기준",
+        "관리대상 유해물질을 다루는 설비에 필요한 보건 기준",
+        "보건기준 관리대상 유해물질 설비기준 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46840",
+      "concat": "[TITLE] [보건기준] 관리대상유해물질 작업방법 및 보호구 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "유해물질 보호구",
+        "관리대상 유해물질 작업할 때 작업방법과 보호구 기준을 찾는다",
+        "보건기준 관리대상유해물질 작업방법 보호구 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46839",
+      "concat": "[TITLE] [보건기준] 관리대상 유해물질 관리 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "유해물질 관리",
+        "사업장에서 관리대상 유해물질을 보관하고 취급할 때 필요한 기준",
+        "보건기준 관리대상 유해물질 관리 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46838",
+      "concat": "[TITLE] [보건기준] 허가대상 유해물질 작업관리 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "허가물질 작업관리",
+        "허가대상 유해물질을 사용하는 작업장에서 관리 기준을 확인하고 싶다",
+        "보건기준 허가대상 유해물질 작업관리 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46837",
+      "concat": "[TITLE] [보건기준] 허가대상 유해물질 작업수칙 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "허가물질 작업수칙",
+        "허가대상 유해물질 작업자가 지켜야 하는 작업수칙을 찾는다",
+        "보건기준 허가대상 유해물질 작업수칙 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46836",
+      "concat": "[TITLE] [보건기준] 석면조사 및 해체·제거작업 계획 수립 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "석면조사 해체계획",
+        "석면을 해체하거나 제거하기 전에 조사와 작업계획을 세우는 기준",
+        "보건기준 석면조사 해체 제거작업 계획 수립 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46835",
+      "concat": "[TITLE] [보건기준] 석면 해체·제거작업 시 조치 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "석면 해체 안전",
+        "석면 해체 제거 작업 중 지켜야 할 조치와 안전기준",
+        "보건기준 석면 해체 제거작업 조치 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46834",
+      "concat": "[TITLE] [보건기준] 금지유해물질 작업관리 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "금지유해물질 관리",
+        "금지된 유해물질을 다루는 작업의 관리 기준이 필요하다",
+        "보건기준 금지유해물질 작업관리 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46832",
+      "concat": "[TITLE] [보건기준] 진동에 의한 건강장해 예방\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "진동 건강장해",
+        "진동 작업으로 생기는 건강 문제를 예방하는 기준을 찾는다",
+        "보건기준 진동 건강장해 예방 산업안전보건기준 규칙 OPS 자료"
+      ]
+    },
+    {
+      "record_id": "list1_46831",
+      "concat": "[TITLE] [보건기준] 온도·습도에 의한 건강장해 예방\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "온도 습도 건강",
+        "덥거나 습한 작업환경에서 건강장해를 예방하는 기준",
+        "보건기준 온도 습도 건강장해 예방 산업안전보건기준 규칙 OPS 자료"
+      ]
+    }
+  ]
+}

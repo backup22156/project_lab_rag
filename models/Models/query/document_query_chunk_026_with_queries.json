@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 26,
+  "items": [
+    {
+      "record_id": "list1_46327",
+      "concat": "[TITLE] THE 안전한 조선업 사업장 구축을 위한 산재예방사업 안내 OPS\n[SUMMARY] THE 안전한 조선업 사업장 구축을 위한 산재예방사업 안내 OPS",
+      "query": [
+        "조선업 산재예방",
+        "조선업 사업장에서 안전한 일터를 만들 때 참고할 지원사업 안내",
+        "THE 안전한 조선업 사업장 구축 산재예방사업 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46804",
+      "concat": "[TITLE] 미세먼지 건강장해 예방 가이드\n[SUMMARY] 미세먼지 건강장해 예방 가이드",
+      "query": [
+        "미세먼지 건강 예방",
+        "미세먼지 때문에 일하는 사람 건강 문제가 생기지 않게 하는 방법",
+        "미세먼지 건강장해 예방 가이드"
+      ]
+    },
+    {
+      "record_id": "list1_46803",
+      "concat": "[TITLE] 미세먼지 예방 가이드(OPS)\n[SUMMARY] 미세먼지 예방 가이드",
+      "query": [
+        "미세먼지 예방",
+        "미세먼지가 심할 때 작업장에서 지켜야 할 예방수칙",
+        "미세먼지 예방 가이드 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46956",
+      "concat": "[TITLE] [관리자용] 고열작업 폭염 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "폭염 고열작업",
+        "더운 곳에서 일하는 근로자가 병에 걸리지 않도록 관리자가 챙길 내용",
+        "관리자용 고열작업 폭염 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46955",
+      "concat": "[TITLE] [근로자용] 레지오넬라증 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "레지오넬라증 예방",
+        "근로자가 물이나 냉방설비 때문에 생길 수 있는 감염병을 예방하는 방법",
+        "근로자용 레지오넬라증 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46957",
+      "concat": "[TITLE] [근로자용] 고열작업 폭염 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "폭염 질병 예방",
+        "더운 작업장에서 일하는 근로자가 온열질환을 피하려면 알아야 할 내용",
+        "근로자용 고열작업 폭염 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46954",
+      "concat": "[TITLE] [관리자용] 레지오넬라증 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "레지오넬라증 관리",
+        "작업장에서 레지오넬라증 같은 감염병을 막기 위해 관리자가 볼 자료",
+        "관리자용 레지오넬라증 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46953",
+      "concat": "[TITLE] [근로자용] 렙토스피라 탄저병 등 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "렙토스피라 탄저병",
+        "근로자가 렙토스피라나 탄저병 같은 감염병을 예방하려면 보는 자료",
+        "근로자용 렙토스피라 탄저병 등 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46952",
+      "concat": "[TITLE] [관리자용] 렙토스피라 탄저병 등 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "렙토스피라 탄저병",
+        "작업장에서 렙토스피라나 탄저병 같은 감염병을 예방하도록 관리자가 볼 자료",
+        "관리자용 렙토스피라 탄저병 등 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46951",
+      "concat": "[TITLE] [근로자용] B형C형간염 등 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "간염 직업병 예방",
+        "근로자가 B형 C형 간염 같은 직업성 감염병을 예방하는 방법",
+        "근로자용 B형C형간염 등 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46950",
+      "concat": "[TITLE] [관리자용] B형C형간염 등 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "간염 감염 예방",
+        "작업장에서 B형 C형 간염 같은 감염병을 예방하도록 관리자가 볼 자료",
+        "관리자용 B형C형간염 등 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46947",
+      "concat": "[TITLE] [근로자용] 산소결핍증 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "산소결핍 예방",
+        "산소가 부족한 작업에서 근로자가 질병이나 사고를 피하는 방법",
+        "근로자용 산소결핍증 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46948",
+      "concat": "[TITLE] [관리자용] 전리방사선 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "전리방사선 예방",
+        "방사선 노출 작업에서 직업성 질병을 막기 위해 관리자가 볼 자료",
+        "관리자용 전리방사선 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46945",
+      "concat": "[TITLE] [근로자용] 고기압 저기압 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "고기압 저기압",
+        "압력이 다른 환경에서 일하는 근로자가 직업성 질병을 예방하는 방법",
+        "근로자용 고기압 저기압 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46944",
+      "concat": "[TITLE] [관리자용] 고기압 저기압 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "고기압 저기압",
+        "고기압이나 저기압 작업환경에서 질병을 막기 위해 관리자가 볼 자료",
+        "관리자용 고기압 저기압 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46946",
+      "concat": "[TITLE] [관리자용] 산소결핍증 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "산소결핍 관리",
+        "산소가 부족한 작업장에서 질병을 막기 위해 관리자가 확인할 내용",
+        "관리자용 산소결핍증 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46942",
+      "concat": "[TITLE] [관리자용] 염화수소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "염화수소 예방",
+        "염화수소를 다루는 작업장에서 질병을 막기 위해 관리자가 볼 자료",
+        "관리자용 염화수소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46940",
+      "concat": "[TITLE] [관리자용] 디이소시아네이트 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "디이소시아네이트 예방",
+        "디이소시아네이트 노출 작업에서 질병을 막기 위해 관리자가 볼 자료",
+        "관리자용 디이소시아네이트 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46943",
+      "concat": "[TITLE] [근로자용] 염화수소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "염화수소 질병",
+        "염화수소에 노출될 수 있는 근로자가 건강 피해를 예방하는 방법",
+        "근로자용 염화수소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46941",
+      "concat": "[TITLE] [근로자용] 디이소시아네이트 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "디이소시아네이트 질병",
+        "디이소시아네이트에 노출될 수 있는 근로자가 직업성 질병을 예방하는 방법",
+        "근로자용 디이소시아네이트 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46937",
+      "concat": "[TITLE] [근로자용] 불화수소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "불화수소 예방",
+        "불화수소에 노출될 수 있는 근로자가 건강 피해를 예방하는 방법",
+        "근로자용 불화수소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46939",
+      "concat": "[TITLE] [근로자용] 인 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "인 질병 예방",
+        "인에 노출될 수 있는 근로자가 직업성 질병을 예방하는 방법",
+        "근로자용 인 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46938",
+      "concat": "[TITLE] [관리자용] 인 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "인 노출 관리",
+        "인 취급 작업에서 직업성 질병을 막기 위해 관리자가 볼 자료",
+        "관리자용 인 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46934",
+      "concat": "[TITLE] [관리자용] 시안화수소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "시안화수소 예방",
+        "시안화수소 노출 작업에서 질병을 막기 위해 관리자가 볼 자료",
+        "관리자용 시안화수소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46933",
+      "concat": "[TITLE] [근로자용] 황화수소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "황화수소 질병",
+        "황화수소에 노출될 수 있는 근로자가 직업성 질병을 예방하는 방법",
+        "근로자용 황화수소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46936",
+      "concat": "[TITLE] [관리자용] 불화수소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "불화수소 관리",
+        "불화수소 취급 작업에서 건강 피해를 막기 위해 관리자가 볼 자료",
+        "관리자용 불화수소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46935",
+      "concat": "[TITLE] [근로자용] 시안화수소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "시안화수소 질병",
+        "시안화수소에 노출될 수 있는 근로자가 직업성 질병을 예방하는 방법",
+        "근로자용 시안화수소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46931",
+      "concat": "[TITLE] [근로자용] 이산화질소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "이산화질소 예방",
+        "이산화질소에 노출될 수 있는 근로자가 건강 피해를 예방하는 방법",
+        "근로자용 이산화질소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46932",
+      "concat": "[TITLE] [관리자용] 황화수소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "황화수소 관리",
+        "황화수소 노출 작업에서 직업성 질병을 막기 위해 관리자가 볼 자료",
+        "관리자용 황화수소 직업성 질병 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46930",
+      "concat": "[TITLE] [관리자용] 이산화질소 직업성 질병 예방\n[SUMMARY] 중대재해처벌법 상 직업성 질병 예방을 위한 OPS 자료",
+      "query": [
+        "이산화질소 관리",
+        "이산화질소 노출 작업에서 직업성 질병을 막기 위해 관리자가 볼 자료",
+        "관리자용 이산화질소 직업성 질병 예방 OPS"
+      ]
+    }
+  ]
+}

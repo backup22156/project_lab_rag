@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 33,
+  "items": [
+    {
+      "record_id": "list1_46217",
+      "concat": "[TITLE] 키메세지(5월_조선업 재해예방)\n[SUMMARY] 최근 다발하는 조선업 및 외국인 근로자 재해 예방을 위한 안전한 작업방법과 그에 따른 콘텐츠 안내",
+      "query": [
+        "조선업 사고 예방",
+        "조선소에서 외국인 근로자 재해를 줄이는 안전 작업 방법 자료를 찾고 있어요",
+        "조선업 재해예방 외국인 근로자 안전 작업방법 콘텐츠 키메세지"
+      ]
+    },
+    {
+      "record_id": "list1_46207",
+      "concat": "[TITLE] 2024년 온열질환 예방가이드\n[SUMMARY] 2024년 온열질환 예방가이드",
+      "query": [
+        "온열질환 예방",
+        "더운 날씨에 일할 때 열사병이나 온열질환을 막는 방법 자료가 필요해요",
+        "온열질환 예방가이드"
+      ]
+    },
+    {
+      "record_id": "list1_46197",
+      "concat": "[TITLE] 업종별 맞춤형 안전보건가이드 OPS(식료품 제조업, 육상 화물 취급업, 자동차 및 모터사이클 수리업, 폐기물 수집·운반·처리 및 원료재생업)\n[SUMMARY] 다양한 업종의 소규모 사업장 안전보건 확보를 지원하기 위한 23개 「업종별 맞춤형 안전보건 가이드」 10. 식료품 제조업 11. 육상 화물 취급업 12. 자동차 및 모터사이클 수리업 13. 폐기물 수집·운반·처리 및 원료재생업",
+      "query": [
+        "업종별 안전보건",
+        "식료품 제조나 화물 취급 같은 소규모 사업장 안전보건 가이드를 찾고 있어요",
+        "업종별 맞춤형 안전보건가이드 OPS 식료품 제조업 육상 화물 취급업 자동차 모터사이클 수리업 폐기물 수집 운반 처리 원료재생업"
+      ]
+    },
+    {
+      "record_id": "list1_46216",
+      "concat": "[TITLE] 업종별 맞춤형 안전보건가이드 OPS(섬유제품 염색·정리 및 마무리 가공업, 섬유제품 제조업, 목재 가구 제조업, 펄프·종이 및 종이제품 제조업, 인쇄업)\n[SUMMARY] 다양한 업종의 소규모 사업장 안전보건 확보를 지원하기 위한 23개 「업종별 맞춤형 안전보건 가이드」 19. 섬유제품 염색·정리 및 마무리 가공업 20. 섬유제품 제조업 21. 목재 가구 제조업 22. 펄프·종이 및 종이제품 제조업 23. 인쇄업",
+      "query": [
+        "제조업 안전보건",
+        "섬유나 가구 종이 인쇄업 같은 작은 사업장 안전보건 자료를 찾고 있어요",
+        "업종별 맞춤형 안전보건가이드 OPS 섬유제품 염색 정리 마무리 가공업 섬유제품 제조업 목재 가구 제조업 펄프 종이 종이제품 제조업 인쇄업"
+      ]
+    },
+    {
+      "record_id": "list1_46189",
+      "concat": "[TITLE] 마이세이프티룰(My Safety Rules) 캠페인 OPS\n[SUMMARY] 2024년 3대 안전캠페인 중 하나인 마이세이프티룰(My Safety Rules) 캠페인 참여 안내 OPS (관련. 안전문화부-663(2024.3.14.)「24년 안전문화 실천추진단 세부 운영 계획 알림」)",
+      "query": [
+        "안전 캠페인 참여",
+        "작업장에서 스스로 안전수칙을 정하는 캠페인 참여 안내 자료를 찾고 있어요",
+        "마이세이프티룰 My Safety Rules 캠페인 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46201",
+      "concat": "[TITLE] 업종별 맞춤형 안전보건가이드 OPS(하수·폐수 및 분뇨 처리업, 강선 건조업, 전기장비 제조업, 일반 목적용 기계 제조업, 자동차 신품 부품 제조업)\n[SUMMARY] 다양한 업종의 소규모 사업장 안전보건 확보를 지원하기 위한 23개 「업종별 맞춤형 안전보건 가이드」 14. 하수·폐수 및 분뇨 처리업 15. 강선 건조업 16. 전기장비 제조업 17. 일반 목적용 기계 제조업 18. 자동차 신품 부품 제조업",
+      "query": [
+        "업종별 안전보건",
+        "하수처리나 기계 제조 같은 소규모 사업장에 맞는 안전보건 가이드가 필요해요",
+        "업종별 맞춤형 안전보건가이드 OPS 하수 폐수 분뇨 처리업 강선 건조업 전기장비 제조업 일반 목적용 기계 제조업 자동차 신품 부품 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_46191",
+      "concat": "[TITLE] 업종별 맞춤형 안전보건가이드 OPS(사업시설유지관리업, 금속주조업, 구조용 금속제품 제조업, 플라스틱 제품 제조업, 도금업)\n[SUMMARY] 다양한 업종의 소규모 사업장 안전보건 확보를 지원하기 위한 23개 「업종별 맞춤형 안전보건 가이드」 5. 사업시설유지관리업 6. 금속주조업 주물업 7. 구조용 금속제품 제조업 8. 플라스틱 제품 제조업 9. 도금업",
+      "query": [
+        "사업장 안전보건",
+        "시설관리 주조 금속 플라스틱 도금 업종에 맞는 안전보건 가이드를 찾고 있어요",
+        "업종별 맞춤형 안전보건가이드 OPS 사업시설유지관리업 금속주조업 구조용 금속제품 제조업 플라스틱 제품 제조업 도금업"
+      ]
+    },
+    {
+      "record_id": "list1_46188",
+      "concat": "[TITLE] 업종별 맞춤형 안전보건가이드 OPS(숙박업, 음식점업, 경비·청소, 벌목업)\n[SUMMARY] 다양한 업종의 소규모 사업장 안전보건 확보를 지원하기 위한 23개 「업종별 맞춤형 안전보건 가이드」 1. 숙박업 2. 음식점업 3. 경비·청소 4. 벌목업",
+      "query": [
+        "숙박 음식점 안전",
+        "숙박업 음식점 경비 청소 벌목업에서 쓸 수 있는 안전보건 가이드가 필요해요",
+        "업종별 맞춤형 안전보건가이드 OPS 숙박업 음식점업 경비 청소 벌목업"
+      ]
+    },
+    {
+      "record_id": "list1_46162",
+      "concat": "[TITLE] 2024년 현장교육(강평) 안내\n[SUMMARY] 2024년 현장교육(강평) 안내",
+      "query": [
+        "현장교육 안내",
+        "현장에서 진행하는 교육이나 강평 안내 자료를 찾고 있어요",
+        "현장교육 강평 안내"
+      ]
+    },
+    {
+      "record_id": "list1_46169",
+      "concat": "[TITLE] 안전동행 지원사업 OPS\n[SUMMARY] 안전동행 지원사업 투자완료 확인시 배포자료(OPS)",
+      "query": [
+        "안전동행 지원사업",
+        "안전동행 지원사업에서 투자 완료 확인할 때 배포하는 안내 자료가 필요해요",
+        "안전동행 지원사업 OPS 투자완료 확인 배포자료"
+      ]
+    },
+    {
+      "record_id": "list1_46132",
+      "concat": "[TITLE] 찾아가는 질식재해예방 원콜(One-Call) 서비스 OPS\n[SUMMARY] 찾아가는 질식재해예방 원콜(One-Call) 서비스 OPS",
+      "query": [
+        "질식재해 예방",
+        "밀폐공간 질식 사고를 막기 위해 찾아와서 도와주는 원콜 서비스 안내를 찾고 있어요",
+        "찾아가는 질식재해예방 원콜 One-Call 서비스 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46146",
+      "concat": "[TITLE] 위험 표지판 부착 캠페인 안내 ops\n[SUMMARY] 위험 표지판 부착 캠페인",
+      "query": [
+        "위험 표지판 캠페인",
+        "사업장에 위험 표지판을 붙이는 캠페인 안내 자료를 찾고 있어요",
+        "위험 표지판 부착 캠페인 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46091",
+      "concat": "[TITLE] 안전보건관리체계 구축 신청안내 OPS\n[SUMMARY] 2024년 안전보건관리체계 구축 신청안내 OPS",
+      "query": [
+        "안전보건관리체계 신청",
+        "안전보건관리체계 구축을 신청하는 방법을 알려주는 안내 자료가 필요해요",
+        "안전보건관리체계 구축 신청안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46123",
+      "concat": "[TITLE] 추락방지용 안전시설(건설업 클린사업)지원안내 OPS\n[SUMMARY] 2024년 추락방지용 안전시설(건설업 클린사업)지원안내 OPS",
+      "query": [
+        "추락방지 지원",
+        "건설현장에서 추락을 막는 안전시설 지원사업 안내 자료를 찾고 있어요",
+        "추락방지용 안전시설 건설업 클린사업 지원안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46124",
+      "concat": "[TITLE] 2024년 사고사망 등 고위험개선 사업 안내 OPS\n[SUMMARY] 2024년 사고사망 등 고위험개선 사업 안내 OPS",
+      "query": [
+        "고위험개선 사업",
+        "사고사망 위험을 줄이는 고위험 개선 사업 신청 안내 자료를 찾고 있어요",
+        "사고사망 고위험개선 사업 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46055",
+      "concat": "[TITLE] 해빙기 건설현장 안전수칙\n[SUMMARY] 해빙기 건설현장 주요사고 핵심안전수칙, 핵심점검사항",
+      "query": [
+        "해빙기 건설현장",
+        "날이 풀릴 때 건설현장에서 조심해야 할 사고와 점검사항 자료가 필요해요",
+        "해빙기 건설현장 안전수칙 주요사고 핵심안전수칙 핵심점검사항"
+      ]
+    },
+    {
+      "record_id": "list1_46122",
+      "concat": "[TITLE] 스마트 안전장비 지원사업 안내 OPS\n[SUMMARY] 2024년도 스마트 안전장비 지원사업 안내 OPS",
+      "query": [
+        "스마트 안전장비",
+        "사업장에서 스마트 안전장비 지원을 받을 수 있는 사업 안내를 찾고 있어요",
+        "스마트 안전장비 지원사업 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46116",
+      "concat": "[TITLE] [조선업] 작업 시 감전 재해예방(국문, 20개언어)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "조선업 감전 예방",
+        "조선소 외국인 근로자 교육에 쓸 감전 사고 예방 자료를 찾고 있어요",
+        "조선업 작업 시 감전 재해예방 국문 20개언어"
+      ]
+    },
+    {
+      "record_id": "list1_46034",
+      "concat": "[TITLE] 2024 산업안전 대진단 참여안내 OPS\n[SUMMARY] 2024 산업안전 대진단 참여안내 OPS",
+      "query": [
+        "산업안전 대진단",
+        "산업안전 대진단에 어떻게 참여하는지 알려주는 안내 자료가 필요해요",
+        "산업안전 대진단 참여안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46040",
+      "concat": "[TITLE] 24년 산재예방시설 융자지원사업 OPS\n[SUMMARY] 24년 산재예방시설 융자지원사업 OPS 사업안내",
+      "query": [
+        "산재예방시설 융자",
+        "산재예방시설 설치 비용을 융자로 지원받는 사업 안내를 찾고 있어요",
+        "산재예방시설 융자지원사업 OPS 사업안내"
+      ]
+    },
+    {
+      "record_id": "list1_46043",
+      "concat": "[TITLE] 2024년 인터넷(온라인) 교육과정 개설 안내\n[SUMMARY] 교육사업부 24년 인터넷(온라인) 교육과정 개설 안내 OPS",
+      "query": [
+        "온라인 교육과정",
+        "인터넷으로 들을 수 있는 안전보건 교육과정 개설 안내를 찾고 있어요",
+        "인터넷 온라인 교육과정 개설 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45634",
+      "concat": "[TITLE] 건설업을 위한 휴게시설 의무화 제도 안내\n[SUMMARY] 건설현장에 적용되는 휴게시설 설치 의무화 제도 및 주요 질의 답변 소개",
+      "query": [
+        "건설업 휴게시설",
+        "건설현장에 휴게시설을 의무적으로 설치해야 하는 제도 안내를 찾고 있어요",
+        "건설업 휴게시설 의무화 제도 안내"
+      ]
+    },
+    {
+      "record_id": "list1_45633",
+      "concat": "[TITLE] 공동주택 등 건물관리업을 위한 휴게시설 의무화 제도 안내\n[SUMMARY] 공동주택에 적용되는 휴게시설 설치 의무화 제도 및 주요 질의 답변 소개",
+      "query": [
+        "공동주택 휴게시설",
+        "아파트 같은 건물관리업에 적용되는 휴게시설 설치 의무 안내가 필요해요",
+        "공동주택 건물관리업 휴게시설 의무화 제도 안내"
+      ]
+    },
+    {
+      "record_id": "list1_46025",
+      "concat": "[TITLE] 24년 안전동행 지원사업 OPS\n[SUMMARY] 24년 안전동행 지원사업 사업 안내 및 절차 소개",
+      "query": [
+        "안전동행 지원사업",
+        "안전동행 지원사업의 절차와 사업 내용을 설명한 자료를 찾고 있어요",
+        "안전동행 지원사업 OPS 사업 안내 절차"
+      ]
+    },
+    {
+      "record_id": "list1_45859",
+      "concat": "[TITLE] [조선업] 비계 안전작업 가이드(20개언어, 국문)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "조선업 비계 안전",
+        "조선소에서 비계 작업을 안전하게 하는 외국인 근로자 교육자료가 필요해요",
+        "조선업 비계 안전작업 가이드 20개언어 국문"
+      ]
+    },
+    {
+      "record_id": "list1_45858",
+      "concat": "[TITLE] [조선업] 트랜스포터 안전작업 가이드(20개언어, 국문)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "트랜스포터 안전작업",
+        "조선소에서 트랜스포터를 안전하게 다루는 교육 자료를 찾고 있어요",
+        "조선업 트랜스포터 안전작업 가이드 20개언어 국문"
+      ]
+    },
+    {
+      "record_id": "list1_45855",
+      "concat": "[TITLE] [조선업] 안전한 보호구 착용 가이드(20개언어,국문)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "보호구 착용 안전",
+        "조선업 현장에서 보호구를 안전하게 착용하는 외국인 근로자 교육자료가 필요해요",
+        "조선업 안전한 보호구 착용 가이드 20개언어 국문"
+      ]
+    },
+    {
+      "record_id": "list1_45854",
+      "concat": "[TITLE] [조선업] 핀지그 안전작업 가이드(20개언어,국문)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "핀지그 안전작업",
+        "조선소에서 핀지그 작업을 할 때 지켜야 할 안전 가이드를 찾고 있어요",
+        "조선업 핀지그 안전작업 가이드 20개언어 국문"
+      ]
+    },
+    {
+      "record_id": "list1_45857",
+      "concat": "[TITLE] [조선업] 에어리스 스프레이 펌프 안전작업 가이드(20개언어,국문)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "스프레이 펌프 안전",
+        "조선소에서 에어리스 스프레이 펌프를 안전하게 쓰는 교육자료가 필요해요",
+        "조선업 에어리스 스프레이 펌프 안전작업 가이드 20개언어 국문"
+      ]
+    },
+    {
+      "record_id": "list1_45661",
+      "concat": "[TITLE] 건설현장 콘크리트 보온 및 양생작업 재해예방 OPS\n[SUMMARY] 건설현장 콘크리트 보온 및 양생작업 재해예방 OPS 수정본",
+      "query": [
+        "콘크리트 양생 안전",
+        "건설현장에서 콘크리트 보온 양생 작업 중 사고를 예방하는 자료를 찾고 있어요",
+        "건설현장 콘크리트 보온 양생작업 재해예방 OPS"
+      ]
+    }
+  ]
+}

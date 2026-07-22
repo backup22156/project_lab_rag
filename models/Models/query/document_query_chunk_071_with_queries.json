@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 71,
+  "items": [
+    {
+      "record_id": "list1_38476",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 음식 서비스 종사자\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 음식 서비스 종사자",
+      "query": [
+        "음식 서비스 안전",
+        "식당에서 일하는 외국인 근로자 안전수칙",
+        "외국인 근로자용 OPL 음식 서비스 종사자"
+      ]
+    },
+    {
+      "record_id": "list1_38477",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 주방 및 조리원\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 주방 및 조리원",
+      "query": [
+        "주방 조리 안전",
+        "주방에서 일하는 외국인 근로자 안전수칙",
+        "외국인 근로자용 OPL 주방 및 조리원"
+      ]
+    },
+    {
+      "record_id": "list1_38483",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 금속 및 잡철물 작업안전\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 금속 및 잡철물 작업안전",
+      "query": [
+        "금속 작업 안전",
+        "금속이나 잡철물 작업할 때 외국인 근로자가 봐야 할 안전수칙",
+        "외국인 근로자용 OPL 금속 및 잡철물 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38513",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 금속가공용 둥근톱 작업안전\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 금속가공용 둥근톱 작업안전",
+      "query": [
+        "둥근톱 작업 안전",
+        "금속 자르는 둥근톱을 쓸 때 필요한 안전수칙",
+        "외국인 근로자용 OPL 금속가공용 둥근톱 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38510",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 분진폭발방지 안전수칙\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 분진폭발방지 안전수칙",
+      "query": [
+        "분진 폭발 예방",
+        "작업장에서 먼지 폭발을 막는 안전수칙",
+        "외국인 근로자용 OPL 분진폭발방지 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_38495",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 플랜트 배관 용접공 건강장해 예방\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 플랜트 배관 용접공 건강장해 예방 용접, 배관, 흄, 장치",
+      "query": [
+        "배관 용접 건강",
+        "플랜트 배관 용접 작업자가 흄 때문에 생길 수 있는 건강 문제 예방",
+        "외국인 근로자용 OPL 플랜트 배관 용접공 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_38505",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 해빙기 건설현장\n[SUMMARY] 외국인 근로자용 OPL(7개 국어) - 해빙기 건설현장",
+      "query": [
+        "해빙기 건설 안전",
+        "날이 풀릴 때 건설현장에서 조심해야 할 안전수칙",
+        "외국인 근로자용 OPL 해빙기 건설현장"
+      ]
+    },
+    {
+      "record_id": "list1_38498",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 에폭시 도장공 건강장해 예방\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 에폭시 도장공 건강장해 예방",
+      "query": [
+        "에폭시 도장 건강",
+        "에폭시 도장 작업자가 건강장해를 예방하는 방법",
+        "외국인 근로자용 OPL 에폭시 도장공 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_38528",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 고소작업자를 위한 추락 방지 장치(개인보호구) - 점검\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 고소작업자를 위한 추락 방지 장치(개인보호구) - 점검",
+      "query": [
+        "추락 방지 장비 점검",
+        "높은 곳에서 일할 때 개인보호구와 추락 방지 장치를 점검하는 방법",
+        "외국인 근로자용 OPL 고소작업자 추락 방지 장치 개인보호구 점검"
+      ]
+    },
+    {
+      "record_id": "list1_38461",
+      "concat": "[TITLE] [장년근로자의 안전보건] 주방 및 조리 종사자\n[SUMMARY] [장년근로자의 안전보건] 주방 및 조리 종사자",
+      "query": [
+        "주방 조리 근로자",
+        "나이 많은 주방 조리 종사자가 일할 때 필요한 안전보건 자료",
+        "장년근로자의 안전보건 주방 및 조리 종사자"
+      ]
+    },
+    {
+      "record_id": "list1_38532",
+      "concat": "[TITLE] [외국인 근로자용 OPL] 혹서·혹한기 건강장해 예방\n[SUMMARY] 외국인 근로자용 OPL(13개 국어) - 혹서·혹한기 건강장해 예방",
+      "query": [
+        "더위 추위 건강",
+        "무더위나 한파에 일하는 외국인 근로자의 건강장해 예방 방법",
+        "외국인 근로자용 OPL 혹서 혹한기 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_38993",
+      "concat": "[TITLE] 중대재해사례(맹판 제거작업중 황산 누출)\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "황산 누출 사고",
+        "맹판을 제거하다가 황산이 새어 나온 중대재해 사례",
+        "중대재해사례 맹판 제거작업중 황산 누출"
+      ]
+    },
+    {
+      "record_id": "list1_38994",
+      "concat": "[TITLE] 중대재해사례(냉동기 암모니아 누출 폭발)\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "암모니아 폭발 사고",
+        "냉동기에서 암모니아가 누출되어 폭발한 중대재해 사례",
+        "중대재해사례 냉동기 암모니아 누출 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_38995",
+      "concat": "[TITLE] 은행출납사무원의 근골격계질환 예방\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "은행 직원 근골격계",
+        "은행 창구나 출납 업무를 하는 사람이 근골격계질환을 예방하는 방법",
+        "은행출납사무원 근골격계질환 예방 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_38997",
+      "concat": "[TITLE] 당뇨병을 진단받은 근로자의 건강관리\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "당뇨 근로자 건강",
+        "당뇨병 진단을 받은 근로자가 직장에서 건강을 관리하는 방법",
+        "당뇨병 진단 근로자 건강관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_38996",
+      "concat": "[TITLE] 벤젠 노출근로자의 건강관리\n[SUMMARY] 벤젠 노출근로자의 건강관리에 관한 안전보건OPL(직종)",
+      "query": [
+        "벤젠 노출 건강",
+        "벤젠을 다루거나 노출되는 근로자의 건강관리 방법",
+        "벤젠 노출근로자 건강관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_38462",
+      "concat": "[TITLE] [장년근로자의 안전보건] 건물청소원\n[SUMMARY] [장년근로자의 안전보건] 건물청소원",
+      "query": [
+        "건물 청소 안전",
+        "나이 많은 건물청소원이 일할 때 필요한 안전보건 자료",
+        "장년근로자의 안전보건 건물청소원"
+      ]
+    },
+    {
+      "record_id": "list1_39008",
+      "concat": "[TITLE] 호흡기 감작물질 노출 근로자의 보건관리\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "호흡기 감작물질 관리",
+        "호흡기에 알레르기 반응을 일으키는 물질에 노출되는 근로자 보건관리",
+        "호흡기 감작물질 노출 근로자 보건관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39014",
+      "concat": "[TITLE] 장애인 환자 이송용 호이스트 사용 작업 시 안전\n[SUMMARY] 장애인 환자 이송용 호이스트 사용 작업 시 안전 : 안전보건OPL(직종)",
+      "query": [
+        "환자 호이스트 안전",
+        "장애인 환자를 옮길 때 호이스트를 안전하게 사용하는 방법",
+        "장애인 환자 이송용 호이스트 사용 작업 시 안전 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39009",
+      "concat": "[TITLE] 호텔 종사자의 근골격계질환 예방\n[SUMMARY] 안전보건OPL(직종) 호텔 종사자의 근골격계질환 예방",
+      "query": [
+        "호텔 근무 근골격계",
+        "호텔에서 일하는 사람이 근골격계질환을 예방하는 방법",
+        "호텔 종사자 근골격계질환 예방 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39010",
+      "concat": "[TITLE] 항공사 객실 승무원의 근골격계질환 예방\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "승무원 근골격계 예방",
+        "항공사 객실 승무원이 근골격계질환을 예방하는 방법",
+        "항공사 객실 승무원 근골격계질환 예방 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_38985",
+      "concat": "[TITLE] 화학설비 안전장치 및 부속품\n[SUMMARY] 안전보건OPL(업종) : 화학설비 안전장치 및 부속품",
+      "query": [
+        "화학설비 안전장치",
+        "화학설비에 쓰이는 안전장치와 부속품을 확인하는 자료",
+        "화학설비 안전장치 및 부속품 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39013",
+      "concat": "[TITLE] 전기도금 사업장 근로자의 건강관리\n[SUMMARY] 전기도금작업에 대한 소개와 공정별 주요 유해요인과 재해예방대책",
+      "query": [
+        "전기도금 건강관리",
+        "전기도금 작업장에서 유해요인을 줄이고 근로자 건강을 관리하는 방법",
+        "전기도금 사업장 근로자 건강관리 공정별 유해요인 재해예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_39011",
+      "concat": "[TITLE] 전리방사선 노출 근로자 건강관리\n[SUMMARY] 전리방사선 노출 근로자 건강관리에 관한 안전보건OPL(직종)",
+      "query": [
+        "방사선 노출 건강",
+        "전리방사선에 노출되는 근로자의 건강관리 방법",
+        "전리방사선 노출 근로자 건강관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39012",
+      "concat": "[TITLE] 임상 간호사의 직무스트레스 관리\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "간호사 직무스트레스",
+        "병원에서 일하는 임상 간호사의 직무스트레스 관리 방법",
+        "임상 간호사 직무스트레스 관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39104",
+      "concat": "[TITLE] 업종 직종 및 장년 여성근로자 안전보건 OPL\n[SUMMARY] 2017년도 안전보건 OPL - 업종별 20종 - 직종별 26종 - 장년근로자 11종 - 여성근로자 11종",
+      "query": [
+        "근로자 안전보건 OPL",
+        "업종별 직종별 장년 여성근로자 안전보건 OPL 자료 모음",
+        "업종 직종 장년 여성근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39005",
+      "concat": "[TITLE] 잠수작업자의 안전보건\n[SUMMARY] 안전보건OPL(직종), 잠수작업자의 안전보건",
+      "query": [
+        "잠수 작업 안전",
+        "잠수 작업을 하는 근로자가 알아야 할 안전보건 자료",
+        "잠수작업자 안전보건 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39007",
+      "concat": "[TITLE] 아스팔트 도로포장 작업자의 보건관리\n[SUMMARY] 안전보건OPL(직종) 아스팔트 도로포장 작업자의 보건관리",
+      "query": [
+        "도로포장 건강관리",
+        "아스팔트 도로포장 작업자의 보건관리 방법",
+        "아스팔트 도로포장 작업자 보건관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39002",
+      "concat": "[TITLE] N,N-디메틸포름아미드 노출 근로자의 건강관리\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "디메틸포름아미드 노출 건강",
+        "N,N-디메틸포름아미드에 노출되는 근로자의 건강관리 방법",
+        "N,N-디메틸포름아미드 노출 근로자 건강관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39006",
+      "concat": "[TITLE] 염료 취급 근로자의 보건관리\n[SUMMARY] 염료 취급 근로자의 보건관리-안전보건OPL(직종)",
+      "query": [
+        "염료 취급 건강",
+        "염료를 다루는 근로자가 건강을 관리하는 방법",
+        "염료 취급 근로자 보건관리 안전보건OPL 직종"
+      ]
+    }
+  ]
+}

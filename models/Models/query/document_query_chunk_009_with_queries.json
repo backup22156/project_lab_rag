@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 9,
+  "items": [
+    {
+      "record_id": "list1_51245",
+      "concat": "[TITLE] (키르기스스탄)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 안전",
+        "키르기스스탄 근로자에게 보여줄 겨울철 건설현장 안전수칙 자료",
+        "키르기스스탄 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51319",
+      "concat": "[TITLE] (라오스)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "눈 많이 올 때 안전",
+        "라오스 근로자용으로 대설 때 사업장에서 지켜야 할 안전수칙 자료",
+        "라오스 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51318",
+      "concat": "[TITLE] (베트남)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "대설 사업장 안전",
+        "베트남 근로자가 볼 수 있는 눈 오는 날 사업장 안전수칙 자료",
+        "베트남 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51213",
+      "concat": "[TITLE] (베트남)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전수칙 베트남",
+        "베트남 근로자에게 설명할 나무 베는 작업 안전수칙과 작업 순서 자료",
+        "베트남 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51214",
+      "concat": "[TITLE] (미얀마)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전수칙 미얀마",
+        "미얀마 근로자에게 보여줄 벌목 작업 안전수칙과 순서도 자료",
+        "미얀마 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51217",
+      "concat": "[TITLE] (키르기스스탄)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 키르기스스탄",
+        "키르기스스탄 근로자용 나무 베는 작업 안전수칙 자료를 찾고 싶다",
+        "키르기스스탄 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51215",
+      "concat": "[TITLE] (몽골)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 몽골",
+        "몽골 근로자가 이해할 수 있는 벌목 작업 안전수칙과 작업 순서 자료",
+        "몽골 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51216",
+      "concat": "[TITLE] (스리랑카)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 스리랑카",
+        "스리랑카 근로자에게 안내할 벌목 작업 안전수칙 번역 자료",
+        "스리랑카 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51218",
+      "concat": "[TITLE] (동티모르)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 동티모르",
+        "동티모르 근로자용으로 벌목 작업 안전수칙과 순서도를 찾고 있다",
+        "동티모르 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51230",
+      "concat": "[TITLE] (인도네시아)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 인도네시아",
+        "인도네시아 근로자에게 배포할 벌목 작업 안전수칙 자료",
+        "인도네시아 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51232",
+      "concat": "[TITLE] (네팔)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 네팔",
+        "네팔 근로자에게 보여줄 나무 베는 작업 안전수칙과 순서도 자료",
+        "네팔 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51247",
+      "concat": "[TITLE] (네팔)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 네팔",
+        "네팔 근로자용 겨울철 건설현장 안전수칙 자료를 찾고 있다",
+        "네팔 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51231",
+      "concat": "[TITLE] (우즈베키스탄)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 우즈베키스탄",
+        "우즈베키스탄 근로자에게 안내할 벌목 작업 안전수칙 번역 자료",
+        "우즈베키스탄 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51249",
+      "concat": "[TITLE] (파키스탄)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 파키스탄",
+        "파키스탄 근로자가 볼 수 있는 동절기 건설현장 안전수칙 자료",
+        "파키스탄 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51248",
+      "concat": "[TITLE] (캄보디아)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 캄보디아",
+        "캄보디아 근로자에게 설명할 겨울철 건설현장 안전수칙 자료",
+        "캄보디아 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51251",
+      "concat": "[TITLE] (중국)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 중국",
+        "중국 근로자용 동절기 건설현장 안전수칙 번역 자료",
+        "중국 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51250",
+      "concat": "[TITLE] (우즈베키스탄)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 우즈베키스탄",
+        "우즈베키스탄 근로자에게 보여줄 겨울철 건설현장 안전수칙 자료",
+        "우즈베키스탄 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51252",
+      "concat": "[TITLE] (인도네시아)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 인도네시아",
+        "인도네시아 근로자가 이해할 수 있는 동절기 건설현장 안전수칙 자료",
+        "인도네시아 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51253",
+      "concat": "[TITLE] (태국)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 태국",
+        "태국 근로자에게 안내할 겨울철 건설현장 안전수칙 번역 자료",
+        "태국 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51254",
+      "concat": "[TITLE] (베트남)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 베트남",
+        "베트남 근로자용 동절기 건설현장 안전수칙 자료를 찾고 싶다",
+        "베트남 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51260",
+      "concat": "[TITLE] (몽골)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 몽골",
+        "몽골 근로자에게 배포할 겨울철 건설현장 안전수칙 자료",
+        "몽골 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51261",
+      "concat": "[TITLE] (필리핀)동절기 건설현장 OPS\n[SUMMARY] 동절기 건설현장 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-건설안전실-1218]으로 확인 가능합니다.",
+      "query": [
+        "겨울 건설현장 필리핀",
+        "필리핀 근로자가 볼 수 있는 동절기 건설현장 안전수칙 번역 자료",
+        "필리핀 동절기 건설현장 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51293",
+      "concat": "[TITLE] (파키스탄)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "대설 안전 파키스탄",
+        "파키스탄 근로자에게 보여줄 눈 많이 올 때 사업장 안전수칙 자료",
+        "파키스탄 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51292",
+      "concat": "[TITLE] (네팔)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "대설 안전 네팔",
+        "네팔 근로자용으로 대설 시 사업장 안전수칙 자료가 필요하다",
+        "네팔 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51233",
+      "concat": "[TITLE] (필리핀)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 필리핀",
+        "필리핀 근로자에게 설명할 벌목 작업 안전수칙과 순서도 자료",
+        "필리핀 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51234",
+      "concat": "[TITLE] (태국)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 태국",
+        "태국 근로자가 볼 수 있는 벌목 작업 안전수칙 번역 자료",
+        "태국 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51235",
+      "concat": "[TITLE] (중국)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 중국",
+        "중국 근로자에게 안내할 나무 베는 작업 안전수칙 자료",
+        "중국 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51236",
+      "concat": "[TITLE] (파키스탄)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 파키스탄",
+        "파키스탄 근로자용 벌목 작업 안전수칙과 작업 순서도 자료",
+        "파키스탄 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51237",
+      "concat": "[TITLE] (캄보디아)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 캄보디아",
+        "캄보디아 근로자에게 보여줄 벌목 작업 안전수칙 번역 자료",
+        "캄보디아 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51238",
+      "concat": "[TITLE] (방글라데시)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "벌목 안전 방글라데시",
+        "방글라데시 근로자가 이해할 수 있는 벌목 작업 안전수칙과 순서도 자료",
+        "방글라데시 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    }
+  ]
+}

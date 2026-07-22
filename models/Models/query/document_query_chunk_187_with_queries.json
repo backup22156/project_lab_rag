@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 187,
+  "items": [
+    {
+      "record_id": "list4_50410",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 65. 점검_롤러기 점검\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 80종",
+      "query": [
+        "롤러기 점검 스티커",
+        "롤러기 점검할 때 붙일 안전표지를 찾고 싶다",
+        "픽토그램 스티커 점검 롤러기 점검"
+      ]
+    },
+    {
+      "record_id": "list4_50430",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 64. 점검_로봇 점검\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 80종",
+      "query": [
+        "로봇 점검 스티커",
+        "산업용 로봇 점검할 때 쓰는 안전표지를 찾고 싶다",
+        "픽토그램 스티커 점검 로봇 점검"
+      ]
+    },
+    {
+      "record_id": "list4_50429",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 63. 점검_공기압축기 점검\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 80종",
+      "query": [
+        "공기압축기 점검 스티커",
+        "공기압축기 점검 안내용 안전표지가 필요하다",
+        "픽토그램 스티커 점검 공기압축기 점검"
+      ]
+    },
+    {
+      "record_id": "list4_50428",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 62. 점검_곤돌라 점검\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 80종",
+      "query": [
+        "곤돌라 점검 스티커",
+        "곤돌라 작업 전에 점검을 알리는 표지를 찾고 싶다",
+        "픽토그램 스티커 점검 곤돌라 점검"
+      ]
+    },
+    {
+      "record_id": "list4_50427",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 61. 점검_고소작업대 점검\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 80종",
+      "query": [
+        "고소작업대 점검 스티커",
+        "고소작업대 사용 전 점검 안내 표지를 찾고 있다",
+        "픽토그램 스티커 점검 고소작업대 점검"
+      ]
+    },
+    {
+      "record_id": "list4_50770",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 98. 지시_용접 시 불티비산방지조치실시\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 20종 (2024년도 개발 픽토그램을 활용하여 2025년도 디자인에 맞춰 리뉴얼)",
+      "query": [
+        "용접 불티 방지",
+        "용접할 때 불티가 튀지 않게 조치하라는 안전표지를 찾고 싶다",
+        "픽토그램 스티커 지시 용접 불티비산방지조치 실시"
+      ]
+    },
+    {
+      "record_id": "list4_50792",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 100. 점검_배관접합부누출점검\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 20종 (2024년도 개발 픽토그램을 활용하여 2025년도 디자인에 맞춰 리뉴얼)",
+      "query": [
+        "배관 누출 점검",
+        "배관 연결 부위에서 새는지 확인하라는 안전표지가 필요하다",
+        "픽토그램 스티커 점검 배관접합부누출점검"
+      ]
+    },
+    {
+      "record_id": "list4_50791",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 99. 지시_운전자 시야 확보\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 20종 (2024년도 개발 픽토그램을 활용하여 2025년도 디자인에 맞춰 리뉴얼)",
+      "query": [
+        "운전자 시야 확보",
+        "차량이나 장비 운전자가 앞을 잘 볼 수 있게 하라는 표지를 찾고 있다",
+        "픽토그램 스티커 지시 운전자 시야 확보"
+      ]
+    },
+    {
+      "record_id": "list4_51123",
+      "concat": "[TITLE] [VR] 제조업 강관 제조 공정 - 고속절단기 베임, CNC 선반 맞음 재해사례\n[SUMMARY] 제조업 강관 제조 공정 재해사례 체험형 VR콘텐츠 입니다. 1. 고속절단기 베임 재해사례 2. CNC 선반 맞음 재해사례 APK파일은 손으로 상호작용을 할 수 있는 핸드트래킹 기술이 적용된 콘텐츠로 VR HMD(메타퀘스트2 이상) 전용 파일 입니다. VR HMD 활용 시 첫번째 압축파일을 다운로드 하시기 바랍니다.(설치 매뉴얼 참조) PC로 시청하실 경우 녹화 영상(mp4 파일)을 다운로드 하시기 바랍니다.",
+      "query": [
+        "강관 제조 VR",
+        "고속절단기나 CNC 선반 사고를 체험하는 제조업 VR 자료를 찾고 싶다",
+        "VR 제조업 강관 제조 공정 고속절단기 베임 CNC 선반 맞음 재해사례"
+      ]
+    },
+    {
+      "record_id": "list4_50790",
+      "concat": "[TITLE] [2025 픽토그램 스티커] 97. 주의_화상(고온부접촉)\n[SUMMARY] 직관적이고 시인성이 확보되어 근로자가 쉽게 이해할 수 있는 픽토그램 스티커(표지) 20종 (2024년도 개발 픽토그램을 활용하여 2025년도 디자인에 맞춰 리뉴얼)",
+      "query": [
+        "고온 화상 주의",
+        "뜨거운 부분에 닿아 화상 입지 않도록 알리는 안전표지가 필요하다",
+        "픽토그램 스티커 주의 화상 고온부접촉"
+      ]
+    },
+    {
+      "record_id": "list4_51127",
+      "concat": "[TITLE] [VR] 건설업 비계, 거푸집 추락 재해사례\n[SUMMARY] 건설업 비계, 거푸집 추락 재해사례 체험형 VR콘텐츠 입니다. 1. 작업발판 미설치 비계 이동 중 추락 2. 거푸집 상부 이동 중 추락 APK파일은 손으로 상호작용을 할 수 있는 핸드트래킹 기술이 적용된 콘텐츠로 VR HMD(메타퀘스트2 이상) 전용 파일 입니다. VR HMD 활용 시 첫번째 압축파일을 다운로드 하시기 바랍니다.(설치 매뉴얼 참조) PC로 시청하실 경우 녹화 영상(mp4 파일)을 다운로드 하시기 바랍니다.",
+      "query": [
+        "비계 거푸집 추락 VR",
+        "건설현장에서 비계나 거푸집 위에서 떨어지는 사고 VR 교육자료를 찾고 싶다",
+        "VR 건설업 비계 거푸집 추락 재해사례"
+      ]
+    },
+    {
+      "record_id": "list4_51124",
+      "concat": "[TITLE] [VR] 건설업 타워크레인 설치작업 재해사례\n[SUMMARY] 건설업 타워크레인 설치작업 재해사례 체험형 VR콘텐츠 입니다. 1. 타워크레인 설치 작업 중 추락 2. 타워크레인 설치 작업 중 작업대 낙하에 따른 깔림 APK파일은 손으로 상호작용을 할 수 있는 핸드트래킹 기술이 적용된 콘텐츠로 VR HMD(메타퀘스트2 이상) 전용 파일 입니다. VR HMD 활용 시 첫번째 압축파일을 다운로드 하시기 바랍니다.(설치 매뉴얼 참조) PC로 시청하실 경우 녹화 영상(mp4 파일)을 다운로드 하시기 바랍니다.",
+      "query": [
+        "타워크레인 설치 VR",
+        "타워크레인 설치 작업 중 추락이나 깔림 사고를 체험하는 VR 자료가 필요하다",
+        "VR 건설업 타워크레인 설치작업 재해사례"
+      ]
+    },
+    {
+      "record_id": "list4_51299",
+      "concat": "[TITLE] [3D 영상 콘텐츠] 배달종사자 재해예방 교육영상\n[SUMMARY] 3D로 화면을 구성한 배달종사자 재해예방 교육영상입니다.",
+      "query": [
+        "배달종사자 안전 영상",
+        "배달 일을 하는 사람들을 위한 재해예방 교육영상을 찾고 싶다",
+        "3D 영상 콘텐츠 배달종사자 재해예방 교육영상"
+      ]
+    },
+    {
+      "record_id": "list4_51093",
+      "concat": "[TITLE] [VR] 건설업 관로 굴착공사 재해사례\n[SUMMARY] 건설업 관로 굴착공사 재해사례 체험형 VR콘텐츠 입니다. 1. 관 인양 작업 중 낙하로 인한 깔림 2. 굴착 작업 중 법면 붕괴 APK파일은 손으로 상호작용을 할 수 있는 핸드트래킹 기술이 적용된 콘텐츠로 VR HMD(메타퀘스트) 전용 파일 입니다. VR HMD 활용 시 첫번째 압축파일을 다운로드 하시기 바랍니다.(설치 매뉴얼 참조) PC로 시청하실 경우 녹화 영상(MP4)을 다운로드 하시기 바랍니다.",
+      "query": [
+        "관로 굴착공사 VR",
+        "관로 굴착 중 낙하나 붕괴 사고를 체험하는 건설업 VR 자료를 찾고 있다",
+        "VR 건설업 관로 굴착공사 재해사례"
+      ]
+    },
+    {
+      "record_id": "list4_51092",
+      "concat": "[TITLE] [VR] 시멘트 제조업 다발 재해사례\n[SUMMARY] 시멘트 제조업 다발 재해사례 체험형 VR콘텐츠 입니다. 1. 적분 제거 작업 중 재해사례 2. 버킷 엘리베이터 보수 작업 중 재해사례 APK파일은 손으로 상호작용을 할 수 있는 핸드트래킹 기술이 적용된 콘텐츠로 메타퀘스트 전용 파일 입니다.(설치 매뉴얼 참조) 기존 동영상VR 시청용은 해당 HMD 가능 화질에 따라 4K, 6K 파일을 다운로드 바랍니다. PC로 시청하실 경우 영상버전 다운로드 -> 마우스 우클릭 -> 연결프로그램 -> 영화 및 TV (팟플레이어, 곰플레이어 등 가능)-> 우하단 360도 기능 적용",
+      "query": [
+        "시멘트 제조 VR",
+        "시멘트 제조업에서 자주 나는 사고를 체험하는 VR 교육자료가 필요하다",
+        "VR 시멘트 제조업 다발 재해사례"
+      ]
+    },
+    {
+      "record_id": "list4_51126",
+      "concat": "[TITLE] [VR] 조선업 사업장 내 부딪힘 재해사례(트랜스포터, 이륜차)\n[SUMMARY] 조선업 사업장 내 부딪힘 재해사례(트랜스포터, 이륜차) 체험형 VR콘텐츠 입니다. APK파일은 손으로 상호작용을 할 수 있는 핸드트래킹 기술이 적용된 콘텐츠로 VR HMD(메타퀘스트2 이상) 전용 파일 입니다. VR HMD 활용 시 첫번째 압축파일을 다운로드 하시기 바랍니다.(설치 매뉴얼 참조) PC로 시청하실 경우 녹화 영상(mp4 파일)을 다운로드 하시기 바랍니다.",
+      "query": [
+        "조선업 부딪힘 VR",
+        "조선소에서 트랜스포터나 이륜차와 부딪히는 사고 VR 자료를 찾고 싶다",
+        "VR 조선업 사업장 내 부딪힘 재해사례 트랜스포터 이륜차"
+      ]
+    },
+    {
+      "record_id": "list4_51321",
+      "concat": "[TITLE] [3D 콘텐츠] 이삿짐운반용리프트 재해예방 교육영상\n[SUMMARY] 이삿짐운반용리프트 재해예방 교육영상입니다.",
+      "query": [
+        "이삿짐 리프트 안전영상",
+        "이삿짐운반용 리프트 사고 예방 교육영상을 찾고 있다",
+        "3D 콘텐츠 이삿짐운반용리프트 재해예방 교육영상"
+      ]
+    },
+    {
+      "record_id": "list4_51322",
+      "concat": "[TITLE] [3D 콘텐츠] 예초기 재해예방 교육영상\n[SUMMARY] 예초기 재해예방 교육영상입니다.",
+      "query": [
+        "예초기 안전영상",
+        "예초기 작업 사고를 예방하는 교육영상을 찾고 싶다",
+        "3D 콘텐츠 예초기 재해예방 교육영상"
+      ]
+    },
+    {
+      "record_id": "list4_51323",
+      "concat": "[TITLE] [3D 콘텐츠] 산업용 리프트 재해예방 교육영상\n[SUMMARY] 산업용 리프트 재해예방 교육영상입니다.",
+      "query": [
+        "산업용 리프트 안전영상",
+        "산업용 리프트 사고 예방용 교육영상을 찾고 있다",
+        "3D 콘텐츠 산업용 리프트 재해예방 교육영상"
+      ]
+    },
+    {
+      "record_id": "list4_51890",
+      "concat": "[TITLE] (필리핀)안전보건 픽토그램 안내문\n[SUMMARY] 당신의 언어로 당신의 안전을 지킵니다.",
+      "query": [
+        "필리핀 안전 pictogram",
+        "필리핀 근로자가 이해할 수 있는 안전보건 그림 안내문을 찾고 싶다",
+        "필리핀 안전보건 픽토그램 안내문"
+      ]
+    },
+    {
+      "record_id": "list4_51324",
+      "concat": "[TITLE] [3D 콘텐츠] 혼합기 재해예방 교육영상\n[SUMMARY] 혼합기 재해예방 교육영상입니다.",
+      "query": [
+        "혼합기 안전영상",
+        "혼합기 작업 중 사고를 예방하는 교육영상을 찾고 싶다",
+        "3D 콘텐츠 혼합기 재해예방 교육영상"
+      ]
+    },
+    {
+      "record_id": "list4_51325",
+      "concat": "[TITLE] [3D 콘텐츠] 공작기계 재해예방 교육영상\n[SUMMARY] 공작기계 재해예방 교육영상입니다.",
+      "query": [
+        "공작기계 안전영상",
+        "공작기계를 사용할 때 사고를 막는 교육영상을 찾고 있다",
+        "3D 콘텐츠 공작기계 재해예방 교육영상"
+      ]
+    },
+    {
+      "record_id": "list4_51889",
+      "concat": "[TITLE] (타지키스탄)안전보건 픽토그램 안내문\n[SUMMARY] 당신의 언어로 당신의 안전을 지킵니다.",
+      "query": [
+        "타지키스탄 안전 픽토그램",
+        "타지키스탄 근로자에게 보여줄 안전보건 그림 안내문이 필요하다",
+        "타지키스탄 안전보건 픽토그램 안내문"
+      ]
+    },
+    {
+      "record_id": "list4_51901",
+      "concat": "[TITLE] (파키스탄)안전보건 픽토그램 안내문\n[SUMMARY] 당신의 언어로 당신의 안전을 지킵니다.",
+      "query": [
+        "파키스탄 안전 픽토그램",
+        "파키스탄 근로자가 이해할 수 있는 안전보건 그림 안내문을 찾고 싶다",
+        "파키스탄 안전보건 픽토그램 안내문"
+      ]
+    },
+    {
+      "record_id": "list4_51900",
+      "concat": "[TITLE] (키르기스스탄)안전보건 픽토그램 안내문\n[SUMMARY] 당신의 언어로 당신의 안전을 지킵니다.",
+      "query": [
+        "키르기스스탄 안전 픽토그램",
+        "키르기스스탄 근로자용 안전보건 그림 안내문이 필요하다",
+        "키르기스스탄 안전보건 픽토그램 안내문"
+      ]
+    },
+    {
+      "record_id": "list4_51558",
+      "concat": "[TITLE] 한파안전 5대 기본수칙_배너, 포스터\n[SUMMARY] 한파안전 5대 기본수칙_배너, 포스터",
+      "query": [
+        "한파 안전 포스터",
+        "추운 날씨에 지켜야 할 기본 안전수칙 포스터나 배너를 찾고 있다",
+        "한파안전 5대 기본수칙 배너 포스터"
+      ]
+    },
+    {
+      "record_id": "list4_51796",
+      "concat": "[TITLE] 한파안전 5대 기본수칙_현수막\n[SUMMARY] 한파안전 5대 기본수칙_현수막",
+      "query": [
+        "한파 안전 현수막",
+        "겨울철 한파 안전수칙을 알리는 현수막 자료가 필요하다",
+        "한파안전 5대 기본수칙 현수막"
+      ]
+    },
+    {
+      "record_id": "list4_51809",
+      "concat": "[TITLE] [안전한 일터 프로젝트] 한파 안전수칙\n[SUMMARY] [안전한 일터 프로젝트] 시기에 맞추어 \"한파\"에 대한 12대 핵심 안전수칙 및 체크리스트",
+      "query": [
+        "한파 안전수칙",
+        "일터에서 한파가 올 때 확인해야 할 안전수칙과 체크리스트를 찾고 싶다",
+        "안전한 일터 프로젝트 한파 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list4_51014",
+      "concat": "[TITLE] 질식위험공간 경고표지(중)\n[SUMMARY] .",
+      "query": [
+        "질식위험 경고표지",
+        "밀폐공간이나 질식 위험 장소에 붙일 경고표지를 찾고 있다",
+        "질식위험공간 경고표지 중"
+      ]
+    },
+    {
+      "record_id": "list4_51015",
+      "concat": "[TITLE] 질식위험공간 경고표지(소)\n[SUMMARY] .",
+      "query": [
+        "질식위험 작은 표지",
+        "질식 위험 공간에 붙일 작은 경고표지가 필요하다",
+        "질식위험공간 경고표지 소"
+      ]
+    }
+  ]
+}

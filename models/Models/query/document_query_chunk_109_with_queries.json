@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 109,
+  "items": [
+    {
+      "record_id": "list1_31116",
+      "concat": "[TITLE] [중대재해사례]프레스 자동송급장치 점검 중 소재이송로봇에 협착\n[SUMMARY] [중대재해사례]프레스 자동송급장치 점검 중 소재이송로봇에 협착",
+      "query": [
+        "프레스 로봇 협착",
+        "프레스 자동송급장치를 점검하다가 이송 로봇에 끼인 사고",
+        "중대재해사례 프레스 자동송급장치 소재이송로봇 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31121",
+      "concat": "[TITLE] [중대재해사례]슬링벨트 파단에 의한 중량물 낙하,전도\n[SUMMARY] [중대재해사례]슬링벨트 파단에 의한 중량물 낙하,전도",
+      "query": [
+        "슬링벨트 낙하 전도",
+        "슬링벨트가 끊어져 중량물이 떨어지고 넘어진 사고",
+        "중대재해사례 슬링벨트 파단 중량물 낙하 전도"
+      ]
+    },
+    {
+      "record_id": "list1_31119",
+      "concat": "[TITLE] [중대재해사례]배관 내 용접부 검사 중 산소결핍에 의한 질식\n[SUMMARY] [중대재해사례]배관 내 용접부 검사 중 산소결핍에 의한 질식",
+      "query": [
+        "배관 산소결핍 질식",
+        "배관 안에서 용접부를 검사하다 산소가 부족해 질식한 사고",
+        "중대재해사례 배관 용접부 검사 산소결핍 질식"
+      ]
+    },
+    {
+      "record_id": "list1_31118",
+      "concat": "[TITLE] [중대재해사례]공기탱크 드레인작업 중 누전에 의한 감전\n[SUMMARY] [중대재해사례]공기탱크 드레인작업 중 누전에 의한 감전",
+      "query": [
+        "공기탱크 누전 감전",
+        "공기탱크 드레인 작업 중 누전으로 감전된 사고",
+        "중대재해사례 공기탱크 드레인작업 누전 감전"
+      ]
+    },
+    {
+      "record_id": "list1_31120",
+      "concat": "[TITLE] [중대재해사례]선반작업 중 가공물에 작업복이 말림\n[SUMMARY] [중대재해사례]선반작업 중 가공물에 작업복이 말림",
+      "query": [
+        "선반 작업복 말림",
+        "선반 작업 중 가공물에 작업복이 말려 들어간 사고",
+        "중대재해사례 선반작업 가공물 작업복 말림"
+      ]
+    },
+    {
+      "record_id": "list1_31122",
+      "concat": "[TITLE] [중대재해사례]유압프레스 점검 중 금형 사이에 협착\n[SUMMARY] 유압프레스 점검 중 금형 사이에 협착[중대재해사례]",
+      "query": [
+        "유압프레스 금형 협착",
+        "유압프레스를 점검하다 금형 사이에 끼인 사고",
+        "중대재해사례 유압프레스 점검 금형 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31123",
+      "concat": "[TITLE] [중대재해사례]지게차 사이드시프트 파손으로 적재물 낙하\n[SUMMARY] [중대재해사례]지게차 사이드시프트 파손으로 적재물 낙하",
+      "query": [
+        "지게차 적재물 낙하",
+        "지게차 사이드시프트가 파손되어 적재물이 떨어진 사고",
+        "중대재해사례 지게차 사이드시프트 파손 적재물 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31249",
+      "concat": "[TITLE] [중대재해사례]재활용품 수거용 일체형집게차 적재함에서 추락\n[SUMMARY] [중대재해사례]재활용품 수거용 일체형집게차 적재함에서 추락",
+      "query": [
+        "집게차 적재함 추락",
+        "재활용품 수거용 집게차 적재함에서 떨어진 사고",
+        "중대재해사례 재활용품 수거용 일체형집게차 적재함 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31126",
+      "concat": "[TITLE] [중대재해사례]PC암거 해체작업 중 몰드 앞판이 넘어지며 협착\n[SUMMARY] [중대재해사례]PC암거 해체작업 중 몰드 앞판이 넘어지며 협착",
+      "query": [
+        "PC암거 몰드 협착",
+        "PC암거 해체 중 몰드 앞판이 넘어져 끼인 사고",
+        "중대재해사례 PC암거 해체작업 몰드 앞판 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31128",
+      "concat": "[TITLE] [중대재해사례]배관 내 파라핀왁스 용해작업 중 화상\n[SUMMARY] [중대재해사례]배관 내 파라핀왁스 용해작업 중 화상",
+      "query": [
+        "파라핀왁스 화상",
+        "배관 안 파라핀왁스를 녹이다가 화상을 입은 사고",
+        "중대재해사례 배관 파라핀왁스 용해작업 화상"
+      ]
+    },
+    {
+      "record_id": "list1_31124",
+      "concat": "[TITLE] [중대재해사례]판석재 보링작업 중 회전하는 석재에 충돌\n[SUMMARY] [중대재해사례]판석재 보링작업 중 회전하는 석재에 충돌",
+      "query": [
+        "석재 보링 충돌",
+        "판석재 보링 작업 중 회전하는 석재에 부딪힌 사고",
+        "중대재해사례 판석재 보링작업 회전 석재 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_31125",
+      "concat": "[TITLE] [중대재해사례]회전하는 구동축 돌출부에 작업복이 말림\n[SUMMARY] [중대재해사례]회전하는 구동축 돌출부에 작업복이 말림",
+      "query": [
+        "구동축 작업복 말림",
+        "회전하는 구동축 돌출부에 작업복이 말려 들어간 사고",
+        "중대재해사례 회전 구동축 돌출부 작업복 말림"
+      ]
+    },
+    {
+      "record_id": "list1_31127",
+      "concat": "[TITLE] [중대재해사례]믹서기 내부 청소작업 중 회전날에 협착\n[SUMMARY] [중대재해사례]믹서기 내부 청소작업 중 회전날에 협착",
+      "query": [
+        "믹서기 회전날 협착",
+        "믹서기 내부를 청소하다 회전날에 끼인 사고",
+        "중대재해사례 믹서기 내부 청소작업 회전날 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31251",
+      "concat": "[TITLE] [중대재해사례]전기실 방전감시장치 설치작업 중 감전\n[SUMMARY] [중대재해사례]전기실 방전감시장치 설치작업 중 감전",
+      "query": [
+        "전기실 감전 사고",
+        "전기실 방전감시장치를 설치하다 감전된 사고",
+        "중대재해사례 전기실 방전감시장치 설치작업 감전"
+      ]
+    },
+    {
+      "record_id": "list1_31250",
+      "concat": "[TITLE] [중대재해사례]전광판 설치작업 중 사다리 파손으로 추락\n[SUMMARY] [중대재해사례]전광판 설치작업 중 사다리 파손으로 추락",
+      "query": [
+        "전광판 사다리 추락",
+        "전광판 설치 중 사다리가 파손되어 떨어진 사고",
+        "중대재해사례 전광판 설치작업 사다리 파손 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31253",
+      "concat": "[TITLE] [중대재해사례]화물 상차작업 중 추락\n[SUMMARY] [중대재해사례]화물 상차작업 중 추락",
+      "query": [
+        "화물 상차 추락",
+        "화물을 차에 싣는 작업 중 떨어진 사고",
+        "중대재해사례 화물 상차작업 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31254",
+      "concat": "[TITLE] [중대재해사례]식당 옹벽 경사면 이동 중 추락\n[SUMMARY] [중대재해사례]식당 옹벽 경사면 이동 중 추락",
+      "query": [
+        "옹벽 경사면 추락",
+        "식당 옹벽 경사면을 이동하다 떨어진 사고",
+        "중대재해사례 식당 옹벽 경사면 이동 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31252",
+      "concat": "[TITLE] [중대재해사례]플라스틱 파쇄기 청소작업 중 협착\n[SUMMARY] [중대재해사례]플라스틱 파쇄기 청소작업 중 협착",
+      "query": [
+        "플라스틱 파쇄기 협착",
+        "플라스틱 파쇄기를 청소하다 끼인 사고",
+        "중대재해사례 플라스틱 파쇄기 청소작업 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31256",
+      "concat": "[TITLE] [중대재해사례]청소작업 중 계단에서 미끄러짐\n[SUMMARY] [중대재해사례]청소작업 중 계단에서 미끄러짐",
+      "query": [
+        "계단 청소 미끄러짐",
+        "청소 작업 중 계단에서 미끄러진 사고",
+        "중대재해사례 청소작업 계단 미끄러짐"
+      ]
+    },
+    {
+      "record_id": "list1_31257",
+      "concat": "[TITLE] [중대재해사례]4륜 원동기 운행 중 전복\n[SUMMARY] [중대재해사례]4륜 원동기 운행 중 전복 OPL",
+      "query": [
+        "4륜 원동기 전복",
+        "4륜 원동기를 운행하다 뒤집힌 사고",
+        "중대재해사례 4륜 원동기 운행 전복"
+      ]
+    },
+    {
+      "record_id": "list1_31258",
+      "concat": "[TITLE] [중대재해사례]등나무 전지작업 중 추락\n[SUMMARY] [중대재해사례]등나무 전지작업 중 추락",
+      "query": [
+        "등나무 전지 추락",
+        "등나무 가지치기 작업 중 떨어진 사고",
+        "중대재해사례 등나무 전지작업 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31221",
+      "concat": "[TITLE] [중대재해사례]잠수장비 착용 후 작업 중 사망\n[SUMMARY] [중대재해사례]잠수장비 착용 후 작업 중 사망",
+      "query": [
+        "잠수장비 작업 사망",
+        "잠수장비를 착용하고 작업하다 사망한 사고",
+        "중대재해사례 잠수장비 착용 작업 사망"
+      ]
+    },
+    {
+      "record_id": "list1_31220",
+      "concat": "[TITLE] [중대재해사례]와이어윈치 드럼에 협착\n[SUMMARY] [중대재해사례]와이어윈치 드럼에 협착",
+      "query": [
+        "와이어윈치 협착",
+        "와이어윈치 드럼에 끼인 사고",
+        "중대재해사례 와이어윈치 드럼 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31131",
+      "concat": "[TITLE] [중대재해사례]성형기 내부 스티로폴 조각제거 중 협착\n[SUMMARY] [중대재해사례]성형기 내부 스티로폴 조각제거 중 협착",
+      "query": [
+        "성형기 스티로폴 협착",
+        "성형기 내부 스티로폴 조각을 제거하다 끼인 사고",
+        "중대재해사례 성형기 내부 스티로폴 조각제거 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31129",
+      "concat": "[TITLE] [중대재해사례]분쇄기 플라이휠 샤프트 고정구에 협착\n[SUMMARY] [중대재해사례]분쇄기 플라이휠 샤프트 고정구에 협착",
+      "query": [
+        "분쇄기 샤프트 협착",
+        "분쇄기 플라이휠 샤프트 고정구에 끼인 사고",
+        "중대재해사례 분쇄기 플라이휠 샤프트 고정구 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31219",
+      "concat": "[TITLE] [중대재해사례]양하작업 중 원목에 부딪침\n[SUMMARY] [중대재해사례]양하작업 중 원목에 부딪침",
+      "query": [
+        "양하작업 원목 충돌",
+        "양하 작업 중 원목에 부딪힌 사고",
+        "중대재해사례 양하작업 원목 부딪침"
+      ]
+    },
+    {
+      "record_id": "list1_31134",
+      "concat": "[TITLE] [중대재해사례]선박 데크 위에서 이동하던 중 맨홀 개구부로 추락\n[SUMMARY] [중대재해사례]선박 데크 위에서 이동하던 중 맨홀 개구부로 추락",
+      "query": [
+        "선박 맨홀 추락",
+        "선박 데크에서 이동하다 맨홀 개구부로 떨어진 사고",
+        "중대재해사례 선박 데크 맨홀 개구부 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31133",
+      "concat": "[TITLE] [중대재해사례]컨베이어 구동장치 점검 중 추락\n[SUMMARY] [중대재해사례]컨베이어 구동장치 점검 중 추락",
+      "query": [
+        "컨베이어 점검 추락",
+        "컨베이어 구동장치를 점검하다 떨어진 사고",
+        "중대재해사례 컨베이어 구동장치 점검 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31130",
+      "concat": "[TITLE] [중대재해사례]사출성형기 제품취출작업 중 협착\n[SUMMARY] [중대재해사례]사출성형기 제품취출작업 중 협착",
+      "query": [
+        "사출성형기 협착",
+        "사출성형기에서 제품을 꺼내다 끼인 사고",
+        "중대재해사례 사출성형기 제품취출작업 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31132",
+      "concat": "[TITLE] [중대재해사례]지분압축기 유압실린더에 협착\n[SUMMARY] [중대재해사례]지분압축기 유압실린더에 협착",
+      "query": [
+        "지분압축기 협착",
+        "지분압축기 유압실린더에 끼인 사고",
+        "중대재해사례 지분압축기 유압실린더 협착"
+      ]
+    }
+  ]
+}

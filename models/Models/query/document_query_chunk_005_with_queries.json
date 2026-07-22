@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 5,
+  "items": [
+    {
+      "record_id": "list1_52005",
+      "concat": "[TITLE] [중대재해] 외벽 퍼티작업을 위해 달비계에 탑승 중 떨어짐\n[SUMMARY] [중대재해] 외벽 퍼티작업을 위해 달비계에 탑승 중 떨어짐",
+      "query": [
+        "달비계 추락 사고",
+        "외벽 퍼티 작업하다가 달비계에서 떨어진 사고 사례를 찾고 있어",
+        "중대재해 외벽 퍼티작업 달비계 탑승 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_52004",
+      "concat": "[TITLE] [중대재해] 곤돌라 운반구 탑승 이동 중 떨어짐\n[SUMMARY] [중대재해] 곤돌라 운반구 탑승 이동 중 떨어짐",
+      "query": [
+        "곤돌라 추락 사고",
+        "곤돌라 운반구를 타고 이동하다가 떨어진 사고 사례가 필요해",
+        "중대재해 곤돌라 운반구 탑승 이동 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_52003",
+      "concat": "[TITLE] [중대재해] 이동전선에 걸려 넘어져 엘리베이터 피트로 떨어짐\n[SUMMARY] [중대재해] 이동전선에 걸려 넘어져 엘리베이터 피트로 떨어짐",
+      "query": [
+        "엘리베이터 피트 추락",
+        "작업 중 전선에 걸려 넘어져 엘리베이터 피트로 떨어진 사례를 찾고 있어",
+        "중대재해 이동전선 걸림 넘어짐 엘리베이터 피트 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_52001",
+      "concat": "[TITLE] [중대재해] 굴삭기로 인양하던 H빔이 떨어져 맞음\n[SUMMARY] [중대재해] 굴삭기로 인양하던 H빔이 떨어져 맞음",
+      "query": [
+        "굴삭기 H빔 사고",
+        "굴삭기로 철골 자재를 들어 올리다가 떨어져 맞은 사고 사례가 필요해",
+        "중대재해 굴삭기 인양 H빔 떨어짐 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51982",
+      "concat": "[TITLE] [중대재해] 터널 수직갱 천공 작업중 유도공으로 떨어짐\n[SUMMARY] [중대재해] 터널 수직갱 천공 작업중 유도공으로 떨어짐",
+      "query": [
+        "터널 수직갱 추락",
+        "터널 수직갱에서 천공 작업 중 구멍으로 떨어진 사고 사례를 찾고 있어",
+        "중대재해 터널 수직갱 천공 작업 유도공 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51981",
+      "concat": "[TITLE] [중대재해] 타워크레인으로 인양 중 떨어진 하물에 맞음\n[SUMMARY] [중대재해] 타워크레인으로 인양 중 떨어진 하물에 맞음",
+      "query": [
+        "타워크레인 낙하물",
+        "타워크레인으로 자재를 옮기던 중 떨어진 하물에 맞은 사고 사례가 필요해",
+        "중대재해 타워크레인 인양 떨어진 하물 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_52002",
+      "concat": "[TITLE] [중대재해] 철골 빔 고정볼트 절단 작업 중 구조물에 부딪힘\n[SUMMARY] [중대재해] 철골 빔 고정볼트 절단 작업 중 구조물에 부딪힘",
+      "query": [
+        "철골 절단 부딪힘",
+        "철골 빔 볼트를 자르던 중 구조물에 부딪힌 사고 사례를 찾고 있어",
+        "중대재해 철골 빔 고정볼트 절단 구조물 부딪힘"
+      ]
+    },
+    {
+      "record_id": "list1_52000",
+      "concat": "[TITLE] [중대재해] 탈거된 굴삭기 버킷이 굴러 떨어져 부딪힘\n[SUMMARY] [중대재해] 탈거된 굴삭기 버킷이 굴러 떨어져 부딪힘",
+      "query": [
+        "굴삭기 버킷 사고",
+        "분리된 굴삭기 버킷이 굴러 떨어져 부딪힌 사고 사례가 필요해",
+        "중대재해 탈거 굴삭기 버킷 굴러 떨어짐 부딪힘"
+      ]
+    },
+    {
+      "record_id": "list1_51979",
+      "concat": "[TITLE] [중대재해] 클램프로 H형강을 걸어 인양 중 떨어진 하물에 맞음\n[SUMMARY] [중대재해] 클램프로 H형강을 걸어 인양 중 떨어진 하물에 맞음",
+      "query": [
+        "H형강 인양 사고",
+        "클램프로 철골을 들어 올리다가 떨어진 하물에 맞은 사고 사례를 찾고 있어",
+        "중대재해 클램프 H형강 인양 떨어진 하물 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51980",
+      "concat": "[TITLE] [중대재해] 상부에서 떨어진 데크 플레이트에 맞음\n[SUMMARY] [중대재해] 상부에서 떨어진 데크 플레이트에 맞음",
+      "query": [
+        "데크 플레이트 낙하",
+        "위에서 떨어진 데크 플레이트에 맞은 중대재해 사례가 필요해",
+        "중대재해 상부 떨어진 데크 플레이트 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51978",
+      "concat": "[TITLE] [중대재해] 이동식 크레인이 쓰러지며 하강하는 붐에 부딪힘\n[SUMMARY] [중대재해] 이동식 크레인이 쓰러지며 하강하는 붐에 부딪힘",
+      "query": [
+        "이동식 크레인 전도",
+        "이동식 크레인이 넘어지면서 내려온 붐에 부딪힌 사고 사례를 찾고 있어",
+        "중대재해 이동식 크레인 쓰러짐 하강 붐 부딪힘"
+      ]
+    },
+    {
+      "record_id": "list1_51977",
+      "concat": "[TITLE] [중대재해] 부재 운반 중 로프에서 빠진 철골부재에 맞음\n[SUMMARY] [중대재해] 부재 운반 중 로프에서 빠진 철골부재에 맞음",
+      "query": [
+        "철골부재 낙하 맞음",
+        "로프로 옮기던 철골 부재가 빠져 떨어져 맞은 사고 사례가 필요해",
+        "중대재해 부재 운반 로프 철골부재 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51959",
+      "concat": "[TITLE] [중대재해] 고소작업대 상승 작업 중 천장 부분에 끼임\n[SUMMARY] [중대재해] 고소작업대 상승 작업 중 천장 부분에 끼임",
+      "query": [
+        "고소작업대 끼임",
+        "고소작업대가 올라가던 중 천장 부분에 끼인 사고 사례를 찾고 있어",
+        "중대재해 고소작업대 상승 작업 천장 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51931",
+      "concat": "[TITLE] [중대재해] 고소작업대 위에서 작업 중 붐 하강으로 끼임\n[SUMMARY] [중대재해] 고소작업대 위에서 작업 중 붐 하강으로 끼임",
+      "query": [
+        "고소작업대 붐 끼임",
+        "고소작업대에서 작업하다가 붐이 내려가 끼인 사고 사례가 필요해",
+        "중대재해 고소작업대 작업 붐 하강 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51960",
+      "concat": "[TITLE] [중대재해] 준공청소 작업을 위해 내부 계단을 통해 이동 중 넘어짐\n[SUMMARY] [중대재해] 준공청소 작업을 위해 내부 계단을 통해 이동 중 넘어짐",
+      "query": [
+        "계단 넘어짐 사고",
+        "준공청소 작업 중 내부 계단으로 이동하다 넘어진 사고 사례를 찾고 있어",
+        "중대재해 준공청소 내부 계단 이동 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51930",
+      "concat": "[TITLE] [중대재해] 폭염상태에서 자재 운반작업 중 넘어짐\n[SUMMARY] [중대재해] 폭염상태에서 자재 운반작업 중 넘어짐",
+      "query": [
+        "폭염 자재 운반",
+        "더운 날씨에 자재를 나르다가 넘어진 중대재해 사례가 필요해",
+        "중대재해 폭염 자재 운반작업 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51958",
+      "concat": "[TITLE] [중대재해] 아스팔트 방수구간 용접 불티로 화재\n[SUMMARY] [중대재해] 아스팔트 방수구간 용접 불티로 화재",
+      "query": [
+        "용접 불티 화재",
+        "방수 작업 구간에서 용접 불티 때문에 화재가 난 사고 사례를 찾고 있어",
+        "중대재해 아스팔트 방수구간 용접 불티 화재"
+      ]
+    },
+    {
+      "record_id": "list1_51957",
+      "concat": "[TITLE] [중대재해] 열교환기 기압시험 중 플랜지에 맞음\n[SUMMARY] [중대재해] 열교환기 기압시험 중 플랜지에 맞음",
+      "query": [
+        "열교환기 시험 사고",
+        "열교환기 기압시험 중 플랜지에 맞은 사고 사례가 필요해",
+        "중대재해 열교환기 기압시험 플랜지 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51929",
+      "concat": "[TITLE] [중대재해] 유압프레스 금형 수정작업 중 금형 사이에 끼임\n[SUMMARY] [중대재해] 유압프레스 금형 수정작업 중 금형 사이에 끼임",
+      "query": [
+        "유압프레스 끼임",
+        "유압프레스 금형을 수정하다가 금형 사이에 끼인 사고 사례를 찾고 있어",
+        "중대재해 유압프레스 금형 수정작업 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51928",
+      "concat": "[TITLE] [중대재해] 원통형 전선하우징 거치 작업 중 끼임\n[SUMMARY] [중대재해] 원통형 전선하우징 거치 작업 중 끼임",
+      "query": [
+        "전선하우징 끼임",
+        "원통형 전선하우징을 거치하다가 끼인 중대재해 사례가 필요해",
+        "중대재해 원통형 전선하우징 거치 작업 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51956",
+      "concat": "[TITLE] [중대재해] 로봇 작업 영역에서 로봇 지그에 부딪힘\n[SUMMARY] [중대재해] 로봇 작업 영역에서 로봇 지그에 부딪힘",
+      "query": [
+        "로봇 작업장 사고",
+        "로봇 작업 영역에서 로봇 지그에 부딪힌 사고 사례를 찾고 있어",
+        "중대재해 로봇 작업 영역 로봇 지그 부딪힘"
+      ]
+    },
+    {
+      "record_id": "list1_51955",
+      "concat": "[TITLE] [중대재해] 철판 이송용 컨베이어 하부와 고정 프레임 사이에 끼임\n[SUMMARY] [중대재해] 철판 이송용 컨베이어 하부와 고정 프레임 사이에 끼임",
+      "query": [
+        "컨베이어 끼임 사고",
+        "철판 이송 컨베이어 하부와 프레임 사이에 끼인 사례가 필요해",
+        "중대재해 철판 이송용 컨베이어 하부 고정 프레임 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51926",
+      "concat": "[TITLE] [중대재해] 교반기에 첨가제 투입작업 중 질식\n[SUMMARY] [중대재해] 교반기에 첨가제 투입작업 중 질식",
+      "query": [
+        "교반기 질식 사고",
+        "교반기에 첨가제를 넣는 작업 중 질식한 사고 사례를 찾고 있어",
+        "중대재해 교반기 첨가제 투입작업 질식"
+      ]
+    },
+    {
+      "record_id": "list1_51954",
+      "concat": "[TITLE] [중대재해] 알루미늄 분진 폭발로 인한 화상\n[SUMMARY] [중대재해] 알루미늄 분진 폭발로 인한 화상",
+      "query": [
+        "알루미늄 분진 폭발",
+        "알루미늄 분진이 폭발해서 화상을 입은 사고 사례가 필요해",
+        "중대재해 알루미늄 분진 폭발 화상"
+      ]
+    },
+    {
+      "record_id": "list1_51927",
+      "concat": "[TITLE] [중대재해] 세미갠트리 크레인 레그와 적재대 사이에 끼임\n[SUMMARY] [중대재해] 세미갠트리 크레인 레그와 적재대 사이에 끼임",
+      "query": [
+        "갠트리 크레인 끼임",
+        "세미갠트리 크레인 레그와 적재대 사이에 끼인 사고 사례를 찾고 있어",
+        "중대재해 세미갠트리 크레인 레그 적재대 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51952",
+      "concat": "[TITLE] [중대재해] 다이캐스팅기 상부에서 점검 중 금형에 끼임\n[SUMMARY] [중대재해] 다이캐스팅기 상부에서 점검 중 금형에 끼임",
+      "query": [
+        "다이캐스팅기 끼임",
+        "다이캐스팅기 위에서 점검하다가 금형에 끼인 사고 사례가 필요해",
+        "중대재해 다이캐스팅기 상부 점검 금형 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51953",
+      "concat": "[TITLE] [중대재해] 금속 모형절단기와 천장크레인의 벽체기둥 사이에 끼임\n[SUMMARY] [중대재해] 금속 모형절단기와 천장크레인의 벽체기둥 사이에 끼임",
+      "query": [
+        "절단기 크레인 끼임",
+        "금속 모형절단기와 천장크레인 주변에서 끼인 사고 사례를 찾고 있어",
+        "중대재해 금속 모형절단기 천장크레인 벽체기둥 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51951",
+      "concat": "[TITLE] [중대재해] 용해로에 폐알루미늄 투입 중 수증기 폭발\n[SUMMARY] [중대재해] 용해로에 폐알루미늄 투입 중 수증기 폭발",
+      "query": [
+        "용해로 폭발 사고",
+        "용해로에 폐알루미늄을 넣다가 수증기 폭발이 난 사례가 필요해",
+        "중대재해 용해로 폐알루미늄 투입 수증기 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_51949",
+      "concat": "[TITLE] [중대재해] 사출성형기 하부 작업 중 프레임 사이에 끼임\n[SUMMARY] [중대재해] 사출성형기 하부 작업 중 프레임 사이에 끼임",
+      "query": [
+        "사출성형기 끼임",
+        "사출성형기 아래에서 작업하다 프레임 사이에 끼인 사고 사례를 찾고 있어",
+        "중대재해 사출성형기 하부 작업 프레임 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51950",
+      "concat": "[TITLE] [중대재해] 압출원료 적재 운반 중 무너진 원료에 깔림\n[SUMMARY] [중대재해] 압출원료 적재 운반 중 무너진 원료에 깔림",
+      "query": [
+        "원료 적재 깔림",
+        "쌓아 둔 압출 원료를 옮기다가 무너져 깔린 사고 사례가 필요해",
+        "중대재해 압출원료 적재 운반 무너진 원료 깔림"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 64,
+  "items": [
+    {
+      "record_id": "list1_39947",
+      "concat": "[TITLE] [안전보건 OPL]정비 보수 청소 등 비일상 작업 시 사고예방\n[SUMMARY] [안전보건 OPL]정비 보수 청소 등 비일상 작업 시 사고예방",
+      "query": [
+        "정비 청소 사고예방",
+        "정비나 청소처럼 평소와 다른 작업을 할 때 사고를 막는 자료",
+        "정비 보수 청소 비일상 작업 사고예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39957",
+      "concat": "[TITLE] [안전보건 OPL]밀폐공간에서의 화재폭발 예방 대책\n[SUMMARY] [안전보건 OPL]밀폐공간에서의 화재폭발 예방 대책",
+      "query": [
+        "밀폐공간 화재폭발",
+        "좁고 막힌 공간에서 불이나 폭발 사고를 예방하는 방법",
+        "밀폐공간 화재폭발 예방 대책 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39955",
+      "concat": "[TITLE] [안전보건 OPL]우레탄폼 이용 작업 화재사고 예방 대책\n[SUMMARY] [안전보건 OPL]우레탄폼 이용 작업 화재사고 예방 대책",
+      "query": [
+        "우레탄폼 화재",
+        "우레탄폼으로 작업할 때 불나는 사고를 예방하는 자료",
+        "우레탄폼 이용 작업 화재사고 예방 대책 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39956",
+      "concat": "[TITLE] [안전보건 OPL]건설현장 화재 폭발사고 위험관리\n[SUMMARY] [안전보건 OPL]건설현장 화재 폭발사고 위험관리",
+      "query": [
+        "건설현장 화재 폭발",
+        "공사장에서 화재나 폭발 위험을 관리하는 방법",
+        "건설현장 화재 폭발사고 위험관리 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39954",
+      "concat": "[TITLE] [안전보건 OPL]건설현장 화재 폭발사고 위험관리(용접 용단 작업)\n[SUMMARY] [안전보건 OPL]건설현장 화재 폭발사고 위험관리(용접 용단 작업)",
+      "query": [
+        "용접 용단 화재",
+        "건설현장에서 용접이나 절단 작업할 때 화재 폭발을 막는 자료",
+        "건설현장 화재 폭발사고 위험관리 용접 용단 작업 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39953",
+      "concat": "[TITLE] [안전보건 OPL]건설현장 화재폭발사고 예방 대책(용접용단 작업)\n[SUMMARY] [안전보건 OPL]건설현장 화재폭발사고 예방 대책(용접용단 작업)",
+      "query": [
+        "용접용단 폭발예방",
+        "건설현장 용접 절단 작업에서 화재나 폭발을 예방하는 방법",
+        "건설현장 화재폭발사고 예방 대책 용접용단 작업 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39951",
+      "concat": "[TITLE] [안전보건 OPL]위험물 안전 관리 수칙(인화성고체)\n[SUMMARY] [안전보건 OPL]위험물 안전 관리 수칙(인화성고체)",
+      "query": [
+        "인화성고체 안전수칙",
+        "불이 붙기 쉬운 고체 물질을 다룰 때 안전하게 관리하는 방법",
+        "위험물 안전 관리 수칙 인화성고체 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39952",
+      "concat": "[TITLE] [안전보건 OPL]위험물 안전 관리 수칙(폭발성 물질)\n[SUMMARY] [안전보건 OPL]위험물 안전 관리 수칙(폭발성 물질)",
+      "query": [
+        "폭발성 물질 안전",
+        "폭발 위험이 있는 물질을 보관하거나 취급할 때 지켜야 할 수칙",
+        "위험물 안전 관리 수칙 폭발성 물질 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39950",
+      "concat": "[TITLE] [안전보건 OPL]위험물 안전 관리 수칙(유기과산화물)\n[SUMMARY] [안전보건 OPL]위험물 안전 관리 수칙(유기과산화물)",
+      "query": [
+        "유기과산화물 안전",
+        "유기과산화물을 취급할 때 사고를 막는 안전수칙 자료",
+        "위험물 안전 관리 수칙 유기과산화물 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39949",
+      "concat": "[TITLE] [안전보건 OPL]위험물 안전 관리 수칙(산화성 물질)\n[SUMMARY] [안전보건 OPL]위험물 안전 관리 수칙(산화성 물질)",
+      "query": [
+        "산화성 물질 안전",
+        "산화성 물질을 다룰 때 화재나 사고를 막는 안전수칙",
+        "위험물 안전 관리 수칙 산화성 물질 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39875",
+      "concat": "[TITLE] [중대재해사례 OPL]비계 위에서 동바리 자재 정리 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]비계 위에서 동바리 자재 정리 중 떨어짐",
+      "query": [
+        "비계 추락 사고",
+        "비계 위에서 동바리 자재를 정리하다 떨어진 사고 사례",
+        "비계 동바리 자재 정리 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39877",
+      "concat": "[TITLE] [중대재해사례 OPL]외부 비계 위에서 석재 마감작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]외부 비계 위에서 석재 마감작업 중 떨어짐",
+      "query": [
+        "외부비계 추락",
+        "외부 비계 위에서 석재 마감 작업을 하다 떨어진 사고 사례",
+        "외부 비계 석재 마감작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39876",
+      "concat": "[TITLE] [중대재해사례 OPL]강관비계 해체 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]강관비계 해체 작업 중 떨어짐",
+      "query": [
+        "강관비계 해체 추락",
+        "강관비계를 해체하다가 작업자가 떨어진 사고 사례",
+        "강관비계 해체 작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39874",
+      "concat": "[TITLE] [중대재해사례 OPL]건물 외벽 준동 청소 중 달비계 로프 파단으로 떨어짐\n[SUMMARY] [중대재해사례 OPL]건물 외벽 준동 청소 중 달비계 로프 파단으로 떨어짐, 안전한 달비계 작업 예시",
+      "query": [
+        "달비계 로프 추락",
+        "건물 외벽 청소 중 달비계 로프가 끊어져 떨어진 사고",
+        "건물 외벽 준동 청소 달비계 로프 파단 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39873",
+      "concat": "[TITLE] [중대재해사례 OPL]보일러 내부 달대비계 작업발판 해체 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]보일러 내부 달대비계 작업발판 해체 중 떨어짐",
+      "query": [
+        "달대비계 추락",
+        "보일러 안에서 달대비계 작업발판을 해체하다 떨어진 사고",
+        "보일러 내부 달대비계 작업발판 해체 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39872",
+      "concat": "[TITLE] [중대재해사례 OPL]아파트 외벽 도장 작업 중 로프가 풀려서 떨어짐\n[SUMMARY] [중대재해사례 OPL]아파트 외벽 도장 작업 중 떨어짐",
+      "query": [
+        "외벽 도장 추락",
+        "아파트 외벽 도장 작업 중 로프가 풀려 떨어진 사고",
+        "아파트 외벽 도장 작업 로프 풀림 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39871",
+      "concat": "[TITLE] [중대재해사례 OPL]아파트 외벽 도장 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]아파트 외벽 도장 작업 중 떨어짐",
+      "query": [
+        "아파트 도장 추락",
+        "아파트 외벽에서 도장 작업을 하다가 떨어진 사고 사례",
+        "아파트 외벽 도장 작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39868",
+      "concat": "[TITLE] [중대재해사례 OPL]이동식비계에서 작업 중 몸의 중심을 잃고 떨어짐\n[SUMMARY] [중대재해사례 OPL]이동식비계에서 작업 중 몸의 중심을 잃고 떨어짐",
+      "query": [
+        "이동식비계 추락",
+        "이동식비계에서 작업하다 중심을 잃고 떨어진 사고",
+        "이동식비계 작업 몸의 중심 잃고 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39869",
+      "concat": "[TITLE] [중대재해사례 OPL]외부비계 위에서 방수작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]외부비계 위에서 방수작업 중 떨어짐",
+      "query": [
+        "비계 방수작업 추락",
+        "외부비계에서 방수 작업을 하던 중 떨어진 사고 사례",
+        "외부비계 방수작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39867",
+      "concat": "[TITLE] [중대재해사례 OPL]엘리베이터 피트 내부 거푸집 해체 작업 중 떨어짐\n[SUMMARY] 엘리베이터 피트 내부 거푸집 해체 작업 중 떨어짐 [중대재해사례 OPL]",
+      "query": [
+        "엘리베이터 피트 추락",
+        "엘리베이터 피트 안에서 거푸집을 해체하다 떨어진 사고",
+        "엘리베이터 피트 내부 거푸집 해체 작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39866",
+      "concat": "[TITLE] [중대재해사례 OPL]콘크리트 타설 작업 중 수직개구부로 떨어짐\n[SUMMARY] [중대재해사례 OPL]콘크리트 타설 작업 중 수직개구부로 떨어짐",
+      "query": [
+        "개구부 추락 사고",
+        "콘크리트 타설 작업 중 수직 개구부로 떨어진 사고",
+        "콘크리트 타설 작업 수직개구부 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39865",
+      "concat": "[TITLE] [중대재해사례 OPL]유로폼 해체 작업 중 몸의 중심을 잃고 떨어짐\n[SUMMARY] [중대재해사례 OPL]유로폼 해체 작업 중 몸의 중심을 잃고 떨어짐",
+      "query": [
+        "유로폼 해체 추락",
+        "유로폼을 해체하다 몸의 중심을 잃고 떨어진 사고",
+        "유로폼 해체 작업 몸의 중심 잃고 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39864",
+      "concat": "[TITLE] [중대재해사례 OPL]외부 강관비계가 전도되어 하부 작업자 깔림\n[SUMMARY] [중대재해사례 OPL]외부 강관비계가 전도되어 하부 작업자 깔림",
+      "query": [
+        "강관비계 전도",
+        "외부 강관비계가 넘어져 아래 작업자가 깔린 사고",
+        "외부 강관비계 전도 하부 작업자 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39863",
+      "concat": "[TITLE] [중대재해사례 OPL]배관설치 작업 중 이동식비계 전도되어 떨어짐\n[SUMMARY] [중대재해사례 OPL]배관설치 작업 중 이동식비계 전도되어 떨어짐",
+      "query": [
+        "이동식비계 전도",
+        "배관 설치 작업 중 이동식비계가 넘어져 떨어진 사고",
+        "배관설치 작업 이동식비계 전도 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39862",
+      "concat": "[TITLE] [중대재해사례 OPL]천장 급수배관 누수부위 점검 중 이동식비계가 전도되어 콘크리트 바닥으로 떨어짐\n[SUMMARY] [중대재해사례 OPL]천장 급수배관 누수부위 점검 중 이동식비계가 전도되어 콘크리트 바닥으로 떨어짐",
+      "query": [
+        "천장 배관 비계 추락",
+        "천장 급수배관 누수 점검 중 이동식비계가 넘어져 떨어진 사고",
+        "천장 급수배관 누수부위 점검 이동식비계 전도 콘크리트 바닥 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39861",
+      "concat": "[TITLE] [중대재해사례 OPL]내부비계 위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]내부비계 위에서 벽체 미장작업 중 떨어짐",
+      "query": [
+        "내부비계 미장 추락",
+        "내부비계 위에서 벽체 미장 작업을 하다가 떨어진 사고",
+        "내부비계 벽체 미장작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39859",
+      "concat": "[TITLE] [중대재해사례 OPL]비계 해체 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]비계 해체 작업 중 떨어짐",
+      "query": [
+        "비계 해체 추락",
+        "비계 해체 작업을 하던 중 작업자가 떨어진 사고 사례",
+        "비계 해체 작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39860",
+      "concat": "[TITLE] [중대재해사례 OPL]벽면 거푸집 고정용 핀 제거 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]벽면 거푸집 고정용 핀 제거 작업 중 떨어짐",
+      "query": [
+        "거푸집 핀 추락",
+        "벽면 거푸집 고정 핀을 제거하다 떨어진 사고 사례",
+        "벽면 거푸집 고정용 핀 제거 작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39879",
+      "concat": "[TITLE] [중대재해사례 OPL]설비공사 중 작업발판 사이로 떨어짐\n[SUMMARY] [중대재해사례 OPL]설비공사 중 작업발판 사이로 떨어짐",
+      "query": [
+        "작업발판 추락",
+        "설비공사 중 작업발판 사이로 떨어진 사고 사례",
+        "설비공사 작업발판 사이 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39878",
+      "concat": "[TITLE] [중대재해사례 OPL]외벽 거푸집 설치 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]외벽 거푸집 설치 작업 중 떨어짐",
+      "query": [
+        "외벽 거푸집 추락",
+        "외벽 거푸집 설치 작업을 하다가 떨어진 사고 사례",
+        "외벽 거푸집 설치 작업 떨어짐 중대재해사례 OPL"
+      ]
+    }
+  ]
+}

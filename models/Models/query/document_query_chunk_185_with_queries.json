@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 185,
+  "items": [
+    {
+      "record_id": "list3_30980",
+      "concat": "[TITLE] 여성근로자의 안전한 일터(2012년)\n[SUMMARY] 여성근로자를 대상으로 한 안전보건 교육교재로 여성근로자 재해의 특성, 재해사례 위주로 구성하였습니다. [목차] 여성의 취업 현황 2 여성의 특징 4 여성 근로자의 산업재해 관련 통계 4 여성 근로자의 재해사례와 예방대책 8 재해 예방을 위한 스트레칭 28",
+      "query": [
+        "여성근로자 안전 일터",
+        "여성 근로자 재해사례와 예방 교육자료를 찾고 있어요",
+        "여성근로자의 안전한 일터 안전보건 교육교재 재해사례 예방대책 스트레칭"
+      ]
+    },
+    {
+      "record_id": "list3_31091",
+      "concat": "[TITLE] 안전보건OPL-음식업(17종)\n[SUMMARY] 공단에서 제작한 안전보건OPL중 음식업관련 OPL 17종을 책자 형태로 따로 제작하여 사업수행시 활용하려고 함 - 배포대상 : 음식업 위생교육 참석자, 음식업관련 직능단체 - 제작형태 : 책자(흑백)",
+      "query": [
+        "음식업 안전보건",
+        "음식점에서 쓰는 안전수칙이나 재해예방 자료를 찾고 있어요",
+        "안전보건 OPL 음식업 재해예방 스티커북 안내표지 중량물표지"
+      ]
+    },
+    {
+      "record_id": "list3_30910",
+      "concat": "[TITLE] 안전보건지킴이 업무 매뉴얼(제조)\n[SUMMARY] o 안전보건지킴이가 사업장 내에서 안전보건활동을 실질적으로 수행할 수 있도록 동 매뉴얼 구성·제작",
+      "query": [
+        "안전보건지킴이 제조",
+        "제조업 안전보건지킴이가 현장에서 하는 일을 알려주는 자료가 필요해요",
+        "안전보건지킴이 업무 매뉴얼 제조 사업장 안전보건활동"
+      ]
+    },
+    {
+      "record_id": "list3_30979",
+      "concat": "[TITLE] 고령근로자의 안전한 일터(2012년)\n[SUMMARY] 고령근로자를 대상으로 한 안전보건 교육교재로 고령근로자 재해의 특성, 재해사례 위주로 구성하였습니다",
+      "query": [
+        "고령근로자 안전",
+        "나이 많은 근로자 재해사례와 안전교육 자료를 찾고 있어요",
+        "고령근로자의 안전한 일터 안전보건 교육교재 재해특성 재해사례"
+      ]
+    },
+    {
+      "record_id": "list3_30911",
+      "concat": "[TITLE] 안전보건지킴이 업무 매뉴얼(건설)\n[SUMMARY] 안전보건지킴이가 사업장 내에서 안전보건활동을 실질적으로 수행할 수 있도록 동 매뉴얼 구성·제작",
+      "query": [
+        "안전보건지킴이 건설",
+        "건설현장 안전보건지킴이 업무를 설명한 매뉴얼이 필요해요",
+        "안전보건지킴이 업무 매뉴얼 건설 사업장 안전보건활동"
+      ]
+    },
+    {
+      "record_id": "list3_30912",
+      "concat": "[TITLE] 안전보건지킴이 업무 매뉴얼(서비스)\n[SUMMARY] 안전보건지킴이가 사업장 내에서 안전보건활동을 실질적으로 수행할 수 있도록 동 매뉴얼 구성·제작",
+      "query": [
+        "안전보건지킴이 서비스",
+        "서비스업 현장에서 안전보건지킴이가 해야 할 일을 알고 싶어요",
+        "안전보건지킴이 업무 매뉴얼 서비스 사업장 안전보건활동"
+      ]
+    },
+    {
+      "record_id": "list3_32733",
+      "concat": "[TITLE] (제조,인도네시아)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "인도네시아 제조업 안전",
+        "인도네시아 외국인 근로자에게 제조업 안전교육할 자료가 필요해요",
+        "인도네시아 제조업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Manufacturing Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32730",
+      "concat": "[TITLE] (건설,베트남)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "베트남 건설업 안전",
+        "베트남 외국인 근로자에게 건설현장 안전교육할 교재를 찾고 있어요",
+        "베트남 건설업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Construction Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32731",
+      "concat": "[TITLE] (건설,우즈벡)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "우즈벡 건설업 안전",
+        "우즈벡 외국인 근로자용 건설업 안전보건 교육자료가 필요해요",
+        "우즈벡 건설업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Construction Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32734",
+      "concat": "[TITLE] (제조,파키스탄)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "파키스탄 제조업 안전",
+        "파키스탄 외국인 근로자에게 제조업 안전교육할 자료를 찾고 있어요",
+        "파키스탄 제조업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Manufacturing Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32729",
+      "concat": "[TITLE] (건설,스리랑카)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "스리랑카 건설업 안전",
+        "스리랑카 외국인 근로자를 위한 건설업 안전보건 교재가 필요해요",
+        "스리랑카 건설업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Construction Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32732",
+      "concat": "[TITLE] (건설,중국)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "중국 건설업 안전",
+        "중국 외국인 근로자에게 건설현장 안전교육할 자료를 찾고 있어요",
+        "중국 건설업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Construction Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32728",
+      "concat": "[TITLE] (건설,방글라데시)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "방글라데시 건설업 안전",
+        "방글라데시 외국인 근로자에게 건설업 안전보건을 설명하는 교재가 필요해요",
+        "방글라데시 건설업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Construction Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32727",
+      "concat": "[TITLE] (건설,몽골)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "몽골 건설업 안전",
+        "몽골 외국인 근로자용 건설현장 안전보건 교육자료를 찾고 있어요",
+        "몽골 건설업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Construction Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32726",
+      "concat": "[TITLE] (건설,파키스탄)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "파키스탄 건설업 안전",
+        "파키스탄 외국인 근로자에게 건설현장 안전교육할 교재가 필요해요",
+        "파키스탄 건설업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Construction Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32725",
+      "concat": "[TITLE] (건설,인도네시아)Safety and Healthcare Manual for Foreign Workers -Construction Industry 외국인 근로자 안전보건 교재 - 건설업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "인도네시아 건설업 안전",
+        "인도네시아 외국인 근로자를 위한 건설업 안전보건 교재를 찾고 있어요",
+        "인도네시아 건설업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Construction Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32721",
+      "concat": "[TITLE] (제조,베트남)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "베트남 제조업 안전",
+        "베트남 외국인 근로자에게 제조업 안전교육할 자료가 필요해요",
+        "베트남 제조업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Manufacturing Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32722",
+      "concat": "[TITLE] (제조,몽골)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "몽골 제조업 안전",
+        "몽골 외국인 근로자용 제조업 안전보건 교육자료를 찾고 있어요",
+        "몽골 제조업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Manufacturing Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32720",
+      "concat": "[TITLE] (제조,중국)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "중국 제조업 안전",
+        "중국 외국인 근로자에게 제조업 안전교육할 교재가 필요해요",
+        "중국 제조업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Manufacturing Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32735",
+      "concat": "[TITLE] (제조,태국)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "태국 제조업 안전",
+        "태국 외국인 근로자를 위한 제조업 안전보건 교재를 찾고 있어요",
+        "태국 제조업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Manufacturing Industry"
+      ]
+    },
+    {
+      "record_id": "list3_32736",
+      "concat": "[TITLE] (제조,방글라데시)Safety and Healthcare Manual for Foreign Workers - Manufacturing Industry 외국인 근로자 안전보건 교재 - 제조업\n[SUMMARY] The material is a teaching material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 교재 자료입니다.",
+      "query": [
+        "방글라데시 제조업 안전",
+        "방글라데시 외국인 근로자에게 제조업 안전교육할 자료가 필요해요",
+        "방글라데시 제조업 외국인 근로자 안전보건 교재 Safety and Healthcare Manual Manufacturing Industry"
+      ]
+    },
+    {
+      "record_id": "list3_30897",
+      "concat": "[TITLE] 서비스업 사업장 안전보건가이드\n[SUMMARY] 서비스업 사업장 안전보건가이드 - 산업안전보건법 - 서비스 사업안내 - 재해사례, 안전수칙",
+      "query": [
+        "서비스업 안전보건",
+        "서비스업 사업장에서 지켜야 할 안전수칙과 재해사례 자료를 찾고 있어요",
+        "서비스업 사업장 안전보건 가이드 산업안전보건법 서비스 사업안내 재해사례 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list3_31009",
+      "concat": "[TITLE] 취업자 근로환경 심층분석 세미나 자료집\n[SUMMARY] 취업자 근로환경 심층분석 세미나 자료집",
+      "query": [
+        "근로환경 분석 세미나",
+        "취업자 근로환경을 심층 분석한 세미나 자료집을 찾고 있어요",
+        "취업자 근로환경 심층분석 세미나 자료집"
+      ]
+    },
+    {
+      "record_id": "list3_31005",
+      "concat": "[TITLE] 안전보건 공생협력 프로그램 우수사례 발표대회\n[SUMMARY] 제45회 산업안전보건강조주간 안전보건활동 우수사례 발표대회(공생협렵 프로그램 부문) 발표자료 책자",
+      "query": [
+        "공생협력 우수사례",
+        "안전보건 공생협력 프로그램 우수사례 발표자료를 찾고 있어요",
+        "안전보건 공생협력 프로그램 우수사례 발표대회 산업안전보건강조주간"
+      ]
+    },
+    {
+      "record_id": "list3_30974",
+      "concat": "[TITLE] 산재예방의 달인(행복을 위한 안전발걸음)\n[SUMMARY] 2011년 1월 ~ 2012년 6월 고용노동부가 선정한 '산재예방의 달인' 인터뷰 취재 단행본",
+      "query": [
+        "산재예방 달인",
+        "산재예방 우수 인물 인터뷰나 사례 모음 자료를 찾고 있어요",
+        "산재예방의 달인 행복을 위한 안전발걸음 인터뷰 단행본"
+      ]
+    },
+    {
+      "record_id": "list3_30937",
+      "concat": "[TITLE] 방호장치.보호구 품질대상 수상제품\n[SUMMARY] 방호장치.보호구 품질대상 수상제품 목록집",
+      "query": [
+        "보호구 수상제품",
+        "방호장치나 보호구 품질대상 받은 제품 목록을 찾고 있어요",
+        "방호장치 보호구 품질대상 수상제품 목록집"
+      ]
+    },
+    {
+      "record_id": "list3_31007",
+      "concat": "[TITLE] 『안전보건 우수사례 발표대회-제조업 대기업분야』발표 자료\n[SUMMARY] 『안전보건 우수사례 발표대회-제조업 대기업분야』본선 발표 자료 모음집",
+      "query": [
+        "제조업 안전보건 우수사례",
+        "제조업 대기업 안전보건 우수사례 발표자료를 찾고 있어요",
+        "안전보건 우수사례 발표대회 제조업 대기업분야 발표 자료"
+      ]
+    },
+    {
+      "record_id": "list3_30917",
+      "concat": "[TITLE] 2012년 무재해운동 가이드북\n[SUMMARY] 2012년 무재해운동 가이드북",
+      "query": [
+        "무재해운동 가이드북",
+        "사업장에서 무재해운동을 진행할 때 참고할 자료가 필요해요",
+        "무재해운동 가이드북"
+      ]
+    },
+    {
+      "record_id": "list3_30919",
+      "concat": "[TITLE] 화학제품제조업 안전\n[SUMMARY] 중간관리자기초 안전교육과정인 화학제품제조업에 참석하는 관리감독자용 교재임 ㅇ 재해발생 현황 및 분석 ㅇ재해사례 및 예방대책",
+      "query": [
+        "화학제품제조업 안전",
+        "화학제품 제조업 관리감독자 안전교육 교재를 찾고 있어요",
+        "화학제품제조업 안전 중간관리자 기초 안전교육 관리감독자 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list3_30860",
+      "concat": "[TITLE] 건설공사 안전 및 근로자 건강관리\n[SUMMARY] 건설업 기초안전보건교육용 교재 - 건축공사 및 토목공사 작업공종별 안전작업방법 - 기타공사 작업공종별 안전작업방법 - 밀폐공간작업 건강장해예방 - 업무상 질병 예방대책 - 건설 중대재해사례 및 대책",
+      "query": [
+        "건설공사 안전 건강",
+        "건설업 기초안전교육에서 쓰는 공종별 안전작업과 건강관리 자료가 필요해요",
+        "건설공사 안전 및 근로자 건강관리 기초안전보건교육 작업공종 안전작업 밀폐공간 중대재해사례"
+      ]
+    }
+  ]
+}

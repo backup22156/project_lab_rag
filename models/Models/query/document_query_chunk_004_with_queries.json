@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 4,
+  "items": [
+    {
+      "record_id": "list1_52366",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 26. 조경·제초 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 26. 조경·제초 작업",
+      "query": [
+        "조경 제초 안전",
+        "풀 베기나 조경 작업 중 사고를 막는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 조경 제초 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52370",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 31. 채석장에서의 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 31. 채석장에서의 작업",
+      "query": [
+        "채석장 작업 안전",
+        "채석장에서 일할 때 사고를 예방하는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 채석장 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52369",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 30. 차량 운전 등 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 30. 차량 운전 등 작업",
+      "query": [
+        "차량 운전 작업 안전",
+        "작업장에서 차량을 운전할 때 사고를 막는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 차량 운전 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52343",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 28. 지게차 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 28. 지게차 사용 작업",
+      "query": [
+        "지게차 작업 안전",
+        "지게차를 사용할 때 사고를 예방하는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 지게차 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52365",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 25. 정비·수리·교체·조정(비정형 작업)\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 25. 정비·수리·교체·조정(비정형 작업)",
+      "query": [
+        "정비 수리 안전",
+        "기계나 설비를 고치고 조정할 때 필요한 사고 예방 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 정비 수리 교체 조정 비정형 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52367",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 27. 중량물 취급·운반 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 27. 중량물 취급·운반 작업",
+      "query": [
+        "무거운 물건 운반",
+        "무거운 물건을 들거나 옮길 때 사고를 막는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 중량물 취급 운반 작업"
+      ]
+    },
+    {
+      "record_id": "list1_51884",
+      "concat": "[TITLE] (중국)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "중국 외국인 안전앱",
+        "중국 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "중국 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51881",
+      "concat": "[TITLE] (라오스)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "라오스 외국인 안전앱",
+        "라오스 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "라오스 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51880",
+      "concat": "[TITLE] (파키스탄)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "파키스탄 외국인 안전앱",
+        "파키스탄 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "파키스탄 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51882",
+      "concat": "[TITLE] (우즈베키스탄)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "우즈베키스탄 외국인 안전앱",
+        "우즈베키스탄 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "우즈베키스탄 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51883",
+      "concat": "[TITLE] (몽골)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "몽골 외국인 안전앱",
+        "몽골 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "몽골 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51878",
+      "concat": "[TITLE] (키르기스스탄)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "키르기스스탄 외국인 안전앱",
+        "키르기스스탄 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "키르기스스탄 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51876",
+      "concat": "[TITLE] (베트남)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "베트남 외국인 안전앱",
+        "베트남 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "베트남 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51877",
+      "concat": "[TITLE] (방글라데시)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "방글라데시 외국인 안전앱",
+        "방글라데시 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "방글라데시 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51875",
+      "concat": "[TITLE] (태국)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "태국 외국인 안전앱",
+        "태국 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "태국 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51069",
+      "concat": "[TITLE] [학교 급식실] 근골격계질환 예방\n[SUMMARY] [학교 급식실] 근골격계질환 예방",
+      "query": [
+        "급식실 근골격계질환",
+        "학교 급식실에서 허리나 손목 통증을 예방하는 자료",
+        "학교 급식실 근골격계질환 예방"
+      ]
+    },
+    {
+      "record_id": "list1_51873",
+      "concat": "[TITLE] (스리랑카)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "스리랑카 외국인 안전앱",
+        "스리랑카 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "스리랑카 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51872",
+      "concat": "[TITLE] (동티모르)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "동티모르 외국인 안전앱",
+        "동티모르 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "동티모르 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51061",
+      "concat": "[TITLE] [항만 안전] 항만 출입 시 안전수칙\n[SUMMARY] [항만 안전] 항만 출입 시 안전수칙",
+      "query": [
+        "항만 출입 안전",
+        "항만에 들어갈 때 지켜야 할 안전수칙 자료",
+        "항만 안전 항만 출입 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51067",
+      "concat": "[TITLE] [학교 급식실] 호흡기 질환과 관리\n[SUMMARY] [학교 급식실] 호흡기 질환과 관리",
+      "query": [
+        "급식실 호흡기 질환",
+        "학교 급식실에서 호흡기 질환을 관리하는 방법 자료",
+        "학교 급식실 호흡기 질환 관리"
+      ]
+    },
+    {
+      "record_id": "list1_51070",
+      "concat": "[TITLE] [학교 급식실] 주요 재해사례\n[SUMMARY] [학교 급식실] 주요 재해사례",
+      "query": [
+        "급식실 사고 사례",
+        "학교 급식실에서 자주 생기는 재해 사례를 찾고 싶을 때",
+        "학교 급식실 주요 재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_51874",
+      "concat": "[TITLE] (캄보디아)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "캄보디아 외국인 안전앱",
+        "캄보디아 외국인 노동자에게 안전보건 앱을 안내하는 자료",
+        "캄보디아 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51068",
+      "concat": "[TITLE] [학교 급식실] 화상 및 예방\n[SUMMARY] [학교 급식실] 화상 및 예방",
+      "query": [
+        "급식실 화상 예방",
+        "학교 급식실에서 뜨거운 물이나 음식으로 다치는 사고 예방 자료",
+        "학교 급식실 화상 예방"
+      ]
+    },
+    {
+      "record_id": "list1_51122",
+      "concat": "[TITLE] [특수형태근로종사자] 택배기사\n[SUMMARY] 특수형태근로종사자의 안전보건 - 택배기사",
+      "query": [
+        "택배기사 안전",
+        "택배 기사로 일할 때 필요한 안전보건 자료",
+        "특수형태근로종사자 택배기사 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_52007",
+      "concat": "[TITLE] [중대재해] 철골 데크 플레이트 용접작업 중 떨어짐\n[SUMMARY] [중대재해] 철골 데크 플레이트 용접작업 중 떨어짐",
+      "query": [
+        "데크 용접 추락",
+        "철골 데크 플레이트 용접 중 떨어진 사고 사례 자료",
+        "중대재해 철골 데크 플레이트 용접작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51983",
+      "concat": "[TITLE] [중대재해] 지붕 바닥에 기와 잇기 작업 중 떨어짐\n[SUMMARY] [중대재해] 지붕 바닥에 기와 잇기 작업 중 떨어짐",
+      "query": [
+        "지붕 기와 추락",
+        "지붕에서 기와 작업을 하다가 떨어진 사고 사례 자료",
+        "중대재해 지붕 바닥 기와 잇기 작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_50740",
+      "concat": "[TITLE] 배달종사자 안전 가이드\n[SUMMARY] 배달종사자 안전 가이드",
+      "query": [
+        "배달 안전 가이드",
+        "배달 일을 할 때 사고를 예방하는 안전 자료",
+        "배달종사자 안전 가이드"
+      ]
+    },
+    {
+      "record_id": "list1_52006",
+      "concat": "[TITLE] [중대재해] 후진하는 토사반출 덤프트럭에서 하차 중 떨어짐\n[SUMMARY] [중대재해] 후진하는 토사반출 덤프트럭에서 하차 중 떨어짐",
+      "query": [
+        "덤프트럭 하차 추락",
+        "후진하는 덤프트럭에서 내리다가 떨어진 사고 사례 자료",
+        "중대재해 후진 토사반출 덤프트럭 하차 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51066",
+      "concat": "[TITLE] [학교 급식실] 조리 로봇 안전가이드\n[SUMMARY] [학교 급식실] 조리 로봇 안전가이드",
+      "query": [
+        "급식실 조리 로봇",
+        "학교 급식실에서 조리 로봇을 안전하게 쓰는 자료",
+        "학교 급식실 조리 로봇 안전가이드"
+      ]
+    },
+    {
+      "record_id": "list1_52008",
+      "concat": "[TITLE] [중대재해] 주택 지붕 단부 빗물 방지턱 미장작업 중 떨어짐\n[SUMMARY] [중대재해] 주택 지붕 단부 빗물 방지턱 미장작업 중 떨어짐",
+      "query": [
+        "지붕 미장 추락",
+        "주택 지붕에서 미장 작업을 하다가 떨어진 사고 사례 자료",
+        "중대재해 주택 지붕 단부 빗물 방지턱 미장작업 떨어짐"
+      ]
+    }
+  ]
+}

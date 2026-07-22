@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 167,
+  "items": [
+    {
+      "record_id": "list3_41940",
+      "concat": "[TITLE] 안전보건 공생협력 프로그램 설명회자료\n[SUMMARY] 안전보건 공생협력 프로그램 설명회자료(책자)",
+      "query": [
+        "공생협력 설명회",
+        "사업장 안전보건 공생협력 프로그램 설명회 자료를 찾고 있어요",
+        "안전보건 공생협력 프로그램 설명회자료"
+      ]
+    },
+    {
+      "record_id": "list3_41878",
+      "concat": "[TITLE] 화재위험작업 확인·게시 매뉴얼\n[SUMMARY] 사업장 화재 예방을 위한 화재위험작업 확인·게시 매뉴얼, 사업장에서 용접·용단 작업을 포함한 화재위험작업의 위험요인을 제거하고 작업 전 안전을 확보하기 위하여 작업현장 안전조치 확인 및 작업수행에 필요한 사항을 제시하는 것을 목적",
+      "query": [
+        "화재위험작업 확인",
+        "용접이나 용단 같은 화재위험작업 전에 확인하고 게시해야 할 내용을 찾고 있어요",
+        "화재위험작업 확인 게시 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_41876",
+      "concat": "[TITLE] 해빙기 건설현장 안전보건 길잡이\n[SUMMARY] 해빙기 취약시기 건설현장의 위험요인별 안전대책 및 재해사례를 공유하여 건설업 사고사망재해 예방에 기여",
+      "query": [
+        "해빙기 건설현장",
+        "봄철 해빙기에 건설현장에서 주의해야 할 안전대책 자료를 찾고 있어요",
+        "해빙기 건설현장 안전보건 길잡이"
+      ]
+    },
+    {
+      "record_id": "list3_41755",
+      "concat": "[TITLE] (특수형태근로종사자)콘크리트믹서트럭 운전자의 안전보건\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "콘크리트믹서트럭 안전교육",
+        "콘크리트믹서트럭 운전자가 처음 일할 때 보는 안전보건 교육자료를 찾고 있어요",
+        "특수형태근로종사자 콘크리트믹서트럭 운전자 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_41754",
+      "concat": "[TITLE] (특수형태근로종사자)아스팔트피니셔 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "아스팔트피니셔 안전교육",
+        "아스팔트피니셔 운전자를 위한 안전보건 교육자료를 찾고 있어요",
+        "특수형태근로종사자 아스팔트피니셔 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_41618",
+      "concat": "[TITLE] 라돈 노출 근로자 건강장해 예방을 위한 정책연구\n[SUMMARY] 라돈이 방출되는 원료를 취급하거나 자연 발생하는 경우를 의도적 및 비의도적 노출 사업장으로 구분한 다음 측정 및 노출 평가를 수행하였고 그에 따른 제도개선의 규제영향분석 수행",
+      "query": [
+        "라돈 근로자 건강",
+        "라돈에 노출되는 근로자의 건강피해를 줄이기 위한 정책 연구를 찾고 있어요",
+        "라돈 노출 근로자 건강장해 예방 정책연구"
+      ]
+    },
+    {
+      "record_id": "list3_41679",
+      "concat": "[TITLE] 항공기 청소노동자 유해인자 노출평가 및 작업환경관리방안\n[SUMMARY] 항공기 청소노동자에게 노출되는 다양한 유해인자의 노출농도 수준을 평가하고 농도에 영향을 주는 환경인자 확인을 통해 작업환경관리방안 제시",
+      "query": [
+        "항공기 청소 유해인자",
+        "항공기 청소노동자가 어떤 유해물질에 노출되는지와 관리방법을 알고 싶어요",
+        "항공기 청소노동자 유해인자 노출평가 작업환경관리방안"
+      ]
+    },
+    {
+      "record_id": "list3_41620",
+      "concat": "[TITLE] 석면조사 및 석면해체, 제거작업 제도개선 방안 연구\n[SUMMARY] 석면조사 및 석면해체·제거작업과 관련된 제도 검토 및 현장조사를 통하여 안전한 석면관리를 위한 제도개선 방안을 마련하여 정책결정에 기초자료로 활용",
+      "query": [
+        "석면해체 제도개선",
+        "석면 조사와 해체 제거 작업 제도를 어떻게 개선할지 다룬 연구를 찾고 있어요",
+        "석면조사 석면해체 제거작업 제도개선 방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_41676",
+      "concat": "[TITLE] 나노복합체의 가공시 공기 중에 발생하는 입자의 특성연구\n[SUMMARY] 산화아연 나노복합체를 가공할 시 산화아연 나노입자가 많이 첨가된 물질일수록 더 높은 농도수준의 나노입자에 노출될 수 있으며, 비산된 복합체 입자와 물질로부터 분리된 산화아연의 나노입자를 흡입할 가능성이 있음을 규명",
+      "query": [
+        "나노복합체 입자",
+        "나노복합체를 가공할 때 공기 중에 발생하는 입자 특성을 다룬 연구가 필요해요",
+        "나노복합체 가공 공기 중 발생 입자 특성연구"
+      ]
+    },
+    {
+      "record_id": "list3_41615",
+      "concat": "[TITLE] 기후변화에 따른 옥외작업자 건강보호 종합대책 마련 연구\n[SUMMARY] 우리나라의 옥외작업자 규모 추정 및 기후변화로 인한 옥외 작업자의 건강영향에 대한 현황과 건강보호 대책의 필요성을 확인하고 위험단계 기준 및 단계별 행동요령을 제시",
+      "query": [
+        "옥외작업자 기후변화",
+        "기후변화 때문에 야외에서 일하는 사람들의 건강을 보호하는 대책 자료를 찾고 있어요",
+        "기후변화 옥외작업자 건강보호 종합대책 마련 연구"
+      ]
+    },
+    {
+      "record_id": "list3_41613",
+      "concat": "[TITLE] 작업환경측정분석 국가산업표준(KS) 제정 연구\n[SUMMARY] 국제표준(ISO)과 관련 국가산업표준(KS)의 용어정리 및 규격화를 수행하고 측정, 분석, 노출평가방법 등 관련 산업표준에 대한 12종 제정(안)마련",
+      "query": [
+        "작업환경측정 KS",
+        "작업환경 측정과 분석 방법을 국가산업표준으로 정리한 연구를 찾고 있어요",
+        "작업환경측정분석 국가산업표준 KS 제정 연구"
+      ]
+    },
+    {
+      "record_id": "list3_41805",
+      "concat": "[TITLE] 급성독성 화학물질의 유해성 예측프로그램 적용연구\n[SUMMARY] 2019년도 유해성연구부 자체연구과제로 수행된 연구보고서, 안전보건분야에서 화학물질 관리를 위해 예측프로그램을 활용하는 방안으로는 산업안전보건연구원에서 수행하고 있는 유전독성 및 발암성 시험의 후보물 질 선정을 위한 사전 스크리닝용이나 안전보건공단의 MSDS를 통해 건강유해성 정보를 제공하기 위하여 사용할 수 있으며, 유전독성 시험성적서 제출을 생략하고 있는 1톤 미만의 신규화학물질을 대상으로 변이원성을 예측하여 사업장 및 근로자 등에게 건강장해 예방자료로 제공할 수 있을 것",
+      "query": [
+        "화학물질 독성 예측",
+        "급성독성 화학물질의 유해성을 프로그램으로 예측하는 연구자료를 찾고 있어요",
+        "급성독성 화학물질 유해성 예측프로그램 적용연구"
+      ]
+    },
+    {
+      "record_id": "list3_41635",
+      "concat": "[TITLE] 예방문화 선행지표 개발을 위한 현장조사 및 정교화 연구\n[SUMMARY] 1년차 신뢰 예비문항에서 도출된 결과를 재분석하고 제한점을 보완하고 2년차 신뢰 예비문항을 도출하였다.",
+      "query": [
+        "예방문화 선행지표",
+        "사업장의 예방문화를 미리 파악할 수 있는 지표 개발 연구를 찾고 있어요",
+        "예방문화 선행지표 개발 현장조사 정교화 연구"
+      ]
+    },
+    {
+      "record_id": "list3_41617",
+      "concat": "[TITLE] 작업환경측정 정도관리 시료조제 자동화기기 개발 -금속분야-\n[SUMMARY] 정도관리 사업수행에 기여하기 위하여 작업환경측정 정도관리 금속분야 시료 조제를 위한 자동화기기를 개발하고 그 성능을 평가",
+      "query": [
+        "시료조제 자동화",
+        "작업환경측정 정도관리에서 금속 시료를 자동으로 조제하는 기기 개발 연구를 찾고 있어요",
+        "작업환경측정 정도관리 시료조제 자동화기기 개발 금속분야"
+      ]
+    },
+    {
+      "record_id": "list3_41832",
+      "concat": "[TITLE] 산업안전보건법 전부개정 안내 소책자\n[SUMMARY] 2020년 1월 16일 부터 시행되는 산업안전보건법 전부개정 사항에 대한 안내 소책자 입니다.",
+      "query": [
+        "산안법 개정 안내",
+        "산업안전보건법이 전부 개정되면서 바뀐 내용을 쉽게 정리한 자료를 찾고 있어요",
+        "산업안전보건법 전부개정 안내 소책자"
+      ]
+    },
+    {
+      "record_id": "list3_41684",
+      "concat": "[TITLE] 건설업 안전관리 업무 효율 향상을 위한 연구\n[SUMMARY] 건설업 안전관리자 업무 현황 실태조사 및 관련 업무 간소화를 통한 효율 향상을 위한 연구보고서",
+      "query": [
+        "건설 안전관리 업무",
+        "건설업 안전관리자의 업무를 줄이고 효율화하는 방안을 다룬 연구를 찾고 있어요",
+        "건설업 안전관리 업무 효율 향상 연구"
+      ]
+    },
+    {
+      "record_id": "list3_41827",
+      "concat": "[TITLE] 2019년 동향모음집\n[SUMMARY] 동향 12개월 분을 기사 종류별로 모은 통합본 입니다.",
+      "query": [
+        "동향 모음집",
+        "한 해 동안 나온 동향 자료를 기사 종류별로 모아둔 자료를 찾고 있어요",
+        "동향모음집"
+      ]
+    },
+    {
+      "record_id": "list3_41706",
+      "concat": "[TITLE] 2019 고령노동자 친화적 작업환경 우수사업장 사례집\n[SUMMARY] 2019 고령노동자 친화적 작업환경 우수사업장 사례집",
+      "query": [
+        "고령노동자 작업환경",
+        "나이 많은 노동자가 일하기 좋은 작업환경 우수사업장 사례를 찾고 있어요",
+        "고령노동자 친화적 작업환경 우수사업장 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_41637",
+      "concat": "[TITLE] 2019년 제2호 안전보건 연구실용화 리포트\n[SUMMARY] 2019년 제2호 연구실용화 리포트 1) 겨울철 한파로 인한 한랭질환 예방가이드 이행매뉴얼 개발 2) 특수형태근로종사자 등에 대한 안전보건 조치의무 신설 3) 건설업 보건관리 위험성평가 모델 개발-토목공사중심 4) 톨루엔의 생물학적 노출평가지표 변경에 따른 ‘소변 중 o-크레졸’ 표준시료 개발 5) 건설현장 비계작업안전 실무 안내서 개발",
+      "query": [
+        "연구실용화 리포트",
+        "안전보건 연구성과를 실제 현장에 활용한 사례 리포트를 찾고 있어요",
+        "안전보건 연구실용화 리포트"
+      ]
+    },
+    {
+      "record_id": "list3_40769",
+      "concat": "[TITLE] (교재) 현장작업자를 위한 철골 작업안전\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재",
+      "query": [
+        "철골 작업안전",
+        "현장 작업자가 철골 작업할 때 봐야 할 안전교육 자료를 찾고 있어요",
+        "현장작업자 철골 작업안전 교재"
+      ]
+    },
+    {
+      "record_id": "list3_40771",
+      "concat": "[TITLE] (교재) 현장작업자를 위한 기계기구, 설비의 정비보수 작업안전\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재",
+      "query": [
+        "정비보수 작업안전",
+        "기계나 설비를 정비보수할 때 필요한 안전수칙 교재를 찾고 있어요",
+        "현장작업자 기계기구 설비 정비보수 작업안전 교재"
+      ]
+    },
+    {
+      "record_id": "list3_41729",
+      "concat": "[TITLE] 조선업 안전관리모델_트랜스포터\n[SUMMARY] 조선업 직종별 안전보건 기술력 향상을 위한 트랜스포터 안전관리모델",
+      "query": [
+        "조선업 트랜스포터",
+        "조선업에서 트랜스포터 작업을 안전하게 관리하는 모델 자료를 찾고 있어요",
+        "조선업 안전관리모델 트랜스포터"
+      ]
+    },
+    {
+      "record_id": "list3_40770",
+      "concat": "[TITLE] (교재) 현장작업자를 위한 컨베이어 안전점검\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재",
+      "query": [
+        "컨베이어 안전점검",
+        "현장 작업자가 컨베이어를 점검할 때 참고할 안전교재를 찾고 있어요",
+        "현장작업자 컨베이어 안전점검 교재"
+      ]
+    },
+    {
+      "record_id": "list3_40768",
+      "concat": "[TITLE] (교재) 현장작업자를 위한 안전가시설 작업안전\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재",
+      "query": [
+        "안전가시설 작업안전",
+        "현장 작업자를 위한 안전가시설 작업 안전교육 자료를 찾고 있어요",
+        "현장작업자 안전가시설 작업안전 교재"
+      ]
+    },
+    {
+      "record_id": "list3_40773",
+      "concat": "[TITLE] (교재) 현장작업자를 위한 가스용접 작업안전\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재",
+      "query": [
+        "가스용접 작업안전",
+        "현장 작업자가 가스용접을 할 때 필요한 안전수칙 교재를 찾고 있어요",
+        "현장작업자 가스용접 작업안전 교재"
+      ]
+    },
+    {
+      "record_id": "list3_40772",
+      "concat": "[TITLE] (교재) 현장작업자를 위한 밀폐공간 작업안전\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재",
+      "query": [
+        "밀폐공간 작업안전",
+        "현장 작업자가 밀폐공간에서 작업할 때 필요한 안전교육 자료를 찾고 있어요",
+        "현장작업자 밀폐공간 작업안전 교재"
+      ]
+    },
+    {
+      "record_id": "list3_40774",
+      "concat": "[TITLE] (교재) 현장작업자를 위한 화학설비 작업안전\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재",
+      "query": [
+        "화학설비 작업안전",
+        "현장 작업자가 화학설비에서 일할 때 참고할 안전교재를 찾고 있어요",
+        "현장작업자 화학설비 작업안전 교재"
+      ]
+    },
+    {
+      "record_id": "list3_40662",
+      "concat": "[TITLE] 화물차량 운전원 안전작업 가이드\n[SUMMARY] 화물차량 운전자의 안전보건 확보를 위한 안전가이드를 제작하여 근로자에게 보급",
+      "query": [
+        "화물차 운전 안전",
+        "화물차 운전원이 안전하게 일하기 위한 작업 가이드를 찾고 있어요",
+        "화물차량 운전원 안전작업 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_38674",
+      "concat": "[TITLE] 사업장 안전보건관리 수요와 기술.재정지원 실효성 제고 방안 연구\n[SUMMARY] 사업장 규모별(소규모 건설공사 중심) 안전보건의 필요 수요을 파악하고 해당 사업장에 안전보건공단의 적정한 기술재정지원을 마련하기 위한 연구보고서임",
+      "query": [
+        "안전보건 지원 실효성",
+        "소규모 사업장에 필요한 안전보건 기술과 재정지원이 효과적인지 다룬 연구를 찾고 있어요",
+        "사업장 안전보건관리 수요 기술 재정지원 실효성 제고 방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_40775",
+      "concat": "[TITLE] (교재) 현장작업자를 위한 전기설비작업 안전\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재",
+      "query": [
+        "전기설비 작업안전",
+        "현장 작업자가 전기설비 작업을 할 때 필요한 안전교육 자료를 찾고 있어요",
+        "현장작업자 전기설비작업 안전 교재"
+      ]
+    }
+  ]
+}

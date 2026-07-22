@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 96,
+  "items": [
+    {
+      "record_id": "list1_33427",
+      "concat": "[TITLE] [중대재해_건설업]아파트 외벽 보수작업 중 달비계에서 떨어짐\n[SUMMARY] 아파트 외벽 보수작업 중 달비계에서 떨어짐 중대재해사례 OPL",
+      "query": [
+        "아파트 외벽 달비계 추락",
+        "아파트 외벽 보수하다가 달비계에서 떨어진 사고 자료",
+        "중대재해 건설업 아파트 외벽 보수작업 달비계 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33259",
+      "concat": "[TITLE] [화재·폭발·누출예방]실란(Silance)\n[SUMMARY] [화재·폭발·누출예방]실란(Silance)의 유해위험물질 취급관리",
+      "query": [
+        "실란 누출 폭발",
+        "실란 같은 위험물질을 다룰 때 화재 폭발 누출을 막는 방법",
+        "화재 폭발 누출예방 실란 Silance 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_33269",
+      "concat": "[TITLE] [화재·폭발·누출예방]인화성액체 누출사고 대응\n[SUMMARY] 사고대응/대비",
+      "query": [
+        "인화성 액체 누출",
+        "불이 잘 붙는 액체가 새었을 때 어떻게 대응해야 하는지",
+        "화재 폭발 누출예방 인화성액체 누출사고 대응 사고대응 대비"
+      ]
+    },
+    {
+      "record_id": "list1_33267",
+      "concat": "[TITLE] [화재·폭발·누출예방]독성물질 누출사고 대응\n[SUMMARY] 사고대응/대비",
+      "query": [
+        "독성물질 누출 대응",
+        "독성물질이 새는 사고가 났을 때 대피하고 대응하는 방법",
+        "화재 폭발 누출예방 독성물질 누출사고 대응 사고대응 대비"
+      ]
+    },
+    {
+      "record_id": "list1_33268",
+      "concat": "[TITLE] [화재·폭발·누출예방]독성가스 누출사고 대응\n[SUMMARY] 사고대응/대비",
+      "query": [
+        "독성가스 누출 대응",
+        "독성가스가 새었을 때 현장에서 어떻게 대응해야 하는지",
+        "화재 폭발 누출예방 독성가스 누출사고 대응 사고대응 대비"
+      ]
+    },
+    {
+      "record_id": "list1_33266",
+      "concat": "[TITLE] [화재·폭발·누출예방]사고피해예측의 이해\n[SUMMARY] 사고대응/대비",
+      "query": [
+        "사고 피해 예측",
+        "화학사고가 나면 피해 범위를 어떻게 예상하는지 설명한 자료",
+        "화재 폭발 누출예방 사고피해예측 이해 사고대응 대비"
+      ]
+    },
+    {
+      "record_id": "list1_33419",
+      "concat": "[TITLE] [중대재해_건설업]교량 캔틸레버 구간의 작업발판 브래킷 파단으로 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "교량 작업발판 추락",
+        "교량 캔틸레버 작업발판이 부러져 작업자가 떨어진 사고 자료",
+        "중대재해 건설업 교량 캔틸레버 구간 작업발판 브래킷 파단 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33418",
+      "concat": "[TITLE] [중대재해_건설업]쌍줄비계 위에서 견출작업 중 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "쌍줄비계 추락",
+        "비계 위에서 견출 작업하다가 떨어진 건설 사고 사례",
+        "중대재해 건설업 쌍줄비계 견출작업 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33417",
+      "concat": "[TITLE] [중대재해_건설업]지붕 샌드위치 패널 설치 중 떨어짐\n[SUMMARY] 지붕 샌드위치 패널 중대재해사례 OPL",
+      "query": [
+        "지붕 패널 추락",
+        "지붕에 샌드위치 패널을 설치하다가 떨어진 사고 자료",
+        "중대재해 건설업 지붕 샌드위치 패널 설치 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33413",
+      "concat": "[TITLE] [중대재해_건설업]팔각정 보수공사 중 지붕이 무너짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "지붕 보수 붕괴",
+        "팔각정 보수공사 중 지붕이 무너진 사고 자료",
+        "중대재해 건설업 팔각정 보수공사 지붕 무너짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33415",
+      "concat": "[TITLE] [중대재해_건설업]설비 덕트 인양 설치 중 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "덕트 설치 추락",
+        "설비 덕트를 들어 올려 설치하다가 떨어진 사고 사례",
+        "중대재해 건설업 설비 덕트 인양 설치 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33412",
+      "concat": "[TITLE] [중대재해_건설업]옹벽 배면 거푸집 해체작업 중 토사 무너짐\n[SUMMARY] 옹벽 배면 거푸집 해체작업 중 토사 무너짐 중대재해사례 OPL",
+      "query": [
+        "옹벽 토사 붕괴",
+        "옹벽 뒤쪽 거푸집을 해체하다가 흙이 무너진 사고 자료",
+        "중대재해 건설업 옹벽 배면 거푸집 해체작업 토사 무너짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33416",
+      "concat": "[TITLE] [중대재해_건설업]기계식 주차설비 수직개구부 바닥으로 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "주차설비 개구부 추락",
+        "기계식 주차장 수직 구멍으로 떨어진 건설 사고 사례",
+        "중대재해 건설업 기계식 주차설비 수직개구부 바닥 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33414",
+      "concat": "[TITLE] [중대재해_건설업]철근자재 적재 중 하부 거푸집동바리 무너짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "철근 적재 동바리 붕괴",
+        "철근 자재를 쌓다가 아래 거푸집 동바리가 무너진 사고 자료",
+        "중대재해 건설업 철근자재 적재 하부 거푸집동바리 무너짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33411",
+      "concat": "[TITLE] [중대재해_건설업]콘크리트 타설 중 슬래브 무너짐\n[SUMMARY] 콘크리트 타설 중 슬래브 무너짐-중대재해사례 OPL",
+      "query": [
+        "콘크리트 타설 슬래브 붕괴",
+        "콘크리트를 붓는 작업 중 슬래브가 무너진 사고 사례",
+        "중대재해 건설업 콘크리트 타설 슬래브 무너짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33408",
+      "concat": "[TITLE] [중대재해_건설업]인양 중인 샌드위치 패널이 떨어져 맞음\n[SUMMARY] 중대재해사례 건설업 샌드위치 패널 OPL",
+      "query": [
+        "샌드위치 패널 낙하",
+        "들어 올리던 샌드위치 패널이 떨어져 맞은 사고 자료",
+        "중대재해 건설업 인양 샌드위치 패널 떨어짐 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33410",
+      "concat": "[TITLE] [중대재해_건설업]굴착면 토사가 무너지면서 매몰\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "굴착면 토사 매몰",
+        "굴착한 곳의 흙이 무너져 사람이 묻힌 사고 사례",
+        "중대재해 건설업 굴착면 토사 무너짐 매몰 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33409",
+      "concat": "[TITLE] [중대재해_건설업]흙막이가 무너지면서 매몰\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "흙막이 붕괴 매몰",
+        "공사현장에서 흙막이가 무너져 매몰된 사고 사례",
+        "중대재해 건설업 흙막이 무너짐 매몰 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33274",
+      "concat": "[TITLE] [화재·폭발·누출예방]고압가스 저장탱크 화재사고 대응\n[SUMMARY] [화재·폭발·누출예방]고압가스 저장탱크 화재사고 대응, 대비를 위한 리플릿",
+      "query": [
+        "고압가스 탱크 화재",
+        "고압가스 저장탱크에 불이 났을 때 대응하는 방법",
+        "화재 폭발 누출예방 고압가스 저장탱크 화재사고 대응 대비 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_33270",
+      "concat": "[TITLE] [화재·폭발·누출예방]인화성가스 누출사고 대응\n[SUMMARY] 사고대응/대비, 인화성가스 누출사고 대응",
+      "query": [
+        "인화성가스 누출 대응",
+        "불이 잘 붙는 가스가 새었을 때 현장에서 대응하는 방법",
+        "화재 폭발 누출예방 인화성가스 누출사고 대응 사고대응 대비"
+      ]
+    },
+    {
+      "record_id": "list1_33273",
+      "concat": "[TITLE] [화재·폭발·누출예방]인화성액체 저장탱크 화재사고 대응\n[SUMMARY] 사고대응/대비",
+      "query": [
+        "인화성 액체 탱크 화재",
+        "불이 잘 붙는 액체 저장탱크에 화재가 났을 때 대응하는 방법",
+        "화재 폭발 누출예방 인화성액체 저장탱크 화재사고 대응 사고대응 대비"
+      ]
+    },
+    {
+      "record_id": "list1_33275",
+      "concat": "[TITLE] [화재·폭발·누출예방]인화성액체 취급공정 화재사고 대응\n[SUMMARY] 사고대응/대비",
+      "query": [
+        "인화성 액체 공정 화재",
+        "인화성 액체를 취급하는 공정에서 불이 났을 때 대응하는 방법",
+        "화재 폭발 누출예방 인화성액체 취급공정 화재사고 대응 사고대응 대비"
+      ]
+    },
+    {
+      "record_id": "list1_33623",
+      "concat": "[TITLE] (네팔)직종별 OPL-제조업\n[SUMMARY] OPL by occupation 직종별(제조업) OPL입니다.",
+      "query": [
+        "네팔 제조업 안전",
+        "네팔 근로자가 제조업에서 일할 때 볼 수 있는 안전자료",
+        "네팔 직종별 OPL 제조업 OPL by occupation"
+      ]
+    },
+    {
+      "record_id": "list1_33625",
+      "concat": "[TITLE] 직종별 OPL-네팔-농어업\n[SUMMARY] OPL by occupation 직종별(농어업) OPL입니다.",
+      "query": [
+        "네팔 농어업 안전",
+        "네팔 근로자가 농업이나 어업에서 일할 때 보는 안전자료",
+        "직종별 OPL 네팔 농어업 OPL by occupation"
+      ]
+    },
+    {
+      "record_id": "list1_33626",
+      "concat": "[TITLE] 직종별 OPL-미얀마(농업,어업,건설,제조)\n[SUMMARY] OPL by occupation 직종별(농업,어업,건설,제조) OPL입니다.",
+      "query": [
+        "미얀마 직종 안전",
+        "미얀마 근로자를 위한 농업 어업 건설 제조 분야 안전자료",
+        "직종별 OPL 미얀마 농업 어업 건설 제조 OPL by occupation"
+      ]
+    },
+    {
+      "record_id": "list1_33624",
+      "concat": "[TITLE] (네팔)직종별 OPL-건설업\n[SUMMARY] OPL by occupation 직종별(건설업) OPL입니다.",
+      "query": [
+        "네팔 건설업 안전",
+        "네팔 근로자가 건설 현장에서 일할 때 볼 수 있는 안전자료",
+        "네팔 직종별 OPL 건설업 OPL by occupation"
+      ]
+    },
+    {
+      "record_id": "list1_32536",
+      "concat": "[TITLE] 대형사고예방 6대 중점점검 항목\n[SUMMARY] 대형사고예방 6대 중점점검 항목",
+      "query": [
+        "대형사고 예방 점검",
+        "큰 사고를 막기 위해 꼭 확인해야 하는 점검 항목 자료",
+        "대형사고예방 6대 중점점검 항목"
+      ]
+    },
+    {
+      "record_id": "list1_33627",
+      "concat": "[TITLE] 직종별 OPL-캄보디아(농업,어업,건설,제조)\n[SUMMARY] OPL by occupation 직종별(농업,어업,건설,제조) OPL입니다.",
+      "query": [
+        "캄보디아 직종 안전",
+        "캄보디아 근로자를 위한 농업 어업 건설 제조 분야 안전자료",
+        "직종별 OPL 캄보디아 농업 어업 건설 제조 OPL by occupation"
+      ]
+    },
+    {
+      "record_id": "list1_32407",
+      "concat": "[TITLE] 정전으로 인한 화학사고, 이것만은 꼭 지켜주세요!\n[SUMMARY] 하절기에 발생할 수 있는 불시 정전으로 인하여 화학공장에서 발생 가능한 화재·폭발· 누출 등 화학사고 예방을 위한 안전조치",
+      "query": [
+        "정전 화학사고 예방",
+        "화학공장에서 갑자기 전기가 나갔을 때 화재 폭발 누출을 막는 안전조치",
+        "정전 화학사고 화학공장 화재 폭발 누출 예방 안전조치"
+      ]
+    },
+    {
+      "record_id": "list1_32116",
+      "concat": "[TITLE] 장년근로자 근골격계질환올바른 작업자세로 예방합시다!작업환경 개선으로 예방합시다!\n[SUMMARY] 장년근로자 근골격계질환 올바른 작업자세로 예방합시다! 작업환경 개선으로 예방합시다!",
+      "query": [
+        "장년 근로자 근골격계",
+        "나이 많은 근로자의 근골격계질환을 작업자세와 환경개선으로 예방하는 자료",
+        "장년근로자 근골격계질환 올바른 작업자세 작업환경 개선 예방"
+      ]
+    }
+  ]
+}

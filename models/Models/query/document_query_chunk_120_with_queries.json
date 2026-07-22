@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 120,
+  "items": [
+    {
+      "record_id": "list1_30388",
+      "concat": "[TITLE] (보건 및 사회복지사업)멸균건조기\n[SUMMARY] (보건 및 사회복지사업)멸균건조기",
+      "query": [
+        "멸균건조기 안전",
+        "병원에서 쓰는 멸균건조기 작업 안전 자료를 찾고 싶어",
+        "보건 및 사회복지사업 멸균건조기"
+      ]
+    },
+    {
+      "record_id": "list1_30393",
+      "concat": "[TITLE] (보건 및 사회복지사업)중환자용리프트\n[SUMMARY] 중환자용리프트 안전작업",
+      "query": [
+        "중환자 리프트 안전",
+        "중환자를 리프트로 옮길 때 사고를 막는 안전수칙이 필요해",
+        "보건 및 사회복지사업 중환자용리프트 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30379",
+      "concat": "[TITLE] (교육서비스업)배식대\n[SUMMARY] (교육서비스업)배식대",
+      "query": [
+        "배식대 안전",
+        "학교 급식 배식대 사용 중 다치지 않게 하는 자료를 찾고 있어",
+        "교육서비스업 배식대"
+      ]
+    },
+    {
+      "record_id": "list1_30335",
+      "concat": "[TITLE] (건물 등의 종합관리사업)화장실청소\n[SUMMARY] (건물 등의 종합관리사업)화장실청소 리플릿",
+      "query": [
+        "화장실 청소 안전",
+        "건물 화장실 청소할 때 미끄럼이나 세제 사고를 예방하는 자료가 필요해",
+        "건물 등의 종합관리사업 화장실청소 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30378",
+      "concat": "[TITLE] (교육서비스업)밥보온고\n[SUMMARY] (교육서비스업)밥보온고",
+      "query": [
+        "밥보온고 안전",
+        "학교 급식실 밥보온고를 안전하게 사용하는 방법을 찾고 있어",
+        "교육서비스업 밥보온고"
+      ]
+    },
+    {
+      "record_id": "list1_30395",
+      "concat": "[TITLE] (보건 및 사회복지사업)휠체어\n[SUMMARY] 휠체어 안전작업과 관련한 리플릿",
+      "query": [
+        "휠체어 안전",
+        "요양시설이나 병원에서 휠체어를 안전하게 사용하는 작업 자료가 필요해",
+        "보건 및 사회복지사업 휠체어 안전작업 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30394",
+      "concat": "[TITLE] (보건 및 사회복지사업)핫팩저장고\n[SUMMARY] 핫팩저장고 안전작업",
+      "query": [
+        "핫팩저장고 안전",
+        "병원 핫팩저장고 사용 중 화상 사고를 막는 안전 자료를 찾고 싶어",
+        "보건 및 사회복지사업 핫팩저장고 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30333",
+      "concat": "[TITLE] (건물 등의 종합관리사업)자전거\n[SUMMARY] (건물 등의 종합관리사업)자전거",
+      "query": [
+        "자전거 안전",
+        "건물 관리 업무에서 자전거를 사용할 때 사고 예방 자료가 필요해",
+        "건물 등의 종합관리사업 자전거"
+      ]
+    },
+    {
+      "record_id": "list1_30334",
+      "concat": "[TITLE] (건물 등의 종합관리사업)전지작업\n[SUMMARY] (건물 등의 종합관리사업)전지작업",
+      "query": [
+        "전지작업 안전",
+        "건물 주변 나무 가지치기 작업을 안전하게 하는 방법을 찾고 있어",
+        "건물 등의 종합관리사업 전지작업"
+      ]
+    },
+    {
+      "record_id": "list1_30332",
+      "concat": "[TITLE] (건물 등의 종합관리사업)일자형 사다리\n[SUMMARY] (건물 등의 종합관리사업)일자형 사다리",
+      "query": [
+        "일자 사다리 안전",
+        "건물 관리 작업에서 일자형 사다리를 쓸 때 주의할 점이 궁금해",
+        "건물 등의 종합관리사업 일자형 사다리"
+      ]
+    },
+    {
+      "record_id": "list1_30376",
+      "concat": "[TITLE] (교육서비스업)감자탈피기\n[SUMMARY] (교육서비스업)감자탈피기",
+      "query": [
+        "감자탈피기 안전",
+        "학교 급식실 감자탈피기 사용 중 끼임 사고를 막는 자료가 필요해",
+        "교육서비스업 감자탈피기"
+      ]
+    },
+    {
+      "record_id": "list1_30327",
+      "concat": "[TITLE] (건물 등의 종합관리사업)빙판길\n[SUMMARY] (건물 등의 종합관리사업)빙판길",
+      "query": [
+        "빙판길 안전",
+        "건물 관리 업무 중 빙판길에서 넘어지는 사고를 예방하는 자료를 찾고 있어",
+        "건물 등의 종합관리사업 빙판길"
+      ]
+    },
+    {
+      "record_id": "list1_30330",
+      "concat": "[TITLE] (건물 등의 종합관리사업)외줄작업\n[SUMMARY] (건물 등의 종합관리사업)외줄작업",
+      "query": [
+        "외줄작업 안전",
+        "건물 외벽 청소 같은 외줄작업을 할 때 필요한 안전수칙을 찾고 있어",
+        "건물 등의 종합관리사업 외줄작업"
+      ]
+    },
+    {
+      "record_id": "list1_30331",
+      "concat": "[TITLE] (건물 등의 종합관리사업)이동식작업대\n[SUMMARY] (건물 등의 종합관리사업)이동식작업대",
+      "query": [
+        "이동식작업대 안전",
+        "건물 관리 작업에서 이동식작업대를 사용할 때 넘어짐 사고를 막고 싶어",
+        "건물 등의 종합관리사업 이동식작업대"
+      ]
+    },
+    {
+      "record_id": "list1_30324",
+      "concat": "[TITLE] (건물 등의 종합관리사업)밀폐공간작업\n[SUMMARY] (건물 등의 종합관리사업)밀폐공간작업",
+      "query": [
+        "밀폐공간 작업",
+        "건물 관리 중 밀폐공간에서 작업할 때 필요한 안전 자료를 찾고 있어",
+        "건물 등의 종합관리사업 밀폐공간작업"
+      ]
+    },
+    {
+      "record_id": "list1_30325",
+      "concat": "[TITLE] (건물 등의 종합관리사업)복도\n[SUMMARY] (건물 등의 종합관리사업)복도",
+      "query": [
+        "복도 미끄럼 안전",
+        "건물 복도에서 청소나 이동 중 넘어짐 사고를 예방하는 자료가 필요해",
+        "건물 등의 종합관리사업 복도"
+      ]
+    },
+    {
+      "record_id": "list1_30328",
+      "concat": "[TITLE] (건물 등의 종합관리사업)에스컬레이터\n[SUMMARY] (건물 등의 종합관리사업)에스컬레이터",
+      "query": [
+        "에스컬레이터 안전",
+        "건물 관리 업무에서 에스컬레이터 주변 사고를 막는 안전 자료를 찾고 있어",
+        "건물 등의 종합관리사업 에스컬레이터"
+      ]
+    },
+    {
+      "record_id": "list1_30329",
+      "concat": "[TITLE] (건물 등의 종합관리사업)옥내 계단\n[SUMMARY] (건물 등의 종합관리사업)옥내 계단",
+      "query": [
+        "옥내 계단 안전",
+        "건물 안 계단에서 넘어짐 사고를 예방하는 관리 자료가 필요해",
+        "건물 등의 종합관리사업 옥내 계단"
+      ]
+    },
+    {
+      "record_id": "list1_30323",
+      "concat": "[TITLE] (건물 등의 종합관리사업)공기조화기\n[SUMMARY] (건물 등의 종합관리사업)공기조화기",
+      "query": [
+        "공기조화기 안전",
+        "건물 설비 관리 중 공기조화기 작업 안전 자료를 찾고 있어",
+        "건물 등의 종합관리사업 공기조화기"
+      ]
+    },
+    {
+      "record_id": "list1_30375",
+      "concat": "[TITLE] (교육서비스업)릴호스\n[SUMMARY] (교육서비스업)릴호스",
+      "query": [
+        "릴호스 안전",
+        "학교 급식실이나 시설에서 릴호스를 사용할 때 안전수칙이 필요해",
+        "교육서비스업 릴호스"
+      ]
+    },
+    {
+      "record_id": "list1_30377",
+      "concat": "[TITLE] (교육서비스업)덤웨이터\n[SUMMARY] (교육서비스업)덤웨이터",
+      "query": [
+        "덤웨이터 안전",
+        "학교 급식실 덤웨이터 사용 중 끼임이나 낙하 사고를 막는 자료를 찾고 있어",
+        "교육서비스업 덤웨이터"
+      ]
+    },
+    {
+      "record_id": "list1_30241",
+      "concat": "[TITLE] (선박건조 및 수리업)크레인병렬작업 시 하중분배법\n[SUMMARY] 크레인병렬작업시하중분배법OPL",
+      "query": [
+        "크레인 하중분배",
+        "선박 작업장에서 크레인 여러 대로 들 때 하중을 나누는 방법을 찾고 있어",
+        "선박건조 및 수리업 크레인병렬작업 하중분배법 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30246",
+      "concat": "[TITLE] (선박건조 및 수리업)동력작동문 안전작업\n[SUMMARY] 동력작동문 안전작업 OPL",
+      "query": [
+        "동력문 안전",
+        "조선소에서 동력으로 움직이는 문을 사용할 때 사고 예방 자료가 필요해",
+        "선박건조 및 수리업 동력작동문 안전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30326",
+      "concat": "[TITLE] (건물 등의 종합관리사업)보일러\n[SUMMARY] (건물 등의 종합관리사업)보일러",
+      "query": [
+        "보일러 안전",
+        "건물 관리 업무에서 보일러를 점검하거나 사용할 때 안전 자료가 필요해",
+        "건물 등의 종합관리사업 보일러"
+      ]
+    },
+    {
+      "record_id": "list1_30243",
+      "concat": "[TITLE] (선박건조 및 수리업)플라즈마절단기 안전작업\n[SUMMARY] 플라즈마절단기 안전작업OPL",
+      "query": [
+        "플라즈마절단기 안전",
+        "선박 수리 현장에서 플라즈마절단기를 안전하게 쓰는 방법을 찾고 있어",
+        "선박건조 및 수리업 플라즈마절단기 안전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30239",
+      "concat": "[TITLE] (선박건조 및 수리업)자동가스절단기 안전작업\n[SUMMARY] 자동가스절단기 안전작업 OPL",
+      "query": [
+        "자동가스절단기 안전",
+        "조선소에서 자동가스절단기 작업할 때 필요한 안전수칙을 찾고 싶어",
+        "선박건조 및 수리업 자동가스절단기 안전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30240",
+      "concat": "[TITLE] (선박건조 및 수리업)크레인 다중작업\n[SUMMARY] 크레인다중작업 OPL",
+      "query": [
+        "크레인 다중작업",
+        "선박 작업장에서 크레인을 동시에 사용하는 작업 안전 자료가 필요해",
+        "선박건조 및 수리업 크레인 다중작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30238",
+      "concat": "[TITLE] (선박건조 및 수리업)유틸리티 라인 정리정돈\n[SUMMARY] 유틸리티 라인 정리정돈OPL",
+      "query": [
+        "유틸리티 라인 정리",
+        "조선소 작업장에서 전선이나 호스 같은 라인을 정리하는 안전 자료를 찾고 있어",
+        "선박건조 및 수리업 유틸리티 라인 정리정돈 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30233",
+      "concat": "[TITLE] (선박건조 및 수리업)양중클램프 안전작업\n[SUMMARY] 양중클램프 안전작업",
+      "query": [
+        "양중클램프 안전",
+        "선박 건조 현장에서 양중클램프를 사용할 때 사고 예방 자료가 필요해",
+        "선박건조 및 수리업 양중클램프 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30232",
+      "concat": "[TITLE] (선박건조 및 수리업)안전난간\n[SUMMARY] 안전난간 OPL",
+      "query": [
+        "안전난간 설치",
+        "선박 건조나 수리 현장에서 안전난간 관련 자료를 찾고 있어",
+        "선박건조 및 수리업 안전난간 OPL"
+      ]
+    }
+  ]
+}

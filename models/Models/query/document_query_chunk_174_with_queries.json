@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 174,
+  "items": [
+    {
+      "record_id": "list3_37154",
+      "concat": "[TITLE] 직업건강가이드라인(톨게이트요금 수납원)\n[SUMMARY] 직업건강가이드라인(톨게이트요금 수납원)",
+      "query": [
+        "톨게이트 요금 건강",
+        "고속도로 요금소에서 일하는 사람 건강관리 자료",
+        "직업건강가이드라인 톨게이트요금 수납원"
+      ]
+    },
+    {
+      "record_id": "list3_37153",
+      "concat": "[TITLE] 직업건강가이드라인(금융상담창구)\n[SUMMARY] 직업건강가이드라인(금융상담창구)",
+      "query": [
+        "은행 창구 건강",
+        "금융 상담 창구 직원 건강관리 안내",
+        "직업건강가이드라인 금융상담창구"
+      ]
+    },
+    {
+      "record_id": "list3_37155",
+      "concat": "[TITLE] 직업건강가이드라인(패스트푸드원)\n[SUMMARY] 직업건강가이드라인(패스트푸드원)",
+      "query": [
+        "패스트푸드 직원 건강",
+        "패스트푸드 매장에서 일하는 사람 건강관리 자료",
+        "직업건강가이드라인 패스트푸드원"
+      ]
+    },
+    {
+      "record_id": "list3_37098",
+      "concat": "[TITLE] 영세 소규모 제조업체와 종사근로자의 산업보건학적 취약성 원인과 대책\n[SUMMARY] 영세 소규모 제조업체와 종사근로자의 산업보건학적 취약성 원인과 대책 연구보고서",
+      "query": [
+        "소규모 제조업 건강",
+        "작은 제조업 사업장 근로자 보건 취약 원인과 대책 자료",
+        "영세 소규모 제조업체 종사근로자 산업보건학적 취약성 원인 대책 연구보고서"
+      ]
+    },
+    {
+      "record_id": "list3_37156",
+      "concat": "[TITLE] 직업건강가이드라인(발열성질환예방)\n[SUMMARY] 직업건강가이드라인(발열성질환예방)",
+      "query": [
+        "발열 질환 예방",
+        "일하다가 걸릴 수 있는 발열성 질환 예방 자료",
+        "직업건강가이드라인 발열성질환예방"
+      ]
+    },
+    {
+      "record_id": "list3_37157",
+      "concat": "[TITLE] 직업건강가이드라인(방송출연보조자)\n[SUMMARY] 직업건강가이드라인(방송출연보조자)",
+      "query": [
+        "방송 보조 건강",
+        "방송 촬영 현장에서 보조로 일하는 사람 건강관리 자료",
+        "직업건강가이드라인 방송출연보조자"
+      ]
+    },
+    {
+      "record_id": "list3_37158",
+      "concat": "[TITLE] 직업건강가이드라인(버스운전원)\n[SUMMARY] 직업건강가이드라인(버스운전원)",
+      "query": [
+        "버스기사 건강",
+        "버스 운전 일을 하는 사람을 위한 건강관리 안내",
+        "직업건강가이드라인 버스운전원"
+      ]
+    },
+    {
+      "record_id": "list3_37161",
+      "concat": "[TITLE] 직업건강가이드라인(전자제품수리종사자)\n[SUMMARY] 직업건강가이드라인(전자제품수리종사자) : 직업활동 과정에서 발생할 수 있는 다양한 유해·위험요인을 파악하여 해당 직종의 근무특성을 고려한 관리방안을 현장사진 등과 함께 쉽고 상세하게 설명한 안내서입니다",
+      "query": [
+        "전자제품 수리 건강",
+        "전자제품 수리 업무 중 생기는 위험요인과 건강관리 안내",
+        "직업건강가이드라인 전자제품수리종사자 유해위험요인 관리방안"
+      ]
+    },
+    {
+      "record_id": "list3_37159",
+      "concat": "[TITLE] 직업건강가이드라인(실험실연구원)\n[SUMMARY] 광범위한 기술적인 사항을 제시한 것으로 사업장의 자율적 안전보건수준 향상을 지원하기 위한 지침임",
+      "query": [
+        "실험실 연구원 건강",
+        "실험실에서 일하는 연구원을 위한 안전보건 지침",
+        "직업건강가이드라인 실험실연구원"
+      ]
+    },
+    {
+      "record_id": "list3_37160",
+      "concat": "[TITLE] 직업건강가이드라인(고기압잠수작업자)\n[SUMMARY] 직업건강가이드라인(고기압잠수작업자)",
+      "query": [
+        "잠수작업 건강",
+        "고기압에서 잠수 작업하는 사람 건강관리 자료",
+        "직업건강가이드라인 고기압잠수작업자"
+      ]
+    },
+    {
+      "record_id": "list3_36310",
+      "concat": "[TITLE] (방글라데시)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "외국인 근로자 건강",
+        "방글라데시 노동자를 위한 현장 건강관리 교재",
+        "방글라데시 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_37706",
+      "concat": "[TITLE] 사업장 지진 대책 가이드\n[SUMMARY] 사업장 지진 대책 가이드 - 개요 - 사업장 지진 대비 계획 수립 - 평상 시 대비사항(지진이 오기전) - 지진 발생 시 대응 활동 - 지진 후 복구 대책",
+      "query": [
+        "사업장 지진 대책",
+        "회사나 공장에서 지진이 났을 때 대비하고 대응하는 방법",
+        "사업장 지진 대책 가이드 대비 계획 대응 복구"
+      ]
+    },
+    {
+      "record_id": "list3_36323",
+      "concat": "[TITLE] (방글라데시)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "방글라데시 근로자 응급처치",
+        "방글라데시 노동자를 위한 현장 응급조치와 구조 구급 교재",
+        "방글라데시 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36324",
+      "concat": "[TITLE] (중국)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "중국 근로자 응급처치",
+        "중국 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "중국 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36325",
+      "concat": "[TITLE] (인도네시아)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "인도네시아 근로자 응급처치",
+        "인도네시아 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "인도네시아 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36327",
+      "concat": "[TITLE] (파키스탄)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "파키스탄 근로자 응급처치",
+        "파키스탄 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "파키스탄 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36330",
+      "concat": "[TITLE] (우즈베키스탄)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "우즈베키스탄 근로자 응급처치",
+        "우즈베키스탄 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "우즈베키스탄 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36326",
+      "concat": "[TITLE] (몽골)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "몽골 근로자 응급처치",
+        "몽골 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "몽골 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36329",
+      "concat": "[TITLE] (태국)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "태국 근로자 응급처치",
+        "태국 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "태국 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36328",
+      "concat": "[TITLE] (스리랑카)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "스리랑카 근로자 응급처치",
+        "스리랑카 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "스리랑카 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36331",
+      "concat": "[TITLE] (베트남)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "베트남 근로자 응급처치",
+        "베트남 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "베트남 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36332",
+      "concat": "[TITLE] (캄보디아)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "캄보디아 근로자 응급처치",
+        "캄보디아 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "캄보디아 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36333",
+      "concat": "[TITLE] (미얀마)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "미얀마 근로자 응급처치",
+        "미얀마 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "미얀마 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36322",
+      "concat": "[TITLE] (필리핀, 영어)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "필리핀 근로자 응급처치",
+        "필리핀 노동자를 위한 영어 현장 응급조치 교재",
+        "필리핀 영어 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36334",
+      "concat": "[TITLE] (네팔)외국인 근로자 교재-현장작업자를 위한 구조·구급 및 응급조치\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 응급처치 개요 - 골절 및 출혈 - 화상 및 중독",
+      "query": [
+        "네팔 근로자 응급처치",
+        "네팔 노동자를 위한 현장 구조 구급과 응급조치 교재",
+        "네팔 외국인 근로자 교재 현장작업자 구조 구급 응급조치"
+      ]
+    },
+    {
+      "record_id": "list3_36320",
+      "concat": "[TITLE] (미얀마)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "미얀마 근로자 건강",
+        "미얀마 노동자를 위한 현장 건강관리 교재",
+        "미얀마 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_36319",
+      "concat": "[TITLE] (캄보디아)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "캄보디아 근로자 건강",
+        "캄보디아 노동자를 위한 현장 건강관리 교재",
+        "캄보디아 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_36321",
+      "concat": "[TITLE] (네팔)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "네팔 근로자 건강",
+        "네팔 노동자를 위한 현장 건강관리 교재",
+        "네팔 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_36318",
+      "concat": "[TITLE] (베트남)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "베트남 근로자 건강",
+        "베트남 노동자를 위한 현장 건강관리 교재",
+        "베트남 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    },
+    {
+      "record_id": "list3_36317",
+      "concat": "[TITLE] (우즈베키스탄)외국인 근로자 교재-현장작업자를 위한 건강관리\n[SUMMARY] 외국인 근로자 재해예방을 위한 교재입니다. - 건강진단 - 뇌심혈관계질환 관리 - 근골격계질환 관리",
+      "query": [
+        "우즈베키스탄 근로자 건강",
+        "우즈베키스탄 노동자를 위한 현장 건강관리 교재",
+        "우즈베키스탄 외국인 근로자 교재 현장작업자 건강관리"
+      ]
+    }
+  ]
+}

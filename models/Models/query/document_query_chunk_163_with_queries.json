@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 163,
+  "items": [
+    {
+      "record_id": "list3_43231",
+      "concat": "[TITLE] (제조업) 안전보건 VR 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "제조업 안전교육 VR",
+        "공장에서 일하는 사람 안전교육을 VR로 볼 수 있는 자료",
+        "제조업 안전보건 VR 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43211",
+      "concat": "[TITLE] 장마철 건설현장 안전보건 길잡이(2021)\n[SUMMARY] 장마철 취약시기 건설현장의 위험요인별 안전대책 및 재해사례를 공유합니다.",
+      "query": [
+        "장마철 건설현장",
+        "비 많이 오는 시기에 건설현장에서 조심해야 할 안전수칙 자료",
+        "장마철 건설현장 안전보건 길잡이"
+      ]
+    },
+    {
+      "record_id": "list3_43100",
+      "concat": "[TITLE] 현장 작업자를 위한 보호구의 종류와 사용법(개정)\n[SUMMARY] 현장 작업자를 위한 보호구의 종류와 사용법의 개정판입니다. (초판 2013, 개정 2021)",
+      "query": [
+        "보호구 사용법",
+        "현장 작업자가 안전모 마스크 같은 보호구를 어떻게 써야 하는지 알려주는 자료",
+        "현장 작업자 보호구 종류 사용법 개정"
+      ]
+    },
+    {
+      "record_id": "list3_43639",
+      "concat": "[TITLE] [특수형태근로종사자] 대여 제품 방문점검원 교육교재\n[SUMMARY] [특수형태근로종사자] 대여 제품 방문점검원 교육교재입니다. 자체교육 또는 위탁교육 시 활용하실 수 있습니다.",
+      "query": [
+        "방문점검원 안전교육",
+        "렌탈 제품을 집에 가서 점검하는 사람이 받아야 하는 안전보건 교육자료",
+        "특수형태근로종사자 대여 제품 방문점검원 교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_43230",
+      "concat": "[TITLE] (밀폐공간) 안전보건 VR 질식재해예방 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "밀폐공간 질식 VR",
+        "밀폐된 공간에서 질식사고를 막는 안전교육을 VR로 체험하는 자료",
+        "밀폐공간 안전보건 VR 질식재해예방 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43229",
+      "concat": "[TITLE] (지게차) 안전보건 VR 충돌재해예방 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "지게차 충돌 VR",
+        "지게차 작업 중 부딪힘 사고를 예방하는 VR 안전교육 자료",
+        "지게차 안전보건 VR 충돌재해예방 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43469",
+      "concat": "[TITLE] 위험기계기구 안전검사 매뉴얼 책자(1)\n[SUMMARY] ◎ 위험기계의 안전검사 매뉴얼 책 - 안전검사 대상 기계 검사 방법 소개 *1권 (7종) 프레스, 전단기, 크레인, 이동식크레인, 건설용리프트, 산업용리프트, 압력용기 *2권 (8종) 곤돌라, 국소배기장치, 원심기, 롤러기, 사출성형기, 고소작업대, 컨베이어, 산업용로봇",
+      "query": [
+        "위험기계 안전검사",
+        "프레스 크레인 리프트 같은 위험한 기계를 어떻게 검사하는지 설명한 자료",
+        "위험기계기구 안전검사 매뉴얼 책자 프레스 전단기 크레인 이동식크레인 건설용리프트 산업용리프트 압력용기"
+      ]
+    },
+    {
+      "record_id": "list3_43660",
+      "concat": "[TITLE] 중대재해처벌법 해설서(고용노동부)\n[SUMMARY] 2021. 11. 17. 발표된 중대재해처벌법 해설서(고용노동부) 입니다.",
+      "query": [
+        "중대재해처벌법 해설",
+        "중대재해처벌법 내용을 고용노동부 설명으로 쉽게 확인할 수 있는 자료",
+        "중대재해처벌법 해설서 고용노동부"
+      ]
+    },
+    {
+      "record_id": "list3_43638",
+      "concat": "[TITLE] [특수형태근로종사자] 방문판매원 교육교재\n[SUMMARY] [특수형태근로종사자] 방문판매원 교육교재입니다. 자체교육 또는 위탁교육 시 활용하실 수 있습니다.",
+      "query": [
+        "방문판매원 안전교육",
+        "방문판매 일을 하는 특수고용 종사자가 받을 안전보건 교육자료",
+        "특수형태근로종사자 방문판매원 교육교재"
+      ]
+    },
+    {
+      "record_id": "list3_43470",
+      "concat": "[TITLE] 위험기계기구 안전검사 매뉴얼 책자(2)\n[SUMMARY] ◎ 위험기계의 안전검사 매뉴얼 책 - 안전검사 대상 기계 검사 방법 소개 *1권 (7종) 프레스, 전단기, 크레인, 이동식크레인, 건설용리프트, 산업용리프트, 압력용기 *2권 (8종) 곤돌라, 국소배기장치, 원심기, 롤러기, 사출성형기, 고소작업대, 컨베이어, 산업용로봇",
+      "query": [
+        "기계 안전검사 매뉴얼",
+        "곤돌라 컨베이어 산업용로봇 같은 기계 안전검사 방법을 찾는 자료",
+        "위험기계기구 안전검사 매뉴얼 책자 곤돌라 국소배기장치 원심기 롤러기 사출성형기 고소작업대 컨베이어 산업용로봇"
+      ]
+    },
+    {
+      "record_id": "list3_43556",
+      "concat": "[TITLE] (발간안내)2021년 월간 안전보건 11월호\n[SUMMARY] 2021년 월간 안전보건 11월호가 발간됐습니다. 11월호 주제는 '야간작업' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "야간작업 안전보건",
+        "밤에 일하는 노동자의 안전과 건강 문제를 다룬 월간 자료",
+        "월간 안전보건 야간작업"
+      ]
+    },
+    {
+      "record_id": "list3_43234",
+      "concat": "[TITLE] 산업안전보건한베 용어 사전\n[SUMMARY] 직원 및 대국민의 국외 안전보건 정보 이해도를 외국인 노동자 재해예방에 활용하기 위한 산업안전보건 한국어-베트남어 사전",
+      "query": [
+        "안전보건 베트남어 사전",
+        "외국인 노동자와 소통할 때 쓰는 한국어 베트남어 안전보건 용어 자료",
+        "산업안전보건 한베 용어 사전 한국어 베트남어"
+      ]
+    },
+    {
+      "record_id": "list3_43490",
+      "concat": "[TITLE] 2021년 공단 브로슈어(영문)\n[SUMMARY] 2021년 공단 브로슈어(영문)입니다.",
+      "query": [
+        "공단 영어 브로슈어",
+        "안전보건공단을 영어로 소개하는 홍보 자료",
+        "공단 브로슈어 영문"
+      ]
+    },
+    {
+      "record_id": "list3_43489",
+      "concat": "[TITLE] 2021년 공단 브로슈어(국문)\n[SUMMARY] 2021년 공단 브로슈어(국문)입니다.",
+      "query": [
+        "공단 브로슈어",
+        "안전보건공단을 한국어로 소개하는 홍보 자료",
+        "공단 브로슈어 국문"
+      ]
+    },
+    {
+      "record_id": "list3_43473",
+      "concat": "[TITLE] 연구전문지 OSHRI:VIEW 통권 제86호\n[SUMMARY] 중대재해처벌법과 산업안전보건 연구에 대한 이슈를 모은 연구전문지 입니다.",
+      "query": [
+        "중대재해처벌법 연구",
+        "산업안전보건 연구와 중대재해처벌법 이슈를 다룬 연구원 전문지",
+        "연구전문지 OSHRI VIEW 중대재해처벌법 산업안전보건 연구"
+      ]
+    },
+    {
+      "record_id": "list3_44198",
+      "concat": "[TITLE] [발간안내] 2022년 월간 안전보건 8월호\n[SUMMARY] 2022년 월간 안전보건 8월호가 발간되었습니다. 8월호 주제는 '떨어짐'입니다. ★ e-book 보기 및 파일 다운로드 ★ :오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "떨어짐 사고",
+        "추락이나 떨어짐 사고를 주제로 다룬 안전보건 월간 자료",
+        "월간 안전보건 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list3_43080",
+      "concat": "[TITLE] 건설현장 근로자를 위한 기초안전보건교육 표준 교재\n[SUMMARY] 건설현장 일용 근로자 대상으로 실시하는 기초안전보건교육 표준 교재 1. 건설업 기초안전보건교육제도 안내 2. 산업안전보건법령 3. 건설공사 안전작업 4. 근로자 건강관리",
+      "query": [
+        "건설현장 기초안전교육",
+        "건설 일용근로자가 받아야 하는 기초안전보건교육 교재",
+        "건설현장 근로자 기초안전보건교육 표준 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43494",
+      "concat": "[TITLE] (발간안내)2021년 월간 안전보건 10월호\n[SUMMARY] 2021년 월간 안전보건 10월호가 발간됐습니다. 10월호 주제는 '화재' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "화재 안전보건",
+        "사업장에서 화재 위험과 예방을 다룬 월간 안전보건 자료",
+        "월간 안전보건 화재"
+      ]
+    },
+    {
+      "record_id": "list3_44166",
+      "concat": "[TITLE] 2022년 안전보건관리담당자 양성교육 교재\n[SUMMARY] 2022년 안전보건관리담당자 양성교육 교재",
+      "query": [
+        "안전보건관리담당자 교육",
+        "안전보건관리담당자를 양성할 때 쓰는 교육 교재",
+        "안전보건관리담당자 양성교육 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44159",
+      "concat": "[TITLE] 연구전문지 OSHRI:VIEW 통권 제89호\n[SUMMARY] 산업안전보건 이슈에 대한 전문가의 분석과 연구원에서 개발한 기술, 정책반영 사례, 전년도 우수한 연구 등을 전달하는 산업안전보건연구원의 연구전문지입니다.",
+      "query": [
+        "산업안전보건 연구전문지",
+        "산업안전보건 이슈와 연구원 기술 정책 사례를 다룬 전문지",
+        "연구전문지 OSHRI VIEW 산업안전보건 이슈 기술 정책반영 사례"
+      ]
+    },
+    {
+      "record_id": "list3_44121",
+      "concat": "[TITLE] [발간안내] 2022년 월간 안전보건 6월호\n[SUMMARY] 2022년 월간 안전보건 6월호가 발간되었습니다. 6월호 주제는 '질식'입니다. ★ e-Book 보기 및 파일 다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "질식 안전보건",
+        "밀폐공간 같은 곳에서 발생하는 질식 위험을 다룬 월간 자료",
+        "월간 안전보건 질식"
+      ]
+    },
+    {
+      "record_id": "list3_44170",
+      "concat": "[TITLE] [발간안내] 2022년 월간 안전보건 7월호\n[SUMMARY] 2022년 월간 안전보건 7월호가 발간되었습니다. 7월호 주제는 '폭염'입니다. ★ e-book 보기 및 파일 다운로드 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "폭염 안전보건",
+        "더운 날씨에 일할 때 필요한 안전과 건강관리 내용을 다룬 월간 자료",
+        "월간 안전보건 폭염"
+      ]
+    },
+    {
+      "record_id": "list3_44067",
+      "concat": "[TITLE] 화학물질 취급 작업 시 중독 예방 조치사항 안내 소책자\n[SUMMARY] 화학물질 취급 시 중독 예방을 위한 필수 안전보건조치 내용 안내 소책자 ※ 화학물질 취급 작업 관련 법령 정보를 접하기 어려운 중소규모 사업장 사업주, 중간관리자 등의 최소한의 조치사항 실천을 위한 자료",
+      "query": [
+        "화학물질 중독 예방",
+        "화학물질을 다룰 때 중독을 막기 위해 꼭 해야 할 조치사항 자료",
+        "화학물질 취급 작업 중독 예방 조치사항 안내 소책자"
+      ]
+    },
+    {
+      "record_id": "list3_43944",
+      "concat": "[TITLE] 소규모 사업장 안전보건관리체계 구축 길잡이 매뉴얼\n[SUMMARY] 소규모 사업장 안전보건관리체계 구축 길잡이 매뉴얼 <목차> Ⅰ. 매뉴얼 활용방안 Ⅱ. 단계별 추진 절차 Ⅲ. 구축요건별 확인 사항 1. 경영자 리더십 2. 근로자의 참여 3. 위험요인 파악 4. 위험요인 제거·대체 및 통제 5. 비상조치계획 수립 6. 도급용역위탁 시 안전보건 확보 7. 평가 및 개선 Ⅳ. 참고자료 1. 결과 보고서 양식 2. 「안전보건관리체계 구축 길잡이」 신청서 양식 3. 요소별 핵심 질문 및 개선방안 4. 안전보건관리체계 구축 관련 업무절차 예시 5. 중대재해 처벌 등에 관한 법률",
+      "query": [
+        "소규모 사업장 안전관리",
+        "작은 사업장에서 안전보건관리체계를 단계별로 만드는 방법을 알려주는 매뉴얼",
+        "소규모 사업장 안전보건관리체계 구축 길잡이 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_44034",
+      "concat": "[TITLE] 산재예방요율제 사업주교육 STEP2 교재\n[SUMMARY] 산재예방요율제 사업주교육 STEP2 교재",
+      "query": [
+        "산재예방요율제 교육 STEP2",
+        "사업주가 산재예방요율제 교육 두 번째 단계에서 보는 교재",
+        "산재예방요율제 사업주교육 STEP2 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44035",
+      "concat": "[TITLE] 산재예방요율제 사업주교육 STEP3 교재\n[SUMMARY] 산재예방요율제 사업주교육 STEP3 교재",
+      "query": [
+        "산재예방요율제 교육 STEP3",
+        "사업주가 산재예방요율제 교육 세 번째 단계에서 보는 교재",
+        "산재예방요율제 사업주교육 STEP3 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44074",
+      "concat": "[TITLE] [발간안내] 2022년 월간 안전보건 5월호\n[SUMMARY] 2022년 월간 안전보건 5월호가 발간되었습니다. 5월호 주제는 '끼임'입니다. ★ e-Book 보기 및 파일 다운 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "끼임 사고",
+        "기계나 설비에 끼이는 사고 예방을 다룬 월간 안전보건 자료",
+        "월간 안전보건 끼임"
+      ]
+    },
+    {
+      "record_id": "list3_43954",
+      "concat": "[TITLE] 소규모 사업장 안전보건관리체계 구축 가이드\n[SUMMARY] 소규모 사업장 안전보건관리체계 구축 가이드 Ⅰ. 구축요건별 자율점검표 1. 경영자 리더십 2. 근로자의 참여 3. 위험요인 파악 4. 위험요인 제거·대체 및 통제 5. 비상조치계획 수립 6. 도급용역위탁 시 안전보건 확보 7. 평가 및 개선 Ⅱ. 안전보건관리체계 구축 관련 업무 절차(예시)",
+      "query": [
+        "소규모 사업장 안전보건체계",
+        "작은 사업장에서 안전보건관리체계를 만들 때 확인할 점검표와 절차 자료",
+        "소규모 사업장 안전보건관리체계 구축 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_44032",
+      "concat": "[TITLE] 산재예방요율제 사업주교육 STEP1 교재\n[SUMMARY] 산재예방요율제 사업주교육 STEP1 교재",
+      "query": [
+        "산재예방요율제 교육 STEP1",
+        "사업주가 산재예방요율제 교육 첫 단계에서 보는 교재",
+        "산재예방요율제 사업주교육 STEP1 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44247",
+      "concat": "[TITLE] KOSHA 안전보건경영체계 운영 시스템\n[SUMMARY] 안전보건공단에서 실제 작동중인 안전보건경영체계 및 운영 시스템 - 안전보건경영매뉴얼, 절차서(15종), 지침서(20종)으로 구성 - 내용 관련 문의처: 공단 안전보건관리실(052-703-0471)",
+      "query": [
+        "안전보건경영체계 시스템",
+        "안전보건공단에서 운영하는 안전보건경영 매뉴얼과 절차서 자료",
+        "KOSHA 안전보건경영체계 운영 시스템 안전보건경영매뉴얼 절차서 지침서"
+      ]
+    }
+  ]
+}

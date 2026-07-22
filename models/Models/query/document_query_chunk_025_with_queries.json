@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 25,
+  "items": [
+    {
+      "record_id": "list1_50111",
+      "concat": "[TITLE] 25년 업종별 맞춤형 안전보건가이드 OPS(사업시설유지관리업,금속주조업(주물업),구조용금속제품제조업,플라스틱제품제조업,도금업)\n[SUMMARY] 다양한 업종의 소규모 사업장 안전보건 확보를 지원하기 위한 「업종별 맞춤형 안전보건 가이드」 5. 사업시설유지관리업 6. 금속주조업(주물업) 7. 구조용 금속제품 제조업 8. 플라스틱 제품 제조업 9. 도금업",
+      "query": [
+        "업종별 안전보건",
+        "시설관리 주물 도금 같은 소규모 사업장 안전보건 가이드를 찾고 있어",
+        "업종별 맞춤형 안전보건가이드 OPS 사업시설유지관리업 금속주조업 주물업 구조용금속제품제조업 플라스틱제품제조업 도금업"
+      ]
+    },
+    {
+      "record_id": "list1_50026",
+      "concat": "[TITLE] [외국인] 조선업 아르곤 용접 안전작업 가이드 (20개국)\n[SUMMARY] 조선업 아르곤 용접 안전작업 가이드를 20개국어로 번역 (영어, 태국어, 인도네시아어, 베터남어, 미얀마어, 스리랑카어, 우즈벡어, 네팔어, 러시아어, 카자흐스탄어, 튀르키예어, 캄보디아어, 방글라데시어, 아랍어, 동티모르어, 라오스어, 몽골어, 중국어, 키르기스탄어, 파키스탄어) * 본 자료는 공단에서 제작하였으며 한국조선해양플랜트협회에서 번역하였습니다. * 단순 참고용으로만 사용하시기 바랍니다.",
+      "query": [
+        "조선업 아르곤 용접",
+        "외국인 근로자에게 보여줄 조선소 아르곤 용접 안전작업 자료가 필요해",
+        "외국인 조선업 아르곤 용접 안전작업 가이드 20개국"
+      ]
+    },
+    {
+      "record_id": "list1_50112",
+      "concat": "[TITLE] 25년 업종별 맞춤형 안전보건가이드 OPS(숙박업,음식점업,경비·청소업,벌목업)\n[SUMMARY] 다양한 업종의 소규모 사업장 안전보건 확보를 지원하기 위한 「업종별 맞춤형 안전보건 가이드」 1. 숙박업 2. 음식점업 3. 경비·청소업 4. 벌목업",
+      "query": [
+        "숙박 음식점 안전",
+        "숙박업 음식점 경비 청소 벌목업 소규모 사업장 안전보건 자료를 찾고 있어",
+        "업종별 맞춤형 안전보건가이드 OPS 숙박업 음식점업 경비 청소업 벌목업"
+      ]
+    },
+    {
+      "record_id": "list1_50107",
+      "concat": "[TITLE] 키메세지(10호_선반 가공작업)\n[SUMMARY] [사회이슈] 선반 가공작업 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "선반 가공 사고",
+        "선반으로 금속을 가공할 때 사고를 막는 안전자료를 찾고 있어",
+        "키메세지 선반 가공작업 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_50038",
+      "concat": "[TITLE] 2025 위기탈출 안전보건 앱 활용가이드\n[SUMMARY] 2025년 위기탈출 안전보건앱 내 10분안전보건교육에 대한 이용 방법 안내자료 입니다.",
+      "query": [
+        "안전보건 앱",
+        "위기탈출 안전보건 앱에서 10분 안전보건교육 쓰는 방법이 궁금해",
+        "위기탈출 안전보건 앱 활용가이드 10분안전보건교육 이용 방법"
+      ]
+    },
+    {
+      "record_id": "list1_50085",
+      "concat": "[TITLE] 배달종사자 온열질환 예방 가이드\n[SUMMARY] 배달종사자 온열질환 예방 수칙 및 플랫폼 운영사와 지역배달대행사의 역할 등 예방 가이드",
+      "query": [
+        "배달 온열질환",
+        "더운 날 배달 일을 할 때 온열질환을 막는 수칙 자료를 찾고 있어",
+        "배달종사자 온열질환 예방 가이드 플랫폼 운영사 지역배달대행사 역할"
+      ]
+    },
+    {
+      "record_id": "list1_50032",
+      "concat": "[TITLE] 2025년 온열질환예방지침(17개국 번역본)\n[SUMMARY] 폭염 대비 온열질환 예방지침(17개국 외국인 버전) - 영어, 중국, 베트남, 네팔, 동티모르, 몽골, 미얀마, 방글라데시, 스리랑카, 우즈베키스탄, 인도네시아, 캄보디아, 키르키스스탄, 태국, 파키스탄, 라오스, 필리핀 등 17개국어",
+      "query": [
+        "온열질환 외국어",
+        "폭염 때 외국인 근로자에게 나눠줄 온열질환 예방 번역 자료가 필요해",
+        "온열질환예방지침 17개국 번역본 폭염 대비 외국인"
+      ]
+    },
+    {
+      "record_id": "list1_50089",
+      "concat": "[TITLE] 안전보건VR 콘텐츠 활용 가이드 OPS\n[SUMMARY] 안전보건공단 VR콘텐츠 설명, 다운로드 방법 등 안내",
+      "query": [
+        "안전보건 VR",
+        "안전보건공단 VR 콘텐츠를 어떻게 내려받고 활용하는지 알고 싶어",
+        "안전보건VR 콘텐츠 활용 가이드 OPS 안전보건공단 VR콘텐츠 다운로드 방법"
+      ]
+    },
+    {
+      "record_id": "list1_50100",
+      "concat": "[TITLE] 배달종사자 호우·태풍 안전수칙 가이드\n[SUMMARY] 배달종사자 대상 호우·태풍 재해유형 및 플랫폼 운영사와 지역배달대행사의 역할 등 안전수칙 가이드",
+      "query": [
+        "배달 호우 태풍",
+        "비 많이 오거나 태풍 올 때 배달종사자 안전수칙 자료를 찾고 있어",
+        "배달종사자 호우 태풍 안전수칙 가이드 재해유형 플랫폼 운영사 지역배달대행사 역할"
+      ]
+    },
+    {
+      "record_id": "list1_50081",
+      "concat": "[TITLE] 키메세지(9호_부딪힘)\n[SUMMARY] [사회이슈] 부딪힘 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "부딪힘 사고",
+        "작업장에서 부딪힘 사고를 예방하는 대책 자료를 찾고 있어",
+        "키메세지 부딪힘 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_50072",
+      "concat": "[TITLE] 집중호우 대비 터널공사 10대 안전수칙\n[SUMMARY] 집중호우 대비 터널공사 10대 안전수칙 OPS",
+      "query": [
+        "터널공사 집중호우",
+        "집중호우에 대비해 터널공사 현장에서 지켜야 할 안전수칙이 필요해",
+        "집중호우 대비 터널공사 10대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_47202",
+      "concat": "[TITLE] 신산업 사고예방 시리즈 - 2차전지\n[SUMMARY] 2차전지란? 전지 제조공정 사고사례 공정별 안전관리 사항",
+      "query": [
+        "2차전지 안전",
+        "배터리 제조공정 사고사례와 공정별 안전관리 자료를 찾고 있어",
+        "신산업 사고예방 시리즈 2차전지 전지 제조공정 사고사례 공정별 안전관리"
+      ]
+    },
+    {
+      "record_id": "list1_50031",
+      "concat": "[TITLE] 2025년 온열질환 예방지침(OPS)\n[SUMMARY] 폭염대비 온열질환 예방조치 설명 및 폭염 5개 기본수칙 자율점검표",
+      "query": [
+        "온열질환 예방",
+        "폭염에 대비해서 사업장에서 온열질환 예방조치와 점검표를 찾고 있어",
+        "온열질환 예방지침 OPS 폭염대비 예방조치 폭염 5개 기본수칙 자율점검표"
+      ]
+    },
+    {
+      "record_id": "list1_47201",
+      "concat": "[TITLE] 신산업 사고예방 시리즈 - 열분해\n[SUMMARY] 열분해 설비란 열분해 공정별 위험 요인",
+      "query": [
+        "열분해 안전",
+        "열분해 설비와 공정별 위험요인을 설명한 사고예방 자료가 필요해",
+        "신산업 사고예방 시리즈 열분해 열분해 설비 공정별 위험요인"
+      ]
+    },
+    {
+      "record_id": "list1_47284",
+      "concat": "[TITLE] 공단 안전체험교육장 홍보용 OPS\n[SUMMARY] 공단에서 운영중인 안전체험교육장의 위치, 이용방법, 체험설비 등과 관련한 홍보용 OPS(양면) 자료",
+      "query": [
+        "안전체험교육장",
+        "안전보건공단 안전체험교육장 위치와 이용방법을 소개하는 자료가 필요해",
+        "공단 안전체험교육장 홍보용 OPS 위치 이용방법 체험설비"
+      ]
+    },
+    {
+      "record_id": "list1_47199",
+      "concat": "[TITLE] 신산업 사고예방 시리즈 - 바이오가스\n[SUMMARY] 바이오가스란 바이오가스 생산공정별 안전수칙",
+      "query": [
+        "바이오가스 안전",
+        "바이오가스 생산공정에서 지켜야 할 안전수칙 자료를 찾고 있어",
+        "신산업 사고예방 시리즈 바이오가스 생산공정 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_47200",
+      "concat": "[TITLE] 신산업 사고예방 시리즈 - 열매유\n[SUMMARY] 열매유란 열매유 취급 시 안전수칙 등",
+      "query": [
+        "열매유 안전",
+        "열매유를 취급할 때 필요한 안전수칙 자료를 찾고 있어",
+        "신산업 사고예방 시리즈 열매유 취급 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_47198",
+      "concat": "[TITLE] 신산업 사고예방 시리즈 - 수소\n[SUMMARY] 수소의 위험성 취급시 안전수칙 등",
+      "query": [
+        "수소 안전",
+        "수소를 다룰 때 어떤 위험이 있고 안전수칙은 무엇인지 알고 싶어",
+        "신산업 사고예방 시리즈 수소 위험성 취급 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_47137",
+      "concat": "[TITLE] 안전한 화학물질 취급을 위한 10대 수칙 OPL\n[SUMMARY] 안전한 화학물질 취급을 위한 10대 수칙 OPL",
+      "query": [
+        "화학물질 취급",
+        "사업장에서 화학물질을 안전하게 다루기 위한 기본 수칙을 찾고 있어",
+        "안전한 화학물질 취급 10대 수칙 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_47275",
+      "concat": "[TITLE] 키메세지(3호_미세먼지)\n[SUMMARY] [계절·시기별] 미세먼지 행동요령 및 관련 콘텐츠 안내 등",
+      "query": [
+        "미세먼지 행동요령",
+        "미세먼지가 심할 때 일터에서 어떻게 행동해야 하는지 안내자료가 필요해",
+        "키메세지 미세먼지 행동요령 관련 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_47211",
+      "concat": "[TITLE] 키메세지(2호_떨어짐)\n[SUMMARY] [사회이슈] 떨어짐(추락) 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "떨어짐 사고",
+        "작업 중 추락이나 떨어짐 사고를 예방하는 대책 자료를 찾고 있어",
+        "키메세지 떨어짐 추락 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_47254",
+      "concat": "[TITLE] 외국인근로자를 위한 물질안전보건자료(MSDS)의 경고표지 교육자료 활용 안내\n[SUMMARY] 외국인 근로자를 대상으로 제작한 MSDS의 경고표지 교육자료를 사업장에서 MSDS 교육 시 활용할 수 있도록 안내자료 제작",
+      "query": [
+        "MSDS 경고표지",
+        "외국인 근로자에게 화학물질 경고표지를 교육할 자료를 찾고 있어",
+        "외국인근로자 물질안전보건자료 MSDS 경고표지 교육자료 활용 안내"
+      ]
+    },
+    {
+      "record_id": "list1_47207",
+      "concat": "[TITLE] 2025 충북지역본부 건설기계장비 사고예방 대책(OPS)\n[SUMMARY] 2025 충북지역본부 건설기계장비 사고예방 대책 및 스마트 안전장비 지원사업 사업 안내 자료",
+      "query": [
+        "건설기계 사고예방",
+        "충북 지역 건설현장에서 기계장비 사고예방 대책과 지원사업 자료를 찾고 있어",
+        "충북지역본부 건설기계장비 사고예방 대책 OPS 스마트 안전장비 지원사업"
+      ]
+    },
+    {
+      "record_id": "list1_47138",
+      "concat": "[TITLE] 인화성물질 폭발사고 예방 안전수칙\n[SUMMARY] 폭발사고 사례 핵심 안전수칙 자체 점검표",
+      "query": [
+        "인화성물질 폭발",
+        "인화성 물질로 인한 폭발사고를 막는 안전수칙과 점검표가 필요해",
+        "인화성물질 폭발사고 예방 안전수칙 폭발사고 사례 핵심 안전수칙 자체 점검표"
+      ]
+    },
+    {
+      "record_id": "list1_47132",
+      "concat": "[TITLE] 2025년 건설업 산재예방 안전시설 맞춤형 패키지 지원 안내\n[SUMMARY] 2025년 안전일터 조성지원(건설업) 사업 안내 자료",
+      "query": [
+        "건설업 안전시설 지원",
+        "건설현장 산재예방 안전시설 설치를 지원받는 사업 안내를 찾고 있어",
+        "건설업 산재예방 안전시설 맞춤형 패키지 지원 안내 안전일터 조성지원"
+      ]
+    },
+    {
+      "record_id": "list1_47123",
+      "concat": "[TITLE] 2025년 제조·서비스업 등 고위험개선 사업 안내 OPS\n[SUMMARY] 2025년 제조·서비스업 등 고위험개선 사업 안내 OPS",
+      "query": [
+        "고위험개선 사업",
+        "제조업이나 서비스업 사업장에서 위험요인 개선 지원사업 안내를 찾고 있어",
+        "제조 서비스업 고위험개선 사업 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_47160",
+      "concat": "[TITLE] 키메세지(1호_화재 및 붕괴)\n[SUMMARY] [사회이슈] 화재 및 붕괴 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "화재 붕괴 사고",
+        "화재나 붕괴 사고를 예방하는 대책과 관련 자료를 찾고 있어",
+        "키메세지 화재 붕괴 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_47127",
+      "concat": "[TITLE] 저장탱크 폭발사고 안전수칙\n[SUMMARY] 화재폭발사례 핵심안전수칙 자체점검표",
+      "query": [
+        "저장탱크 폭발",
+        "저장탱크에서 화재폭발 사고를 예방하는 안전수칙과 점검표가 필요해",
+        "저장탱크 폭발사고 안전수칙 화재폭발사례 핵심안전수칙 자체점검표"
+      ]
+    },
+    {
+      "record_id": "list1_47124",
+      "concat": "[TITLE] 2025년 스마트 안전장비 지원사업 안내 OPS\n[SUMMARY] 2025년 스마트 안전장비 지원사업 안내 OPS",
+      "query": [
+        "스마트 안전장비",
+        "스마트 안전장비 지원사업 신청 안내 자료를 찾고 있어",
+        "스마트 안전장비 지원사업 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_47098",
+      "concat": "[TITLE] 25년 산재예방시설 융자지원사업 OPS\n[SUMMARY] 25년 산재예방시설 융자지원사업 사업설명 및 홍보자료",
+      "query": [
+        "산재예방시설 융자",
+        "사업장 안전시설 설치 비용을 융자로 지원받는 사업 설명자료가 필요해",
+        "산재예방시설 융자지원사업 OPS 사업설명 홍보자료"
+      ]
+    }
+  ]
+}

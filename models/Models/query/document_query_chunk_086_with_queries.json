@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 86,
+  "items": [
+    {
+      "record_id": "list1_34575",
+      "concat": "[TITLE] [중대재해_건설업]_절토 비탈면 낙석방지망 설치 중 떨어짐\n[SUMMARY] 절토 비탈면 낙석방지망 설치 중 떨어짐 중대재해사례 OPL",
+      "query": [
+        "낙석방지망 추락",
+        "비탈면에 낙석방지망 설치하다가 떨어진 사고 사례",
+        "중대재해 건설업 절토 비탈면 낙석방지망 설치 중 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34574",
+      "concat": "[TITLE] [중대재해_건설업]_해체한 공장 칸막이벽에 깔림\n[SUMMARY] 해체한 공장 칸막이벽에 깔림-중대재해사례 OPL",
+      "query": [
+        "칸막이벽 깔림",
+        "공장 벽을 해체하다가 벽체에 깔린 사고 사례",
+        "중대재해 건설업 해체한 공장 칸막이벽에 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34577",
+      "concat": "[TITLE] [중대재해_건설업]_굴삭기 후진 중 뒷바퀴에 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "굴삭기 후진 깔림",
+        "굴삭기가 뒤로 가다가 작업자가 바퀴에 깔린 사고 사례",
+        "중대재해 건설업 굴삭기 후진 중 뒷바퀴에 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35711",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 프레스\n[SUMMARY] [작업전 안전점검 OPL_설비별] 프레스",
+      "query": [
+        "프레스 점검",
+        "프레스 작업 전에 안전하게 확인해야 할 내용",
+        "작업전 안전점검 OPL 설비별 프레스"
+      ]
+    },
+    {
+      "record_id": "list1_34627",
+      "concat": "[TITLE] [중대재해_농업]_돈사 정화조 내부 청소작업 중 황화수소 중독\n[SUMMARY] [중대재해_농업]_돈사 정화조 내부 청소작업 중 황화수소 중독",
+      "query": [
+        "돈사 정화조 중독",
+        "돼지우리 정화조 청소하다가 황화수소에 중독된 사고 사례",
+        "중대재해 농업 돈사 정화조 내부 청소작업 중 황화수소 중독"
+      ]
+    },
+    {
+      "record_id": "list1_34576",
+      "concat": "[TITLE] [중대재해_건설업]_갱문 격자 지보재가 넘어져 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "갱문 지보재 깔림",
+        "터널 입구 지보재가 넘어져 작업자가 깔린 사고 사례",
+        "중대재해 건설업 갱문 격자 지보재가 넘어져 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34626",
+      "concat": "[TITLE] [중대재해_농업]_야외 고온 작업 중 열사병으로 사망\n[SUMMARY] [중대재해_농업]_야외 고온 작업 중 열사병으로 사망",
+      "query": [
+        "고온 작업 열사병",
+        "더운 날 야외에서 일하다가 열사병으로 사망한 사고 사례",
+        "중대재해 농업 야외 고온 작업 중 열사병으로 사망"
+      ]
+    },
+    {
+      "record_id": "list1_35712",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 일반 작업용 리프트\n[SUMMARY] [작업전 안전점검 OPL_설비별] 일반 작업용 리프트",
+      "query": [
+        "작업용 리프트 점검",
+        "작업용 리프트를 쓰기 전에 확인해야 할 안전사항",
+        "작업전 안전점검 OPL 설비별 일반 작업용 리프트"
+      ]
+    },
+    {
+      "record_id": "list1_35775",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 차량계 하역운반기계 등 : 총칙\n[SUMMARY] 차량계 하역운반기계 등 : 총칙 [일터에서의 안전보건 OPL]",
+      "query": [
+        "하역운반기계 안전",
+        "지게차 같은 운반 장비를 사용할 때 기본 안전수칙",
+        "일터에서의 안전보건 OPL 차량계 하역운반기계 등 총칙"
+      ]
+    },
+    {
+      "record_id": "list1_35777",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 기계ㆍ기구 및 그 밖의 설비에 의한 위험예방 : 보일러\n[SUMMARY] [일터에서의 안전보건 OPL] 기계ㆍ기구 및 그 밖의 설비에 의한 위험예방 : 보일러",
+      "query": [
+        "보일러 안전",
+        "사업장에서 보일러 설비 사고를 막기 위한 안전 기준",
+        "일터에서의 안전보건 OPL 기계 기구 및 그 밖의 설비에 의한 위험예방 보일러"
+      ]
+    },
+    {
+      "record_id": "list1_35713",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 고소작업대 (시저형)\n[SUMMARY] [작업전 안전점검 OPL_설비별] 고소작업대 (시저형)",
+      "query": [
+        "시저형 고소작업대 점검",
+        "가위식 고소작업대를 쓰기 전에 확인해야 할 안전사항",
+        "작업전 안전점검 OPL 설비별 고소작업대 시저형"
+      ]
+    },
+    {
+      "record_id": "list1_35714",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 고소작업대 (차량탑재형)\n[SUMMARY] [작업전 안전점검 OPL_설비별] 고소작업대 (차량탑재형)",
+      "query": [
+        "차량 고소작업대 점검",
+        "차량에 실린 고소작업대를 사용하기 전 안전점검 내용",
+        "작업전 안전점검 OPL 설비별 고소작업대 차량탑재형"
+      ]
+    },
+    {
+      "record_id": "list1_35717",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 가스경보시스템\n[SUMMARY] [작업전 안전점검 OPL_설비별] 가스경보시스템",
+      "query": [
+        "가스경보기 점검",
+        "가스경보시스템을 작업 전에 확인하는 방법",
+        "작업전 안전점검 OPL 설비별 가스경보시스템"
+      ]
+    },
+    {
+      "record_id": "list1_35715",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 이동식 크레인\n[SUMMARY] 이동식 크레인 -작업전 안전점검 OPL_설비별",
+      "query": [
+        "이동식 크레인 점검",
+        "이동식 크레인을 쓰기 전에 확인해야 할 안전사항",
+        "작업전 안전점검 OPL 설비별 이동식 크레인"
+      ]
+    },
+    {
+      "record_id": "list1_35716",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 천장크레인\n[SUMMARY] [작업전 안전점검 OPL_설비별] 천장크레인 (Overhead crane)",
+      "query": [
+        "천장크레인 점검",
+        "공장 천장크레인을 사용하기 전에 확인해야 할 안전사항",
+        "작업전 안전점검 OPL 설비별 천장크레인"
+      ]
+    },
+    {
+      "record_id": "list1_35719",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 회분식 반응기\n[SUMMARY] [작업전 안전점검 OPL_설비별] 회분식 반응기",
+      "query": [
+        "반응기 점검",
+        "화학 반응기를 작업 전에 안전하게 확인하는 내용",
+        "작업전 안전점검 OPL 설비별 회분식 반응기"
+      ]
+    },
+    {
+      "record_id": "list1_35718",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 저장탱크\n[SUMMARY] [작업전 안전점검 OPL_설비별] 저장탱크",
+      "query": [
+        "저장탱크 점검",
+        "저장탱크 작업 전에 확인해야 할 안전점검 사항",
+        "작업전 안전점검 OPL 설비별 저장탱크"
+      ]
+    },
+    {
+      "record_id": "list1_35726",
+      "concat": "[TITLE] [작업전 안전점검 OPL_작업별] 밀폐공간 작업\n[SUMMARY] [작업전 안전점검 OPL_작업별] 밀폐공간 작업",
+      "query": [
+        "밀폐공간 안전",
+        "밀폐된 공간에서 작업하기 전에 확인해야 할 안전사항",
+        "작업전 안전점검 OPL 작업별 밀폐공간 작업"
+      ]
+    },
+    {
+      "record_id": "list1_35725",
+      "concat": "[TITLE] [작업전 안전점검 OPL_작업별] 급성중독 발생가능 작업\n[SUMMARY] [작업전 안전점검 OPL_작업별] 급성중독 발생가능 작업",
+      "query": [
+        "급성중독 작업",
+        "화학물질 때문에 갑자기 중독될 수 있는 작업의 안전점검",
+        "작업전 안전점검 OPL 작업별 급성중독 발생가능 작업"
+      ]
+    },
+    {
+      "record_id": "list1_35731",
+      "concat": "[TITLE] [작업전 안전점검 OPL_작업별] 화학설비 정비ㆍ보수 작업\n[SUMMARY] [작업전 안전점검 OPL_작업별] 화학설비 정비ㆍ보수 작업",
+      "query": [
+        "화학설비 정비 안전",
+        "화학설비를 고치거나 보수하기 전에 확인할 안전사항",
+        "작업전 안전점검 OPL 작업별 화학설비 정비 보수 작업"
+      ]
+    },
+    {
+      "record_id": "list1_35727",
+      "concat": "[TITLE] [작업전 안전점검 OPL_작업별] 중량물 취급 작업\n[SUMMARY] [작업전 안전점검 OPL_작업별] 중량물 취급 작업",
+      "query": [
+        "무거운 물건 작업",
+        "무거운 물건을 들거나 옮기기 전 안전하게 확인할 내용",
+        "작업전 안전점검 OPL 작업별 중량물 취급 작업"
+      ]
+    },
+    {
+      "record_id": "list1_35728",
+      "concat": "[TITLE] [작업전 안전점검 OPL_작업별] 전기 기계ㆍ기구 등 취급작업\n[SUMMARY] [작업전 안전점검 OPL_작업별] 전기 기계ㆍ기구 등 취급작업",
+      "query": [
+        "전기기계 작업",
+        "전기 기계나 기구를 다루기 전에 확인해야 할 안전점검",
+        "작업전 안전점검 OPL 작업별 전기 기계 기구 등 취급작업"
+      ]
+    },
+    {
+      "record_id": "list1_36092",
+      "concat": "[TITLE] 맞춤형 직업병예방 대책정보 시리즈4(네일관리 종사자에게 발생할 수 있는 화학물질 재해예방)\n[SUMMARY] 네일관리 종사자의 화학물질에 의한 재해가능 원인과 예방대책 등",
+      "query": [
+        "네일 화학물질",
+        "네일샵에서 일할 때 화학물질로 생길 수 있는 직업병 예방 자료",
+        "맞춤형 직업병예방 대책정보 시리즈4 네일관리 종사자 화학물질 재해예방"
+      ]
+    },
+    {
+      "record_id": "list1_35732",
+      "concat": "[TITLE] [작업전 안전점검 OPL_계절별] 폭설ㆍ한파 재해예방\n[SUMMARY] [작업전 안전점검 OPL_계절별] 폭설ㆍ한파 재해예방",
+      "query": [
+        "폭설 한파 안전",
+        "눈이 많이 오거나 추울 때 작업 전 확인할 안전수칙",
+        "작업전 안전점검 OPL 계절별 폭설 한파 재해예방"
+      ]
+    },
+    {
+      "record_id": "list1_35729",
+      "concat": "[TITLE] [작업전 안전점검 OPL_작업별] 차량계 하역운반기계\n[SUMMARY] [작업전 안전점검 OPL_작업별] 차량계 하역운반기계",
+      "query": [
+        "하역운반기계 점검",
+        "차량으로 짐을 싣고 옮기는 작업 전에 확인할 안전사항",
+        "작업전 안전점검 OPL 작업별 차량계 하역운반기계"
+      ]
+    },
+    {
+      "record_id": "list1_36112",
+      "concat": "[TITLE] 운수창고통신업 동절기 재해예방\n[SUMMARY] 운수창고통신업 동절기 재해예방",
+      "query": [
+        "겨울 운수창고 안전",
+        "운수 창고 통신 업종에서 겨울철 사고를 막는 방법",
+        "운수창고통신업 동절기 재해예방"
+      ]
+    },
+    {
+      "record_id": "list1_35623",
+      "concat": "[TITLE] 맞춤형 직업병예방 대책정보 시리즈 3(건물청소작업 중 화학물질 접촉에 의한 피부화상 주의)\n[SUMMARY] 청소원(환경미화원)등 건물 내외부 청소를 위해 사용되는 화학물질에 의한 피부화상의 원인과 예방대책 등",
+      "query": [
+        "청소 화학물질 화상",
+        "건물 청소할 때 세제나 약품 때문에 피부화상 생기는 것을 막는 자료",
+        "맞춤형 직업병예방 대책정보 시리즈 3 건물청소작업 중 화학물질 접촉에 의한 피부화상 주의"
+      ]
+    },
+    {
+      "record_id": "list1_34553",
+      "concat": "[TITLE] [중대재해_건설업]_지붕 바닥에 기와 잇기 작업 중 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "지붕 기와 추락",
+        "지붕에서 기와 작업을 하다가 떨어진 건설 사고 사례",
+        "중대재해 건설업 지붕 바닥에 기와 잇기 작업 중 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34567",
+      "concat": "[TITLE] [중대재해_건설업]_이동식 크레인이 쓰러지며 하강하는 붐에 부딪힘\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "이동식 크레인 전도",
+        "이동식 크레인이 쓰러지면서 붐에 부딪힌 사고 사례",
+        "중대재해 건설업 이동식 크레인이 쓰러지며 하강하는 붐에 부딪힘 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35218",
+      "concat": "[TITLE] OPS(바닥 방수재 배합공정 폭발사고)\n[SUMMARY] 2015년 3월 18일(수) 10시 08분경 충북 진천군 소재 ○○화학(주) 바닥방수제 생산 배합공정에서 점도조절을 목적으로 배합기(8m3)에 용제를 추가 투입하기 위해 용제저장조 상부에서 플라스틱 용기를 사용하여 용제를 담는 작업을 하던 중 용제저장소 맨홀 부위에 폭발성분위기기가 형성된 상태에서 기계적 마찰 스파크 또는 정전기가 점화원으로 작용하여 폭발이 발생한 것으로 추정",
+      "query": [
+        "방수재 폭발사고",
+        "바닥 방수재를 배합하는 공정에서 용제 때문에 폭발한 사고 사례",
+        "OPS 바닥 방수재 배합공정 폭발사고"
+      ]
+    }
+  ]
+}

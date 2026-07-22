@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 7,
+  "items": [
+    {
+      "record_id": "list1_51114",
+      "concat": "[TITLE] [특수형태근로종사자] 골재살포기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 골재살포기",
+      "query": [
+        "골재살포기 안전",
+        "골재살포기 운전할 때 필요한 안전보건 자료",
+        "특수형태근로종사자 골재살포기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51976",
+      "concat": "[TITLE] [중대재해] 굴삭기로 철판을 인양·운반 중 철판이 쓰러져 깔림\n[SUMMARY] [중대재해] 굴삭기로 철판을 인양·운반 중 철판이 쓰러져 깔림",
+      "query": [
+        "굴삭기 철판 깔림",
+        "굴삭기로 철판 옮기다가 깔리는 사고 사례",
+        "중대재해 굴삭기 철판 인양 운반 철판 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_51974",
+      "concat": "[TITLE] [중대재해] 절토 비탈면 낙석방지망 설치 중 떨어짐\n[SUMMARY] [중대재해] 절토 비탈면 낙석방지망 설치 중 떨어짐",
+      "query": [
+        "비탈면 낙석망 추락",
+        "비탈면에 낙석방지망 설치하다 떨어진 사고 사례",
+        "중대재해 절토 비탈면 낙석방지망 설치 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51972",
+      "concat": "[TITLE] [중대재해] 교량 강선 인장작업 중 고소작업대 넘어짐\n[SUMMARY] [중대재해] 교량 강선 인장작업 중 고소작업대 넘어짐",
+      "query": [
+        "고소작업대 넘어짐",
+        "교량 작업 중 고소작업대가 넘어진 사고 사례",
+        "중대재해 교량 강선 인장작업 고소작업대 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51973",
+      "concat": "[TITLE] [중대재해] 굴삭기 후진 중 뒷바퀴에 깔림\n[SUMMARY] [중대재해] 굴삭기 후진 중 뒷바퀴에 깔림",
+      "query": [
+        "굴삭기 후진 깔림",
+        "굴삭기가 후진하다 사람을 깔린 사고 사례",
+        "중대재해 굴삭기 후진 뒷바퀴 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_51938",
+      "concat": "[TITLE] [중대재해] 굴삭기가 무게중심을 잃고 굴러 넘어짐\n[SUMMARY] [중대재해] 굴삭기가 무게중심을 잃고 굴러 넘어짐",
+      "query": [
+        "굴삭기 전도 사고",
+        "굴삭기가 균형을 잃고 넘어지는 사고 사례",
+        "중대재해 굴삭기 무게중심 굴러 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51939",
+      "concat": "[TITLE] [중대재해] 철골빔 상부에서 볼트 체결작업 중 떨어짐\n[SUMMARY] [중대재해] 철골빔 상부에서 볼트 체결작업 중 떨어짐",
+      "query": [
+        "철골빔 추락",
+        "철골빔 위에서 볼트 체결하다 떨어진 사고 사례",
+        "중대재해 철골빔 상부 볼트 체결작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51937",
+      "concat": "[TITLE] [중대재해] 갈탄 이용 콘크리트 양생 중 일산화탄소에 중독\n[SUMMARY] [중대재해] 갈탄 이용 콘크리트 양생 중 일산화탄소에 중독",
+      "query": [
+        "갈탄 양생 중독",
+        "콘크리트 양생 중 일산화탄소 중독 사고 사례",
+        "중대재해 갈탄 콘크리트 양생 일산화탄소 중독"
+      ]
+    },
+    {
+      "record_id": "list1_51971",
+      "concat": "[TITLE] [중대재해] 에탄올 주입 배관 근처에서 용접작업 중 폭발화재\n[SUMMARY] [중대재해] 에탄올 주입 배관 근처에서 용접작업 중 폭발화재",
+      "query": [
+        "에탄올 용접 폭발",
+        "에탄올 배관 근처에서 용접하다 폭발 화재가 난 사고",
+        "중대재해 에탄올 주입 배관 용접작업 폭발화재"
+      ]
+    },
+    {
+      "record_id": "list1_51936",
+      "concat": "[TITLE] [중대재해] 대형 상수도관 플랜지 용접작업 중 깔림\n[SUMMARY] [중대재해] 대형 상수도관 플랜지 용접작업 중 깔림",
+      "query": [
+        "상수도관 용접 깔림",
+        "큰 상수도관 플랜지 용접 중 깔린 사고 사례",
+        "중대재해 대형 상수도관 플랜지 용접작업 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_51970",
+      "concat": "[TITLE] [중대재해] 탁상용 연삭기로 작업 중 깨진 연삭숫돌에 맞음\n[SUMMARY] [중대재해] 탁상용 연삭기로 작업 중 깨진 연삭숫돌에 맞음",
+      "query": [
+        "연삭기 숫돌 파손",
+        "탁상용 연삭기로 작업하다 깨진 숫돌에 맞은 사고",
+        "중대재해 탁상용 연삭기 연삭숫돌 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51969",
+      "concat": "[TITLE] [중대재해] 공기압축기 배관 연결작업 중 날아온 배관에 맞음\n[SUMMARY] [중대재해] 공기압축기 배관 연결작업 중 날아온 배관에 맞음",
+      "query": [
+        "공기압축기 배관 사고",
+        "공기압축기 배관 연결 중 배관이 날아온 사고 사례",
+        "중대재해 공기압축기 배관 연결작업 날아온 배관 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51934",
+      "concat": "[TITLE] [중대재해] 레버풀러 이용 작업 중 체인이 끊어져 떨어짐\n[SUMMARY] [중대재해] 레버풀러 이용 작업 중 체인이 끊어져 떨어짐",
+      "query": [
+        "레버풀러 체인 파단",
+        "레버풀러 작업 중 체인이 끊어져 떨어진 사고 사례",
+        "중대재해 레버풀러 체인 끊어짐 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51968",
+      "concat": "[TITLE] [중대재해] 작업장 이동 중 세워 놓은 주형하판에 깔림\n[SUMMARY] [중대재해] 작업장 이동 중 세워 놓은 주형하판에 깔림",
+      "query": [
+        "주형하판 깔림",
+        "작업장 이동 중 세워 둔 주형하판에 깔린 사고",
+        "중대재해 작업장 이동 주형하판 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_51967",
+      "concat": "[TITLE] [중대재해] 교류아크용접 작업 중 감전\n[SUMMARY] [중대재해] 교류아크용접 작업 중 감전",
+      "query": [
+        "아크용접 감전",
+        "교류아크용접 작업 중 감전된 사고 사례",
+        "중대재해 교류아크용접 작업 감전"
+      ]
+    },
+    {
+      "record_id": "list1_51935",
+      "concat": "[TITLE] [중대재해] 이동식 전등의 노출 전선 충전부에 감전\n[SUMMARY] [중대재해] 이동식 전등의 노출 전선 충전부에 감전",
+      "query": [
+        "이동식 전등 감전",
+        "이동식 전등 전선에 닿아 감전된 사고 사례",
+        "중대재해 이동식 전등 노출 전선 충전부 감전"
+      ]
+    },
+    {
+      "record_id": "list1_51933",
+      "concat": "[TITLE] [중대재해] 폐목재 지게차 운반 중 후방으로 떨어진 폐목에 맞음\n[SUMMARY] [중대재해] 폐목재 지게차 운반 중 후방으로 떨어진 폐목에 맞음",
+      "query": [
+        "지게차 폐목 맞음",
+        "지게차로 폐목재 옮기다 떨어진 폐목에 맞은 사고",
+        "중대재해 폐목재 지게차 운반 후방 폐목 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51966",
+      "concat": "[TITLE] [중대재해] 스티로폼 상차 작업 중 적재함에서 떨어짐\n[SUMMARY] [중대재해] 스티로폼 상차 작업 중 적재함에서 떨어짐",
+      "query": [
+        "스티로폼 상차 추락",
+        "스티로폼 싣는 작업 중 적재함에서 떨어진 사고",
+        "중대재해 스티로폼 상차 적재함 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51932",
+      "concat": "[TITLE] [중대재해] 샌드위치 패널 지붕 위에서 배선작업 중 떨어짐\n[SUMMARY] [중대재해] 샌드위치 패널 지붕 위에서 배선작업 중 떨어짐",
+      "query": [
+        "샌드위치패널 지붕 추락",
+        "샌드위치 패널 지붕에서 배선 작업하다 떨어진 사고",
+        "중대재해 샌드위치 패널 지붕 배선작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51964",
+      "concat": "[TITLE] [중대재해] 통신선에 걸린 고소작업대 차량 후진 중 떨어짐\n[SUMMARY] [중대재해] 통신선에 걸린 고소작업대 차량 후진 중 떨어짐",
+      "query": [
+        "고소작업대 차량 추락",
+        "고소작업대 차량이 통신선에 걸려 후진 중 떨어진 사고",
+        "중대재해 통신선 고소작업대 차량 후진 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51965",
+      "concat": "[TITLE] [중대재해] 캐노피 도장작업 중 시저형 고소작업대에서 떨어짐\n[SUMMARY] [중대재해] 캐노피 도장작업 중 시저형 고소작업대에서 떨어짐",
+      "query": [
+        "시저형 고소작업대 추락",
+        "캐노피 도장 중 시저형 고소작업대에서 떨어진 사고",
+        "중대재해 캐노피 도장작업 시저형 고소작업대 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51963",
+      "concat": "[TITLE] [중대재해] 이동식비계 발판에서 전선 입선 작업 중 떨어짐\n[SUMMARY] [중대재해] 이동식비계 발판에서 전선 입선 작업 중 떨어짐",
+      "query": [
+        "이동식비계 추락",
+        "이동식비계 발판에서 전선 작업하다 떨어진 사고",
+        "중대재해 이동식비계 발판 전선 입선 작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51961",
+      "concat": "[TITLE] [중대재해] 화물자동차에서 떨어진 배관파이프에 맞음\n[SUMMARY] [중대재해] 화물자동차에서 떨어진 배관파이프에 맞음",
+      "query": [
+        "화물차 배관파이프 맞음",
+        "화물자동차에서 떨어진 배관파이프에 맞은 사고",
+        "중대재해 화물자동차 배관파이프 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51962",
+      "concat": "[TITLE] [중대재해] 보행통로가 아닌 곳으로 이동 중 대형 개구부로 떨어짐\n[SUMMARY] [중대재해] 보행통로가 아닌 곳으로 이동 중 대형 개구부로 떨어짐",
+      "query": [
+        "개구부 추락",
+        "보행통로가 아닌 곳으로 가다가 큰 개구부로 떨어진 사고",
+        "중대재해 보행통로 아닌 곳 이동 대형 개구부 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51115",
+      "concat": "[TITLE] [특수형태근로종사자] 쇄석기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 쇄석기",
+      "query": [
+        "쇄석기 안전",
+        "쇄석기 운전하는 사람 안전보건 자료",
+        "특수형태근로종사자 쇄석기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51116",
+      "concat": "[TITLE] [특수형태근로종사자] 공기압축기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 공기압축기",
+      "query": [
+        "공기압축기 안전",
+        "공기압축기 운전하는 사람 안전보건 자료",
+        "특수형태근로종사자 공기압축기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51117",
+      "concat": "[TITLE] [특수형태근로종사자] 천공기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 천공기",
+      "query": [
+        "천공기 안전",
+        "천공기 운전하는 사람 안전보건 자료",
+        "특수형태근로종사자 천공기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51118",
+      "concat": "[TITLE] [특수형태근로종사자] 준설선\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 준설선",
+      "query": [
+        "준설선 안전",
+        "준설선 운전하는 사람 안전보건 자료",
+        "특수형태근로종사자 준설선 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51128",
+      "concat": "[TITLE] [특수형태근로종사자] 퀵서비스기사\n[SUMMARY] 특수형태근로종사자의 안전보건 - 퀵서비스기사",
+      "query": [
+        "퀵서비스기사 안전",
+        "퀵서비스 기사에게 필요한 안전보건 자료",
+        "특수형태근로종사자 퀵서비스기사 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51120",
+      "concat": "[TITLE] [특수형태근로종사자] 타워크레인\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 타워크레인",
+      "query": [
+        "타워크레인 안전",
+        "타워크레인 운전하는 사람 안전보건 자료",
+        "특수형태근로종사자 타워크레인 안전보건"
+      ]
+    }
+  ]
+}

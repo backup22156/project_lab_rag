@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 91,
+  "items": [
+    {
+      "record_id": "list1_34512",
+      "concat": "[TITLE] [중대재해_기계기구]_열교환기 기압시험 중 플랜지에 맞음\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "열교환기 압력시험 사고",
+        "열교환기 기압시험 중 플랜지에 맞은 사고 사례를 찾고 싶다",
+        "중대재해 기계기구 열교환기 기압시험 플랜지 맞음 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34333",
+      "concat": "[TITLE] (외국인-OPL) 근로자 건강증진 활동(스트레스 관리)\n[SUMMARY] (외국인-OPL) 근로자 건강증진 활동(스트레스 관리)",
+      "query": [
+        "직장 스트레스 관리",
+        "외국인 근로자도 이해할 수 있는 스트레스 관리 건강증진 자료",
+        "외국인 OPL 근로자 건강증진 활동 스트레스 관리"
+      ]
+    },
+    {
+      "record_id": "list1_31089",
+      "concat": "[TITLE] 쯔쯔가무시증 예방할 수 있습니다.\n[SUMMARY] 쯔쯔가무시증의 정의 및 쯔쯔가무시증 감염증상쯔쯔가무시증 예방수칙",
+      "query": [
+        "쯔쯔가무시증 예방",
+        "야외 작업할 때 쯔쯔가무시증 감염을 막는 방법과 증상 안내",
+        "쯔쯔가무시증 예방 감염증상 예방수칙"
+      ]
+    },
+    {
+      "record_id": "list1_31285",
+      "concat": "[TITLE] 신규채용자 끼임재해 안전길잡이\n[SUMMARY] ■ 근로자 신규 채용 시의 교육 ■ 제조업 감김·끼임 재해현황 ■ 감김·끼임 재해발생 주요 원인 ■ 감김·끼임 재해예방 대책",
+      "query": [
+        "끼임사고 안전교육",
+        "신규 직원에게 끼임이나 감김 사고를 예방하도록 교육할 자료",
+        "신규채용자 끼임재해 안전길잡이 감김 끼임 재해예방 대책"
+      ]
+    },
+    {
+      "record_id": "list1_30923",
+      "concat": "[TITLE] 제조업종 OPL 손쉽게 찾기 매뉴얼\n[SUMMARY] 제조업종 업종별 OPL 미디어 손쉽게 찾는 방법 설명 홍보자료",
+      "query": [
+        "제조업 안전자료 찾기",
+        "제조업 업종별 안전 교육 자료를 쉽게 찾는 방법",
+        "제조업종 OPL 손쉽게 찾기 매뉴얼 홍보자료"
+      ]
+    },
+    {
+      "record_id": "list1_30870",
+      "concat": "[TITLE] 소규모 건설현장 산업재해 예방 OPL\n[SUMMARY] - (근로자용)소규모 건설현장 산업재해예방 OPL - (사업주용)소규모 건설현장 산업재해예방 OPL - 실내, 생활건축 작업별 유해·위험요인 및 안전대책",
+      "query": [
+        "작은 건설현장 안전",
+        "소규모 건설현장에서 근로자와 사업주가 볼 산업재해 예방 자료",
+        "소규모 건설현장 산업재해 예방 OPL 근로자용 사업주용 유해위험요인 안전대책"
+      ]
+    },
+    {
+      "record_id": "list1_34117",
+      "concat": "[TITLE] 화학물질 누출사고 예방을 위해 이것만은 꼭 지켜주세요\n[SUMMARY] 화학물질 누출사고 예방 OPL",
+      "query": [
+        "화학물질 누출 예방",
+        "화학물질이 새는 사고를 막기 위해 꼭 지켜야 할 안전수칙",
+        "화학물질 누출사고 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_32303",
+      "concat": "[TITLE] 어업_섬유로프 안전작업\n[SUMMARY] 외국인근로자용OPL",
+      "query": [
+        "섬유로프 안전작업",
+        "어업 현장에서 섬유 로프를 안전하게 다루는 외국인 근로자용 자료",
+        "어업 섬유로프 안전작업 외국인근로자용 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33478",
+      "concat": "[TITLE] [중대재해_기계기구]크레인 거더 위에서 천장 조명 전선 교체 중 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "크레인 조명 교체 추락",
+        "크레인 거더 위에서 천장 조명 전선을 바꾸다 떨어진 사고 사례",
+        "중대재해 기계기구 크레인 거더 천장 조명 전선 교체 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_32295",
+      "concat": "[TITLE] 제조_금형설치및해체\n[SUMMARY] 금형설치및해체 외국인근로자용OPL",
+      "query": [
+        "금형 설치 해체",
+        "제조 현장에서 금형을 설치하거나 해체할 때 필요한 외국인 근로자 안전자료",
+        "제조 금형설치 및 해체 외국인근로자용 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31347",
+      "concat": "[TITLE] 지게차 산업재해 예방대책\n[SUMMARY] 지게차 관련 산업재해 사례와 예방 대책을 제시하여 홍보및 교육용으로 활용",
+      "query": [
+        "지게차 사고 예방",
+        "지게차 작업 중 생기는 산업재해 사례와 예방 방법 교육자료",
+        "지게차 산업재해 예방대책 산업재해 사례 예방 대책 홍보 교육"
+      ]
+    },
+    {
+      "record_id": "list1_33385",
+      "concat": "[TITLE] [중대재해_건설업]거푸집 인양 중 넘어진 삼각인양기에 부딪힘\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "거푸집 인양 사고",
+        "거푸집을 들어 올리다가 삼각인양기에 부딪힌 건설 사고 사례",
+        "중대재해 건설업 거푸집 인양 삼각인양기 부딪힘 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34514",
+      "concat": "[TITLE] [중대재해_수송용]_로봇 작업 영역에서 로봇 지그에 부딪힘\n[SUMMARY] 로봇 작업 영역에서 로봇 지그에 부딪힘-중대재해사례 OPL",
+      "query": [
+        "로봇 작업구역 사고",
+        "로봇 작업 영역 안에서 로봇 지그에 부딪힌 사고 사례",
+        "중대재해 수송용 로봇 작업 영역 로봇 지그 부딪힘 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34515",
+      "concat": "[TITLE] [중대재해_수송용]_원통형 전선하우징 거치 작업 중 끼임\n[SUMMARY] 원통형 전선하우징 거치 작업 중 끼임 중대재해사례 OPL",
+      "query": [
+        "전선하우징 끼임",
+        "원통형 전선하우징을 거치하다가 끼인 사고 사례",
+        "중대재해 수송용 원통형 전선하우징 거치 작업 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34516",
+      "concat": "[TITLE] [중대재해_수송용]_탁상용 연삭기로 작업 중 깨진 연삭숫돌에 맞음\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "연삭기 숫돌 파손",
+        "탁상용 연삭기로 작업하다 깨진 연삭숫돌에 맞은 사고 사례",
+        "중대재해 수송용 탁상용 연삭기 깨진 연삭숫돌 맞음 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34517",
+      "concat": "[TITLE] [중대재해_비금속]_철판 이송용 컨베이어 하부와 고정 프레임 사이에 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "컨베이어 하부 끼임",
+        "철판 이송 컨베이어 아래와 고정 프레임 사이에 끼인 사고 사례",
+        "중대재해 비금속 철판 이송용 컨베이어 하부 고정 프레임 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34518",
+      "concat": "[TITLE] [중대재해_비금속]_세미갠트리 크레인 래그와 적재대 사이에 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "세미갠트리 크레인 끼임",
+        "세미갠트리 크레인 래그와 적재대 사이에 끼인 사고 사례",
+        "중대재해 비금속 세미갠트리 크레인 래그 적재대 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34519",
+      "concat": "[TITLE] [중대재해_비금속]_대형 상수도관 플랜지 용접 작업 중 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "상수도관 용접 깔림",
+        "대형 상수도관 플랜지를 용접하던 중 깔린 사고 사례",
+        "중대재해 비금속 대형 상수도관 플랜지 용접 작업 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34520",
+      "concat": "[TITLE] [중대재해_비금속]_알루미늄 분진 폭발로 인한 화상\n[SUMMARY] 알루미늄 분진 중대재해사례 OPL",
+      "query": [
+        "알루미늄 분진 폭발",
+        "알루미늄 분진이 폭발해 화상을 입은 사고 사례",
+        "중대재해 비금속 알루미늄 분진 폭발 화상 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34521",
+      "concat": "[TITLE] [중대재해_비금속]_드릴 작업 중 스카프가 드릴기 날에 말림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "드릴 스카프 말림",
+        "드릴 작업 중 목도리나 스카프가 드릴 날에 말린 사고 사례",
+        "중대재해 비금속 드릴 작업 스카프 드릴기 날 말림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34523",
+      "concat": "[TITLE] [중대재해_비금속]_교반기에 첨가제 투입작업 중 질식\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "교반기 질식 사고",
+        "교반기에 첨가제를 넣다가 질식한 사고 사례",
+        "중대재해 비금속 교반기 첨가제 투입작업 질식 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34522",
+      "concat": "[TITLE] [중대재해_비금속]_공기압축기 배관 연결 작업 중 날아온 배관에 맞음\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "공기압축기 배관 사고",
+        "공기압축기 배관을 연결하다 날아온 배관에 맞은 사고 사례",
+        "중대재해 비금속 공기압축기 배관 연결 작업 날아온 배관 맞음 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34524",
+      "concat": "[TITLE] [중대재해_비금속]_금속 모형절단기와 천장크레인의 벽체기둥 사이에 끼임\n[SUMMARY] 중대재해사례 OPL - 금속 모형절단기와 천장크레인의 벽체기둥 사이에 끼임",
+      "query": [
+        "절단기 크레인 끼임",
+        "금속 모형절단기와 천장크레인 벽체기둥 사이에 끼인 사고 사례",
+        "중대재해 비금속 금속 모형절단기 천장크레인 벽체기둥 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33384",
+      "concat": "[TITLE] [중대재해_건설업]콘크리트 펌프카 붐대 불시 하강에 의한 부딪힘\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "펌프카 붐대 하강",
+        "콘크리트 펌프카 붐대가 갑자기 내려와 부딪힌 건설 사고 사례",
+        "중대재해 건설업 콘크리트 펌프카 붐대 불시 하강 부딪힘 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34525",
+      "concat": "[TITLE] [중대재해_선박]_이동식 전등의 노출 전선 충전부에 감전\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "이동식 전등 감전",
+        "이동식 전등의 노출된 전선 충전부에 닿아 감전된 사고 사례",
+        "중대재해 선박 이동식 전등 노출 전선 충전부 감전 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33383",
+      "concat": "[TITLE] [중대재해_건설업]콘크리트 양생작업 중 갈탄 연소 가스에 중독\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "갈탄 가스 중독",
+        "콘크리트 양생 작업 중 갈탄 연소 가스에 중독된 건설 사고 사례",
+        "중대재해 건설업 콘크리트 양생작업 갈탄 연소 가스 중독 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33382",
+      "concat": "[TITLE] [중대재해_건설업]저압활선작업 중 충전부 접촉에 의한 감전\n[SUMMARY] 저압활선작업 중 충전부 접촉에 의한 감전 중대재해사례 OPL",
+      "query": [
+        "저압활선 감전",
+        "저압 활선 작업 중 충전부에 접촉해 감전된 사고 사례",
+        "중대재해 건설업 저압활선작업 충전부 접촉 감전 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33381",
+      "concat": "[TITLE] [중대재해_건설업]22.9Kv 충전전로에 감전돼 떨어짐\n[SUMMARY] 22.9Kv 충전전로에 감전돼 떨어짐-중대재해사례 OPL",
+      "query": [
+        "전선 감전 추락",
+        "충전된 전로에 감전되어 떨어진 건설 사고 사례",
+        "중대재해 건설업 22.9Kv 충전전로 감전 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33380",
+      "concat": "[TITLE] [중대재해_건설업]기계 설치작업 중 쓰러진 기계장치에 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "기계 설치 깔림",
+        "기계 설치 작업 중 장치가 쓰러져 깔린 건설 사고 사례",
+        "중대재해 건설업 기계 설치작업 쓰러진 기계장치 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33379",
+      "concat": "[TITLE] [중대재해_건설업]트럭에서 굴삭기 하차 중 굴삭기 넘어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "굴삭기 하차 넘어짐",
+        "트럭에서 굴삭기를 내리다가 굴삭기가 넘어진 건설 사고 사례",
+        "중대재해 건설업 트럭 굴삭기 하차 굴삭기 넘어짐 중대재해사례 OPL"
+      ]
+    }
+  ]
+}

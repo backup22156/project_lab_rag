@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 157,
+  "items": [
+    {
+      "record_id": "list3_44705",
+      "concat": "[TITLE] 조선업안전관리모델(배관공)\n[SUMMARY] 조선업종 보급자료",
+      "query": [
+        "조선소 배관공 안전",
+        "조선소에서 배관 작업할 때 지켜야 할 안전관리 자료",
+        "조선업 안전관리모델 배관공"
+      ]
+    },
+    {
+      "record_id": "list3_46354",
+      "concat": "[TITLE] 자체 도급공사 및 용역 안전관리 QR 코드집\n[SUMMARY] 공단 자체 도급공사？용역과 관련된 안전관리계획？위험성평가, 고위험 작업별 안전대책 등 46종으로 구성되어 있으며, 공단 안전감독자 및 수급업체 관리책임자가 안전관리 시 쉽게 활용할 수 있도록 휴대가 용이한 포켓북 형태로 안전보건정보를 제공하고자 제작",
+      "query": [
+        "도급공사 안전 QR",
+        "도급공사랑 용역 안전관리 자료를 QR로 모아둔 자료",
+        "자체 도급공사 용역 안전관리 QR 코드집"
+      ]
+    },
+    {
+      "record_id": "list3_46357",
+      "concat": "[TITLE] 2024년 공단 홍보 브로슈어\n[SUMMARY] 2024년 공단 홍보 브로슈어",
+      "query": [
+        "안전보건공단 브로슈어",
+        "안전보건공단 소개나 홍보자료를 볼 수 있는 책자",
+        "공단 홍보 브로슈어"
+      ]
+    },
+    {
+      "record_id": "list3_45462",
+      "concat": "[TITLE] 보호구분야 서면심사 기술문서 작성안내서\n[SUMMARY] 보호구분야 서면심사 기술문서 작성안내서",
+      "query": [
+        "보호구 기술문서",
+        "보호구 서면심사 받을 때 기술문서 작성하는 방법",
+        "보호구분야 서면심사 기술문서 작성안내서"
+      ]
+    },
+    {
+      "record_id": "list3_46725",
+      "concat": "[TITLE] 2025 만화로 보는 산업안전보건기준에 관한 규칙\n[SUMMARY] 2024년에 제작한 「2025 만화로 보는 산업안전보건기준에 관한 규칙」입니다. 고용노동부령 제417호 (시행일: 2024. 6. 28., 2024. 12. 29., 2025. 6. 29.) ※ 별첨: 산업안전보건기준에 관한 규칙(신구조문대비표) <출처: 법제처 국가법령정보센터 누리집>",
+      "query": [
+        "산업안전보건기준 만화",
+        "산업안전보건기준에 관한 규칙을 만화로 쉽게 설명한 자료",
+        "만화로 보는 산업안전보건기준에 관한 규칙 신구조문대비표"
+      ]
+    },
+    {
+      "record_id": "list3_46698",
+      "concat": "[TITLE] 2024년 동절기 건설현장 안전보건 길잡이\n[SUMMARY] 동절기 건설현장 위험요인별 안전관리 및 안전보건교육자료",
+      "query": [
+        "동절기 건설현장 안전",
+        "겨울철 건설현장에서 위험요인별로 안전관리하는 자료",
+        "동절기 건설현장 안전보건 길잡이"
+      ]
+    },
+    {
+      "record_id": "list3_46358",
+      "concat": "[TITLE] 2024년 월간 안전보건 8월호\n[SUMMARY] 2024년 월간 안전보건 8월호",
+      "query": [
+        "안전보건 8월호",
+        "월간 안전보건 잡지 8월호 파일을 찾고 싶을 때",
+        "월간 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_46797",
+      "concat": "[TITLE] 2024년 월간 안전보건 12월호\n[SUMMARY] 2024년 월간 안전보건 12월호 - 파일 다운은 월간 안전보건 e-book 탭에서 하시기 바랍니다.",
+      "query": [
+        "안전보건 12월호",
+        "월간 안전보건 잡지 12월호 파일을 찾고 싶을 때",
+        "월간 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_46580",
+      "concat": "[TITLE] 중소규모 사업장을 위한 건설업 안전보건관리체계 구축 실행안내서\n[SUMMARY] 중소규모 사업장을 위한 건설업 안전보건관리체계 구축 실행안내서",
+      "query": [
+        "건설업 안전보건관리체계",
+        "중소 건설업체가 안전보건관리체계를 만드는 방법",
+        "중소규모 사업장 건설업 안전보건관리체계 구축 실행안내서"
+      ]
+    },
+    {
+      "record_id": "list3_46526",
+      "concat": "[TITLE] 2024년도 자체 도급공사 및 용역 안전관리 노하우\n[SUMMARY] - 도급공사 및 용역 고위험 작업에 대한 위험 포인트 및 개선사례 제시 - 타 공공기관, 유관기관이 도급공사/용역 안전보건경영시스템 구축에 활용 - 공단 안전감독자가 현장 안전보건경영시스템 구축을 위해 안전감독 및 안전교육 시 활용",
+      "query": [
+        "도급공사 안전관리 노하우",
+        "도급공사나 용역에서 고위험 작업을 안전하게 관리하는 사례",
+        "자체 도급공사 용역 안전관리 노하우"
+      ]
+    },
+    {
+      "record_id": "list3_46490",
+      "concat": "[TITLE] 2024 산업안전 웹툰 공모전 수상작 모음집\n[SUMMARY] 2024 산업안전 웹툰 공모전 수상작 6개 작품을 하나의 책자로 엮은 단행본",
+      "query": [
+        "산업안전 웹툰",
+        "산업안전 웹툰 공모전에서 뽑힌 작품 모음",
+        "산업안전 웹툰 공모전 수상작 모음집"
+      ]
+    },
+    {
+      "record_id": "list3_46585",
+      "concat": "[TITLE] 2024년 월간 안전보건 11월호\n[SUMMARY] 2024년 월간 안전보건 11월호 - 파일 다운은 월간 안전보건 e-book 탭에서 하시기 바랍니다.",
+      "query": [
+        "안전보건 11월호",
+        "월간 안전보건 잡지 11월호 파일을 찾고 싶을 때",
+        "월간 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_46492",
+      "concat": "[TITLE] 2024 중·소규모 건설현장을 위한 안전보건길잡이\n[SUMMARY] 2024 중·소규모 건설현장을 위한 안전보건길잡이(재해현황, 자율점검표, 작업계획서 등)",
+      "query": [
+        "중소 건설현장 안전",
+        "작은 건설현장에서 점검표와 작업계획서로 안전관리하는 자료",
+        "중소규모 건설현장 안전보건길잡이 재해현황 자율점검표 작업계획서"
+      ]
+    },
+    {
+      "record_id": "list3_46344",
+      "concat": "[TITLE] 2024년 안전보건관리담당자 양성교육 교재\n[SUMMARY] 2024년 안전보건관리담당자 양성교육 교재",
+      "query": [
+        "안전보건관리담당자 교육",
+        "안전보건관리담당자 양성교육에 쓰는 교재",
+        "안전보건관리담당자 양성교육 교재"
+      ]
+    },
+    {
+      "record_id": "list3_46390",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(미얀마어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "미얀마어 건설 안전",
+        "미얀마어로 된 건설업 기초안전보건교육 핸드북",
+        "건설업 기초안전보건교육 핸드북 미얀마어"
+      ]
+    },
+    {
+      "record_id": "list3_46509",
+      "concat": "[TITLE] 2024년 월간 안전보건 10월호\n[SUMMARY] 2024년 월간 안전보건 10월호",
+      "query": [
+        "안전보건 10월호",
+        "월간 안전보건 잡지 10월호 파일을 찾고 싶을 때",
+        "월간 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_46377",
+      "concat": "[TITLE] 건설업 기초안전보건교육 표준교재(태국어)\n[SUMMARY] 건설현장 일용근로자 대상으로 실시하는 기초안전보건교육 표준교재(태국어)",
+      "query": [
+        "태국어 건설 안전교재",
+        "태국어로 된 건설현장 일용근로자 기초안전교육 교재",
+        "건설업 기초안전보건교육 표준교재 태국어"
+      ]
+    },
+    {
+      "record_id": "list3_46276",
+      "concat": "[TITLE] 2024년 안전보건 나침반(건설업)\n[SUMMARY] 2024년 공단 사업 안내, 산안법 및 중대재해처벌법 주요내용, 다발사망 예방대책, 안전보건정보 수록 (책자를 택배로 받아보실 수 있습니다./오른쪽 메뉴 - 미디어현장배송 - 사업자등록번호로 로그인 및 신청(자료비 무료, 택배비 착불))",
+      "query": [
+        "건설업 안전보건 나침반",
+        "건설업 사업장에서 산안법과 중대재해처벌법 내용을 확인하는 안내책자",
+        "안전보건 나침반 건설업 산안법 중대재해처벌법 안전보건정보"
+      ]
+    },
+    {
+      "record_id": "list3_46277",
+      "concat": "[TITLE] 2024년 안전보건 나침반(서비스업)\n[SUMMARY] 2024년 공단 사업 안내, 산안법 및 중대재해처벌법 주요내용, 다발사망 예방대책, 안전보건정보 수록 (책자를 택배로 받아보실 수 있습니다./오른쪽 메뉴 - 미디어현장배송 - 사업자등록번호로 로그인 및 신청(자료비 무료, 택배비 착불))",
+      "query": [
+        "서비스업 안전보건 나침반",
+        "서비스업 사업장에서 산안법과 중대재해처벌법 내용을 확인하는 안내책자",
+        "안전보건 나침반 서비스업 산안법 중대재해처벌법 안전보건정보"
+      ]
+    },
+    {
+      "record_id": "list3_46522",
+      "concat": "[TITLE] 전지 제조·취급업 화재·폭발사고 대비 안전가이드\n[SUMMARY] 전지 제조·취급업 화재·폭발사고 대비 안전가이드",
+      "query": [
+        "전지 화재폭발 안전",
+        "전지를 만들거나 취급하는 사업장에서 화재 폭발을 막는 안전가이드",
+        "전지 제조 취급업 화재 폭발사고 대비 안전가이드"
+      ]
+    },
+    {
+      "record_id": "list3_46275",
+      "concat": "[TITLE] 2024년 안전보건 나침반(제조업)\n[SUMMARY] 2024년 공단 사업 안내, 산안법 및 중대재해처벌법 주요내용, 다발사망 예방대책, 안전보건정보 수록 (책자를 택배로 받아보실 수 있습니다./오른쪽 메뉴 - 미디어현장배송 - 사업자등록번호로 로그인 및 신청(자료비 무료, 택배비 착불))",
+      "query": [
+        "제조업 안전보건 나침반",
+        "제조업 사업장에서 산안법과 중대재해처벌법 내용을 확인하는 안내책자",
+        "안전보건 나침반 제조업 산안법 중대재해처벌법 안전보건정보"
+      ]
+    },
+    {
+      "record_id": "list3_46313",
+      "concat": "[TITLE] 2024 건물관리업 안전보건길잡이\n[SUMMARY] 2024 건물관리업 안전보건길잡이",
+      "query": [
+        "건물관리업 안전",
+        "건물관리 업무에서 필요한 안전보건 관리 자료",
+        "건물관리업 안전보건길잡이"
+      ]
+    },
+    {
+      "record_id": "list3_46315",
+      "concat": "[TITLE] 2024년 월간 안전보건 7월호\n[SUMMARY] 월간 안전보건 7월호입니다. 파일 다운은 안전보건 e-Book -> <월간안전보건> -> 7월호 메뉴에서 하시기 바랍니다.",
+      "query": [
+        "안전보건 7월호",
+        "월간 안전보건 잡지 7월호 파일을 찾고 싶을 때",
+        "월간 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_46151",
+      "concat": "[TITLE] 중소규모 사업장 화재폭발사고예방 핸드북\n[SUMMARY] 중소규모 사업장 화재폭발사고예방을 위한 기본적인 지식내용 및 사고사례를 수록한 핸드북",
+      "query": [
+        "사업장 화재폭발 예방",
+        "중소 사업장에서 화재나 폭발 사고를 예방하는 기본 자료",
+        "중소규모 사업장 화재폭발사고예방 핸드북"
+      ]
+    },
+    {
+      "record_id": "list3_46240",
+      "concat": "[TITLE] 2024년 월간 안전보건 6월호\n[SUMMARY] 월간 안전보건 6월호입니다. 파일 다운은 안전보건 e-Book -> <월간안전보건> -> 6월호 메뉴에서 하시기 바랍니다.",
+      "query": [
+        "안전보건 6월호",
+        "월간 안전보건 잡지 6월호 파일을 찾고 싶을 때",
+        "월간 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_46234",
+      "concat": "[TITLE] 장마철 건설현장 안전보건 길잡이\n[SUMMARY] 장마철 건설현장 위험요인별 안전관리 및 안전보건교육자료",
+      "query": [
+        "장마철 건설현장 안전",
+        "비 많이 오는 장마철 건설현장에서 위험요인별로 안전관리하는 자료",
+        "장마철 건설현장 안전보건 길잡이"
+      ]
+    },
+    {
+      "record_id": "list3_46238",
+      "concat": "[TITLE] 2024년 소규모 사업장 안전보건교육 가이드\n[SUMMARY] 2024년 소규모 사업장 안전보건교육 가이드",
+      "query": [
+        "소규모 사업장 안전교육",
+        "작은 사업장에서 안전보건교육을 어떻게 해야 하는지 알려주는 자료",
+        "소규모 사업장 안전보건교육 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_46193",
+      "concat": "[TITLE] 2024년 월간 안전보건 5월호\n[SUMMARY] 2024년 월간 안전보건 5월호입니다. 이번 호에는 '떨어짐 재해'와 관련된 내용 등이 수록되어 있습니다.",
+      "query": [
+        "안전보건 5월호",
+        "월간 안전보건 잡지에서 떨어짐 재해 내용을 찾고 싶을 때",
+        "월간 안전보건 떨어짐 재해"
+      ]
+    },
+    {
+      "record_id": "list3_46120",
+      "concat": "[TITLE] 2023년 산업안전보건연구 요약집\n[SUMMARY] 정책반영 및 관련 사업 수행 시 활용할 수 있도록 2023년 연구원에서 수행한 연구결과를 요약하여 제작",
+      "query": [
+        "산업안전보건 연구요약",
+        "산업안전보건 연구원에서 수행한 연구 결과를 요약한 자료",
+        "산업안전보건연구 요약집"
+      ]
+    },
+    {
+      "record_id": "list3_45457",
+      "concat": "[TITLE] 월간 안전보건 11월호\n[SUMMARY] 2023년 월간 안전보건 11월호입니다. 이번 호에는 '플라스틱 가공제품 제조업'에 대한 재해사례 및 안전수칙 내용이 수록되어 있습니다.",
+      "query": [
+        "안전보건 11월호",
+        "월간 안전보건에서 플라스틱 가공제품 제조업 재해사례 자료를 찾고 싶을 때",
+        "월간 안전보건 플라스틱 가공제품 제조업 재해사례 안전수칙"
+      ]
+    }
+  ]
+}

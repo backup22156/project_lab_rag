@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 30,
+  "items": [
+    {
+      "record_id": "list1_46833",
+      "concat": "[TITLE] [보건기준] 소음에 의한 건강장해 예방\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "소음 건강장해",
+        "작업장에서 소음 때문에 생기는 건강 문제를 예방하는 기준을 찾고 있어",
+        "보건기준 소음 건강장해 예방 산업안전보건기준 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46830",
+      "concat": "[TITLE] [보건기준] 분진에 의한 건강장해 예방\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "분진 건강장해",
+        "먼지가 많은 작업장에서 건강 피해를 줄이는 안전 기준 자료를 찾고 있어",
+        "보건기준 분진 건강장해 예방 산업안전보건기준 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46829",
+      "concat": "[TITLE] [보건기준] 밀폐공간 내 작업 시 조치 등\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "밀폐공간 작업",
+        "밀폐된 공간에서 일할 때 필요한 안전조치 기준을 알고 싶어",
+        "보건기준 밀폐공간 작업 조치 산업안전보건기준 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46828",
+      "concat": "[TITLE] [보건기준] 이산화탄소 소화설비\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "이산화탄소 소화설비",
+        "이산화탄소 소화설비가 있는 곳에서 지켜야 할 안전 기준을 찾고 있어",
+        "보건기준 이산화탄소 소화설비 산업안전보건기준 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46826",
+      "concat": "[TITLE] [보건기준] 유해가스 발생장소 등에 대한 조치\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "유해가스 발생장소",
+        "가스가 나올 수 있는 장소에서 해야 하는 안전조치를 찾고 있어",
+        "보건기준 유해가스 발생장소 조치 산업안전보건기준 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46827",
+      "concat": "[TITLE] [보건기준] 밀폐공간 관리 및 사고 시 조치\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "밀폐공간 사고조치",
+        "밀폐공간을 관리하거나 사고가 났을 때 어떻게 조치해야 하는지 찾고 있어",
+        "보건기준 밀폐공간 관리 사고 조치 산업안전보건기준 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46825",
+      "concat": "[TITLE] [보건기준] 근골격계 부담작업\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "근골격계 부담작업",
+        "몸에 무리가 많이 가는 반복 작업의 안전보건 기준을 찾고 있어",
+        "보건기준 근골격계 부담작업 산업안전보건기준 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46824",
+      "concat": "[TITLE] [보건기준] 특수형태근로종사자 등에 대한 안전보건조치\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "특수형태근로 안전보건",
+        "특수형태근로종사자에게 필요한 안전보건 조치 기준을 찾고 있어",
+        "보건기준 특수형태근로종사자 안전보건조치 산업안전보건기준 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46787",
+      "concat": "[TITLE] 육상화물취급업(이사) 안전작업가이드\n[SUMMARY] 육상화물취급업(이사) 재해예방 안전작업 교육자료",
+      "query": [
+        "이사 작업 안전",
+        "이삿짐을 나르는 일을 할 때 필요한 안전작업 교육자료를 찾고 있어",
+        "육상화물취급업 이사 안전작업가이드 재해예방 교육자료"
+      ]
+    },
+    {
+      "record_id": "list1_46814",
+      "concat": "[TITLE] 물반응성 물질의 개정된 「폭발·화재 시 대처방법」을 활용하세요!\n[SUMMARY] 안전보건공단 화학물질정보사이트 내 물반응성 물질(90종)의 개정된「폭발·화재 시 대처방법」에 대한 홍보자료",
+      "query": [
+        "물반응성 물질 화재",
+        "물과 반응하는 화학물질이 폭발하거나 불이 날 때 대처하는 방법을 찾고 있어",
+        "물반응성 물질 폭발 화재 대처방법 화학물질정보 홍보자료"
+      ]
+    },
+    {
+      "record_id": "list1_46785",
+      "concat": "[TITLE] 제당 및 정당업 안전작업가이드\n[SUMMARY] 제당 및 정당업의 재해예방 안전작업 교육자료",
+      "query": [
+        "제당 작업 안전",
+        "설탕 제조나 정제 작업장에서 필요한 재해예방 교육자료를 찾고 있어",
+        "제당 정당업 안전작업가이드 재해예방 교육자료"
+      ]
+    },
+    {
+      "record_id": "list1_46786",
+      "concat": "[TITLE] 쇄석채취업 안전작업가이드\n[SUMMARY] 쇄석채취업 재해예방 안전작업 교육자료",
+      "query": [
+        "쇄석 작업 안전",
+        "돌을 깨거나 채취하는 작업장에서 쓰는 안전작업 교육자료를 찾고 있어",
+        "쇄석채취업 안전작업가이드 재해예방 교육자료"
+      ]
+    },
+    {
+      "record_id": "list1_46779",
+      "concat": "[TITLE] [조선업] 양중 클램프 재해예방\n[SUMMARY] 신규 근로자 및 외국인 근로자를 위한 조선업 현장교육용 콘텐츠",
+      "query": [
+        "조선업 양중 클램프",
+        "조선소에서 양중 클램프 작업을 할 때 사고를 막는 교육자료를 찾고 있어",
+        "조선업 양중 클램프 재해예방 신규 근로자 외국인 근로자 현장교육 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46778",
+      "concat": "[TITLE] [조선업] 안전난간 재해예방\n[SUMMARY] 신규 근로자 및 외국인 근로자를 위한 조선업 현장교육용 콘텐츠",
+      "query": [
+        "조선업 안전난간",
+        "조선소 안전난간 작업 사고를 예방하는 현장교육 자료를 찾고 있어",
+        "조선업 안전난간 재해예방 신규 근로자 외국인 근로자 현장교육 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46777",
+      "concat": "[TITLE] [조선업] 아르곤 용접작업 재해예방\n[SUMMARY] 신규 근로자 및 외국인 근로자를 위한 조선업 현장교육용 콘텐츠",
+      "query": [
+        "아르곤 용접 안전",
+        "조선소에서 아르곤 용접 작업을 할 때 사고를 예방하는 자료를 찾고 있어",
+        "조선업 아르곤 용접작업 재해예방 신규 근로자 외국인 근로자 현장교육 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46776",
+      "concat": "[TITLE] [조선업] 수직부재취부 재해예방\n[SUMMARY] 신규 근로자 및 외국인 근로자를 위한 조선업 현장교육용 콘텐츠",
+      "query": [
+        "수직부재 취부",
+        "조선소에서 수직부재를 붙이는 작업의 사고예방 교육자료를 찾고 있어",
+        "조선업 수직부재취부 재해예방 신규 근로자 외국인 근로자 현장교육 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46775",
+      "concat": "[TITLE] [조선업] 레버풀러 사용 재해예방\n[SUMMARY] 신규 근로자 및 외국인 근로자를 위한 조선업 현장교육용 콘텐츠",
+      "query": [
+        "레버풀러 안전",
+        "조선소에서 레버풀러를 사용할 때 사고를 막는 교육자료를 찾고 있어",
+        "조선업 레버풀러 사용 재해예방 신규 근로자 외국인 근로자 현장교육 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46773",
+      "concat": "[TITLE] [조선업] 고소작업대 재해예방\n[SUMMARY] 신규 근로자 및 외국인 근로자를 위한 조선업 현장교육용 콘텐츠",
+      "query": [
+        "고소작업대 안전",
+        "조선소에서 고소작업대를 쓸 때 사고를 예방하는 현장교육 자료를 찾고 있어",
+        "조선업 고소작업대 재해예방 신규 근로자 외국인 근로자 현장교육 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46774",
+      "concat": "[TITLE] [조선업] 곤돌라 작업 재해예방\n[SUMMARY] 신규 근로자 및 외국인 근로자를 위한 조선업 현장교육용 콘텐츠",
+      "query": [
+        "곤돌라 작업 안전",
+        "조선소 곤돌라 작업 중 사고를 막기 위한 교육자료를 찾고 있어",
+        "조선업 곤돌라 작업 재해예방 신규 근로자 외국인 근로자 현장교육 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46772",
+      "concat": "[TITLE] [조선업] 가스매니폴드 재해예방\n[SUMMARY] 신규 근로자 및 외국인 근로자를 위한 조선업 현장교육용 콘텐츠",
+      "query": [
+        "가스매니폴드 안전",
+        "조선소 가스매니폴드 작업 사고를 예방하는 현장교육 자료를 찾고 있어",
+        "조선업 가스매니폴드 재해예방 신규 근로자 외국인 근로자 현장교육 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46486",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(혼합기,파쇄기,분쇄기)\n[SUMMARY] 사고다발 위험설비 Key Message(혼합기,파쇄기,분쇄기) - Message 내용 : 개구부 끼임 주의",
+      "query": [
+        "혼합기 끼임",
+        "혼합기나 파쇄기 분쇄기 개구부에 끼이는 사고를 주의시키는 자료를 찾고 있어",
+        "사고다발 위험설비 Key Message 혼합기 파쇄기 분쇄기 개구부 끼임 주의"
+      ]
+    },
+    {
+      "record_id": "list1_46484",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(곤돌라)\n[SUMMARY] 사고다발 위험설비 Key Message(곤돌라) - Message 내용 : 안전난간 및 안전대 설치",
+      "query": [
+        "곤돌라 안전난간",
+        "곤돌라 작업에서 안전난간과 안전대를 설치하라는 안내 문구를 찾고 있어",
+        "사고다발 위험설비 Key Message 곤돌라 안전난간 안전대 설치"
+      ]
+    },
+    {
+      "record_id": "list1_46483",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(이삿짐운반용 리프트2)\n[SUMMARY] 사고다발 위험설비 Key Message(이삿짐운반용 리프트2) - Message 내용 : 리프트 넘어짐 주의",
+      "query": [
+        "이삿짐 리프트 넘어짐",
+        "이삿짐운반용 리프트가 넘어지는 사고를 주의시키는 안전 메시지를 찾고 있어",
+        "사고다발 위험설비 Key Message 이삿짐운반용 리프트 리프트 넘어짐 주의"
+      ]
+    },
+    {
+      "record_id": "list1_46821",
+      "concat": "[TITLE] 외국인 근로자를 위한 안전보건 픽토그램 활용 안내\n[SUMMARY] 일터에서의 위험요인을 언어장벽 없이 전달하기 위한 픽토그램 스티커 활용 안내자료",
+      "query": [
+        "외국인 안전 픽토그램",
+        "외국인 근로자에게 그림 스티커로 위험요인을 알리는 자료를 찾고 있어",
+        "외국인 근로자 안전보건 픽토그램 활용 안내 위험요인 언어장벽 스티커"
+      ]
+    },
+    {
+      "record_id": "list1_46482",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(이삿짐운반용 리프트1)\n[SUMMARY] 사고다발 위험설비 Key Message(이삿짐운반용 리프트1) - Message 내용 : 운반구 근로자 탑승 금지",
+      "query": [
+        "리프트 탑승 금지",
+        "이삿짐운반용 리프트 운반구에 사람이 타지 말라는 안전 메시지를 찾고 있어",
+        "사고다발 위험설비 Key Message 이삿짐운반용 리프트 운반구 근로자 탑승 금지"
+      ]
+    },
+    {
+      "record_id": "list1_46481",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(크레인2)\n[SUMMARY] 사고다발 위험설비 Key Message(크레인2) - Message 내용 : 크레인 작동 전 주변작업자 확인",
+      "query": [
+        "크레인 주변 확인",
+        "크레인을 작동하기 전에 주변 작업자를 확인하라는 안전 문구를 찾고 있어",
+        "사고다발 위험설비 Key Message 크레인 작동 전 주변작업자 확인"
+      ]
+    },
+    {
+      "record_id": "list1_46479",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(산업용리프트2)\n[SUMMARY] 사고다발 위험설비 Key Message(산업용리프트2) - Message 내용 : 운반구 운행구간 출입 금지",
+      "query": [
+        "리프트 출입 금지",
+        "산업용 리프트 운행구간에 들어가지 말라는 안전 메시지를 찾고 있어",
+        "사고다발 위험설비 Key Message 산업용리프트 운반구 운행구간 출입 금지"
+      ]
+    },
+    {
+      "record_id": "list1_46480",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(크레인1)\n[SUMMARY] 사고다발 위험설비 Key Message(크레인1) - Message 내용 : 인양화물 충돌 주의",
+      "query": [
+        "크레인 화물 충돌",
+        "크레인으로 든 화물에 부딪히지 않도록 주의시키는 안전 문구를 찾고 있어",
+        "사고다발 위험설비 Key Message 크레인 인양화물 충돌 주의"
+      ]
+    },
+    {
+      "record_id": "list1_46478",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(산업용리프트1)\n[SUMMARY] 사고다발 위험설비 Key Message(산업용리프트1) - Message 내용 : 운반구내 탑승 금지",
+      "query": [
+        "산업용리프트 탑승 금지",
+        "산업용 리프트 운반구 안에 사람이 타지 말라는 안전 메시지를 찾고 있어",
+        "사고다발 위험설비 Key Message 산업용리프트 운반구내 탑승 금지"
+      ]
+    },
+    {
+      "record_id": "list1_46476",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(컨베이어2)\n[SUMMARY] 사고다발 위험설비 Key Message(컨베이어2) - Message 내용 : 운전중 이물질 제거 금지",
+      "query": [
+        "컨베이어 이물질 제거",
+        "컨베이어 운전 중에 이물질을 빼지 말라는 안전 메시지를 찾고 있어",
+        "사고다발 위험설비 Key Message 컨베이어 운전중 이물질 제거 금지"
+      ]
+    }
+  ]
+}

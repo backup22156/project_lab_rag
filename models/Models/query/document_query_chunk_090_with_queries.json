@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 90,
+  "items": [
+    {
+      "record_id": "list1_34482",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_클로로술폰산\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "클로로술폰산 취급",
+        "클로로술폰산을 다룰 때 화재나 누출 사고를 막는 방법",
+        "화재폭발누출 사고예방 클로로술폰산 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34485",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_염화 벤질\n[SUMMARY] [화재폭발누출 사고예방]_염화 벤질 유해위험물질 취급관리",
+      "query": [
+        "염화 벤질 취급",
+        "염화 벤질을 사용할 때 누출이나 폭발을 예방하는 자료",
+        "화재폭발누출 사고예방 염화 벤질 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34484",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_삼염화인\n[SUMMARY] [화재폭발누출 사고예방]삼염화인 유해위험물질 취급관리",
+      "query": [
+        "삼염화인 취급",
+        "삼염화인을 취급할 때 화재 폭발 누출을 막는 방법",
+        "화재폭발누출 사고예방 삼염화인 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34486",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_이산화염소\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "이산화염소 사고",
+        "이산화염소를 다루는 작업에서 누출 사고를 예방하는 방법",
+        "화재폭발누출 사고예방 이산화염소 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34487",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_염화 티오닐\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "염화 티오닐 취급",
+        "염화 티오닐 취급 중 화재나 누출을 예방하는 자료",
+        "화재폭발누출 사고예방 염화 티오닐 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34489",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_일산화질소\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "일산화질소 취급",
+        "일산화질소를 취급할 때 사고를 막기 위한 안전관리 방법",
+        "화재폭발누출 사고예방 일산화질소 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34488",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_브롬\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "브롬 취급",
+        "브롬을 다룰 때 누출이나 화재 사고를 예방하는 방법",
+        "화재폭발누출 사고예방 브롬 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34584",
+      "concat": "[TITLE] [중대재해_건설업]_폭염상태에서 자재 운반 작업 중 넘어짐\n[SUMMARY] 중대재해사례 OPL - 폭염상태에서 자재 운반 작업 중 넘어짐",
+      "query": [
+        "폭염 자재 운반",
+        "더운 날 건설현장에서 자재를 나르다 넘어지는 사고 사례",
+        "중대재해 건설업 폭염상태 자재 운반 작업 넘어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34510",
+      "concat": "[TITLE] [중대재해_기계기구]_선반 작업 중 회전부에 말림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "선반 회전부 말림",
+        "선반 작업 중 회전하는 부분에 옷이나 몸이 말리는 사고 사례",
+        "중대재해 기계기구 선반 작업 회전부 말림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34529",
+      "concat": "[TITLE] [중대재해_금속재료]_용해로에 폐 알루미늄 투입 중 수증기 폭발\n[SUMMARY] 용해로에 폐 알루미늄 투입 중 수증기 폭발-중대재해사례 OPL",
+      "query": [
+        "용해로 알루미늄 폭발",
+        "용해로에 폐 알루미늄을 넣다가 수증기 폭발이 난 사고 사례",
+        "중대재해 금속재료 용해로 폐 알루미늄 투입 수증기 폭발 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34531",
+      "concat": "[TITLE] [중대재해_화학제품]_압출원료 적재 운반 중 무너진 원료에 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "압출원료 적재 깔림",
+        "압출 원료를 운반하다 무너진 원료에 깔린 사고 사례",
+        "중대재해 화학제품 압출원료 적재 운반 무너진 원료 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34530",
+      "concat": "[TITLE] [중대재해_금속재료]_교류아크용접 작업 중 감전\n[SUMMARY] 교류아크용접 작업 중 감전 중대재해사례 OPL",
+      "query": [
+        "아크용접 감전",
+        "교류아크용접 작업 중 감전된 중대재해 사례",
+        "중대재해 금속재료 교류아크용접 작업 감전 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34532",
+      "concat": "[TITLE] [중대재해]_컨베이어 이물질 제거 중 롤러에 작업복이 말림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "컨베이어 롤러 말림",
+        "컨베이어 이물질을 치우다가 롤러에 작업복이 말린 사고 사례",
+        "중대재해 컨베이어 이물질 제거 롤러 작업복 말림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34534",
+      "concat": "[TITLE] [중대재해_화학제품]_배합작업 중 회전날 돌출부에 작업복 말림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "배합작업 회전날 말림",
+        "배합 작업 중 회전날 돌출부에 작업복이 말리는 사고 사례",
+        "중대재해 화학제품 배합작업 회전날 돌출부 작업복 말림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34533",
+      "concat": "[TITLE] [중대재해_화학제품]_사출성형기 하부 작업 중 프레임 사이에 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "사출성형기 끼임",
+        "사출성형기 아래에서 작업하다 프레임 사이에 끼인 사고 사례",
+        "중대재해 화학제품 사출성형기 하부 작업 프레임 사이 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34535",
+      "concat": "[TITLE] [중대재해_화학제품]_메탄올 분리기 내부 바닥 침전물 제거 중 폭발\n[SUMMARY] 메탄올 분리기 중대재해사례 OPL",
+      "query": [
+        "메탄올 분리기 폭발",
+        "메탄올 분리기 내부 침전물을 제거하다 폭발한 사고 사례",
+        "중대재해 화학제품 메탄올 분리기 내부 바닥 침전물 제거 폭발 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34536",
+      "concat": "[TITLE] [중대재해_화학제품]_스티로폼 상차 작업 중 적재함에서 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "스티로폼 상차 추락",
+        "스티로폼을 상차하다 적재함에서 떨어진 사고 사례",
+        "중대재해 화학제품 스티로폼 상차 작업 적재함 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34537",
+      "concat": "[TITLE] [중대재해_식료품]_암모니아 가스 누출로 인한 폭발 사고\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "암모니아 가스 폭발",
+        "식료품 작업장에서 암모니아 가스 누출로 폭발이 난 사고 사례",
+        "중대재해 식료품 암모니아 가스 누출 폭발 사고 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34539",
+      "concat": "[TITLE] [중대재해_도자기]_골재 믹서 개폐문과 투입구 사이에 끼임\n[SUMMARY] 중대재해사례 OPL - 골재 믹서 개폐문과 투입구 사이에 끼임",
+      "query": [
+        "골재 믹서 끼임",
+        "골재 믹서 개폐문과 투입구 사이에 끼인 사고 사례",
+        "중대재해 도자기 골재 믹서 개폐문 투입구 사이 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34538",
+      "concat": "[TITLE] [중대재해_식료품]_스팀 국솥으로 조리작업 중 화상\n[SUMMARY] [중대재해_식료품]_스팀 국솥으로 조리작업 중 화상 : 중대재해사례 OPL",
+      "query": [
+        "스팀 국솥 화상",
+        "스팀 국솥으로 조리하다 화상을 입은 중대재해 사례",
+        "중대재해 식료품 스팀 국솥 조리작업 화상 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34540",
+      "concat": "[TITLE] [중대재해_목재업]_폐목재 지게차 운반 중 후방으로 떨어진 화물에 맞음\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "폐목재 지게차 사고",
+        "폐목재를 지게차로 운반하다 떨어진 화물에 맞은 사고 사례",
+        "중대재해 목재업 폐목재 지게차 운반 후방 떨어진 화물 맞음 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34542",
+      "concat": "[TITLE] [중대재해_자동차수리]_차량 엔진 해체작업 중 떨어진 엔진에 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "차량 엔진 깔림",
+        "차량 엔진을 해체하다 떨어진 엔진에 깔린 사고 사례",
+        "중대재해 자동차수리 차량 엔진 해체작업 떨어진 엔진 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34541",
+      "concat": "[TITLE] [중대재해_섬유업]_정련기 외통문 탈락으로 증기와 고온의 물에 화상\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "정련기 화상 사고",
+        "정련기 외통문이 떨어져 증기와 뜨거운 물에 화상을 입은 사고 사례",
+        "중대재해 섬유업 정련기 외통문 탈락 증기 고온 물 화상 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34543",
+      "concat": "[TITLE] [중대재해_금속제련]_슬래그 야드 장에서 냉각수위 확인 중 화상\n[SUMMARY] 중대재해사례 OPL, 슬래그 야드 장에서 냉각수위 확인 중 화상",
+      "query": [
+        "슬래그 냉각수 화상",
+        "슬래그 야드에서 냉각수위를 확인하다 화상을 입은 사고 사례",
+        "중대재해 금속제련 슬래그 야드 냉각수위 확인 화상 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34528",
+      "concat": "[TITLE] [중대재해_금속재료]_작업장 이동 중 세워놓은 주형하판에 깔림\n[SUMMARY] 중대재해사례 OPL, 작업장 이동 중 세워놓은 주형하판에 깔림",
+      "query": [
+        "주형하판 깔림",
+        "작업장 이동 중 세워둔 주형하판에 깔린 사고 사례",
+        "중대재해 금속재료 작업장 이동 세워놓은 주형하판 깔림 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34544",
+      "concat": "[TITLE] [중대재해_전기기계]_샌드위치 패널 지붕 위에서 배선 작업 중 떨어짐\n[SUMMARY] 샌드위치 패널 지붕 위에서 배선 작업 중 떨어짐-중대재해사례 OPL",
+      "query": [
+        "패널 지붕 추락",
+        "샌드위치 패널 지붕에서 배선 작업 중 떨어진 사고 사례",
+        "중대재해 전기기계 샌드위치 패널 지붕 배선 작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34527",
+      "concat": "[TITLE] [중대재해_금속재료]_다이캐스팅기 상부에서 점검 중 금형에 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "다이캐스팅기 끼임",
+        "다이캐스팅기 위에서 점검하다 금형에 끼인 사고 사례",
+        "중대재해 금속재료 다이캐스팅기 상부 점검 금형 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34511",
+      "concat": "[TITLE] [중대재해_기계기구]_수직 로터리 연마기 수리 작업 중 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "로터리 연마기 끼임",
+        "수직 로터리 연마기를 수리하다 끼인 사고 사례",
+        "중대재해 기계기구 수직 로터리 연마기 수리 작업 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34513",
+      "concat": "[TITLE] [중대재해_기계기구]_유압프레스 금형수정 작업 중 금형사이에 끼임\n[SUMMARY] 중대재해사례 OPL, 유압프레스 금형수정 작업 중 금형사이에 끼임",
+      "query": [
+        "유압프레스 금형 끼임",
+        "유압프레스 금형을 수정하다 금형 사이에 끼인 사고 사례",
+        "중대재해 기계기구 유압프레스 금형수정 작업 금형사이 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34526",
+      "concat": "[TITLE] [중대재해_선박]_레버풀러 이용 작업 중 체인이 끊어져 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "레버풀러 체인 사고",
+        "레버풀러 사용 중 체인이 끊어져 떨어진 사고 사례",
+        "중대재해 선박 레버풀러 이용 작업 체인 끊어짐 떨어짐 중대재해사례 OPL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 148,
+  "items": [
+    {
+      "record_id": "list2_32122",
+      "concat": "[TITLE] (방글라데시) 건설장비안전, Video on construction equipments safety (Bengali)\n[SUMMARY] Video on construction equipments safety (Bengali) 건설장비안전(방글라데시) 동영상",
+      "query": [
+        "방글라데시 건설장비 안전",
+        "방글라데시 근로자가 볼 수 있는 건설장비 안전 교육 영상",
+        "방글라데시 건설장비안전 Video on construction equipments safety Bengali 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_32136",
+      "concat": "[TITLE] (태국) 건설장비안전, Video on construction equipments safety (Thai)\n[SUMMARY] Video on construction equipments safety (Thai) 건설장비안전(태국) 동영상",
+      "query": [
+        "태국 건설장비 안전",
+        "태국어로 된 건설장비 안전 교육 영상을 찾고 싶다",
+        "태국 건설장비안전 Video on construction equipments safety Thai 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_32135",
+      "concat": "[TITLE] (인도네시아)보호구착용, Video on wearing and maintaining protective equipments (Indonesia)\n[SUMMARY] Video on wearing and maintaining protective equipments (Indonesia) 보호구 착용 및 관리(인도네시아) 동영상",
+      "query": [
+        "인도네시아 보호구 착용",
+        "인도네시아 근로자에게 보여줄 보호구 착용 관리 교육 영상",
+        "인도네시아 보호구착용 Video on wearing and maintaining protective equipments Indonesia 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_32130",
+      "concat": "[TITLE] (스리랑카)건설장비안전, Video on construction equipments safety (Sinhalese)\n[SUMMARY] Video on construction equipments safety (Sinhalese) 건설장비안전(스리랑카) 동영상",
+      "query": [
+        "스리랑카 건설장비 안전",
+        "스리랑카 근로자용 건설장비 안전 교육 영상을 찾는다",
+        "스리랑카 건설장비안전 Video on construction equipments safety Sinhalese 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_32132",
+      "concat": "[TITLE] (우즈벡)건설장비안전, Video on the safety of construction equipment (Uzbek)\n[SUMMARY] Video on the safety of construction equipment (Uzbek)건설장비안전(우즈벡) 동영상",
+      "query": [
+        "우즈벡 건설장비 안전",
+        "우즈벡어로 된 건설장비 안전 교육 영상 자료",
+        "우즈벡 건설장비안전 Video on the safety of construction equipment Uzbek 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_32133",
+      "concat": "[TITLE] (우즈벡)보호구착용, Video on wearing and maintaining protective equipments (Uzbek)\n[SUMMARY] Video on wearing and maintaining protective equipments (Uzbek) 보호구 착용 및 관리(우즈벡) 동영상",
+      "query": [
+        "우즈벡 보호구 착용",
+        "우즈벡 근로자가 볼 보호구 착용과 관리 교육 영상",
+        "우즈벡 보호구착용 Video on wearing and maintaining protective equipments Uzbek 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_32120",
+      "concat": "[TITLE] (필리핀,영어)보호구착용, Video on wearing and maintaining protective equipments (English)\n[SUMMARY] Video for foreign workers (English) 외국인근로자용 동영상(영어)입니다.",
+      "query": [
+        "필리핀 영어 보호구",
+        "필리핀 외국인근로자용 영어 보호구 착용 교육 영상",
+        "필리핀 영어 보호구착용 Video on wearing and maintaining protective equipments English 외국인근로자 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_32131",
+      "concat": "[TITLE] (스리랑카)보호구착용, Video on wearing and maintaining protective equipments (Sinhalese)\n[SUMMARY] Video on wearing and maintaining protective equipments (Sinhalese) 보호구 착용 및 관리(스리랑카) 동영상",
+      "query": [
+        "스리랑카 보호구 착용",
+        "스리랑카 근로자를 위한 보호구 착용 관리 교육 영상",
+        "스리랑카 보호구착용 Video on wearing and maintaining protective equipments Sinhalese 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_32119",
+      "concat": "[TITLE] (필리핀,영어) 건설장비안전, Video on construction equipments safety (English)\n[SUMMARY] Video on construction equipments safety (English) 건설장비안전(영어) 동영상입니다.",
+      "query": [
+        "필리핀 영어 건설장비",
+        "필리핀 근로자에게 보여줄 영어 건설장비 안전 교육 영상",
+        "필리핀 영어 건설장비안전 Video on construction equipments safety English 동영상"
+      ]
+    },
+    {
+      "record_id": "list2_31731",
+      "concat": "[TITLE] 리얼 현장스토리 SOS 1(제조업 주요 작업별 재해사례와 예방대책 동영상)\n[SUMMARY] 제조업에서 주요 작업별 재해사례와 예방대책 - 사다리 작업, 드릴 작업, 용접 작업",
+      "query": [
+        "제조업 재해 예방",
+        "사다리 드릴 용접 작업 사고 사례와 예방 영상을 찾는다",
+        "리얼 현장스토리 SOS 제조업 주요 작업별 재해사례 예방대책 동영상 사다리 드릴 용접"
+      ]
+    },
+    {
+      "record_id": "list2_31732",
+      "concat": "[TITLE] 리얼 현장스토리 SOS 2(제조업 주요 작업별 재해사례와 예방대책)\n[SUMMARY] 제조업에서 주요 작업별 재해사례와 예방대책 동영상 - 보일러 내부수리(시스템 비계), 지게차, 정리정돈",
+      "query": [
+        "제조업 지게차 사고",
+        "보일러 수리 지게차 정리정돈 작업 사고 예방 영상",
+        "리얼 현장스토리 SOS 제조업 주요 작업별 재해사례 예방대책 보일러 내부수리 시스템 비계 지게차 정리정돈"
+      ]
+    },
+    {
+      "record_id": "list3_52130",
+      "concat": "[TITLE] 안전보건개선계획 수립ㆍ시행 및 기술지원 안내(사업주용)\n[SUMMARY] 안전보건개선계획 수립ㆍ시행 명령 대상사업장의 사업주에게 개선계획 수립ㆍ시행에 관한 절차와 수립방법 등을 설명하는 안내 가이드",
+      "query": [
+        "안전보건 개선계획",
+        "사업주가 안전보건개선계획을 어떻게 세우고 시행하는지 안내하는 자료",
+        "안전보건개선계획 수립 시행 기술지원 안내 사업주용"
+      ]
+    },
+    {
+      "record_id": "list3_52173",
+      "concat": "[TITLE] 지붕공사(축사·태양광) 추락사망사고 예방을 위한 OPS BOOK\n[SUMMARY] 지붕공사(축사·태양광) 추락사망사고 예방을 위한 OPS BOOK",
+      "query": [
+        "지붕공사 추락 예방",
+        "축사나 태양광 지붕공사에서 추락 사망사고를 막는 자료",
+        "지붕공사 축사 태양광 추락사망사고 예방 OPS BOOK"
+      ]
+    },
+    {
+      "record_id": "list3_52164",
+      "concat": "[TITLE] 안전문화 길라잡이 3\n[SUMMARY] 심리학자와 함께하는 안전문화 실무 가이드",
+      "query": [
+        "안전문화 실무 가이드",
+        "심리학자가 설명하는 현장 안전문화 실무 안내 자료",
+        "안전문화 길라잡이 심리학자 안전문화 실무 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_52168",
+      "concat": "[TITLE] 해빙기 건설현장 안전보건길잡이\n[SUMMARY] 해빙기 건설현장 위험요인별 안전관리 및 안전보건교육 자료",
+      "query": [
+        "해빙기 건설현장 안전",
+        "해빙기에 건설현장에서 조심해야 할 위험요인과 안전교육 자료",
+        "해빙기 건설현장 안전보건길잡이 위험요인 안전관리 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_52128",
+      "concat": "[TITLE] 2026년 건설업 안전보건관리체계 구축지원 컨설팅(위탁) 안내서\n[SUMMARY] 2026년 건설업 안전보건관리체계 구축지원 컨설팅(위탁) 안내서",
+      "query": [
+        "건설업 안전보건 컨설팅",
+        "건설업 안전보건관리체계 구축지원 컨설팅 위탁 안내 자료",
+        "건설업 안전보건관리체계 구축지원 컨설팅 위탁 안내서"
+      ]
+    },
+    {
+      "record_id": "list3_51445",
+      "concat": "[TITLE] (필리핀)외국인 노동자를 위한 안전보건용어 400선\n[SUMMARY] 그림, 키워드, 지시어 중심의 안전보건 용어 400선을 쉬운 우리말로 제작한 자료 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "필리핀 안전보건 용어",
+        "필리핀 외국인 노동자에게 설명할 쉬운 안전보건 용어 자료",
+        "필리핀 외국인 노동자를 위한 안전보건용어 400선 고용허가제 번역"
+      ]
+    },
+    {
+      "record_id": "list3_52043",
+      "concat": "[TITLE] [연구보고서] 공단 체험교육 콘텐츠 국내외 수준 비교 조사 및 국외 전파를 위한 연구용역\n[SUMMARY] [연구보고서] 공단 체험교육 콘텐츠 국내외 수준 비교 조사 및 국외 전파를 위한 연구용역 보고서",
+      "query": [
+        "체험교육 콘텐츠 연구",
+        "공단 체험교육 콘텐츠 수준 비교와 해외 전파 연구 보고서",
+        "공단 체험교육 콘텐츠 국내외 수준 비교 조사 국외 전파 연구용역 연구보고서"
+      ]
+    },
+    {
+      "record_id": "list3_52085",
+      "concat": "[TITLE] 2025 안전문화 실천추진단 활동 사례집\n[SUMMARY] 2025년도 안전문화 실천추진단 중점 추진 활동 강조 및 전국 활동 사례들을 모아 추후 활동에 참고하기 위한 목적으로 제작하였습니다.",
+      "query": [
+        "안전문화 활동 사례",
+        "안전문화 실천추진단이 어떤 활동을 했는지 모아둔 사례 자료",
+        "안전문화 실천추진단 활동 사례집 중점 추진 활동 전국 사례"
+      ]
+    },
+    {
+      "record_id": "list3_51758",
+      "concat": "[TITLE] (방글라데시)외국인 노동자를 위한 안전보건용어 400선\n[SUMMARY] 그림, 키워드, 지시어 중심의 안전보건 용어 400선을 쉬운 우리말로 제작한 자료 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "방글라데시 안전보건 용어",
+        "방글라데시 외국인 노동자를 위한 쉬운 안전보건 용어 자료",
+        "방글라데시 외국인 노동자를 위한 안전보건용어 400선 고용허가제 번역"
+      ]
+    },
+    {
+      "record_id": "list3_51757",
+      "concat": "[TITLE] (중국)외국인 노동자를 위한 안전보건용어 400선\n[SUMMARY] 그림, 키워드, 지시어 중심의 안전보건 용어 400선을 쉬운 우리말로 제작한 자료 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "중국 안전보건 용어",
+        "중국 외국인 노동자에게 보여줄 안전보건 용어 설명 자료",
+        "중국 외국인 노동자를 위한 안전보건용어 400선 고용허가제 번역"
+      ]
+    },
+    {
+      "record_id": "list3_51756",
+      "concat": "[TITLE] (우즈베키스탄)외국인 노동자를 위한 안전보건용어 400선\n[SUMMARY] 그림, 키워드, 지시어 중심의 안전보건 용어 400선을 쉬운 우리말로 제작한 자료 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "우즈베키스탄 안전보건 용어",
+        "우즈베키스탄 외국인 노동자를 위한 쉬운 안전보건 용어 자료",
+        "우즈베키스탄 외국인 노동자를 위한 안전보건용어 400선 고용허가제 번역"
+      ]
+    },
+    {
+      "record_id": "list3_51755",
+      "concat": "[TITLE] (캄보디아)외국인 노동자를 위한 안전보건용어 400선\n[SUMMARY] 그림, 키워드, 지시어 중심의 안전보건 용어 400선을 쉬운 우리말로 제작한 자료 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "캄보디아 안전보건 용어",
+        "캄보디아 외국인 노동자에게 필요한 안전보건 용어 자료",
+        "캄보디아 외국인 노동자를 위한 안전보건용어 400선 고용허가제 번역"
+      ]
+    },
+    {
+      "record_id": "list3_51709",
+      "concat": "[TITLE] (중국)[입국 후 교육]외국인 노동자를 위한 산업안전보건 교재-어업\n[SUMMARY] 한국 입국 후 외국인 노동자의 업종별 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "중국 어업 안전교육",
+        "중국 외국인 노동자가 입국 후 받는 어업 안전보건 교재",
+        "중국 입국 후 교육 외국인 노동자를 위한 산업안전보건 교재 어업 고용허가제"
+      ]
+    },
+    {
+      "record_id": "list3_51710",
+      "concat": "[TITLE] (방글라데시)[입국 후 교육]외국인 노동자를 위한 산업안전보건 교재-어업\n[SUMMARY] 한국 입국 후 외국인 노동자의 업종별 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "방글라데시 어업 안전교육",
+        "방글라데시 외국인 노동자용 입국 후 어업 안전보건 교재",
+        "방글라데시 입국 후 교육 외국인 노동자를 위한 산업안전보건 교재 어업 고용허가제"
+      ]
+    },
+    {
+      "record_id": "list3_51711",
+      "concat": "[TITLE] (네팔)[입국 후 교육]외국인 노동자를 위한 산업안전보건 교재-어업\n[SUMMARY] 한국 입국 후 외국인 노동자의 업종별 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "네팔 어업 안전교육",
+        "네팔 외국인 노동자가 한국 입국 후 보는 어업 안전보건 교재",
+        "네팔 입국 후 교육 외국인 노동자를 위한 산업안전보건 교재 어업 고용허가제"
+      ]
+    },
+    {
+      "record_id": "list3_51708",
+      "concat": "[TITLE] (우즈베키스탄)[입국 후 교육]외국인 노동자를 위한 산업안전보건 교재-어업\n[SUMMARY] 한국 입국 후 외국인 노동자의 업종별 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "우즈베키스탄 어업 안전교육",
+        "우즈베키스탄 외국인 노동자를 위한 입국 후 어업 안전보건 교재",
+        "우즈베키스탄 입국 후 교육 외국인 노동자를 위한 산업안전보건 교재 어업 고용허가제"
+      ]
+    },
+    {
+      "record_id": "list3_51706",
+      "concat": "[TITLE] (파키스탄)[입국 후 교육]외국인 노동자를 위한 산업안전보건 교재-어업\n[SUMMARY] 한국 입국 후 외국인 노동자의 업종별 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "파키스탄 어업 안전교육",
+        "파키스탄 외국인 노동자가 입국 후 보는 어업 안전보건 교재",
+        "파키스탄 입국 후 교육 외국인 노동자를 위한 산업안전보건 교재 어업 고용허가제"
+      ]
+    },
+    {
+      "record_id": "list3_51707",
+      "concat": "[TITLE] (캄보디아)[입국 후 교육]외국인 노동자를 위한 산업안전보건 교재-어업\n[SUMMARY] 한국 입국 후 외국인 노동자의 업종별 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "캄보디아 어업 안전교육",
+        "캄보디아 외국인 노동자용 입국 후 어업 안전보건 교재",
+        "캄보디아 입국 후 교육 외국인 노동자를 위한 산업안전보건 교재 어업 고용허가제"
+      ]
+    },
+    {
+      "record_id": "list3_51705",
+      "concat": "[TITLE] (인도네시아)[입국 후 교육]외국인 노동자를 위한 산업안전보건 교재-어업\n[SUMMARY] 한국 입국 후 외국인 노동자의 업종별 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "인도네시아 어업 안전교육",
+        "인도네시아 외국인 노동자를 위한 입국 후 어업 안전보건 교재",
+        "인도네시아 입국 후 교육 외국인 노동자를 위한 산업안전보건 교재 어업 고용허가제"
+      ]
+    }
+  ]
+}

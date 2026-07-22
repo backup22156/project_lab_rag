@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 80,
+  "items": [
+    {
+      "record_id": "list1_37492",
+      "concat": "[TITLE] 시안화수소 노출 근로자 건강관리\n[SUMMARY] 시안화수소 노출 근로자 건강관리에 관한 안전보건 OPL",
+      "query": [
+        "시안화수소 노출 건강",
+        "시안화수소에 노출되는 근로자가 건강관리를 어떻게 해야 하는지 찾고 싶다",
+        "시안화수소 노출 근로자 건강관리 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37491",
+      "concat": "[TITLE] 니켈 또는 그 화합물 노출 근로자 건강관리\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "니켈 노출 건강",
+        "니켈이나 니켈 화합물을 다루는 근로자 건강관리 자료를 찾고 있다",
+        "니켈 화합물 노출 근로자 건강관리 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37493",
+      "concat": "[TITLE] 이산화질소 노출 근로자 건강관리\n[SUMMARY] 이산화질소 노출 근로자 건강관리 OPL",
+      "query": [
+        "이산화질소 노출 건강",
+        "이산화질소에 노출되는 작업자의 건강관리 방법을 알고 싶다",
+        "이산화질소 노출 근로자 건강관리 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37495",
+      "concat": "[TITLE] 염화비닐 노출 근로자 건강관리\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "염화비닐 노출 건강",
+        "염화비닐을 취급하거나 노출되는 근로자 건강관리 자료가 필요하다",
+        "염화비닐 노출 근로자 건강관리 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37472",
+      "concat": "[TITLE] 화학공정 설비 조작 위험과 예방_배관\n[SUMMARY] 화학공정 설비 조작 위험과 예방_배관-안전보건 OPL",
+      "query": [
+        "화학공정 배관 위험",
+        "화학공정에서 배관 설비를 조작할 때 생기는 위험과 예방 방법을 찾는다",
+        "화학공정 설비 조작 위험 예방 배관 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37496",
+      "concat": "[TITLE] 베릴륨 또는 그 화합물 노출 근로자 건강관리\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "베릴륨 노출 건강",
+        "베릴륨이나 그 화합물에 노출되는 근로자 건강관리 자료를 찾고 있다",
+        "베릴륨 화합물 노출 근로자 건강관리 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37445",
+      "concat": "[TITLE] 프레스 작업전 방호장치 점검\n[SUMMARY] 안전보건 OPL-프레스 작업전 방호장치 점검",
+      "query": [
+        "프레스 방호장치 점검",
+        "프레스 작업 전에 방호장치를 어떻게 점검해야 하는지 알고 싶다",
+        "프레스 작업전 방호장치 점검 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37444",
+      "concat": "[TITLE] 이동식 작업등 사용 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "이동식 작업등 안전",
+        "이동식 작업등을 사용할 때 감전이나 사고를 막는 안전수칙을 찾는다",
+        "이동식 작업등 사용 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37440",
+      "concat": "[TITLE] 자동차 아래 수리작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "자동차 아래 수리 안전",
+        "자동차 밑에서 수리할 때 사고를 예방하는 작업안전 자료가 필요하다",
+        "자동차 아래 수리작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37438",
+      "concat": "[TITLE] 이삿짐운반용 리프트 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "이삿짐 리프트 안전",
+        "이삿짐 운반용 리프트 작업 중 사고 예방 안전수칙을 찾고 있다",
+        "이삿짐운반용 리프트 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37442",
+      "concat": "[TITLE] 예초기 운전 작업안전\n[SUMMARY] 예초기 운전 작업안전-안전보건 OPL",
+      "query": [
+        "예초기 작업 안전",
+        "예초기를 운전하거나 사용할 때 지켜야 할 작업안전 수칙을 찾는다",
+        "예초기 운전 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37443",
+      "concat": "[TITLE] 오수정화시설 작업 사고예방(산소결핍 등)\n[SUMMARY] 안전보건 OPL - 오수, 정화, 밀폐, 질식, 산소결핍, 밀폐공간, 폐수, 정화조, 질식재해 등",
+      "query": [
+        "정화조 산소결핍 사고",
+        "오수정화시설이나 밀폐공간 작업에서 질식 사고를 예방하는 방법을 알고 싶다",
+        "오수정화시설 작업 사고예방 산소결핍 밀폐공간 질식재해 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37437",
+      "concat": "[TITLE] 경운기 사용 안전사고예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "경운기 안전사고 예방",
+        "경운기를 사용할 때 발생할 수 있는 사고를 예방하는 안전수칙을 찾는다",
+        "경운기 사용 안전사고예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37475",
+      "concat": "[TITLE] 화학공정 설비 조작 위험과 예방_공기압축기\n[SUMMARY] 안전보건 OPL-화학공정 설비 조작 위험과 예방 공기압축기",
+      "query": [
+        "공기압축기 화학공정 위험",
+        "화학공정에서 공기압축기 설비를 조작할 때 위험과 예방대책을 찾고 있다",
+        "화학공정 설비 조작 위험 예방 공기압축기 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37436",
+      "concat": "[TITLE] 생활폐기물 수거 작업안전\n[SUMMARY] 안전보건 OPL : 생활폐기물 수거 작업안전",
+      "query": [
+        "생활폐기물 수거 안전",
+        "생활폐기물을 수거하는 작업에서 사고를 줄이는 안전수칙을 찾는다",
+        "생활폐기물 수거 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37474",
+      "concat": "[TITLE] 화학공정 설비 조작 위험과 예방_반응기\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "반응기 화학공정 위험",
+        "화학공정 반응기 설비를 조작할 때 생길 수 있는 위험과 예방책을 알고 싶다",
+        "화학공정 설비 조작 위험 예방 반응기 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37476",
+      "concat": "[TITLE] 화학공정 설비 조작 위험과 예방_용매회수장치\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "용매회수장치 위험",
+        "화학공정에서 용매회수장치를 조작할 때 필요한 안전 예방 자료를 찾는다",
+        "화학공정 설비 조작 위험 예방 용매회수장치 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37477",
+      "concat": "[TITLE] 화학공정 설비 조작 위험과 예방_활성탄 설비\n[SUMMARY] 화학공정 설비 조작 위험과 예방_활성탄 설비에 관한 안전보건 OPL",
+      "query": [
+        "활성탄 설비 위험",
+        "화학공정 활성탄 설비를 조작할 때 위험요인과 예방 방법을 찾고 있다",
+        "화학공정 설비 조작 위험 예방 활성탄 설비 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37478",
+      "concat": "[TITLE] 화학공정설비 계기류 고장에 의한 폭발 대비\n[SUMMARY] 화학공정설비 계기류 고장에 의한 폭발 대비 OPL",
+      "query": [
+        "화학설비 계기 고장 폭발",
+        "화학공정설비의 계기류 고장으로 폭발이 날 수 있는 상황에 대비하는 자료를 찾는다",
+        "화학공정설비 계기류 고장 폭발 대비 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37479",
+      "concat": "[TITLE] 화학공정설비 반응기 잔유물 제거 작업안전\n[SUMMARY] 반응기 사용 작업 중 화재폭발 사례와 안전대책 및 수칙",
+      "query": [
+        "반응기 잔유물 제거 안전",
+        "화학공정 반응기 안에 남은 물질을 제거할 때 화재폭발을 예방하는 방법을 찾는다",
+        "화학공정설비 반응기 잔유물 제거 작업안전 화재폭발 안전대책"
+      ]
+    },
+    {
+      "record_id": "list1_37426",
+      "concat": "[TITLE] 고압 스팀청소기 작업안전\n[SUMMARY] 안전보건 OPL, 고압 스팀청소기 작업안전",
+      "query": [
+        "스팀청소기 작업 안전",
+        "고압 스팀청소기를 사용할 때 지켜야 할 작업안전 수칙을 찾고 싶다",
+        "고압 스팀청소기 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37428",
+      "concat": "[TITLE] 다목적 금속 가공기 운전 작업안전\n[SUMMARY] 다목적 금속 가공기 운전 작업안전 안전보건 OPL",
+      "query": [
+        "금속 가공기 안전",
+        "다목적 금속 가공기를 운전할 때 사고를 예방하는 작업안전 자료가 필요하다",
+        "다목적 금속 가공기 운전 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37427",
+      "concat": "[TITLE] 기어 및 감속기 유지보수 작업안전\n[SUMMARY] 기어 및 감속기 유지보수 작업안전-안전보건 OPL",
+      "query": [
+        "기어 감속기 유지보수",
+        "기어와 감속기를 유지보수할 때 필요한 작업안전 수칙을 찾는다",
+        "기어 감속기 유지보수 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37430",
+      "concat": "[TITLE] 날카로운 모서리 수 작업안전\n[SUMMARY] 안전보건 OPL-날카로운 모서리 수 작업안전",
+      "query": [
+        "날카로운 모서리 안전",
+        "날카로운 모서리가 있는 자재를 손으로 다룰 때 안전하게 작업하는 방법을 찾는다",
+        "날카로운 모서리 수 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37480",
+      "concat": "[TITLE] 화학설비 및 부속설비의 온도계측장치 안전설치\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "화학설비 온도계 안전",
+        "화학설비나 부속설비에 온도계측장치를 안전하게 설치하는 방법을 찾고 있다",
+        "화학설비 부속설비 온도계측장치 안전설치 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37433",
+      "concat": "[TITLE] 고열작업환경 관리 및 건강보호\n[SUMMARY] 고열작업환경 관리 및 건강보호 OPL",
+      "query": [
+        "고열작업 건강보호",
+        "더운 작업환경에서 근로자 건강을 보호하고 관리하는 방법을 알고 싶다",
+        "고열작업환경 관리 건강보호 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37434",
+      "concat": "[TITLE] 한랭작업환경 관리 및 건강보호\n[SUMMARY] 환경미화원, 건설현장 근로자, 경비원의 동상 등의 피해사례",
+      "query": [
+        "한랭작업 건강보호",
+        "추운 작업환경에서 동상 같은 피해를 막고 건강을 관리하는 자료를 찾는다",
+        "한랭작업환경 관리 건강보호 환경미화원 건설현장 경비원"
+      ]
+    },
+    {
+      "record_id": "list1_37429",
+      "concat": "[TITLE] 금속가공용 둥근톱 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "둥근톱 작업 안전",
+        "금속가공용 둥근톱으로 작업할 때 사고를 예방하는 안전수칙을 찾는다",
+        "금속가공용 둥근톱 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37435",
+      "concat": "[TITLE] 생활폐기물 처리작업장 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "폐기물 처리장 안전",
+        "생활폐기물 처리작업장에서 지켜야 할 작업안전 수칙을 찾고 있다",
+        "생활폐기물 처리작업장 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37489",
+      "concat": "[TITLE] 포름알데히드 노출 근로자 건강관리\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "포름알데히드 노출 건강",
+        "포름알데히드에 노출되는 근로자 건강관리 방법을 찾고 싶다",
+        "포름알데히드 노출 근로자 건강관리 안전보건 OPL"
+      ]
+    }
+  ]
+}

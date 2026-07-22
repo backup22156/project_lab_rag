@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 2,
+  "items": [
+    {
+      "record_id": "list1_52325",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 4. 그라인더 등 공구 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 4. 그라인더 등 공구 사용 작업",
+      "query": [
+        "그라인더 공구 안전",
+        "그라인더 같은 공구를 쓸 때 사고 위험을 알려주는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 그라인더 공구 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52311",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 1. 가공설비 등 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 1. 가공설비 등 사용 작업",
+      "query": [
+        "가공설비 안전",
+        "공장에서 가공설비를 사용할 때 생길 수 있는 사망사고 위험 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 가공설비 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52323",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 2. 건설기계 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 2. 건설기계 사용 작업",
+      "query": [
+        "건설기계 작업 안전",
+        "건설기계를 사용할 때 사고 위험을 쉽게 정리한 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 건설기계 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52324",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 3. 고소작업대 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 3. 고소작업대 사용 작업",
+      "query": [
+        "고소작업대 안전",
+        "높은 곳에서 쓰는 고소작업대 작업 사고 예방 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 고소작업대 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52342",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 24. 점검(비정형 작업)\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 24. 점검(비정형 작업)",
+      "query": [
+        "점검 작업 안전",
+        "정해진 절차가 없는 점검 작업에서 사고 위험을 알려주는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 점검 비정형 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52364",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 23. 전기설비 취급 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 23. 전기설비 취급 작업",
+      "query": [
+        "전기설비 안전",
+        "전기설비를 다룰 때 사망사고 위험을 설명한 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 전기설비 취급 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52363",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 22. 작업장소 통행·이동\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 22. 작업장소 통행·이동",
+      "query": [
+        "작업장 이동 안전",
+        "작업장 안에서 걷거나 이동할 때 발생하는 사고 위험 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 작업장소 통행 이동"
+      ]
+    },
+    {
+      "record_id": "list1_52313",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(지붕.판넬설치 등 외부마감작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "지붕 판넬 안전",
+        "건설현장에서 지붕이나 판넬 설치 같은 외부마감 작업 사고 자료",
+        "건설업 사망사고 유발 SIF 지붕 판넬설치 외부마감작업"
+      ]
+    },
+    {
+      "record_id": "list1_52318",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(맨홀 및 관부설작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "맨홀 관부설 안전",
+        "건설현장 맨홀이나 관을 설치하는 작업의 사망사고 위험 자료",
+        "건설업 사망사고 유발 SIF 맨홀 관부설작업"
+      ]
+    },
+    {
+      "record_id": "list1_52362",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 21. 자동화설비(산업용로봇 포함) 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 21. 자동화설비(산업용로봇 포함) 작업",
+      "query": [
+        "산업용로봇 안전",
+        "자동화설비나 산업용로봇 작업 중 사고 위험을 정리한 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 자동화설비 산업용로봇 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52360",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 19. 이물질 제거·청소(비정형 작업)\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 19. 이물질 제거·청소(비정형 작업)",
+      "query": [
+        "기계 청소 안전",
+        "이물질을 제거하거나 청소하는 비정형 작업 사고 위험 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 이물질 제거 청소 비정형 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52338",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 17. 위험물질 취급 또는 그 장소에서의 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 17. 위험물질 취급 또는 그 장소에서의 작업",
+      "query": [
+        "위험물질 취급 안전",
+        "위험한 물질을 다루거나 그 주변에서 일할 때 필요한 안전 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 위험물질 취급 장소 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52339",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 18. 이동식크레인(카고 크레인, 집게차) 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 18. 이동식크레인(카고 크레인, 집게차) 사용 작업",
+      "query": [
+        "이동식크레인 안전",
+        "카고 크레인이나 집게차를 사용할 때 사고 위험을 설명한 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 이동식크레인 카고 크레인 집게차 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52361",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 20. 인력 운반 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 20. 인력 운반 작업",
+      "query": [
+        "인력 운반 안전",
+        "사람이 직접 물건을 옮기는 작업 중 사고 위험 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 인력 운반 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52337",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 15. 용해로 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 15. 용해로 사용 작업",
+      "query": [
+        "용해로 안전",
+        "용해로를 사용하는 작업에서 생길 수 있는 사망사고 위험 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 용해로 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52335",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 14. 용접(용단)·절단·사상 또는 도장 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 14. 용접(용단)·절단·사상 또는 도장 작업",
+      "query": [
+        "용접 절단 도장 안전",
+        "용접이나 절단 도장 작업 중 사고 위험을 정리한 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 용접 용단 절단 사상 도장 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52319",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 16. 원료 투입 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 16. 원료 투입 작업",
+      "query": [
+        "원료 투입 안전",
+        "원료를 넣는 작업 중 발생할 수 있는 사고 위험 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 원료 투입 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52317",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 13. 시운전 또는 성능시험 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 13. 시운전 또는 성능시험 작업",
+      "query": [
+        "시운전 성능시험 안전",
+        "설비 시운전이나 성능시험 중 사고 위험을 알려주는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 시운전 성능시험 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52105",
+      "concat": "[TITLE] 안전보건규칙 제241조 개정에 따른 홍보 OPS\n[SUMMARY] 안전보건규칙 제241조 제2항 제4호 개정에 따른 용접방화포 성능 인증 기준 안내",
+      "query": [
+        "용접방화포 기준",
+        "용접방화포 성능 인증 기준이 바뀐 내용을 안내하는 자료",
+        "안전보건규칙 제241조 개정 홍보 OPS 용접방화포 성능 인증 기준"
+      ]
+    },
+    {
+      "record_id": "list1_52159",
+      "concat": "[TITLE] 축사지붕 떨어짐 및 질식 예방 OPS\n[SUMMARY] 축사지붕 떨어짐 및 질식 예방 OPS",
+      "query": [
+        "축사 지붕 질식",
+        "축사 지붕에서 떨어지거나 질식하는 사고를 예방하는 자료",
+        "축사지붕 떨어짐 질식 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52198",
+      "concat": "[TITLE] 키메시지(3호_깔림·뒤집힘)\n[SUMMARY] [사회이슈] 깔림·뒤집힘 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "깔림 뒤집힘 사고",
+        "깔림이나 뒤집힘 사고를 막기 위한 예방대책 자료",
+        "키메시지 깔림 뒤집힘 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_52201",
+      "concat": "[TITLE] 중대재해 발생 알림_26년 1월 (중대재해사이렌,17개국어)\n[SUMMARY] 중대재해 사이렌을 17개 언어로 번역하여 보급하고자 함",
+      "query": [
+        "중대재해 알림",
+        "중대재해 사이렌 내용을 여러 언어로 번역한 안내 자료",
+        "중대재해 발생 알림 중대재해사이렌 다국어"
+      ]
+    },
+    {
+      "record_id": "list1_52107",
+      "concat": "[TITLE] 안전일터 조성지원 사업안내 2026년 제조서비스업 등 고위험개선 사업\n[SUMMARY] 안전일터 조성지원 사업안내 2026년 제조서비스업 등 고위험개선 사업 OPS",
+      "query": [
+        "고위험 개선 지원",
+        "제조서비스업 사업장에서 위험요인을 개선할 때 받는 지원사업 안내",
+        "안전일터 조성지원 사업안내 제조서비스업 고위험개선 사업"
+      ]
+    },
+    {
+      "record_id": "list1_52108",
+      "concat": "[TITLE] 안전일터 조성지원 사업안내 2026년 스마트 안전장비 지원사업\n[SUMMARY] 안전일터 조성지원 사업안내 2026년 스마트 안전장비 지원사업 OPS",
+      "query": [
+        "스마트 안전장비 지원",
+        "사업장에서 스마트 안전장비를 도입할 때 받을 수 있는 지원 안내",
+        "안전일터 조성지원 사업안내 스마트 안전장비 지원사업"
+      ]
+    },
+    {
+      "record_id": "list1_52109",
+      "concat": "[TITLE] 2026년 산재예방시설자금 융자금 지원사업 안내\n[SUMMARY] 2026년 산재예방시설자금 융자금 지원사업 안내 OPS",
+      "query": [
+        "산재예방시설자금 융자",
+        "산재 예방 시설을 설치할 때 필요한 융자금 지원사업 안내",
+        "산재예방시설자금 융자금 지원사업 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52132",
+      "concat": "[TITLE] 2026년 안전보건관리체계 구축지원 컨설팅(위탁) 신청안내\n[SUMMARY] 2026년 안전보건관리체계 구축지원 컨설팅(위탁) 신청안내",
+      "query": [
+        "안전보건관리체계 컨설팅",
+        "사업장 안전보건관리체계 구축 컨설팅을 신청하는 방법 안내",
+        "안전보건관리체계 구축지원 컨설팅 위탁 신청안내"
+      ]
+    },
+    {
+      "record_id": "list1_52114",
+      "concat": "[TITLE] 키메시지(1호_컨베이어)\n[SUMMARY] [사회이슈] 컨베이어 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "컨베이어 사고",
+        "컨베이어 작업 중 사고를 예방하는 대책과 관련 자료",
+        "키메시지 컨베이어 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_52157",
+      "concat": "[TITLE] 키메시지(2호_부딪힘)\n[SUMMARY] [사회이슈] 지게차, 화물차량 부딪힘 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "부딪힘 사고",
+        "지게차나 화물차량에 부딪히는 사고 예방대책 자료",
+        "키메시지 부딪힘 지게차 화물차량 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_51885",
+      "concat": "[TITLE] (타지키스탄)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "외국인노동자 안전앱",
+        "타지키스탄 노동자에게 안전보건앱을 알리는 홍보 자료",
+        "타지키스탄 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52290",
+      "concat": "[TITLE] 키메시지(5호_벌목)\n[SUMMARY] [사회이슈] 벌목 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "벌목 사고",
+        "벌목 작업 중 사고를 예방하기 위한 대책 자료",
+        "키메시지 벌목 사고 예방대책 콘텐츠"
+      ]
+    }
+  ]
+}

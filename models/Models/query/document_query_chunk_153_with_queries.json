@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 153,
+  "items": [
+    {
+      "record_id": "list3_51012",
+      "concat": "[TITLE] 배달종사자를 위한 이륜차 안전가이드\n[SUMMARY] 배달종사자의 산업재해예방을 위한 안전가이드",
+      "query": [
+        "배달 오토바이 안전",
+        "배달 일을 할 때 오토바이 사고를 줄이는 안전수칙 자료",
+        "배달종사자 이륜차 안전가이드"
+      ]
+    },
+    {
+      "record_id": "list3_50877",
+      "concat": "[TITLE] (미얀마)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "미얀마 노동자 안전수칙",
+        "미얀마 근로자가 볼 수 있는 기본 안전보건 포켓북 자료",
+        "미얀마 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50878",
+      "concat": "[TITLE] (캄보디아)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "캄보디아 노동자 안전수칙",
+        "캄보디아 근로자가 볼 수 있는 기본 안전보건 포켓북 자료",
+        "캄보디아 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50016",
+      "concat": "[TITLE] 안전동행 지원사업 공정개선 우수사례집\n[SUMMARY] 공단 안전동행 지원사업 참여를 통해 노후위험공정을 개선한 사업장의 사례 소개",
+      "query": [
+        "공정개선 우수사례",
+        "노후 위험공정을 개선한 사업장 사례를 모아 놓은 자료",
+        "안전동행 지원사업 공정개선 우수사례집"
+      ]
+    },
+    {
+      "record_id": "list3_50893",
+      "concat": "[TITLE] (동티모르)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "동티모르 노동자 안전수칙",
+        "동티모르 근로자가 볼 수 있는 기본 안전보건 포켓북 자료",
+        "동티모르 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50879",
+      "concat": "[TITLE] (태국)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "태국 노동자 안전수칙",
+        "태국 근로자가 볼 수 있는 기본 안전보건 포켓북 자료",
+        "태국 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50011",
+      "concat": "[TITLE] 2025년 건설업 안전보건관리체계 구축지원 컨설팅(공단직접수행) 안내서\n[SUMMARY] 2025년 건설업 안전보건관리체계 구축지원 컨설팅(공단직접수행) 안내서",
+      "query": [
+        "건설업 안전 컨설팅",
+        "건설 현장 안전보건관리체계 구축 컨설팅을 공단이 직접 수행하는 안내 자료",
+        "건설업 안전보건관리체계 구축지원 컨설팅 공단직접수행 안내서"
+      ]
+    },
+    {
+      "record_id": "list3_47234",
+      "concat": "[TITLE] 2024 안전문화 실천추진단 활동 사례집\n[SUMMARY] 2024년도 안전문화실천추진단 중점 추진 활동 강조 및 전국 활동 사례들을 모아 추후 활동에 참고하기 위한 목적으로 제작하였습니다.",
+      "query": [
+        "안전문화 활동 사례",
+        "전국 안전문화 실천추진단 활동 사례를 참고하고 싶을 때 보는 자료",
+        "안전문화 실천추진단 활동 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_47239",
+      "concat": "[TITLE] (2024) 산업안전보건연구 요약집\n[SUMMARY] 정책반영 및 사업수행 시 활용할 수 있도록 2024년 연구원 수행 연구결과를 요약하여 제작",
+      "query": [
+        "산업안전보건 연구 요약",
+        "산업안전보건 연구 결과를 짧게 정리한 요약 자료",
+        "산업안전보건연구 요약집"
+      ]
+    },
+    {
+      "record_id": "list3_50012",
+      "concat": "[TITLE] 2025년 건설업 안전보건관리체계 구축지원 컨설팅(위탁) 안내서\n[SUMMARY] 2025년 건설업 안전보건관리체계 구축지원 컨설팅(위탁) 안내서",
+      "query": [
+        "건설업 안전 위탁 컨설팅",
+        "건설 현장 안전보건관리체계 구축 컨설팅을 위탁 방식으로 받는 안내 자료",
+        "건설업 안전보건관리체계 구축지원 컨설팅 위탁 안내서"
+      ]
+    },
+    {
+      "record_id": "list3_47324",
+      "concat": "[TITLE] 2025년 월간 안전보건 5월호\n[SUMMARY] 2025년 월간 안전보건 5월호 - 파일 다운은 월간 안전보건 e-book 탭에서 하시기 바랍니다.",
+      "query": [
+        "월간 안전보건 5월",
+        "안전보건 월간지 5월호 파일을 찾고 싶을 때",
+        "월간 안전보건 5월호"
+      ]
+    },
+    {
+      "record_id": "list3_47131",
+      "concat": "[TITLE] 중소규모 사업장 화재폭발 사고예방 핸드북\n[SUMMARY] 중소규모 사업장 화재폭발 사고예방 핸드북(사업장 배포용)",
+      "query": [
+        "화재폭발 예방",
+        "중소규모 사업장에서 화재나 폭발 사고를 막는 방법을 찾는 자료",
+        "중소규모 사업장 화재폭발 사고예방 핸드북"
+      ]
+    },
+    {
+      "record_id": "list3_47282",
+      "concat": "[TITLE] 2025년 월간 안전보건 4월호\n[SUMMARY] 2025년 월간 안전보건 4월호 - 파일 다운은 월간 안전보건 e-book 탭에서 하시기 바랍니다.",
+      "query": [
+        "월간 안전보건 4월",
+        "안전보건 월간지 4월호 파일을 찾고 싶을 때",
+        "월간 안전보건 4월호"
+      ]
+    },
+    {
+      "record_id": "list3_47246",
+      "concat": "[TITLE] 2024년 위험성평가 및 안전보건관리체계 구축 우수사례집\n[SUMMARY] 중소규모 사업장 대상 위험성평가 및 안전보건관리 체계구축 우수사례를 전파하기 위함",
+      "query": [
+        "위험성평가 우수사례",
+        "중소규모 사업장의 위험성평가와 안전보건관리체계 우수사례를 찾는 자료",
+        "위험성평가 안전보건관리체계 구축 우수사례집"
+      ]
+    },
+    {
+      "record_id": "list3_51569",
+      "concat": "[TITLE] (키르기스스탄)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "키르기스스탄 입국전 안전교육",
+        "한국에 오기 전 키르기스스탄 외국인 노동자가 보는 안전보건 교육자료",
+        "키르기스스탄 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_47194",
+      "concat": "[TITLE] 산업안전 컬러유니버설디자인 연구 보고서\n[SUMMARY] 본 산업안전 컬러유니버설디자인 연구는 법적 구속력이 없는 안전한 일터 조성을 위한 제안입니다. 각 사업장 현황에 맞게 적극적으로 활용하시기 바랍니다.",
+      "query": [
+        "안전 색상 디자인",
+        "산업현장에서 더 안전하게 보이는 색상 디자인 자료",
+        "산업안전 컬러유니버설디자인 연구 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_47192",
+      "concat": "[TITLE] 2025년 월간 안전보건 3월호\n[SUMMARY] 2025년 월간 안전보건 3월호 - 파일 다운은 월간 안전보건 e-book 탭에서 하시기 바랍니다.",
+      "query": [
+        "월간 안전보건 3월",
+        "안전보건 월간지 3월호 파일을 찾고 싶을 때",
+        "월간 안전보건 3월호"
+      ]
+    },
+    {
+      "record_id": "list3_47120",
+      "concat": "[TITLE] 2025년 월간 안전보건 2월호\n[SUMMARY] 2025년 월간 안전보건 2월호 - 파일 다운은 월간 안전보건 e-book 탭에서 하시기 바랍니다.",
+      "query": [
+        "월간 안전보건 2월",
+        "안전보건 월간지 2월호 파일을 찾고 싶을 때",
+        "월간 안전보건 2월호"
+      ]
+    },
+    {
+      "record_id": "list3_51566",
+      "concat": "[TITLE] (중국)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "중국 입국전 안전교육",
+        "한국에 오기 전 중국 외국인 노동자가 보는 안전보건 교육자료",
+        "중국 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_51565",
+      "concat": "[TITLE] (우즈베키스탄)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "우즈베키스탄 입국전 안전교육",
+        "한국에 오기 전 우즈베키스탄 외국인 노동자가 보는 안전보건 교육자료",
+        "우즈베키스탄 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_51568",
+      "concat": "[TITLE] (네팔)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "네팔 입국전 안전교육",
+        "한국에 오기 전 네팔 외국인 노동자가 보는 안전보건 교육자료",
+        "네팔 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_51567",
+      "concat": "[TITLE] (방글라데시)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "방글라데시 입국전 안전교육",
+        "한국에 오기 전 방글라데시 외국인 노동자가 보는 안전보건 교육자료",
+        "방글라데시 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_51570",
+      "concat": "[TITLE] (미얀마)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "미얀마 입국전 안전교육",
+        "한국에 오기 전 미얀마 외국인 노동자가 보는 안전보건 교육자료",
+        "미얀마 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_51571",
+      "concat": "[TITLE] (동티모르)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "동티모르 입국전 안전교육",
+        "한국에 오기 전 동티모르 외국인 노동자가 보는 안전보건 교육자료",
+        "동티모르 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_51998",
+      "concat": "[TITLE] 사업장 자체 재해원인분석 및 재발방지 안내서\n[SUMMARY] 사업장 자체 재해원인분석 및 재발방지 안내서",
+      "query": [
+        "재해원인 분석",
+        "사업장에서 사고가 난 뒤 원인을 분석하고 재발을 막는 방법 자료",
+        "사업장 자체 재해원인분석 재발방지 안내서"
+      ]
+    },
+    {
+      "record_id": "list3_51572",
+      "concat": "[TITLE] (라오스)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "라오스 입국전 안전교육",
+        "한국에 오기 전 라오스 외국인 노동자가 보는 안전보건 교육자료",
+        "라오스 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_51573",
+      "concat": "[TITLE] (타지키스탄)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 고용허가제 17개국 언어로 번역한 자료입니다.",
+      "query": [
+        "타지키스탄 입국전 안전교육",
+        "한국에 오기 전 타지키스탄 외국인 노동자가 보는 안전보건 교육자료",
+        "타지키스탄 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_51922",
+      "concat": "[TITLE] 2025년 겨울철 한파 대비 한랭질환 예방 수칙(외국어 모음집)\n[SUMMARY] 2025년 겨울철 한파 대비 한랭질환 예방 수칙(외국어 모음집)",
+      "query": [
+        "한파 한랭질환 예방",
+        "겨울철 한파 때 외국인도 볼 수 있는 한랭질환 예방수칙 자료",
+        "겨울철 한파 대비 한랭질환 예방 수칙 외국어 모음집"
+      ]
+    },
+    {
+      "record_id": "list3_51869",
+      "concat": "[TITLE] (한국어)[입국 전 교육]외국인 노동자를 위한 산업안전보건 교재\n[SUMMARY] 한국 입국 전 외국인 노동자의 기본 안전보건교육을 위해 쉬운 우리말과 그림으로 제작한 교재 * 한국어 원본 자료",
+      "query": [
+        "한국어 입국전 안전교육",
+        "한국에 오기 전 외국인 노동자가 보는 한국어 안전보건 교육자료",
+        "한국어 입국 전 교육 외국인 노동자 산업안전보건 교재"
+      ]
+    },
+    {
+      "record_id": "list3_50087",
+      "concat": "[TITLE] 2025년 안전보건관리담당자 양성교육\n[SUMMARY] 안전보건관리담당자 양성교육 활용 교재",
+      "query": [
+        "안전보건관리담당자 교육",
+        "안전보건관리담당자 양성교육에서 쓰는 교재 자료",
+        "안전보건관리담당자 양성교육 활용 교재"
+      ]
+    }
+  ]
+}

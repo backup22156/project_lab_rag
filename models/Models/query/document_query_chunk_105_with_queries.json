@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 105,
+  "items": [
+    {
+      "record_id": "list1_31403",
+      "concat": "[TITLE] 연마휠 성형원, 도자원 및 관련 종사자 - 성형작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "연마휠 성형 작업",
+        "연마휠이나 도자기 만드는 성형 작업 안전자료",
+        "연마휠 성형원 도자원 관련 종사자 성형작업"
+      ]
+    },
+    {
+      "record_id": "list1_31402",
+      "concat": "[TITLE] 양조, 주조 및 음료제조기 조작 종사자 - 설비운전\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "음료 제조 설비운전",
+        "술이나 음료 만드는 기계 설비 운전 안전자료",
+        "양조 주조 음료제조기 조작 종사자 설비운전"
+      ]
+    },
+    {
+      "record_id": "list1_31401",
+      "concat": "[TITLE] 약제품 및 위생용품용 기계 조작 종사자 - 기계조작\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "약품 위생용품 기계",
+        "약품이나 위생용품 만드는 기계 조작 안전자료",
+        "약제품 위생용품용 기계 조작 종사자 기계조작"
+      ]
+    },
+    {
+      "record_id": "list1_31404",
+      "concat": "[TITLE] 연마휠 성형원, 도자원 및 관련 종사자 - 세공(연마)작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "연마휠 연마 작업",
+        "도자기나 연마휠을 다듬고 갈아내는 작업 안전자료",
+        "연마휠 성형원 도자원 관련 종사자 세공 연마작업"
+      ]
+    },
+    {
+      "record_id": "list1_31405",
+      "concat": "[TITLE] 연마휠 성형원, 도자원 및 관련 종사자 - 원료 운반 및 배합작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "원료 운반 배합",
+        "연마휠 도자기 만들 때 원료 옮기고 섞는 작업 안전자료",
+        "연마휠 성형원 도자원 관련 종사자 원료 운반 배합작업"
+      ]
+    },
+    {
+      "record_id": "list1_31407",
+      "concat": "[TITLE] 육류 및 어류가공 기계조작 종사자 - 가공작업 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "고기 생선 가공",
+        "육류나 생선을 기계로 가공하는 작업 안전자료",
+        "육류 어류가공 기계조작 종사자 가공작업"
+      ]
+    },
+    {
+      "record_id": "list1_31406",
+      "concat": "[TITLE] 유리, 도기 및 관련 장식도장 종사자 - 유리가공작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "유리 가공 작업",
+        "유리를 자르거나 가공하는 작업 안전자료",
+        "유리 도기 관련 장식도장 종사자 유리가공작업"
+      ]
+    },
+    {
+      "record_id": "list1_31408",
+      "concat": "[TITLE] 장치, 기계조작 및 조립 종사자 - 기계조작 및 조립작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "기계 조작 조립",
+        "장치나 기계를 조작하고 조립하는 작업 안전자료",
+        "장치 기계조작 조립 종사자 기계조작 조립작업"
+      ]
+    },
+    {
+      "record_id": "list1_31409",
+      "concat": "[TITLE] 장치, 기계조작 및 조립 종사자 - 화학물 가공장치 조작\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "화학물 가공장치",
+        "화학물질 가공 장치를 조작하는 작업 안전자료",
+        "장치 기계조작 조립 종사자 화학물 가공장치 조작"
+      ]
+    },
+    {
+      "record_id": "list1_31410",
+      "concat": "[TITLE] 장치, 기계조작 및 조립 종사자 - 화학물 분쇄,혼합기계 조작\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "화학물 분쇄 혼합",
+        "화학물을 갈거나 섞는 기계를 조작할 때 안전자료",
+        "장치 기계조작 조립 종사자 화학물 분쇄 혼합기계 조작"
+      ]
+    },
+    {
+      "record_id": "list1_31411",
+      "concat": "[TITLE] 재봉관련 종사자 - 봉제작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "재봉 봉제 작업",
+        "옷이나 천을 재봉기로 봉제하는 작업 안전자료",
+        "재봉관련 종사자 봉제작업"
+      ]
+    },
+    {
+      "record_id": "list1_31268",
+      "concat": "[TITLE] 자동차 운전종사자 - 화물차량 운전\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "화물차 운전",
+        "화물차를 운전하는 사람의 작업 안전자료",
+        "자동차 운전종사자 화물차량 운전"
+      ]
+    },
+    {
+      "record_id": "list1_31269",
+      "concat": "[TITLE] 판매종사자 - 물품 운반 및 적재\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "물품 운반 적재",
+        "판매 현장에서 물건을 나르고 쌓는 작업 안전자료",
+        "판매종사자 물품 운반 적재"
+      ]
+    },
+    {
+      "record_id": "list1_31412",
+      "concat": "[TITLE] 재봉관련 종사자 - 재단작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "옷감 재단 작업",
+        "천이나 옷감을 자르는 재단 작업 안전자료",
+        "재봉관련 종사자 재단작업"
+      ]
+    },
+    {
+      "record_id": "list1_31267",
+      "concat": "[TITLE] 자동차 운전종사자 - 차량 적재작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "차량 짐 싣기",
+        "차량에 화물을 싣고 적재하는 작업 안전자료",
+        "자동차 운전종사자 차량 적재작업"
+      ]
+    },
+    {
+      "record_id": "list1_31266",
+      "concat": "[TITLE] 운송수행 종사자 - 퀵서비스 배송작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "퀵서비스 배송",
+        "오토바이 퀵배송 작업 안전자료",
+        "운송수행 종사자 퀵서비스 배송작업"
+      ]
+    },
+    {
+      "record_id": "list1_31264",
+      "concat": "[TITLE] 소각로, 하수처리장치 조작종사자 - 상하수 처리시설 유지, 보수 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "상하수도 시설 보수",
+        "하수처리장이나 상수도 시설을 유지보수하는 작업 안전자료",
+        "소각로 하수처리장치 조작종사자 상하수 처리시설 유지 보수"
+      ]
+    },
+    {
+      "record_id": "list1_31265",
+      "concat": "[TITLE] 운송수행 종사자 - 택배 운송작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "택배 운송 작업",
+        "택배 물건을 운송하고 배송하는 작업 안전자료",
+        "운송수행 종사자 택배 운송작업"
+      ]
+    },
+    {
+      "record_id": "list1_31262",
+      "concat": "[TITLE] 보안서비스 종사자 - 옥외 보안시설 점검\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "보안시설 점검",
+        "밖에 있는 보안 시설을 점검하는 작업 안전자료",
+        "보안서비스 종사자 옥외 보안시설 점검"
+      ]
+    },
+    {
+      "record_id": "list1_31259",
+      "concat": "[TITLE] 조림 및 영림관련 종사자 - 기계톱 사용작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "기계톱 사용",
+        "나무 자를 때 쓰는 기계톱 작업 안전자료",
+        "조림 영림관련 종사자 기계톱 사용작업"
+      ]
+    },
+    {
+      "record_id": "list1_31260",
+      "concat": "[TITLE] 조림 및 영림관련 종사자 - 가지치기 및 조재작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "가지치기 작업",
+        "나무 가지를 치고 목재를 다듬는 작업 안전자료",
+        "조림 영림관련 종사자 가지치기 조재작업"
+      ]
+    },
+    {
+      "record_id": "list1_31485",
+      "concat": "[TITLE] [직업건강]광물성분진의 종류와 유해성\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "광물성 분진 유해성",
+        "광물 먼지가 몸에 어떤 해를 주는지 알려주는 자료",
+        "직업건강 광물성분진 종류 유해성"
+      ]
+    },
+    {
+      "record_id": "list1_31263",
+      "concat": "[TITLE] 소각로, 하수처리장치 조작종사자 - 상하수 처리시설 유지, 보수 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "하수처리 시설 점검",
+        "상하수 처리시설 유지보수 작업 위험요인 자료",
+        "소각로 하수처리장치 조작종사자 상하수 처리시설 유지 보수"
+      ]
+    },
+    {
+      "record_id": "list1_31261",
+      "concat": "[TITLE] 보안서비스 종사자 - 야간순찰업무\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "야간 순찰 업무",
+        "밤에 건물이나 시설을 순찰하는 보안 업무 안전자료",
+        "보안서비스 종사자 야간순찰업무"
+      ]
+    },
+    {
+      "record_id": "list1_31281",
+      "concat": "[TITLE] 플라스틱 제품용 기계조작 종사자 - 고속 분쇄작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "플라스틱 분쇄 작업",
+        "플라스틱 제품을 빠르게 분쇄하는 기계 작업 안전자료",
+        "플라스틱 제품용 기계조작 종사자 고속 분쇄작업"
+      ]
+    },
+    {
+      "record_id": "list1_31282",
+      "concat": "[TITLE] 플라스틱 제품용 기계조작 종사자 - 사출성형작업 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "플라스틱 사출성형",
+        "플라스틱 제품을 사출기로 성형하는 작업 안전자료",
+        "플라스틱 제품용 기계조작 종사자 사출성형작업"
+      ]
+    },
+    {
+      "record_id": "list1_31279",
+      "concat": "[TITLE] 육류 및 어류가공 기계조작 종사자 - 가공작업 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "육류 어류 가공",
+        "고기나 생선을 기계로 가공하는 작업 위험요인 자료",
+        "육류 어류가공 기계조작 종사자 가공작업"
+      ]
+    },
+    {
+      "record_id": "list1_31283",
+      "concat": "[TITLE] 플라스틱 제품용 기계조작 종사자 - 사출성형작업 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "사출성형 기계 작업",
+        "플라스틱 사출성형 기계를 다루는 작업 안전자료",
+        "플라스틱 제품용 기계조작 종사자 사출성형작업"
+      ]
+    },
+    {
+      "record_id": "list1_31277",
+      "concat": "[TITLE] 금속주형, 용접 및 관련기능 종사자 - 주조제품 사상작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "주조제품 사상작업",
+        "주조한 금속 제품을 다듬는 사상 작업 안전자료",
+        "금속주형 용접 관련기능 종사자 주조제품 사상작업"
+      ]
+    },
+    {
+      "record_id": "list1_31275",
+      "concat": "[TITLE] 고무제품용 기계조작 종사자 - 고무 및 플라스틱 절단작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "고무 플라스틱 절단",
+        "고무나 플라스틱 재료를 기계로 자르는 작업 안전자료",
+        "고무제품용 기계조작 종사자 고무 플라스틱 절단작업"
+      ]
+    }
+  ]
+}

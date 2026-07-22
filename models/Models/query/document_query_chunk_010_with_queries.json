@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 10,
+  "items": [
+    {
+      "record_id": "list1_51239",
+      "concat": "[TITLE] (라오스)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "라오스 벌목 안전",
+        "라오스어로 된 벌목 작업 안전수칙 자료를 찾고 있어요",
+        "라오스 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51240",
+      "concat": "[TITLE] (타지키스탄)벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-산업안전실-1196]으로 확인 가능합니다.",
+      "query": [
+        "타지키스탄 벌목 안전",
+        "타지키스탄어로 된 벌목 작업 안전수칙 자료가 필요해요",
+        "타지키스탄 벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도"
+      ]
+    },
+    {
+      "record_id": "list1_51853",
+      "concat": "[TITLE] 키메세지(24호_한파)\n[SUMMARY] [계절·시기별] 한파 시 행동요령 및 관련 콘텐츠 안내 등",
+      "query": [
+        "한파 행동요령",
+        "추운 날씨에 작업할 때 지켜야 할 행동요령 자료를 찾고 있어요",
+        "키메세지 한파 행동요령 관련 콘텐츠 안내"
+      ]
+    },
+    {
+      "record_id": "list1_51038",
+      "concat": "[TITLE] 인플루엔자 유행시 근로자 건강관리\n[SUMMARY] 인플루엔자 유행시 근로자 건강관리 OPS",
+      "query": [
+        "독감 근로자 건강",
+        "인플루엔자가 유행할 때 근로자 건강관리 방법을 알고 싶어요",
+        "인플루엔자 유행시 근로자 건강관리 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51294",
+      "concat": "[TITLE] (타지키스탄)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "타지키스탄 대설 안전",
+        "타지키스탄어로 된 눈 많이 올 때 사업장 안전수칙 자료를 찾고 있어요",
+        "타지키스탄 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51427",
+      "concat": "[TITLE] 차량탑재형 고소작업대 안전장치 해제 금지 OPS\n[SUMMARY] 차량탑재형 고소작업대 안전장치 해제 및 안전난간 해체 금지 OPS",
+      "query": [
+        "고소작업대 안전장치",
+        "차량에 달린 고소작업대 안전장치를 해제하면 안 된다는 안내 자료가 필요해요",
+        "차량탑재형 고소작업대 안전장치 해제 금지 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51037",
+      "concat": "[TITLE] 장시간 근로자 건강관리\n[SUMMARY] 장시간 근로자 건강관리 OPS",
+      "query": [
+        "장시간 근로 건강",
+        "오래 일하는 근로자의 건강관리 방법 자료를 찾고 있어요",
+        "장시간 근로자 건강관리 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51295",
+      "concat": "[TITLE] (인도네시아)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "인도네시아 대설 안전",
+        "인도네시아어로 된 대설 때 사업장 안전수칙 자료가 필요해요",
+        "인도네시아 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51296",
+      "concat": "[TITLE] (스리랑카)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "스리랑카 대설 안전",
+        "스리랑카어로 된 눈 많이 올 때 사업장 안전수칙 자료를 찾고 있어요",
+        "스리랑카 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51297",
+      "concat": "[TITLE] (방글라데시)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "방글라데시 대설 안전",
+        "방글라데시 근로자가 볼 수 있는 대설 시 사업장 안전수칙 자료가 필요해요",
+        "방글라데시 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51312",
+      "concat": "[TITLE] (몽골)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "몽골 대설 안전",
+        "몽골어로 된 대설 때 사업장 안전수칙 안내문을 찾고 있어요",
+        "몽골 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51298",
+      "concat": "[TITLE] (동티모르)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "동티모르 대설 안전",
+        "동티모르어로 된 눈 많이 올 때 사업장 안전수칙 자료를 찾고 있어요",
+        "동티모르 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51311",
+      "concat": "[TITLE] (미얀마)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "미얀마 대설 안전",
+        "미얀마어로 된 대설 시 사업장 안전수칙 안내 자료가 필요해요",
+        "미얀마 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51310",
+      "concat": "[TITLE] (우즈베키스탄)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "우즈베키스탄 대설 안전",
+        "우즈베키스탄어로 된 눈 올 때 사업장 안전수칙 자료를 찾고 있어요",
+        "우즈베키스탄 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51313",
+      "concat": "[TITLE] (필리핀)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "필리핀 대설 안전",
+        "필리핀 근로자가 볼 수 있는 대설 시 사업장 안전수칙 자료가 필요해요",
+        "필리핀 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51314",
+      "concat": "[TITLE] (태국)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "태국 대설 안전",
+        "태국어로 된 대설 때 사업장 안전수칙 안내문을 찾고 있어요",
+        "태국 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51316",
+      "concat": "[TITLE] (캄보디아)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "캄보디아 대설 안전",
+        "캄보디아어로 된 눈 많이 올 때 사업장 안전수칙 자료가 필요해요",
+        "캄보디아 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51315",
+      "concat": "[TITLE] (키르기스스탄)대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] 대설 시 사업장 주요 안전수칙을 17개국 언어로 번역한 자료 *한국어 파일은 [2025-중앙사고조사단-1316]으로 확인 가능합니다.",
+      "query": [
+        "키르기스스탄 대설 안전",
+        "키르기스스탄어로 된 대설 시 사업장 안전수칙 자료를 찾고 있어요",
+        "키르기스스탄 대설 시 사업장 주요 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51289",
+      "concat": "[TITLE] (동티모르) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (동티모르) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "동티모르 한랭질환",
+        "동티모르어로 된 겨울철 한파 한랭질환 예방수칙 자료가 필요해요",
+        "동티모르 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51301",
+      "concat": "[TITLE] (영어) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (영어) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "영어 한랭질환",
+        "영어로 된 겨울철 한파 대비 한랭질환 예방수칙 자료를 찾고 있어요",
+        "영어 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51287",
+      "concat": "[TITLE] (키르키즈스탄) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (키르키즈스탄) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "키르기스스탄 한랭질환",
+        "키르기스스탄어로 된 한파 대비 한랭질환 예방수칙 자료가 필요해요",
+        "키르키즈스탄 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51290",
+      "concat": "[TITLE] (타지키스탄) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (타지키스탄) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "타지키스탄 한랭질환",
+        "타지키스탄어로 된 겨울철 한랭질환 예방수칙 자료를 찾고 있어요",
+        "타지키스탄 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51288",
+      "concat": "[TITLE] (미얀마) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (미얀마) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "미얀마 한랭질환",
+        "미얀마어로 된 한파 대비 한랭질환 예방수칙 안내문이 필요해요",
+        "미얀마 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51286",
+      "concat": "[TITLE] (방글라데시) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (방글라데시) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "방글라데시 한랭질환",
+        "방글라데시 근로자가 볼 수 있는 겨울철 한랭질환 예방수칙 자료를 찾고 있어요",
+        "방글라데시 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51285",
+      "concat": "[TITLE] (캄보디아) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (캄보디아) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "캄보디아 한랭질환",
+        "캄보디아어로 된 겨울철 한파 대비 건강수칙 자료가 필요해요",
+        "캄보디아 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51284",
+      "concat": "[TITLE] (우즈베키스탄) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (우즈베키스탄) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "우즈베키스탄 한랭질환",
+        "우즈베키스탄어로 된 한파 대비 한랭질환 예방수칙 자료를 찾고 있어요",
+        "우즈베키스탄 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51283",
+      "concat": "[TITLE] (인도네시아) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (인도네시아) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "인도네시아 한랭질환",
+        "인도네시아어로 된 겨울철 한랭질환 예방수칙 안내문이 필요해요",
+        "인도네시아 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51281",
+      "concat": "[TITLE] (몽골) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (몽골) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "몽골 한랭질환",
+        "몽골어로 된 한파 대비 한랭질환 예방수칙 자료를 찾고 있어요",
+        "몽골 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51810",
+      "concat": "[TITLE] 키메세지(23호_사다리)\n[SUMMARY] [사회이슈] 사다리 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "사다리 사고 예방",
+        "사다리 작업 중 사고를 막는 예방대책 자료를 찾고 있어요",
+        "키메세지 사다리 사고 예방대책 관련 콘텐츠 안내"
+      ]
+    },
+    {
+      "record_id": "list1_51778",
+      "concat": "[TITLE] 미세먼지로 인한 건강장해 예방수칙\n[SUMMARY] 미세먼지로 인한 건강장해 예방수칙",
+      "query": [
+        "미세먼지 건강",
+        "미세먼지 때문에 생길 수 있는 건강장해 예방수칙이 필요해요",
+        "미세먼지로 인한 건강장해 예방수칙"
+      ]
+    }
+  ]
+}

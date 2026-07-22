@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 117,
+  "items": [
+    {
+      "record_id": "list1_30197",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)보링기 안전작업\n[SUMMARY] 보링기 안전작업",
+      "query": [
+        "보링기 안전작업",
+        "공장에서 보링기 작업할 때 안전하게 사용하는 방법",
+        "일반산업용 기계장치제조업 보링기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30195",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)밀링기 안전작업\n[SUMMARY] 밀링기 안전작업",
+      "query": [
+        "밀링기 안전작업",
+        "밀링기 가공 작업 중 사고를 막는 안전수칙",
+        "일반산업용 기계장치제조업 밀링기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30194",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)동파이프밴딩기 안전작업\n[SUMMARY] 동파이프밴딩기 안전작업",
+      "query": [
+        "파이프 밴딩기 안전",
+        "동파이프를 구부리는 기계 작업할 때 주의할 점",
+        "일반산업용 기계장치제조업 동파이프밴딩기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30193",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)다축드릴 안전작업\n[SUMMARY] 다축드릴 안전작업",
+      "query": [
+        "드릴 작업 안전",
+        "여러 축이 있는 드릴 장비를 사용할 때 안전수칙",
+        "일반산업용 기계장치제조업 다축드릴 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30186",
+      "concat": "[TITLE] (자동차부품제조업)핸드크레인 안전작업\n[SUMMARY] 핸드크레인 안전작업 OPL",
+      "query": [
+        "핸드크레인 안전",
+        "자동차 부품 공장에서 핸드크레인으로 운반할 때 주의사항",
+        "자동차부품제조업 핸드크레인 안전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30250",
+      "concat": "[TITLE] (정밀금형제조업)다이캐스팅기 안전작업\n[SUMMARY] 다이캐스팅기 안전작업",
+      "query": [
+        "다이캐스팅기 안전",
+        "금형 제조 현장에서 다이캐스팅기 작업할 때 안전수칙",
+        "정밀금형제조업 다이캐스팅기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30251",
+      "concat": "[TITLE] (정밀금형제조업)머시닝센터 안전작업\n[SUMMARY] 머시닝센터 안전작업",
+      "query": [
+        "머시닝센터 안전",
+        "머시닝센터 가공 작업 중 사고를 예방하는 방법",
+        "정밀금형제조업 머시닝센터 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30252",
+      "concat": "[TITLE] (정밀금형제조업)밀링 안전작업\n[SUMMARY] 밀링 안전작업",
+      "query": [
+        "밀링 안전작업",
+        "정밀 금형 작업장에서 밀링 작업할 때 지켜야 할 안전수칙",
+        "정밀금형제조업 밀링 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30253",
+      "concat": "[TITLE] (정밀금형제조업)사출성형기 안전작업\n[SUMMARY] 사출성형기 안전작업",
+      "query": [
+        "사출성형기 안전",
+        "사출성형기 작업 중 끼임 사고를 막는 안전수칙",
+        "정밀금형제조업 사출성형기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30256",
+      "concat": "[TITLE] (정밀금형제조업)적재대 안전작업\n[SUMMARY] 적재대 안전작업",
+      "query": [
+        "적재대 안전",
+        "금형 작업장에서 적재대에 물건을 올리고 보관할 때 주의사항",
+        "정밀금형제조업 적재대 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30254",
+      "concat": "[TITLE] (정밀금형제조업)선반 안전작업\n[SUMMARY] 선반 안전작업",
+      "query": [
+        "선반 안전작업",
+        "선반 가공 작업 중 사고를 예방하는 기본 안전수칙",
+        "정밀금형제조업 선반 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30257",
+      "concat": "[TITLE] (정밀금형제조업)지게차 안전작업\n[SUMMARY] 지게차 안전작업",
+      "query": [
+        "지게차 안전",
+        "정밀 금형 공장에서 지게차 운전할 때 사고 예방 방법",
+        "정밀금형제조업 지게차 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30260",
+      "concat": "[TITLE] (정밀금형제조업)탁상용드릴기 안전작업\n[SUMMARY] 탁상용드릴기 안전작업 리플릿",
+      "query": [
+        "탁상 드릴 안전",
+        "작업대 위 드릴 기계를 사용할 때 주의해야 할 점",
+        "정밀금형제조업 탁상용드릴기 안전작업 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30258",
+      "concat": "[TITLE] (정밀금형제조업)크레인 안전작업\n[SUMMARY] 크레인 안전작업",
+      "query": [
+        "크레인 안전작업",
+        "금형 제조 현장에서 크레인으로 자재를 옮길 때 안전수칙",
+        "정밀금형제조업 크레인 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30261",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)고장차량 이동설비 안전작업\n[SUMMARY] 고장차량 이동설비 안전작업",
+      "query": [
+        "고장차 이동 안전",
+        "정비소에서 고장난 차량을 옮기는 설비를 쓸 때 주의사항",
+        "자동차 및 모터사이클 수리업 고장차량 이동설비 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30259",
+      "concat": "[TITLE] (정밀금형제조업)테이블리프트 안전작업\n[SUMMARY] 테이블리프트 안전작업",
+      "query": [
+        "테이블리프트 안전",
+        "테이블리프트로 물건을 올리고 내릴 때 안전하게 작업하는 방법",
+        "정밀금형제조업 테이블리프트 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30262",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)교류아크용접기 안전작업\n[SUMMARY] 교류아크용접기 안전작업",
+      "query": [
+        "아크용접기 안전",
+        "자동차 정비소에서 교류아크용접기를 쓸 때 안전수칙",
+        "자동차 및 모터사이클 수리업 교류아크용접기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30264",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)산소절단기 안전작업\n[SUMMARY] 산소절단기 안전작업",
+      "query": [
+        "산소절단기 안전",
+        "자동차 수리 작업에서 산소절단기를 사용할 때 주의사항",
+        "자동차 및 모터사이클 수리업 산소절단기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30263",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)도장부스 안전작업\n[SUMMARY] 도장부스 안전작업",
+      "query": [
+        "도장부스 안전",
+        "자동차 정비소 도장부스에서 작업할 때 사고를 막는 방법",
+        "자동차 및 모터사이클 수리업 도장부스 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30208",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)전동드라이버 안전작업\n[SUMMARY] 스크류드라이버 안전작업",
+      "query": [
+        "전동드라이버 안전",
+        "전동 드라이버로 조립 작업할 때 안전하게 쓰는 방법",
+        "일상생활용 전기기계기구제조업 전동드라이버 스크류드라이버 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30265",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)샌딩룸 안전작업\n[SUMMARY] 샌딩룸 안전작업",
+      "query": [
+        "샌딩룸 안전",
+        "자동차 정비소 샌딩룸에서 작업할 때 지켜야 할 안전수칙",
+        "자동차 및 모터사이클 수리업 샌딩룸 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30209",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)원심탈수기 안전작업\n[SUMMARY] 원심탈수기 안전작업",
+      "query": [
+        "원심탈수기 안전",
+        "원심탈수기를 사용할 때 끼임이나 사고를 막는 방법",
+        "일상생활용 전기기계기구제조업 원심탈수기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30207",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)센트리스 연삭기 안전작업\n[SUMMARY] 센터레스연삭기 안전작업",
+      "query": [
+        "센터레스 연삭기 안전",
+        "센터레스 연삭기로 작업할 때 안전하게 사용하는 방법",
+        "일상생활용 전기기계기구제조업 센트리스 연삭기 센터레스연삭기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30267",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)오일회수기 안전작업\n[SUMMARY] 오일회수기 안전작업",
+      "query": [
+        "오일회수기 안전",
+        "차량 정비 중 오일회수기를 사용할 때 주의할 점",
+        "자동차 및 모터사이클 수리업 오일회수기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30268",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)차량정비용 리프트(2주식) 안전작업\n[SUMMARY] 차량정비용 리프트(2주식) 안전작업",
+      "query": [
+        "차량 리프트 안전",
+        "정비소에서 2주식 차량 리프트를 사용할 때 안전수칙",
+        "자동차 및 모터사이클 수리업 차량정비용 리프트 2주식 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30269",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)차량정비용 리프트(4주식) 안전작업\n[SUMMARY] 차량정비용 리프트(4주식) 안전작업",
+      "query": [
+        "차량 리프트 안전",
+        "정비소에서 4주식 차량 리프트를 사용할 때 주의사항",
+        "자동차 및 모터사이클 수리업 차량정비용 리프트 4주식 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30271",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)타이어탈부착기 안전작업\n[SUMMARY] 타이어탈부착기 안전작업",
+      "query": [
+        "타이어 탈부착 안전",
+        "타이어를 탈부착하는 기계를 사용할 때 사고 예방 방법",
+        "자동차 및 모터사이클 수리업 타이어탈부착기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30272",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)타이어휠발란스기 안전작업\n[SUMMARY] 타이어휠발란스기 안전작업",
+      "query": [
+        "휠 발란스 안전",
+        "타이어 휠 발란스 장비로 작업할 때 안전하게 쓰는 방법",
+        "자동차 및 모터사이클 수리업 타이어휠발란스기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30266",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)엔진/미션 탈부착장치 안전작업\n[SUMMARY] 엔진/미션 탈부착장치 안전작업",
+      "query": [
+        "엔진 미션 장치 안전",
+        "엔진이나 미션을 탈부착하는 장비를 쓸 때 주의사항",
+        "자동차 및 모터사이클 수리업 엔진 미션 탈부착장치 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30270",
+      "concat": "[TITLE] (자동차 및 모터사이클 수리업)차량정비용 리프트(X식) 안전작업\n[SUMMARY] 차량정비용 리프트(X식) 안전작업",
+      "query": [
+        "차량 리프트 안전",
+        "정비소에서 X식 차량 리프트를 사용할 때 사고를 막는 방법",
+        "자동차 및 모터사이클 수리업 차량정비용 리프트 X식 안전작업"
+      ]
+    }
+  ]
+}

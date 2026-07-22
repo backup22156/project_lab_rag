@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 119,
+  "items": [
+    {
+      "record_id": "list1_30346",
+      "concat": "[TITLE] (음식 및 숙박업)오토바이\n[SUMMARY] (음식 및 숙박업)오토바이",
+      "query": [
+        "음식점 오토바이",
+        "음식점이나 숙박업에서 오토바이를 사용하는 작업 관련 자료",
+        "음식 및 숙박업 오토바이"
+      ]
+    },
+    {
+      "record_id": "list1_30344",
+      "concat": "[TITLE] (음식 및 숙박업)식칼\n[SUMMARY] (음식 및 숙박업)식칼",
+      "query": [
+        "주방 식칼",
+        "음식점 주방에서 식칼을 다룰 때 필요한 자료",
+        "음식 및 숙박업 식칼"
+      ]
+    },
+    {
+      "record_id": "list1_30342",
+      "concat": "[TITLE] (음식 및 숙박업)반죽기\n[SUMMARY] (음식 및 숙박업)반죽기",
+      "query": [
+        "주방 반죽기",
+        "음식점이나 제과 작업장에서 반죽기 쓰는 자료",
+        "음식 및 숙박업 반죽기"
+      ]
+    },
+    {
+      "record_id": "list1_30339",
+      "concat": "[TITLE] (음식 및 숙박업)뜨거운식기\n[SUMMARY] (음식 및 숙박업)뜨거운식기",
+      "query": [
+        "뜨거운 식기",
+        "음식점에서 뜨거운 그릇이나 식기를 다루는 상황 자료",
+        "음식 및 숙박업 뜨거운식기"
+      ]
+    },
+    {
+      "record_id": "list1_30341",
+      "concat": "[TITLE] (음식 및 숙박업)미끄러운바닥\n[SUMMARY] (음식 및 숙박업)미끄러운바닥",
+      "query": [
+        "미끄러운 바닥",
+        "음식점 주방이나 숙박업 현장에서 바닥이 미끄러운 경우 자료",
+        "음식 및 숙박업 미끄러운바닥"
+      ]
+    },
+    {
+      "record_id": "list1_30345",
+      "concat": "[TITLE] (음식 및 숙박업)야채절단기\n[SUMMARY] (음식 및 숙박업)야채절단기",
+      "query": [
+        "야채절단기 안전",
+        "음식점 주방에서 야채절단기를 사용할 때 필요한 자료",
+        "음식 및 숙박업 야채절단기"
+      ]
+    },
+    {
+      "record_id": "list1_30340",
+      "concat": "[TITLE] (음식 및 숙박업)무거운식기 주방용품\n[SUMMARY] (음식 및 숙박업)무거운 주방용품",
+      "query": [
+        "무거운 주방용품",
+        "음식점에서 무거운 식기나 주방용품을 옮길 때 자료",
+        "음식 및 숙박업 무거운식기 주방용품"
+      ]
+    },
+    {
+      "record_id": "list1_30374",
+      "concat": "[TITLE] (교육서비스업)야채절단기\n[SUMMARY] (교육서비스업)야채절단기",
+      "query": [
+        "학교 야채절단기",
+        "학교 급식실에서 야채절단기를 사용하는 작업 자료",
+        "교육서비스업 야채절단기"
+      ]
+    },
+    {
+      "record_id": "list1_30363",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)육절기\n[SUMMARY] (도소매 및 소비자용품 수리업)육절기",
+      "query": [
+        "육절기 안전",
+        "도소매 매장에서 고기 자르는 육절기를 다루는 자료",
+        "도소매 및 소비자용품 수리업 육절기"
+      ]
+    },
+    {
+      "record_id": "list1_30365",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)반죽기\n[SUMMARY] (도소매 및 소비자용품 수리업)반죽기 리플릿",
+      "query": [
+        "반죽기 리플릿",
+        "도소매 업장에서 반죽기 관련 리플릿 자료를 찾고 싶어",
+        "도소매 및 소비자용품 수리업 반죽기 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30364",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)제면기\n[SUMMARY] (도소매 및 소비자용품 수리업)제면기",
+      "query": [
+        "제면기 안전",
+        "도소매 업장에서 면 만드는 제면기 관련 자료",
+        "도소매 및 소비자용품 수리업 제면기"
+      ]
+    },
+    {
+      "record_id": "list1_30366",
+      "concat": "[TITLE] (교육서비스업)취반기\n[SUMMARY] (교육서비스업)취반기",
+      "query": [
+        "학교 취반기",
+        "학교나 교육기관 급식실에서 취반기를 쓰는 자료",
+        "교육서비스업 취반기"
+      ]
+    },
+    {
+      "record_id": "list1_30354",
+      "concat": "[TITLE] (도소매 및 소비자용품 수리업)회전문\n[SUMMARY] (도소매 및 소비자용품 수리업)회전문",
+      "query": [
+        "매장 회전문",
+        "도소매 매장이나 수리업 사업장의 회전문 관련 자료",
+        "도소매 및 소비자용품 수리업 회전문"
+      ]
+    },
+    {
+      "record_id": "list1_30372",
+      "concat": "[TITLE] (교육서비스업)식기세척기\n[SUMMARY] (교육서비스업)식기세척기",
+      "query": [
+        "학교 식기세척기",
+        "학교 급식실에서 식기세척기를 사용하는 자료",
+        "교육서비스업 식기세척기"
+      ]
+    },
+    {
+      "record_id": "list1_30373",
+      "concat": "[TITLE] (교육서비스업)식자재운반카트\n[SUMMARY] (교육서비스업)식자재운반카트",
+      "query": [
+        "식자재 운반카트",
+        "학교 급식실에서 식자재 운반카트를 사용하는 자료",
+        "교육서비스업 식자재운반카트"
+      ]
+    },
+    {
+      "record_id": "list1_30338",
+      "concat": "[TITLE] (음식 및 숙박업)덤웨이터\n[SUMMARY] (음식 및 숙박업)덤웨이터",
+      "query": [
+        "음식점 덤웨이터",
+        "음식점이나 숙박업에서 덤웨이터를 사용하는 자료",
+        "음식 및 숙박업 덤웨이터"
+      ]
+    },
+    {
+      "record_id": "list1_30381",
+      "concat": "[TITLE] (보건 및 사회복지사업)직무스트레스\n[SUMMARY] (보건 및 사회복지사업)직무스트레스",
+      "query": [
+        "병원 직무스트레스",
+        "병원이나 복지시설 직원의 직무스트레스 관련 자료",
+        "보건 및 사회복지사업 직무스트레스"
+      ]
+    },
+    {
+      "record_id": "list1_30380",
+      "concat": "[TITLE] (교육서비스업)오븐\n[SUMMARY] (교육서비스업)오븐의 안전대책, 재해사례와 관련한 리플릿",
+      "query": [
+        "학교 오븐",
+        "교육기관 급식실에서 오븐 재해사례나 안전대책 자료",
+        "교육서비스업 오븐 안전대책 재해사례 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30337",
+      "concat": "[TITLE] (음식 및 숙박업)골절기\n[SUMMARY] (음식 및 숙박업)골절기",
+      "query": [
+        "주방 골절기",
+        "음식점 주방에서 골절기를 사용하는 자료",
+        "음식 및 숙박업 골절기"
+      ]
+    },
+    {
+      "record_id": "list1_30336",
+      "concat": "[TITLE] (음식 및 숙박업)가스렌지\n[SUMMARY] (음식 및 숙박업)가스렌지",
+      "query": [
+        "주방 가스렌지",
+        "음식점 주방에서 가스렌지를 사용하는 자료",
+        "음식 및 숙박업 가스렌지"
+      ]
+    },
+    {
+      "record_id": "list1_30384",
+      "concat": "[TITLE] (보건 및 사회복지사업)미끄러운바닥\n[SUMMARY] (보건 및 사회복지사업)미끄러운바닥",
+      "query": [
+        "병원 미끄러운 바닥",
+        "병원이나 복지시설에서 바닥이 미끄러운 경우 자료",
+        "보건 및 사회복지사업 미끄러운바닥"
+      ]
+    },
+    {
+      "record_id": "list1_30382",
+      "concat": "[TITLE] (보건 및 사회복지사업)근골격계질환-음식조리직\n[SUMMARY] (보건 및 사회복지사업)근골격계질환-음식조리직",
+      "query": [
+        "조리직 근골격계",
+        "병원이나 복지시설 음식조리직 근골격계질환 자료",
+        "보건 및 사회복지사업 근골격계질환 음식조리직"
+      ]
+    },
+    {
+      "record_id": "list1_30383",
+      "concat": "[TITLE] (보건 및 사회복지사업)근골격계질환-요양보호사\n[SUMMARY] (보건 및 사회복지사업)근골격계질환-요양보호사",
+      "query": [
+        "요양보호사 근골격계",
+        "요양보호사에게 생기는 근골격계질환 관련 자료",
+        "보건 및 사회복지사업 근골격계질환 요양보호사"
+      ]
+    },
+    {
+      "record_id": "list1_30385",
+      "concat": "[TITLE] (보건 및 사회복지사업)병원체에 의한 건강장해\n[SUMMARY] (보건 및 사회복지사업)병원체에 의한 건강장해",
+      "query": [
+        "병원 병원체",
+        "보건복지 현장에서 병원체로 인한 건강장해 자료",
+        "보건 및 사회복지사업 병원체 건강장해"
+      ]
+    },
+    {
+      "record_id": "list1_30392",
+      "concat": "[TITLE] (보건 및 사회복지사업)저주파치료기\n[SUMMARY] (보건 및 사회복지사업)저주파치료기",
+      "query": [
+        "저주파치료기 안전",
+        "병원이나 복지시설에서 저주파치료기를 사용하는 자료",
+        "보건 및 사회복지사업 저주파치료기"
+      ]
+    },
+    {
+      "record_id": "list1_30389",
+      "concat": "[TITLE] (보건 및 사회복지사업)세탁물운반카트\n[SUMMARY] (보건 및 사회복지사업)세탁물운반카트",
+      "query": [
+        "세탁물 운반카트",
+        "병원이나 복지시설에서 세탁물 운반카트를 쓰는 자료",
+        "보건 및 사회복지사업 세탁물운반카트"
+      ]
+    },
+    {
+      "record_id": "list1_30386",
+      "concat": "[TITLE] (보건 및 사회복지사업)구급차\n[SUMMARY] (보건 및 사회복지사업)구급차",
+      "query": [
+        "구급차 안전",
+        "보건복지 사업장에서 구급차 관련 자료를 찾고 싶어",
+        "보건 및 사회복지사업 구급차"
+      ]
+    },
+    {
+      "record_id": "list1_30391",
+      "concat": "[TITLE] (보건 및 사회복지사업)의료용침대\n[SUMMARY] (보건 및 사회복지사업)의료용침대",
+      "query": [
+        "의료용 침대",
+        "병원이나 복지시설에서 의료용침대를 사용하는 자료",
+        "보건 및 사회복지사업 의료용침대"
+      ]
+    },
+    {
+      "record_id": "list1_30387",
+      "concat": "[TITLE] (보건 및 사회복지사업)다목적운동기\n[SUMMARY] (보건 및 사회복지사업)다목적운동기",
+      "query": [
+        "다목적운동기",
+        "병원이나 복지시설에서 다목적운동기를 사용하는 자료",
+        "보건 및 사회복지사업 다목적운동기"
+      ]
+    },
+    {
+      "record_id": "list1_30390",
+      "concat": "[TITLE] (보건 및 사회복지사업)유니트체어\n[SUMMARY] (보건 및 사회복지사업)유니트체어",
+      "query": [
+        "유니트체어",
+        "보건복지 현장에서 유니트체어를 사용하는 자료",
+        "보건 및 사회복지사업 유니트체어"
+      ]
+    }
+  ]
+}

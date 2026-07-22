@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 56,
+  "items": [
+    {
+      "record_id": "list1_40927",
+      "concat": "[TITLE] (OPL) 작업발판 해체 중 외부비계 위에서 떨어짐\n[SUMMARY] 국내 체류 키르기스스탄 근로자를 위한 안전보건OPL",
+      "query": [
+        "작업발판 해체 추락",
+        "외부비계에서 작업발판을 해체하다 떨어지는 사고 예방 자료",
+        "작업발판 해체 외부비계 떨어짐 키르기스스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40930",
+      "concat": "[TITLE] (OPL) 작업발판 해체 중 외부비계 위에서 떨어짐\n[SUMMARY] 국내 체류 필리핀 근로자를 위한 안전보건OPL",
+      "query": [
+        "작업발판 해체 추락",
+        "외부비계에서 작업발판을 해체하다 떨어지는 사고 예방 자료",
+        "작업발판 해체 외부비계 떨어짐 필리핀 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40923",
+      "concat": "[TITLE] (OPL) 작업발판 해체 중 외부비계 위에서 떨어짐\n[SUMMARY] 국내 체류 우즈베키스탄 근로자를 위한 안전보건OPL",
+      "query": [
+        "작업발판 해체 추락",
+        "외부비계에서 작업발판을 해체하다 떨어지는 사고 예방 자료",
+        "작업발판 해체 외부비계 떨어짐 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40917",
+      "concat": "[TITLE] (OPL) 작업발판 해체 중 외부비계 위에서 떨어짐\n[SUMMARY] 국내 체류 라오스 근로자를 위한 안전보건OPL",
+      "query": [
+        "작업발판 해체 추락",
+        "외부비계에서 작업발판을 해체하다 떨어지는 사고 예방 자료",
+        "작업발판 해체 외부비계 떨어짐 라오스 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40916",
+      "concat": "[TITLE] (OPL) 작업발판 해체 중 외부비계 위에서 떨어짐\n[SUMMARY] 국내 체류 동티모르 근로자를 위한 안전보건OPL",
+      "query": [
+        "작업발판 해체 추락",
+        "외부비계에서 작업발판을 해체하다 떨어지는 사고 예방 자료",
+        "작업발판 해체 외부비계 떨어짐 동티모르 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40915",
+      "concat": "[TITLE] (OPL) 작업발판 해체 중 외부비계 위에서 떨어짐\n[SUMMARY] 국내 체류 네팔 근로자를 위한 안전보건OPL",
+      "query": [
+        "작업발판 해체 추락",
+        "외부비계에서 작업발판을 해체하다 떨어지는 사고 예방 자료",
+        "작업발판 해체 외부비계 떨어짐 네팔 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40912",
+      "concat": "[TITLE] (OPL) 발판에 걸린 자재 인양함을 빼내던 중 작업발판에서 떨어짐\n[SUMMARY] 국내 체류 태국 근로자를 위한 안전보건OPL",
+      "query": [
+        "자재 인양함 추락",
+        "작업발판에 걸린 자재 인양함을 빼내다 떨어진 사고 자료",
+        "자재 인양함 작업발판 떨어짐 태국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40841",
+      "concat": "[TITLE] (OPL) 외벽 거푸집 설치 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "외벽 거푸집 추락",
+        "외벽 거푸집 설치 작업 중 근로자가 떨어지는 사고 예방 자료",
+        "외벽 거푸집 설치 작업 떨어짐 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40652",
+      "concat": "[TITLE] (외국어 OPL) 작업발판 해체 중 외부비계 위에서 떨어짐\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "작업발판 해체 추락",
+        "외국인 근로자에게 줄 외부비계 작업발판 해체 추락 예방 자료",
+        "외국어 OPL 작업발판 해체 외부비계 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40840",
+      "concat": "[TITLE] (OPL) 외벽 거푸집 설치 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "외벽 거푸집 추락",
+        "외벽 거푸집 설치 작업 중 근로자가 떨어지는 사고 예방 자료",
+        "외벽 거푸집 설치 작업 떨어짐 방글라데시 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40651",
+      "concat": "[TITLE] (외국어 OPL) 벽면 거푸집고정용 핀 제거작업중 떨어짐\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "거푸집 핀 제거 추락",
+        "외국인 근로자에게 줄 벽면 거푸집 고정용 핀 제거 중 추락 사고 자료",
+        "외국어 OPL 벽면 거푸집고정용 핀 제거작업 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40649",
+      "concat": "[TITLE] (외국어 OPL) 배관 설치작업 중 이동식비계 전도되어 떨어짐\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "배관 설치 비계 추락",
+        "외국인 근로자에게 줄 배관 설치 중 이동식비계가 넘어져 떨어진 사고 자료",
+        "외국어 OPL 배관 설치작업 이동식비계 전도 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40650",
+      "concat": "[TITLE] (외국어 OPL) 내부비계위에서 벽체 미장작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "내부비계 미장 추락",
+        "외국인 근로자에게 줄 내부비계에서 벽체 미장 작업 중 떨어지는 사고 자료",
+        "외국어 OPL 내부비계 벽체 미장작업 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40647",
+      "concat": "[TITLE] (외국어 OPL) 외부비계 위에서 강관파이프 해체 중 떨어짐\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "강관파이프 해체 추락",
+        "외국인 근로자에게 줄 외부비계에서 강관파이프를 해체하다 떨어진 사고 자료",
+        "외국어 OPL 외부비계 강관파이프 해체 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40648",
+      "concat": "[TITLE] (외국어 OPL) 이동식비계에서 작업 중 몸의 중심을 잃고 떨어짐\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "이동식비계 추락",
+        "외국인 근로자에게 줄 이동식비계 작업 중 중심을 잃고 떨어진 사고 자료",
+        "외국어 OPL 이동식비계 작업 몸의 중심 잃고 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40654",
+      "concat": "[TITLE] (외국어 OPL) 외부 비계위에서 방수작업 중 떨어짐_외국인\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "외부비계 방수 추락",
+        "외국인 근로자에게 줄 외부 비계 방수 작업 중 떨어지는 사고 자료",
+        "외국어 OPL 외부 비계 방수작업 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40645",
+      "concat": "[TITLE] (외국어 OPL) 강관비계 해체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "강관비계 해체 추락",
+        "외국인 근로자에게 줄 강관비계 해체 작업 중 떨어지는 사고 자료",
+        "외국어 OPL 강관비계 해체 작업 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40646",
+      "concat": "[TITLE] (외국어 OPL) 건물 외벽 준공 청소중 달비계 로프 파단으로 떨어짐\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스)",
+      "query": [
+        "달비계 로프 추락",
+        "외국인 근로자에게 줄 건물 외벽 청소 중 달비계 로프가 끊어진 사고 자료",
+        "외국어 OPL 건물 외벽 준공 청소 달비계 로프 파단 떨어짐 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40833",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 파키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40644",
+      "concat": "[TITLE] (외국어 OPL) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "갈탄가스 중독",
+        "외국인 근로자에게 줄 콘크리트 양생 중 갈탄 연소가스 중독 사고 자료",
+        "외국어 OPL 콘크리트 양생작업 갈탄 연소가스 중독 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40834",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 필리핀 근로자를 위한 안전보건 OPL : 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐 사례",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 필리핀 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40831",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 키르기스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 키르기스스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40832",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 태국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40829",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 중국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40827",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40828",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 인도네시아 근로자를 위한 안전보건 OPL. 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어지는 사고에 대한 설명",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40830",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 캄보디아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40825",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40826",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 스리랑카 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40824",
+      "concat": "[TITLE] (OPL) 지게차 포크 팔레트 위에서 지붕 빗물받이 교체 작업 중 떨어짐\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 팔레트 추락",
+        "지게차 포크 팔레트 위에서 지붕 빗물받이를 바꾸다 떨어진 사고 자료",
+        "지게차 포크 팔레트 지붕 빗물받이 교체 작업 떨어짐 방글라데시 근로자 안전보건 OPL"
+      ]
+    }
+  ]
+}

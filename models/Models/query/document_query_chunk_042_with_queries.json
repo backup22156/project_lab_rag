@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 42,
+  "items": [
+    {
+      "record_id": "list1_44209",
+      "concat": "[TITLE] 산업안전보건기준에 관한 규칙 개정사항 안내(종합)\n[SUMMARY] 산업안전보건기준에 관한 규칙 개정사항(2022. 10. 18.개정)을 종합 요약한 OPS입니다. 개정 전문, 부칙에 따른 개정 조항 시행일 및 기타 단서사항은 국가법령정보센터 홈페이지에서 '산업안전보건기준에 관한 규칙'으로 검색하시기 바랍니다.",
+      "query": [
+        "안전보건 규칙 개정",
+        "산업안전보건 기준 규칙이 바뀐 내용을 한눈에 보고 싶어",
+        "산업안전보건기준에 관한 규칙 개정사항 안내 종합 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44211",
+      "concat": "[TITLE] 이산화탄소 소화설비 관련 산업안전보건기준에 관한 규칙 개정사항 안내\n[SUMMARY] 산업안전보건기준에 관한 규칙 개정사항(2022. 10. 18.개정) 중 이산화탄소 소화기, 소화설비 관련사항을 요약한 OPS입니다. 개정 전문은 국가법령정보센터 홈페이지에서 '산업안전보건기준에 관한 규칙'으로 검색하시기 바랍니다.",
+      "query": [
+        "이산화탄소 소화설비 안전",
+        "이산화탄소 소화기나 소화설비 관련 안전 규정이 어떻게 바뀌었는지 알고 싶어",
+        "이산화탄소 소화설비 산업안전보건기준에 관한 규칙 개정사항 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44341",
+      "concat": "[TITLE] 기중기 근로자 탑승설비 점검 및 작업안전 가이드\n[SUMMARY] 기중기 근로자 탑승설비 점검 및 작업안전 가이드(OPL)",
+      "query": [
+        "기중기 탑승설비 점검",
+        "크레인 같은 기중기에 사람이 타는 설비를 점검하고 안전하게 작업하는 방법",
+        "기중기 근로자 탑승설비 점검 작업안전 가이드 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_44210",
+      "concat": "[TITLE] 굴착기 관련 산업안전보건기준에 관한 규칙 개정사항 안내\n[SUMMARY] 산업안전보건기준에 관한 규칙 개정사항(2022. 10. 18.개정) 중 굴착기 관련사항을 요약한 OPS입니다. 개정 전문은 국가법령정보센터 홈페이지에서 '산업안전보건기준에 관한 규칙'으로 검색하시기 바랍니다.",
+      "query": [
+        "굴착기 안전 규칙",
+        "굴착기 작업 관련 산업안전 규정이 바뀐 내용을 찾고 있어",
+        "굴착기 산업안전보건기준에 관한 규칙 개정사항 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44339",
+      "concat": "[TITLE] 진드기, 설치류에 의한 발열성질환 예방 수칙\n[SUMMARY] 진드기, 설치류에 의한 발열성질환 예방 수칙",
+      "query": [
+        "진드기 쥐 질병 예방",
+        "진드기나 쥐 때문에 생기는 열나는 감염병을 예방하는 수칙",
+        "진드기 설치류 발열성질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_44000",
+      "concat": "[TITLE] 제조업 등 유해위험방지계획서, 공정안전보고서 대상여부 협의 안내\n[SUMMARY] 지자체 대상 산업직접법 및 중소기업법에 따른 건축허가 협의 안내자료",
+      "query": [
+        "공장 안전 계획서",
+        "건축허가를 받을 때 공장 안전 관련 서류 대상인지 확인하는 협의 안내",
+        "제조업 유해위험방지계획서 공정안전보고서 대상여부 협의 안내"
+      ]
+    },
+    {
+      "record_id": "list1_44370",
+      "concat": "[TITLE] [Quick Message] 12호 달비계 작업 중 추락 사망 사고 연속 발생\n[SUMMARY] 달비계 작업 중 추락 사망 사고 연속발생 관련 퀵메세지 입니다.",
+      "query": [
+        "달비계 추락 사고",
+        "달비계 작업을 하다가 떨어져 사망한 사고 사례와 주의사항",
+        "Quick Message 달비계 작업 추락 사망 사고 연속 발생"
+      ]
+    },
+    {
+      "record_id": "list1_43951",
+      "concat": "[TITLE] 고객 폭언 등으로 고통받는 콜센터 상담사의 직무스트레스 이렇게 관리하세요\n[SUMMARY] 상담사의 직무스트레스 관리방안 소개",
+      "query": [
+        "콜센터 스트레스 관리",
+        "고객 폭언 때문에 힘든 상담사 직무 스트레스를 줄이는 방법",
+        "고객 폭언 콜센터 상담사 직무스트레스 관리"
+      ]
+    },
+    {
+      "record_id": "list1_44262",
+      "concat": "[TITLE] 엘리베이터 승강로용 브래킷 보조신청 안내 OPS\n[SUMMARY] 엘리베이터 승강로용 브래킷 보조신청 안내 OPS",
+      "query": [
+        "엘리베이터 브래킷 지원",
+        "엘리베이터 승강로 브래킷 설치 비용 지원을 신청하는 방법",
+        "엘리베이터 승강로용 브래킷 보조신청 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44259",
+      "concat": "[TITLE] 기계기구 위험부 방호조치 가이드\n[SUMMARY] 원동기, 회전체 등 기계기구의 주요 위험부에 대한 방호조치 방법",
+      "query": [
+        "기계 위험부 방호",
+        "회전하는 기계나 원동기 위험한 부분을 막는 안전 조치 방법",
+        "기계기구 위험부 방호조치 가이드 원동기 회전체"
+      ]
+    },
+    {
+      "record_id": "list1_44349",
+      "concat": "[TITLE] [Quick Message] 11호 비계·안전난간 등 가시설 설치 중 추락 사망 사고 연속 발생\n[SUMMARY] 비계·안전난간 등 가시설 설치 중 추락 사망 사고 연속발생 관련 퀵메세지 입니다.",
+      "query": [
+        "비계 안전난간 추락",
+        "가시설 설치하다가 떨어지는 사망사고를 막기 위한 주의사항",
+        "Quick Message 비계 안전난간 가시설 설치 추락 사망 사고 연속 발생"
+      ]
+    },
+    {
+      "record_id": "list1_43937",
+      "concat": "[TITLE] (2022)코로나19 콜센터 예방지침\n[SUMMARY] 콜센터 코로나19 예방지침",
+      "query": [
+        "콜센터 코로나 예방",
+        "콜센터에서 코로나 감염을 예방하려면 어떤 지침을 따라야 하는지",
+        "코로나19 콜센터 예방지침"
+      ]
+    },
+    {
+      "record_id": "list1_44224",
+      "concat": "[TITLE] 2022 위험기계기구 컨베이어 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(컨베이어) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "컨베이어 안전점검",
+        "컨베이어에서 사고를 막기 위한 점검표와 안전수칙을 찾고 있어",
+        "위험기계기구 컨베이어 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44225",
+      "concat": "[TITLE] 사고다발 위험 설비 Key Message(이삿짐운반용 리프트)\n[SUMMARY] 사고다발 위험 설비 Key Message(이삿짐운반용 리프트)",
+      "query": [
+        "이삿짐 리프트 사고",
+        "이삿짐 운반용 리프트에서 자주 나는 사고를 예방하는 핵심 안전 메시지",
+        "사고다발 위험 설비 Key Message 이삿짐운반용 리프트"
+      ]
+    },
+    {
+      "record_id": "list1_44223",
+      "concat": "[TITLE] 2022 위험기계기구 사출성형기 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(사출성형기) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "사출성형기 안전점검",
+        "사출성형기 작업 중 사고를 막기 위한 점검표와 안전수칙",
+        "위험기계기구 사출성형기 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44220",
+      "concat": "[TITLE] 2022 위험기계기구 고소작업대 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(고소작업대) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "고소작업대 안전점검",
+        "고소작업대 사용 중 사고를 막으려고 확인해야 할 안전사항",
+        "위험기계기구 고소작업대 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44221",
+      "concat": "[TITLE] 2022 위험기계기구 크레인 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(크레인) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "크레인 안전점검",
+        "크레인 작업 중 사고를 예방하기 위한 점검표와 안전수칙",
+        "위험기계기구 크레인 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44222",
+      "concat": "[TITLE] 2022 위험기계기구 산업용리프트 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(산업용리프트) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "산업용 리프트 안전점검",
+        "산업용 리프트를 사용할 때 사고를 막기 위한 점검사항",
+        "위험기계기구 산업용리프트 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_43928",
+      "concat": "[TITLE] 2022년 산재예방시설 융자금 지원사업 안내\n[SUMMARY] 2022년 산재예방시설 융자금 지원사업 안내",
+      "query": [
+        "산재예방 시설 융자",
+        "산업재해 예방 시설을 설치할 때 받을 수 있는 융자 지원 안내",
+        "산재예방시설 융자금 지원사업 안내"
+      ]
+    },
+    {
+      "record_id": "list1_44219",
+      "concat": "[TITLE] 2022 위험기계기구 이동식크레인 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(이동식크레인) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "이동식크레인 안전점검",
+        "이동식 크레인 작업 사고를 예방하려면 무엇을 점검해야 하는지",
+        "위험기계기구 이동식크레인 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44218",
+      "concat": "[TITLE] 2022 위험기계기구 산업용로봇 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(산업용로봇) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "산업용로봇 안전점검",
+        "산업용 로봇 작업 중 끼임 같은 사고를 막기 위한 점검표",
+        "위험기계기구 산업용로봇 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44217",
+      "concat": "[TITLE] 2022 위험기계기구 프레스 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(프레스) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "프레스 안전점검",
+        "프레스 기계 작업 중 사고를 예방하기 위한 점검사항",
+        "위험기계기구 프레스 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44251",
+      "concat": "[TITLE] 자동차 배출가스검사, 시동불량 정비중 사망사고 발생경보 안내\n[SUMMARY] 자동차 배출가스검사와 시동불량정비중 사망사고사례 및 안전조치 방법 등 안내",
+      "query": [
+        "자동차 정비 사망사고",
+        "배출가스 검사나 시동 불량 정비 중 사망사고가 난 사례와 안전조치",
+        "자동차 배출가스검사 시동불량 정비 사망사고 발생경보 안내"
+      ]
+    },
+    {
+      "record_id": "list1_44240",
+      "concat": "[TITLE] 건물관리업 수해복구 시 재해사례 및 예방대책\n[SUMMARY] 건물관리업 수해복구 시 재해사례 및 예방대책 전파",
+      "query": [
+        "수해복구 안전사고",
+        "건물 관리 현장에서 물난리 복구할 때 생기는 사고 사례와 예방법",
+        "건물관리업 수해복구 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_44257",
+      "concat": "[TITLE] [Quick Message] 10호 인양 중 낙하한 중량물에 맞는 사망 사고 연속 발생\n[SUMMARY] 인양 중 낙하한 중량물에 맞는 사망 사고 연속발생 관련 퀵메세지 입니다.",
+      "query": [
+        "중량물 낙하 사고",
+        "물건을 들어 올리다 떨어진 무거운 물체에 맞는 사고를 예방하는 방법",
+        "Quick Message 인양 낙하 중량물 사망 사고 연속 발생"
+      ]
+    },
+    {
+      "record_id": "list1_44216",
+      "concat": "[TITLE] 2022 위험기계기구 이삿짐운반용리프트 재해예방 OPS 및 안전점검표\n[SUMMARY] 2022년도 사망사고감소를 위한 유해·위험 기계·기구(이삿짐운반용리프트) 재해 예방 OPS 및 안전점검표",
+      "query": [
+        "이삿짐 리프트 안전점검",
+        "이삿짐 운반용 리프트를 쓸 때 사고를 막기 위한 점검표",
+        "위험기계기구 이삿짐운반용리프트 재해예방 OPS 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44248",
+      "concat": "[TITLE] [Quick Message] 9호 지붕 이동 중 추락 사망 사고 연속 발생\n[SUMMARY] 지붕 이동 중 추락 사망 사고 연속발생 관련 퀵메세지 입니다.",
+      "query": [
+        "지붕 추락 사고",
+        "지붕 위에서 이동하다 떨어지는 사망사고를 예방하는 주의사항",
+        "Quick Message 지붕 이동 추락 사망 사고 연속 발생"
+      ]
+    },
+    {
+      "record_id": "list1_44243",
+      "concat": "[TITLE] [Quick Message] 8호 굴착면 붕괴로 매몰 사망 사고 연속 발생\n[SUMMARY] 굴착면 붕괴로 매몰 사망 사고 연속발생 관련 퀵메세지 입니다.",
+      "query": [
+        "굴착면 붕괴 매몰",
+        "땅을 파는 현장에서 굴착면이 무너져 매몰되는 사고 예방",
+        "Quick Message 굴착면 붕괴 매몰 사망 사고 연속 발생"
+      ]
+    },
+    {
+      "record_id": "list1_44233",
+      "concat": "[TITLE] 3D프린팅 안전보건사항 OPS 및 가이드\n[SUMMARY] 3D프린터 사용 시 기본적인 안전보건 조치사항 미이행(프린터 사용 공간의 미분리, 적절한 환기 미흡, 적정보호구 미착용 등)으로 유해 물질*이 발생되어 사용자가 지속적으로 노출되면 건강상 위험이 발생하므로 이를 예방하기 위해서 만든자료입니다. # 3D 프린트 안전작업 관련 OPS 3종 및 가이드 ※ 동 자료는 과학기술정보통신부에서 제작 및 배포하는 자료입니다. 동 자료의 내용에 관하여 궁금하신 사항은 과학기술정보통신부로 문의하여 주시기 바랍니다. ※ 자료 출처: 과학기술정보통신부 홈페이지 > 알림 > 공지사항 > 공지사항 내 「3D프린터 안전 이용 가이드라인」배포(2022.7.19.)",
+      "query": [
+        "3D프린터 안전",
+        "3D프린터 사용할 때 환기나 보호구 등 건강을 지키는 안전수칙",
+        "3D프린팅 안전보건사항 OPS 가이드 3D프린터 안전 이용 가이드라인"
+      ]
+    },
+    {
+      "record_id": "list1_44234",
+      "concat": "[TITLE] 휴게시설 설치의무화 제도 시행 안내 OPS\n[SUMMARY] 산업안전보건법 개정에 따른 휴게시설 설치의무화 제도 시행 안내",
+      "query": [
+        "휴게시설 설치 의무",
+        "사업장에 휴게공간을 의무적으로 설치해야 하는 제도 안내",
+        "휴게시설 설치의무화 제도 시행 안내 OPS"
+      ]
+    }
+  ]
+}

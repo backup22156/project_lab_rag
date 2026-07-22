@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 11,
+  "items": [
+    {
+      "record_id": "list1_51784",
+      "concat": "[TITLE] (한국어)사망사고 유발 고위험요인(SIF) 17종\n[SUMMARY] 사망사고 유발 고위험요인 SIF 17종 한국어 자료입니다. * 본 자료는 고용노동부에서 제작한 자료입니다. ①크레인 작업, ②비정형 작업(정비보수), ③비정형 작업(청소), ④높은 장소 작업, ⑤인력운반 작업 및 작업장 이동, ⑥상하차 작업 및 적재된 화물, ⑦위험물질 취급작업, ⑧지게차 작업, ⑨사다리 사용 작업, ⑩용접·절단·사상·도장 작업, ⑪벌목조재 작업, ⑫건설기계 작업, ⑬리프트 작업, ⑭가공설비, ⑮고소작업대 작업, ⑯기계식 주차설비 작업, ⑰조경제초 작업",
+      "query": [
+        "중대재해 위험 작업",
+        "사망사고가 많이 나는 작업 종류를 정리한 안전 자료",
+        "한국어 사망사고 유발 고위험요인 SIF 17종"
+      ]
+    },
+    {
+      "record_id": "list1_51282",
+      "concat": "[TITLE] (스리랑카) 2025년 겨울철 한파 대비 한랭질환 예방 수칙\n[SUMMARY] (스리랑카) 2025년 겨울철 한파 대비 한랭질환 예방 수칙",
+      "query": [
+        "스리랑카 한파 질환",
+        "스리랑카 근로자에게 겨울 추위와 한랭질환을 안내하는 자료",
+        "스리랑카 겨울철 한파 대비 한랭질환 예방 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51557",
+      "concat": "[TITLE] 2025년 위험성평가 우수사례 OPS\n[SUMMARY] 2025년 위험성평가 우수사례 본선 발표대회에 참가한 사업장의 우수사례 요약한 카드뉴스 형태의 OPS자료",
+      "query": [
+        "위험성평가 우수사례",
+        "사업장에서 위험성평가를 잘한 사례를 간단히 볼 수 있는 자료",
+        "위험성평가 우수사례 OPS 본선 발표대회 사업장 카드뉴스"
+      ]
+    },
+    {
+      "record_id": "list1_51493",
+      "concat": "[TITLE] 키메세지(22호_로프작업)\n[SUMMARY] [사회이슈] 로프작업 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "로프 작업 사고",
+        "줄에 매달려 일할 때 사고를 막는 안전 자료",
+        "키메세지 로프작업 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_51133",
+      "concat": "[TITLE] 대설 시 사업장 주요 안전수칙 OPS\n[SUMMARY] - 대설에 의한 주요 재해유형 - 최근 사고사례 - 대설 시 사업장 안전수칙",
+      "query": [
+        "대설 사업장 안전",
+        "눈이 많이 올 때 회사 현장에서 지켜야 할 안전수칙 자료",
+        "대설 시 사업장 주요 안전수칙 OPS 재해유형 사고사례"
+      ]
+    },
+    {
+      "record_id": "list1_51221",
+      "concat": "[TITLE] 겨울철 배달종사자를 위한 안전수칙 가이드\n[SUMMARY] 배달종사자 대상으로 겨울철 안전 수칙 가이드 안내",
+      "query": [
+        "겨울 배달 안전",
+        "겨울철 배달 일을 할 때 넘어짐이나 사고를 줄이는 안전수칙 자료",
+        "겨울철 배달종사자 안전수칙 가이드"
+      ]
+    },
+    {
+      "record_id": "list1_51201",
+      "concat": "[TITLE] 키메세지(21호_저수조·하수처리장)\n[SUMMARY] [사회이슈] 저수조·하수처리장 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "저수조 하수처리장 사고",
+        "물탱크나 하수처리 시설에서 일할 때 사고를 예방하는 자료",
+        "키메세지 저수조 하수처리장 사고 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_50992",
+      "concat": "[TITLE] [안전기준] 제7절 폭발 · 화재 및 위험물 누출에 의한 위험방지\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "화재 폭발 누출",
+        "위험물이나 화재 폭발 누출을 막기 위한 산업현장 안전기준 자료",
+        "안전기준 폭발 화재 위험물 누출 위험방지 산업안전보건기준 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50991",
+      "concat": "[TITLE] [안전기준] 제6절 아세틸렌, 가스집합 용접장치의 관리\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "아세틸렌 용접장치",
+        "가스 용접장치를 안전하게 관리하는 기준을 찾는 자료",
+        "안전기준 아세틸렌 가스집합 용접장치 관리 산업안전보건기준 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51081",
+      "concat": "[TITLE] 2025년 겨울철 한파 대비 한랭질환 예방수칙\n[SUMMARY] 2025년 겨울철 한파 대비 한랭질환 예방수칙",
+      "query": [
+        "한파 한랭질환 예방",
+        "겨울 추위에 일하는 근로자가 동상이나 저체온증을 막는 수칙",
+        "겨울철 한파 대비 한랭질환 예방수칙"
+      ]
+    },
+    {
+      "record_id": "list1_50990",
+      "concat": "[TITLE] [안전기준] 제5절 위험물 건조설비에서의 화재·폭발 예방\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "건조설비 화재 폭발",
+        "위험물을 말리는 설비에서 불이나 폭발을 막는 안전기준 자료",
+        "안전기준 위험물 건조설비 화재 폭발 예방 산업안전보건기준 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50989",
+      "concat": "[TITLE] [안전기준] 제4절 화학설비 · 압력용기 등(Part 2)\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "화학설비 압력용기",
+        "화학설비와 압력용기를 다룰 때 필요한 산업현장 안전기준 자료",
+        "안전기준 화학설비 압력용기 산업안전보건기준 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50713",
+      "concat": "[TITLE] (파키스탄)고소작업대 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 고소작업대",
+        "파키스탄 근로자에게 보여줄 고소작업대 중대사고 예방 자료",
+        "파키스탄 고소작업대 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50731",
+      "concat": "[TITLE] (스리랑카)고소작업대 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 고소작업대",
+        "스리랑카 근로자에게 보여줄 고소작업대 중대사고 예방 자료",
+        "스리랑카 고소작업대 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50714",
+      "concat": "[TITLE] (타지키스탄)고소작업대 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 고소작업대",
+        "타지키스탄 근로자에게 보여줄 고소작업대 중대사고 예방 자료",
+        "타지키스탄 고소작업대 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50733",
+      "concat": "[TITLE] (우즈베키스탄)고소작업대 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 고소작업대",
+        "우즈베키스탄 근로자에게 보여줄 고소작업대 중대사고 예방 자료",
+        "우즈베키스탄 고소작업대 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50732",
+      "concat": "[TITLE] (필리핀)고소작업대 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 고소작업대",
+        "필리핀 근로자에게 보여줄 고소작업대 중대사고 예방 자료",
+        "필리핀 고소작업대 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50734",
+      "concat": "[TITLE] (키르기스스탄)고소작업대 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 고소작업대",
+        "키르기스스탄 근로자에게 보여줄 고소작업대 중대사고 예방 자료",
+        "키르기스스탄 고소작업대 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50654",
+      "concat": "[TITLE] (네팔)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 기계식 주차설비",
+        "네팔 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "네팔 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50676",
+      "concat": "[TITLE] (스리랑카)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 기계식 주차설비",
+        "스리랑카 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "스리랑카 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50679",
+      "concat": "[TITLE] (필리핀)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 기계식 주차설비",
+        "필리핀 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "필리핀 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50681",
+      "concat": "[TITLE] (캄보디아)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 기계식 주차설비",
+        "캄보디아 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "캄보디아 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50678",
+      "concat": "[TITLE] (인도네시아)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 기계식 주차설비",
+        "인도네시아 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "인도네시아 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50683",
+      "concat": "[TITLE] (파키스탄)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 기계식 주차설비",
+        "파키스탄 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "파키스탄 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50685",
+      "concat": "[TITLE] (라오스)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 기계식 주차설비",
+        "라오스 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "라오스 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50673",
+      "concat": "[TITLE] (동티모르)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 기계식 주차설비",
+        "동티모르 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "동티모르 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50674",
+      "concat": "[TITLE] (미얀마)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 기계식 주차설비",
+        "미얀마 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "미얀마 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50687",
+      "concat": "[TITLE] (우즈베키스탄)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 기계식 주차설비",
+        "우즈베키스탄 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "우즈베키스탄 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50688",
+      "concat": "[TITLE] (베트남)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 기계식 주차설비",
+        "베트남 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "베트남 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50689",
+      "concat": "[TITLE] (몽골)기계식 주차설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "몽골 기계식 주차설비",
+        "몽골 근로자에게 보여줄 기계식 주차장 작업 중대사고 예방 자료",
+        "몽골 기계식 주차설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    }
+  ]
+}

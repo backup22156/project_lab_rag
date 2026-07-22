@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 45,
+  "items": [
+    {
+      "record_id": "list1_43654",
+      "concat": "[TITLE] [안전보건규칙 개정] 벌목작업 안전수칙\n[SUMMARY] 산업안전보건기준에 관한 규칙이 개정(2021.11.19.시행)됨에 따라 벌목 작업 안전수칙을 안내해드립니다.",
+      "query": [
+        "벌목 작업 안전수칙",
+        "나무 베는 작업할 때 지켜야 할 안전수칙 자료",
+        "안전보건규칙 개정 벌목작업 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_44091",
+      "concat": "[TITLE] 지게차 재해사례와 위험요인\n[SUMMARY] 지게차의 재해유형, 재해사례, 위험요인, 안전점검표(체크리스트) 첨부",
+      "query": [
+        "지게차 사고 위험",
+        "지게차 작업 중 사고 사례와 위험요인을 알고 싶을 때",
+        "지게차 재해사례 위험요인 안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_44044",
+      "concat": "[TITLE] 공공기관 위험상황 신고 시스템(앱) 안내 OPS\n[SUMMARY] 공공기관 위험상황 신고 시스템(앱) 안내 OPS",
+      "query": [
+        "위험상황 신고 앱",
+        "공공기관에서 위험한 상황을 신고하는 앱 안내 자료",
+        "공공기관 위험상황 신고 시스템 앱 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44062",
+      "concat": "[TITLE] 달비계 작업안전 OPS\n[SUMMARY] 달비계 작업안전 OPS",
+      "query": [
+        "달비계 작업 안전",
+        "달비계로 작업할 때 필요한 안전수칙 자료",
+        "달비계 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44047",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이 OPS(방독마스크)\n[SUMMARY] 방독마스크 안전인증제품의 올바른 착용 및 사용방법 안내 - 방독마스크 형태 및 구조 - 방독마스크 등급에 따른 사용장소 - 정화통 외부 측면의 표시 색 - 안전인증 표시 - 구매, 사용 지침 및 주의사항 등",
+      "query": [
+        "방독마스크 착용법",
+        "방독마스크를 제대로 쓰고 관리하는 방법 안내 자료",
+        "안전한 보호구 착용 길잡이 OPS 방독마스크"
+      ]
+    },
+    {
+      "record_id": "list1_44049",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이 OPS(전동식 호흡보호구)\n[SUMMARY] 전동식 호흡보호구 안전인증제품의 올바른 착용 및 사용방법 안내 - 전동식 호흡보호구의 형태 및 구조 - 전동식 호흡보호구 등급에 따른 사용장소 - 안전인증 표시 - 구매, 사용 지침 및 주의사항 등",
+      "query": [
+        "전동식 호흡보호구",
+        "전동식 호흡보호구를 언제 어떻게 착용하는지 설명한 자료",
+        "안전한 보호구 착용 길잡이 OPS 전동식 호흡보호구"
+      ]
+    },
+    {
+      "record_id": "list1_44036",
+      "concat": "[TITLE] 에어컨 설치 수리 사고사례 OPS\n[SUMMARY] 에어컨 실외기 설치 수리 사고사례 전파",
+      "query": [
+        "에어컨 설치 사고",
+        "에어컨 실외기 설치나 수리 중 발생한 사고 사례 자료",
+        "에어컨 설치 수리 사고사례 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44048",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이 OPS(송기마스크)\n[SUMMARY] 송기마스크 안전인증제품의 올바른 착용 및 사용방법 안내 - 송기마스크 종류에 따른 형상 및 사용범위 - 안전인증 표시 - 구매, 사용 지침 및 주의사항 등",
+      "query": [
+        "송기마스크 사용법",
+        "송기마스크 종류와 착용 방법을 설명한 안전 자료",
+        "안전한 보호구 착용 길잡이 OPS 송기마스크"
+      ]
+    },
+    {
+      "record_id": "list1_44016",
+      "concat": "[TITLE] 폐기물처리업 탱크저장소 사망사고 예방 OPL\n[SUMMARY] 폐기물처리업 탱크저장소 사망사고 예방 및 탱크저장소 체크리스트 안내",
+      "query": [
+        "폐기물 탱크 사고",
+        "폐기물처리업 탱크저장소에서 사망사고를 막는 방법",
+        "폐기물처리업 탱크저장소 사망사고 예방 OPL 체크리스트"
+      ]
+    },
+    {
+      "record_id": "list1_44039",
+      "concat": "[TITLE] 중대재해처벌법 이러닝 교육과정 안내\n[SUMMARY] 교육혁신실 및 교육센터에서 운영하는 중대재해처벌법 이러닝 교육과정 안내",
+      "query": [
+        "중대재해처벌법 교육",
+        "중대재해처벌법을 온라인으로 배우는 교육과정 안내",
+        "중대재해처벌법 이러닝 교육과정 안내"
+      ]
+    },
+    {
+      "record_id": "list1_44038",
+      "concat": "[TITLE] 인터넷 안전보건교육 과정 개설 안내\n[SUMMARY] 교육혁신실 및 교육센터에서 운영하는 인터넷 안전보건교육 과정 안내",
+      "query": [
+        "인터넷 안전보건교육",
+        "온라인으로 들을 수 있는 안전보건교육 과정 안내",
+        "인터넷 안전보건교육 과정 개설 안내"
+      ]
+    },
+    {
+      "record_id": "list1_43974",
+      "concat": "[TITLE] 지붕공사 작업안전 OPS\n[SUMMARY] 지붕공사 작업안전 OPS",
+      "query": [
+        "지붕공사 안전",
+        "지붕에서 공사할 때 필요한 작업 안전 자료",
+        "지붕공사 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43510",
+      "concat": "[TITLE] [항만하역 재해사례] 컨베이어 주변 정리정돈 및 작동확인 중 끼임\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "컨베이어 끼임 사고",
+        "항만에서 컨베이어 주변 정리 중 끼임 사고 사례",
+        "항만하역 재해사례 컨베이어 주변 정리정돈 작동확인 끼임 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43534",
+      "concat": "[TITLE] [Quick Message] 타워크레인 인상 중 마스트와 함께 추락 사고 속보\n[SUMMARY] 타워크레인 설치 중 추락 사망 사고 발생 퀵메세지",
+      "query": [
+        "타워크레인 추락 사고",
+        "타워크레인 설치나 인상 작업 중 추락한 사고 속보",
+        "Quick Message 타워크레인 인상 마스트 추락 사고 속보"
+      ]
+    },
+    {
+      "record_id": "list1_43532",
+      "concat": "[TITLE] 산업용리프트 자진신고 및 집중단속 기간 운영\n[SUMMARY] 산업용리프트 자진신고 및 집중단속 기간 안내와 안전투자혁신사업 교체지원사업 안내",
+      "query": [
+        "산업용리프트 단속",
+        "산업용리프트 자진신고와 집중단속 기간 안내 자료",
+        "산업용리프트 자진신고 집중단속 기간 운영 안전투자혁신사업 교체지원사업"
+      ]
+    },
+    {
+      "record_id": "list1_43509",
+      "concat": "[TITLE] [항만하역 재해사례] 사이드네트 고정용 타이어가 강풍에 날려 충돌\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "항만 타이어 충돌",
+        "항만 작업 중 강풍에 날린 타이어에 맞은 사고 사례",
+        "항만하역 재해사례 사이드네트 고정용 타이어 강풍 충돌 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43508",
+      "concat": "[TITLE] [항만하역 재해사례] 코일 라싱 해체 작업 중 미끄러져 추락\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "코일 작업 추락",
+        "항만에서 코일 라싱을 해체하다 미끄러져 떨어진 사고 사례",
+        "항만하역 재해사례 코일 라싱 해체 작업 미끄러져 추락 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43495",
+      "concat": "[TITLE] (캠페인_끼임추락) 산업안전 위험현장 집중단속 안내\n[SUMMARY] (캠페인_끼임추락) 산업안전 위험현장 집중단속 안내",
+      "query": [
+        "끼임 추락 단속",
+        "산업안전 위험현장 집중단속 안내 자료",
+        "캠페인 끼임추락 산업안전 위험현장 집중단속 안내"
+      ]
+    },
+    {
+      "record_id": "list1_43522",
+      "concat": "[TITLE] 달비계 작업 추락사고 예방\n[SUMMARY] 달비계 작업 추락사고 예방을 위한 OPS",
+      "query": [
+        "달비계 추락 예방",
+        "달비계 작업 중 떨어지는 사고를 예방하는 자료",
+        "달비계 작업 추락사고 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43461",
+      "concat": "[TITLE] (끼임)3대 안전조치 미준수 사업장 집중단속 안내 및 자율점검표 OPS\n[SUMMARY] - 3대 안전조치 미준수 사업장 집중단속 안내 - 끼임 예방을 위한 자율점검표 - 코로나19 방역 점검표",
+      "query": [
+        "끼임 자율점검표",
+        "끼임 사고 예방을 위한 사업장 집중단속과 점검표 자료",
+        "끼임 3대 안전조치 미준수 사업장 집중단속 안내 자율점검표 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43460",
+      "concat": "[TITLE] (추락)3대 안전조치 미준수 사업장 집중단속 안내 및 자율점검표 OPS\n[SUMMARY] - 3대 안전조치 미준수 사업장 집중단속 안내 - 추락 예방을 위한 자율점검표 - 코로나19 방역 점검표",
+      "query": [
+        "추락 자율점검표",
+        "추락 사고 예방을 위한 사업장 집중단속과 점검표 자료",
+        "추락 3대 안전조치 미준수 사업장 집중단속 안내 자율점검표 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43466",
+      "concat": "[TITLE] 사망사고 발생경고(골프장) OPS\n[SUMMARY] 골프장 내에서 발생한 사망사고 내용, 예방대책 및 콘텐츠 안내 *** 콘텐츠 링크를 통한 다운로드 페이지 바로가기는 웹용 OPS를 다운로드 받으시면 됩니다 ***",
+      "query": [
+        "골프장 사망사고",
+        "골프장에서 발생한 사망사고와 예방대책 자료",
+        "사망사고 발생경고 골프장 OPS 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_43462",
+      "concat": "[TITLE] 안전한 보호구 착용 길잡이(용접용보안면)\n[SUMMARY] 용접용보안면 안전인증제품의 올바른 착용 및 사용방법 안내",
+      "query": [
+        "용접 보안면 착용",
+        "용접할 때 쓰는 보안면의 올바른 착용 방법",
+        "안전한 보호구 착용 길잡이 용접용보안면"
+      ]
+    },
+    {
+      "record_id": "list1_43636",
+      "concat": "[TITLE] 특고종사자(퀵서비스배달원, 이륜차) 기술자료 OPS\n[SUMMARY] 특고종사자(퀵서비스배달원) 기술자료 OPS",
+      "query": [
+        "퀵서비스 배달원 안전",
+        "이륜차로 배달하는 특고종사자를 위한 안전 자료",
+        "특고종사자 퀵서비스배달원 이륜차 기술자료 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43626",
+      "concat": "[TITLE] 겨울철(동절기) 한파로 인한 한랭질환 예방 가이드(2021) OPS\n[SUMMARY] 겨울철 한파로 인한 한랭질환 예방 가이드(2021) 및 한랭질환 예방 자율점검표(사업장용)",
+      "query": [
+        "겨울 한랭질환 예방",
+        "겨울철 한파로 생기는 한랭질환을 예방하는 사업장 자료",
+        "겨울철 동절기 한파 한랭질환 예방 가이드 OPS 자율점검표"
+      ]
+    },
+    {
+      "record_id": "list1_43635",
+      "concat": "[TITLE] 특고종사자 (가맹본부) 기술자료 OPS\n[SUMMARY] 특고종사자(가맹본부) 기술자료",
+      "query": [
+        "가맹본부 특고 안전",
+        "가맹본부 관련 특수형태근로종사자 안전 자료",
+        "특고종사자 가맹본부 기술자료 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43459",
+      "concat": "[TITLE] [Quick Message] 엘리베이터용 피트 작업 중 추락사고 속보\n[SUMMARY] 엘리베이터용 피트 작업 중 추락사고 퀵메시지",
+      "query": [
+        "엘리베이터 피트 추락",
+        "엘리베이터 피트 작업 중 추락 사고 속보 자료",
+        "Quick Message 엘리베이터용 피트 작업 추락사고 속보"
+      ]
+    },
+    {
+      "record_id": "list1_43517",
+      "concat": "[TITLE] [항만하역 재해사례] 백(Bag) 컨테이너 선적작업 중 선박홀드와 화물 사이에 끼임\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "컨테이너 선적 끼임",
+        "항만에서 백 컨테이너 선적 중 화물 사이에 끼인 사고 사례",
+        "항만하역 재해사례 백 Bag 컨테이너 선적작업 선박홀드 화물 끼임 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43446",
+      "concat": "[TITLE] 폐기물처리업 사망사고 예방 OPS\n[SUMMARY] 폐기물처리업 사망사고 예방 OPS",
+      "query": [
+        "폐기물처리업 사망사고",
+        "폐기물 처리 작업에서 사망사고를 예방하는 안전 자료",
+        "폐기물처리업 사망사고 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43561",
+      "concat": "[TITLE] [Quick Message] 공작기계 작업/점검 중 사망사고 연속 발생\n[SUMMARY] 최근 공작기계 작업/수리/점검 중 끼이거나 날아온 물체 등에 맞는 사망재해가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "공작기계 사망사고",
+        "공작기계 작업이나 점검 중 끼임 사고를 예방하는 자료",
+        "Quick Message 공작기계 작업 점검 사망사고 연속 발생"
+      ]
+    }
+  ]
+}

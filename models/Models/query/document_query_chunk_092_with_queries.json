@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 92,
+  "items": [
+    {
+      "record_id": "list1_33377",
+      "concat": "[TITLE] [중대재해_위생]재활용품 수거차량 작업 발판에서 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "재활용 수거차 발판 추락",
+        "재활용품 수거차 발판에서 작업하다 떨어진 사고 사례",
+        "중대재해 위생 재활용품 수거차량 작업 발판 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33374",
+      "concat": "[TITLE] [중대재해_위생]달비계를 사용하여 건물 외벽청소 작업 중 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "외벽청소 달비계 추락",
+        "건물 외벽 청소 중 달비계에서 떨어진 사고 자료",
+        "중대재해 위생 달비계 건물 외벽청소 작업 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33376",
+      "concat": "[TITLE] [중대재해_위생]암롤박스 위 작업 중 굴삭기 버킷에 부딪혀 떨어짐\n[SUMMARY] 중대재해사례 OPL - 암롤박스 위 작업 중 굴삭기 버킷에 부딪혀 떨어짐",
+      "query": [
+        "암롤박스 굴삭기 추락",
+        "암롤박스 위에서 작업하다 굴삭기 버킷에 부딪혀 떨어진 사고",
+        "중대재해 위생 암롤박스 작업 굴삭기 버킷 부딪혀 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33378",
+      "concat": "[TITLE] [중대재해_위생]전동기 조작 전원차단 중 회전축에 말림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "전동기 회전축 말림",
+        "전원 차단하려다 회전축에 말린 사고 사례",
+        "중대재해 위생 전동기 조작 전원차단 회전축 말림 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33372",
+      "concat": "[TITLE] [중대재해_위생]집진설비 덕트 내부 슬러지 청소작업 중 떨어짐\n[SUMMARY] 집진설비 중대재해사례 OPL",
+      "query": [
+        "집진설비 덕트 추락",
+        "덕트 안 슬러지 청소 중 떨어진 사고 사례",
+        "중대재해 위생 집진설비 덕트 내부 슬러지 청소작업 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33342",
+      "concat": "[TITLE] [중대재해_운수창고]지게차 이송 중 파지묶음 사이에 끼임\n[SUMMARY] 지게차 중대재해사례 OPL",
+      "query": [
+        "지게차 파지 끼임",
+        "지게차로 파지 묶음을 옮기다가 사이에 끼인 사고",
+        "중대재해 운수창고 지게차 이송 파지묶음 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33373",
+      "concat": "[TITLE] [중대재해_위생]토사 야적장에서 성토 지반이 무너져 매몰\n[SUMMARY] 토사 야적장에서 성토 지반이 무너져 매몰된 재해사례",
+      "query": [
+        "토사 야적장 매몰",
+        "흙을 쌓아둔 야적장에서 지반이 무너져 매몰된 사고",
+        "중대재해 위생 토사 야적장 성토 지반 무너짐 매몰 재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_33341",
+      "concat": "[TITLE] [중대재해_운수창고]저상버스 압축공기 노즐 점검 중 타이어와 구조부에 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "버스 타이어 끼임",
+        "저상버스 압축공기 노즐을 점검하다 타이어 쪽에 끼인 사고",
+        "중대재해 운수창고 저상버스 압축공기 노즐 점검 타이어 구조부 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33339",
+      "concat": "[TITLE] [중대재해_운수창고]주차장 옹벽 배수로 청소작업 중 지면으로 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "배수로 청소 추락",
+        "주차장 옹벽 배수로를 청소하다 지면으로 떨어진 사고",
+        "중대재해 운수창고 주차장 옹벽 배수로 청소작업 지면 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33340",
+      "concat": "[TITLE] [중대재해_운수창고]탱크로리 상부 시료채취 중 황산 분출에 의한 화상\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "탱크로리 황산 화상",
+        "탱크로리 위에서 시료를 채취하다 황산이 분출된 사고",
+        "중대재해 운수창고 탱크로리 상부 시료채취 황산 분출 화상 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33338",
+      "concat": "[TITLE] [중대재해_임업]옆 나무에 걸린 벌도목이 떨어져 맞음\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "벌도목 맞음 사고",
+        "옆 나무에 걸려 있던 나무가 떨어져 맞은 사고",
+        "중대재해 임업 옆 나무 걸린 벌도목 떨어져 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33337",
+      "concat": "[TITLE] [중대재해_임업]걸려있는 나무 절단작업 중 벌도목에 맞음\n[SUMMARY] 걸려있는 나무 절단작업 중 벌도목에 맞음 중대재해사례 OPL",
+      "query": [
+        "걸린 나무 절단 사고",
+        "걸려 있는 나무를 자르다가 벌도목에 맞은 사고",
+        "중대재해 임업 걸려있는 나무 절단작업 벌도목 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33335",
+      "concat": "[TITLE] [중대재해_임업]조재 작업시 경사면 이동 중 기계톱에 베임\n[SUMMARY] 중대재해사례 OPL, 조재 작업시 경사면 이동 중 기계톱에 베임",
+      "query": [
+        "기계톱 베임 사고",
+        "경사면에서 조재 작업 중 이동하다 기계톱에 베인 사고",
+        "중대재해 임업 조재 작업 경사면 이동 기계톱 베임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33334",
+      "concat": "[TITLE] [중대재해_광업]페이로더 운전 중 보행자와 부딪힘\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "페이로더 보행자 사고",
+        "페이로더를 운전하다 지나가던 사람과 부딪힌 사고",
+        "중대재해 광업 페이로더 운전 보행자 부딪힘 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33336",
+      "concat": "[TITLE] [중대재해_임업]벌도목 절단 부분이 쪼개지며 떨어져 맞음\n[SUMMARY] 벌도목 절단 부분이 쪼개지며 떨어져 맞음-중대재해사례 OPL",
+      "query": [
+        "벌도목 쪼개짐 맞음",
+        "나무를 자르던 중 절단 부분이 쪼개져 떨어져 맞은 사고",
+        "중대재해 임업 벌도목 절단 부분 쪼개짐 떨어져 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33333",
+      "concat": "[TITLE] [중대재해_광업]기계 설비에 부착된 볼트 해체 중 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "볼트 해체 추락",
+        "기계 설비에 붙은 볼트를 풀다가 떨어진 사고",
+        "중대재해 광업 기계 설비 볼트 해체 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33332",
+      "concat": "[TITLE] [중대재해_농업]자동 농약살포차량이 뒤집혀 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "농약살포차 전복",
+        "자동 농약살포차량이 뒤집히면서 깔린 사고",
+        "중대재해 농업 자동 농약살포차량 뒤집힘 깔림 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33370",
+      "concat": "[TITLE] [중대재해_위생]탱크 컨테이너 상부 검사 중 바닥으로 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "탱크 컨테이너 추락",
+        "탱크 컨테이너 위를 검사하다 바닥으로 떨어진 사고",
+        "중대재해 위생 탱크 컨테이너 상부 검사 바닥 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33331",
+      "concat": "[TITLE] [중대재해_농업]돼지우리 연결 집수조 수리작업 중 황화수소에 중독\n[SUMMARY] 중대재해사례 OPL - 돼지우리 연결 집수조 수리작업 중 황화수소에 중독",
+      "query": [
+        "집수조 황화수소 중독",
+        "돼지우리와 연결된 집수조를 수리하다 황화수소에 중독된 사고",
+        "중대재해 농업 돼지우리 연결 집수조 수리작업 황화수소 중독 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33371",
+      "concat": "[TITLE] [중대재해_위생]페이로더 후진 중 바퀴에 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "페이로더 후진 끼임",
+        "페이로더가 후진하는 중 바퀴에 끼인 사고",
+        "중대재해 위생 페이로더 후진 바퀴 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33386",
+      "concat": "[TITLE] [중대재해_건설업]골재 하역을 위해 후진하는 덤프트럭에 부딪힘\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "덤프트럭 후진 사고",
+        "골재를 내리려고 후진하던 덤프트럭에 부딪힌 사고",
+        "중대재해 건설업 골재 하역 후진 덤프트럭 부딪힘 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33387",
+      "concat": "[TITLE] [중대재해_건설업]통신관로 매설작업 중 굴삭기에 부딪힘\n[SUMMARY] 통신관로 매설작업 중대재해사례 OPL",
+      "query": [
+        "굴삭기 매설작업 사고",
+        "통신관로를 묻는 작업 중 굴삭기에 부딪힌 사고",
+        "중대재해 건설업 통신관로 매설작업 굴삭기 부딪힘 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33388",
+      "concat": "[TITLE] [중대재해_건설업]철도 신호설비 보수작업 중 운행 중인 열차에 부딪힘\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "철도 보수 열차 사고",
+        "철도 신호설비 보수 작업 중 운행 중인 열차에 부딪힌 사고",
+        "중대재해 건설업 철도 신호설비 보수작업 운행 중 열차 부딪힘 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33404",
+      "concat": "[TITLE] [중대재해_건설업]자재 인양 중 와이어로프 파단으로 자재에 맞음\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "와이어로프 파단 사고",
+        "자재를 들어 올리던 중 와이어로프가 끊어져 자재에 맞은 사고",
+        "중대재해 건설업 자재 인양 와이어로프 파단 자재 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33403",
+      "concat": "[TITLE] [중대재해_건설업]조적조 칸막이 벽체 해체 중 떨어진 벽체에 맞음\n[SUMMARY] 조적조 칸막이 벽체 해체 중 떨어진 벽체에 맞음",
+      "query": [
+        "벽체 해체 맞음",
+        "칸막이 벽체를 해체하다 떨어진 벽체에 맞은 사고",
+        "중대재해 건설업 조적조 칸막이 벽체 해체 떨어진 벽체 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_33402",
+      "concat": "[TITLE] [중대재해_건설업]콘크리트 믹서트럭 후진 중 넘어진 트럭에 끼임\n[SUMMARY] 콘크리트 믹서트럭 중대재해사례 OPL",
+      "query": [
+        "믹서트럭 후진 끼임",
+        "콘크리트 믹서트럭이 후진하다 넘어져 끼인 사고",
+        "중대재해 건설업 콘크리트 믹서트럭 후진 넘어진 트럭 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33401",
+      "concat": "[TITLE] [중대재해_건설업]이동식 크레인 붐 해체작업 중 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "크레인 붐 해체 깔림",
+        "이동식 크레인 붐을 해체하다 깔린 사고",
+        "중대재해 건설업 이동식 크레인 붐 해체작업 깔림 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33399",
+      "concat": "[TITLE] [중대재해_건설업]경사로에 정차한 덤프트럭이 굴러 내려가 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "덤프트럭 경사로 끼임",
+        "경사로에 세워둔 덤프트럭이 굴러 내려와 끼인 사고",
+        "중대재해 건설업 경사로 정차 덤프트럭 굴러 내려감 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33400",
+      "concat": "[TITLE] [중대재해_건설업]주차타워 내부 용접 중 하강하는 리프트에 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "주차타워 리프트 끼임",
+        "주차타워 안에서 용접하다 내려오는 리프트에 끼인 사고",
+        "중대재해 건설업 주차타워 내부 용접 하강 리프트 끼임 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33397",
+      "concat": "[TITLE] [중대재해_건설업]배수로 벽체 철근 조립 중 거푸집에 깔림\n[SUMMARY] 배수로 벽체 철근 조립 중 거푸집에 깔림 중대재해사례 OPL",
+      "query": [
+        "거푸집 깔림 사고",
+        "배수로 벽체 철근을 조립하다 거푸집에 깔린 사고",
+        "중대재해 건설업 배수로 벽체 철근 조립 거푸집 깔림 OPL"
+      ]
+    }
+  ]
+}

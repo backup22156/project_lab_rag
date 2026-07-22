@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 98,
+  "items": [
+    {
+      "record_id": "list1_31832",
+      "concat": "[TITLE] 천장크레인 산업재해 예방대책(OPL)\n[SUMMARY] 천장크레인 산업재해 예방대책 OPL",
+      "query": [
+        "천장크레인 사고 예방",
+        "천장크레인 작업 중 사고를 막는 안전수칙 자료",
+        "천장크레인 산업재해 예방대책 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_32432",
+      "concat": "[TITLE] (방글라데시)직종별 OPL-건설업\n[SUMMARY] (방글라데시)직종별 OPL-건설업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "방글라데시 건설 안전",
+        "방글라데시 근로자가 건설 현장에서 볼 수 있는 안전자료",
+        "방글라데시 직종별 OPL 건설업"
+      ]
+    },
+    {
+      "record_id": "list1_32428",
+      "concat": "[TITLE] (필리핀,영어)직종별 OPL-제조업\n[SUMMARY] (필리핀,영어)직종별 OPL-제조업 OPL by occupation 직종별OPL입니다.",
+      "query": [
+        "필리핀 제조업 안전",
+        "필리핀 영어권 근로자용 제조업 안전자료",
+        "필리핀 영어 직종별 OPL 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_31512",
+      "concat": "[TITLE] 직종별 실무길잡이 - 용접 및 화염절단 종사자\n[SUMMARY] 직종별 실무길잡이 시리즈로 용접 및 화염절단 종사 직종의 특성, 유해위험요인 및 재해사례로 구성됨",
+      "query": [
+        "용접 화염절단 안전",
+        "용접이나 불꽃절단 일을 하는 사람이 봐야 할 안전 길잡이",
+        "직종별 실무길잡이 용접 및 화염절단 종사자"
+      ]
+    },
+    {
+      "record_id": "list1_31785",
+      "concat": "[TITLE] 철근조립 안전\n[SUMMARY] 철근조립안전 opl입니다.",
+      "query": [
+        "철근조립 안전",
+        "철근 조립 작업할 때 필요한 안전수칙",
+        "철근조립 안전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31510",
+      "concat": "[TITLE] 직종별 실무길잡이 - 건물 청소 종사자\n[SUMMARY] 직종별 실무길잡이 시리즈로 건물 청소 종사 직종의 특성, 유해위험요인 및 재해사례로 구성됨",
+      "query": [
+        "건물 청소 안전",
+        "건물 청소 일을 하는 사람이 알아야 할 위험요인 자료",
+        "직종별 실무길잡이 건물 청소 종사자"
+      ]
+    },
+    {
+      "record_id": "list1_31513",
+      "concat": "[TITLE] 직종별 실무길잡이 - 수위, 경비 및 관련 종사자\n[SUMMARY] 직종별 실무길잡이 시리즈로 수위, 경비 및 관련 종사 직종의 특성, 유해위험요인 및 재해사례로 구성됨",
+      "query": [
+        "경비 수위 안전",
+        "경비원이나 수위 업무 중 위험요인과 사고사례를 찾는 자료",
+        "직종별 실무길잡이 수위 경비 관련 종사자"
+      ]
+    },
+    {
+      "record_id": "list1_31786",
+      "concat": "[TITLE] 철골조립 안전\n[SUMMARY] 철골조립 안전",
+      "query": [
+        "철골조립 안전",
+        "철골 조립 작업할 때 필요한 안전수칙 자료",
+        "철골조립 안전"
+      ]
+    },
+    {
+      "record_id": "list1_31050",
+      "concat": "[TITLE] 물체의 무게중심 구하는 방법\n[SUMMARY] - 기본적인 도형의 무게중심 위치 - 무게중심 판정 요령 - 실제 작업에서의 무게중심 판정 요령",
+      "query": [
+        "무게중심 구하기",
+        "물건을 들거나 옮기기 전에 무게중심을 판단하는 방법",
+        "물체의 무게중심 구하는 방법"
+      ]
+    },
+    {
+      "record_id": "list1_31284",
+      "concat": "[TITLE] (사무직 근로자) 휴식시간에 할 수 있는 스트레칭\n[SUMMARY] 1. 눈의 피로 감소 2. 눈과 목의 피로감소 3. 팔의 긴장을 풀어줌 4. 팔과 손, 손가락의 피로 감소 5. 어깨와 상체의 긴장을 풀어줌 6. 상체의 긴장 감소 7. 좋은 자세 유지 및 요통 경감 8. 다리의 혈액순환을 좋게 해줌 9. 눈주위를 감싸줌 10. 눈의 긴장을 풀어줌",
+      "query": [
+        "사무직 스트레칭",
+        "사무실에서 쉬는 시간에 할 수 있는 눈 목 어깨 스트레칭",
+        "사무직 근로자 휴식시간 스트레칭"
+      ]
+    },
+    {
+      "record_id": "list1_31384",
+      "concat": "[TITLE] 대장원 및 단조관련 종사자 - 다이캐스팅 작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "다이캐스팅 안전",
+        "단조나 대장원 작업자가 다이캐스팅 작업 위험요인을 찾는 자료",
+        "대장원 단조관련 종사자 다이캐스팅 작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31555",
+      "concat": "[TITLE] (각종기계또는동부속품제조업)금속용해로\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "금속용해로 안전",
+        "금속을 녹이는 설비 작업 때 필요한 안전자료",
+        "각종기계또는동부속품제조업 금속용해로 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31557",
+      "concat": "[TITLE] (강선건조또는수리업)선박 내부 탱크 도장작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "선박 탱크 도장",
+        "선박 내부 탱크에서 도장 작업할 때 보는 안전자료",
+        "강선건조또는수리업 선박 내부 탱크 도장작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31554",
+      "concat": "[TITLE] (각종기계또는동부속품제조업)건조설비\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "건조설비 안전",
+        "제조 현장 건조설비 작업 때 필요한 안전자료",
+        "각종기계또는동부속품제조업 건조설비 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31556",
+      "concat": "[TITLE] (강선건조또는수리업)가용접(Tack Welding)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "가용접 안전",
+        "조선 수리 작업에서 가용접할 때 필요한 안전자료",
+        "강선건조또는수리업 가용접 Tack Welding OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31551",
+      "concat": "[TITLE] (기타금속제품제조업)체인블럭\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "체인블럭 안전",
+        "금속제품 제조 현장에서 체인블럭을 쓸 때 안전자료",
+        "기타금속제품제조업 체인블럭 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31553",
+      "concat": "[TITLE] (일반산업용기계장치제조업)이동형 등기구\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "이동형 등기구",
+        "산업기계 작업장에서 이동형 조명을 사용할 때 안전자료",
+        "일반산업용기계장치제조업 이동형 등기구 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31552",
+      "concat": "[TITLE] (일반산업용기계장치제조업)쇼트블라스팅기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "쇼트블라스팅기 안전",
+        "산업기계 제조 현장에서 쇼트블라스팅기를 다룰 때 안전자료",
+        "일반산업용기계장치제조업 쇼트블라스팅기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31550",
+      "concat": "[TITLE] (기타금속제품제조업)줄걸이작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "줄걸이작업 안전",
+        "금속제품 작업장에서 자재를 매달아 옮길 때 안전수칙 자료",
+        "기타금속제품제조업 줄걸이작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31549",
+      "concat": "[TITLE] (기타금속제품제조업)용접작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "용접작업 안전",
+        "금속제품 제조 현장에서 용접할 때 필요한 안전자료",
+        "기타금속제품제조업 용접작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31548",
+      "concat": "[TITLE] (기타금속제품제조업)연속주조기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "연속주조기 안전",
+        "금속제품 제조 현장에서 연속주조기를 다룰 때 안전자료",
+        "기타금속제품제조업 연속주조기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31559",
+      "concat": "[TITLE] (강선건조또는수리업)섬유로프\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "섬유로프 안전",
+        "선박 건조나 수리 작업에서 섬유로프를 사용할 때 안전자료",
+        "강선건조또는수리업 섬유로프 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31563",
+      "concat": "[TITLE] (강선건조또는수리업)잠수작업(스쿠버)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "잠수작업 스쿠버",
+        "선박 수리 현장에서 스쿠버로 잠수작업할 때 안전자료",
+        "강선건조또는수리업 잠수작업 스쿠버 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31558",
+      "concat": "[TITLE] (강선건조또는수리업)선박 블록 내부 용접작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "선박 블록 용접",
+        "선박 블록 안에서 용접할 때 필요한 작업 안전자료",
+        "강선건조또는수리업 선박 블록 내부 용접작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31560",
+      "concat": "[TITLE] (강선건조또는수리업)스프레이건 작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "스프레이건 작업",
+        "선박 건조나 수리에서 스프레이건을 사용할 때 안전자료",
+        "강선건조또는수리업 스프레이건 작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31561",
+      "concat": "[TITLE] (강선건조또는수리업)에어재킷\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "에어재킷 안전",
+        "선박 작업장에서 에어재킷을 사용할 때 필요한 안전자료",
+        "강선건조또는수리업 에어재킷 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31562",
+      "concat": "[TITLE] (강선건조또는수리업)이동용 발전기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "이동용 발전기",
+        "선박 건조나 수리 현장에서 이동용 발전기를 쓸 때 안전자료",
+        "강선건조또는수리업 이동용 발전기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31564",
+      "concat": "[TITLE] (강선건조또는수리업)잠수작업(표면공급 공기잠수장비)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "표면공급 잠수",
+        "선박 수리 현장에서 표면공급 공기잠수장비로 잠수할 때 안전자료",
+        "강선건조또는수리업 잠수작업 표면공급 공기잠수장비 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31566",
+      "concat": "[TITLE] (자동차제조업)자동이송로봇\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "자동이송로봇 안전",
+        "자동차 제조 현장에서 자동이송로봇을 다룰 때 안전자료",
+        "자동차제조업 자동이송로봇 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31567",
+      "concat": "[TITLE] (자동차부분품제조업)부품운반용 팔레트\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "부품운반 팔레트",
+        "자동차 부품 제조 현장에서 운반용 팔레트를 사용할 때 안전자료",
+        "자동차부분품제조업 부품운반용 팔레트 OPL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 182,
+  "items": [
+    {
+      "record_id": "list3_32402",
+      "concat": "[TITLE] (우즈벡)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (Uzbek)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "우즈벡 건설 안전",
+        "우즈벡 근로자에게 건설현장 안전수칙을 알려주는 자료",
+        "우즈벡 건설업 외국인 안전보건 길잡이 Construction Industry Safety guide for foreign workers Uzbek"
+      ]
+    },
+    {
+      "record_id": "list3_32399",
+      "concat": "[TITLE] (태국)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Thai)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "태국 제조업 안전",
+        "태국 근로자에게 제조업 사고 예방을 설명하는 자료",
+        "태국 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide for Foreign Workers Thai"
+      ]
+    },
+    {
+      "record_id": "list3_32400",
+      "concat": "[TITLE] (태국)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (Thai)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "태국 건설 안전",
+        "태국 근로자에게 건설현장 작업별 재해예방을 알려주는 자료",
+        "태국 건설업 외국인 안전보건 길잡이 Construction Industry Safety guide for foreign workers Thai"
+      ]
+    },
+    {
+      "record_id": "list3_32385",
+      "concat": "[TITLE] (필리핀,영어)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (English-Filipino)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "필리핀 제조업 안전",
+        "필리핀 영어 근로자용 제조업 안전교육 자료",
+        "필리핀 영어 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide for Foreign Workers English-Filipino"
+      ]
+    },
+    {
+      "record_id": "list3_32397",
+      "concat": "[TITLE] (스리랑카)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Sinhalese)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "스리랑카 제조업 안전",
+        "스리랑카 근로자에게 제조업 재해사례와 예방을 설명하는 자료",
+        "스리랑카 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide for Foreign Workers Sinhalese"
+      ]
+    },
+    {
+      "record_id": "list3_32386",
+      "concat": "[TITLE] (필리핀,영어)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (English-Filipino)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "필리핀 건설 안전",
+        "필리핀 영어 근로자용 건설현장 작업 안전 자료",
+        "필리핀 영어 건설업 외국인 안전보건 길잡이 Construction Industry Safety guide for foreign workers English-Filipino"
+      ]
+    },
+    {
+      "record_id": "list3_32389",
+      "concat": "[TITLE] (중국)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Chinese)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "중국 제조업 안전",
+        "중국 근로자에게 제조업 끼임 넘어짐 사고 예방을 알려주는 자료",
+        "중국 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide for Foreign Workers Chinese"
+      ]
+    },
+    {
+      "record_id": "list3_32398",
+      "concat": "[TITLE] (스리랑카)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (Sinhalese)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "스리랑카 건설 안전",
+        "스리랑카 근로자에게 건설 작업별 재해예방을 알려주는 자료",
+        "스리랑카 건설업 외국인 안전보건 길잡이 Construction Industry Safety guide for foreign workers Sinhalese"
+      ]
+    },
+    {
+      "record_id": "list3_32387",
+      "concat": "[TITLE] (방글라데시)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Bengali)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "방글라데시 제조업 안전",
+        "방글라데시 근로자에게 제조업 사고 사례와 안전대책을 설명하는 자료",
+        "방글라데시 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide for Foreign Workers Bengali"
+      ]
+    },
+    {
+      "record_id": "list3_32390",
+      "concat": "[TITLE] (중국)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (Chinese)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "중국 건설 안전",
+        "중국 근로자에게 건설현장 공종별 안전수칙을 알려주는 자료",
+        "중국 건설업 외국인 안전보건 길잡이 Construction Industry Safety guide for foreign workers Chinese"
+      ]
+    },
+    {
+      "record_id": "list3_31718",
+      "concat": "[TITLE] 2012 맞춤형 원인분석 연구\n[SUMMARY] 산재사고의 원인을 분석하여 산재를 예방할 수 있는 방법과 산재를 줄이는 방안의 마련을 위한 연구",
+      "query": [
+        "산재 원인 분석",
+        "산재 사고가 왜 생기는지 분석해서 예방 방법을 찾는 연구",
+        "맞춤형 원인분석 연구 산재사고 원인 분석 산재 예방"
+      ]
+    },
+    {
+      "record_id": "list3_31730",
+      "concat": "[TITLE] 산업안전보건상 관리대상 화학물질 관련 작업의 기록보존에 관한 연구\n[SUMMARY] 산업안전보건법에서 규정하고 노출기록에 대한 현황,문제점 파악 및 노출기록에 대한 선진 외국의 법 조항 제도 실태와 전문가의 노출기록에 대한 의견 조사 등 연구보고서",
+      "query": [
+        "화학물질 기록 보존",
+        "관리대상 화학물질 작업 기록을 얼마나 보관해야 하는지 다룬 연구",
+        "산업안전보건 관리대상 화학물질 작업 기록보존 연구 노출기록"
+      ]
+    },
+    {
+      "record_id": "list3_32391",
+      "concat": "[TITLE] (인도네시아)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Indonesia)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "인도네시아 제조업 안전",
+        "인도네시아 근로자에게 제조업 재해사례와 직업병 예방을 설명하는 자료",
+        "인도네시아 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide for Foreign Workers Indonesia"
+      ]
+    },
+    {
+      "record_id": "list3_31724",
+      "concat": "[TITLE] 산업안전보건 동향조사\n[SUMMARY] 사업장의 안전보건 현황을 다양한 분야에서 심층적으로 조사,분석, 평가함으로써 향후 산업안전보건 정책지원 및 예방대책을 마련하는데 기초 자료 제공",
+      "query": [
+        "안전보건 동향",
+        "사업장의 안전보건 현황을 조사하고 정책 자료로 쓰는 보고서",
+        "산업안전보건 동향조사 사업장 안전보건 현황 조사 분석 평가"
+      ]
+    },
+    {
+      "record_id": "list3_31799",
+      "concat": "[TITLE] 소규모 건설현장 재해감소 전략에 관한 연구\n[SUMMARY] 2012년도 공단본부 요청에 의한 위탁연구과제인 \"소규모 건설현장 재해감소 전략에 관한 연구\"보고서 입니다 - 소규모 건설현장 실태조사 및 설문조사 - 소규모 건설현장 재해분석 - 소규모 건설현장 안전관리 문제점 및 대책 - 소규모 건설현장 안전정책, 사업 개선 방안 등",
+      "query": [
+        "소규모 건설현장 재해",
+        "작은 건설현장에서 사고를 줄이는 방법을 연구한 자료",
+        "소규모 건설현장 재해감소 전략 연구 실태조사 재해분석 안전관리"
+      ]
+    },
+    {
+      "record_id": "list3_31803",
+      "concat": "[TITLE] 미용업 근로자의 작업환경 유해요인과 건강영향 연구\n[SUMMARY] 미용업 근로자의 작업환경 유해요인과 건강영향 연구보고서",
+      "query": [
+        "미용업 작업환경",
+        "미용실 근로자의 유해요인과 건강 영향을 조사한 연구",
+        "미용업 근로자 작업환경 유해요인 건강영향 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31678",
+      "concat": "[TITLE] 선진국의 공사입찰제도에 있어 재해의 연계조사 연구\n[SUMMARY] 국내 건설 공공공사에 대한 입찰제도의 변화가 예상되는 시점에서 다양한 선진국의 입찰제도를 간략히 살펴보고, 입찰평가에 활용되는 재해율을 포함한 안전관련 평가항목들의 구체적인 내용과 기준 및 평가방법 등을 조사, 분석한 연구",
+      "query": [
+        "공사 입찰 재해율",
+        "선진국 공사 입찰에서 재해나 안전평가를 어떻게 반영하는지 조사한 연구",
+        "선진국 공사입찰제도 재해 연계조사 연구 재해율 안전평가"
+      ]
+    },
+    {
+      "record_id": "list3_31341",
+      "concat": "[TITLE] 2011년도 직업병진단사례집\n[SUMMARY] 2011년도에 수행한 직업병진단 역학조사를 통해 수집된 사례집_근로자와 사업장의 작업내용 및 작업환경, 의학적 소견 등을 요약하고 역학조사평가위원회 (또는 전문위원회)에서 업무관련성이 있다고 판단한 이유를 기록함으로써 직업병 예방이나 직업병 요양 승인에 관여하는 전문가 및 행정가 모두에게 참고 되도록한 사례집이다.",
+      "query": [
+        "직업병 사례집",
+        "직업병 진단과 업무관련성 판단 사례를 모아 놓은 자료",
+        "직업병진단사례집 역학조사 업무관련성 작업환경 의학적 소견"
+      ]
+    },
+    {
+      "record_id": "list3_31509",
+      "concat": "[TITLE] 직종별 실무길잡이 - 배달 및 수화물 운반 종사자\n[SUMMARY] 직종별 실무길잡이 시리즈로 배달 및 수화물 운반 종사 직종의 특성, 유해위험요인 및 재해사례로 구성됨",
+      "query": [
+        "배달 운반 안전",
+        "배달이나 수화물 운반 일을 하는 사람의 위험요인과 재해사례 자료",
+        "직종별 실무길잡이 배달 수화물 운반 종사자 유해위험요인 재해사례"
+      ]
+    },
+    {
+      "record_id": "list3_31305",
+      "concat": "[TITLE] 기계기구의 안전보건기준 조사에 관한 연구\n[SUMMARY] 산업안전보건기준에관한규칙 제2편제1장 개정(안) 관련 위탁연구용역 보고서",
+      "query": [
+        "기계 안전기준",
+        "기계기구 관련 안전보건기준 개정 내용을 조사한 연구",
+        "기계기구 안전보건기준 조사 연구 산업안전보건기준 규칙 개정안"
+      ]
+    },
+    {
+      "record_id": "list3_31429",
+      "concat": "[TITLE] 화학제품 MSDS Hub 시스템 인프라 구축\n[SUMMARY] 본 연구는 제조 및 수입업체가 자사의 화학제품에 대한 MSDS를 공단 K-CIC 홈페이지에 업로드하고, 공단에서 중간 단계의 MSDS에 대한 16개 항목의 완성도를 평가한 후 일반 사용업체의 사업주 및 근로자가 직접 다운로드 받을 수 있도록 공단 화학물질 정보전달 시스템의 Hub 인프라를 구축하여 화학물질이 유통되는 산업계 내에서 화학제품 MSDS의 정보전달 체계 개선을 도모하고, 화학물질 정보를 이용하는 다양한 고객들에게 편리한 화학물질 정보 확보 기회를 보장할 수 있는 인프라 시스템을 구축하는 것을 목적으로 한다.",
+      "query": [
+        "MSDS 시스템",
+        "화학제품 물질안전보건자료를 올리고 내려받는 시스템 구축 연구",
+        "화학제품 MSDS Hub 시스템 인프라 구축 K-CIC 화학물질 정보전달"
+      ]
+    },
+    {
+      "record_id": "list3_31430",
+      "concat": "[TITLE] 관리대상 화학물질의 안전보건기준 연구\n[SUMMARY] 본 연구는 관리대상 및 특별관리 화학물질의 위험관리를 위한 적절한 안전보건 기준을 제안하고 산업안전보건법 상 관리대상 화학물질 군의 명칭 표기에 대한 검토 및 제안 하는 것을 목적으로 한다.",
+      "query": [
+        "화학물질 안전기준",
+        "관리대상 화학물질의 위험관리 기준을 정리한 연구",
+        "관리대상 화학물질 안전보건기준 연구 특별관리 화학물질 위험관리"
+      ]
+    },
+    {
+      "record_id": "list3_31431",
+      "concat": "[TITLE] 화학물질의 유해성 소통 활성화에 관한 연구\n[SUMMARY] - 현행 산업안전보건법상의 화학물질 유해성 소통 제도의 현황 및 문제점 - 우리나라 화학물질 유해성 소통에 관한 실태조사 - 우리나라에서의 화학물질 유해성 소통 활성화 방안 도출 및 마련",
+      "query": [
+        "화학물질 유해성 소통",
+        "화학물질의 위험 정보를 사업장에서 잘 전달하는 방법을 다룬 연구",
+        "화학물질 유해성 소통 활성화 연구 산업안전보건법 실태조사"
+      ]
+    },
+    {
+      "record_id": "list3_32393",
+      "concat": "[TITLE] (몽골)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Mongolian)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "몽골 제조업 안전",
+        "몽골 근로자에게 제조업 사고 사례와 예방을 알려주는 자료",
+        "몽골 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide for Foreign Workers Mongolian"
+      ]
+    },
+    {
+      "record_id": "list3_32392",
+      "concat": "[TITLE] (인도네시아)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (Indonesia)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "인도네시아 건설 안전",
+        "인도네시아 근로자에게 건설현장 작업별 재해예방을 설명하는 자료",
+        "인도네시아 건설업 외국인 안전보건 길잡이 Construction Industry Safety guide for foreign workers Indonesia"
+      ]
+    },
+    {
+      "record_id": "list3_32394",
+      "concat": "[TITLE] (몽골)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (Mongolian)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "몽골 건설 안전",
+        "몽골 근로자에게 건설 공종별 안전수칙을 알려주는 자료",
+        "몽골 건설업 외국인 안전보건 길잡이 Construction Industry Safety guide for foreign workers Mongolian"
+      ]
+    },
+    {
+      "record_id": "list3_32395",
+      "concat": "[TITLE] (파키스탄)제조업 외국인 안전보건 길잡이, (Manufacturing Industry) Safety Guide for Foreign Workers (Urdu)\n[SUMMARY] Cases of foreign worker accidents 외국인 근로자 재해사례 1. Being trapped accident 1. 끼임 재해 2. Slip and fall accident 2. 넘어짐 재해 3. Collision accident 3. 부딪힘 재해 4. Hitting accident 4. 맞음 재해 5. Prevention of occupational diseases 5. 직업병 예방",
+      "query": [
+        "파키스탄 제조업 안전",
+        "파키스탄 근로자에게 제조업 재해사례와 직업병 예방을 설명하는 자료",
+        "파키스탄 제조업 외국인 안전보건 길잡이 Manufacturing Industry Safety Guide for Foreign Workers Urdu"
+      ]
+    },
+    {
+      "record_id": "list3_31726",
+      "concat": "[TITLE] 사업장 화학물질 관리 등에 대한 산업안전보건 감독의 효율화 방안\n[SUMMARY] 현행 화학물질 관리감독방식의 한계를 극복하고 효과성을 증가시켜 경제적 효과 또한 높이는, 대안적인 감독방식의 모델 사례내용을 구체적으로 파악하여 제시하는 연구보고서",
+      "query": [
+        "사업장 화학물질 감독",
+        "사업장 화학물질 관리를 더 효율적으로 감독하는 방법을 다룬 연구",
+        "사업장 화학물질 관리 산업안전보건 감독 효율화 방안"
+      ]
+    },
+    {
+      "record_id": "list3_32388",
+      "concat": "[TITLE] (방글라데시)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (Bengali)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "방글라데시 건설 안전",
+        "방글라데시 근로자에게 건설 작업별 사고예방을 알려주는 자료",
+        "방글라데시 건설업 외국인 안전보건 길잡이 Construction Industry Safety guide for foreign workers Bengali"
+      ]
+    },
+    {
+      "record_id": "list3_31728",
+      "concat": "[TITLE] 특수형태 근로 종사자의 안전보건에 관한 법률적 보호방안 연구\n[SUMMARY] 산업안전보건법상 법적 또는 보호 범위에서 벗어나 있는 최근에 논의되고 있는 영화방송 문화예술인을 대상으로 산재예방을 위해 안전보건 현황과 문제점을 발견하여 보호방안을 마련하기 위한 연구",
+      "query": [
+        "특수형태근로 안전보건",
+        "특수형태 근로자가 안전보건 보호를 받을 수 있는 법적 방안을 다룬 연구",
+        "특수형태 근로 종사자 안전보건 법률적 보호방안 연구 영화방송 문화예술인"
+      ]
+    }
+  ]
+}

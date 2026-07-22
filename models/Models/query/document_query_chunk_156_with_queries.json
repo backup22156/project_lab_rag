@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 156,
+  "items": [
+    {
+      "record_id": "list3_46140",
+      "concat": "[TITLE] 2024년 월간 안전보건 4월호\n[SUMMARY] 2024년 월간 안전보건 4월호입니다. 이번 호에는 '산업안전 대진단, 폭발 화재' 등에 대한 내용이 수록되어 있습니다.",
+      "query": [
+        "2024 안전보건 4월호",
+        "폭발 화재와 산업안전 대진단 내용이 있는 월간 안전보건 자료",
+        "월간 안전보건 산업안전 대진단 폭발 화재"
+      ]
+    },
+    {
+      "record_id": "list3_46131",
+      "concat": "[TITLE] 2024년 안전보건관리체계 구축 컨설팅(위탁) 안내서\n[SUMMARY] 2024년 안전보건관리체계 구축 컨설팅(위탁) 사업 수행요원을 대상으로 제작 배포하는 안내서",
+      "query": [
+        "안전보건 컨설팅 안내",
+        "안전보건관리체계 구축 컨설팅 위탁 사업 안내 자료",
+        "안전보건관리체계 구축 컨설팅 위탁 안내서"
+      ]
+    },
+    {
+      "record_id": "list3_46056",
+      "concat": "[TITLE] 해빙기 건설현장 안전보건 길잡이\n[SUMMARY] 해빙기 건설현장 위험요인별 안전관리 및 안전보건교육자료",
+      "query": [
+        "해빙기 건설현장 안전",
+        "날이 풀릴 때 건설현장 위험요인과 안전교육 자료",
+        "해빙기 건설현장 안전보건 길잡이 위험요인 안전관리 안전보건교육자료"
+      ]
+    },
+    {
+      "record_id": "list3_46094",
+      "concat": "[TITLE] 안전문화 실천추진단 활동 사례집\n[SUMMARY] 안전문화 실천추진단 활동 사례집",
+      "query": [
+        "안전문화 활동 사례",
+        "안전문화 실천 추진 활동 사례를 모은 자료",
+        "안전문화 실천추진단 활동 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_46079",
+      "concat": "[TITLE] 2024년 월간 안전보건 3월호\n[SUMMARY] 2024년 월간 안전보건 3월호입니다. 이번 호에는 '산업안전 대진단', '지붕공사' 등에 대한 내용이 수록되어 있습니다.",
+      "query": [
+        "지붕공사 안전보건",
+        "지붕공사와 산업안전 대진단 내용이 있는 월간 안전보건 자료",
+        "월간 안전보건 산업안전 대진단 지붕공사"
+      ]
+    },
+    {
+      "record_id": "list3_45419",
+      "concat": "[TITLE] 2023 석면해체·제거작업 길잡이\n[SUMMARY] 2023 석면해체·제거작업 길잡이",
+      "query": [
+        "석면 해체 작업",
+        "석면을 해체하거나 제거할 때 참고할 작업 안전 자료",
+        "석면해체 제거작업 길잡이"
+      ]
+    },
+    {
+      "record_id": "list3_45420",
+      "concat": "[TITLE] 2023 소규모 석면해체·제거작업 안전관리 가이드\n[SUMMARY] 2023 소규모 석면해체·제거작업 안전관리 가이드",
+      "query": [
+        "소규모 석면 작업",
+        "작은 현장에서 석면 해체 제거 작업 안전관리 방법 자료",
+        "소규모 석면해체 제거작업 안전관리 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_45670",
+      "concat": "[TITLE] 건설업 기초안전보건교육 표준교재(미얀마어)\n[SUMMARY] 건설현장 일용근로자 대상으로 실시하는 기초안전보건교육 표준 교재(미얀마어)",
+      "query": [
+        "건설 안전교육 미얀마어",
+        "미얀마어로 된 건설현장 일용근로자 기초안전보건교육 교재",
+        "건설업 기초안전보건교육 표준교재 미얀마어 일용근로자"
+      ]
+    },
+    {
+      "record_id": "list3_46039",
+      "concat": "[TITLE] 공동주택을 위한 휴게시설 설치·관리 가이드북\n[SUMMARY] 공단 · 고용부 · 대한주택관리사협회에서 함께 제작한 공동주택을 위한 휴게시설 설치·관리 가이드북",
+      "query": [
+        "아파트 휴게시설",
+        "공동주택 근로자 휴게시설 설치와 관리 방법 가이드",
+        "공동주택 휴게시설 설치 관리 가이드북"
+      ]
+    },
+    {
+      "record_id": "list3_46041",
+      "concat": "[TITLE] 2024년 월간 안전보건 2월호\n[SUMMARY] 2024년 월간 안전보건 2월호입니다. 이번 호에는 '해빙기 위험요인과 재해사례'에 대한 내용이 수록되어 있습니다.",
+      "query": [
+        "해빙기 위험 재해",
+        "해빙기 위험요인과 재해사례가 실린 안전보건 월간 자료",
+        "월간 안전보건 해빙기 위험요인 재해사례"
+      ]
+    },
+    {
+      "record_id": "list3_45669",
+      "concat": "[TITLE] 건설업 기초안전보건교육 표준교재(베트남어)\n[SUMMARY] 건설현장 일용근로자 대상으로 실시하는 기초안전보건교육 표준 교재(베트남어)",
+      "query": [
+        "건설 안전교육 베트남어",
+        "베트남어로 된 건설현장 일용근로자 기초안전보건교육 교재",
+        "건설업 기초안전보건교육 표준교재 베트남어 일용근로자"
+      ]
+    },
+    {
+      "record_id": "list3_45577",
+      "concat": "[TITLE] 2023년 안전보건관리체계 우수사례집\n[SUMMARY] 23년도 안전보건관리체계 구축 컨설팅(위탁) 사업장 사례 중 우수한 사례를 선정하여「2023년 안전보건관리체계 우수사례집」발간하였습니다.",
+      "query": [
+        "안전보건관리체계 사례",
+        "안전보건관리체계 구축 컨설팅 우수 사업장 사례 자료",
+        "안전보건관리체계 구축 컨설팅 우수사례집"
+      ]
+    },
+    {
+      "record_id": "list3_45825",
+      "concat": "[TITLE] 소규모 사업장을 위한 위험성평가 안내서\n[SUMMARY] 소규모 사업장에서 위험성평가를 쉽게 할 수 있도록 그림으로 유해위험요인을 파악하고 감소대책을 수립할 수 있도록 만든 자료",
+      "query": [
+        "소규모 위험성평가",
+        "작은 사업장에서 위험성평가를 쉽게 하는 방법 자료",
+        "소규모 사업장 위험성평가 안내서 유해위험요인 감소대책"
+      ]
+    },
+    {
+      "record_id": "list3_45636",
+      "concat": "[TITLE] 2023 위험성평가 및 안전보건관리체계 발표대회 우수사례\n[SUMMARY] 2023년에 실시(7월, 12월)한 위험성평가 및 안전보건관리체계 발표대회의 우수사례를 정리하여 사업장에 배포",
+      "query": [
+        "위험성평가 우수사례",
+        "위험성평가와 안전보건관리체계 발표대회에서 뽑힌 우수사례 자료",
+        "위험성평가 안전보건관리체계 발표대회 우수사례"
+      ]
+    },
+    {
+      "record_id": "list3_45990",
+      "concat": "[TITLE] 2024년 월간 안전보건 1월호\n[SUMMARY] 2024년 월간 안전보건 1월호입니다. 이번 호에는 '넘어짐 재해예방'에 대한 내용이 수록되어 있습니다.",
+      "query": [
+        "넘어짐 재해예방",
+        "넘어짐 사고 예방 내용이 있는 안전보건 월간 자료",
+        "월간 안전보건 넘어짐 재해예방"
+      ]
+    },
+    {
+      "record_id": "list3_45645",
+      "concat": "[TITLE] 자체 도급공사 및 용역 안전관리 노하우\n[SUMMARY] - 공단 안전감독자가 현장 안전보건관리체계 구축을 위해 안전감독 및 안전교육 시 활용 - 타 공공기관, 유관기관이 도급공사 및 용역 안전관리체계 구축에 활용 - 구성 내용 : 고위험 작업별 사전안전성검토 사례, 현장별 개선 사례 및 안전점검 포인트",
+      "query": [
+        "도급공사 안전관리",
+        "공공기관 도급공사나 용역 작업 안전관리 노하우 자료",
+        "자체 도급공사 용역 안전관리 노하우 사전안전성검토 안전점검"
+      ]
+    },
+    {
+      "record_id": "list3_45618",
+      "concat": "[TITLE] 2024 만화로 보는 산업안전보건기준에 관한 규칙\n[SUMMARY] 2023년에 제작한 「2024 만화로 보는 산업안전보건기준에 관한 규칙」입니다. 고용노동부령 제399호 (시행일: 2024. 1. 1. ) ※ 인쇄 사이즈 : 4*6배판(187*257mm)",
+      "query": [
+        "산업안전보건기준 만화",
+        "산업안전보건기준에 관한 규칙을 만화로 쉽게 설명한 자료",
+        "만화로 보는 산업안전보건기준에 관한 규칙"
+      ]
+    },
+    {
+      "record_id": "list3_45410",
+      "concat": "[TITLE] 산업안전보건과 신뢰 선행지표 활용 가이드\n[SUMMARY] 산업안전보건과 신뢰 선행지표 활용 가이드 - 안전보건공단과 독일사회보험조합(DGUV)의 공동연구 결과서",
+      "query": [
+        "안전보건 신뢰 지표",
+        "산업안전보건에서 신뢰와 선행지표를 활용하는 가이드",
+        "산업안전보건 신뢰 선행지표 활용 가이드 DGUV 공동연구"
+      ]
+    },
+    {
+      "record_id": "list3_45449",
+      "concat": "[TITLE] 건설업 아차사고 발굴 및 위험성평가 사례 모음집\n[SUMMARY] 건설업 아차사고 발굴 및 위험성평가 사례 모음집",
+      "query": [
+        "건설 아차사고 사례",
+        "건설현장 아차사고 발굴과 위험성평가 사례 모음 자료",
+        "건설업 아차사고 발굴 위험성평가 사례 모음집"
+      ]
+    },
+    {
+      "record_id": "list3_45665",
+      "concat": "[TITLE] 2023년 월간 안전보건 12월호\n[SUMMARY] 2023년 월간 안전보건 12월호입니다. 이번 호에는 '콜센터 및 텔레마케팅 서비스업'에 대한 재해사례 및 안전수칙 내용이 수록되어 있습니다.",
+      "query": [
+        "콜센터 안전수칙",
+        "콜센터와 텔레마케팅 서비스업 재해사례와 안전수칙 자료",
+        "월간 안전보건 콜센터 텔레마케팅 서비스업 재해사례 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list3_45471",
+      "concat": "[TITLE] 수소안전매뉴얼\n[SUMMARY] 현장 근로자의 수소 제조 및 취급 시 안전을 위한 매뉴얼",
+      "query": [
+        "수소 취급 안전",
+        "현장에서 수소를 제조하거나 취급할 때 필요한 안전 매뉴얼",
+        "수소안전매뉴얼 수소 제조 취급 현장 근로자"
+      ]
+    },
+    {
+      "record_id": "list3_45526",
+      "concat": "[TITLE] 동절기 건설현장 안전보건 길잡이\n[SUMMARY] 동절기 건설현장 위험요인별 안전관리 및 안전보건교육자료",
+      "query": [
+        "동절기 건설현장 안전",
+        "겨울철 건설현장 위험요인별 안전관리와 교육자료",
+        "동절기 건설현장 안전보건 길잡이 위험요인 안전관리 안전보건교육자료"
+      ]
+    },
+    {
+      "record_id": "list3_45401",
+      "concat": "[TITLE] 중대재해 사고백서\n[SUMMARY] 사고조사결과를 중대재해 예방을 위한 공적자원으로 활용하기 위한 책자",
+      "query": [
+        "중대재해 사고사례",
+        "중대재해 예방을 위해 사고조사 결과를 정리한 책자",
+        "중대재해 사고백서 사고조사결과 예방 책자"
+      ]
+    },
+    {
+      "record_id": "list3_46430",
+      "concat": "[TITLE] `24년 밀폐공간 질식재해예방 안전작업 가이드\n[SUMMARY] `24년 밀폐공간 질식재해예방 안전작업 가이드",
+      "query": [
+        "밀폐공간 질식 예방",
+        "밀폐공간 작업 중 질식재해를 예방하는 안전작업 가이드",
+        "밀폐공간 질식재해예방 안전작업 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_46415",
+      "concat": "[TITLE] 국소배기장치 성능평가 & 후드 설계 표준 가이드\n[SUMMARY] 1. 국소배기장치 성능 평가 가이드 2. 작업종류별 환기 표준가이드",
+      "query": [
+        "국소배기 후드 설계",
+        "국소배기장치 성능평가와 작업별 환기 기준 자료",
+        "국소배기장치 성능평가 후드 설계 표준 가이드 작업종류별 환기"
+      ]
+    },
+    {
+      "record_id": "list3_46391",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(베트남어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "건설 안전 핸드북 베트남어",
+        "베트남어로 된 외국인 건설근로자 기초교육 후 현장 안전수칙 핸드북",
+        "건설업 기초안전보건교육 핸드북 베트남어 외국인 근로자 사고유형 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list3_46077",
+      "concat": "[TITLE] 이산화탄소 소화설비 사고예방을 위한 안전조치 매뉴얼\n[SUMMARY] 이산화탄소 소화설비로 인한 사고예방 및 opl작성",
+      "query": [
+        "이산화탄소 소화설비",
+        "이산화탄소 소화설비 사고를 막기 위한 안전조치 자료",
+        "이산화탄소 소화설비 사고예방 안전조치 매뉴얼 OPL"
+      ]
+    },
+    {
+      "record_id": "list3_46409",
+      "concat": "[TITLE] 호우·태풍 대비 사업장 안전관리 가이드\n[SUMMARY] 2024년 호우·태풍 등 풍수해 발생 시 사업장 위기대응 절차 등 안내",
+      "query": [
+        "태풍 사업장 안전",
+        "호우나 태풍 때 사업장에서 위기대응하고 안전관리하는 자료",
+        "호우 태풍 대비 사업장 안전관리 가이드 풍수해 위기대응"
+      ]
+    },
+    {
+      "record_id": "list3_45400",
+      "concat": "[TITLE] 중대재해 사고백서\n[SUMMARY] 기업 전반의 문화·작업환경·근무 여건 등 중대재해의 근본적인 원인에 대한 심층적 접근, 전문가 제언 등을 수록한 사고사례집 발간을 통해 안전보건관리체계 구축을 도와 중대재해 예방을 적극적으로 지원하기 위함",
+      "query": [
+        "중대재해 원인 분석",
+        "중대재해의 원인과 사고사례를 깊게 정리한 안전보건관리체계 자료",
+        "중대재해 사고백서 사고사례 안전보건관리체계 근본원인"
+      ]
+    },
+    {
+      "record_id": "list3_46426",
+      "concat": "[TITLE] 2024년 월간 안전보건 9월호\n[SUMMARY] 2024년 월간 안전보건 9월호",
+      "query": [
+        "2024 안전보건 9월호",
+        "월간 안전보건 9월호 자료",
+        "월간 안전보건"
+      ]
+    }
+  ]
+}

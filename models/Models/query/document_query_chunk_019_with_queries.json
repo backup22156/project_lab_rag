@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 19,
+  "items": [
+    {
+      "record_id": "list1_50577",
+      "concat": "[TITLE] (네팔)사다리 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 사다리 사고",
+        "네팔 근로자에게 필요한 사다리 작업 사망사고 위험 자료",
+        "네팔 사다리 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50592",
+      "concat": "[TITLE] (스리랑카)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 용접 절단 사고",
+        "스리랑카 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "스리랑카 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50591",
+      "concat": "[TITLE] (동티모르)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 용접 절단 사고",
+        "동티모르 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "동티모르 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50594",
+      "concat": "[TITLE] (캄보디아)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 용접 절단 사고",
+        "캄보디아 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "캄보디아 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50596",
+      "concat": "[TITLE] (몽골)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "몽골 용접 절단 사고",
+        "몽골 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "몽골 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50595",
+      "concat": "[TITLE] (태국)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 용접 절단 사고",
+        "태국 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "태국 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50598",
+      "concat": "[TITLE] (방글라데시)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "방글라데시 용접 절단 사고",
+        "방글라데시 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "방글라데시 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50600",
+      "concat": "[TITLE] (방글라데시)사다리 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "방글라데시 사다리 사고",
+        "방글라데시 근로자에게 필요한 사다리 작업 사망사고 위험 자료",
+        "방글라데시 사다리 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50597",
+      "concat": "[TITLE] (중국)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 용접 절단 사고",
+        "중국 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "중국 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50599",
+      "concat": "[TITLE] (키르기스스탄)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 용접 절단 사고",
+        "키르기스스탄 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "키르기스스탄 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50601",
+      "concat": "[TITLE] (네팔)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 용접 절단 사고",
+        "네팔 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "네팔 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50602",
+      "concat": "[TITLE] (미얀마)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 용접 절단 사고",
+        "미얀마 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "미얀마 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50617",
+      "concat": "[TITLE] (타지키스탄)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 벌목 사고",
+        "타지키스탄 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "타지키스탄 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50616",
+      "concat": "[TITLE] (키르기스스탄)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 벌목 사고",
+        "키르기스스탄 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "키르기스스탄 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50621",
+      "concat": "[TITLE] (동티모르)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 벌목 사고",
+        "동티모르 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "동티모르 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50619",
+      "concat": "[TITLE] (태국)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 건설기계 사고",
+        "태국 근로자용 건설기계 작업 사망사고 위험 자료",
+        "태국 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50618",
+      "concat": "[TITLE] (캄보디아)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 건설기계 사고",
+        "캄보디아 근로자용 건설기계 작업 사망사고 위험 자료",
+        "캄보디아 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50622",
+      "concat": "[TITLE] (미얀마)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 벌목 사고",
+        "미얀마 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "미얀마 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50620",
+      "concat": "[TITLE] (타지키스탄)용접·절단·사상·도장 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 용접 절단 사고",
+        "타지키스탄 근로자용 용접 절단 도장 작업 사망사고 위험 자료",
+        "타지키스탄 용접 절단 사상 도장 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50625",
+      "concat": "[TITLE] (캄보디아)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 벌목 사고",
+        "캄보디아 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "캄보디아 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50624",
+      "concat": "[TITLE] (인도네시아)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 벌목 사고",
+        "인도네시아 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "인도네시아 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50627",
+      "concat": "[TITLE] (태국)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 벌목 사고",
+        "태국 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "태국 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50629",
+      "concat": "[TITLE] (중국)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 벌목 사고",
+        "중국 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "중국 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50628",
+      "concat": "[TITLE] (베트남)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 벌목 사고",
+        "베트남 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "베트남 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50630",
+      "concat": "[TITLE] (네팔)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 건설기계 사고",
+        "네팔 근로자용 건설기계 작업 사망사고 위험 자료",
+        "네팔 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50626",
+      "concat": "[TITLE] (우즈베키스탄)벌목·조재 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 벌목 사고",
+        "우즈베키스탄 근로자에게 보여줄 벌목 작업 사망사고 위험 자료",
+        "우즈베키스탄 벌목 조재 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50631",
+      "concat": "[TITLE] (동티모르)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 건설기계 사고",
+        "동티모르 근로자용 건설기계 작업 사망사고 위험 자료",
+        "동티모르 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50632",
+      "concat": "[TITLE] (미얀마)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 건설기계 사고",
+        "미얀마 근로자용 건설기계 작업 사망사고 위험 자료",
+        "미얀마 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50633",
+      "concat": "[TITLE] (스리랑카)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 건설기계 사고",
+        "스리랑카 근로자용 건설기계 작업 사망사고 위험 자료",
+        "스리랑카 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50637",
+      "concat": "[TITLE] (라오스)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 건설기계 사고",
+        "라오스 근로자용 건설기계 작업 사망사고 위험 자료",
+        "라오스 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    }
+  ]
+}

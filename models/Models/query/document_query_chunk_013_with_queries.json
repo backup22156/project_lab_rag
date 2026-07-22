@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 13,
+  "items": [
+    {
+      "record_id": "list1_50724",
+      "concat": "[TITLE] (방글라데시)조경·제초 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "방글라데시 제초 안전",
+        "방글라데시 근로자에게 보여줄 조경 제초 작업 사고 예방 자료",
+        "방글라데시 조경 제초 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50712",
+      "concat": "[TITLE] (인도네시아)고소작업대 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 고소작업대 안전",
+        "인도네시아 근로자용 높은 곳 작업대 사고 예방 자료",
+        "인도네시아 고소작업대 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50726",
+      "concat": "[TITLE] (타지키스탄)조경·제초 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 제초 안전",
+        "타지키스탄 근로자에게 보여줄 조경 제초 작업 사고 예방 자료",
+        "타지키스탄 조경 제초 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50722",
+      "concat": "[TITLE] (태국)조경·제초 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 제초 안전",
+        "태국 근로자에게 보여줄 조경 제초 작업 사고 예방 자료",
+        "태국 조경 제초 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50415",
+      "concat": "[TITLE] (필리핀)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 크레인 안전",
+        "필리핀 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "필리핀 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50417",
+      "concat": "[TITLE] (중국)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 크레인 안전",
+        "중국 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "중국 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50416",
+      "concat": "[TITLE] (우즈베키스탄)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 크레인 안전",
+        "우즈베키스탄 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "우즈베키스탄 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50418",
+      "concat": "[TITLE] (동티모르)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 정비보수 안전",
+        "동티모르 근로자에게 보여줄 정비 보수 작업 중 사고 예방 자료",
+        "동티모르 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50443",
+      "concat": "[TITLE] (네팔)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 크레인 안전",
+        "네팔 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "네팔 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50445",
+      "concat": "[TITLE] (미얀마)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 크레인 안전",
+        "미얀마 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "미얀마 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50419",
+      "concat": "[TITLE] (미얀마)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 정비보수 안전",
+        "미얀마 근로자에게 보여줄 정비 보수 작업 중 사고 예방 자료",
+        "미얀마 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50444",
+      "concat": "[TITLE] (동티모르)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 크레인 안전",
+        "동티모르 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "동티모르 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50986",
+      "concat": "[TITLE] [안전기준] 제2절 화기 등의 관리\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "화기 관리 안전",
+        "불을 쓰는 작업에서 화재를 막기 위한 관리 기준 자료",
+        "안전기준 화기 등의 관리 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50988",
+      "concat": "[TITLE] [안전기준] 제4절 화학설비 · 압력용기 등(Part 1)\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "화학설비 압력용기 안전",
+        "화학설비나 압력용기 작업에서 지켜야 할 안전기준 자료",
+        "안전기준 화학설비 압력용기 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50987",
+      "concat": "[TITLE] [안전기준] 제3절 용융고열물 등에 의한 위험예방\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "고열물 화상 예방",
+        "뜨겁게 녹은 물질을 다룰 때 위험을 예방하는 안전기준 자료",
+        "안전기준 용융고열물 등에 의한 위험예방 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51020",
+      "concat": "[TITLE] 안전경영활동 우수기업 금융지원 안내 OPS\n[SUMMARY] 다자간(공단-IBK기업은행-신용보증기금-기술보증기금) 협약을 통해 안전경영활동 우수기업에 제공되는 금융지원 혜택 안내 - 안전시설투자 및 안전경영 우수기업 대상 대출금리 최대 1.5%p 우대 등",
+      "query": [
+        "안전 우수기업 대출",
+        "안전시설에 투자하는 기업이 받을 수 있는 금융지원 혜택 안내",
+        "안전경영활동 우수기업 금융지원 안내 OPS IBK기업은행 신용보증기금 기술보증기금"
+      ]
+    },
+    {
+      "record_id": "list1_50985",
+      "concat": "[TITLE] [안전기준] 제1절 위험물 등의 취급\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "위험물 취급 안전",
+        "위험한 물질을 다룰 때 지켜야 할 안전기준 자료",
+        "안전기준 위험물 등의 취급 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51000",
+      "concat": "[TITLE] 벌목 작업 5대 핵심 안전수칙 및 안전한 벌목작업 순서도\n[SUMMARY] 벌목 작업 5대 핵심 안전수칙 · 안전한 벌목작업 순서도 OPS - 벌목 작업 시, 안전한 작업을 위한 5대 핵심 안전수칙 및 벌목작업 순서도",
+      "query": [
+        "벌목 안전수칙",
+        "나무를 베는 작업을 안전하게 하는 순서와 주의사항 자료",
+        "벌목 작업 5대 핵심 안전수칙 안전한 벌목작업 순서도 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50984",
+      "concat": "[TITLE] [안전기준] 폭발·화재 및 위험물 누출에 의한 위험 개요\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료",
+      "query": [
+        "폭발 화재 위험물",
+        "폭발이나 화재와 위험물 누출 위험을 한눈에 보는 자료",
+        "안전기준 폭발 화재 위험물 누출 위험 개요 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51039",
+      "concat": "[TITLE] [항만 안전] 산업현장 필수 안전 수칙\n[SUMMARY] [항만 안전] 산업현장 필수 안전 수칙 * 본 자료는 부산항만공사와의 협업을 통해 제작되었습니다.",
+      "query": [
+        "항만 안전수칙",
+        "항만 현장에서 일할 때 꼭 지켜야 하는 안전수칙 자료",
+        "항만 안전 산업현장 필수 안전 수칙 부산항만공사"
+      ]
+    },
+    {
+      "record_id": "list1_50996",
+      "concat": "[TITLE] 예비산업인력 콘텐츠 목록\n[SUMMARY] 예비산업인력을 위한 콘텐츠 목록 QR로 확인하세요!",
+      "query": [
+        "예비산업인력 교육",
+        "취업 전 산업안전보건 자료를 QR로 확인할 수 있는 콘텐츠 목록",
+        "예비산업인력 콘텐츠 목록 QR"
+      ]
+    },
+    {
+      "record_id": "list1_51016",
+      "concat": "[TITLE] 키메세지(20호_지게차)\n[SUMMARY] [사회이슈] 지게차 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "지게차 사고 예방",
+        "지게차 사고를 줄이기 위한 예방대책과 관련 자료",
+        "키메세지 지게차 사고 예방대책 관련 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_50983",
+      "concat": "[TITLE] [보건기준] 온도·습도에 의한 건강장해의 예방\n[SUMMARY] 산업안전보건기준에 관한 규칙 OPS 자료 (2025. 7. 17. 개정 법령정보 반영)",
+      "query": [
+        "온도 습도 건강",
+        "덥거나 습한 작업환경에서 건강장해를 예방하는 기준 자료",
+        "보건기준 온도 습도 건강장해 예방 산업안전보건기준에 관한 규칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50859",
+      "concat": "[TITLE] 낙하물방지망 설치해체작업 안전수칙\n[SUMMARY] 낙하물방지망 설치해체작업 안전수칙",
+      "query": [
+        "낙하물방지망 안전",
+        "낙하물방지망을 설치하거나 해체할 때 지켜야 할 안전수칙",
+        "낙하물방지망 설치해체작업 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_50448",
+      "concat": "[TITLE] (캄보디아)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 크레인 안전",
+        "캄보디아 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "캄보디아 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50446",
+      "concat": "[TITLE] (스리랑카)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 크레인 안전",
+        "스리랑카 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "스리랑카 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50449",
+      "concat": "[TITLE] (파키스탄)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 크레인 안전",
+        "파키스탄 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "파키스탄 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50447",
+      "concat": "[TITLE] (인도네시아)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 크레인 안전",
+        "인도네시아 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "인도네시아 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50450",
+      "concat": "[TITLE] (라오스)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 크레인 안전",
+        "라오스 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "라오스 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    },
+    {
+      "record_id": "list1_50451",
+      "concat": "[TITLE] (태국)크레인 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 크레인 안전",
+        "태국 근로자에게 보여줄 크레인 작업 사망사고 예방 자료",
+        "태국 크레인 작업 사망사고 유발 고위험요인 SIF"
+      ]
+    }
+  ]
+}

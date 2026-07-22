@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 1,
+  "items": [
+    {
+      "record_id": "list1_52380",
+      "concat": "[TITLE] 부정수급 위험 사이렌 [2026-04호]\n[SUMMARY] 재정지원사업 부정수급 사례를 전파하여 부정수급 예방",
+      "query": [
+        "부정수급 사례 예방",
+        "재정지원사업에서 부정수급을 막는 사례 자료를 찾고 싶어요",
+        "부정수급 위험 사이렌 재정지원사업 부정수급 예방"
+      ]
+    },
+    {
+      "record_id": "list1_52330",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(철골작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "철골작업 사망사고",
+        "건설현장에서 철골 작업 중 큰 사고가 나는 위험요인을 알고 싶어요",
+        "건설업 사망사고 유발 SIF 철골작업"
+      ]
+    },
+    {
+      "record_id": "list1_52349",
+      "concat": "[TITLE] 위험성평가 인정, 안전도 챙기고 혜택도 챙기세요!\n[SUMMARY] 위험성평가 인정, 안전도 챙기고 혜택도 챙기세요!(OPS)",
+      "query": [
+        "위험성평가 인정 혜택",
+        "위험성평가를 인정받으면 안전관리나 혜택이 어떻게 되는지 알고 싶어요",
+        "위험성평가 인정 안전 혜택 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52379",
+      "concat": "[TITLE] 사업장 위험성평가 KRAS로 쉽고 간편하게 하세요\n[SUMMARY] 사업장 위험성평가 KRAS로 쉽고 간편하게 하세요(OPS)",
+      "query": [
+        "사업장 위험성평가",
+        "회사에서 위험성평가를 쉽고 간편하게 하는 방법을 찾고 있어요",
+        "사업장 위험성평가 KRAS OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52315",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(전기설비작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "전기설비 작업 사고",
+        "건설현장에서 전기설비 작업 중 사망사고를 일으키는 위험요인을 알고 싶어요",
+        "건설업 사망사고 유발 SIF 전기설비작업"
+      ]
+    },
+    {
+      "record_id": "list1_52327",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(거푸집동바리 조립해체작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "동바리 작업 사고",
+        "거푸집 동바리를 조립하거나 해체할 때 생기는 건설현장 위험요인을 찾고 있어요",
+        "건설업 사망사고 유발 SIF 거푸집동바리 조립해체작업"
+      ]
+    },
+    {
+      "record_id": "list1_52334",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(기계설비)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "기계설비 작업 사고",
+        "건설현장에서 기계설비 관련 작업을 할 때 사망사고 위험요인을 알고 싶어요",
+        "건설업 사망사고 유발 SIF 기계설비"
+      ]
+    },
+    {
+      "record_id": "list1_52331",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(도장작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "도장작업 사고",
+        "건설현장에서 페인트나 도장 작업을 할 때 큰 사고가 나는 위험요인을 찾고 있어요",
+        "건설업 사망사고 유발 SIF 도장작업"
+      ]
+    },
+    {
+      "record_id": "list1_52336",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(철거 및 해체작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "철거 해체 사고",
+        "건설현장에서 철거와 해체 작업 중 사망사고가 나는 위험요인을 알고 싶어요",
+        "건설업 사망사고 유발 SIF 철거 해체작업"
+      ]
+    },
+    {
+      "record_id": "list1_51857",
+      "concat": "[TITLE] (필리핀)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "필리핀 노동자 안전 앱",
+        "필리핀 근로자에게 안전보건 앱을 안내하는 홍보자료를 찾고 있어요",
+        "필리핀 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52340",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(비계작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "비계작업 사망사고",
+        "건설현장에서 비계 작업을 할 때 큰 사고가 나는 위험요인을 알고 싶어요",
+        "건설업 사망사고 유발 SIF 비계작업"
+      ]
+    },
+    {
+      "record_id": "list1_51871",
+      "concat": "[TITLE] (네팔)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "네팔 노동자 안전 앱",
+        "네팔 근로자에게 안전보건 앱을 안내하는 홍보자료를 찾고 있어요",
+        "네팔 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51855",
+      "concat": "[TITLE] (미얀마)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "미얀마 노동자 안전 앱",
+        "미얀마 근로자에게 안전보건 앱을 안내하는 홍보자료를 찾고 있어요",
+        "미얀마 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51854",
+      "concat": "[TITLE] (영어)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "영어 노동자 안전 앱",
+        "영어로 된 외국인노동자 안전보건 앱 안내 자료를 찾고 있어요",
+        "영어 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51856",
+      "concat": "[TITLE] (인도네시아)외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "인도네시아 노동자 안전 앱",
+        "인도네시아 근로자에게 안전보건 앱을 안내하는 홍보자료를 찾고 있어요",
+        "인도네시아 외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51787",
+      "concat": "[TITLE] 중대산업사고 예방 가이드\n[SUMMARY] 중대산업사고 예방 가이드",
+      "query": [
+        "중대산업사고 예방",
+        "큰 산업사고를 막기 위한 사업장 예방 가이드를 찾고 싶어요",
+        "중대산업사고 예방 가이드"
+      ]
+    },
+    {
+      "record_id": "list1_51054",
+      "concat": "[TITLE] [항공 안전] 객실승무원 안전보건교육\n[SUMMARY] [항공 안전] 객실승무원 안전보건교육 OPS",
+      "query": [
+        "승무원 안전보건 교육",
+        "객실승무원이 받아야 하는 항공 안전보건 교육 자료를 찾고 있어요",
+        "항공 안전 객실승무원 안전보건교육 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51055",
+      "concat": "[TITLE] [항공 안전] 항공정비사 안전보건교육 (정비 준비 및 완료)\n[SUMMARY] [항공 안전] 항공정비사 안전보건교육 OPS",
+      "query": [
+        "항공정비사 안전 교육",
+        "항공기 정비를 시작하거나 마칠 때 필요한 안전교육 자료가 필요해요",
+        "항공 안전 항공정비사 안전보건교육 정비 준비 완료 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51056",
+      "concat": "[TITLE] [항공 안전] 항공정비사 안전보건교육 (정비중)\n[SUMMARY] [항공 안전] 항공정비사 안전보건교육 OPS",
+      "query": [
+        "항공정비사 정비중 안전",
+        "항공기 정비 중에 지켜야 할 안전보건 교육 자료를 찾고 있어요",
+        "항공 안전 항공정비사 안전보건교육 정비중 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51057",
+      "concat": "[TITLE] [항공 안전] 재해사례로 보는 항공 지상조업 안전보건교육\n[SUMMARY] [항공 안전] 재해사례로 보는 항공 지상조업 안전보건교육 OPS",
+      "query": [
+        "항공 지상조업 사고",
+        "항공기 지상조업 중 발생한 재해사례로 안전교육 자료를 찾고 있어요",
+        "항공 안전 재해사례 항공 지상조업 안전보건교육 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_51072",
+      "concat": "[TITLE] [항공 안전] 항공 지상조업 안전보건교육\n[SUMMARY] [항공 안전] 항공 지상조업 안전보건교육 OPS",
+      "query": [
+        "항공 지상조업 안전",
+        "항공기 지상조업 작업자를 위한 안전보건 교육 자료가 필요해요",
+        "항공 안전 항공 지상조업 안전보건교육 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52316",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 12. 설비, 구조물 등 높은 장소에서의 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 12. 설비, 구조물 등 높은 장소에서의 작업",
+      "query": [
+        "높은 장소 작업 사고",
+        "제조업에서 설비나 구조물 위에서 작업할 때 사망사고 위험을 알고 싶어요",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 설비 구조물 높은 장소 작업"
+      ]
+    },
+    {
+      "record_id": "list1_51071",
+      "concat": "[TITLE] [항공 안전] 객실승무원 직무스트레스 예방\n[SUMMARY] [항공 안전] 직무스트레스 예방 OPS",
+      "query": [
+        "승무원 직무스트레스",
+        "객실승무원이 업무 스트레스를 예방하는 안전보건 자료를 찾고 있어요",
+        "항공 안전 객실승무원 직무스트레스 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52333",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 11. 상하차 작업 또는 화물이 적재된 장소 주변에서의 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 11. 상하차 작업 또는 화물이 적재된 장소 주변에서의 작업",
+      "query": [
+        "상하차 작업 사고",
+        "화물을 싣고 내리거나 적재 장소 주변에서 일할 때 위험요인을 알고 싶어요",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 상하차 작업 화물 적재 장소 주변 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52314",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 10. 사다리차(이삿짐 운반용 차량) 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 10. 사다리차(이삿짐 운반용 차량) 사용 작업",
+      "query": [
+        "사다리차 작업 사고",
+        "이삿짐 사다리차를 사용할 때 발생할 수 있는 사망사고 위험을 알고 싶어요",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 사다리차 이삿짐 운반용 차량 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52328",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 7. 리프트·승강기 관련 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 7. 리프트·승강기 관련 작업",
+      "query": [
+        "리프트 승강기 사고",
+        "리프트나 승강기 관련 작업을 할 때 생길 수 있는 사망사고 위험을 알고 싶어요",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 리프트 승강기 관련 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52332",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 9. 사다리 사용 작업·통행\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 9. 사다리 사용 작업·통행",
+      "query": [
+        "사다리 작업 사고",
+        "사다리를 사용하거나 오갈 때 생기는 작업장 사고 위험을 알고 싶어요",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 사다리 사용 작업 통행"
+      ]
+    },
+    {
+      "record_id": "list1_52329",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 8. 벌목·조재 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 8. 벌목·조재 작업",
+      "query": [
+        "벌목 작업 사고",
+        "나무를 베거나 조재 작업을 할 때 생기는 사망사고 위험요인을 찾고 있어요",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 벌목 조재 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52326",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 6. 도로청소 등 환경미화 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 6. 도로청소 등 환경미화 작업",
+      "query": [
+        "환경미화 작업 사고",
+        "도로청소 같은 환경미화 작업 중 발생할 수 있는 사망사고 위험을 알고 싶어요",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 도로청소 환경미화 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52312",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 5. 기계식주차설비 정비·점검 등\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 5. 기계식주차설비 정비·점검 등",
+      "query": [
+        "기계식주차설비 정비 사고",
+        "기계식주차설비를 정비하거나 점검할 때 생기는 위험요인을 알고 싶어요",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 기계식주차설비 정비 점검"
+      ]
+    }
+  ]
+}

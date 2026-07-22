@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 72,
+  "items": [
+    {
+      "record_id": "list1_39004",
+      "concat": "[TITLE] 학교 급식실 근로자의 안전보건\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "급식실 안전보건",
+        "학교 급식실에서 일하는 사람 안전수칙 자료",
+        "학교 급식실 근로자 안전보건 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39003",
+      "concat": "[TITLE] 형틀목공의 근골격계질환 예방\n[SUMMARY] 형틀목공의 근골격계질환 예방 안전보건OPL(직종)",
+      "query": [
+        "형틀목공 근골격계",
+        "건설 현장 형틀목공이 몸을 다치지 않게 하는 방법",
+        "형틀목공 근골격계질환 예방 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39001",
+      "concat": "[TITLE] 골프 경기보조원의 근골격계질환 예방\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "골프장 보조원 근골격계",
+        "골프 경기보조원이 어깨나 허리 통증을 예방하는 자료",
+        "골프 경기보조원 근골격계질환 예방 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39000",
+      "concat": "[TITLE] 골프 경기보조원의 직무스트레스 관리\n[SUMMARY] 안전보건OPL(직종) : 골프 경기보조원의 직무스트레스 관리",
+      "query": [
+        "골프 보조원 스트레스",
+        "골프장 경기보조원 직무 스트레스 관리 방법",
+        "골프 경기보조원 직무스트레스 관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_38999",
+      "concat": "[TITLE] 국소진동공구 취급 근로자의 보건관리\n[SUMMARY] 국소진동공구 취급 근로자의 보건관리 : 안전보건OPL(직종)",
+      "query": [
+        "진동공구 건강관리",
+        "진동 공구를 쓰는 근로자 손이나 팔 건강관리 자료",
+        "국소진동공구 취급 근로자 보건관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_38998",
+      "concat": "[TITLE] 농약방제작업 근로자의 안전보건 관리\n[SUMMARY] 농약방제작업시의 농약에 노출된 사고사례와 작업 시 주의사항",
+      "query": [
+        "농약 방제 안전",
+        "농약 뿌리는 작업자가 주의해야 할 안전수칙",
+        "농약방제작업 근로자 안전보건 관리 농약 노출 사고사례 주의사항"
+      ]
+    },
+    {
+      "record_id": "list1_38450",
+      "concat": "[TITLE] [여성근로자의 안전보건] 배달 판매 종사자\n[SUMMARY] [여성근로자의 안전보건] 배달 판매 종사자",
+      "query": [
+        "배달 판매 안전",
+        "여성 배달 판매 종사자에게 필요한 안전보건 자료",
+        "여성근로자 안전보건 배달 판매 종사자"
+      ]
+    },
+    {
+      "record_id": "list1_38453",
+      "concat": "[TITLE] [여성근로자의 안전보건] 매장 판매 종사자\n[SUMMARY] [여성근로자의 안전보건] 매장 판매 종사자",
+      "query": [
+        "매장 판매 안전",
+        "여성 매장 판매원이 일할 때 조심해야 할 안전보건 자료",
+        "여성근로자 안전보건 매장 판매 종사자"
+      ]
+    },
+    {
+      "record_id": "list1_38449",
+      "concat": "[TITLE] [여성근로자의 안전보건] 농업 종사자\n[SUMMARY] [여성근로자의 안전보건] 농업 종사자",
+      "query": [
+        "농업 여성 안전",
+        "농업에 종사하는 여성 근로자를 위한 안전보건 자료",
+        "여성근로자 안전보건 농업 종사자"
+      ]
+    },
+    {
+      "record_id": "list1_38452",
+      "concat": "[TITLE] [여성근로자의 안전보건] 요양보호사\n[SUMMARY] 요양보호사(양로시설 근로자)에 대한 안전보건 관리방안",
+      "query": [
+        "요양보호사 안전",
+        "요양시설에서 일하는 요양보호사 안전보건 관리 방법",
+        "여성근로자 안전보건 요양보호사 양로시설 근로자 안전보건 관리방안"
+      ]
+    },
+    {
+      "record_id": "list1_38448",
+      "concat": "[TITLE] [여성근로자의 안전보건] 간호사\n[SUMMARY] [여성근로자의 안전보건] 간호사의 주요업무, 주요 재해사례별 안전수칙, 감염성 질환 관리, 의료기관 내 폭력 예방 등의 내용을 담음",
+      "query": [
+        "간호사 안전보건",
+        "간호사가 병원에서 감염이나 폭력을 예방하는 안전수칙 자료",
+        "여성근로자 안전보건 간호사 재해사례 안전수칙 감염성 질환 의료기관 폭력 예방"
+      ]
+    },
+    {
+      "record_id": "list1_38447",
+      "concat": "[TITLE] [여성근로자의 안전보건] 텔레마케터\n[SUMMARY] [여성근로자의 안전보건] 텔레마케터",
+      "query": [
+        "텔레마케터 안전",
+        "콜센터 텔레마케터 여성 근로자 안전보건 자료",
+        "여성근로자 안전보건 텔레마케터"
+      ]
+    },
+    {
+      "record_id": "list1_38446",
+      "concat": "[TITLE] [여성근로자의 안전보건] 미용사\n[SUMMARY] [여성근로자의 안전보건] 미용사",
+      "query": [
+        "미용사 안전보건",
+        "미용실에서 일하는 여성 근로자 안전보건 자료",
+        "여성근로자 안전보건 미용사"
+      ]
+    },
+    {
+      "record_id": "list1_39099",
+      "concat": "[TITLE] (인도네시아) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (인도네시아)외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "인도네시아 서비스 안전",
+        "인도네시아 근로자가 보는 서비스업 안전보건 자료",
+        "인도네시아 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39096",
+      "concat": "[TITLE] (우즈베키스탄) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (우즈베키스탄) 외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "우즈베키스탄 서비스 안전",
+        "우즈베키스탄 근로자가 보는 서비스업 안전보건 자료",
+        "우즈베키스탄 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39097",
+      "concat": "[TITLE] (인도네시아) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (인도네시아) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "인도네시아 공통 안전",
+        "인도네시아 근로자가 공통으로 알아야 하는 안전보건 자료",
+        "인도네시아 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39100",
+      "concat": "[TITLE] (파키스탄) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (파키스탄) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "파키스탄 공통 안전",
+        "파키스탄 근로자가 공통으로 알아야 하는 안전보건 자료",
+        "파키스탄 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39098",
+      "concat": "[TITLE] (인도네시아) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (인도네시아) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "인도네시아 제조 안전",
+        "인도네시아 근로자가 보는 제조업 안전보건 자료",
+        "인도네시아 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_38463",
+      "concat": "[TITLE] [장년근로자의 안전보건] 제조관련 단순 종사원\n[SUMMARY] [장년근로자의 안전보건] 제조관련 단순 종사원을 위한 OPL",
+      "query": [
+        "제조 단순직 안전",
+        "나이 많은 제조 단순 종사원을 위한 안전보건 자료",
+        "장년근로자 안전보건 제조관련 단순 종사원 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38464",
+      "concat": "[TITLE] [장년근로자의 안전보건] 미장공\n[SUMMARY] [장년근로자의 안전보건] 미장공",
+      "query": [
+        "미장공 안전보건",
+        "나이 많은 미장공이 현장에서 조심해야 할 안전보건 자료",
+        "장년근로자 안전보건 미장공"
+      ]
+    },
+    {
+      "record_id": "list1_38465",
+      "concat": "[TITLE] [장년근로자의 안전보건] 철골공\n[SUMMARY] [장년근로자의 안전보건] 철골공",
+      "query": [
+        "철골공 안전보건",
+        "나이 많은 철골공을 위한 작업 안전보건 자료",
+        "장년근로자 안전보건 철골공"
+      ]
+    },
+    {
+      "record_id": "list1_38460",
+      "concat": "[TITLE] [장년근로자의 안전보건] 아파트 경비원\n[SUMMARY] [장년근로자의 안전보건] 아파트 경비원",
+      "query": [
+        "아파트 경비원 안전",
+        "나이 많은 아파트 경비원이 일할 때 필요한 안전보건 자료",
+        "장년근로자 안전보건 아파트 경비원"
+      ]
+    },
+    {
+      "record_id": "list1_38467",
+      "concat": "[TITLE] [장년근로자의 안전보건] 형틀목공\n[SUMMARY] 장년근로자의 산업재해 중 건설업이 높은비율을 차지함. 건설업내 직종 중 하나인 형틀목공과 재해사례 소개",
+      "query": [
+        "형틀목공 안전보건",
+        "장년 형틀목공의 건설 현장 재해사례와 안전수칙 자료",
+        "장년근로자 안전보건 형틀목공 건설업 재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_38455",
+      "concat": "[TITLE] [여성근로자의 안전보건] 청소원 및 환경 미화원\n[SUMMARY] [여성근로자의 안전보건] 청소원 및 환경 미화원",
+      "query": [
+        "청소원 안전보건",
+        "여성 청소원과 환경미화원이 조심해야 할 안전보건 자료",
+        "여성근로자 안전보건 청소원 환경 미화원"
+      ]
+    },
+    {
+      "record_id": "list1_38466",
+      "concat": "[TITLE] [장년근로자의 안전보건] 배관공\n[SUMMARY] [장년근로자의 안전보건] 배관공",
+      "query": [
+        "배관공 안전보건",
+        "나이 많은 배관공을 위한 작업 안전보건 자료",
+        "장년근로자 안전보건 배관공"
+      ]
+    },
+    {
+      "record_id": "list1_38459",
+      "concat": "[TITLE] [장년근로자의 안전보건] 용접원\n[SUMMARY] [장년근로자의 안전보건] 용접원",
+      "query": [
+        "용접원 안전보건",
+        "나이 많은 용접원이 일할 때 필요한 안전보건 자료",
+        "장년근로자 안전보건 용접원"
+      ]
+    },
+    {
+      "record_id": "list1_38468",
+      "concat": "[TITLE] [장년근로자의 안전보건] 건설 단순노무자\n[SUMMARY] [장년근로자의 안전보건] 건설 단순노무자",
+      "query": [
+        "건설 노무자 안전",
+        "나이 많은 건설 단순노무자를 위한 안전보건 자료",
+        "장년근로자 안전보건 건설 단순노무자"
+      ]
+    },
+    {
+      "record_id": "list1_38458",
+      "concat": "[TITLE] [장년근로자의 안전보건] 운전원\n[SUMMARY] [장년근로자의 안전보건] 운전원",
+      "query": [
+        "운전원 안전보건",
+        "나이 많은 운전원이 일할 때 필요한 안전보건 자료",
+        "장년근로자 안전보건 운전원"
+      ]
+    },
+    {
+      "record_id": "list1_38456",
+      "concat": "[TITLE] [여성근로자의 안전보건] 주방장 및 조리사\n[SUMMARY] [여성근로자의 안전보건] 주방장 및 조리사",
+      "query": [
+        "주방 조리사 안전",
+        "여성 주방장과 조리사가 일할 때 필요한 안전보건 자료",
+        "여성근로자 안전보건 주방장 조리사"
+      ]
+    },
+    {
+      "record_id": "list1_39061",
+      "concat": "[TITLE] (필리핀) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (필리핀) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "필리핀 제조 안전",
+        "필리핀 근로자가 보는 제조업 안전보건 자료",
+        "필리핀 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    }
+  ]
+}

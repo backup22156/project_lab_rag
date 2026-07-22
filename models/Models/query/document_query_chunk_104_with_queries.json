@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 104,
+  "items": [
+    {
+      "record_id": "list1_31366",
+      "concat": "[TITLE] 광원 및 채석 종사자 - 채석작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "채석 작업 안전",
+        "돌 캐는 작업할 때 위험요인과 안전수칙 자료",
+        "광원 채석 종사자 채석작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31368",
+      "concat": "[TITLE] 금속 가공장치 조작 종사자 - 열처리로 운전\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "열처리로 운전 안전",
+        "금속 열처리 설비를 운전할 때 조심해야 할 점",
+        "금속 가공장치 조작 종사자 열처리로 운전 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31367",
+      "concat": "[TITLE] 금속 가공장치 조작 종사자 - 도금장치 운전\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "도금장치 운전 안전",
+        "금속 도금 설비를 운전할 때 위험요인 자료",
+        "금속 가공장치 조작 종사자 도금장치 운전 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31370",
+      "concat": "[TITLE] 금속완성, 도금 및 도포용 기계조작 종사자 - 용융도금작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "용융도금 작업 안전",
+        "뜨거운 도금 작업할 때 사고 예방 자료",
+        "금속완성 도금 도포용 기계조작 종사자 용융도금작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31371",
+      "concat": "[TITLE] 금속용해 및 압연기 조작 종사자 - 금속압연작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "금속 압연 안전",
+        "철이나 금속을 압연기로 누르는 작업 안전수칙",
+        "금속용해 압연기 조작 종사자 금속압연작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31369",
+      "concat": "[TITLE] 금속, 기계 및 관련기능 종사자 - 구조물 제작, 설치작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "구조물 설치 안전",
+        "금속 구조물을 만들고 설치할 때 필요한 안전 자료",
+        "금속 기계 관련기능 종사자 구조물 제작 설치작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31423",
+      "concat": "[TITLE] 철도차량 정비 종사자 - 차량정비작업 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "철도차량 정비 안전",
+        "기차 차량을 정비할 때 사고를 막는 방법",
+        "철도차량 정비 종사자 차량정비작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31422",
+      "concat": "[TITLE] 철도차량 정비 종사자 - 차량정비작업 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "철도차량 정비 안전",
+        "기차 차량을 정비할 때 사고를 막는 방법",
+        "철도차량 정비 종사자 차량정비작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31419",
+      "concat": "[TITLE] 종이 제조장치 조작 종사자 - 캇타작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "종이 컷터 작업",
+        "종이 제조 현장에서 자르는 기계를 쓸 때 안전수칙",
+        "종이 제조장치 조작 종사자 캇타작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31420",
+      "concat": "[TITLE] 채광장치, 광석 및 석재가공장치 조작 종사자 - 광석 및 석재 가공장치\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "광석 석재 가공",
+        "광석이나 돌을 가공하는 장치를 다룰 때 안전 자료",
+        "채광장치 광석 석재가공장치 조작 종사자 광석 석재 가공장치 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31418",
+      "concat": "[TITLE] 정밀기구 제조 및 수리 종사자 - 치과기공작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "치과기공 작업 안전",
+        "치과 보철물 만드는 작업의 위험요인과 안전수칙",
+        "정밀기구 제조 수리 종사자 치과기공작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31421",
+      "concat": "[TITLE] 채광장치, 광석 및 석재가공장치 조작 종사자 - 채광장치 조작\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "채광장치 조작",
+        "광산에서 채광 장치를 운전할 때 필요한 안전 자료",
+        "채광장치 광석 석재가공장치 조작 종사자 채광장치 조작 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31414",
+      "concat": "[TITLE] 전기,전자장비 설치 및 정비 종사자 - 장비설치 및 정비작업 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "전기장비 정비 안전",
+        "전기 전자 장비를 설치하거나 고칠 때 안전수칙",
+        "전기 전자장비 설치 정비 종사자 장비설치 정비작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31416",
+      "concat": "[TITLE] 점화 및 발파종사자 - 점화 및 발파작업 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "발파 작업 안전",
+        "폭약을 점화하고 발파하는 작업의 위험요인 자료",
+        "점화 발파종사자 점화 발파작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31415",
+      "concat": "[TITLE] 점화 및 발파종사자 - 점화 및 발파작업 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "발파 작업 안전",
+        "폭약을 점화하고 발파하는 작업의 위험요인 자료",
+        "점화 발파종사자 점화 발파작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31413",
+      "concat": "[TITLE] 전기,전자장비 설치 및 정비 종사자 - 장비설치 및 정비작업 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "전기장비 정비 안전",
+        "전기 전자 장비를 설치하거나 고칠 때 안전수칙",
+        "전기 전자장비 설치 정비 종사자 장비설치 정비작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31417",
+      "concat": "[TITLE] 정밀기구 제조 및 수리 종사자 - 정밀금형 가공작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "정밀금형 가공 안전",
+        "정밀 금형을 가공할 때 사고 예방 자료",
+        "정밀기구 제조 수리 종사자 정밀금형 가공작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31372",
+      "concat": "[TITLE] 금속용해 및 압연기 조작 종사자 - 금속용해작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "금속 용해 안전",
+        "금속을 녹이는 작업할 때 위험요인과 안전수칙",
+        "금속용해 압연기 조작 종사자 금속용해작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31400",
+      "concat": "[TITLE] 신발제조 및 관련기계 조작 종사자 - 배합공정\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "신발 배합 공정",
+        "신발 공장에서 재료를 섞는 공정 안전 자료",
+        "신발제조 관련기계 조작 종사자 배합공정 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31373",
+      "concat": "[TITLE] 금속주형, 용접 및 관련 기능 종사자 - 주형제작 및 주조작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "주조 작업 안전",
+        "금속 주형을 만들고 주조할 때 필요한 안전수칙",
+        "금속주형 용접 관련 기능 종사자 주형제작 주조작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31375",
+      "concat": "[TITLE] 기계 조작원 및 관련 종사자 - 판금작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "판금 작업 안전",
+        "얇은 금속판을 자르고 접는 작업 안전 자료",
+        "기계 조작원 관련 종사자 판금작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31374",
+      "concat": "[TITLE] 기계 조작원 및 관련 종사자 - 차량도장기 조작\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "차량도장기 안전",
+        "자동차 도장 장비를 조작할 때 사고 예방 자료",
+        "기계 조작원 관련 종사자 차량도장기 조작 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31397",
+      "concat": "[TITLE] 시멘트 및 광물제품용 기계 조작 종사자 - 기계설비 정비작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "기계설비 정비 안전",
+        "시멘트 공장 기계설비를 정비할 때 필요한 안전수칙",
+        "시멘트 광물제품용 기계 조작 종사자 기계설비 정비작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31399",
+      "concat": "[TITLE] 신발제조 및 관련기계 조작 종사자 - 고무성형 프레스\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "고무 프레스 안전",
+        "신발 제조에서 고무를 프레스로 성형할 때 안전 자료",
+        "신발제조 관련기계 조작 종사자 고무성형 프레스 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31398",
+      "concat": "[TITLE] 시멘트 및 광물제품용 기계 조작 종사자 - 벨트 컨베이어 작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "벨트 컨베이어 안전",
+        "시멘트 공장에서 컨베이어로 운반할 때 사고 예방 자료",
+        "시멘트 광물제품용 기계 조작 종사자 벨트 컨베이어 작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31427",
+      "concat": "[TITLE] 항공기 조종사 및 기술종사자 - 항공유 취급작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "항공유 취급 안전",
+        "항공기 연료를 다룰 때 화재나 사고 예방 자료",
+        "항공기 조종사 기술종사자 항공유 취급작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31428",
+      "concat": "[TITLE] 화물열차 차장, 신호 및 수송 종사자 - 입환작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "입환 작업 안전",
+        "화물열차를 연결하거나 옮기는 작업 안전수칙",
+        "화물열차 차장 신호 수송 종사자 입환작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31426",
+      "concat": "[TITLE] 항공기 조종사 및 기술종사자 - 항공기 정비작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "항공기 정비 안전",
+        "비행기를 점검하고 정비할 때 필요한 안전 자료",
+        "항공기 조종사 기술종사자 항공기 정비작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31425",
+      "concat": "[TITLE] 콘크리트 타설원, 완성원 및 관련 종사자 - 콘크리트 타설작업 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "콘크리트 타설 안전",
+        "콘크리트를 붓는 작업할 때 사고 예방 자료",
+        "콘크리트 타설원 완성원 관련 종사자 콘크리트 타설작업 직종별 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31424",
+      "concat": "[TITLE] 콘크리트 타설원, 완성원 및 관련 종사자 - 콘크리트 타설작업 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "콘크리트 타설 안전",
+        "콘크리트를 붓는 작업할 때 사고 예방 자료",
+        "콘크리트 타설원 완성원 관련 종사자 콘크리트 타설작업 직종별 OPL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 15,
+  "items": [
+    {
+      "record_id": "list1_50470",
+      "concat": "[TITLE] (인도네시아)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 높은 곳 사고",
+        "인도네시아 관련 높은 곳에서 작업할 때 사망사고 위험요인을 알려주는 자료",
+        "인도네시아 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50471",
+      "concat": "[TITLE] (필리핀)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 높은 곳 사고",
+        "필리핀 관련 높은 곳에서 작업할 때 사망사고 위험요인을 알려주는 자료",
+        "필리핀 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50472",
+      "concat": "[TITLE] (캄보디아)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 높은 곳 사고",
+        "캄보디아 관련 높은 곳에서 작업할 때 사망사고 위험요인을 알려주는 자료",
+        "캄보디아 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50475",
+      "concat": "[TITLE] (키르기스스탄)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 높은 곳 사고",
+        "키르기스스탄 관련 높은 곳에서 작업할 때 사망사고 위험요인을 알려주는 자료",
+        "키르기스스탄 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50478",
+      "concat": "[TITLE] (스리랑카)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 이동 운반 사고",
+        "스리랑카 관련 작업장 이동이나 인력운반 중 사망사고 위험요인을 찾는 자료",
+        "스리랑카 작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50473",
+      "concat": "[TITLE] (태국)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 높은 곳 사고",
+        "태국 관련 높은 곳에서 작업할 때 사망사고 위험요인을 알려주는 자료",
+        "태국 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50476",
+      "concat": "[TITLE] (네팔)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 이동 운반 사고",
+        "네팔 관련 작업장 이동이나 인력운반 중 사망사고 위험요인을 찾는 자료",
+        "네팔 작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50477",
+      "concat": "[TITLE] (동티모르)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 이동 운반 사고",
+        "동티모르 관련 작업장 이동이나 인력운반 중 사망사고 위험요인을 찾는 자료",
+        "동티모르 작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50479",
+      "concat": "[TITLE] (인도네시아)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 이동 운반 사고",
+        "인도네시아 관련 작업장 이동이나 인력운반 중 사망사고 위험요인을 찾는 자료",
+        "인도네시아 작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50480",
+      "concat": "[TITLE] (캄보디아)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 정비보수 사고",
+        "캄보디아 관련 정비나 보수처럼 평소와 다른 작업의 사망사고 위험요인 자료",
+        "캄보디아 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50481",
+      "concat": "[TITLE] (파키스탄)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 정비보수 사고",
+        "파키스탄 관련 정비나 보수처럼 평소와 다른 작업의 사망사고 위험요인 자료",
+        "파키스탄 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50482",
+      "concat": "[TITLE] (라오스)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 정비보수 사고",
+        "라오스 관련 정비나 보수처럼 평소와 다른 작업의 사망사고 위험요인 자료",
+        "라오스 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50484",
+      "concat": "[TITLE] (베트남)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 정비보수 사고",
+        "베트남 관련 정비나 보수처럼 평소와 다른 작업의 사망사고 위험요인 자료",
+        "베트남 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50483",
+      "concat": "[TITLE] (태국)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 정비보수 사고",
+        "태국 관련 정비나 보수처럼 평소와 다른 작업의 사망사고 위험요인 자료",
+        "태국 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50486",
+      "concat": "[TITLE] (중국)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 정비보수 사고",
+        "중국 관련 정비나 보수처럼 평소와 다른 작업의 사망사고 위험요인 자료",
+        "중국 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50487",
+      "concat": "[TITLE] (방글라데시)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "방글라데시 정비보수 사고",
+        "방글라데시 관련 정비나 보수처럼 평소와 다른 작업의 사망사고 위험요인 자료",
+        "방글라데시 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50488",
+      "concat": "[TITLE] (네팔)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 청소 작업 사고",
+        "네팔 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "네팔 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50485",
+      "concat": "[TITLE] (몽골)비정형 작업(정비보수) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "몽골 정비보수 사고",
+        "몽골 관련 정비나 보수처럼 평소와 다른 작업의 사망사고 위험요인 자료",
+        "몽골 비정형 작업 정비보수 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50489",
+      "concat": "[TITLE] (미얀마)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 청소 작업 사고",
+        "미얀마 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "미얀마 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50490",
+      "concat": "[TITLE] (스리랑카)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 청소 작업 사고",
+        "스리랑카 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "스리랑카 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50493",
+      "concat": "[TITLE] (파키스탄)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 청소 작업 사고",
+        "파키스탄 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "파키스탄 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50492",
+      "concat": "[TITLE] (필리핀)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 청소 작업 사고",
+        "필리핀 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "필리핀 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50491",
+      "concat": "[TITLE] (인도네시아)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 청소 작업 사고",
+        "인도네시아 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "인도네시아 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50495",
+      "concat": "[TITLE] (우즈베키스탄)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 청소 작업 사고",
+        "우즈베키스탄 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "우즈베키스탄 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50496",
+      "concat": "[TITLE] (태국)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 청소 작업 사고",
+        "태국 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "태국 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50494",
+      "concat": "[TITLE] (라오스)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 청소 작업 사고",
+        "라오스 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "라오스 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50497",
+      "concat": "[TITLE] (베트남)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 청소 작업 사고",
+        "베트남 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "베트남 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50498",
+      "concat": "[TITLE] (몽골)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "몽골 청소 작업 사고",
+        "몽골 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "몽골 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50499",
+      "concat": "[TITLE] (중국)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 청소 작업 사고",
+        "중국 관련 청소처럼 평소와 다른 작업 중 사망사고 위험요인을 설명한 자료",
+        "중국 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50501",
+      "concat": "[TITLE] (동티모르)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 높은 곳 사고",
+        "동티모르 관련 높은 곳에서 작업할 때 사망사고 위험요인을 알려주는 자료",
+        "동티모르 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    }
+  ]
+}

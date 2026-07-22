@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 54,
+  "items": [
+    {
+      "record_id": "list1_41264",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "파키스탄 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 파키스탄 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41610",
+      "concat": "[TITLE] (OPL-중국) 지붕 샌드위치 패널 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "샌드위치 패널 추락",
+        "중국 근로자용 지붕 샌드위치 패널 설치 중 추락 사고 예방 자료",
+        "안전보건 OPL 중국 지붕 샌드위치 패널 설치 떨어짐 국내 체류 외국인 중국 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41262",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 키르키스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "키르키스스탄 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 키르키스스탄 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41263",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 태국 근로자를 위한 안전보건 OPL, 어두운 장소에서 지게차 후진 중 끼이는 재해에 대한 설명과 재해사례를 담음",
+      "query": [
+        "지게차 후진 끼임",
+        "태국 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 태국 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41245",
+      "concat": "[TITLE] (OPL) 지게차 운반 중 합판 묶음이 떨어져 깔림\n[SUMMARY] 국내 체류 외국인인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "합판 묶음 깔림",
+        "캄보디아 근로자용 지게차 합판 묶음 운반 중 깔림 사고 예방 자료",
+        "안전보건 OPL 지게차 운반 합판 묶음 떨어짐 깔림 국내 체류 외국인 캄보디아 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41244",
+      "concat": "[TITLE] (OPL) 지게차 운반 중 합판 묶음이 떨어져 깔림\n[SUMMARY] 국내 체류 외국인인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "합판 묶음 깔림",
+        "중국 근로자용 지게차 합판 묶음 운반 중 깔림 사고 예방 자료",
+        "안전보건 OPL 지게차 운반 합판 묶음 떨어짐 깔림 국내 체류 외국인 중국 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41247",
+      "concat": "[TITLE] (OPL) 지게차 운반 중 합판 묶음이 떨어져 깔림\n[SUMMARY] 국내 체류 외국인인 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "합판 묶음 깔림",
+        "태국 근로자용 지게차 합판 묶음 운반 중 깔림 사고 예방 자료",
+        "안전보건 OPL 지게차 운반 합판 묶음 떨어짐 깔림 국내 체류 외국인 태국 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41246",
+      "concat": "[TITLE] (OPL) 지게차 운반 중 합판 묶음이 떨어져 깔림\n[SUMMARY] 국내 체류 외국인인 키르키스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "합판 묶음 깔림",
+        "키르키스스탄 근로자용 지게차 합판 묶음 운반 중 깔림 사고 예방 자료",
+        "안전보건 OPL 지게차 운반 합판 묶음 떨어짐 깔림 국내 체류 외국인 키르키스스탄 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41249",
+      "concat": "[TITLE] (OPL) 지게차 운반 중 합판 묶음이 떨어져 깔림\n[SUMMARY] 국내 체류 외국인인 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "합판 묶음 깔림",
+        "필리핀 근로자용 지게차 합판 묶음 운반 중 깔림 사고 예방 자료",
+        "안전보건 OPL 지게차 운반 합판 묶음 떨어짐 깔림 국내 체류 외국인 필리핀 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41250",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 네팔 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "네팔 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 네팔 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41248",
+      "concat": "[TITLE] (OPL) 지게차 운반 중 합판 묶음이 떨어져 깔림\n[SUMMARY] 국내 체류 외국인인 파키스탄 근로자를 위한 안전보건 OPL, 지게차 운반 중 합판 묶음이 떨어져 깔리는 재해에 대한 설명과 재해사례를 담음",
+      "query": [
+        "합판 묶음 깔림",
+        "파키스탄 근로자용 지게차 합판 묶음 운반 중 깔림 사고 예방 자료",
+        "안전보건 OPL 지게차 운반 합판 묶음 떨어짐 깔림 국내 체류 외국인 파키스탄 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41251",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 동티모르 지게차 작업 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "동티모르 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 동티모르 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41253",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 몽골 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "몽골 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 몽골 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41252",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "라오스 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 라오스 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41255",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "방글라데시 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 방글라데시 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41254",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "미얀마 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 미얀마 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41256",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "베트남 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 베트남 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41257",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "스리랑카 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 스리랑카 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41258",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "우즈베키스탄 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 우즈베키스탄 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41259",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "인도네시아 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 인도네시아 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41261",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "캄보디아 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 캄보디아 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41260",
+      "concat": "[TITLE] (OPL) 어두운 장소에서 지게차 후진 중 끼임\n[SUMMARY] 국내 체류 외국인인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "지게차 후진 끼임",
+        "중국 근로자가 볼 수 있는 어두운 곳 지게차 후진 끼임 사고 예방 자료",
+        "안전보건 OPL 어두운 장소 지게차 후진 끼임 국내 체류 외국인 중국 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41180",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "중국 근로자용 클램프 탈락으로 철 구조물에 맞는 사고 예방 자료",
+        "안전보건 OPL 클램프 탈락 철 구조물 맞음 국내 체류 외국인 중국 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41181",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "캄보디아 근로자용 클램프 탈락으로 철 구조물에 맞는 사고 예방 자료",
+        "안전보건 OPL 클램프 탈락 철 구조물 맞음 국내 체류 외국인 캄보디아 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_41179",
+      "concat": "[TITLE] (OPL) 클램프 탈락으로 떨어진 철 구조물에 맞음\n[SUMMARY] 국내 체류 외국인 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "클램프 철 구조물",
+        "인도네시아 근로자용 클램프 탈락으로 철 구조물에 맞는 사고 예방 자료",
+        "안전보건 OPL 클램프 탈락 철 구조물 맞음 국내 체류 외국인 인도네시아 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_40901",
+      "concat": "[TITLE] (OPL) 발판에 걸린 자재 인양함을 빼내던 중 작업발판에서 떨어짐\n[SUMMARY] 국내 체류 라오스 근로자를 위한 안전보건OPL",
+      "query": [
+        "자재 인양함 추락",
+        "라오스 근로자용 자재 인양함을 빼내다 작업발판에서 떨어진 사고 예방 자료",
+        "안전보건 OPL 발판 자재 인양함 작업발판 떨어짐 국내 체류 라오스 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_40902",
+      "concat": "[TITLE] (OPL) 발판에 걸린 자재 인양함을 빼내던 중 작업발판에서 떨어짐\n[SUMMARY] 국내 체류 몽골 근로자를 위한 안전보건OPL",
+      "query": [
+        "자재 인양함 추락",
+        "몽골 근로자용 자재 인양함을 빼내다 작업발판에서 떨어진 사고 예방 자료",
+        "안전보건 OPL 발판 자재 인양함 작업발판 떨어짐 국내 체류 몽골 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_40900",
+      "concat": "[TITLE] (OPL) 발판에 걸린 자재 인양함을 빼내던 중 작업발판에서 떨어짐\n[SUMMARY] 국내 체류 동티모르 근로자를 위한 안전보건OPL",
+      "query": [
+        "자재 인양함 추락",
+        "동티모르 근로자용 자재 인양함을 빼내다 작업발판에서 떨어진 사고 예방 자료",
+        "안전보건 OPL 발판 자재 인양함 작업발판 떨어짐 국내 체류 동티모르 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_40894",
+      "concat": "[TITLE] (OPL) 외부 비계위에서 방수작업 중 떨어짐\n[SUMMARY] 국내 체류 캄보디아 근로자를 위한 안전보건OPL : 외부 비계위에서 방수작업 중 떨어짐 사례",
+      "query": [
+        "비계 방수 추락",
+        "캄보디아 근로자용 외부 비계 방수작업 중 추락 사고 예방 자료",
+        "안전보건 OPL 외부 비계 방수작업 떨어짐 국내 체류 캄보디아 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_40886",
+      "concat": "[TITLE] (OPL) 외부 비계위에서 방수작업 중 떨어짐\n[SUMMARY] 국내 체류 몽골 근로자를 위한 안전보건OPL",
+      "query": [
+        "비계 방수 추락",
+        "몽골 근로자용 외부 비계 방수작업 중 추락 사고 예방 자료",
+        "안전보건 OPL 외부 비계 방수작업 떨어짐 국내 체류 몽골 근로자"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 34,
+  "items": [
+    {
+      "record_id": "list1_45872",
+      "concat": "[TITLE] 요양보호사 기본 안전 수칙\n[SUMMARY] 요양보호사 기본 안전 수칙",
+      "query": [
+        "요양보호사 안전수칙",
+        "요양보호사가 일할 때 지켜야 할 기본 안전수칙 자료",
+        "요양보호사 기본 안전 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_45856",
+      "concat": "[TITLE] [조선업] CO2 용접 안전작업 가이드(20개언어,국문)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "조선소 용접 안전",
+        "조선업 현장에서 CO2 용접할 때 안전하게 작업하는 방법",
+        "조선업 CO2 용접 안전작업 가이드 20개언어 국문"
+      ]
+    },
+    {
+      "record_id": "list1_45853",
+      "concat": "[TITLE] [조선업] 벨트슬링 안전작업 가이드(20개언어,국문)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "벨트슬링 안전",
+        "조선소에서 벨트슬링을 쓸 때 주의해야 할 안전수칙",
+        "조선업 벨트슬링 안전작업 가이드 20개언어 국문"
+      ]
+    },
+    {
+      "record_id": "list1_45852",
+      "concat": "[TITLE] [조선업] 와이어로프 사용 및 폐기 결정 가이드(20개언어,국문)\n[SUMMARY] [국문, 20개언어] 신규 외국인 근로자 재해예방을 위해 한국조선해양플랜트협회와 공동개발한 조선업 현장교육용 콘텐츠(OPS)",
+      "query": [
+        "와이어로프 폐기",
+        "조선소에서 와이어로프를 언제 사용하고 폐기해야 하는지 알려주는 자료",
+        "조선업 와이어로프 사용 폐기 결정 가이드 20개언어 국문"
+      ]
+    },
+    {
+      "record_id": "list1_45778",
+      "concat": "[TITLE] [근로자용] 연삭기 작업안전\n[SUMMARY] 위험기계·기구(연삭기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "연삭기 안전",
+        "근로자가 연삭기 작업할 때 사고를 막는 안전수칙 자료",
+        "근로자용 연삭기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45871",
+      "concat": "[TITLE] 조경작업 기본 안전 수칙\n[SUMMARY] 조경작업 기본 안전 수칙",
+      "query": [
+        "조경작업 안전수칙",
+        "조경 작업할 때 기본적으로 지켜야 할 안전수칙 자료",
+        "조경작업 기본 안전 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_45870",
+      "concat": "[TITLE] 보육종사원 기본 안전 수칙\n[SUMMARY] 보육종사원 기본 안전 수칙",
+      "query": [
+        "보육종사원 안전수칙",
+        "어린이집이나 보육 현장에서 일하는 사람이 지켜야 할 안전수칙",
+        "보육종사원 기본 안전 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_45775",
+      "concat": "[TITLE] [관리자용] 포장기 작업안전\n[SUMMARY] 위험기계·기구(포장기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "포장기 안전 관리자",
+        "관리자가 포장기 작업 안전을 점검할 때 볼 자료",
+        "관리자용 포장기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45776",
+      "concat": "[TITLE] [근로자용] 포장기 작업안전\n[SUMMARY] 위험기계·기구(포장기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "포장기 안전",
+        "근로자가 포장기 작업할 때 지켜야 할 안전수칙 자료",
+        "근로자용 포장기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45777",
+      "concat": "[TITLE] [관리자용] 연삭기 작업안전\n[SUMMARY] 위험기계·기구(연삭기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "연삭기 안전 관리자",
+        "관리자가 연삭기 작업 안전을 관리할 때 필요한 자료",
+        "관리자용 연삭기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45773",
+      "concat": "[TITLE] [관리자용] 연마/광택기 작업안전\n[SUMMARY] 위험기계·기구(연마/광택기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "연마 광택기 안전",
+        "관리자가 연마기나 광택기 작업 안전을 확인할 때 쓰는 자료",
+        "관리자용 연마 광택기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45774",
+      "concat": "[TITLE] [근로자용] 연마/광택기 작업안전\n[SUMMARY] 위험기계·기구(연마/광택기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "연마 광택기 안전",
+        "근로자가 연마기나 광택기 작업할 때 지켜야 할 안전수칙",
+        "근로자용 연마 광택기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45772",
+      "concat": "[TITLE] [근로자용] 식품제조용 분쇄기 작업안전\n[SUMMARY] 위험기계·기구(식품제조용 분쇄기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "식품 분쇄기 안전",
+        "식품 제조용 분쇄기를 작업자가 안전하게 쓰는 방법",
+        "근로자용 식품제조용 분쇄기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45771",
+      "concat": "[TITLE] [관리자용] 식품제조용 분쇄기 작업안전\n[SUMMARY] 위험기계·기구(식품제조용 분쇄기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "식품 분쇄기 관리자",
+        "관리자가 식품 제조용 분쇄기 작업 안전을 관리할 때 필요한 자료",
+        "관리자용 식품제조용 분쇄기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45770",
+      "concat": "[TITLE] [근로자용] 밀링기계 작업안전\n[SUMMARY] 위험기계·기구(밀링기계) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "밀링기계 안전",
+        "근로자가 밀링기계를 사용할 때 사고를 예방하는 안전수칙",
+        "근로자용 밀링기계 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45767",
+      "concat": "[TITLE] [관리자용] 예초기계 작업안전\n[SUMMARY] 위험기계·기구(예초기계) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "예초기계 안전 관리자",
+        "관리자가 예초기계 작업 안전을 점검할 때 볼 자료",
+        "관리자용 예초기계 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45768",
+      "concat": "[TITLE] [근로자용] 예초기계 작업안전\n[SUMMARY] 위험기계·기구(예초기계) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "예초기계 안전",
+        "근로자가 예초기계로 작업할 때 지켜야 할 안전수칙",
+        "근로자용 예초기계 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45769",
+      "concat": "[TITLE] [관리자용] 밀링기계 작업안전\n[SUMMARY] 위험기계·기구(밀링기계) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "밀링기계 관리자",
+        "관리자가 밀링기계 작업 안전을 관리할 때 필요한 자료",
+        "관리자용 밀링기계 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45869",
+      "concat": "[TITLE] 청소, 건물 관리 기본 안전 수칙\n[SUMMARY] 청소, 건물 관리 기본 안전 수칙",
+      "query": [
+        "청소 건물관리 안전",
+        "청소나 건물 관리 업무를 할 때 기본적으로 지켜야 할 안전수칙",
+        "청소 건물 관리 기본 안전 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_45868",
+      "concat": "[TITLE] 급식종사원 기본 안전 수칙\n[SUMMARY] 급식종사원 기본 안전 수칙",
+      "query": [
+        "급식종사원 안전수칙",
+        "급식실에서 일하는 사람이 지켜야 할 기본 안전수칙 자료",
+        "급식종사원 기본 안전 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_45789",
+      "concat": "[TITLE] [근로자용] 곤돌라 작업안전\n[SUMMARY] 위험기계·기구(곤돌라) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "곤돌라 안전",
+        "근로자가 곤돌라 작업을 할 때 사고를 예방하는 안전수칙",
+        "근로자용 곤돌라 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45788",
+      "concat": "[TITLE] [관리자용] 곤돌라 작업안전\n[SUMMARY] 위험기계·기구(곤돌라) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "곤돌라 안전 관리자",
+        "관리자가 곤돌라 작업 안전을 점검할 때 필요한 자료",
+        "관리자용 곤돌라 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45787",
+      "concat": "[TITLE] [근로자용] 원심기 작업안전\n[SUMMARY] 위험기계·기구(원심기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "원심기 안전",
+        "근로자가 원심기 작업할 때 지켜야 할 안전수칙 자료",
+        "근로자용 원심기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45785",
+      "concat": "[TITLE] [근로자용] 전단기 작업안전\n[SUMMARY] 위험기계·기구(전단기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "전단기 안전",
+        "근로자가 전단기 작업할 때 손상 사고를 막는 안전수칙",
+        "근로자용 전단기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45783",
+      "concat": "[TITLE] [근로자용] 압력용기 작업안전\n[SUMMARY] 위험기계·기구(압력용기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "압력용기 안전",
+        "근로자가 압력용기 작업할 때 사고를 예방하는 안전수칙",
+        "근로자용 압력용기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45786",
+      "concat": "[TITLE] [관리자용] 원심기 작업안전\n[SUMMARY] 위험기계·기구(원심기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "원심기 안전 관리자",
+        "관리자가 원심기 작업 안전을 관리할 때 보는 자료",
+        "관리자용 원심기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45784",
+      "concat": "[TITLE] [관리자용] 전단기 작업안전\n[SUMMARY] 위험기계·기구(전단기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "전단기 안전 관리자",
+        "관리자가 전단기 작업 안전을 점검할 때 필요한 자료",
+        "관리자용 전단기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45782",
+      "concat": "[TITLE] [관리자용] 압력용기 작업안전\n[SUMMARY] 위험기계·기구(압력용기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "압력용기 관리자",
+        "관리자가 압력용기 작업 안전을 관리할 때 필요한 자료",
+        "관리자용 압력용기 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45781",
+      "concat": "[TITLE] [근로자용] 프레스 작업안전\n[SUMMARY] 위험기계·기구(프레스) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "프레스 안전",
+        "근로자가 프레스 작업할 때 끼임 사고를 막는 안전수칙 자료",
+        "근로자용 프레스 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_45780",
+      "concat": "[TITLE] [관리자용] 프레스 작업안전\n[SUMMARY] 위험기계·기구(프레스) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "프레스 안전 관리자",
+        "관리자가 프레스 작업 안전을 점검할 때 쓰는 자료",
+        "관리자용 프레스 작업안전"
+      ]
+    }
+  ]
+}

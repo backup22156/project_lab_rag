@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 107,
+  "items": [
+    {
+      "record_id": "list1_31453",
+      "concat": "[TITLE] [직업건강]수근관증후군 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "손목 저림 예방",
+        "일하다 손목이 저리고 아플 때 예방하는 방법",
+        "직업건강 수근관증후군 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31474",
+      "concat": "[TITLE] [직업건강]청력보존 프로그램\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "소음 청력 보호",
+        "시끄러운 작업장에서 귀 건강 지키는 방법",
+        "직업건강 청력보존 프로그램"
+      ]
+    },
+    {
+      "record_id": "list1_31452",
+      "concat": "[TITLE] [직업건강]사무실에서의 건강장해예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "사무실 건강 예방",
+        "사무실에서 오래 일할 때 생기는 건강 문제 예방",
+        "직업건강 사무실 건강장해예방"
+      ]
+    },
+    {
+      "record_id": "list1_31455",
+      "concat": "[TITLE] [직업건강]올바른 중량물 취급\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "무거운 물건 들기",
+        "무거운 짐을 안전하게 들고 옮기는 방법",
+        "직업건강 올바른 중량물 취급"
+      ]
+    },
+    {
+      "record_id": "list1_31458",
+      "concat": "[TITLE] [직업건강]건강을 지키는 식습관\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "직장인 식습관 건강",
+        "일하면서 건강하게 먹는 생활 습관 자료",
+        "직업건강 건강을 지키는 식습관"
+      ]
+    },
+    {
+      "record_id": "list1_31454",
+      "concat": "[TITLE] [직업건강]올바른 수공구 취급\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "수공구 안전 사용",
+        "작업장에서 손공구를 안전하게 다루는 방법",
+        "직업건강 올바른 수공구 취급"
+      ]
+    },
+    {
+      "record_id": "list1_31456",
+      "concat": "[TITLE] [직업건강]인간공학적 작업장 개선\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "작업장 자세 개선",
+        "몸에 무리가 덜 가게 작업장을 고치는 방법",
+        "직업건강 인간공학적 작업장 개선"
+      ]
+    },
+    {
+      "record_id": "list1_31457",
+      "concat": "[TITLE] [직업건강]VDT증후군 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "컴퓨터 작업 눈 피로",
+        "컴퓨터 오래 사용할 때 생기는 증상 예방 방법",
+        "직업건강 VDT증후군 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31459",
+      "concat": "[TITLE] [직업건강]근로자 건강진단제도\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "근로자 건강검진",
+        "회사에서 받는 근로자 건강진단 제도 설명",
+        "직업건강 근로자 건강진단제도"
+      ]
+    },
+    {
+      "record_id": "list1_31460",
+      "concat": "[TITLE] [직업건강]뇌심혈관질환 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "심혈관질환 예방 직장",
+        "일터에서 뇌졸중이나 심장질환을 예방하는 방법",
+        "직업건강 뇌심혈관질환 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31461",
+      "concat": "[TITLE] [직업건강]일터에서의 금연\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "직장 금연 방법",
+        "회사에서 담배를 줄이고 끊는 데 도움 되는 자료",
+        "직업건강 일터에서의 금연"
+      ]
+    },
+    {
+      "record_id": "list1_31462",
+      "concat": "[TITLE] [직업건강]일터에서의 스트레칭\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "직장 스트레칭",
+        "일하는 중에 할 수 있는 간단한 스트레칭 방법",
+        "직업건강 일터에서의 스트레칭"
+      ]
+    },
+    {
+      "record_id": "list1_31146",
+      "concat": "[TITLE] [중대재해사례]용해로 고철장입 작업 중 수증기 폭발\n[SUMMARY] [중대재해사례]용해로 고철장입 작업 중 수증기 폭발",
+      "query": [
+        "용해로 수증기 폭발",
+        "고철을 용해로에 넣다가 수증기 폭발이 난 사고 사례",
+        "중대재해사례 용해로 고철장입 작업 수증기 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_31147",
+      "concat": "[TITLE] [중대재해사례]조형기 정비작업 중 기계작동으로 협착\n[SUMMARY] [중대재해사례]조형기 정비작업 중 기계작동으로 협착",
+      "query": [
+        "조형기 정비 협착",
+        "조형기를 고치던 중 기계가 움직여 끼인 사고 사례",
+        "중대재해사례 조형기 정비작업 기계작동 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31148",
+      "concat": "[TITLE] [중대재해사례]크레인으로 롤 운반 중 충돌.협착\n[SUMMARY] [중대재해사례]크레인으로 롤 운반 중 충돌.협착",
+      "query": [
+        "크레인 롤 운반 사고",
+        "크레인으로 롤을 옮기다가 부딪히고 끼인 사고 사례",
+        "중대재해사례 크레인 롤 운반 충돌 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31145",
+      "concat": "[TITLE] [중대재해사례]조합기 청소작업 중 협착\n[SUMMARY] [중대재해사례]조합기 청소작업 중 협착",
+      "query": [
+        "조합기 청소 협착",
+        "조합기 청소를 하다가 기계에 끼인 사고 사례",
+        "중대재해사례 조합기 청소작업 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31143",
+      "concat": "[TITLE] [중대재해사례]섬유찌꺼기 제거작업 중 환봉에 충돌\n[SUMMARY] [중대재해사례]섬유찌꺼기 제거작업 중 환봉에 충돌",
+      "query": [
+        "섬유찌꺼기 제거 사고",
+        "섬유 찌꺼기를 치우다가 환봉에 부딪힌 사고 사례",
+        "중대재해사례 섬유찌꺼기 제거작업 환봉 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_31144",
+      "concat": "[TITLE] [중대재해사례]원심탈수기 작업 중 누전으로 감전\n[SUMMARY] [중대재해사례]원심탈수기 작업 중 누전으로 감전",
+      "query": [
+        "원심탈수기 감전 사고",
+        "원심탈수기 작업 중 누전으로 감전된 사고 사례",
+        "중대재해사례 원심탈수기 작업 누전 감전"
+      ]
+    },
+    {
+      "record_id": "list1_31142",
+      "concat": "[TITLE] [중대재해사례]양념 혼합기 청소 중 협착\n[SUMMARY] [중대재해사례]양념 혼합기 청소 중 협착",
+      "query": [
+        "양념 혼합기 협착",
+        "양념 혼합기를 청소하다가 끼인 사고 사례",
+        "중대재해사례 양념 혼합기 청소 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31141",
+      "concat": "[TITLE] [중대재해사례]배합기 청소 중 임펠러에 협착\n[SUMMARY] [중대재해사례]배합기 청소 중 임펠러에 협착",
+      "query": [
+        "배합기 청소 협착",
+        "배합기 청소 중 임펠러에 끼인 사고 사례",
+        "중대재해사례 배합기 청소 임펠러 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31140",
+      "concat": "[TITLE] [중대재해사례]뜨거운 육수통에 넘어지면서 화상\n[SUMMARY] [중대재해사례]뜨거운 육수통에 넘어지면서 화상",
+      "query": [
+        "육수통 화상 사고",
+        "뜨거운 육수통에 넘어져 화상을 입은 사고 사례",
+        "중대재해사례 뜨거운 육수통 넘어짐 화상"
+      ]
+    },
+    {
+      "record_id": "list1_31138",
+      "concat": "[TITLE] [중대재해사례]프로펠러 조형 주입구 표면 건조작업 중 화재\n[SUMMARY] [중대재해사례]프로펠러 조형 주입구 표면 건조작업 중 화재",
+      "query": [
+        "건조작업 화재 사고",
+        "프로펠러 조형 주입구를 말리다가 불이 난 사고 사례",
+        "중대재해사례 프로펠러 조형 주입구 표면 건조작업 화재"
+      ]
+    },
+    {
+      "record_id": "list1_31139",
+      "concat": "[TITLE] [중대재해사례]교반기 작업 중 산소결핍에 의한 질식\n[SUMMARY] [중대재해사례]교반기 작업 중 산소결핍에 의한 질식",
+      "query": [
+        "교반기 질식 사고",
+        "교반기 작업 중 산소가 부족해 질식한 사고 사례",
+        "중대재해사례 교반기 작업 산소결핍 질식"
+      ]
+    },
+    {
+      "record_id": "list1_31472",
+      "concat": "[TITLE] [직업건강]전자파에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "전자파 건강 예방",
+        "전자파에 노출되는 작업에서 건강 문제를 예방하는 방법",
+        "직업건강 전자파 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31137",
+      "concat": "[TITLE] [중대재해사례]용접작업 중 갠트리크레인에 협착\n[SUMMARY] 용접작업 중 갠트리크레인에 협착[중대재해사례]",
+      "query": [
+        "용접 크레인 협착",
+        "용접 작업 중 갠트리크레인에 끼인 사고 사례",
+        "중대재해사례 용접작업 갠트리크레인 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31471",
+      "concat": "[TITLE] [직업건강]자외선에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "자외선 건강 예방",
+        "자외선에 노출되는 작업에서 건강 문제를 예방하는 방법",
+        "직업건강 자외선 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31469",
+      "concat": "[TITLE] [직업건강]소음에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "소음 건강 예방",
+        "소음이 큰 작업장에서 건강 문제를 예방하는 방법",
+        "직업건강 소음 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31470",
+      "concat": "[TITLE] [직업건강]이상기압에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "이상기압 건강 예방",
+        "기압이 다른 환경에서 일할 때 건강 문제를 예방하는 방법",
+        "직업건강 이상기압 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31468",
+      "concat": "[TITLE] [직업건강]방사선에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "방사선 건강 예방",
+        "방사선에 노출되는 작업에서 건강 문제를 예방하는 방법",
+        "직업건강 방사선 건강장해 예방"
+      ]
+    },
+    {
+      "record_id": "list1_31467",
+      "concat": "[TITLE] [직업건강]다습에 의한 건강장해 예방\n[SUMMARY] 직업건강과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "습한 작업장 건강",
+        "습기가 많은 곳에서 일할 때 건강 문제를 예방하는 방법",
+        "직업건강 다습 건강장해 예방"
+      ]
+    }
+  ]
+}

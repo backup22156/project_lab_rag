@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 23,
+  "items": [
+    {
+      "record_id": "list1_50332",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 건설업 덤프트럭 재해사례 OPS\n[SUMMARY] 2024년도 VR 건설업 덤프트럭 재해사례 콘텐츠 속 핵심 내용을 담았습니다. 건설현장 토사 반입 작업의 유해·위험요인과 안전수칙을 확인하세요. - 덤프트럭 부딪힘, 전도, 끼임 재해사례 ○ 위험 요소 · 덤프트럭 사각지대 미확인, 유도자 부딪힘 · 경사로 적재함 미하강 이동 덤프트럭 전도 · 덤프트럭 점검 중 안전블록 미설치, 적재함 끼임(깔림) -VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1284&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "덤프트럭 사고 안전",
+        "건설현장에서 덤프트럭으로 토사를 옮길 때 부딪힘이나 전도 사고를 막는 안전수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 건설업 덤프트럭 재해사례 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50334",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 제조업 맞음 재해사례 OPS\n[SUMMARY] 휴대용 그라인더 작업 VR 콘텐츠 속 핵심 내용을 담았습니다. 휴대용 그라인더 작업의 유해·위험요인과 안전수칙을 확인하세요. - 수공구 맞음, 낙하물 맞음, 그라인더 숫돌 맞음 ○ 위험 요소 · 정리정돈 미흡, LOTO 미설치로 수공구 맞음 위험 · 중2층 안전난간 개방 후 원위치 미실시, 정리정돈 미흡으로 낙하물 맞음 위험 · 그라인더 방호덮개 미설치, 사용전 시운전 미실시로 그라인더 숫돌 맞음 위험 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1286&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "그라인더 맞음 사고",
+        "휴대용 그라인더 작업 중 숫돌이나 낙하물에 맞는 사고를 예방하는 방법을 찾고 싶어",
+        "VR 콘텐츠 미리보기 제조업 맞음 재해사례 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50335",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 밀폐공간 질식예방 OPS\n[SUMMARY] 2024년도 VR 밀폐공간 질식예방 콘텐츠 속 핵심 내용을 담았습니다. 밀폐공간 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 밀폐공간 작업 시 환기 미실시 · 산소 및 유해가스 농도측정 방법 불량 · 재해자 구조 시 적합한 호흡용 보호구 미착용 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1175&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "밀폐공간 질식 예방",
+        "밀폐된 공간에서 작업할 때 환기와 산소 농도 확인 같은 질식 예방 수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 밀폐공간 질식예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50336",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 화물자동차 재해사례 OPS\n[SUMMARY] 2024년도 VR 화물자동차 상하차 작업 콘텐츠 속 핵심 내용을 담았습니다. 화물자동차 상하차 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 화물 상차 시 불안정한 적재 및 결박 불량 · 지게차 작업구역 근로자 접근 금지 미실시 · 천막씌우기 작업 시, 지상에서 유도로프 미사용, 개인보호구 미착용 · 주기적인 실내 환기 및 휴식 미실시로 인한 졸음 운전 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1250&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "화물차 상하차 안전",
+        "화물자동차에 짐을 싣고 내릴 때 적재나 결박 불량으로 생기는 사고 예방법을 찾고 싶어",
+        "VR 콘텐츠 미리보기 화물자동차 재해사례 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50343",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 산업용로봇 재해사례 OPS\n[SUMMARY] 2024년도 VR 산업용로봇 점검 작업 콘텐츠 속 핵심 내용을 담았습니다. 산업용로봇 점검 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · LOTO(잠금장치, 표지판) 미실시 · 출입문 개방시 연동장치 열쇠 미분리(기능 정상사용 미실시) - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1247&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "산업용로봇 점검 안전",
+        "산업용 로봇을 점검할 때 잠금장치나 출입문 연동장치 관련 안전수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 산업용로봇 재해사례 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50338",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 위험성평가 해설편(건설업) OPS\n[SUMMARY] 2024년도 VR 건설업 실내마감 작업 콘텐츠 속 핵심 내용을 담았습니다. 건설업 실내마감 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 개구부 덮개 미설치 및 개구부 표시 미실시 · A형 사다리 아웃트리거 미설치 및 2인1조 작업 미실시 · 시저형 고소작업대 과상승방지장치 미설치 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1253&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "건설 위험성평가",
+        "건설업 실내마감 작업에서 개구부나 사다리 고소작업대 위험을 평가하는 자료를 찾고 싶어",
+        "VR 콘텐츠 미리보기 위험성평가 해설편 건설업 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50337",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 위험성평가 해설편(제조업) OPS\n[SUMMARY] 2024년도 VR 식료품 제조업 작업 콘텐츠 속 핵심 내용을 담았습니다. 식료품 제조업 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 컨베이어 수리 작업 중 LOTO 미실시 · 혼합기 덮개 미설치 · 추락위험장소 안전대 미체결, 지게차 후진경보기 및 경광등 미설치 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1252&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "제조업 위험성평가",
+        "식료품 제조 작업에서 컨베이어나 혼합기 지게차 위험을 평가하는 자료를 찾고 싶어",
+        "VR 콘텐츠 미리보기 위험성평가 해설편 제조업 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50344",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 거푸집 작업 떨어짐 재해 OPS\n[SUMMARY] 2024년도 VR 거푸집 작업 콘텐츠 속 핵심 내용을 담았습니다. 거푸집 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 말비계 끝단 작업 및 말비계 지주부재 고정 불량 · 추락위험장소 안전대 미체결 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1172&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "거푸집 추락 안전",
+        "거푸집 작업 중 말비계나 안전대 문제로 떨어지는 사고를 예방하는 수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 거푸집 작업 떨어짐 재해 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50345",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 화학물질 취급작업 OPS\n[SUMMARY] 2024년도 VR 화학물질 취급작업 콘텐츠 속 핵심 내용을 담았습니다. 화학물질 취급작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · MSDS 미게시 및 화학물질 용기 경고표지 미부착 · 국소배기장치 미가동 · 방독마스크 정화통 미교체 - VR 링크 영상 : https://360vr.kosha.or.kr/contentDetail?contSq=1249&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "화학물질 취급 안전",
+        "화학물질을 다룰 때 경고표지나 환기장치 방독마스크 관련 안전수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 화학물질 취급작업 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50346",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 급식시설 조리실 재해사례 OPS\n[SUMMARY] 2024년도 VR 급식시설 조리실 작업 콘텐츠 속 핵심 내용을 담았습니다. 급식시설 조리실 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 미끄럼 방지장화 미착용, 바닥 물기 제거 미실시 · 회전솥 회전조절 고정장치 미확인, 긴 방수 앞치마 미착용 · 올바른 들기자세 미준수 및 중량물 운반 시 운반대차 미사용 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1248&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "조리실 사고 예방",
+        "급식시설 조리실에서 미끄러짐이나 중량물 운반 사고를 줄이는 안전수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 급식시설 조리실 재해사례 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50348",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 전기통신공사 재해사례 OPS\n[SUMMARY] 2024년도 VR 통신 케이블 점검 작업 콘텐츠 속 핵심 내용을 담았습니다. 통신 케이블 점검 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 개인보호구 미착용, 낙하물에 의한 위험구역 내 출입금지 미실시 · 활선 경보기 미작동 및 검전기 미측정으로 인한 감전사고 위험 · 추락재해 예방을 위한 안전대 미체결 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1254&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "통신공사 감전 추락",
+        "통신 케이블 점검 작업 중 감전이나 추락 위험을 예방하는 안전수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 전기통신공사 재해사례 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50347",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 이륜차 운행 중 교통사고 OPS\n[SUMMARY] 2024년도 VR 이륜차 운행 중 교통사고 콘텐츠 속 핵심 내용을 담았습니다. 이륜차 운행 중의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 우회전 시 횡단보도 앞 일시정지 미준수 · 차선 변경 시 방향지시등 미점등, 중앙선 침범 · 인도주행 및 정지선 미준수 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=940&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "이륜차 교통사고",
+        "오토바이 운행 중 우회전이나 차선 변경 때 지켜야 할 안전수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 이륜차 운행 중 교통사고 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50351",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 각자의 시선(건설업-강관비계) OPS\n[SUMMARY] 2024년도 VR 건설업 강관비계 작업 콘텐츠 속 핵심 내용을 담았습니다. 건설업 강관비계 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 강관비계 해체 위험 요소 · 관리자 시점 – 강관비계 해체 순서 미준수 · 재해자 시점 – 안전대 미사용 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1024&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "강관비계 해체 안전",
+        "건설현장에서 강관비계를 해체할 때 순서와 안전대 사용 수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 각자의 시선 건설업 강관비계 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50350",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 사고 도돌이표 - 고소작업대 OPS\n[SUMMARY] 2024년도 VR 고소작업대 작업 콘텐츠 속 핵심 내용을 담았습니다. 고소작업대 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 고소작업대 위험 요소 · 작업대를 벗어나 작업 중 추락 – 안전대 미사용 · 작업대 상승 중 끼임 – 과상승방지장치 미설치 · 중량물 작업 중 전도 – 바닥 경사 상태 불량 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1025&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "고소작업대 사고 예방",
+        "고소작업대에서 추락 끼임 전도 사고가 생기지 않도록 하는 안전수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 사고 도돌이표 고소작업대 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50735",
+      "concat": "[TITLE] 사업장 내 재난발생 시 국민행동요령(5종)\n[SUMMARY] 화재, 폭발, 질식, 구조물 붕괴, 화학물질 누출 등 5개 재난상황에 대한 국민행동요령",
+      "query": [
+        "사업장 재난 행동요령",
+        "사업장에서 화재나 폭발 질식 같은 재난이 났을 때 어떻게 행동해야 하는지 찾고 싶어",
+        "사업장 내 재난발생 시 국민행동요령 화재 폭발 질식 구조물 붕괴 화학물질 누출"
+      ]
+    },
+    {
+      "record_id": "list1_50342",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 사무실 재해사례 OPS\n[SUMMARY] 2024년도 VR 사무실 재해사례 콘텐츠 속 핵심 내용을 담았습니다. 사무실 내 작업의 유해·위험요인과 안전수칙을 확인하세요. - 사무실 넘어짐, 떨어짐, 요통, 화재 재해사례 ○ 위험 요소 · 휴대폰 사용 계단 이동 미끄러짐 · 빔프로젝터 점검 시 의자 이용 떨어짐 · 중량물 인력 취급 요통 · 물어발식 콘센트 사용 사무실 화재 -VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1283&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "사무실 사고 예방",
+        "사무실에서 넘어짐 떨어짐 요통 화재 같은 사고를 예방하는 안전수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 사무실 재해사례 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50352",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 각자의 시선(제조업-컨베이어) OPS\n[SUMMARY] 2024년도 VR 제조업 컨베이어 콘텐츠 속 핵심 내용을 담았습니다. 제조업 컨베이어 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 컨베이어 끼임 위험 요소 · 관리자 시점 – 컨베이어 운전 정지 미실시 · 동료 시점 – 점검자 위치 파악 미실시 · 재해자 시점 – 비상정지장치 미확인 - VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1026&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "컨베이어 끼임 안전",
+        "제조업 컨베이어 점검 중 끼임 사고를 막기 위한 정지와 비상정지장치 수칙을 찾고 싶어",
+        "VR 콘텐츠 미리보기 각자의 시선 제조업 컨베이어 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50326",
+      "concat": "[TITLE] 장년노동자의 근골격계질환 예방\n[SUMMARY] 장년노동자의 근골격계질환 예방 OPS - 근골격계질환이란? - 근골격계질환의 위험요인 - 근골격계질환의 발생 단계 - 근골격계질환 종류 및 증상 - 장년노동자를 위한 안전한 사업장 만들기 - 근골격계 기본 예방 수칙",
+      "query": [
+        "장년 노동자 근골격계",
+        "나이 든 노동자가 근골격계질환을 예방하기 위한 기본 수칙과 위험요인을 찾고 싶어",
+        "장년노동자의 근골격계질환 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50744",
+      "concat": "[TITLE] 키메세지(16호_감전)\n[SUMMARY] [사회이슈] 감전 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "감전 사고 예방",
+        "감전 사고가 사회적으로 문제가 되었을 때 예방대책과 관련 안전 콘텐츠를 찾고 싶어",
+        "키메세지 감전 사고 예방대책 관련 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_50737",
+      "concat": "[TITLE] 예비산업인력을 위한 현장실습 필수 안전수칙\n[SUMMARY] 예비산업인력을 위한 현장실습 필수 안전수칙 OPS - 현장실습 전 필수 안전수칙 빈칸 채우기 QUIZ (학습지 자료)",
+      "query": [
+        "현장실습 안전수칙",
+        "현장실습을 나가기 전에 예비 산업인력이 꼭 알아야 할 안전수칙 자료를 찾고 싶어",
+        "예비산업인력을 위한 현장실습 필수 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50277",
+      "concat": "[TITLE] 화재위험작업(용접용단) 시 화재폭발 예방 OPS\n[SUMMARY] 용접용단 체크시트 및 사고사례",
+      "query": [
+        "용접 화재 폭발",
+        "용접이나 용단 같은 화재위험작업을 할 때 화재폭발을 예방하는 체크 자료를 찾고 싶어",
+        "화재위험작업 용접용단 화재폭발 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50313",
+      "concat": "[TITLE] 장년노동자의 뇌심혈관질환 예방\n[SUMMARY] 장년노동자의 뇌심혈관질환 예방 OPS - 뇌심혈관질환이란? - 발병 위험요인 - 뇌심혈관질환 의심 증상 - 장년노동자를 위한 안전한 사업장 만들기 - 뇌심혈관질환 예방법",
+      "query": [
+        "장년 노동자 심혈관",
+        "나이 든 노동자의 뇌심혈관질환 위험요인과 의심 증상 예방 방법을 찾고 싶어",
+        "장년노동자의 뇌심혈관질환 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50341",
+      "concat": "[TITLE] 키메세지(15호_크레인)\n[SUMMARY] [사회이슈] 크레인 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "크레인 사고 예방",
+        "크레인 사고가 사회적으로 문제가 되었을 때 예방대책과 관련 안전 콘텐츠를 찾고 싶어",
+        "키메세지 크레인 사고 예방대책 관련 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_50091",
+      "concat": "[TITLE] 폐드럼통 화기작업 폭발사고 예방 OPS\n[SUMMARY] 사고사례 안전사항",
+      "query": [
+        "폐드럼통 폭발 예방",
+        "빈 드럼통이나 폐드럼통에 불꽃 작업을 할 때 폭발사고를 막는 안전사항을 찾고 싶어",
+        "폐드럼통 화기작업 폭발사고 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50007",
+      "concat": "[TITLE] 2025년 위험성평가 컨설팅 신청 안내\n[SUMMARY] 2025년 위험성평가 컨설팅 신청 안내",
+      "query": [
+        "위험성평가 컨설팅 신청",
+        "사업장에서 위험성평가 컨설팅을 신청하는 방법이나 안내 자료를 찾고 싶어",
+        "위험성평가 컨설팅 신청 안내"
+      ]
+    },
+    {
+      "record_id": "list1_50065",
+      "concat": "[TITLE] 장마철 건설현장 안전수칙 OPS\n[SUMMARY] 장마철 건설현장 재해예방",
+      "query": [
+        "장마철 건설현장 안전",
+        "비가 많이 오는 장마철에 건설현장에서 지켜야 할 재해예방 안전수칙을 찾고 싶어",
+        "장마철 건설현장 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_47133",
+      "concat": "[TITLE] 해빙기 건설현장 안전수칙 OPS\n[SUMMARY] 해빙기 건설현장 위험요인별 안전관리 및 안전보건교육자료",
+      "query": [
+        "해빙기 건설현장 안전",
+        "날이 풀리는 시기에 건설현장에서 위험요인별로 관리해야 할 안전교육 자료를 찾고 싶어",
+        "해빙기 건설현장 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50324",
+      "concat": "[TITLE] 키메세지(14호_천공기)\n[SUMMARY] [사회이슈] 천공기 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "천공기 사고 예방",
+        "천공기 작업 사고가 사회적으로 문제가 되었을 때 예방대책과 관련 안전 콘텐츠를 찾고 싶어",
+        "키메세지 천공기 사고 예방대책 관련 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_50279",
+      "concat": "[TITLE] 키메세지(13호_화학물질 중독)\n[SUMMARY] [사회이슈] 화학물질 중독 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "화학물질 중독 예방",
+        "화학물질 중독 사고가 사회적으로 문제가 되었을 때 예방대책과 관련 안전 콘텐츠를 찾고 싶어",
+        "키메세지 화학물질 중독 사고 예방대책 관련 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_50090",
+      "concat": "[TITLE] 감전재해 예방 10대 안전수칙\n[SUMMARY] 감전재해 예방 10대 안전수칙",
+      "query": [
+        "감전 예방 수칙",
+        "전기 작업이나 설비 사용 중 감전재해를 예방하기 위한 핵심 안전수칙을 찾고 싶어",
+        "감전재해 예방 10대 안전수칙"
+      ]
+    }
+  ]
+}

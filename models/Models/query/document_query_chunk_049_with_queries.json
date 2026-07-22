@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 49,
+  "items": [
+    {
+      "record_id": "list1_42403",
+      "concat": "[TITLE] 근로자 작업중지권 안내 OPL\n[SUMMARY] 산업재해가 발생할 위험이 있는 경우, 근로자가 스스로 작업을 중지하고 대피할 수 있음을 안내 (산업안전보건법 제52조)",
+      "query": [
+        "작업중지권 대피",
+        "위험한 작업을 근로자가 멈추고 대피할 수 있는지 알려주는 자료",
+        "근로자 작업중지권 산업안전보건법 제52조 안내"
+      ]
+    },
+    {
+      "record_id": "list1_42384",
+      "concat": "[TITLE] news release (2020-5호)_1\n[SUMMARY] 선박건조수리업의 사고사망자 현황",
+      "query": [
+        "선박 수리 사망사고",
+        "선박을 만들거나 수리하는 업종의 사고사망자 현황 자료",
+        "news release 선박건조수리업 사고사망자 현황"
+      ]
+    },
+    {
+      "record_id": "list1_42171",
+      "concat": "[TITLE] 공정안전보고서 제출대상 유해위험물질 규정량 조정안내 OPL\n[SUMMARY] 공정안전보고서 제출대상 유해위험물질 규정량 조정안내 OPL",
+      "query": [
+        "공정안전보고서 물질",
+        "유해위험물질이 어느 정도 있으면 공정안전보고서를 내야 하는지 바뀐 내용",
+        "공정안전보고서 제출대상 유해위험물질 규정량 조정안내"
+      ]
+    },
+    {
+      "record_id": "list1_42265",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(국문)\n[SUMMARY] 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 활용가이드 16개국어 버전 안전보건자료실 검색 방법 안내 ① '외국인근로자' 항목에서 해당 국가 선택 ② 검색창에 '활용가이드' 키워드 입력 ③ '조건검색' 클릭",
+      "query": [
+        "외국인 안전자료",
+        "외국인 노동자에게 안전보건 자료 찾는 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 국문"
+      ]
+    },
+    {
+      "record_id": "list1_42062",
+      "concat": "[TITLE] news release (2020-3호)_1\n[SUMMARY] 통계로 보는 2019년 산업재해",
+      "query": [
+        "산업재해 통계",
+        "2019년에 산업재해가 얼마나 발생했는지 통계로 정리한 자료",
+        "news release 통계로 보는 산업재해"
+      ]
+    },
+    {
+      "record_id": "list1_42001",
+      "concat": "[TITLE] news release (2020-2호)_1\n[SUMMARY] 감염병 유행기간의 기업경기실사지수와 사고사망자",
+      "query": [
+        "감염병 기업경기 사고사망",
+        "감염병 유행 때 기업 경기와 사고사망자 관계를 다룬 자료",
+        "news release 감염병 유행기간 기업경기실사지수 사고사망자"
+      ]
+    },
+    {
+      "record_id": "list1_42023",
+      "concat": "[TITLE] 달비계 작업 추락재해예방\n[SUMMARY] - 달비계 작업 재해발생 현황분석 및 사고사례, 예방대책 안내 - 공동주택 관리사무소, 도장공사 전문건설업체 등 유관기관 기술지원 시 배포, 활용",
+      "query": [
+        "달비계 추락",
+        "아파트 외벽 도장이나 달비계 작업 중 떨어지는 사고를 예방하는 자료",
+        "달비계 작업 추락재해예방 재해발생 현황 사고사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_41942",
+      "concat": "[TITLE] news release (2020-1호)_1\n[SUMMARY] news release (2020-1호)_1_최근 10년간 지역별 끼임 사고사망자 현황",
+      "query": [
+        "끼임 사망사고 지역",
+        "최근 10년 동안 지역별 끼임 사고 사망자를 정리한 자료",
+        "news release 지역별 끼임 사고사망자 현황"
+      ]
+    },
+    {
+      "record_id": "list1_42249",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(미얀마)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "외국인 열사병 미얀마",
+        "미얀마 노동자에게 폭염 때 물 그늘 휴식 수칙을 알려주는 자료",
+        "외국인 노동자용 온열질환 예방수칙 미얀마 열사병 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42240",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(중국)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "외국인 열사병 중국",
+        "중국 노동자에게 더운 날 열사병 예방수칙을 안내하는 자료",
+        "외국인 노동자용 온열질환 예방수칙 중국 열사병 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_41730",
+      "concat": "[TITLE] 5대 법정의무교육을 한눈에\n[SUMMARY] 5대 법정의무교육과정 통합 안내 자료",
+      "query": [
+        "법정의무교육 종류",
+        "회사에서 받아야 하는 5대 법정의무교육을 한눈에 정리한 자료",
+        "5대 법정의무교육 통합 안내 자료"
+      ]
+    },
+    {
+      "record_id": "list1_42184",
+      "concat": "[TITLE] [오폐수처리장] 질식위험장소에 그냥 들어가면 바로 사망!\n[SUMMARY] 질식의 위험성을 경고하고 사고예방을 위한 핵심조치사항을 수록한 OPS",
+      "query": [
+        "오폐수처리장 질식",
+        "오폐수처리장 같은 질식위험장소에 그냥 들어가면 위험하다는 경고 자료",
+        "오폐수처리장 질식위험장소 사망 사고예방 핵심조치"
+      ]
+    },
+    {
+      "record_id": "list1_42417",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(미얀마)\n[SUMMARY] (미얀마) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "미얀마 안전보건자료",
+        "미얀마 외국인 노동자에게 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 미얀마"
+      ]
+    },
+    {
+      "record_id": "list1_42415",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(몽골)\n[SUMMARY] (몽골) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "몽골 안전보건자료",
+        "몽골 외국인 노동자에게 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 몽골"
+      ]
+    },
+    {
+      "record_id": "list1_42414",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(캄보디아)\n[SUMMARY] (캄보디아) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "캄보디아 안전보건자료",
+        "캄보디아 외국인 노동자에게 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 캄보디아"
+      ]
+    },
+    {
+      "record_id": "list1_42413",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(인도네시아)\n[SUMMARY] (인도네시아) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "인도네시아 안전보건자료",
+        "인도네시아 외국인 노동자에게 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 인도네시아"
+      ]
+    },
+    {
+      "record_id": "list1_42411",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(베트남)\n[SUMMARY] (베트남) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "베트남 안전보건자료",
+        "베트남 외국인 노동자에게 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 베트남"
+      ]
+    },
+    {
+      "record_id": "list1_42412",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(우즈베키스탄)\n[SUMMARY] (우즈베키스탄) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "우즈베키스탄 안전보건자료",
+        "우즈베키스탄 외국인 노동자에게 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 우즈베키스탄"
+      ]
+    },
+    {
+      "record_id": "list1_42410",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(태국)\n[SUMMARY] (태국) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "태국 안전보건자료",
+        "태국 외국인 노동자에게 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 태국"
+      ]
+    },
+    {
+      "record_id": "list1_42458",
+      "concat": "[TITLE] 발전산업 발생형태별 안전 점검 수칙 OPL\n[SUMMARY] 발전사 및 발전공기업 발주 작업 중 지속적으로 발생하는 사고사망 재해를 예방하기 위해「발전산업 사고사망예방」관련OPL 개발·보급하고자 함.",
+      "query": [
+        "발전소 안전점검",
+        "발전소나 발전공기업 작업에서 사고를 막기 위한 안전 점검 수칙 자료",
+        "발전산업 발생형태별 안전 점검 수칙 사고사망예방"
+      ]
+    },
+    {
+      "record_id": "list1_42408",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(중국)\n[SUMMARY] (중국) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "중국 안전보건자료",
+        "중국 외국인 노동자에게 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 중국"
+      ]
+    },
+    {
+      "record_id": "list1_42409",
+      "concat": "[TITLE] 외국인 노동자용 안전보건자료 활용가이드(필리핀_영어)\n[SUMMARY] (필리핀_영어) 산재취약계층인 국내 체류 외국인 노동자에게 공단의 미디어 자료를 활용하는 다양한 방법을 안내하고 홍보 ※ 국문 내용은 발간번호 [2020-교육홍보본부-407] 참고",
+      "query": [
+        "필리핀 안전보건자료",
+        "필리핀 노동자에게 영어로 안전보건 자료 활용 방법을 알려주는 안내",
+        "외국인 노동자용 안전보건자료 활용가이드 필리핀 영어"
+      ]
+    },
+    {
+      "record_id": "list1_42442",
+      "concat": "[TITLE] 건설현장 코로나19 감염 예방 안전작업 방법\n[SUMMARY] 미국 건설현장 코로나19 감염 예방 실천 우수사례 소개를 소개하여 국내 건설현장에서 코로나19 대응 건강한 거리두기 실천을 위한 벤치마킹 자료 제공",
+      "query": [
+        "건설현장 코로나",
+        "건설현장에서 코로나 감염을 막기 위한 안전한 작업 방법 자료",
+        "건설현장 코로나19 감염 예방 안전작업 방법"
+      ]
+    },
+    {
+      "record_id": "list1_42402",
+      "concat": "[TITLE] 어업 사고사례 및 예방대책 OPL\n[SUMMARY] 어업 사고사례 및 예방대책 OPL(안)",
+      "query": [
+        "어업 사고 예방",
+        "어업 작업 중 사고 사례와 예방대책을 정리한 자료",
+        "어업 사고사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_42242",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(태국)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "외국인 열사병 태국",
+        "태국 노동자에게 폭염 때 물 그늘 휴식 수칙을 알려주는 자료",
+        "외국인 노동자용 온열질환 예방수칙 태국 열사병 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42239",
+      "concat": "[TITLE] 리모델링/인테리어 공사 중대재해사례 및 예방대책\n[SUMMARY] 리모델링/인테리어 공사 중 중대재해 예방을 위한 재해사례 및 안전대책",
+      "query": [
+        "인테리어 공사 사고",
+        "리모델링이나 인테리어 공사 중 중대재해 사례와 예방대책 자료",
+        "리모델링 인테리어 공사 중대재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_42217",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드-16개국 모음",
+      "query": [
+        "외국인 온열질환",
+        "외국인 노동자에게 여러 언어로 폭염 열사병 예방수칙을 알려주는 자료",
+        "외국인 노동자용 온열질환 예방수칙 16개국 열사병 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42241",
+      "concat": "[TITLE] 외국인 노동자용 온열질환 예방수칙(필리핀)\n[SUMMARY] 열사병 예방 3대 기본수칙(물, 그늘, 휴식) 이행가이드",
+      "query": [
+        "외국인 열사병 필리핀",
+        "필리핀 노동자에게 폭염 때 물 그늘 휴식 수칙을 알려주는 자료",
+        "외국인 노동자용 온열질환 예방수칙 필리핀 열사병 기본수칙"
+      ]
+    },
+    {
+      "record_id": "list1_42198",
+      "concat": "[TITLE] 태양광 설치현장 추락예방장비 비용지원안내\n[SUMMARY] 태양광 설비 시공 중 산재 사망감축을 위해 고소작업차(스카이), 선라이트(채광창) 안전덮개 및 추락방호망 등 지붕 위 추락예방을 위한 비용을 지원합니다.",
+      "query": [
+        "태양광 추락 지원",
+        "태양광 지붕 작업할 때 추락 예방 장비 비용을 지원받는 안내",
+        "태양광 설치현장 추락예방장비 비용지원안내"
+      ]
+    },
+    {
+      "record_id": "list1_42183",
+      "concat": "[TITLE] 태양광설비 지붕작업 추락사고예방 안전대책\n[SUMMARY] 태양광발전 지붕작업 추락사고 예방 OPL - 태양광 설비작업 재해예방을 위한 교육용 자료",
+      "query": [
+        "태양광 지붕 추락",
+        "태양광 설비를 지붕에 설치할 때 떨어짐 사고를 막는 안전대책 자료",
+        "태양광설비 지붕작업 추락사고예방 안전대책"
+      ]
+    }
+  ]
+}

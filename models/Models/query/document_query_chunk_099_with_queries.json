@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 99,
+  "items": [
+    {
+      "record_id": "list1_31547",
+      "concat": "[TITLE] (기타금속제품제조업)버프연마기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "버프연마기 안전",
+        "금속 제품 연마기로 광택 작업할 때 조심할 점",
+        "기타금속제품제조업 버프연마기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31565",
+      "concat": "[TITLE] (자동차제조업)변압기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "변압기 안전",
+        "자동차 공장에서 변압기 설비 다룰 때 위험한 점",
+        "자동차제조업 변압기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31568",
+      "concat": "[TITLE] (자동차부분품제조업)송급장치\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "송급장치 안전",
+        "자동차 부품 작업장에서 송급장치 사용할 때 안전수칙",
+        "자동차부분품제조업 송급장치 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31569",
+      "concat": "[TITLE] (자동차부분품제조업)초음파융착기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "초음파융착기 안전",
+        "자동차 부품 초음파 융착 작업할 때 위험요인 자료",
+        "자동차부분품제조업 초음파융착기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31570",
+      "concat": "[TITLE] (자동차부분품제조업)파이프밴딩기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "파이프밴딩기 안전",
+        "자동차 부품 파이프를 구부리는 기계 작업 안전자료",
+        "자동차부분품제조업 파이프밴딩기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31546",
+      "concat": "[TITLE] (기타금속제품제조업)밴드쏘우\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "밴드쏘우 안전",
+        "금속 절단용 밴드쏘우 작업할 때 주의사항",
+        "기타금속제품제조업 밴드쏘우 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31525",
+      "concat": "[TITLE] (플라스틱가공제품제조업)버어제거작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "버어 제거 안전",
+        "플라스틱 제품 가장자리 다듬는 작업 안전자료",
+        "플라스틱가공제품제조업 버어제거작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31523",
+      "concat": "[TITLE] (플라스틱가공제품제조업)금형적치대\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "금형적치대 안전",
+        "플라스틱 공장에서 금형 보관대 사용할 때 위험요인",
+        "플라스틱가공제품제조업 금형적치대 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31522",
+      "concat": "[TITLE] (플라스틱가공제품제조업)호퍼로더\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "호퍼로더 안전",
+        "플라스틱 원료 넣는 호퍼로더 작업 안전수칙",
+        "플라스틱가공제품제조업 호퍼로더 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31545",
+      "concat": "[TITLE] (기타금속제품제조업)레이저절단기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "레이저절단기 안전",
+        "금속 레이저 절단기 작업할 때 조심할 점",
+        "기타금속제품제조업 레이저절단기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31527",
+      "concat": "[TITLE] (플라스틱가공제품제조업)금형교환장치\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "금형교환장치 안전",
+        "플라스틱 사출 금형 바꾸는 장치 안전자료",
+        "플라스틱가공제품제조업 금형교환장치 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31524",
+      "concat": "[TITLE] (플라스틱가공제품제조업)금형반전기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "금형반전기 안전",
+        "플라스틱 금형을 뒤집는 장비 작업 위험요인",
+        "플라스틱가공제품제조업 금형반전기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31526",
+      "concat": "[TITLE] (플라스틱가공제품제조업)사출취출로봇\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "사출로봇 안전",
+        "플라스틱 사출품 꺼내는 로봇 작업 안전수칙",
+        "플라스틱가공제품제조업 사출취출로봇 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31529",
+      "concat": "[TITLE] (유리제품가공업)에칭기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "에칭기 안전",
+        "유리 제품 에칭 장비 작업할 때 위험한 점",
+        "유리제품가공업 에칭기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31530",
+      "concat": "[TITLE] (유리제품가공업)유리세척기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "유리세척기 안전",
+        "유리 세척 기계 작업 중 사고 예방 자료",
+        "유리제품가공업 유리세척기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31528",
+      "concat": "[TITLE] (유리제품가공업)면취기/각면기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "면취기 각면기 안전",
+        "유리 가장자리 갈아내는 장비 작업 안전수칙",
+        "유리제품가공업 면취기 각면기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31533",
+      "concat": "[TITLE] (유리제품가공업)유리절단기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "유리절단기 안전",
+        "유리를 자르는 기계 작업할 때 조심할 점",
+        "유리제품가공업 유리절단기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31532",
+      "concat": "[TITLE] (유리제품가공업)유리운반작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "유리 운반 안전",
+        "유리 제품을 옮길 때 깨짐이나 끼임 사고 예방",
+        "유리제품가공업 유리운반작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31531",
+      "concat": "[TITLE] (유리제품가공업)유리수공구\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "유리 수공구 안전",
+        "유리 작업용 손공구 사용할 때 안전수칙",
+        "유리제품가공업 유리수공구 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31535",
+      "concat": "[TITLE] (건설용금속제품제조업)내주링성형기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "내주링성형기 안전",
+        "건설용 금속 부품 성형기 작업 위험요인 자료",
+        "건설용금속제품제조업 내주링성형기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31534",
+      "concat": "[TITLE] (유리제품가공업)천공기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "유리 천공기 안전",
+        "유리에 구멍 뚫는 기계 작업 안전자료",
+        "유리제품가공업 천공기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31537",
+      "concat": "[TITLE] (건설용금속제품제조업)면취기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "면취기 안전",
+        "건설용 금속 제품 모서리 가공 장비 안전수칙",
+        "건설용금속제품제조업 면취기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31536",
+      "concat": "[TITLE] (건설용금속제품제조업)도유 및 방청작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "도유 방청 안전",
+        "금속 제품에 기름칠하고 녹 방지 작업할 때 주의사항",
+        "건설용금속제품제조업 도유 방청작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31538",
+      "concat": "[TITLE] (건설용금속제품제조업)수중펌프\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "수중펌프 안전",
+        "건설용 금속 제조 현장에서 수중펌프 다룰 때 안전자료",
+        "건설용금속제품제조업 수중펌프 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31541",
+      "concat": "[TITLE] (건설용금속제품제조업)절단기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "절단기 안전",
+        "건설용 금속 제품 절단 작업할 때 조심할 점",
+        "건설용금속제품제조업 절단기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31540",
+      "concat": "[TITLE] (건설용금속제품제조업)이동식 둥근톱(스킬)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "둥근톱 안전",
+        "이동식 둥근톱으로 자르는 작업 안전수칙",
+        "건설용금속제품제조업 이동식 둥근톱 스킬 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31539",
+      "concat": "[TITLE] (건설용금속제품제조업)슬리팅기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "슬리팅기 안전",
+        "금속 판재를 길게 자르는 장비 작업 위험요인",
+        "건설용금속제품제조업 슬리팅기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31543",
+      "concat": "[TITLE] (건설용금속제품제조업)코일원자재 취급작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "코일 원자재 안전",
+        "금속 코일 원자재를 다룰 때 사고 예방 자료",
+        "건설용금속제품제조업 코일원자재 취급작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31542",
+      "concat": "[TITLE] (건설용금속제품제조업)중량장척파이프 취급작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "긴 파이프 운반",
+        "무겁고 긴 파이프를 다룰 때 안전하게 작업하는 방법",
+        "건설용금속제품제조업 중량장척파이프 취급작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31544",
+      "concat": "[TITLE] (건설용금속제품제조업)파이프 절단기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "파이프 절단기 안전",
+        "파이프 자르는 기계 작업할 때 위험요인 자료",
+        "건설용금속제품제조업 파이프 절단기 OPL"
+      ]
+    }
+  ]
+}

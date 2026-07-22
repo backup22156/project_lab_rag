@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 6,
+  "items": [
+    {
+      "record_id": "list1_51925",
+      "concat": "[TITLE] [중대재해] 메탄올 분리기 내부 바닥 침전물 제거 중 폭발\n[SUMMARY] [중대재해] 메탄올 분리기 내부 바닥 침전물 제거 중 폭발",
+      "query": [
+        "메탄올 폭발 사고",
+        "메탄올 분리기 안에서 침전물 치우다가 폭발한 사고 자료",
+        "중대재해 메탄올 분리기 침전물 제거 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_51948",
+      "concat": "[TITLE] [중대재해] 골재 믹서 개폐문과 투입구 사이에 끼임\n[SUMMARY] [중대재해] 골재 믹서 개폐문과 투입구 사이에 끼임",
+      "query": [
+        "골재 믹서 끼임",
+        "골재 믹서 문과 투입구 사이에 끼인 사고 사례",
+        "중대재해 골재 믹서 개폐문 투입구 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_51924",
+      "concat": "[TITLE] [중대재해] 암모니아 가스 누출로 인한 폭발 사고\n[SUMMARY] [중대재해] 암모니아 가스 누출로 인한 폭발 사고",
+      "query": [
+        "암모니아 누출 폭발",
+        "암모니아 가스가 새서 폭발한 사고 사례",
+        "중대재해 암모니아 가스 누출 폭발 사고"
+      ]
+    },
+    {
+      "record_id": "list1_51947",
+      "concat": "[TITLE] [중대재해] 차량 엔진 해체작업 중 떨어진 엔진에 깔림\n[SUMMARY] [중대재해] 차량 엔진 해체작업 중 떨어진 엔진에 깔림",
+      "query": [
+        "엔진 해체 깔림",
+        "차량 엔진을 분해하다가 떨어진 엔진에 깔린 사고",
+        "중대재해 차량 엔진 해체작업 떨어진 엔진 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_51946",
+      "concat": "[TITLE] [중대재해] 비닐 성형 · 인쇄 작업 중 전동기 절연파괴로 감전\n[SUMMARY] [중대재해] 비닐 성형 · 인쇄 작업 중 전동기 절연파괴로 감전",
+      "query": [
+        "전동기 감전 사고",
+        "비닐 성형 인쇄 작업 중 전동기 문제로 감전된 사례",
+        "중대재해 비닐 성형 인쇄 전동기 절연파괴 감전"
+      ]
+    },
+    {
+      "record_id": "list1_51945",
+      "concat": "[TITLE] [중대재해] 고압력 실험장비 테스트 중 용기 폭발\n[SUMMARY] [중대재해] 고압력 실험장비 테스트 중 용기 폭발",
+      "query": [
+        "실험장비 용기 폭발",
+        "고압 실험장비를 테스트하다가 용기가 폭발한 사고",
+        "중대재해 고압력 실험장비 테스트 용기 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_51079",
+      "concat": "[TITLE] [특수형태근로종사자] 굴착기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 굴착기",
+      "query": [
+        "굴착기 안전",
+        "굴착기를 직접 운전하는 근로자 안전보건 자료",
+        "특수형태근로종사자 굴착기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51944",
+      "concat": "[TITLE] [중대재해] 전착 도장작업 중 도장조에서 떨어짐\n[SUMMARY] [중대재해] 전착 도장작업 중 도장조에서 떨어짐",
+      "query": [
+        "도장조 떨어짐",
+        "전착 도장 작업을 하다가 도장조에서 떨어진 사고",
+        "중대재해 전착 도장작업 도장조 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51086",
+      "concat": "[TITLE] [특수형태근로종사자] 불도저\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 불도저",
+      "query": [
+        "불도저 안전",
+        "불도저를 운전하는 사람을 위한 안전보건 자료",
+        "특수형태근로종사자 불도저 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51087",
+      "concat": "[TITLE] [특수형태근로종사자] 기중기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 기중기",
+      "query": [
+        "기중기 안전",
+        "기중기 운전자가 봐야 할 안전보건 자료",
+        "특수형태근로종사자 기중기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51088",
+      "concat": "[TITLE] [특수형태근로종사자] 아스팔트 살포기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 아스팔트 살포기",
+      "query": [
+        "아스팔트 살포기 안전",
+        "아스팔트 살포기를 운전하는 근로자 안전보건 자료",
+        "특수형태근로종사자 아스팔트 살포기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51089",
+      "concat": "[TITLE] [특수형태근로종사자] 항타 및 항발기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 항타 및 항발기",
+      "query": [
+        "항타기 안전",
+        "항타기나 항발기를 운전하는 근로자 안전 자료",
+        "특수형태근로종사자 항타 및 항발기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51090",
+      "concat": "[TITLE] [특수형태근로종사자] 자갈채취기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 자갈채취기",
+      "query": [
+        "자갈채취기 안전",
+        "자갈채취기 운전자를 위한 안전보건 자료",
+        "특수형태근로종사자 자갈채취기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51095",
+      "concat": "[TITLE] [특수형태근로종사자] 대리운전기사\n[SUMMARY] 특수형태근로종사자의 안전보건 - 대리운전기사",
+      "query": [
+        "대리운전기사 안전",
+        "대리운전 일을 하는 사람의 안전보건 자료",
+        "특수형태근로종사자 대리운전기사 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51102",
+      "concat": "[TITLE] [특수형태근로종사자] 스크레이퍼\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 스크레이퍼",
+      "query": [
+        "스크레이퍼 안전",
+        "스크레이퍼 운전 근로자에게 필요한 안전보건 자료",
+        "특수형태근로종사자 스크레이퍼 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51096",
+      "concat": "[TITLE] [특수형태근로종사자] 화물차주\n[SUMMARY] 특수형태근로종사자의 안전보건 - 화물차주",
+      "query": [
+        "화물차주 안전",
+        "화물차를 운전하는 특수고용 노동자 안전보건 자료",
+        "특수형태근로종사자 화물차주 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51101",
+      "concat": "[TITLE] [특수형태근로종사자] 지게차\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 지게차",
+      "query": [
+        "지게차 안전",
+        "지게차를 직접 운전하는 근로자 안전보건 자료",
+        "특수형태근로종사자 지게차 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51100",
+      "concat": "[TITLE] [특수형태근로종사자] 로더\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 로더",
+      "query": [
+        "로더 안전",
+        "로더 장비를 운전하는 근로자 안전보건 자료",
+        "특수형태근로종사자 로더 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51103",
+      "concat": "[TITLE] [특수형태근로종사자] 덤프트럭\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 덤프트럭",
+      "query": [
+        "덤프트럭 안전",
+        "덤프트럭을 운전하는 사람을 위한 안전보건 자료",
+        "특수형태근로종사자 덤프트럭 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51105",
+      "concat": "[TITLE] [특수형태근로종사자] 롤러\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 롤러",
+      "query": [
+        "롤러 안전",
+        "롤러 장비 운전자를 위한 안전보건 자료",
+        "특수형태근로종사자 롤러 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51104",
+      "concat": "[TITLE] [특수형태근로종사자] 모터그레이더\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 모터그레이더",
+      "query": [
+        "모터그레이더 안전",
+        "모터그레이더 운전 근로자 안전보건 자료",
+        "특수형태근로종사자 모터그레이더 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51106",
+      "concat": "[TITLE] [특수형태근로종사자] 노상안정기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 노상안정기",
+      "query": [
+        "노상안정기 안전",
+        "노상안정기를 운전하는 근로자를 위한 안전보건 자료",
+        "특수형태근로종사자 노상안정기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51108",
+      "concat": "[TITLE] [특수형태근로종사자] 콘크리트 피니셔\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 콘크리트 피니셔",
+      "query": [
+        "콘크리트 피니셔 안전",
+        "콘크리트 피니셔 운전자 안전보건 자료",
+        "특수형태근로종사자 콘크리트 피니셔 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51109",
+      "concat": "[TITLE] [특수형태근로종사자] 콘크리트 살포기\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 콘크리트 살포기",
+      "query": [
+        "콘크리트 살포기 안전",
+        "콘크리트 살포기를 운전하는 근로자 안전보건 자료",
+        "특수형태근로종사자 콘크리트 살포기 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51107",
+      "concat": "[TITLE] [특수형태근로종사자] 콘크리트 뱃칭플랜트\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 콘크리트 뱃칭플랜트",
+      "query": [
+        "콘크리트 뱃칭플랜트 안전",
+        "콘크리트 뱃칭플랜트 운전 근로자 안전보건 자료",
+        "특수형태근로종사자 콘크리트 뱃칭플랜트 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51111",
+      "concat": "[TITLE] [특수형태근로종사자] 콘크리트 펌프\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 콘크리트 펌프",
+      "query": [
+        "콘크리트 펌프 안전",
+        "콘크리트 펌프 운전자를 위한 안전보건 자료",
+        "특수형태근로종사자 콘크리트 펌프 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51110",
+      "concat": "[TITLE] [특수형태근로종사자] 콘크리트 믹서트럭\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 콘크리트 믹서트럭",
+      "query": [
+        "콘크리트 믹서트럭 안전",
+        "콘크리트 믹서트럭을 운전하는 근로자 안전보건 자료",
+        "특수형태근로종사자 콘크리트 믹서트럭 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51112",
+      "concat": "[TITLE] [특수형태근로종사자] 아스팔트 믹싱플랜트\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 아스팔트 믹싱플랜트",
+      "query": [
+        "아스팔트 믹싱플랜트 안전",
+        "아스팔트 믹싱플랜트 운전 근로자 안전보건 자료",
+        "특수형태근로종사자 아스팔트 믹싱플랜트 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51113",
+      "concat": "[TITLE] [특수형태근로종사자] 아스팔트 피니셔\n[SUMMARY] 건설기계를 직접 운전하는 특수형태근로종사자의 안전보건 - 아스팔트 피니셔",
+      "query": [
+        "아스팔트 피니셔 안전",
+        "아스팔트 피니셔 운전자를 위한 안전보건 자료",
+        "특수형태근로종사자 아스팔트 피니셔 안전보건"
+      ]
+    },
+    {
+      "record_id": "list1_51975",
+      "concat": "[TITLE] [중대재해] 철거 작업 중 발코니 바닥 슬래브가 무너져 떨어짐\n[SUMMARY] [중대재해] 철거 작업 중 발코니 바닥 슬래브가 무너져 떨어짐",
+      "query": [
+        "발코니 철거 추락",
+        "철거 작업 중 발코니 바닥이 무너져 떨어진 사고 사례",
+        "중대재해 철거 작업 발코니 바닥 슬래브 무너짐 떨어짐"
+      ]
+    }
+  ]
+}

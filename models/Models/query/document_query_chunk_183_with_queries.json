@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 183,
+  "items": [
+    {
+      "record_id": "list3_32396",
+      "concat": "[TITLE] (파키스탄)건설업 외국인 안전보건길장비, (Construction Industry) Safety guide for foreign workers (Urdu)\n[SUMMARY] Accident prevention by work family 작업공종별 재해예방 1. Forming work 1. 거푸집작업 2. Gang form work 2. 갱폼작업 3. Steel reinforcement work3. 철근작업 4. Concrete work 4. 콘크리트 작업 5. Steel frame work 5. 철골작업 6. Stacking and plastering (finishing) work 6. 조적 및 미장(견출)작업 7. Painting work 7. 도장작업",
+      "query": [
+        "외국인 건설 안전",
+        "파키스탄 근로자가 건설현장에서 볼 수 있는 안전교육 자료",
+        "파키스탄 건설업 외국인 안전보건길장비 Construction Industry Safety guide for foreign workers Urdu"
+      ]
+    },
+    {
+      "record_id": "list3_31729",
+      "concat": "[TITLE] 산재예방활동의 정보취득 한계에 따른 법률적 개선방안 연구\n[SUMMARY] 산재예방활동의 정보취득 한계에 따른 법률적 개선방안 연구보고서",
+      "query": [
+        "산재예방 정보",
+        "산재 예방 활동에 필요한 정보를 얻기 어려울 때 법을 어떻게 고쳐야 하는지 다룬 연구",
+        "산재예방활동 정보취득 한계 법률적 개선방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31854",
+      "concat": "[TITLE] 해외진출기업을 위한 산업안전보건 제도(필리핀 편)\n[SUMMARY] 필리핀내 진출기업 또는 필리핀으로 진출하려는 국내기업을 대상으로 필리핀의 산업안전보건제도 및 관련법, 행정기관 연락처를 소개함으로써 해외진출(예정)업체의 산업안전보건전략 구축을 지원하고 필리핀 작업현장내에서 산재사고, 중대재해 또는 직업병 발생시 신고 양식과 처리절차 등을 개제함으로써 실질적인 도움을 제공",
+      "query": [
+        "필리핀 안전보건 제도",
+        "필리핀에 진출하는 기업이 알아야 할 현지 산업안전보건 법과 신고 절차 자료",
+        "해외진출기업 산업안전보건 제도 필리핀 편"
+      ]
+    },
+    {
+      "record_id": "list3_31727",
+      "concat": "[TITLE] 취업자 근로환경조사 심층분석 연구\n[SUMMARY] 근로자의 근로환경에서 유해위험요인 복합노출 양상을 파악하는 것을 목표로 수행한 연구",
+      "query": [
+        "근로환경 조사 분석",
+        "근로자들이 어떤 위험요인에 함께 노출되는지 근로환경조사로 분석한 연구",
+        "취업자 근로환경조사 심층분석 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31357",
+      "concat": "[TITLE] 해외진출기업을 위한 산업안전보건제도(싱가포르 편)\n[SUMMARY] 싱가포르로 진출하려는 50인 미만 중심의 한국기업 또는 현지기업을 중심으로 싱가포르의 산재발생의무 및 중대재해발생 우려가 있는 경우 신고의무 등 산업안전보건 제도 전반에 대한 자료를 담아 현지에서 사용할 수 있도록 구성",
+      "query": [
+        "싱가포르 안전보건 제도",
+        "싱가포르에 진출하려는 기업이 알아야 할 산업안전보건 제도 안내 자료",
+        "해외진출기업 산업안전보건제도 싱가포르 편"
+      ]
+    },
+    {
+      "record_id": "list3_31343",
+      "concat": "[TITLE] 근로환경이 근로자 건강 및 산업재해에 미치는 영향\n[SUMMARY] 2012년 정책연구과제 - 취업자 근로환경조사 심층분석 연구로 2010년, 2011년 두 차례에 걸쳐 실시된 취업자 근로환경조사 자료를 이용하여 근로환경이 변수에 어떠한 영향을 미치는지에 대해 심층분석한 연구보고서임.",
+      "query": [
+        "근로환경 건강 산재",
+        "근로환경이 근로자의 건강이나 산업재해에 어떤 영향을 주는지 분석한 자료",
+        "근로환경 근로자 건강 산업재해 영향"
+      ]
+    },
+    {
+      "record_id": "list3_31063",
+      "concat": "[TITLE] 특수형태 종사자의 안전보건 실태\n[SUMMARY] 특수형태 근로종사자들의 업무환경과 산재발생형태, 업무상 위험요인 등을 조사하여 예방활동을 계획하기 위함",
+      "query": [
+        "특수형태 근로자 안전",
+        "특수형태 근로 종사자의 일터 위험요인과 산재 실태를 조사한 자료",
+        "특수형태 종사자 안전보건 실태"
+      ]
+    },
+    {
+      "record_id": "list3_31297",
+      "concat": "[TITLE] 안전보건관리 노사자치규정 분석 및 적용 연구\n[SUMMARY] 2012년 정책연구보고서 - 안전보건관리 노사자치규정 분석 및 적용 연구로 안전보건관리규정의 법적 성격 및 적용대상 사업장의 확대방안 등 법률 개정 기초자료로 활용",
+      "query": [
+        "노사 안전보건 규정",
+        "사업장에서 노사가 정하는 안전보건관리 규정을 어떻게 적용할지 분석한 연구",
+        "안전보건관리 노사자치규정 분석 적용 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31288",
+      "concat": "[TITLE] 외국의 산업재해 기록보존 및 보고제도 조사\n[SUMMARY] 외국의 산업재해 신고 및 기록 제도를 법적근거 위주로 심층 분석하여 우리나라가 직면해 있는 문제점을 해결할 수 있는 시사점을 도출",
+      "query": [
+        "산재 기록 보고",
+        "외국에서는 산업재해를 어떻게 신고하고 기록으로 보존하는지 조사한 자료",
+        "외국 산업재해 기록보존 보고제도 조사"
+      ]
+    },
+    {
+      "record_id": "list3_31443",
+      "concat": "[TITLE] 실험동물 모델을 사용한 나노물질의 노출에 따른 생체지표 변화연구\n[SUMMARY] 고감수성 그룹에서의 나노물질의 유해성을 확인하기 위하여 과체중 모델을 이용하여 나노 카본블랙의 생체에 미치는 영향을 연구한 보고서",
+      "query": [
+        "나노물질 생체지표",
+        "나노물질에 노출되면 몸의 지표가 어떻게 변하는지 동물실험으로 본 연구",
+        "실험동물 모델 나노물질 노출 생체지표 변화연구"
+      ]
+    },
+    {
+      "record_id": "list3_31439",
+      "concat": "[TITLE] 혼합물질의 GHS 제도 이행 지원 체계화 방안 연구\n[SUMMARY] 고용노동부의 GHS MSDS 제도 전면 시행일인 2013년 7월 1일을 앞두고 빠른 시일 내에 사업장 스스로 혼합물질의 GHS MSDS를 작성하는데 도움을 줄 수 있는 혼합물질 GHS MSDS 작성 지침서 개발과 고용노동부고시 제2012-14호의 보완 및 국내 사업장의 제도적인 적용과 보급을 위한 홍보 및 순회교육 계획의 수립 등 국제적 화학물질 규제 강화에 적극적이고 효율적인 대응으로 산업재해 예방에 기여할 수 있도록 혼합물질 GHS 제도 이행 지원 체계화 방안을 제시하기 위한 연구를 목표로 하였다.",
+      "query": [
+        "혼합물질 GHS",
+        "사업장에서 혼합물질 GHS와 MSDS를 작성하고 적용하는 방법을 다룬 연구",
+        "혼합물질 GHS 제도 이행 지원 체계화 방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31442",
+      "concat": "[TITLE] 살균제 미세입자 에어로졸의 발생 및 흡입독성 연구\n[SUMMARY] 흡입에 의한 노출경로의 변경에 대한 위험성 재평가 및 관리를 위해 국내에서 직업적으로 사용되고 있는 살균제 에어로졸(didecyldime-thylammonium chloride(DDAC))의 흡입독성을 연구수행한 보고서",
+      "query": [
+        "살균제 흡입독성",
+        "살균제 에어로졸을 들이마셨을 때 독성을 평가한 연구 자료",
+        "살균제 미세입자 에어로졸 발생 흡입독성 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31447",
+      "concat": "[TITLE] 화학반응공정의 열적 위험특성을 고려한 공정 조건 최적화 방법연구\n[SUMMARY] 반회분식 공정에서 발열반응과 연계된 열적 위험성을 평가하여 공정의 안전성을 확보하기 위한 최적화 방법을 제시하기 위해 수행된 연구",
+      "query": [
+        "화학공정 열 위험",
+        "화학반응 공정에서 발열 위험을 줄이기 위한 공정 조건 최적화 연구",
+        "화학반응공정 열적 위험특성 공정 조건 최적화 방법연구"
+      ]
+    },
+    {
+      "record_id": "list3_31448",
+      "concat": "[TITLE] 부유성 금속분체의 발화위험성 연구\n[SUMMARY] 금속분체의 발화위험성을 규명을 통해 발화위험성이 높은 관련 사업장의 안전대책 확보 및 금속분진폭발사고 방지를 위한 연구보고서",
+      "query": [
+        "금속분진 발화",
+        "떠다니는 금속 분말이 불이 붙거나 폭발할 위험을 다룬 연구",
+        "부유성 금속분체 발화위험성 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31441",
+      "concat": "[TITLE] 금속화합물질 목록화를 통한 국내외 관리 수준의 분석 및 산안법 관리체계 개선 연구(Ⅰ)\n[SUMMARY] 본 연구에서는 산업안전보건법 시행령에서 관리되고 있는 금속화합물질(비소 및 그 무기화합물, 베릴륨, 크롬광(열을 가하여 소성 처리한 경우에 한함), 황화니켈)과 산업안전보건법 시행규칙 및 산업안전보건기준에 관한 규칙에서 관리되고 있는 금속화합물질 10종(납 및 그 무기 화합물, 니켈 및 그 화합물 등)에 대한 목록을 세분화하여 제시하고자 한다. 이들 금속화합물질에 대한 IARC, NTP, ACGIH, EU ECHA 등의 발암성물질 등급관리 수준을 분석하고, 산업안전보건법령에 의한 금속화합물질의 관리(작업환경측정, 특수건강진단, 관리대상 유해물질 및 특별관리물질 관리, 노출기준의 제·개정)의 범위 및 용어 통일화((harmonized)에 관한 개선(안)을 제안하여 향후, 산업안전보건법령의 개정에 활용하고자 한다.",
+      "query": [
+        "금속화합물 관리",
+        "산업안전보건법에서 금속화합물질을 어떻게 관리해야 하는지 분석한 연구",
+        "금속화합물질 목록화 국내외 관리 수준 산안법 관리체계 개선 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31445",
+      "concat": "[TITLE] 희토류 금속화합물 초미세입자의 분자독성학적 연구 -란타늄 및 네오디뮴을 중심으로-\n[SUMMARY] 분자독성학적 연구를 통하여 근로자의 건강보호를 위한 기초자료 및 유해성 평가 기초자료를 생산하고자 수행한 연구",
+      "query": [
+        "희토류 독성",
+        "란타늄과 네오디뮴 같은 희토류 초미세입자의 독성을 분석한 연구",
+        "희토류 금속화합물 초미세입자 분자독성학적 연구 란타늄 네오디뮴"
+      ]
+    },
+    {
+      "record_id": "list3_31440",
+      "concat": "[TITLE] 화학물질 유해·위험 정보전달 교육 프로그램에 관한 연구\n[SUMMARY] 본 연구는 MSDS 교육지침을 개발하여 교육 관련 제도적 방안을 제시하고 민간 교육기관에서 실시하고 있는 MSDS 교육에 활용하여 안전관리자와 보건관리자의 전문성을 향상시켜 사업장 교육의 실효성을 증대시키는데 활용할 목적으로 수행하였다.",
+      "query": [
+        "화학물질 정보 교육",
+        "MSDS와 화학물질 위험 정보를 근로자에게 교육하는 방법을 다룬 연구",
+        "화학물질 유해 위험 정보전달 교육 프로그램 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31444",
+      "concat": "[TITLE] 기관지폐포액 및 폐조직내 석면분석 연구\n[SUMMARY] 생체내 석면 농도와 특성 분석 및 변화 평가를 통하여 석면으로 인한 직업병 등 석면 피해 판정의 기초자료 생산을 위해 수행된 연구",
+      "query": [
+        "석면 폐조직 분석",
+        "몸 안의 석면 농도와 특성을 분석해 석면 피해 판정에 활용하는 연구",
+        "기관지폐포액 폐조직내 석면분석 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31291",
+      "concat": "[TITLE] 건물관리업 사고 사망재해 사례집\n[SUMMARY] 0 건물관리업 사고 사망재해사례집",
+      "query": [
+        "건물관리 사망사고",
+        "건물관리업에서 발생한 사고 사망 사례를 모아 놓은 자료",
+        "건물관리업 사고 사망재해 사례집"
+      ]
+    },
+    {
+      "record_id": "list3_31798",
+      "concat": "[TITLE] 반도체 제조업 작업환경관리 매뉴얼 개발 연구\n[SUMMARY] 반도체 제조업 작업환경관리 매뉴얼 개발 연구보고서",
+      "query": [
+        "반도체 작업환경",
+        "반도체 제조업 사업장의 작업환경을 관리하는 매뉴얼 개발 연구",
+        "반도체 제조업 작업환경관리 매뉴얼 개발 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31344",
+      "concat": "[TITLE] 근로환경조사 자료이용 체계 구축\n[SUMMARY] 정부가 정책을 추진하는데 있어서 합리적인 의사결정을 하기위해서는 해당 정책을 추진하는 근거나 증거를 제시하는 것이 중요해지고 있다. 통계는 정책을 뒷받침해줄 수 있는 가장 직접적이고 확실한 근거이자 증거라고 할 수 있으며 그렇기 때문에 각 정부부처와 기관들은 통계 수집과 관리, 활용을 위한 시스템을 구축했거나 구축하는데 노력을 기울이고 있다. 이와 같이 양질의 통계를 생산하기 위해서는 기초자료 활용 기반 구축이 매우 중요하다. 따라서 본 연구에서는 확보된 근로환경조사 자료를 기반으로 자료이용자 수요에 대응하기 위한 자료이용기반 체계 구축을 최종 목표로 한다.",
+      "query": [
+        "근로환경조사 자료",
+        "근로환경조사 데이터를 정책이나 연구에 활용할 수 있게 체계를 만든 연구",
+        "근로환경조사 자료이용 체계 구축"
+      ]
+    },
+    {
+      "record_id": "list3_31446",
+      "concat": "[TITLE] 혈장 중 납의 납 독성 지표로서 활용성 평가(II)\n[SUMMARY] ICP-MS(inductively coupled plasma mass spectrometry)를 이용하여 혈장중 납의 생물학적 지표로서 활용성을 평가하고 납 만성 중독 지표의 활용을 통한 납 중독에 효과적으로 예방하는 것에 관한 연구",
+      "query": [
+        "혈장 납 독성",
+        "혈장 속 납을 납 중독 지표로 쓸 수 있는지 평가한 연구",
+        "혈장 중 납 납 독성 지표 활용성 평가"
+      ]
+    },
+    {
+      "record_id": "list3_31356",
+      "concat": "[TITLE] 중대재해사례집\n[SUMMARY] 전남동부지도원 관내 제조업 사업장에서 최근 발생한 중대재해사례를 책자로 제작하여 사업장 교육 및 기술지원 등에 활용하고자 함.",
+      "query": [
+        "중대재해 사례",
+        "제조업 사업장에서 발생한 중대재해 사례를 교육용으로 모은 자료",
+        "중대재해사례집"
+      ]
+    },
+    {
+      "record_id": "list3_31311",
+      "concat": "[TITLE] 특수건강진단 대상 유해인자별 건강장해 편람 개발\n[SUMMARY] 근로자 건강진단 실무지침 3권 - 유해인자별 건강장해 연구 사항임. 유해인자 179종에 대하여 최신 지견에 따른 정보로 개정 후, 해당 내용이 나머지 실무지침 1, 2권 및 기존 산업안전법 관련 규정에 미치는 영향을 찾아 정리하여 이를 제시하고자 한다.",
+      "query": [
+        "유해인자 건강장해",
+        "특수건강진단 대상 유해인자별 건강장해 정보를 정리한 편람",
+        "특수건강진단 대상 유해인자별 건강장해 편람 개발"
+      ]
+    },
+    {
+      "record_id": "list3_31354",
+      "concat": "[TITLE] 특수건강진단 대상 유해요인의 국내근로자 노출현황 조사연구\n[SUMMARY] 국내 톨루엔 취급 사업장의 근로자를 대상으로 톨루엔 노출 수준을 파악하고, 통계학적 검정을 이용해 공기 중 톨루엔 농도와 요중 마뇨산, o-크레졸, 혈중 톨루엔과의 상관성을 분석하여, 생물학적 지표로써의 유효성을 평가하고자 하였으며, 이를 바탕으로 톨루엔의 적합한 노출지표 및 기준 설정을 위한 기초자료를 제공함",
+      "query": [
+        "톨루엔 노출",
+        "특수건강진단 대상 유해요인 중 톨루엔 노출 현황과 지표를 조사한 연구",
+        "특수건강진단 대상 유해요인 국내근로자 노출현황 조사연구"
+      ]
+    },
+    {
+      "record_id": "list3_31320",
+      "concat": "[TITLE] 안심경영레시피 일곱번째 이야기 - 이거! 우리 이야기네요\n[SUMMARY] 안심경영레시피 일곱번째 이야기 - 이거! 우리 이야기네요",
+      "query": [
+        "안심경영 이야기",
+        "안심경영레시피 중 우리 사업장 사례처럼 볼 수 있는 안전보건 자료",
+        "안심경영레시피 일곱번째 이야기 이거 우리 이야기네요"
+      ]
+    },
+    {
+      "record_id": "list3_31293",
+      "concat": "[TITLE] 위생및유사서비스업 사고사망사례집\n[SUMMARY] 위생및유사서비스업 사고사망 사례집 책자",
+      "query": [
+        "위생서비스 사망사고",
+        "위생 및 유사서비스업에서 발생한 사고 사망 사례를 모은 자료",
+        "위생및유사서비스업 사고사망사례집"
+      ]
+    },
+    {
+      "record_id": "list3_30491",
+      "concat": "[TITLE] 제3차 근로환경조사 통계품질진단보고서\n[SUMMARY] 안전보건 정책수립을 위한 제3차 근로환경조사의 통계품질진단보고서",
+      "query": [
+        "근로환경조사 품질",
+        "제3차 근로환경조사의 통계 품질을 진단한 보고서",
+        "제3차 근로환경조사 통계품질진단보고서"
+      ]
+    },
+    {
+      "record_id": "list3_31292",
+      "concat": "[TITLE] 도소매업 사고사망사례집\n[SUMMARY] 0 도소매업 사고 사망사례집",
+      "query": [
+        "도소매 사망사고",
+        "도소매업에서 발생한 사고 사망 사례를 모은 자료",
+        "도소매업 사고사망사례집"
+      ]
+    },
+    {
+      "record_id": "list3_30487",
+      "concat": "[TITLE] 제3차 근로환경조사 기본통계표\n[SUMMARY] 2011년 제3차 근로환경조사 기본통계표 결과",
+      "query": [
+        "근로환경조사 통계표",
+        "제3차 근로환경조사의 기본 통계 결과를 정리한 표 자료",
+        "제3차 근로환경조사 기본통계표"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 20,
+  "items": [
+    {
+      "record_id": "list1_50636",
+      "concat": "[TITLE] (파키스탄)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 건설기계 안전",
+        "파키스탄 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "파키스탄 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50635",
+      "concat": "[TITLE] (필리핀)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 건설기계 안전",
+        "필리핀 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "필리핀 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50634",
+      "concat": "[TITLE] (인도네시아)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 건설기계 안전",
+        "인도네시아 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "인도네시아 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50638",
+      "concat": "[TITLE] (우즈베키스탄)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 건설기계 안전",
+        "우즈베키스탄 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "우즈베키스탄 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50639",
+      "concat": "[TITLE] (베트남)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 건설기계 안전",
+        "베트남 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "베트남 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50640",
+      "concat": "[TITLE] (몽골)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "몽골 건설기계 안전",
+        "몽골 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "몽골 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50641",
+      "concat": "[TITLE] (중국)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 건설기계 안전",
+        "중국 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "중국 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50646",
+      "concat": "[TITLE] (인도네시아)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 리프트 안전",
+        "인도네시아 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "인도네시아 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50643",
+      "concat": "[TITLE] (네팔)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 리프트 안전",
+        "네팔 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "네팔 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50644",
+      "concat": "[TITLE] (동티모르)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 리프트 안전",
+        "동티모르 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "동티모르 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50642",
+      "concat": "[TITLE] (방글라데시)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "방글라데시 건설기계 안전",
+        "방글라데시 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "방글라데시 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50645",
+      "concat": "[TITLE] (스리랑카)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 리프트 안전",
+        "스리랑카 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "스리랑카 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50647",
+      "concat": "[TITLE] (캄보디아)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 리프트 안전",
+        "캄보디아 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "캄보디아 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50648",
+      "concat": "[TITLE] (라오스)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 리프트 안전",
+        "라오스 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "라오스 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50650",
+      "concat": "[TITLE] (키르기스스탄)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 리프트 안전",
+        "키르기스스탄 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "키르기스스탄 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50651",
+      "concat": "[TITLE] (네팔)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 가공설비 안전",
+        "네팔 근로자가 볼 수 있는 가공설비 작업 사고 예방 자료",
+        "네팔 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50652",
+      "concat": "[TITLE] (동티모르)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 가공설비 안전",
+        "동티모르 근로자가 볼 수 있는 가공설비 작업 사고 예방 자료",
+        "동티모르 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50656",
+      "concat": "[TITLE] (몽골)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "몽골 가공설비 안전",
+        "몽골 근로자가 볼 수 있는 가공설비 작업 사고 예방 자료",
+        "몽골 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50649",
+      "concat": "[TITLE] (베트남)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 리프트 안전",
+        "베트남 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "베트남 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50655",
+      "concat": "[TITLE] (라오스)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 가공설비 안전",
+        "라오스 근로자가 볼 수 있는 가공설비 작업 사고 예방 자료",
+        "라오스 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50657",
+      "concat": "[TITLE] (베트남)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 가공설비 안전",
+        "베트남 근로자가 볼 수 있는 가공설비 작업 사고 예방 자료",
+        "베트남 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50653",
+      "concat": "[TITLE] (스리랑카)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 가공설비 안전",
+        "스리랑카 근로자가 볼 수 있는 가공설비 작업 사고 예방 자료",
+        "스리랑카 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50658",
+      "concat": "[TITLE] (캄보디아)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 가공설비 안전",
+        "캄보디아 근로자가 볼 수 있는 가공설비 작업 사고 예방 자료",
+        "캄보디아 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50660",
+      "concat": "[TITLE] (키르기스스탄)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 건설기계 안전",
+        "키르기스스탄 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "키르기스스탄 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50659",
+      "concat": "[TITLE] (네팔)고소작업대 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 고소작업대 안전",
+        "네팔 근로자가 볼 수 있는 고소작업대 작업 사고 예방 자료",
+        "네팔 고소작업대 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50661",
+      "concat": "[TITLE] (타지키스탄)건설기계 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 건설기계 안전",
+        "타지키스탄 근로자가 볼 수 있는 건설기계 작업 사고 예방 자료",
+        "타지키스탄 건설기계 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50662",
+      "concat": "[TITLE] (미얀마)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 리프트 안전",
+        "미얀마 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "미얀마 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50663",
+      "concat": "[TITLE] (필리핀)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 리프트 안전",
+        "필리핀 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "필리핀 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50664",
+      "concat": "[TITLE] (파키스탄)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 리프트 안전",
+        "파키스탄 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "파키스탄 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50666",
+      "concat": "[TITLE] (태국)리프트 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 리프트 안전",
+        "태국 근로자가 볼 수 있는 리프트 작업 사고 예방 자료",
+        "태국 리프트 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    }
+  ]
+}

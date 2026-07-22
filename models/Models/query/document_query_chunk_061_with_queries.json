@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 61,
+  "items": [
+    {
+      "record_id": "list1_41056",
+      "concat": "[TITLE] (OPL) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류 태국 콘크리트 양생작업 근로자를 위한 안전보건 OPL",
+      "query": [
+        "콘크리트 양생 갈탄 가스",
+        "콘크리트 굳히는 작업 중 갈탄을 피웠다가 가스에 중독되는 사고 예방 자료",
+        "콘크리트 양생작업 갈탄 연소가스 중독 태국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40666",
+      "concat": "[TITLE] 리프트 재해 예방 대책\n[SUMMARY] 리프트 재해 예방 대책 및 재해 사례",
+      "query": [
+        "리프트 사고 예방",
+        "작업장에서 리프트를 쓰다가 다치는 사고를 줄이는 방법 자료",
+        "리프트 재해 예방 대책 재해 사례"
+      ]
+    },
+    {
+      "record_id": "list1_40813",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 중국 근로자를 위한 안전보건 OPL, 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식 사고에 대한 OPS",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 중국 근로자 안전보건 OPL OPS"
+      ]
+    },
+    {
+      "record_id": "list1_40665",
+      "concat": "[TITLE] 고소작업대 재해예방 대책\n[SUMMARY] 고소작업대 재해 예방 대책 및 재해 사례 소개",
+      "query": [
+        "고소작업대 사고 예방",
+        "높은 곳에서 쓰는 작업대에서 떨어지거나 다치는 사고를 막는 방법",
+        "고소작업대 재해예방 대책 재해 사례"
+      ]
+    },
+    {
+      "record_id": "list1_40812",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40818",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 필리핀 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40810",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 스리랑카 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 스리랑카 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40811",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40809",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40814",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 캄보디아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40806",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 몽골 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 몽골 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40807",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 분뇨 가스 질식",
+        "축사에서 분뇨 처리하다가 유독가스에 질식되는 사고 예방 자료",
+        "축사 분뇨처리 작업 황화수소 중독 질식 미얀마 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39646",
+      "concat": "[TITLE] 폭발성물질 취급에 따른 폭발사고 예방 OPL\n[SUMMARY] 화약 등 폭발성물질 취급에 따른 폭발사고 예방 OPL",
+      "query": [
+        "화약 폭발 사고",
+        "화약 같은 폭발 위험 물질을 다룰 때 사고를 예방하는 자료",
+        "폭발성물질 화약 취급 폭발사고 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39645",
+      "concat": "[TITLE] 용융설비 사고 OPL\n[SUMMARY] 용융설비(용해로 등) 용강 누출로 인한 사망사고 예방 OPL",
+      "query": [
+        "용해로 쇳물 누출",
+        "쇳물을 녹이는 설비에서 뜨거운 금속이 새어 나오는 사고 예방 자료",
+        "용융설비 용해로 용강 누출 사망사고 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38854",
+      "concat": "[TITLE] 17년직업건강가이드라인OPS(제조업파견근로자)\n[SUMMARY] 17년직업건강가이드라인OPS(제조업파견근로자)",
+      "query": [
+        "제조업 파견근로자 건강",
+        "공장에서 일하는 파견근로자의 직업 건강 관리 방법을 찾고 싶을 때 보는 자료",
+        "직업건강가이드라인 OPS 제조업 파견근로자"
+      ]
+    },
+    {
+      "record_id": "list1_39644",
+      "concat": "[TITLE] 염소가스 누출사고 OPL\n[SUMMARY] 염소가스 누출에 따른 사고 OPL",
+      "query": [
+        "염소가스 누출",
+        "염소가스가 새어 나왔을 때 생기는 사고를 막는 안전 자료",
+        "염소가스 누출사고 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39643",
+      "concat": "[TITLE] 보일러 사고 OPL\n[SUMMARY] 보일러 증기 등 누출로 인한 사망사고 예방 OPL",
+      "query": [
+        "보일러 증기 누출",
+        "보일러에서 증기나 뜨거운 물이 새어 나와 다치는 사고 예방 자료",
+        "보일러 증기 누출 사망사고 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38625",
+      "concat": "[TITLE] 일반병원 대상 직업성질환 의심환자 신고방법\n[SUMMARY] 일반병원 대상 직업성질환 의심환자 신고방법",
+      "query": [
+        "직업병 의심 신고",
+        "병원에서 일하다 생긴 병이 의심되는 환자를 어디에 어떻게 신고하는지 찾는 자료",
+        "일반병원 직업성질환 의심환자 신고방법"
+      ]
+    },
+    {
+      "record_id": "list1_40417",
+      "concat": "[TITLE] 불량비계 추방 OPL\n[SUMMARY] 건설업 사망재해의 약 50% 이상을 차지하는 추락사고를 예방하기 위해 외부비계상의 발판 및 안전난간 미설치 현장 집중 점검을 통해 건설현장에 안전성이 확보된 비계 및 작업발판을 전수 설치토록 유도하여 쾌적하고 안전한 작업환경 조성",
+      "query": [
+        "비계 추락 예방",
+        "건설현장에서 비계 발판이나 난간이 없어 떨어지는 사고를 막는 자료",
+        "불량비계 추방 외부비계 발판 안전난간 추락사고 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40500",
+      "concat": "[TITLE] 정비작업 중 화학사고 예방을 위한 OPL\n[SUMMARY] 정비작업 중 화학사고 예방을 위한 OPL",
+      "query": [
+        "정비작업 화학사고",
+        "설비를 고치거나 점검하는 중에 화학물질 사고를 막는 자료",
+        "정비작업 화학사고 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40489",
+      "concat": "[TITLE] 질식위험장소에 그냥 들어가면 사망! (오폐수처리장소)\n[SUMMARY] 오폐수처리장소 질식사고 예방 질식위험장소에 그냥 들어가면 사망! (오폐수처리장소)",
+      "query": [
+        "오폐수처리장 질식",
+        "오폐수 처리 장소에 들어갔다가 숨을 못 쉬는 사고를 막는 자료",
+        "질식위험장소 오폐수처리장소 질식사고 예방"
+      ]
+    },
+    {
+      "record_id": "list1_40498",
+      "concat": "[TITLE] 열사병 예방 3대 기본수칙 이행가이드\n[SUMMARY] 열사병 예방 3대 기본수칙 이행가이드 폭염 정의, 열사병 예방 3대 기본수칙, 위험단계별 대응요령 등",
+      "query": [
+        "열사병 예방 수칙",
+        "폭염 때 현장에서 열사병을 막기 위해 지켜야 할 기본 수칙 자료",
+        "열사병 예방 기본수칙 이행가이드 폭염 위험단계 대응요령"
+      ]
+    },
+    {
+      "record_id": "list1_40462",
+      "concat": "[TITLE] 질식위험장소에 그냥 들어가면 사망! (반응기, 탱크 내부작업)\n[SUMMARY] 2019년 질식 3대 위험영역 집중관리 사업수행시 활용 질식위험장소에 그냥 들어가면 사망! (반응기, 탱크 내부작업)",
+      "query": [
+        "탱크 내부 질식",
+        "반응기나 탱크 안에 들어가 작업할 때 질식 사고를 막는 자료",
+        "질식위험장소 반응기 탱크 내부작업 질식 예방"
+      ]
+    },
+    {
+      "record_id": "list1_40463",
+      "concat": "[TITLE] 질식위험장소에 그냥 들어가면 사망! (선박 배관, 탱크 내부작업)\n[SUMMARY] 2019년 질식 3대 위험영역 집중관리 사업시 활용 질식위험장소에 그냥 들어가면 사망! (선박 배관, 탱크 내부작업)",
+      "query": [
+        "선박 탱크 질식",
+        "배 안의 배관이나 탱크 안에서 작업하다가 질식하지 않도록 하는 자료",
+        "질식위험장소 선박 배관 탱크 내부작업 질식 예방"
+      ]
+    },
+    {
+      "record_id": "list1_40453",
+      "concat": "[TITLE] 감김·끼임재해예방 OPL\n[SUMMARY] 감김·끼임재해예방 OPL",
+      "query": [
+        "기계 끼임 사고",
+        "기계에 몸이나 옷이 말리거나 끼이는 사고를 예방하는 자료",
+        "감김 끼임재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40454",
+      "concat": "[TITLE] [김해, 양산, 밀양지역_끼임재해예방 OPL] 끼임재해 4대 위험설비 재해사례 및 자율안전점검표_전단기\n[SUMMARY] [김해, 양산, 밀양지역_끼임재해예방 OPL] 끼임재해 4대 위험설비 재해사례 및 자율안전점검표_전단기 김해, 양산, 밀양지역_끼임재해 4대 위험설비 재해사례 및 자율안전점검표_전단기 전단기 재해를 예방합시다.",
+      "query": [
+        "전단기 끼임 사고",
+        "전단기를 쓰다가 손이나 몸이 끼이는 사고 사례와 점검표 자료",
+        "김해 양산 밀양 끼임재해예방 전단기 재해사례 자율안전점검표 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40455",
+      "concat": "[TITLE] [김해, 양산, 밀양지역_끼임재해예방 OPL] 끼임재해 4대 위험설비 재해사례 및 자율안전점검표_프레스\n[SUMMARY] [김해, 양산, 밀양지역_끼임재해예방 OPL] 끼임재해 4대 위험설비 재해사례 및 자율안전점검표_프레스 김해, 양산, 밀양지역_끼임재해 4대 위험설비 재해사례 및 자율안전점검표_프레스 프레스 재해를 예방합시다.",
+      "query": [
+        "프레스 끼임 사고",
+        "프레스 기계를 쓰다가 끼이는 사고 사례와 점검표 자료",
+        "김해 양산 밀양 끼임재해예방 프레스 재해사례 자율안전점검표 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40456",
+      "concat": "[TITLE] [김해, 양산, 밀양지역_끼임재해예방 OPL] 끼임재해 4대 위험설비 재해사례 및 자율안전점검표_밀링기\n[SUMMARY] [김해, 양산, 밀양지역_끼임재해예방 OPL] 끼임재해 4대 위험설비 재해사례 및 자율안전점검표_밀링기 김해, 양산, 밀양지역_끼임재해 4대 위험설비 재해사례 및 자율안전점검표_밀링기 밀링기 재해를 예방합시다.",
+      "query": [
+        "밀링기 끼임 사고",
+        "밀링기를 쓰다가 끼이는 사고 사례와 점검표 자료",
+        "김해 양산 밀양 끼임재해예방 밀링기 재해사례 자율안전점검표 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40464",
+      "concat": "[TITLE] 안전보건 미디어 활용가이드 OPL(안녕안전)\n[SUMMARY] 안녕안전? 안전보건자료를 만나는 네 가지 방법 1)홈페이지, 안전보건자료실, 유튜브 2)스마트폰 APP 3)미디어 현장배송 서비스 4)가까운 일선기관 방문",
+      "query": [
+        "안전보건 자료 찾기",
+        "안전보건 자료를 홈페이지나 유튜브, 앱에서 찾는 방법을 안내하는 자료",
+        "안전보건 미디어 활용가이드 OPL 안녕안전 안전보건자료 홈페이지 유튜브 APP 현장배송"
+      ]
+    },
+    {
+      "record_id": "list1_40457",
+      "concat": "[TITLE] [김해, 양산, 밀양지역_끼임재해예방 OPL] 끼임재해 4대 위험설비 재해사례 및 자율안전점검표_선반\n[SUMMARY] [김해, 양산, 밀양지역_끼임재해예방 OPL] 끼임재해 4대 위험설비 재해사례 및 자율안전점검표_선반 김해, 양산, 밀양지역_끼임재해 4대 위험설비 재해사례 및 자율안전점검표_선반 선반 재해를 예방합시다.",
+      "query": [
+        "선반 끼임 사고",
+        "선반 기계를 쓰다가 끼이는 사고 사례와 점검표 자료",
+        "김해 양산 밀양 끼임재해예방 선반 재해사례 자율안전점검표 OPL"
+      ]
+    }
+  ]
+}

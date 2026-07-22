@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 60,
+  "items": [
+    {
+      "record_id": "list1_41074",
+      "concat": "[TITLE] (OPL) 사다리 사용 고소작업 중 떨어짐\n[SUMMARY] 국내 체류 필리핀 근로자를 위한 안전보건 OPL",
+      "query": [
+        "사다리 추락 사고",
+        "사다리 타고 높은 곳에서 작업하다 떨어지는 사고 예방 자료",
+        "사다리 사용 고소작업 중 떨어짐 필리핀 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41088",
+      "concat": "[TITLE] (OPL) 지붕 샌드위치 패널 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "샌드위치패널 지붕 추락",
+        "지붕 패널 설치하다가 떨어지는 사고를 막는 외국인 근로자 자료",
+        "지붕 샌드위치 패널 설치 중 떨어짐 파키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41076",
+      "concat": "[TITLE] (OPL) 지붕 샌드위치 패널 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 동티모르 근로자를 위한 안전보건 OPL",
+      "query": [
+        "샌드위치패널 지붕 추락",
+        "지붕 패널 설치하다가 떨어지는 사고를 막는 외국인 근로자 자료",
+        "지붕 샌드위치 패널 설치 중 떨어짐 동티모르 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41081",
+      "concat": "[TITLE] (OPL) 지붕 샌드위치 패널 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "샌드위치패널 지붕 추락",
+        "지붕 패널 설치하다가 떨어지는 사고를 막는 외국인 근로자 자료",
+        "지붕 샌드위치 패널 설치 중 떨어짐 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41080",
+      "concat": "[TITLE] (OPL) 지붕 샌드위치 패널 설치 중 떨어짐\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "샌드위치패널 지붕 추락",
+        "지붕 패널 설치하다가 떨어지는 사고를 막는 외국인 근로자 자료",
+        "지붕 샌드위치 패널 설치 중 떨어짐 방글라데시 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41091",
+      "concat": "[TITLE] (OPL) 슬래브 단부에서 패널 자재 운반 중 떨어짐\n[SUMMARY] 국내 체류 외국인 동티모르 근로자를 위한 안전보건 OPL",
+      "query": [
+        "슬래브 단부 추락",
+        "슬래브 가장자리에서 패널 자재를 옮기다가 떨어지는 사고 예방 자료",
+        "슬래브 단부에서 패널 자재 운반 중 떨어짐 동티모르 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41035",
+      "concat": "[TITLE] (OPL) 강관비계 해체 작업 중 떨어짐\n[SUMMARY] 국내 체류 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "비계 해체 추락",
+        "강관비계를 해체하다가 높은 곳에서 떨어지는 사고 예방 자료",
+        "강관비계 해체 작업 중 떨어짐 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41036",
+      "concat": "[TITLE] (OPL) 강관비계 해체 작업 중 떨어짐\n[SUMMARY] 국내 체류 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "비계 해체 추락",
+        "강관비계를 해체하다가 높은 곳에서 떨어지는 사고 예방 자료",
+        "강관비계 해체 작업 중 떨어짐 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41043",
+      "concat": "[TITLE] (OPL) 콘크리트 양생작업 중 갈탄 연소가스에 중독\n[SUMMARY] 국내 체류네팔 근로자를 위한 안전보건 OPL",
+      "query": [
+        "갈탄 가스 중독",
+        "콘크리트 양생할 때 갈탄을 피우다 가스에 중독되는 사고 자료",
+        "콘크리트 양생작업 중 갈탄 연소가스 중독 네팔 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41032",
+      "concat": "[TITLE] (OPL) 강관비계 해체 작업 중 떨어짐\n[SUMMARY] 국내 체류 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "비계 해체 추락",
+        "강관비계를 해체하다가 높은 곳에서 떨어지는 사고 예방 자료",
+        "강관비계 해체 작업 중 떨어짐 미얀마 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41022",
+      "concat": "[TITLE] (OPL) 건물 외벽 준공 청소중 달비계 로프 파단으로 떨어짐\n[SUMMARY] 국내 체류 캄보디아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "달비계 로프 추락",
+        "건물 외벽 청소 중 달비계 로프가 끊어져 떨어지는 사고 예방 자료",
+        "건물 외벽 준공 청소중 달비계 로프 파단 떨어짐 캄보디아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41031",
+      "concat": "[TITLE] (OPL) 강관비계 해체 작업 중 떨어짐\n[SUMMARY] 국내 체류 미얀마 근로자를 위한 안전보건 OPL",
+      "query": [
+        "비계 해체 추락",
+        "강관비계를 해체하다가 높은 곳에서 떨어지는 사고 예방 자료",
+        "강관비계 해체 작업 중 떨어짐 미얀마 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41020",
+      "concat": "[TITLE] (OPL) 건물 외벽 준공 청소중 달비계 로프 파단으로 떨어짐\n[SUMMARY] 국내 체류 인도네시아 근로자를 위한 안전보건 OPL",
+      "query": [
+        "달비계 로프 추락",
+        "건물 외벽 청소 중 달비계 로프가 끊어져 떨어지는 사고 예방 자료",
+        "건물 외벽 준공 청소중 달비계 로프 파단 떨어짐 인도네시아 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41017",
+      "concat": "[TITLE] (OPL) 건물 외벽 준공 청소중 달비계 로프 파단으로 떨어짐\n[SUMMARY] 국내 체류 베트남 근로자를 위한 안전보건 OPL",
+      "query": [
+        "달비계 로프 추락",
+        "건물 외벽 청소 중 달비계 로프가 끊어져 떨어지는 사고 예방 자료",
+        "건물 외벽 준공 청소중 달비계 로프 파단 떨어짐 베트남 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40803",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인인 네팔 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 질식 사고",
+        "축사에서 분뇨 처리하다 황화수소 때문에 질식하는 사고 예방 자료",
+        "축사 내 분뇨처리 작업 시 황화수소 중독 질식 네팔 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41007",
+      "concat": "[TITLE] (OPL) 외부비계 위에서 강관파이프 해체 중 떨어짐\n[SUMMARY] 국내 체류 키르기스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "외부비계 파이프 추락",
+        "외부 비계에서 강관파이프를 해체하다 떨어지는 사고 예방 자료",
+        "외부비계 위에서 강관파이프 해체 중 떨어짐 키르기스스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40805",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 질식 사고",
+        "축사에서 분뇨 처리하다 황화수소 때문에 질식하는 사고 예방 자료",
+        "축사 내 분뇨처리 작업 시 황화수소 중독 질식 라오스 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41005",
+      "concat": "[TITLE] (OPL-중국) 외부비계 위에서 강관파이프 해체 중 떨어짐\n[SUMMARY] 국내 체류 중국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "외부비계 파이프 추락",
+        "외부 비계에서 강관파이프를 해체하다 떨어지는 사고 예방 자료",
+        "외부비계 위에서 강관파이프 해체 중 떨어짐 중국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41003",
+      "concat": "[TITLE] (OPL) 외부비계 위에서 강관파이프 해체 중 떨어짐\n[SUMMARY] 국내 체류 우즈베키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "외부비계 파이프 추락",
+        "외부 비계에서 강관파이프를 해체하다 떨어지는 사고 예방 자료",
+        "외부비계 위에서 강관파이프 해체 중 떨어짐 우즈베키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41013",
+      "concat": "[TITLE] (OPL) 건물 외벽 준공 청소중 달비계 로프 파단으로 떨어짐\n[SUMMARY] 국내 체류 라오스 근로자를 위한 안전보건 OPL",
+      "query": [
+        "달비계 로프 추락",
+        "건물 외벽 청소 중 달비계 로프가 끊어져 떨어지는 사고 예방 자료",
+        "건물 외벽 준공 청소중 달비계 로프 파단 떨어짐 라오스 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40804",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 동티모르 근로자를 위한 안전보건 OPL :축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식 사례",
+      "query": [
+        "축사 질식 사고",
+        "축사에서 분뇨 처리하다 황화수소 때문에 질식하는 사고 예방 자료",
+        "축사 내 분뇨처리 작업 시 황화수소 중독 질식 동티모르 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40659",
+      "concat": "[TITLE] (외국어 OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인근로자 16개 송출국가별 안전보건 OPL 한국, 중국, 태국, 베트남, 우즈베키스탄, 필리핀(영어), 인도네시아, 캄보디아, 몽골, 네팔, 미얀마, 스리랑카, 방글라데시, 파키스탄, 키르기스스탄, 동티모르, 라오스",
+      "query": [
+        "축사 질식 사고",
+        "외국인 근로자에게 축사 분뇨처리 중 황화수소 질식 사고를 설명하는 자료",
+        "외국어 OPL 축사 내 분뇨처리 작업 시 황화수소 중독 질식 외국인근로자 16개 송출국가별 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40816",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 태국 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 질식 사고",
+        "축사에서 분뇨 처리하다 황화수소 때문에 질식하는 사고 예방 자료",
+        "축사 내 분뇨처리 작업 시 황화수소 중독 질식 태국 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40817",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 파키스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 질식 사고",
+        "축사에서 분뇨 처리하다 황화수소 때문에 질식하는 사고 예방 자료",
+        "축사 내 분뇨처리 작업 시 황화수소 중독 질식 파키스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40808",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 방글라데시 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 질식 사고",
+        "축사에서 분뇨 처리하다 황화수소 때문에 질식하는 사고 예방 자료",
+        "축사 내 분뇨처리 작업 시 황화수소 중독 질식 방글라데시 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40815",
+      "concat": "[TITLE] (OPL) 축사 내 분뇨처리 작업 시 황화수소 중독에 의한 질식\n[SUMMARY] 국내 체류 외국인 키르기스스탄 근로자를 위한 안전보건 OPL",
+      "query": [
+        "축사 질식 사고",
+        "축사에서 분뇨 처리하다 황화수소 때문에 질식하는 사고 예방 자료",
+        "축사 내 분뇨처리 작업 시 황화수소 중독 질식 키르기스스탄 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_40676",
+      "concat": "[TITLE] 에어컨 설치.수리 사고사례\n[SUMMARY] ㅇ에어컨 설치, 수리 사고사례 - 내용 : 에어컨 설치 및 수리작업 시 사고사례별 예방대책",
+      "query": [
+        "에어컨 설치 사고",
+        "에어컨 설치나 수리 작업 중 생길 수 있는 사고 사례와 예방 방법",
+        "에어컨 설치 수리 사고사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_40603",
+      "concat": "[TITLE] 사망사고 다발 주요 유해위험작업에 대한 작업노동자 긴급 행동 요령\n[SUMMARY] 사망사고 다발 주요 유해위험작업 및 사망사고 발생(위험) 시 노동자 대응 요령",
+      "query": [
+        "위험작업 행동요령",
+        "위험한 작업에서 사망사고가 날 것 같을 때 노동자가 어떻게 대처해야 하는지",
+        "사망사고 다발 주요 유해위험작업 작업노동자 긴급 행동 요령"
+      ]
+    },
+    {
+      "record_id": "list1_39647",
+      "concat": "[TITLE] 화학물질 세척작업 안전 OPL\n[SUMMARY] 화학물질(인화성액체, 급성독성물질 등) 세척작업 시 작업안전 OPL",
+      "query": [
+        "화학물질 세척 안전",
+        "인화성 액체나 독성물질로 세척 작업할 때 지켜야 할 안전수칙",
+        "화학물질 세척작업 안전 OPL 인화성액체 급성독성물질"
+      ]
+    },
+    {
+      "record_id": "list1_40597",
+      "concat": "[TITLE] 사업장 대규모 인적사고 발생 시 행동요령, 지진발생시 행동요령\n[SUMMARY] 사업장 대규모 인적사고 발생 시 행동요령, 지진발생시 행동요령",
+      "query": [
+        "사업장 사고 행동요령",
+        "회사나 공장에서 큰 인명 사고나 지진이 났을 때 어떻게 행동해야 하는지",
+        "사업장 대규모 인적사고 발생 시 행동요령 지진발생시 행동요령"
+      ]
+    }
+  ]
+}

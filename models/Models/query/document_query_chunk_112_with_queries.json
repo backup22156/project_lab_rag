@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 112,
+  "items": [
+    {
+      "record_id": "list1_31193",
+      "concat": "[TITLE] [중대재해사례]임시 조립된 철골구조물 도괴\n[SUMMARY] [중대재해사례]임시 조립된 철골구조물 도괴",
+      "query": [
+        "철골 구조물 붕괴",
+        "임시로 조립한 철골 구조물이 무너진 사고 사례를 찾고 싶다",
+        "중대재해사례 임시 조립 철골구조물 도괴"
+      ]
+    },
+    {
+      "record_id": "list1_31195",
+      "concat": "[TITLE] [중대재해사례]4층 비계발판 위에 적재된 유로폼 낙하\n[SUMMARY] [중대재해사례]4층 비계발판 위에 적재된 유로폼 낙하",
+      "query": [
+        "비계 발판 유로폼",
+        "비계 위에 올려둔 유로폼이 아래로 떨어진 사고 자료를 찾고 있다",
+        "중대재해사례 비계발판 적재 유로폼 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31194",
+      "concat": "[TITLE] [중대재해사례]터널 막장면 붕괴\n[SUMMARY] [중대재해사례]터널 막장면 붕괴",
+      "query": [
+        "터널 막장 붕괴",
+        "터널 공사 중 앞쪽 작업면이 무너진 사고 사례가 필요하다",
+        "중대재해사례 터널 막장면 붕괴"
+      ]
+    },
+    {
+      "record_id": "list1_31197",
+      "concat": "[TITLE] [중대재해사례]건물 외부 골조 대형폼 빈틈으로 거푸집 낙하\n[SUMMARY] [중대재해사례]건물 외부 골조 대형폼 빈틈으로 거푸집 낙하",
+      "query": [
+        "거푸집 낙하 대형폼",
+        "건물 외부 골조 작업 중 빈틈으로 거푸집이 떨어진 사고를 찾는다",
+        "중대재해사례 건물 외부 골조 대형폼 빈틈 거푸집 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31196",
+      "concat": "[TITLE] [중대재해사례]강관 인양 중 PP로프가 풀리면서 강관 낙하\n[SUMMARY] [중대재해사례]강관 인양 중 PP로프가 풀리면서 강관 낙하",
+      "query": [
+        "강관 인양 낙하",
+        "강관을 들어 올리다가 로프가 풀려 파이프가 떨어진 사고 사례를 찾고 싶다",
+        "중대재해사례 강관 인양 PP로프 풀림 강관 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31173",
+      "concat": "[TITLE] [중대재해사례]전선연결 작업 중 고소작업대가 전도\n[SUMMARY] [중대재해사례]전선연결 작업 중 고소작업대가 전도",
+      "query": [
+        "고소작업대 전도",
+        "전선 연결 작업을 하다가 고소작업대가 넘어간 사고 자료를 찾는다",
+        "중대재해사례 전선연결 작업 고소작업대 전도"
+      ]
+    },
+    {
+      "record_id": "list1_31169",
+      "concat": "[TITLE] [중대재해사례]거푸집이 쓰러지면서 깔림\n[SUMMARY] [중대재해사례]거푸집이 쓰러지면서 깔림",
+      "query": [
+        "거푸집 쓰러짐 깔림",
+        "거푸집이 넘어지면서 작업자가 깔린 사고 사례를 찾고 있다",
+        "중대재해사례 거푸집 쓰러짐 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_31198",
+      "concat": "[TITLE] [중대재해사례]배관 용접준비 중 강관 파이프가 낙하\n[SUMMARY] [중대재해사례]배관 용접준비 중 강관 파이프가 낙하",
+      "query": [
+        "배관 용접 파이프",
+        "배관 용접 준비 중 강관 파이프가 떨어진 사고 자료가 필요하다",
+        "중대재해사례 배관 용접준비 강관 파이프 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31170",
+      "concat": "[TITLE] [중대재해사례]바닥 해체작업 중 벽이 쓰러지면서 깔림\n[SUMMARY] [중대재해사례]바닥 해체작업 중 벽이 쓰러지면서 깔림",
+      "query": [
+        "벽 쓰러짐 깔림",
+        "바닥을 해체하던 중 벽이 무너져 사람을 덮친 사고 사례를 찾는다",
+        "중대재해사례 바닥 해체작업 벽 쓰러짐 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_31192",
+      "concat": "[TITLE] [중대재해사례]비계철거 중 비계파이프가 쓰러짐\n[SUMMARY] [중대재해사례]비계철거 중 비계파이프가 쓰러짐",
+      "query": [
+        "비계 철거 파이프",
+        "비계를 철거하다가 비계 파이프가 쓰러진 사고 자료를 찾고 싶다",
+        "중대재해사례 비계철거 비계파이프 쓰러짐"
+      ]
+    },
+    {
+      "record_id": "list1_31172",
+      "concat": "[TITLE] [중대재해사례]이동식비계를 오르던 중 넘어짐\n[SUMMARY] [중대재해사례]이동식비계를 오르던 중 넘어짐",
+      "query": [
+        "이동식비계 넘어짐",
+        "이동식 비계에 올라가다가 넘어지는 사고 사례를 찾고 있다",
+        "중대재해사례 이동식비계 오르던 중 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_31171",
+      "concat": "[TITLE] [중대재해사례]석축이 붕괴되어 굴삭기가 전도\n[SUMMARY] [중대재해사례]석축이 붕괴되어 굴삭기가 전도",
+      "query": [
+        "석축 붕괴 굴삭기",
+        "석축이 무너지면서 굴삭기가 넘어진 사고 자료를 찾는다",
+        "중대재해사례 석축 붕괴 굴삭기 전도"
+      ]
+    },
+    {
+      "record_id": "list1_31191",
+      "concat": "[TITLE] [중대재해사례]불안정한 구조의 거푸집동바리 붕괴\n[SUMMARY] [중대재해사례]불안정한 구조의 거푸집동바리 붕괴",
+      "query": [
+        "거푸집동바리 붕괴",
+        "불안정하게 설치된 거푸집 동바리가 무너진 사고 사례가 필요하다",
+        "중대재해사례 불안정 구조 거푸집동바리 붕괴"
+      ]
+    },
+    {
+      "record_id": "list1_31209",
+      "concat": "[TITLE] [중대재해사례]버스 점검 중 동력전달부에 협착\n[SUMMARY] [중대재해사례]버스 점검 중 동력전달부에 협착",
+      "query": [
+        "버스 점검 끼임",
+        "버스를 점검하다가 동력 전달 부분에 끼인 사고 사례를 찾고 싶다",
+        "중대재해사례 버스 점검 동력전달부 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31210",
+      "concat": "[TITLE] [중대재해사례]버스를 인력으로 멈추려다 협착\n[SUMMARY] [중대재해사례]버스를 인력으로 멈추려다 협착",
+      "query": [
+        "버스 끼임 사고",
+        "사람 힘으로 버스를 멈추려다 끼인 사고 자료를 찾는다",
+        "중대재해사례 버스 인력 멈추려다 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31208",
+      "concat": "[TITLE] [중대재해사례]지하 전력구 피트 내 전력케이블 보수작업 중 화재\n[SUMMARY] [중대재해사례]지하 전력구 피트 내 전력케이블 보수작업 중 화재",
+      "query": [
+        "전력케이블 화재",
+        "지하 전력구 안에서 케이블 보수 작업 중 불이 난 사고를 찾고 있다",
+        "중대재해사례 지하 전력구 피트 전력케이블 보수작업 화재"
+      ]
+    },
+    {
+      "record_id": "list1_31322",
+      "concat": "[TITLE] 화재,폭발,누출사고예방 기술수칙\n[SUMMARY] 고용노동부와 공단에서 제작한 화재·폭발·누출사고 예방을 위해 사업주 및 근로자가 준수해야할 안전수칙입니다. 인화성 물질 및 화학물질을 취급하는 사업장에서 근로자 교육용 자료등으로 활용하시기 바랍니다.",
+      "query": [
+        "화재 폭발 누출",
+        "화학물질이나 인화성 물질을 다루는 사업장에서 지켜야 할 화재 폭발 누출 예방 수칙을 찾는다",
+        "화재 폭발 누출사고예방 기술수칙 인화성 물질 화학물질 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_31207",
+      "concat": "[TITLE] [중대재해사례]공조닥트 위에서 배관작업 중 화재\n[SUMMARY] [중대재해사례]공조닥트 위에서 배관작업 중 화재",
+      "query": [
+        "공조덕트 화재",
+        "공조닥트 위에서 배관 작업을 하다가 불이 난 사고 사례를 찾고 싶다",
+        "중대재해사례 공조닥트 배관작업 화재"
+      ]
+    },
+    {
+      "record_id": "list1_31199",
+      "concat": "[TITLE] [중대재해사례]항타기 오거에 붙어있던 점토덩어리 낙하\n[SUMMARY] [중대재해사례]항타기 오거에 붙어있던 점토덩어리 낙하",
+      "query": [
+        "항타기 점토 낙하",
+        "항타기 오거에 붙어 있던 점토 덩어리가 떨어진 사고 자료를 찾는다",
+        "중대재해사례 항타기 오거 점토덩어리 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31049",
+      "concat": "[TITLE] 크레인 와이어 로프 교체기준와이어 로프\n[SUMMARY] - 와이어 로프의 구성 - 와이어 로프 점검방법 - 와이어 로프 교체기준 - 여러 손상이 겹친 경우 와이어 로프 폐기결정 방법",
+      "query": [
+        "와이어 로프 교체",
+        "크레인 와이어 로프를 언제 교체하거나 폐기해야 하는지 기준을 찾고 있다",
+        "크레인 와이어 로프 교체기준 점검방법 폐기결정"
+      ]
+    },
+    {
+      "record_id": "list1_31200",
+      "concat": "[TITLE] [중대재해사례]전기실 바닥청소 작업 중 감전\n[SUMMARY] [중대재해사례]전기실 바닥청소 작업 중 감전",
+      "query": [
+        "전기실 청소 감전",
+        "전기실 바닥 청소 중 감전된 사고 사례를 찾고 싶다",
+        "중대재해사례 전기실 바닥청소 작업 감전"
+      ]
+    },
+    {
+      "record_id": "list1_31206",
+      "concat": "[TITLE] [중대재해사례]톨루엔 저장탱크 배관 연결작업 중 폭발\n[SUMMARY] [중대재해사례]톨루엔 저장탱크 배관 연결작업 중 폭발",
+      "query": [
+        "톨루엔 탱크 폭발",
+        "톨루엔 저장탱크 배관을 연결하다가 폭발한 사고 자료를 찾는다",
+        "중대재해사례 톨루엔 저장탱크 배관 연결작업 폭발"
+      ]
+    },
+    {
+      "record_id": "list1_30914",
+      "concat": "[TITLE] 소규모건설현장의 산업재해 예방\n[SUMMARY] - 사업주 여러분 이것만은 꼭 지켜주세요! - 근로자 여러분 이것만은 꼭 지켜주세요! - 실내, 생활건축 작업별 유해·위험요인 및 안전대책",
+      "query": [
+        "소규모 건설 안전",
+        "작은 건설현장에서 산업재해를 줄이기 위해 사업주와 근로자가 지켜야 할 내용을 찾는다",
+        "소규모건설현장 산업재해 예방 사업주 근로자 유해위험요인 안전대책"
+      ]
+    },
+    {
+      "record_id": "list1_32946",
+      "concat": "[TITLE] (제조,필리핀,영어)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Checking press protective devices 외국인 근로자 안전보건 매뉴얼 - 제조업 : 프레스 방호장치 점검\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "외국인 프레스 점검",
+        "제조업 외국인 근로자에게 프레스 방호장치 점검을 교육할 자료를 찾는다",
+        "제조 필리핀 영어 Safety and Healthcare Manual Foreign Workers Manufacturing Industry Checking press protective devices 외국인 근로자 안전보건 매뉴얼 제조업 프레스 방호장치 점검"
+      ]
+    },
+    {
+      "record_id": "list1_32909",
+      "concat": "[TITLE] (제조,필리핀,영어)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Wood cutting외국인 근로자 안전보건 매뉴얼 - 제조업 : 목재재단\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "외국인 목재재단",
+        "제조업에서 일하는 필리핀 외국인 근로자용 목재 재단 안전 자료를 찾고 있다",
+        "제조 필리핀 영어 Safety and Healthcare Manual Foreign Workers Manufacturing Industry Wood cutting 외국인 근로자 안전보건 매뉴얼 제조업 목재재단"
+      ]
+    },
+    {
+      "record_id": "list1_32908",
+      "concat": "[TITLE] (제조,파키스탄)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Wood cutting외국인 근로자 안전보건 매뉴얼 - 제조업 : 목재재단\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "외국인 목재재단",
+        "제조업에서 일하는 파키스탄 외국인 근로자에게 목재 재단 안전을 안내할 자료를 찾는다",
+        "제조 파키스탄 Safety and Healthcare Manual Foreign Workers Manufacturing Industry Wood cutting 외국인 근로자 안전보건 매뉴얼 제조업 목재재단"
+      ]
+    },
+    {
+      "record_id": "list1_32901",
+      "concat": "[TITLE] [건물건축운반부] 금속 및 잡철물 자재반입(10개언어) Manufacturing Industry : Fetching metal or steel scraps\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "금속 자재반입 안전",
+        "외국인 근로자에게 금속이나 잡철물 자재 반입 작업 안전을 설명할 자료를 찾는다",
+        "건물건축운반부 금속 잡철물 자재반입 Manufacturing Industry Fetching metal steel scraps 외국인 근로자 산재예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_32864",
+      "concat": "[TITLE] (제조,필리핀,영어)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Catapult processing (2) 외국인 근로자 안전보건 매뉴얼 - 제조업 : 사출기 가공(2)\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "외국인 사출기 안전",
+        "제조업 외국인 근로자용 사출기 가공 작업 안전 교육 자료를 찾고 있다",
+        "제조 필리핀 영어 Safety and Healthcare Manual Foreign Workers Manufacturing Industry Catapult processing 외국인 근로자 안전보건 매뉴얼 제조업 사출기 가공"
+      ]
+    },
+    {
+      "record_id": "list1_32906",
+      "concat": "[TITLE] [농업종사자] 농약살포 안전(10개언어) Farming Industry : Spraying of agricultural pesticides\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "농약살포 안전",
+        "농업에서 일하는 외국인 근로자에게 농약 살포 안전을 교육할 자료를 찾는다",
+        "농업종사자 농약살포 안전 Farming Industry Spraying agricultural pesticides 외국인 근로자 산재예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_33013",
+      "concat": "[TITLE] (제조,몽골)Safety and Healthcare Manual for Foreign Workers-Manufacturing Industry : Checking press protective devices 외국인 근로자 안전보건 매뉴얼 - 제조업 : 프레스 방호장치 점검\n[SUMMARY] The material is an OPL material prepared for preventing accident of foreign workers 본 자료는 외국인 근로자 산재예방을 위해 제작된 OPL 자료입니다.",
+      "query": [
+        "외국인 프레스 점검",
+        "몽골 출신 제조업 근로자에게 프레스 방호장치 점검을 안내할 안전 자료가 필요하다",
+        "제조 몽골 Safety and Healthcare Manual Foreign Workers Manufacturing Industry Checking press protective devices 외국인 근로자 안전보건 매뉴얼 제조업 프레스 방호장치 점검"
+      ]
+    }
+  ]
+}

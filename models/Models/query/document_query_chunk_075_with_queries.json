@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 75,
+  "items": [
+    {
+      "record_id": "list1_39085",
+      "concat": "[TITLE] (미얀마) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (미얀마) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "미얀마 근로자 제조 안전",
+        "미얀마 출신 외국인 근로자가 제조 현장에서 볼 안전보건 자료",
+        "미얀마 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39086",
+      "concat": "[TITLE] (미얀마) 외국인 근로자용 안전보건 OPL(건설)\n[SUMMARY] (미얀마) 외국인 근로자용 안전보건 OPL(건설)",
+      "query": [
+        "미얀마 근로자 건설 안전",
+        "미얀마 출신 외국인 근로자가 건설 현장에서 볼 안전보건 자료",
+        "미얀마 외국인 근로자용 안전보건 OPL 건설"
+      ]
+    },
+    {
+      "record_id": "list1_38820",
+      "concat": "[TITLE] 외국인 근로자용 안전보건 활용가이드(라오스)\n[SUMMARY] 외국인 근로자용 안전보건 활용가이드(라오스)",
+      "query": [
+        "라오스 근로자 안전자료",
+        "라오스 외국인 근로자에게 안전보건 자료를 안내하는 가이드",
+        "외국인 근로자용 안전보건 활용가이드 라오스"
+      ]
+    },
+    {
+      "record_id": "list1_39087",
+      "concat": "[TITLE] (미얀마) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (미얀마) 외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "미얀마 근로자 서비스 안전",
+        "미얀마 출신 외국인 근로자가 서비스업에서 볼 안전보건 자료",
+        "미얀마 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_38838",
+      "concat": "[TITLE] 재해다발 취약시기의 안전보건관리 10대 활동\n[SUMMARY] 재해다발 취약시기에 사업장에서 지켜야할 안전보건관리 10대 활동",
+      "query": [
+        "취약시기 안전관리",
+        "사고가 자주 나는 시기에 사업장에서 해야 할 안전보건관리 활동",
+        "재해다발 취약시기 안전보건관리 10대 활동"
+      ]
+    },
+    {
+      "record_id": "list1_38821",
+      "concat": "[TITLE] 외국인 근로자용 안전보건 활용가이드(키르기스스탄)\n[SUMMARY] 외국인 근로자용 안전보건 활용가이드(키르기스스탄)",
+      "query": [
+        "키르기스스탄 근로자 안전자료",
+        "키르기스스탄 외국인 근로자에게 안전보건 자료를 안내하는 가이드",
+        "외국인 근로자용 안전보건 활용가이드 키르기스스탄"
+      ]
+    },
+    {
+      "record_id": "list1_39089",
+      "concat": "[TITLE] (몽골) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (몽골) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "몽골 근로자 제조 안전",
+        "몽골 출신 외국인 근로자가 제조 현장에서 볼 안전보건 자료",
+        "몽골 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_39088",
+      "concat": "[TITLE] (몽골) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (몽골) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "몽골 근로자 공통 안전",
+        "몽골 출신 외국인 근로자가 업종과 관계없이 볼 기본 안전보건 자료",
+        "몽골 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_38819",
+      "concat": "[TITLE] 외국인 근로자용 안전보건 활용가이드(동티모르)\n[SUMMARY] 외국인 근로자용 안전보건 활용가이드(동티모르)",
+      "query": [
+        "동티모르 근로자 안전자료",
+        "동티모르 외국인 근로자에게 안전보건 자료를 안내하는 가이드",
+        "외국인 근로자용 안전보건 활용가이드 동티모르"
+      ]
+    },
+    {
+      "record_id": "list1_38805",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(영어-필리핀)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(영어-필리핀)",
+      "query": [
+        "필리핀 영어 안전자료",
+        "필리핀 근로자에게 영어로 안전보건 자료를 안내하는 가이드",
+        "외국인 근로자용 안전보건자료 활용가이드 영어 필리핀"
+      ]
+    },
+    {
+      "record_id": "list1_38793",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(네팔)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(네팔)",
+      "query": [
+        "네팔 근로자 안전자료",
+        "네팔 외국인 근로자에게 안전보건 자료를 안내하는 가이드",
+        "외국인 근로자용 안전보건자료 활용가이드 네팔"
+      ]
+    },
+    {
+      "record_id": "list1_38794",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(몽골)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(몽골)",
+      "query": [
+        "몽골 근로자 안전자료",
+        "몽골 외국인 근로자에게 안전보건 자료를 안내하는 가이드",
+        "외국인 근로자용 안전보건자료 활용가이드 몽골"
+      ]
+    },
+    {
+      "record_id": "list1_36607",
+      "concat": "[TITLE] 마감작업 등 내부작업 재해예방 OPS\n[SUMMARY] 건설현장 안전보건지킴이 순찰 시 건설현장 배포용 기술자료",
+      "query": [
+        "내부작업 사고 예방",
+        "건설현장 안에서 마감작업할 때 사고를 막는 안전자료",
+        "마감작업 내부작업 재해예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_36827",
+      "concat": "[TITLE] 5대 건설기계장비 안전점검표(고소작업대)\n[SUMMARY] 5대 건설기계장비 재해예방을 위한 안전점검표(체크리스트) OPS 제작 배포 - 이동식 크레인",
+      "query": [
+        "고소작업대 안전점검",
+        "건설현장에서 고소작업대 쓰기 전에 확인할 안전 체크리스트",
+        "5대 건설기계장비 안전점검표 고소작업대"
+      ]
+    },
+    {
+      "record_id": "list1_36606",
+      "concat": "[TITLE] 무너짐 위험이 높은 굴착작업 OPS\n[SUMMARY] 건설현장 안전보건지킴이 순찰 시 건설현장 배포용 기술자료",
+      "query": [
+        "굴착작업 무너짐 위험",
+        "땅 파는 작업 중 무너짐 사고를 예방하는 안전자료",
+        "무너짐 위험 굴착작업 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_36608",
+      "concat": "[TITLE] 건설기계장비 사용 작업 재해예방 OPS\n[SUMMARY] 건설현장 안전보건지킴이 순찰 시 건설현장 배포용 기술자료",
+      "query": [
+        "건설장비 사고 예방",
+        "건설현장에서 기계장비 사용할 때 사고를 줄이는 안전자료",
+        "건설기계장비 사용 작업 재해예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_36828",
+      "concat": "[TITLE] 5대 건설기계장비 안전점검표(이동식크레인)\n[SUMMARY] 5대 건설기계장비 재해예방을 위한 안전점검표(체크리스트) 리플렛 제작 배포 - 이동식크레인",
+      "query": [
+        "이동식크레인 안전점검",
+        "건설현장에서 이동식크레인 사용 전 확인할 안전 체크리스트",
+        "5대 건설기계장비 안전점검표 이동식크레인"
+      ]
+    },
+    {
+      "record_id": "list1_36609",
+      "concat": "[TITLE] 중소규모 철골조립 작업 재해예방 OPS\n[SUMMARY] 건설현장 안전보건지킴이 순찰 시 건설현장 배포용 기술자료",
+      "query": [
+        "철골조립 사고 예방",
+        "작은 건설현장에서 철골을 조립할 때 필요한 안전수칙 자료",
+        "중소규모 철골조립 작업 재해예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_36610",
+      "concat": "[TITLE] 높이 2m이상 외부비계 위 작업안전 재해예방 OPS\n[SUMMARY] 건설현장 안전보건지킴이 순찰 시 건설현장 배포용 기술자료",
+      "query": [
+        "외부비계 작업안전",
+        "높은 비계 위에서 일할 때 떨어짐 사고를 막는 안전자료",
+        "높이 2m 이상 외부비계 작업안전 재해예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_38560",
+      "concat": "[TITLE] 조리실 안전보건 TIP(CO, 자외선 재해예방법)\n[SUMMARY] 조리실 안전보건 TIP -일산화탄소 중독 예방법 및 자외선(UV-C)노출 예방법",
+      "query": [
+        "조리실 일산화탄소 자외선",
+        "조리실에서 일산화탄소 중독이나 자외선 노출을 예방하는 방법",
+        "조리실 안전보건 TIP CO 자외선 재해예방법"
+      ]
+    },
+    {
+      "record_id": "list1_35848",
+      "concat": "[TITLE] 외국인 근로자 재해예방 OPL(건설) - 철골 빔 고정볼트 절단 작업 중 구조물에 부딪힘\n[SUMMARY] 외국인 근로자 재해예방 OPL(건설) - 철골 빔 고정볼트 절단 작업 중 구조물에 부딪힘",
+      "query": [
+        "철골 볼트 절단 사고",
+        "외국인 근로자가 철골 빔 볼트를 자르다가 구조물에 부딪히는 사고 예방 자료",
+        "외국인 근로자 재해예방 OPL 건설 철골 빔 고정볼트 절단 작업 구조물 부딪힘"
+      ]
+    },
+    {
+      "record_id": "list1_38327",
+      "concat": "[TITLE] 장년근로자 넘어짐재해 예방을 위한 올바른 신발 선택 요령\n[SUMMARY] 건물관리업 등 서비스업종에 종사하는 장년근로자의 넘어짐재해 예방을 위한 올바른 신발 선택 요령 및 체크리스트를 포함한 자료(OPS)",
+      "query": [
+        "미끄럼 넘어짐 신발",
+        "나이 많은 근로자가 넘어지지 않도록 작업 신발을 고르는 방법",
+        "장년근로자 넘어짐재해 예방 올바른 신발 선택 요령"
+      ]
+    },
+    {
+      "record_id": "list1_38130",
+      "concat": "[TITLE] 단열재에 의한 화재를 예방하기 위한 기술자료(OPL)\n[SUMMARY] 단열재에 의한 화재를 예방하기 위한 기술자료(OPL)로써 공단 일선기관 및 공공발주기관 배포용임.",
+      "query": [
+        "단열재 화재 예방",
+        "단열재 때문에 생기는 화재를 막기 위한 안전자료",
+        "단열재 화재 예방 기술자료 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38186",
+      "concat": "[TITLE] 건설업 근로자 근골격계질환 예방\n[SUMMARY] 건설현장에서 근골격계질환이 발생하는 주요 유해요인 및 예방대책 안내",
+      "query": [
+        "건설근로자 근골격계 예방",
+        "건설현장에서 일하는 사람이 허리나 어깨 통증을 예방하는 자료",
+        "건설업 근로자 근골격계질환 예방"
+      ]
+    },
+    {
+      "record_id": "list1_37034",
+      "concat": "[TITLE] 안전한 화학물질 취급 및 저장방법\n[SUMMARY] MSDS 필수정보 확인프로세스(CHEM-i)에 따라 화학물질을 사용하기 전에 반드시 확인하고 사용해야 하는 안전한 취급방법 및 저장방법 안내",
+      "query": [
+        "화학물질 보관 취급",
+        "화학물질을 쓰기 전에 안전하게 다루고 저장하는 방법",
+        "안전한 화학물질 취급 저장방법 MSDS CHEM-i"
+      ]
+    },
+    {
+      "record_id": "list1_38559",
+      "concat": "[TITLE] 교육서비스업, 주요3대 재해사례 예방 OPL\n[SUMMARY] 교육서비스업의 주요 3대 재해발생형태별 예방대책 및 안전체크리스트",
+      "query": [
+        "학교 안전사고 예방",
+        "교육서비스업에서 자주 생기는 사고 사례와 예방 방법",
+        "교육서비스업 주요 3대 재해사례 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38206",
+      "concat": "[TITLE] 거푸집 동바리 설치·해체 작업안전\n[SUMMARY] 건설업 외국인 근로자 공종별 안전보건미디어 (영어, 중국어, 베트남어, 스리랑카어, 캄보디아어, 태국어, 미얀마어)",
+      "query": [
+        "거푸집 동바리 안전",
+        "건설현장에서 거푸집 동바리를 설치하거나 해체할 때 안전수칙",
+        "거푸집 동바리 설치 해체 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38240",
+      "concat": "[TITLE] 음식업 조리종사원 3SB(안전행동)운동 추진 사업 안내자료\n[SUMMARY] 음식업 조리종사원 3SB(안전행동)운동 추진 사업 안내자료 및 조리실 재해사례",
+      "query": [
+        "조리실 안전행동",
+        "음식업 조리원이 지켜야 할 안전행동과 조리실 사고 사례 자료",
+        "음식업 조리종사원 3SB 안전행동운동 추진 사업 안내자료"
+      ]
+    },
+    {
+      "record_id": "list1_38274",
+      "concat": "[TITLE] 갱폼제작 및 설치·해체 작업안전(중국)\n[SUMMARY] 갱폼제작 및 설치·해체 작업안전(중국)",
+      "query": [
+        "갱폼 설치 해체 안전",
+        "중국어로 된 갱폼 제작 설치 해체 작업 안전자료",
+        "갱폼제작 설치 해체 작업안전 중국"
+      ]
+    },
+    {
+      "record_id": "list1_38275",
+      "concat": "[TITLE] 거푸집동바리 설치·해체 작업안전(태국)\n[SUMMARY] 거푸집동바리 설치·해체 작업안전(태국)",
+      "query": [
+        "거푸집동바리 해체 안전",
+        "태국어로 된 거푸집동바리 설치 해체 작업 안전자료",
+        "거푸집동바리 설치 해체 작업안전 태국"
+      ]
+    }
+  ]
+}

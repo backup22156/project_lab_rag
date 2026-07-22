@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 77,
+  "items": [
+    {
+      "record_id": "list1_38277",
+      "concat": "[TITLE] 갱폼제작 및 설치·해체 작업안전(태국)\n[SUMMARY] 갱폼제작 및 설치·해체 작업안전(태국)",
+      "query": [
+        "갱폼 태국 안전",
+        "태국어로 된 갱폼 설치 해체 작업 안전 자료",
+        "태국 갱폼제작 설치 해체 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_37394",
+      "concat": "[TITLE] 하역운반용 팔레트 사용 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "팔레트 하역 안전",
+        "물건을 옮길 때 쓰는 팔레트 작업 안전수칙 자료",
+        "하역운반용 팔레트 사용 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38265",
+      "concat": "[TITLE] 철근배근 작업안전(영어)\n[SUMMARY] 철근배근 작업안전(영어)",
+      "query": [
+        "철근 배근 영어",
+        "영어로 된 철근 배근 작업 안전 자료",
+        "영어 철근배근 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38266",
+      "concat": "[TITLE] 갱폼제작 및 설치·해체 작업안전(영어)\n[SUMMARY] 갱폼제작 및 설치·해체 작업안전(영어)",
+      "query": [
+        "갱폼 영어 안전",
+        "영어로 된 갱폼 제작과 설치 해체 안전 자료",
+        "영어 갱폼제작 설치 해체 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38263",
+      "concat": "[TITLE] 갱폼제작 및 설치·해체 작업안전(스리랑카)\n[SUMMARY] 갱폼제작 및 설치·해체 작업안전(스리랑카)",
+      "query": [
+        "갱폼 스리랑카 안전",
+        "스리랑카어로 된 갱폼 설치 해체 작업 안전 자료",
+        "스리랑카 갱폼제작 설치 해체 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38258",
+      "concat": "[TITLE] 거푸집동바리 설치·해체 작업안전(베트남)\n[SUMMARY] 거푸집동바리 설치·해체 작업안전(베트남)",
+      "query": [
+        "거푸집 동바리 베트남",
+        "베트남어로 된 거푸집 동바리 설치 해체 안전 자료",
+        "베트남 거푸집동바리 설치 해체 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38260",
+      "concat": "[TITLE] 갱폼제작 및 설치·해체 작업안전(베트남)\n[SUMMARY] 갱폼제작 및 설치·해체 작업안전(베트남)",
+      "query": [
+        "갱폼 베트남 안전",
+        "베트남어로 된 갱폼 제작 설치 해체 안전 자료",
+        "베트남 갱폼제작 설치 해체 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38259",
+      "concat": "[TITLE] 철근배근 작업안전(베트남)\n[SUMMARY] 철근배근 작업안전(베트남)",
+      "query": [
+        "철근 배근 베트남",
+        "베트남어로 된 철근 배근 작업 안전 자료",
+        "베트남 철근배근 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38271",
+      "concat": "[TITLE] 거푸집동바리 설치·해체 작업안전(캄보디아)\n[SUMMARY] 거푸집동바리 설치·해체 작업안전(캄보디아)",
+      "query": [
+        "거푸집 동바리 캄보디아",
+        "캄보디아어로 된 거푸집 동바리 설치 해체 안전 자료",
+        "캄보디아 거푸집동바리 설치 해체 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38270",
+      "concat": "[TITLE] 철근배근 작업안전(중국)\n[SUMMARY] 철근배근 작업안전(중국)",
+      "query": [
+        "철근 배근 중국",
+        "중국어로 된 철근 배근 작업 안전 자료",
+        "중국 철근배근 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_38273",
+      "concat": "[TITLE] 갱폼제작 및 설치·해체 작업안전(캄보디아)\n[SUMMARY] 갱폼제작 및 설치·해체 작업안전(캄보디아)",
+      "query": [
+        "갱폼 캄보디아 안전",
+        "캄보디아어로 된 갱폼 제작 설치 해체 안전 자료",
+        "캄보디아 갱폼제작 설치 해체 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_37393",
+      "concat": "[TITLE] 주차설비점검 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "주차설비 점검 안전",
+        "주차장 설비를 점검할 때 필요한 작업 안전수칙",
+        "주차설비점검 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38272",
+      "concat": "[TITLE] 철근배근 작업안전(캄보디아)\n[SUMMARY] 철근배근 작업안전(캄보디아)",
+      "query": [
+        "철근 배근 캄보디아",
+        "캄보디아어로 된 철근 배근 작업 안전 자료",
+        "캄보디아 철근배근 작업안전"
+      ]
+    },
+    {
+      "record_id": "list1_37392",
+      "concat": "[TITLE] 숙박시설 객실청소 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "객실 청소 안전",
+        "숙박시설 객실을 청소할 때 지켜야 하는 작업 안전 자료",
+        "숙박시설 객실청소 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37390",
+      "concat": "[TITLE] 도로변 수목관리 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "도로 수목관리 안전",
+        "도로변 나무를 관리하는 작업의 안전수칙 자료",
+        "도로변 수목관리 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37391",
+      "concat": "[TITLE] 소 사육장내 작업안전\n[SUMMARY] 안전보건 OPL :소 사육장내 작업안전",
+      "query": [
+        "소 사육장 안전",
+        "소를 키우는 축사 안에서 작업할 때 필요한 안전수칙",
+        "소 사육장내 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37389",
+      "concat": "[TITLE] 음식서비스 종사자 직무스트레스 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "음식서비스 스트레스",
+        "음식 서비스 일을 하는 사람이 직무스트레스를 예방하는 방법",
+        "음식서비스 종사자 직무스트레스 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37387",
+      "concat": "[TITLE] 유통업 종사자 근골격계질환 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "유통업 근골격계",
+        "마트나 유통업에서 일하는 사람의 근골격계질환 예방 자료",
+        "유통업 종사자 근골격계질환 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37388",
+      "concat": "[TITLE] 은행출납사무원 직무스트레스 예방\n[SUMMARY] 은행출납사무원 직무스트레스 예방 OPL",
+      "query": [
+        "은행 출납 스트레스",
+        "은행 창구에서 돈을 다루는 직원의 직무스트레스 예방 자료",
+        "은행출납사무원 직무스트레스 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37384",
+      "concat": "[TITLE] 동물원 근로자 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "동물원 작업 안전",
+        "동물원에서 일하는 근로자가 지켜야 할 작업 안전수칙",
+        "동물원 근로자 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37386",
+      "concat": "[TITLE] 근로자 휴게시설 안전보건\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "근로자 휴게시설",
+        "직장 휴게시설을 안전하고 건강하게 관리하는 자료",
+        "근로자 휴게시설 안전보건 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37385",
+      "concat": "[TITLE] 세탁업 종사자 건강관리 방안\n[SUMMARY] 안전보건 OPL-세탁업 종사자 건강관리 방안",
+      "query": [
+        "세탁업 건강관리",
+        "세탁소나 세탁업에서 일하는 사람의 건강관리 방법",
+        "세탁업 종사자 건강관리 방안 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37383",
+      "concat": "[TITLE] 교대 작업자 건강관리 방안\n[SUMMARY] 교대 작업자 건강관리 방안 안전보건 OPL",
+      "query": [
+        "교대근무 건강관리",
+        "밤낮이 바뀌는 교대근무자의 건강관리 방법",
+        "교대 작업자 건강관리 방안 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37396",
+      "concat": "[TITLE] 목재 작업발판 설치 및 사용 안전수칙\n[SUMMARY] 안전보건 OPL, 목재 작업발판 설치 및 사용 안전수칙",
+      "query": [
+        "목재 발판 안전",
+        "나무 작업발판을 설치하고 사용할 때 지켜야 할 안전수칙",
+        "목재 작업발판 설치 사용 안전수칙 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37473",
+      "concat": "[TITLE] 화학공정 설비 조작 위험과 예방_윤활유 탱크\n[SUMMARY] 화학공정 설비 조작 위험과 예방_윤활유 탱크 안전보건 OPL",
+      "query": [
+        "윤활유 탱크 위험",
+        "화학공정에서 윤활유 탱크 설비를 조작할 때 위험을 예방하는 자료",
+        "화학공정 설비 조작 위험과 예방 윤활유 탱크 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37424",
+      "concat": "[TITLE] 폐지 선별 및 압축 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "폐지 압축 안전",
+        "폐지를 선별하거나 압축하는 작업의 안전수칙 자료",
+        "폐지 선별 압축 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37423",
+      "concat": "[TITLE] 폐기물 소각시설 사고 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "폐기물 소각 사고",
+        "폐기물 소각시설에서 사고를 예방하는 안전 자료",
+        "폐기물 소각시설 사고 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37419",
+      "concat": "[TITLE] 안전한 작업장을 위한 조도측정 방법\n[SUMMARY] 안전한 작업장을 위한 조도측정 방법",
+      "query": [
+        "작업장 조도 측정",
+        "안전한 작업장을 위해 밝기를 측정하는 방법 자료",
+        "안전한 작업장을 위한 조도측정 방법"
+      ]
+    },
+    {
+      "record_id": "list1_37420",
+      "concat": "[TITLE] 조경 작업안전\n[SUMMARY] 조경 작업안전 : 안전보건 OPL",
+      "query": [
+        "조경 작업 안전",
+        "조경 일을 할 때 필요한 작업 안전수칙 자료",
+        "조경 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37421",
+      "concat": "[TITLE] 창고 작업안전\n[SUMMARY] 안전보건 OPL : 창고 작업안전",
+      "query": [
+        "창고 작업 안전",
+        "창고에서 일할 때 지켜야 하는 작업 안전수칙 자료",
+        "창고 작업안전 안전보건 OPL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 164,
+  "items": [
+    {
+      "record_id": "list3_44246",
+      "concat": "[TITLE] [발간안내] 2022년 월간 안전보건 9월호\n[SUMMARY] 2022년 월간 안전보건 9월호가 발간되었습니다. 9월호 주제는 '철강업'입니다. ★ e-book 보기 및 파일 다운로드 ★ : 오른쪽 안전보건 e-Book>월간 안전보건 메뉴 접속",
+      "query": [
+        "철강업 안전보건",
+        "철강 현장 재해사례와 안전수칙이 나온 월간 자료",
+        "월간 안전보건 철강업"
+      ]
+    },
+    {
+      "record_id": "list3_44195",
+      "concat": "[TITLE] 안전보건관리체계 구축 우수사례집\n[SUMMARY] 안전보건관리체계 구축 우수사례집",
+      "query": [
+        "안전보건 우수사례",
+        "안전보건관리체계를 잘 구축한 회사 사례를 보고 싶어",
+        "안전보건관리체계 구축 우수사례집"
+      ]
+    },
+    {
+      "record_id": "list3_44215",
+      "concat": "[TITLE] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드 <금속주조업(주물업)(C, 243)>\n[SUMMARY] 50인 미만 중소기업을 위한 안전보건관리체계 구축 가이드 <금속주조업(주물업)(C, 243)> 사업주가 쉽게 따라하는 안전보건의무 확보방안",
+      "query": [
+        "주물업 안전관리",
+        "작은 주물 공장에서 안전보건관리체계를 어떻게 만들지 알고 싶어",
+        "50인 미만 중소기업 안전보건관리체계 구축 가이드 금속주조업 주물업 C 243"
+      ]
+    },
+    {
+      "record_id": "list3_44026",
+      "concat": "[TITLE] 2022년 위험성평가 이행점검 매뉴얼\n[SUMMARY] 공공기관 위험성평가 이행점검 매뉴얼입니다.",
+      "query": [
+        "위험성평가 점검",
+        "공공기관에서 위험성평가가 잘 이행됐는지 확인하는 방법",
+        "위험성평가 이행점검 매뉴얼 공공기관"
+      ]
+    },
+    {
+      "record_id": "list3_44110",
+      "concat": "[TITLE] (2022년 화학사고 사례연구 7종) 5호. 배관 보온재 교체 작업 중 염산 누출사고\n[SUMMARY] (2022년 화학사고 사례연구 7종) 5호. 배관 보온재 교체 작업 중 염산 누출사고",
+      "query": [
+        "염산 누출 사고",
+        "배관 보온재를 교체하다가 염산이 새는 사고 사례를 찾고 있어",
+        "화학사고 사례연구 배관 보온재 교체 작업 염산 누출사고"
+      ]
+    },
+    {
+      "record_id": "list3_44112",
+      "concat": "[TITLE] (2022년 화학사고 사례연구 7종) 7호. 누체필터로 인화성액체 이송 중 화재사고\n[SUMMARY] (2022년 화학사고 사례연구 7종) 7호. 누체필터로 인화성액체 이송 중 화재사고",
+      "query": [
+        "인화성액체 화재",
+        "필터로 인화성 액체를 옮기다가 불이 난 사고 사례",
+        "화학사고 사례연구 누체필터 인화성액체 이송 화재사고"
+      ]
+    },
+    {
+      "record_id": "list3_44111",
+      "concat": "[TITLE] (2022년 화학사고 사례연구 7종) 6호. 진공세척건조기 세척액 누출 및 화재사고\n[SUMMARY] (2022년 화학사고 사례연구 7종) 6호. 진공세척건조기 세척액 누출 및 화재사고",
+      "query": [
+        "세척액 누출 화재",
+        "진공 세척 건조기에서 세척액이 새고 불이 난 사고 사례",
+        "화학사고 사례연구 진공세척건조기 세척액 누출 화재사고"
+      ]
+    },
+    {
+      "record_id": "list3_44109",
+      "concat": "[TITLE] (2022년 화학사고 사례연구 7종) 4호. 드레인 작업 중 화재사고\n[SUMMARY] (2022년 화학사고 사례연구 7종) 4호. 드레인 작업 중 화재사고",
+      "query": [
+        "드레인 작업 화재",
+        "드레인 작업을 하다가 불이 난 화학사고 사례",
+        "화학사고 사례연구 드레인 작업 화재사고"
+      ]
+    },
+    {
+      "record_id": "list3_44108",
+      "concat": "[TITLE] (2022년 화학사고 사례연구 7종) 3호. 점착제 제조공정 폭발사고\n[SUMMARY] (2022년 화학사고 사례연구 7종) 3호. 점착제 제조공정 폭발사고",
+      "query": [
+        "점착제 폭발 사고",
+        "접착제나 점착제를 만드는 공정에서 폭발한 사고 사례",
+        "화학사고 사례연구 점착제 제조공정 폭발사고"
+      ]
+    },
+    {
+      "record_id": "list3_44107",
+      "concat": "[TITLE] (2022년 화학사고 사례연구 7종) 2호. 혐기성 소화조 상부에서 교반기 보수작업 중 폭발사고\n[SUMMARY] (2022년 화학사고 사례연구 7종) 2호. 혐기성 소화조 상부에서 교반기 보수작업 중 폭발사고",
+      "query": [
+        "소화조 폭발 사고",
+        "혐기성 소화조 위에서 교반기를 고치다 폭발한 사례",
+        "화학사고 사례연구 혐기성 소화조 교반기 보수작업 폭발사고"
+      ]
+    },
+    {
+      "record_id": "list3_43225",
+      "concat": "[TITLE] (프레스) 안전보건 VR 끼임재해예방 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "프레스 끼임 VR",
+        "프레스 작업 중 끼임 사고를 VR로 교육하는 자료",
+        "프레스 안전보건 VR 끼임재해예방 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43219",
+      "concat": "[TITLE] (크레인) 안전보건 VR 끼임재해예방 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "크레인 끼임 VR",
+        "크레인 작업 중 끼임 사고 예방을 VR로 배우는 교육자료",
+        "크레인 안전보건 VR 끼임재해예방 교재"
+      ]
+    },
+    {
+      "record_id": "list3_44106",
+      "concat": "[TITLE] (2022년 화학사고 사례연구 7종) 1호. 황산 배관 과압 파열로 인한 누출사고\n[SUMMARY] (2022년 화학사고 사례연구 7종) 1호. 황산 배관 과압 파열로 인한 누출사고",
+      "query": [
+        "황산 누출 사고",
+        "황산 배관 압력이 높아져 터지면서 누출된 사고 사례",
+        "화학사고 사례연구 황산 배관 과압 파열 누출사고"
+      ]
+    },
+    {
+      "record_id": "list3_43223",
+      "concat": "[TITLE] (파쇄기) 안전보건 VR 끼임재해예방 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "파쇄기 끼임 VR",
+        "파쇄기 작업 중 끼임 사고 예방을 VR로 교육하는 자료",
+        "파쇄기 안전보건 VR 끼임재해예방 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43266",
+      "concat": "[TITLE] (발간안내)2021년 월간 안전보건 6월호\n[SUMMARY] 2021년 월간 안전보건 6월호가 발간됐습니다. 6월호 주제는 '질식' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 아카이브>월간 안전보건 메뉴 접속",
+      "query": [
+        "질식 안전보건",
+        "질식 사고를 주제로 한 월간 안전보건 자료를 찾고 있어",
+        "월간 안전보건 질식"
+      ]
+    },
+    {
+      "record_id": "list3_43228",
+      "concat": "[TITLE] (굴착기) 안전보건 VR 충돌재해예방 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "굴착기 충돌 VR",
+        "굴착기 작업 중 충돌 사고 예방을 VR로 배우는 교육자료",
+        "굴착기 안전보건 VR 충돌재해예방 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43232",
+      "concat": "[TITLE] (건설업) 안전보건 VR 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "건설업 VR 교육",
+        "건설현장 안전보건을 VR 콘텐츠와 함께 교육하는 자료",
+        "건설업 안전보건 VR 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43227",
+      "concat": "[TITLE] (개구부) 안전보건 VR 추락재해예방 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "개구부 추락 VR",
+        "개구부에서 떨어지는 사고를 막기 위한 VR 안전교육 자료",
+        "개구부 안전보건 VR 추락재해예방 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43226",
+      "concat": "[TITLE] (비계) 안전보건 VR 추락재해예방 교재\n[SUMMARY] 교재와 함께 VR콘텐츠를 체험하면 교육 효과가 200% - VR전용관(360vr.kosha.or.kr) 및 안전보건자료실에 접속 - VR콘텐츠를 다운로드 받은 후, 교재와 함께 근로자 교육 실시 - 교재로 배우고! VR콘텐츠로 경험하고!",
+      "query": [
+        "비계 추락 VR",
+        "비계 작업 중 추락 사고 예방을 VR로 배우는 교육자료",
+        "비계 안전보건 VR 추락재해예방 교재"
+      ]
+    },
+    {
+      "record_id": "list3_43216",
+      "concat": "[TITLE] 고객응대근로자 건강보호를 위한 직종별 매뉴얼(2019)\n[SUMMARY] 2019년에 개발된 고객응대근로자 건강보호를 위한 직종별 매뉴얼입니다. (간호사, 유치원교사, 사회복지사, 버스운전사, 호텔종사자, 마트계산원, 항공기 객실승무원, 콜센터상담원, 텔레마케터, 보험설계사, 골프경기 보조원) **사업소개 > 직업건강 > 근로자 건강증진 > 감정노동 게시판에서도 보실 수 있습니다**",
+      "query": [
+        "고객응대 건강보호",
+        "간호사 콜센터 상담원 같은 고객응대 직종별 건강보호 자료",
+        "고객응대근로자 건강보호 직종별 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_41747",
+      "concat": "[TITLE] (특수형태근로종사자)로더 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "로더 운전자 안전",
+        "로더 운전 일을 시작할 때 필요한 안전보건 교육자료",
+        "특수형태근로종사자 로더 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_43203",
+      "concat": "[TITLE] (발간 안내)2021년 월간 안전보건 5월호\n[SUMMARY] 2021년 월간 안전보건 5월호가 발간됐습니다. 5월호 주제는 '보호구' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 아카이브>월간 안전보건 메뉴 접속",
+      "query": [
+        "보호구 안전보건",
+        "보호구를 주제로 한 월간 안전보건 자료를 찾고 있어",
+        "월간 안전보건 보호구"
+      ]
+    },
+    {
+      "record_id": "list3_43212",
+      "concat": "[TITLE] 건설폐기물 처리업 안전작업 가이드(책자)\n[SUMMARY] 건설폐기물 처리업 안전작업 가이드",
+      "query": [
+        "건설폐기물 안전작업",
+        "건설폐기물 처리업에서 안전하게 작업하는 방법",
+        "건설폐기물 처리업 안전작업 가이드 책자"
+      ]
+    },
+    {
+      "record_id": "list3_42903",
+      "concat": "[TITLE] 개도국 진출기업을 위한 산업안전보건제도(몽골편)\n[SUMMARY] 개도국 진출기업을 위한 몽골 산업안전보건제도집",
+      "query": [
+        "몽골 안전보건 제도",
+        "몽골에 진출하는 기업이 알아야 할 산업안전보건 제도",
+        "개도국 진출기업 산업안전보건제도 몽골편"
+      ]
+    },
+    {
+      "record_id": "list3_41760",
+      "concat": "[TITLE] (특수형태근로종사자)준설선 운전자의 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "준설선 운전자 안전",
+        "준설선 운전자가 일을 시작할 때 보는 안전보건 교육자료",
+        "특수형태근로종사자 준설선 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_41748",
+      "concat": "[TITLE] (교재) 지게차 운전자의 안전보건(특수형태근로종사자_건설기계)\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "지게차 운전자 안전",
+        "건설기계 지게차 운전자가 처음 일할 때 필요한 안전교육 자료",
+        "지게차 운전자 안전보건 특수형태근로종사자 건설기계 교재"
+      ]
+    },
+    {
+      "record_id": "list3_41762",
+      "concat": "[TITLE] (교재) 타워크레인 운전자의 안전보건(특수형태근로종사자_건설기계)\n[SUMMARY] 특수형태근로자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "타워크레인 운전자 안전",
+        "타워크레인 운전자가 처음 일할 때 필요한 안전보건 교육자료",
+        "타워크레인 운전자 안전보건 특수형태근로종사자 건설기계 교재"
+      ]
+    },
+    {
+      "record_id": "list3_41772",
+      "concat": "[TITLE] (교재) 엘리베이터 안전작업가이드\n[SUMMARY] 사고사망 감소를 위한 안전보건 교재, 승강기 작업은 소규모 인원이 한정된 공간에서 작업하는 경우가 많기 때문에 관심을 가지고 재해예방에 노력한다면 이에 대한 예방효과는 상당할 것",
+      "query": [
+        "엘리베이터 안전작업",
+        "승강기 작업 중 사고를 줄이기 위한 안전작업 교육자료",
+        "엘리베이터 안전작업가이드 교재"
+      ]
+    },
+    {
+      "record_id": "list3_41745",
+      "concat": "[TITLE] (교재) 도저 운전자의 안전보건(특수형태근로종사자_건설기계)\n[SUMMARY] 특수형태근로종사자(도저 운전자의 안전보건) 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "도저 운전자 안전",
+        "도저 운전자가 처음 일할 때 보는 건설기계 안전보건 자료",
+        "도저 운전자 안전보건 특수형태근로종사자 건설기계 교재"
+      ]
+    },
+    {
+      "record_id": "list3_41744",
+      "concat": "[TITLE] (교재) 퀵서비스 배달원의 안전보건(특수형태근로종사자)\n[SUMMARY] 특수형태근로종사자(퀵서비스 배달원의 안전보건) 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "퀵서비스 배달 안전",
+        "퀵서비스 배달원이 일을 시작할 때 필요한 안전보건 교육자료",
+        "퀵서비스 배달원 안전보건 특수형태근로종사자 교재"
+      ]
+    }
+  ]
+}

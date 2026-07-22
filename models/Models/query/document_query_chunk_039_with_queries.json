@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 39,
+  "items": [
+    {
+      "record_id": "list1_45598",
+      "concat": "[TITLE] 개정 안내 및 산업용 리프트 주요 안전검사 사항 OPL\n[SUMMARY] 산업용 리프트 안전검사 대상 확대에 따른 안내 OPL",
+      "query": [
+        "산업용 리프트 안전검사",
+        "산업용 리프트 검사 대상이 바뀌었다는 안내 자료",
+        "산업용 리프트 개정 안내 주요 안전검사 사항 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_45629",
+      "concat": "[TITLE] 미세먼지 건강장해 예방 퀵가이드_2023년\n[SUMMARY] 미세먼지 건강장해 예방 퀵가이드_2023년_최종(QR변경)",
+      "query": [
+        "미세먼지 건강 예방",
+        "미세먼지 때문에 일할 때 건강 피해를 막는 짧은 안내",
+        "미세먼지 건강장해 예방 퀵가이드"
+      ]
+    },
+    {
+      "record_id": "list1_45628",
+      "concat": "[TITLE] 미세먼지로 인한 건강장해 예방가이드\n[SUMMARY] 미세먼지로 인한 건강장해 예방가이드",
+      "query": [
+        "미세먼지 건강장해 예방",
+        "미세먼지로 건강이 나빠지는 것을 막는 안내서",
+        "미세먼지 건강장해 예방가이드"
+      ]
+    },
+    {
+      "record_id": "list1_45414",
+      "concat": "[TITLE] 고정식·이동식 산업용 로봇의 협동작업 OPS\n[SUMMARY] 고정식 이동식 산업용 로봇의 협동작업 OPS",
+      "query": [
+        "산업용 로봇 협동작업",
+        "고정식 이동식 로봇이 사람과 같이 작업할 때 필요한 안전 자료",
+        "고정식 이동식 산업용 로봇 협동작업 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45253",
+      "concat": "[TITLE] 건물관리업·음식업 위험성평가 CFRA 안내\n[SUMMARY] 건물관리업·음식업 위험성평가 CFRA 안내 OPS 자료",
+      "query": [
+        "건물관리 음식업 위험성평가",
+        "건물관리나 음식점에서 위험성평가 하는 방법 안내",
+        "건물관리업 음식업 위험성평가 CFRA 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45525",
+      "concat": "[TITLE] 동절기 건설현장 핵심안전수칙\n[SUMMARY] 동절기 건설현장 주요사고, 핵심안전수칙, 핵심점검사항",
+      "query": [
+        "겨울 건설현장 안전수칙",
+        "겨울철 공사 현장에서 꼭 점검해야 할 안전수칙 자료",
+        "동절기 건설현장 핵심안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_45557",
+      "concat": "[TITLE] 겨울철 한파대비 한랭질환 예방가이드\n[SUMMARY] 겨울철 한파대비 한랭질환 예방가이드",
+      "query": [
+        "한파 한랭질환 예방",
+        "겨울 추위에 일하다 생기는 한랭질환을 막는 안내",
+        "겨울철 한파대비 한랭질환 예방가이드"
+      ]
+    },
+    {
+      "record_id": "list1_45293",
+      "concat": "[TITLE] 스마트 안전장비 지원사업(신규품목추가)\n[SUMMARY] 스마트 안전장비 지원사업 안내(신규폼목 추가)",
+      "query": [
+        "스마트 안전장비 지원",
+        "새로 추가된 스마트 안전장비 지원사업 안내 자료",
+        "스마트 안전장비 지원사업 신규품목추가"
+      ]
+    },
+    {
+      "record_id": "list1_45290",
+      "concat": "[TITLE] [Quick Message] 2023-8호 굴착면 매몰 사망사고 연속 발생\n[SUMMARY] 굴착면이 무너지며 매몰되는 사망사고 연속 발생에 따른 퀵메시지 입니다.",
+      "query": [
+        "굴착면 매몰 사고",
+        "굴착 작업 중 흙이 무너져 매몰되는 사망사고 안내",
+        "굴착면 매몰 사망사고 연속 발생 Quick Message"
+      ]
+    },
+    {
+      "record_id": "list1_45247",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (캄보디아)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 캄보디아",
+        "캄보디아 근로자에게 끼임사고 예방 잠금표시 절차를 설명하는 자료",
+        "외국인 LOTO 작업절차 OPS 캄보디아"
+      ]
+    },
+    {
+      "record_id": "list1_45282",
+      "concat": "[TITLE] 사업장 내 사고 발생 시 국민행동요령(5종)\n[SUMMARY] 화재, 폭발, 질식, 구조물 붕괴, 화학물질 누출 등 5개 재난상황에 대한 국민행동요령",
+      "query": [
+        "사고 발생 행동요령",
+        "사업장에서 화재 폭발 질식 같은 사고가 났을 때 대처 방법",
+        "사업장 내 사고 발생 시 국민행동요령 5종"
+      ]
+    },
+    {
+      "record_id": "list1_45262",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(곤돌라)\n[SUMMARY] 사고다발 위험설비 Key Message(곤돌라) - Message 내용 : 안전난간 및 안간대 부착",
+      "query": [
+        "곤돌라 안전난간",
+        "곤돌라 작업에서 안전난간을 붙여야 한다는 짧은 안전 안내",
+        "사고다발 위험설비 Key Message 곤돌라"
+      ]
+    },
+    {
+      "record_id": "list1_45249",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (파키스탄)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 파키스탄",
+        "파키스탄 근로자용 끼임사고 예방 잠금표시 작업절차 자료",
+        "외국인 LOTO 작업절차 OPS 파키스탄"
+      ]
+    },
+    {
+      "record_id": "list1_45248",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (키르기스스탄)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 키르기스스탄",
+        "키르기스스탄 근로자에게 끼임 예방 잠금표시 절차를 알려주는 자료",
+        "외국인 LOTO 작업절차 OPS 키르기스스탄"
+      ]
+    },
+    {
+      "record_id": "list1_45246",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (인도네시아)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 인도네시아",
+        "인도네시아 근로자용 끼임사고 예방 잠금표시 작업절차 안내",
+        "외국인 LOTO 작업절차 OPS 인도네시아"
+      ]
+    },
+    {
+      "record_id": "list1_45294",
+      "concat": "[TITLE] (농촌진흥청 발간) 농작업 안전 자가점검 체크리스트 국문 및 외국어(9개 언어)\n[SUMMARY] 농업에 종사하는 근로자 재해예방을 위하여 농촌진흥청에서 발간한 '농작업 안전 자가점검 체크리스트' 의 국문과 9개 언어(네팔어, 라오어, 몽골어, 미얀마어, 베트남어, 영어, 중국어, 캄보디아어, 태국어) 번역본 전자파일을 내려받을 수 있는 경로를 안내드립니다. ※ 농업인안전365홈페이지(https://farmer.rda.go.kr) 접속 후 -> 학술연구 -> 자료실에서 전자파일 확인 및 내려받기 가능",
+      "query": [
+        "농작업 안전 체크리스트",
+        "농업 근로자가 작업 전에 스스로 안전을 점검하는 외국어 자료",
+        "농작업 안전 자가점검 체크리스트 국문 외국어 9개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_45245",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (스리랑카)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 스리랑카",
+        "스리랑카 근로자에게 끼임재해 예방 작업절차를 설명하는 자료",
+        "외국인 LOTO 작업절차 OPS 스리랑카"
+      ]
+    },
+    {
+      "record_id": "list1_45241",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (라오스)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 라오스",
+        "라오스 근로자용 끼임사고 예방 잠금표시 작업절차 자료",
+        "외국인 LOTO 작업절차 OPS 라오스"
+      ]
+    },
+    {
+      "record_id": "list1_45242",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (몽골)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 몽골",
+        "몽골 근로자에게 잠금표시 작업절차와 끼임 예방을 알려주는 자료",
+        "외국인 LOTO 작업절차 OPS 몽골"
+      ]
+    },
+    {
+      "record_id": "list1_45240",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (동티모르 등 10개 언어)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 절차",
+        "외국인 근로자에게 끼임사고 예방 잠금표시 절차를 여러 언어로 설명한 자료",
+        "외국인 LOTO 작업절차 OPS 동티모르 10개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_45244",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (방글라데시)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 방글라데시",
+        "방글라데시 근로자용 끼임재해 예방 잠금표시 작업절차 안내",
+        "외국인 LOTO 작업절차 OPS 방글라데시"
+      ]
+    },
+    {
+      "record_id": "list1_45243",
+      "concat": "[TITLE] [외국인] LOTO 작업절차 OPS (미얀마)\n[SUMMARY] 끼임재해 예방을 위한 LOTO 작업절차 방법을 10개 언어로 제공 10개 언어: 동티모르, 라오스, 몽골, 미얀마, 방글라데시, 스리랑카, 인도네시아, 캄보디아, 키르기스스탄, 파키스탄 ※ 그 외 6개 언어( 네팔어, 베트남어, 영어, 우즈벡어, 중국어, 태국어)는 아래의 [[[바로가기 링크]]] 또는 안전보건자료실 내 '[외국인]LOTO 작업절차 OPS (네팔어, 베트남어 등)<등록일: 2021.11.19.>' 자료를 참고하여 주시기 바랍니다.",
+      "query": [
+        "외국인 LOTO 미얀마",
+        "미얀마 근로자에게 끼임 예방 잠금표시 작업절차를 알려주는 자료",
+        "외국인 LOTO 작업절차 OPS 미얀마"
+      ]
+    },
+    {
+      "record_id": "list1_45267",
+      "concat": "[TITLE] [Quick Message] 2023-7호 지붕 추락 사망사고 연속 발생\n[SUMMARY] 지붕 설치 및 유지·보수 작업 중 떨어짐으로 인한 사망사고 연속 발생에 따른 퀵메시지 입니다.",
+      "query": [
+        "지붕 추락 사고",
+        "지붕 설치나 보수 작업 중 떨어지는 사망사고 예방 안내",
+        "지붕 추락 사망사고 연속 발생 Quick Message"
+      ]
+    },
+    {
+      "record_id": "list1_45162",
+      "concat": "[TITLE] 배달종사자 감정노동보호(서비스 중단 재량권 부여 등)\n[SUMMARY] 배달종사자가 폭언폭행에 노출될 때 사업주의 보호의무(대응지침 제공, 서비스 중단권 부여, 상담치료 지원 등) ㅇ OPS내 삽화 포함",
+      "query": [
+        "배달종사자 감정노동",
+        "배달원이 폭언 폭행을 당했을 때 서비스 중단과 보호조치 안내",
+        "배달종사자 감정노동보호 서비스 중단 재량권 부여"
+      ]
+    },
+    {
+      "record_id": "list1_44881",
+      "concat": "[TITLE] 초소규모 건설현장 재해예방 기술지원 자료\n[SUMMARY] 초소규모 건설현장 재해예방 기술지원 자료",
+      "query": [
+        "소규모 건설현장 재해예방",
+        "작은 건설현장에서 사고를 줄이기 위한 기술지원 자료",
+        "초소규모 건설현장 재해예방 기술지원 자료"
+      ]
+    },
+    {
+      "record_id": "list1_45217",
+      "concat": "[TITLE] [Quick Message] 2023-6호 폭염경보 및 폭염주의보 발효중\n[SUMMARY] 전국에 폭염특보(폭염경보 및 폭염주의보)가 발효됨에 따라 온열질환 예방을 위한 안전보건 자료 안내 퀵메시지 입니다.",
+      "query": [
+        "폭염 온열질환 예방",
+        "폭염경보나 폭염주의보가 내려졌을 때 온열질환을 막는 안내",
+        "폭염경보 폭염주의보 발효중 Quick Message"
+      ]
+    },
+    {
+      "record_id": "list1_45130",
+      "concat": "[TITLE] 직업병 예방문화 확산 활동 좀(J.O.M, JOM) 설명OPS\n[SUMMARY] 근로자가 스스로 유해요인을 파악하고, 개선대책을 실천하는 위험성평가 기반의 직업병 예방문화 확산 활동 좀(J.O.M) 설명OPS입니다.",
+      "query": [
+        "직업병 예방 JOM",
+        "근로자가 유해요인을 찾고 개선하는 직업병 예방 활동 설명 자료",
+        "직업병 예방문화 확산 활동 좀 J.O.M JOM 설명 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45116",
+      "concat": "[TITLE] 양식어업 종사자 건강보호 가이드\n[SUMMARY] 양식업, 화학물질, 구제제, 활성처리제, 수산물",
+      "query": [
+        "양식어업 건강보호",
+        "양식장에서 화학물질이나 구제제 다룰 때 건강을 지키는 안내",
+        "양식어업 종사자 건강보호 가이드"
+      ]
+    },
+    {
+      "record_id": "list1_45201",
+      "concat": "[TITLE] [Quick Message] 2023-5호 외국인 근로자 사망사고 연속 발생\n[SUMMARY] 외국인 근로자 사망사고 연속 발생 퀵메시지 입니다.",
+      "query": [
+        "외국인 근로자 사망사고",
+        "외국인 근로자 사망사고가 계속 발생했다는 안전 안내",
+        "외국인 근로자 사망사고 연속 발생 Quick Message"
+      ]
+    },
+    {
+      "record_id": "list1_45129",
+      "concat": "[TITLE] 양식장 화학물질 안전하게 취급해요\n[SUMMARY] 양식장 화학물질 취급에 대한 안내",
+      "query": [
+        "양식장 화학물질",
+        "양식장에서 화학물질을 안전하게 다루는 방법 안내",
+        "양식장 화학물질 안전하게 취급"
+      ]
+    }
+  ]
+}

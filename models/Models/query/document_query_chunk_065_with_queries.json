@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 65,
+  "items": [
+    {
+      "record_id": "list1_39890",
+      "concat": "[TITLE] [중대재해사례 OPL]조경수 전정작업 중 이동식 사다리가 넘어짐\n[SUMMARY] [중대재해사례 OPL]조경수 전정작업 중 이동식 사다리가 넘어짐",
+      "query": [
+        "조경수 사다리 사고",
+        "나무 전정 작업 중 사다리가 넘어진 사고 사례를 찾고 있어요",
+        "중대재해사례 OPL 조경수 전정작업 이동식 사다리 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39888",
+      "concat": "[TITLE] [중대재해사례 OPL]재활용품 수거차량 지붕에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]재활용품 수거차량 지붕에서 떨어짐",
+      "query": [
+        "수거차량 지붕 추락",
+        "재활용품 수거차량 위에서 작업하다 떨어진 사고 자료가 필요해요",
+        "중대재해사례 OPL 재활용품 수거차량 지붕 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39891",
+      "concat": "[TITLE] [중대재해사례 OPL]압착진개차 적재함 청소 작업 중 끼임\n[SUMMARY] [중대재해사례 OPL]압착진개차 적재함 청소 작업 중 끼임 사례",
+      "query": [
+        "청소차 적재함 끼임",
+        "압착진개차 적재함을 청소하다가 끼이는 사고 사례를 찾고 있어요",
+        "중대재해사례 OPL 압착진개차 적재함 청소 작업 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_39889",
+      "concat": "[TITLE] [중대재해사례 OPL]기계톱을 이용한 나무 절단작업 중 나무에 깔림\n[SUMMARY] [중대재해사례 OPL]기계톱을 이용한 나무 절단작업 중 나무에 깔림, 벌목작업시의 안전수칙",
+      "query": [
+        "기계톱 나무 깔림",
+        "기계톱으로 나무를 자르다가 나무에 깔린 사고 안전자료가 필요해요",
+        "중대재해사례 OPL 기계톱 나무 절단작업 나무 깔림 벌목작업 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_39886",
+      "concat": "[TITLE] [중대재해사례 OPL]화물자동차에서 화물적재 작업 중 차량에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]화물자동차에서 화물적재 작업 중 차량에서 떨어짐",
+      "query": [
+        "화물차 적재 추락",
+        "화물자동차에서 짐을 싣는 중 차량에서 떨어진 사고 사례를 찾습니다",
+        "중대재해사례 OPL 화물자동차 화물적재 작업 차량 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39887",
+      "concat": "[TITLE] [중대재해사례 OPL]가로수 가지치기 작업 중 고소작업대가 넘어짐\n[SUMMARY] [중대재해사례 OPL]가로수 가지치기 작업 중 고소작업대가 넘어짐",
+      "query": [
+        "가로수 고소작업대 사고",
+        "가로수 가지치기 중 고소작업대가 넘어진 사고 자료가 필요해요",
+        "중대재해사례 OPL 가로수 가지치기 작업 고소작업대 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39885",
+      "concat": "[TITLE] [중대재해사례 OPL]이동식 크레인에 부착된 작업대에 탑승하여 수목 전지 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]이동식 크레인에 부착된 작업대에 탑승하여 수목 전지 작업 중 떨어짐",
+      "query": [
+        "수목 전지 추락",
+        "이동식 크레인 작업대에 타고 나무 작업을 하다 떨어진 사고를 찾고 있어요",
+        "중대재해사례 OPL 이동식 크레인 작업대 탑승 수목 전지 작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39882",
+      "concat": "[TITLE] [중대재해사례 OPL]지지볼트 파단으로 이동식 전시 칸막이가 넘어져 깔림\n[SUMMARY] 지지볼트 파단으로 이동식 전시 칸막이가 넘어져 깔림 [중대재해사례 OPL]",
+      "query": [
+        "전시 칸막이 깔림",
+        "이동식 전시 칸막이가 넘어져 사람이 깔린 사고 사례를 찾고 있어요",
+        "중대재해사례 OPL 지지볼트 파단 이동식 전시 칸막이 넘어짐 깔림"
+      ]
+    },
+    {
+      "record_id": "list1_39870",
+      "concat": "[TITLE] [중대재해사례 OPL]터널 입구 옹벽 비계 설치 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]터널 입구 옹벽 비계 설치 작업 중 떨어짐",
+      "query": [
+        "터널 비계 추락",
+        "터널 입구 옹벽에 비계를 설치하다 떨어진 사고 자료가 필요해요",
+        "중대재해사례 OPL 터널 입구 옹벽 비계 설치 작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39884",
+      "concat": "[TITLE] [중대재해사례 OPL]청소차량이 미끄러지며 후미에 탑승한 재해자가 담장 사이에 끼임\n[SUMMARY] [중대재해사례 OPL]청소차량이 미끄러지며 후미에 탑승한 재해자가 담장 사이에 끼임",
+      "query": [
+        "청소차 끼임 사고",
+        "청소차량 뒤에 탔다가 차량이 미끄러져 담장 사이에 끼인 사고를 찾습니다",
+        "중대재해사례 OPL 청소차량 미끄러짐 후미 탑승 재해자 담장 사이 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_39809",
+      "concat": "[TITLE] [안전보건 OPL]산업재해 트라우마 원인 및 관리\n[SUMMARY] [안전보건 OPL]산업재해 트라우마 원인 및 관리",
+      "query": [
+        "산재 트라우마 관리",
+        "산업재해를 겪은 뒤 생기는 트라우마 원인과 관리 방법 자료가 필요해요",
+        "안전보건 OPL 산업재해 트라우마 원인 관리"
+      ]
+    },
+    {
+      "record_id": "list1_39880",
+      "concat": "[TITLE] [중대재해사례 OPL]말비계 위에서 천장 면정리 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]말비계 위에서 천장 면정리 작업 중 떨어짐",
+      "query": [
+        "말비계 천장 추락",
+        "말비계 위에서 천장 작업을 하다가 떨어진 사고 사례를 찾고 있어요",
+        "중대재해사례 OPL 말비계 천장 면정리 작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39811",
+      "concat": "[TITLE] [안전보건 OPL]산업재해 트라우마 관리방안(노동자용)\n[SUMMARY] 산업재해 트라우마 관리방안(노동자용)",
+      "query": [
+        "산재 트라우마 노동자",
+        "산업재해 트라우마를 겪는 노동자를 위한 관리 방법 자료가 필요해요",
+        "안전보건 OPL 산업재해 트라우마 관리방안 노동자용"
+      ]
+    },
+    {
+      "record_id": "list1_39881",
+      "concat": "[TITLE] [중대재해사례 OPL]칡덩굴 제거 작업 중 옹벽 위 집수정 바닥으로 떨어짐\n[SUMMARY] [중대재해사례 OPL]칡덩굴 제거 작업 중 옹벽 위 집수정 바닥으로 떨어짐",
+      "query": [
+        "칡덩굴 제거 추락",
+        "칡덩굴 제거 작업 중 옹벽 위 집수정 바닥으로 떨어진 사고를 찾고 있어요",
+        "중대재해사례 OPL 칡덩굴 제거 작업 옹벽 집수정 바닥 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39810",
+      "concat": "[TITLE] [안전보건 OPL]산업재해 트라우마 관리방안(관리감독자용)\n[SUMMARY] [안전보건 OPL]산업재해 트라우마 관리방안(관리감독자용)",
+      "query": [
+        "산재 트라우마 감독자",
+        "산업재해 트라우마 관리를 관리감독자가 어떻게 해야 하는지 자료가 필요해요",
+        "안전보건 OPL 산업재해 트라우마 관리방안 관리감독자용"
+      ]
+    },
+    {
+      "record_id": "list1_39793",
+      "concat": "[TITLE] [중대재해사례 OPL]분진방지망 해체 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]분진방지망 해체 중 떨어짐",
+      "query": [
+        "분진방지망 추락",
+        "분진방지망을 해체하다가 떨어진 중대재해 사례를 찾고 있어요",
+        "중대재해사례 OPL 분진방지망 해체 중 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39792",
+      "concat": "[TITLE] [중대재해사례 OPL]외부비계 위에서 강관파이프 해체 중 떨어짐\n[SUMMARY] 외부비계 위에서 강관파이프 해체 중 떨어짐",
+      "query": [
+        "비계 파이프 추락",
+        "외부비계에서 강관파이프를 해체하다 떨어진 사고 자료가 필요해요",
+        "중대재해사례 OPL 외부비계 강관파이프 해체 중 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39791",
+      "concat": "[TITLE] [중대재해사례 OPL]외부비계 위에서 마감재(석재) 줄눈작업 중 발판 외측으로 떨어짐\n[SUMMARY] [중대재해사례 OPL]외부비계 위에서 마감재(석재) 줄눈작업 중 발판 외측으로 떨어짐",
+      "query": [
+        "비계 석재 줄눈 추락",
+        "외부비계에서 석재 줄눈작업을 하다 발판 밖으로 떨어진 사고를 찾습니다",
+        "중대재해사례 OPL 외부비계 마감재 석재 줄눈작업 발판 외측 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39790",
+      "concat": "[TITLE] [중대재해사례 OPL]발판에 걸린 자재인양함을 빼내던 중 작업발판에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]발판에 걸린 자재인양함을 빼내던 중 작업발판에서 떨어짐",
+      "query": [
+        "자재인양함 발판 추락",
+        "작업발판에 걸린 자재인양함을 빼내다가 떨어진 사고 사례가 필요해요",
+        "중대재해사례 OPL 발판 자재인양함 작업발판 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39788",
+      "concat": "[TITLE] [중대재해사례 OPL]말비계 위에서 전선배관 설치 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]말비계 위에서 전선배관 설치 중 떨어짐",
+      "query": [
+        "말비계 전선배관 추락",
+        "말비계 위에서 전선배관을 설치하다 떨어진 사고 자료를 찾고 있어요",
+        "중대재해사례 OPL 말비계 전선배관 설치 중 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39789",
+      "concat": "[TITLE] [중대재해사례 OPL]복공 주형보에 부착된 가새 절단작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]복공 주형보에 부착된 가새 절단작업 중 떨어짐, 작업발판, 안전대 및 부착설비 체크리스트",
+      "query": [
+        "가새 절단 추락",
+        "복공 주형보에 붙은 가새를 절단하다 떨어진 사고와 안전대 체크리스트 자료가 필요해요",
+        "중대재해사례 OPL 복공 주형보 가새 절단작업 떨어짐 작업발판 안전대 부착설비 체크리스트"
+      ]
+    },
+    {
+      "record_id": "list1_39786",
+      "concat": "[TITLE] [중대재해사례 OPL]계단실 아랫면 미장작업 중 작업발판에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]계단실 아랫면 미장작업 중 작업발판에서 떨어짐",
+      "query": [
+        "계단실 미장 추락",
+        "계단실 아래쪽 미장작업 중 작업발판에서 떨어진 사고를 찾고 있어요",
+        "중대재해사례 OPL 계단실 아랫면 미장작업 작업발판 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39787",
+      "concat": "[TITLE] [중대재해사례 OPL]작업발판 해체 중 외부비계 위에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]작업발판 해체 중 외부비계 위에서 떨어짐",
+      "query": [
+        "작업발판 해체 추락",
+        "외부비계에서 작업발판을 해체하다 떨어진 사고 사례가 필요해요",
+        "중대재해사례 OPL 작업발판 해체 외부비계 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39785",
+      "concat": "[TITLE] [중대재해사례 OPL]실내골프망 설치작업 중 이동식비계 위에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]실내골프망 설치작업 중 이동식비계 위에서 떨어짐",
+      "query": [
+        "실내골프망 비계 추락",
+        "실내골프망 설치 중 이동식비계에서 떨어진 사고 자료를 찾고 있어요",
+        "중대재해사례 OPL 실내골프망 설치작업 이동식비계 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39781",
+      "concat": "[TITLE] [중대재해사례 OPL]형틀 보 상부에서 이동 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]형틀 보 상부에서 이동 중 떨어짐",
+      "query": [
+        "형틀 보 추락",
+        "형틀 보 위를 이동하다 떨어진 사고 사례를 찾고 있어요",
+        "중대재해사례 OPL 형틀 보 상부 이동 중 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39784",
+      "concat": "[TITLE] [중대재해사례 OPL]환풍구 철제 그레이팅 설치작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]환풍구 철제 그레이팅 설치작업 중 떨어짐",
+      "query": [
+        "환풍구 그레이팅 추락",
+        "환풍구 철제 그레이팅 설치작업 중 떨어진 사고 자료가 필요해요",
+        "중대재해사례 OPL 환풍구 철제 그레이팅 설치작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39778",
+      "concat": "[TITLE] [중대재해사례 OPL]사다리에서 철골구조물 도장작업 중 사다리가 넘어져 떨어짐\n[SUMMARY] [중대재해사례 OPL]사다리에서 철골구조물 도장작업 중 사다리가 넘어져 떨어짐",
+      "query": [
+        "사다리 도장 추락",
+        "사다리에서 철골구조물 도장작업을 하다 사다리가 넘어져 떨어진 사고를 찾습니다",
+        "중대재해사례 OPL 사다리 철골구조물 도장작업 사다리 넘어짐 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39780",
+      "concat": "[TITLE] [중대재해사례 OPL]옥상바닥 천공 작업 중 슬래브 단부에서 떨어짐\n[SUMMARY] [중대재해사례 OPL]옥상바닥 천공 작업 중 슬래브 단부에서 떨어짐",
+      "query": [
+        "옥상 천공 추락",
+        "옥상바닥 천공 작업 중 슬래브 끝에서 떨어진 사고 사례를 찾고 있어요",
+        "중대재해사례 OPL 옥상바닥 천공 작업 슬래브 단부 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39776",
+      "concat": "[TITLE] [중대재해사례 OPL]슬래브 단부에서 면 고르기 작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]슬래브 단부에서 면 고르기 작업 중 떨어짐",
+      "query": [
+        "슬래브 단부 추락",
+        "슬래브 가장자리에서 면 고르기 작업을 하다 떨어진 사고 자료가 필요해요",
+        "중대재해사례 OPL 슬래브 단부 면 고르기 작업 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_39777",
+      "concat": "[TITLE] [중대재해사례 OPL]철골지붕 마감용 강판 부착작업 중 떨어짐\n[SUMMARY] [중대재해사례 OPL]철골지붕 마감용 강판 부착작업 중 떨어짐",
+      "query": [
+        "철골지붕 강판 추락",
+        "철골지붕에 마감용 강판을 붙이다 떨어진 사고 사례를 찾고 있어요",
+        "중대재해사례 OPL 철골지붕 마감용 강판 부착작업 떨어짐"
+      ]
+    }
+  ]
+}

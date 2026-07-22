@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 35,
+  "items": [
+    {
+      "record_id": "list1_45766",
+      "concat": "[TITLE] [근로자용] 둥근톱 작업안전\n[SUMMARY] 위험기계·기구(둥근톱) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "둥근톱 안전",
+        "둥근톱으로 작업할 때 다치지 않게 지켜야 할 안전수칙 자료",
+        "근로자용 둥근톱 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45763",
+      "concat": "[TITLE] [관리자용] 천공용 휴대공구 작업안전\n[SUMMARY] 위험기계·기구(천공용 휴대공구) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "휴대 드릴 안전",
+        "구멍 뚫는 휴대공구를 관리할 때 필요한 작업 안전 자료",
+        "관리자용 천공용 휴대공구 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45765",
+      "concat": "[TITLE] [관리자용] 둥근톱 작업안전\n[SUMMARY] 위험기계·기구(둥근톱) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "둥근톱 안전",
+        "둥근톱 작업을 관리할 때 확인해야 할 안전수칙 자료",
+        "관리자용 둥근톱 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45762",
+      "concat": "[TITLE] [근로자용] 절곡기 작업안전\n[SUMMARY] 위험기계·기구(절곡기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "절곡기 안전",
+        "절곡기 작업자가 기계를 사용할 때 지켜야 할 안전수칙 자료",
+        "근로자용 절곡기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45764",
+      "concat": "[TITLE] [근로자용] 천공용 휴대공구 작업안전\n[SUMMARY] 위험기계·기구(천공용 휴대공구) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "휴대 드릴 안전",
+        "천공용 휴대공구로 작업할 때 필요한 안전수칙 자료",
+        "근로자용 천공용 휴대공구 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45761",
+      "concat": "[TITLE] [관리자용] 절곡기 작업안전\n[SUMMARY] 위험기계·기구(절곡기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "절곡기 안전",
+        "절곡기 작업을 관리할 때 봐야 할 안전관리 자료",
+        "관리자용 절곡기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45760",
+      "concat": "[TITLE] [근로자용] 식품제조용 절단기 작업안전\n[SUMMARY] 위험기계·기구(식품제조용 절단기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "식품 절단기 안전",
+        "식품 제조 현장에서 절단기를 쓸 때 지켜야 할 안전수칙",
+        "근로자용 식품제조용 절단기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45759",
+      "concat": "[TITLE] [관리자용] 식품제조용 절단기 작업안전\n[SUMMARY] 위험기계·기구(식품제조용 절단기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "식품 절단기 안전",
+        "식품제조용 절단기 작업을 관리할 때 필요한 안전 자료",
+        "관리자용 식품제조용 절단기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45758",
+      "concat": "[TITLE] [근로자용] 주조기 작업안전\n[SUMMARY] 위험기계·기구(주조기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "주조기 안전",
+        "주조기 작업자가 기계를 사용할 때 필요한 안전수칙 자료",
+        "근로자용 주조기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45756",
+      "concat": "[TITLE] [근로자용] 불도저 작업안전\n[SUMMARY] 위험기계·기구(불도저) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "불도저 안전",
+        "불도저를 운전하거나 작업할 때 지켜야 할 안전수칙 자료",
+        "근로자용 불도저 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45755",
+      "concat": "[TITLE] [관리자용] 불도저 작업안전\n[SUMMARY] 위험기계·기구(불도저) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "불도저 안전",
+        "불도저 작업 현장을 관리할 때 필요한 안전관리 자료",
+        "관리자용 불도저 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45757",
+      "concat": "[TITLE] [관리자용] 주조기 작업안전\n[SUMMARY] 위험기계·기구(주조기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "주조기 안전",
+        "주조기 작업을 관리할 때 점검해야 할 안전수칙 자료",
+        "관리자용 주조기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45754",
+      "concat": "[TITLE] [근로자용] 스크루 컨베이어 작업안전\n[SUMMARY] 위험기계·기구(권스크류 컨베이어) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "스크루 컨베이어 안전",
+        "스크루 컨베이어 작업자가 끼임 사고를 막기 위해 볼 안전수칙",
+        "근로자용 스크루 컨베이어 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45753",
+      "concat": "[TITLE] [관리자용] 스크루 컨베이어 작업안전\n[SUMMARY] 위험기계·기구(스크류 컨베이어) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "스크루 컨베이어 안전",
+        "스크류 컨베이어 작업을 관리할 때 필요한 안전수칙 자료",
+        "관리자용 스크루 컨베이어 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45752",
+      "concat": "[TITLE] [근로자용] 건조설비 작업안전\n[SUMMARY] 위험기계·기구(건조설비) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "건조설비 안전",
+        "건조설비를 다루는 작업자가 확인할 안전수칙 자료",
+        "근로자용 건조설비 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45750",
+      "concat": "[TITLE] [근로자용] 선별/분류기 작업안전\n[SUMMARY] 위험기계·기구(선별/분류기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "선별기 안전",
+        "선별기나 분류기 작업자가 기계를 사용할 때 필요한 안전수칙",
+        "근로자용 선별 분류기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45751",
+      "concat": "[TITLE] [관리자용] 건조설비 작업안전\n[SUMMARY] 위험기계·기구(건조설비) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "건조설비 안전",
+        "건조설비 작업을 관리할 때 확인해야 할 안전관리 자료",
+        "관리자용 건조설비 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45749",
+      "concat": "[TITLE] [관리자용] 선별/분류기 작업안전\n[SUMMARY] 위험기계·기구(선별/분류기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "분류기 안전",
+        "선별기 분류기 작업을 관리할 때 필요한 안전수칙 자료",
+        "관리자용 선별 분류기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45747",
+      "concat": "[TITLE] [관리자용] 반응기 작업안전\n[SUMMARY] 위험기계·기구(반응기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "반응기 안전",
+        "반응기 작업을 관리할 때 필요한 안전관리 자료",
+        "관리자용 반응기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45746",
+      "concat": "[TITLE] [근로자용] 권취/권선/신선기 작업안전\n[SUMMARY] 위험기계·기구(권취/권선/신선기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "권취기 안전",
+        "권취 권선 신선기 작업자가 지켜야 할 안전수칙 자료",
+        "근로자용 권취 권선 신선기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45748",
+      "concat": "[TITLE] [근로자용] 반응기 작업안전\n[SUMMARY] 위험기계·기구(반응기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "반응기 안전",
+        "반응기 작업자가 설비를 다룰 때 지켜야 할 안전수칙",
+        "근로자용 반응기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45745",
+      "concat": "[TITLE] [관리자용] 권취/권선/신선기 작업안전\n[SUMMARY] 위험기계·기구(권취/권선/신선기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "신선기 안전",
+        "권취 권선 신선기 작업을 관리할 때 필요한 안전 자료",
+        "관리자용 권취 권선 신선기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45744",
+      "concat": "[TITLE] [근로자용] 화물용 승강기 작업안전\n[SUMMARY] 위험기계·기구(화물용 승강기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "화물 승강기 안전",
+        "화물용 승강기를 작업자가 사용할 때 필요한 안전수칙 자료",
+        "근로자용 화물용 승강기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45743",
+      "concat": "[TITLE] [관리자용] 화물용 승강기 작업안전\n[SUMMARY] 위험기계·기구(화물용 승강기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "화물 승강기 안전",
+        "화물용 승강기 작업을 관리할 때 필요한 안전관리 자료",
+        "관리자용 화물용 승강기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45742",
+      "concat": "[TITLE] [근로자용] 건설용 리프트 작업안전\n[SUMMARY] 위험기계·기구(건설용 리프트) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "건설 리프트 안전",
+        "건설용 리프트를 작업자가 사용할 때 지켜야 할 안전수칙",
+        "근로자용 건설용 리프트 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45739",
+      "concat": "[TITLE] [관리자용] 롤러기 작업안전\n[SUMMARY] 위험기계·기구(롤러기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "롤러기 안전",
+        "롤러기 작업을 관리할 때 확인해야 할 안전수칙 자료",
+        "관리자용 롤러기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45740",
+      "concat": "[TITLE] [근로자용] 롤러기 작업안전\n[SUMMARY] 위험기계·기구(롤러기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "롤러기 안전",
+        "롤러기 작업자가 기계를 사용할 때 지켜야 할 안전수칙",
+        "근로자용 롤러기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45741",
+      "concat": "[TITLE] [관리자용] 건설용 리프트 작업안전\n[SUMMARY] 위험기계·기구(건설용 리프트) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "건설 리프트 안전",
+        "건설용 리프트 작업을 관리할 때 필요한 안전관리 자료",
+        "관리자용 건설용 리프트 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45738",
+      "concat": "[TITLE] [근로자용] 갠트리 크레인 작업안전\n[SUMMARY] 위험기계·기구(갠트리 크레인) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "갠트리 크레인 안전",
+        "갠트리 크레인 작업자가 알아야 할 작업 안전수칙 자료",
+        "근로자용 갠트리 크레인 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45736",
+      "concat": "[TITLE] [근로자용] 항타기 작업안전\n[SUMMARY] 위험기계·기구(항타기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "항타기 안전",
+        "항타기 작업자가 장비를 사용할 때 필요한 안전수칙 자료",
+        "근로자용 항타기 작업안전 OPS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 155,
+  "items": [
+    {
+      "record_id": "list3_46544",
+      "concat": "[TITLE] 감정노동 고위험 직종에 대한 관계부처의 보호방안 연구\n[SUMMARY] 감정노동 고위험 직종에 대한 관계부처의 보호방안 연구 보고서",
+      "query": [
+        "감정노동 보호",
+        "감정노동이 심한 직종 근로자 보호대책 자료",
+        "감정노동 고위험 직종 관계부처 보호방안 연구 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46542",
+      "concat": "[TITLE] 장시간 근로와 산업재해 발생현황 분석 (뇌심혈관질환, 자살)\n[SUMMARY] 장시간 근로와 산업재해 발생현황 분석 (뇌심혈관질환, 자살) 보고서",
+      "query": [
+        "장시간 근로 산재",
+        "오래 일하면 뇌심혈관질환이나 자살 같은 산재가 늘어나는지 분석한 자료",
+        "장시간 근로 산업재해 발생현황 분석 뇌심혈관질환 자살 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46541",
+      "concat": "[TITLE] 직업병 감시체계 활성화를 위한 유해인자 및 직업성 질병 분류체계 개발\n[SUMMARY] 직업병 감시체계 활성화를 위한 유해인자 및 직업성 질병 분류체계 개발 보고서",
+      "query": [
+        "직업병 감시체계",
+        "직업병을 감시하려고 유해요인과 질병을 어떻게 분류하는지 정리한 자료",
+        "직업병 감시체계 활성화 유해인자 직업성 질병 분류체계 개발 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46543",
+      "concat": "[TITLE] 새벽노동으로 인한 특수형태근로종사자 산재예방 대책 연구\n[SUMMARY] 새벽노동으로 인한 특수형태근로종사자 산재예방 대책 연구 보고서",
+      "query": [
+        "새벽노동 산재",
+        "새벽에 일하는 특수고용 노동자의 산재 예방대책을 다룬 자료",
+        "새벽노동 특수형태근로종사자 산재예방 대책 연구 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46794",
+      "concat": "[TITLE] 근로자 건강진단 실무지침 제1권, 제2권\n[SUMMARY] 근로자 건강진단 실시기준(고용노동부고시 제2023-8호) 제9조제1항에 의거하여 발간하는 근로자 건강진단 실무지침 제1권(특수건강진단 개요)",
+      "query": [
+        "근로자 건강진단",
+        "특수건강진단 같은 근로자 건강검진 실무 기준을 설명한 자료",
+        "근로자 건강진단 실무지침 특수건강진단 개요"
+      ]
+    },
+    {
+      "record_id": "list3_46796",
+      "concat": "[TITLE] 근로자 건강진단 실무지침 제3권\n[SUMMARY] 근로자 건강진단 실시기준(고용노동부고시 제2023-8호) 제9조제1항에 의거하여 발간하는 근로자 건강진단 실무지침 제1권(특수건강진단 개요)",
+      "query": [
+        "근로자 건강진단",
+        "근로자 건강진단 실무지침 중 제3권 자료를 찾고 싶을 때",
+        "근로자 건강진단 실무지침 제3권"
+      ]
+    },
+    {
+      "record_id": "list3_46540",
+      "concat": "[TITLE] 유해인자 노출 근로자의 특수건강진단 실시기준 마련\n[SUMMARY] 유해인자 노출 근로자의 특수건강진단 실시기준 마련 보고서",
+      "query": [
+        "특수건강진단 기준",
+        "유해요인에 노출되는 근로자가 받아야 하는 특수건강진단 기준 자료",
+        "유해인자 노출 근로자 특수건강진단 실시기준 마련 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46588",
+      "concat": "[TITLE] 조선업 직종별 안전보건 기술력 향상을 위한 전기 기계·기구 및 설비 설치공 안전관리모델\n[SUMMARY] 조선업 전기 기계·기구 및 설비 설치공 안전관리모델을 제작 및 보급하여 안전보건수준 향상 및 사고사망재해 감축에 기여",
+      "query": [
+        "조선업 설치공 안전",
+        "조선업에서 전기 기계 설비 설치 작업자를 위한 안전관리 모델 자료",
+        "조선업 전기 기계 기구 설비 설치공 안전관리모델"
+      ]
+    },
+    {
+      "record_id": "list3_46808",
+      "concat": "[TITLE] 건강한 사격장 운영을 위한 가이드\n[SUMMARY] 실내 실탄을 사용하는 사격장의 보건관리 가이드",
+      "query": [
+        "사격장 보건관리",
+        "실내 실탄 사격장을 건강하게 운영하기 위한 보건관리 자료",
+        "건강한 사격장 운영 가이드 실내 실탄 보건관리"
+      ]
+    },
+    {
+      "record_id": "list3_47099",
+      "concat": "[TITLE] 2025년 월간 안전보건 1월호\n[SUMMARY] 2025년 월간 안전보건 1월호 - 파일 다운은 월간 안전보건 e-book 탭에서 하시기 바랍니다.",
+      "query": [
+        "월간 안전보건",
+        "월간 안전보건 1월호 자료를 다운로드하고 싶을 때",
+        "월간 안전보건 e-book"
+      ]
+    },
+    {
+      "record_id": "list3_46995",
+      "concat": "[TITLE] 신규입사자를 위한 안전보건 교재\n[SUMMARY] 신규 입사자를 위한 안전보건 가이드 책자",
+      "query": [
+        "신입사원 안전교육",
+        "새로 입사한 직원에게 안전보건을 교육할 때 쓰는 자료",
+        "신규입사자 안전보건 교재 가이드 책자"
+      ]
+    },
+    {
+      "record_id": "list3_46819",
+      "concat": "[TITLE] 2024 중대사고 이슈 리포트\n[SUMMARY] 2024 중대사고 이슈 리포트",
+      "query": [
+        "중대사고 이슈",
+        "중대사고 관련 이슈를 정리한 리포트 자료",
+        "중대사고 이슈 리포트"
+      ]
+    },
+    {
+      "record_id": "list3_46994",
+      "concat": "[TITLE] 예비산업인력 안전보건 교재\n[SUMMARY] 예비산업인력 안전보건 교육자료",
+      "query": [
+        "예비산업인력 안전교육",
+        "취업 전 예비 산업인력에게 안전보건을 가르칠 때 쓰는 교육자료",
+        "예비산업인력 안전보건 교재 교육자료"
+      ]
+    },
+    {
+      "record_id": "list3_46747",
+      "concat": "[TITLE] 건설안전지표 가이드\n[SUMMARY] 건설안전지표(건설업체 산업재해예방활동 실적평가 및 사고사망만인율)에 대한 법규 등 관련 정보",
+      "query": [
+        "건설안전지표",
+        "건설업체 산재예방활동 평가와 사고사망만인율을 설명한 자료",
+        "건설안전지표 가이드 산업재해예방활동 실적평가 사고사망만인율"
+      ]
+    },
+    {
+      "record_id": "list3_46968",
+      "concat": "[TITLE] 중대재해 사이렌_건설업 외국인근로자를 위한 중대재해 발생 알림\n[SUMMARY] 건설현장에서 발생하는 주요 사고사례를 4개 언어(중국, 베트남, 태국, 캄보디아)로 번역 제공",
+      "query": [
+        "건설 외국인 중대재해",
+        "건설현장 외국인 근로자에게 주요 사고사례를 여러 언어로 알려주는 자료",
+        "중대재해 사이렌 건설업 외국인근로자 중대재해 발생 알림"
+      ]
+    },
+    {
+      "record_id": "list3_46592",
+      "concat": "[TITLE] 전자산업 안전보건 가이드 개발(8종)\n[SUMMARY] 전자산업 안전보건 가이드 개발(8종) 연구용역 ①전자산업 클린룸 공정 지원 설비 정비작업 ②전자산업 클린룸내 세정공정 작업 ③전자산업 산화공정 설비 정비작업 ④전자산업 포토공정 설비 정비작업 ⑤전자산업 확산공정 설비 정비작업 ⑥전자산업 폐수처리 설비 정비작업 ⑦전자산업 화학물질 세정작업 ⑧전자산업 유해폐기물 작업",
+      "query": [
+        "전자산업 안전보건",
+        "전자산업 클린룸과 세정공정 작업 안전보건 가이드를 찾는 자료",
+        "전자산업 안전보건 가이드 클린룸 세정공정 설비 정비작업 화학물질 유해폐기물"
+      ]
+    },
+    {
+      "record_id": "list3_46376",
+      "concat": "[TITLE] 건설업 기초안전보건교육 표준교재(몽골어)\n[SUMMARY] 건설현장 일용근로자 대상으로 실시하는 기초안전보건교육 표준교재(몽골어)",
+      "query": [
+        "건설 기초교육 몽골어",
+        "몽골어로 된 건설현장 일용근로자 기초안전보건교육 교재",
+        "건설업 기초안전보건교육 표준교재 몽골어"
+      ]
+    },
+    {
+      "record_id": "list3_46575",
+      "concat": "[TITLE] [중대재해 사고백서] 2024 우연히 일어난 사고는 없다\n[SUMMARY] 중대재해 감축 로드맵에 따른 중대재해 사고백서 제작 및 발간",
+      "query": [
+        "중대재해 사고백서",
+        "중대재해 사고 사례를 모아 사고 예방에 참고하는 백서",
+        "중대재해 사고백서 우연히 일어난 사고는 없다"
+      ]
+    },
+    {
+      "record_id": "list3_46375",
+      "concat": "[TITLE] 건설업 기초안전보건교육 표준교재(러시아어)\n[SUMMARY] 건설현장 일용근로자 대상으로 실시하는 기초안전보건교육 표준교재(러시아어)",
+      "query": [
+        "건설 기초교육 러시아어",
+        "러시아어로 된 건설현장 일용근로자 기초안전보건교육 교재",
+        "건설업 기초안전보건교육 표준교재 러시아어"
+      ]
+    },
+    {
+      "record_id": "list3_46374",
+      "concat": "[TITLE] 건설업 기초안전보건교육 표준교재(카자흐어)\n[SUMMARY] 건설현장 일용근로자 대상으로 실시하는 기초안전보건교육 표준교재(카자흐어)",
+      "query": [
+        "건설 기초교육 카자흐어",
+        "카자흐어로 된 건설현장 일용근로자 기초안전보건교육 교재",
+        "건설업 기초안전보건교육 표준교재 카자흐어"
+      ]
+    },
+    {
+      "record_id": "list3_46397",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(우즈베키스탄어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "건설 안전수칙 우즈벡어",
+        "우즈베키스탄어로 된 외국인 근로자용 건설 현장 안전수칙 핸드북",
+        "건설업 기초안전보건교육 핸드북 우즈베키스탄어"
+      ]
+    },
+    {
+      "record_id": "list3_46373",
+      "concat": "[TITLE] 건설업 기초안전보건교육 표준교재(우즈베크어)\n[SUMMARY] 건설현장 일용근로자 대상으로 실시하는 기초안전보건교육 표준교재(우즈베크어)",
+      "query": [
+        "건설 기초교육 우즈벡어",
+        "우즈베크어로 된 건설현장 일용근로자 기초안전보건교육 교재",
+        "건설업 기초안전보건교육 표준교재 우즈베크어"
+      ]
+    },
+    {
+      "record_id": "list3_46398",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(러시아어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "건설 안전수칙 러시아어",
+        "러시아어로 된 외국인 근로자용 건설 현장 안전수칙 핸드북",
+        "건설업 기초안전보건교육 핸드북 러시아어"
+      ]
+    },
+    {
+      "record_id": "list3_46372",
+      "concat": "[TITLE] 건설업 기초안전보건교육 표준교재(영어)\n[SUMMARY] 건설현장 일용근로자 대상으로 실시하는 기초안전보건교육 표준교재(영어)",
+      "query": [
+        "건설 기초교육 영어",
+        "영어로 된 건설현장 일용근로자 기초안전보건교육 교재",
+        "건설업 기초안전보건교육 표준교재 영어"
+      ]
+    },
+    {
+      "record_id": "list3_46395",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(카자흐스탄어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "건설 안전수칙 카자흐어",
+        "카자흐스탄어로 된 외국인 근로자용 건설 현장 안전수칙 핸드북",
+        "건설업 기초안전보건교육 핸드북 카자흐스탄어"
+      ]
+    },
+    {
+      "record_id": "list3_46396",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(태국어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "건설 안전수칙 태국어",
+        "태국어로 된 외국인 근로자용 건설 현장 안전수칙 핸드북",
+        "건설업 기초안전보건교육 핸드북 태국어"
+      ]
+    },
+    {
+      "record_id": "list3_46392",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(중국어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "건설 안전수칙 중국어",
+        "중국어로 된 외국인 근로자용 건설 현장 안전수칙 핸드북",
+        "건설업 기초안전보건교육 핸드북 중국어"
+      ]
+    },
+    {
+      "record_id": "list3_46394",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(몽골어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "건설 안전수칙 몽골어",
+        "몽골어로 된 외국인 근로자용 건설 현장 안전수칙 핸드북",
+        "건설업 기초안전보건교육 핸드북 몽골어"
+      ]
+    },
+    {
+      "record_id": "list3_46190",
+      "concat": "[TITLE] 50인 미만 중소사업장을 위한 중대재해처벌법 바로 알기\n[SUMMARY] 50인 미만 중소사업장을 위한 중대재해처벌법 바로 알기",
+      "query": [
+        "중대재해처벌법 중소사업장",
+        "50인 미만 작은 사업장이 중대재해처벌법을 쉽게 이해할 수 있는 자료",
+        "50인 미만 중소사업장 중대재해처벌법 바로 알기"
+      ]
+    },
+    {
+      "record_id": "list3_46393",
+      "concat": "[TITLE] 건설업 기초안전보건교육 핸드북(영어)\n[SUMMARY] 건설 기초교육 이수 외국인 근로자를 대상으로 교육 이수 후 현장에서도 주요 사고유형별 핵심 안전수칙을 확인할 수 있도록 건설안전 핸드북(90*130) 제공",
+      "query": [
+        "건설 안전수칙 영어",
+        "영어로 된 외국인 근로자용 건설 현장 안전수칙 핸드북",
+        "건설업 기초안전보건교육 핸드북 영어"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 180,
+  "items": [
+    {
+      "record_id": "list3_34455",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(우즈베키스탄어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(우즈베키스탄어) 책자 입니다",
+      "query": [
+        "외국인 보호구 우즈벡어",
+        "우즈베키스탄 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 우즈베키스탄어"
+      ]
+    },
+    {
+      "record_id": "list3_34457",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(캄보디아어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(캄보디아어) 책자 입니다",
+      "query": [
+        "외국인 보호구 캄보디아어",
+        "캄보디아 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 캄보디아어"
+      ]
+    },
+    {
+      "record_id": "list3_34454",
+      "concat": "[TITLE] (태국어)외국인근로자를 위한 개인보호구\n[SUMMARY] 외국인근로자를 위한 개인보호구(태국어) 책자 입니다",
+      "query": [
+        "외국인 보호구 태국어",
+        "태국 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 태국어"
+      ]
+    },
+    {
+      "record_id": "list3_34456",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(베트남어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(베트남어) 책자 입니다",
+      "query": [
+        "외국인 보호구 베트남어",
+        "베트남 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 베트남어"
+      ]
+    },
+    {
+      "record_id": "list3_34458",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(미얀마어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(미얀마어) 책자 입니다",
+      "query": [
+        "외국인 보호구 미얀마어",
+        "미얀마 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 미얀마어"
+      ]
+    },
+    {
+      "record_id": "list3_34451",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(몽골어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(몽골어) 책자 입니다.",
+      "query": [
+        "외국인 보호구 몽골어",
+        "몽골 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 몽골어"
+      ]
+    },
+    {
+      "record_id": "list3_34459",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(네팔어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(네팔어) 책자 입니다",
+      "query": [
+        "외국인 보호구 네팔어",
+        "네팔 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 네팔어"
+      ]
+    },
+    {
+      "record_id": "list3_34452",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(파키스탄어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(파키스탄어) 책자 입니다",
+      "query": [
+        "외국인 보호구 파키스탄어",
+        "파키스탄 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 파키스탄어"
+      ]
+    },
+    {
+      "record_id": "list3_34450",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(인도네시아어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(인도네시아어) 책자 입니다.",
+      "query": [
+        "외국인 보호구 인도네시아어",
+        "인도네시아 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 인도네시아어"
+      ]
+    },
+    {
+      "record_id": "list3_34449",
+      "concat": "[TITLE] (중국어)외국인근로자를 위한 개인보호구\n[SUMMARY] 외국인근로자를 위한 개인보호구(중국어) 책자 입니다.",
+      "query": [
+        "외국인 보호구 중국어",
+        "중국 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 중국어"
+      ]
+    },
+    {
+      "record_id": "list3_34245",
+      "concat": "[TITLE] 10대 사망재해 다발작업 안전보건 매뉴얼\n[SUMMARY] 사망재해 다발작업(10대) 재해예방을 위한 기술자료",
+      "query": [
+        "사망사고 많은 작업",
+        "사망재해가 많이 나는 작업별 예방 방법 자료",
+        "10대 사망재해 다발작업 안전보건 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_34448",
+      "concat": "[TITLE] (방글라데시어)외국인근로자를 위한 개인보호구\n[SUMMARY] 외국인근로자를 위한 개인보호구(방글라데시어) 책자 입니다.",
+      "query": [
+        "외국인 보호구 방글라데시어",
+        "방글라데시 근로자가 볼 수 있는 보호구 안내 자료",
+        "외국인근로자 개인보호구 방글라데시어"
+      ]
+    },
+    {
+      "record_id": "list3_34270",
+      "concat": "[TITLE] 풍수해 대비 안전보건 매뉴얼\n[SUMMARY] 태풍과 집중호우에 대비하여 건설현장의 여건에 맞는 풍수해 예방대책을 수립하기 위한 안전보건 매뉴얼",
+      "query": [
+        "태풍 호우 건설현장",
+        "건설현장에서 태풍이나 집중호우에 대비하는 안전 자료",
+        "풍수해 대비 안전보건 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_33927",
+      "concat": "[TITLE] DMF를 포함하는 혼합 유기용제의 물리화학적 특성 및 물리적위험성 평가\n[SUMMARY] 2013년도 위험성연구팀에서 \"화학사고 예방 및 원인규명 위험성평가\"의 일환으로 수행한 \"위험성평가 보고서\"를 발간하여 공단본부 및 기술관련 부서에 배포함으로서 동종재해예방을 위한 자료로 활용하고자 함.",
+      "query": [
+        "DMF 유기용제 위험",
+        "DMF가 들어간 유기용제의 화재 위험이나 특성 자료",
+        "DMF 혼합 유기용제 물리화학적 특성 물리적위험성 평가"
+      ]
+    },
+    {
+      "record_id": "list3_33801",
+      "concat": "[TITLE] 안전보건공단과 함께하는 일하는 여성의 안전과 건강\n[SUMMARY] 일하는여성의안전과건강에 대한 사례, 직무스트레스 관리, 스트레칭 따라하기 등의 내용을 담음",
+      "query": [
+        "일하는 여성 건강",
+        "여성 근로자 안전 건강 사례와 스트레스 관리 자료",
+        "일하는 여성 안전 건강 안전보건공단"
+      ]
+    },
+    {
+      "record_id": "list3_33928",
+      "concat": "[TITLE] PVC 및 SAP 분진의 화재폭발 위험성평가\n[SUMMARY] 2013년도 위험성연구팀에서 \"화학사고 예방 및 원인규명 위험성평가\"의 일환으로 수행한 \"위험성평가 보고서\"를 발간하여 공단본부 및 기술관련 부서에 배포함으로서 동종재해예방을 위한 자료로 활용하고자 함.",
+      "query": [
+        "PVC 분진 폭발",
+        "PVC나 SAP 가루가 불붙거나 폭발할 위험 자료",
+        "PVC SAP 분진 화재폭발 위험성평가"
+      ]
+    },
+    {
+      "record_id": "list3_33929",
+      "concat": "[TITLE] HDPE 분말의 화재폭발 위험성평가\n[SUMMARY] 2013년도 위험성연구팀에서 \"화학사고 예방 및 원인규명 위험성평가\"의 일환으로 수행한 \"위험성평가 보고서\"를 발간하여 공단본부 및 기술관련 부서에 배포함으로서 동종재해예방을 위한 자료로 활용하고자 함.",
+      "query": [
+        "HDPE 분말 폭발",
+        "HDPE 가루의 화재나 폭발 위험 평가 자료",
+        "HDPE 분말 화재폭발 위험성평가"
+      ]
+    },
+    {
+      "record_id": "list3_33926",
+      "concat": "[TITLE] 분진의 화재폭발 위험성평가(분진폭발의 발생, 예방 및 완화-총설)\n[SUMMARY] 2013년도 위험성연구팀에서 \"화학사고 예방 및 원인규명 위험성평가\"의 일환으로 수행한 \"위험성평가 보고서\"를 발간하여 공단본부 및 기술관련 부서에 배포함으로서 동종재해예방을 위한 자료로 활용하고자 함.",
+      "query": [
+        "분진폭발 예방",
+        "분진이 폭발하는 원인과 예방 완화 방법 자료",
+        "분진 화재폭발 위험성평가 분진폭발 발생 예방 완화 총설"
+      ]
+    },
+    {
+      "record_id": "list3_33696",
+      "concat": "[TITLE] 모듈형 교재 - 재난 및 재해발생 시 대응관리\n[SUMMARY] 관리감독자를 대상으로 한 안전보건교육용 모듈형 교재의 하나로 재난 및 재해발생 시 대응관리에 대하여 다룸",
+      "query": [
+        "재난 대응 교육",
+        "재해가 발생했을 때 관리감독자가 어떻게 대응하는지 교육 자료",
+        "모듈형 교재 재난 재해발생 대응관리"
+      ]
+    },
+    {
+      "record_id": "list3_33319",
+      "concat": "[TITLE] 현장 작업자를 위한 기계설비작업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 기계설비작업 안전에 대한 내용",
+      "query": [
+        "기계설비 작업 안전",
+        "현장 작업자가 기계설비 작업할 때 보는 안전교육 자료",
+        "현장 작업자 기계설비작업 안전"
+      ]
+    },
+    {
+      "record_id": "list3_33320",
+      "concat": "[TITLE] 현장 작업자를 위한 전기설비작업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 전기설비작업 안전에 대한 내용",
+      "query": [
+        "전기설비 작업 안전",
+        "현장 작업자가 전기설비 작업할 때 필요한 안전교육 자료",
+        "현장 작업자 전기설비작업 안전"
+      ]
+    },
+    {
+      "record_id": "list3_32339",
+      "concat": "[TITLE] 임업 안전작업 길라잡이\n[SUMMARY] 2010년 산림조합중앙회와 공동 제작한 자료를 업데이트(CI. 표지, 일부 내용 등) 하여 제작 배포",
+      "query": [
+        "임업 안전작업",
+        "산림이나 임업 현장에서 안전하게 작업하는 방법 자료",
+        "임업 안전작업 길라잡이"
+      ]
+    },
+    {
+      "record_id": "list3_33323",
+      "concat": "[TITLE] 현장 작업자를 위한 건물 등의 종합관리사업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 건물 등의 종합관리사업 안전에 대한 내용",
+      "query": [
+        "건물관리 작업 안전",
+        "건물 관리 업무를 하는 작업자를 위한 안전교육 자료",
+        "현장 작업자 건물 등의 종합관리사업 안전"
+      ]
+    },
+    {
+      "record_id": "list3_32179",
+      "concat": "[TITLE] 운수창고통신업 새내기사업장 안전보건 가이드\n[SUMMARY] 운수창고통신업 새내기사업장 안전보건 가이드",
+      "query": [
+        "운수 창고 안전",
+        "운수 창고 통신업 새 사업장에서 참고할 안전보건 자료",
+        "운수창고통신업 새내기사업장 안전보건 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_32416",
+      "concat": "[TITLE] 건설공사 설계단계에서의 안전성 확보방안』세미나\n[SUMMARY] 설계단계의 안전성 확보를 위한 건설공사 참여자의 역할 및 제언(을지대학교 이명구교수) 설계단계의 안전성 확보를 위한 건설공사 발주자의 역할(한국수자원공사 이승훈차장) 시공사의 설계변경 요청 활성화 방안(현대건설(주) 임병천부장)",
+      "query": [
+        "건설 설계 안전",
+        "건설공사 설계 단계에서 안전성을 확보하는 방안 자료",
+        "건설공사 설계단계 안전성 확보방안 세미나"
+      ]
+    },
+    {
+      "record_id": "list3_33318",
+      "concat": "[TITLE] 현장 작업자를 위한 거푸집작업 안전\n[SUMMARY] 근로자 정기교육용 안전보건교육교재 시리즈의 하나로 거푸집작업(동바리작업 포함) 안전에 대한 내용",
+      "query": [
+        "거푸집 작업 안전",
+        "거푸집이나 동바리 작업할 때 필요한 현장 안전교육 자료",
+        "현장 작업자 거푸집작업 동바리작업 안전"
+      ]
+    },
+    {
+      "record_id": "list3_32170",
+      "concat": "[TITLE] 새내기 직장인을 위한 안전노트\n[SUMMARY] 새내기 직장인(신규 입사자)을 위한 안전교육 입문서",
+      "query": [
+        "신입사원 안전",
+        "새로 입사한 직장인이 처음 볼 만한 안전교육 자료",
+        "새내기 직장인 안전노트"
+      ]
+    },
+    {
+      "record_id": "list3_31823",
+      "concat": "[TITLE] 건설업 근로자 보건관리\n[SUMMARY] O 제목 : 건설업 보건관리 O 주요내용 - 건설업 보건관리 및 유해인자 관리현황 - 건설현장의 안전보건 주요 현안과 개선방안 - 일하는 사람들의 생명과 건강 - Asbestos(석면) - 요통재해예방(기초편) - 요통재해예방(인간공학)",
+      "query": [
+        "건설근로자 건강관리",
+        "건설현장 근로자의 보건관리와 유해요인 관리 자료",
+        "건설업 근로자 보건관리 유해인자 석면 요통재해예방"
+      ]
+    },
+    {
+      "record_id": "list3_31767",
+      "concat": "[TITLE] 기술기준 합리화 방안 연구(I)\n[SUMMARY] 현장의 산업안전보건 수요에 지속적으로 부응하는 기술기준으로 거듭날 수 있는 도약 방안 강구 연구보고서",
+      "query": [
+        "기술기준 개선",
+        "산업안전보건 기술기준을 현장에 맞게 고치는 연구 자료",
+        "기술기준 합리화 방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_31725",
+      "concat": "[TITLE] 독일의 생물학적 인자 및 유해작업관리에 관한 연구\n[SUMMARY] 생물학적 인자로 인한 산재의 예방과 안전조치를 취하기 위해 정부차원의 적절한 제도 및 정책수립을 돕기 위한 선진국인 독일의 제도에 대해 연구한 보고서",
+      "query": [
+        "독일 유해작업 관리",
+        "독일에서 생물학적 인자와 위험 작업을 관리하는 제도 자료",
+        "독일 생물학적 인자 유해작업관리 연구"
+      ]
+    }
+  ]
+}

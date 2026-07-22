@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 37,
+  "items": [
+    {
+      "record_id": "list1_45717",
+      "concat": "[TITLE] [관리자용] 인력운반 작업안전\n[SUMMARY] 위험기계·기구(인력운반) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "인력운반 안전",
+        "사람이 직접 물건을 옮길 때 관리자가 확인할 안전수칙을 찾고 있어요",
+        "관리자용 인력운반 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45716",
+      "concat": "[TITLE] [근로자용] 동력식 대차 작업안전\n[SUMMARY] 위험기계·기구(동력식 대차) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "동력식 대차 안전",
+        "근로자가 동력식 대차를 사용할 때 필요한 안전한 작업 방법을 알고 싶어요",
+        "근로자용 동력식 대차 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45718",
+      "concat": "[TITLE] [근로자용] 인력운반 작업안전\n[SUMMARY] 위험기계·기구(인력운반) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "인력운반 안전",
+        "근로자가 손이나 몸으로 물건을 나를 때 안전하게 작업하는 방법이 필요해요",
+        "근로자용 인력운반 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45715",
+      "concat": "[TITLE] [관리자용] 동력식 대차 작업안전\n[SUMMARY] 위험기계·기구(동력식 대차) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "동력식 대차 안전",
+        "동력식 대차 작업을 관리할 때 챙겨야 할 안전 기준 자료를 찾고 있어요",
+        "관리자용 동력식 대차 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45714",
+      "concat": "[TITLE] [근로자용] 식품제조용 혼합기 작업안전\n[SUMMARY] 위험기계·기구(식품제조용 혼합기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "식품 혼합기 안전",
+        "식품 제조 현장에서 혼합기를 안전하게 쓰는 방법을 찾고 있어요",
+        "근로자용 식품제조용 혼합기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45713",
+      "concat": "[TITLE] [관리자용] 식품제조용 혼합기 작업안전\n[SUMMARY] 위험기계·기구(식품제조용 혼합기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "식품 혼합기 안전",
+        "식품제조용 혼합기 작업을 관리할 때 필요한 안전수칙 자료가 필요해요",
+        "관리자용 식품제조용 혼합기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45711",
+      "concat": "[TITLE] [관리자용] 절단기 작업안전\n[SUMMARY] 위험기계·기구(절단기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "절단기 안전",
+        "절단기 작업을 관리할 때 참고할 안전한 작업 방법을 찾고 있어요",
+        "관리자용 절단기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45712",
+      "concat": "[TITLE] [근로자용] 절단기 작업안전\n[SUMMARY] 위험기계·기구(절단기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "절단기 안전",
+        "근로자가 절단기를 사용할 때 지켜야 할 안전수칙을 알고 싶어요",
+        "근로자용 절단기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45710",
+      "concat": "[TITLE] [근로자용] 사출성형기 작업안전\n[SUMMARY] 위험기계·기구(사출성형기) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "사출성형기 안전",
+        "사출성형기를 다루는 근로자가 볼 수 있는 안전 작업 자료를 찾고 있어요",
+        "근로자용 사출성형기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45708",
+      "concat": "[TITLE] [근로자용] 선반 작업안전\n[SUMMARY] 위험기계·기구(선반) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "선반 작업 안전",
+        "선반 기계를 사용하는 작업자가 지켜야 할 안전수칙이 필요해요",
+        "근로자용 선반 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45709",
+      "concat": "[TITLE] [관리자용] 사출성형기 작업안전\n[SUMMARY] 위험기계·기구(사출성형기) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "사출성형기 안전",
+        "사출성형기 작업을 관리할 때 참고할 안전자료를 찾고 있어요",
+        "관리자용 사출성형기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45707",
+      "concat": "[TITLE] [관리자용] 선반 작업안전\n[SUMMARY] 위험기계·기구(선반) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "선반 작업 안전",
+        "선반 작업 현장을 관리할 때 확인해야 할 안전수칙 자료가 필요해요",
+        "관리자용 선반 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45811",
+      "concat": "[TITLE] [근로자용] 트리클로로메탄 작업안전\n[SUMMARY] 화학물질(트리클로로메탄) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "트리클로로메탄 안전",
+        "근로자가 트리클로로메탄을 취급할 때 필요한 작업 안전수칙을 찾고 있어요",
+        "근로자용 트리클로로메탄 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45810",
+      "concat": "[TITLE] [관리자용] 트리클로로메탄 작업안전\n[SUMMARY] 화학물질(트리클로로메탄) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "트리클로로메탄 안전",
+        "트리클로로메탄 취급 작업을 관리할 때 참고할 안전자료가 필요해요",
+        "관리자용 트리클로로메탄 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45808",
+      "concat": "[TITLE] [관리자용] 포름알데히드 작업안전\n[SUMMARY] 화학물질(포름알데히드) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "포름알데히드 안전",
+        "포름알데히드 작업을 관리할 때 필요한 화학물질 안전수칙을 찾고 있어요",
+        "관리자용 포름알데히드 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45809",
+      "concat": "[TITLE] [근로자용] 포름알데히드 작업안전\n[SUMMARY] 화학물질(포름알데히드) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "포름알데히드 안전",
+        "근로자가 포름알데히드를 다룰 때 지켜야 할 작업 안전수칙이 필요해요",
+        "근로자용 포름알데히드 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45807",
+      "concat": "[TITLE] [근로자용] 납 작업안전\n[SUMMARY] 화학물질(납) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "납 작업 안전",
+        "근로자가 납을 취급하는 작업에서 지켜야 할 안전수칙을 찾고 있어요",
+        "근로자용 납 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45805",
+      "concat": "[TITLE] [근로자용] 카드뮴 작업안전\n[SUMMARY] 화학물질(카드뮴) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "카드뮴 안전",
+        "근로자가 카드뮴을 다룰 때 필요한 작업 안전 자료를 찾고 있어요",
+        "근로자용 카드뮴 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45804",
+      "concat": "[TITLE] [관리자용] 카드뮴 작업안전\n[SUMMARY] 화학물질(카드뮴) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "카드뮴 안전",
+        "카드뮴 취급 작업을 관리할 때 참고할 안전수칙 자료가 필요해요",
+        "관리자용 카드뮴 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45803",
+      "concat": "[TITLE] [근로자용] 6가 크롬 작업안전\n[SUMMARY] 화학물질(6가 크롬) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "6가 크롬 안전",
+        "근로자가 6가 크롬을 취급할 때 필요한 작업 안전수칙을 알고 싶어요",
+        "근로자용 6가 크롬 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45802",
+      "concat": "[TITLE] [관리자용] 6가 크롬 작업안전\n[SUMMARY] 화학물질(6가 크롬) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "6가 크롬 안전",
+        "6가 크롬 작업을 관리할 때 확인해야 할 화학물질 안전자료를 찾고 있어요",
+        "관리자용 6가 크롬 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45801",
+      "concat": "[TITLE] [근로자용] 트리클로로에틸렌 작업안전\n[SUMMARY] 화학물질(트리클로로에틸렌) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "트리클로로에틸렌 안전",
+        "근로자가 트리클로로에틸렌을 다룰 때 필요한 작업 안전수칙을 찾고 있어요",
+        "근로자용 트리클로로에틸렌 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45806",
+      "concat": "[TITLE] [관리자용] 납 작업안전\n[SUMMARY] 화학물질(납) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "납 작업 안전",
+        "납 취급 작업을 관리할 때 필요한 화학물질 안전수칙 자료가 필요해요",
+        "관리자용 납 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45693",
+      "concat": "[TITLE] [관리자용] 배합(혼합)기 작업안전\n[SUMMARY] 위험기계·기구[배합(혼합)기] 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "혼합기 안전",
+        "배합기나 혼합기 작업을 관리할 때 참고할 안전수칙을 찾고 있어요",
+        "관리자용 배합(혼합)기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45692",
+      "concat": "[TITLE] [근로자용] 고소작업대 작업안전\n[SUMMARY] 위험기계·기구(고소작업대) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "고소작업대 안전",
+        "근로자가 고소작업대를 사용할 때 지켜야 할 안전한 작업 방법이 필요해요",
+        "근로자용 고소작업대 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45800",
+      "concat": "[TITLE] [관리자용] 트리클로로에틸렌 작업안전\n[SUMMARY] 화학물질(트리클로로에틸렌) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "트리클로로에틸렌 안전",
+        "트리클로로에틸렌 작업을 관리할 때 참고할 안전자료를 찾고 있어요",
+        "관리자용 트리클로로에틸렌 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45694",
+      "concat": "[TITLE] [근로자용] 배합(혼합)기 작업안전\n[SUMMARY] 위험기계·기구[배합(혼합)기] 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "혼합기 안전",
+        "근로자가 배합기나 혼합기를 사용할 때 필요한 작업 안전수칙을 알고 싶어요",
+        "근로자용 배합(혼합)기 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45691",
+      "concat": "[TITLE] [관리자용] 고소작업대 작업안전\n[SUMMARY] 위험기계·기구(고소작업대) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "고소작업대 안전",
+        "고소작업대 작업을 관리할 때 확인해야 할 안전수칙 자료가 필요해요",
+        "관리자용 고소작업대 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45690",
+      "concat": "[TITLE] [근로자용] 가스 용접장치 작업안전\n[SUMMARY] 위험기계·기구(가스 용접장치) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "가스 용접 안전",
+        "근로자가 가스 용접장치를 사용할 때 필요한 안전한 작업 방법을 찾고 있어요",
+        "근로자용 가스 용접장치 작업안전 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_45689",
+      "concat": "[TITLE] [관리자용] 가스 용접장치 작업안전\n[SUMMARY] 위험기계·기구(가스 용접장치) 작업안전에 관한 관리자용 OPS 자료입니다.",
+      "query": [
+        "가스 용접 안전",
+        "가스 용접장치 작업을 관리할 때 참고할 안전수칙 자료가 필요해요",
+        "관리자용 가스 용접장치 작업안전 OPS"
+      ]
+    }
+  ]
+}

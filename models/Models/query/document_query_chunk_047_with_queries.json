@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 47,
+  "items": [
+    {
+      "record_id": "list1_43193",
+      "concat": "[TITLE] 산업재해예방을 위한 OPS (크레인)\n[SUMMARY] 산업재해예방을 위한 재해사례 및 예방대책 안내를 위한 OPS",
+      "query": [
+        "크레인 사고 예방",
+        "크레인 작업 중 산업재해 사례와 예방 방법을 찾고 싶다",
+        "산업재해예방 OPS 크레인 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_43191",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(전단기)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "전단기 사고 예방",
+        "전단기처럼 위험한 설비에서 자주 나는 사고를 막는 방법",
+        "사고다발 위험 설비 Key message 전단기"
+      ]
+    },
+    {
+      "record_id": "list1_43194",
+      "concat": "[TITLE] 산업재해예방을 위한 OPS (리프트)\n[SUMMARY] 산업재해예방을 위한 재해사례 및 예방대책 안내를 위한 OPS",
+      "query": [
+        "리프트 사고 예방",
+        "리프트 작업 중 발생하는 사고 사례와 예방대책을 찾는다",
+        "산업재해예방 OPS 리프트 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_43192",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(산업용로봇)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "산업용로봇 사고 예방",
+        "산업용 로봇 설비에서 자주 발생하는 위험과 안전수칙",
+        "사고다발 위험 설비 Key message 산업용로봇"
+      ]
+    },
+    {
+      "record_id": "list1_43189",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(고소작업대)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "고소작업대 사고 예방",
+        "고소작업대 작업 중 자주 나는 사고와 주의할 점",
+        "사고다발 위험 설비 Key message 고소작업대"
+      ]
+    },
+    {
+      "record_id": "list1_43190",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(프레스)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "프레스 사고 예방",
+        "프레스 설비에서 자주 발생하는 사고를 예방하는 방법",
+        "사고다발 위험 설비 Key message 프레스"
+      ]
+    },
+    {
+      "record_id": "list1_43275",
+      "concat": "[TITLE] 열사병 폭염 예방 3대 기본수칙 이행가이드(OPS)_2021\n[SUMMARY] 열사병 예방 3대 기본수칙 이행가이드(OPS)_2021",
+      "query": [
+        "폭염 열사병 예방",
+        "더운 날 야외 작업할 때 열사병을 막기 위한 기본수칙",
+        "열사병 폭염 예방 3대 기본수칙 이행가이드 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43188",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(이동식크레인)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "이동식크레인 사고 예방",
+        "이동식크레인 작업 중 자주 발생하는 사고와 안전관리 방법",
+        "사고다발 위험 설비 Key message 이동식크레인"
+      ]
+    },
+    {
+      "record_id": "list1_43261",
+      "concat": "[TITLE] 사업장 안내방송 가이드 OPS\n[SUMMARY] 사업장 안내방송 시 활용할 수 있는 대본입니다. - 필수보호구 착용 안내 / 충돌재해 예방 / 질식재해 예방(공통) - 추락재해 예방(건설업) / 끼임재해 예방(제조업) - 코로나19 예방(환기·마스크) / 근골격계질환 예방(스트레칭) **사업장 환경에 맞게 편집하여 활용하실 수 있으며, '음원'으로 검색하시면 안내방송 음원파일도 다운로드 가능합니다**",
+      "query": [
+        "사업장 안내방송",
+        "공장에서 보호구 착용이나 사고 예방 안내 방송 대본을 찾고 있다",
+        "사업장 안내방송 가이드 OPS 필수보호구 충돌 질식 추락 끼임 코로나19 근골격계질환"
+      ]
+    },
+    {
+      "record_id": "list1_43243",
+      "concat": "[TITLE] 2021 안전보건자료 활용가이드 OPS\n[SUMMARY] 한 장으로 정리한 안전보건 활용가이드 OPS입니다. <안전보건자료를 만나는 6가지 방법> 1. 홈페이지(안전보건자료실, 안전보건 e-Book) 2. 스마트폰 앱(위기탈출 안전보건) 3. 미디어 현장배송 서비스 http://media.kosha.or.kr/main 4. 유튜브(안전보건공단안젤이) https://www.youtube.com/user/koshamovie 5. VR전용관 https://360vr.kosha.or.kr/main 6. 가까운 일선기관 방문",
+      "query": [
+        "안전보건 자료 찾기",
+        "안전보건 자료를 어디서 받을 수 있는지 안내하는 자료",
+        "안전보건자료 활용가이드 OPS 홈페이지 스마트폰 앱 미디어 현장배송 유튜브 VR 일선기관"
+      ]
+    },
+    {
+      "record_id": "list1_43267",
+      "concat": "[TITLE] [Quick Message] 기계설비 점검, 수리 중 끼임사고 연속발생\n[SUMMARY] 최근 기계설비 점검, 수리 작업 중 끼임 사망사고가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "기계 끼임사고 예방",
+        "기계설비를 점검하거나 수리하다 끼이는 사고를 막는 방법",
+        "Quick Message 기계설비 점검 수리 끼임사고 연속발생"
+      ]
+    },
+    {
+      "record_id": "list1_43126",
+      "concat": "[TITLE] 차량계 건설기계 작업 전 안전점검 OPS\n[SUMMARY] 차량계 건설기계 작업 전 안전점검 - 내용: 최근 덤프트럭, 굴착기 등 차량계 건설기계*가 넘어지면서 운전자가 사망, 이러한 안타까운 사고 예방을 위해 작업 전 안전점검이 중요합니다.",
+      "query": [
+        "건설기계 안전점검",
+        "덤프트럭이나 굴착기 작업 전에 확인해야 할 안전점검 사항",
+        "차량계 건설기계 작업 전 안전점검 OPS 덤프트럭 굴착기"
+      ]
+    },
+    {
+      "record_id": "list1_43082",
+      "concat": "[TITLE] [Quick Message] 벌목작업 중 벌도목에 의한 깔림, 충돌 재해\n[SUMMARY] 최근 벌목작업에서 벌도목에 깔리거나 부딪히는 사망사고가 연속으로 발생함('21.3.22. 벌도목에 부딪혀 사망, '21.3.19. 벌도목에 깔려 사망)에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "벌목 사고 예방",
+        "나무를 베는 작업 중 깔리거나 부딪히는 사고를 막는 방법",
+        "Quick Message 벌목작업 벌도목 깔림 충돌 재해"
+      ]
+    },
+    {
+      "record_id": "list1_43038",
+      "concat": "[TITLE] 산재발생 보고 제도(산업재해조사표) 안내 OPS\n[SUMMARY] 산업재해조사표 작성·제출 안내 ** 산업재해조사표 작성예시(업종별, 재해종류별 등)는 아래에서 확인 가능합니다** 고용노동부 홈페이지(www.moel.go.kr > 정책자료 > 정책자료실(산업재해조사표 검색)",
+      "query": [
+        "산재 보고 방법",
+        "산업재해가 발생했을 때 산업재해조사표를 어떻게 작성하고 제출하는지",
+        "산재발생 보고 제도 산업재해조사표 안내 OPS 작성 제출"
+      ]
+    },
+    {
+      "record_id": "list1_43045",
+      "concat": "[TITLE] 직장 내 괴롭힘으로 인한 건강장해 예방대책(OPS)\n[SUMMARY] 직장 내 괴롭힘으로 인한 건강장해 예방대책 OPS 입니다. - 직장 내 괴롭힘 개요 - 직장 내 괴롭힘이 개인 및 조직에 미치는 영향 - 직장 내 괴롭힘 사건처리방법 - 직장 내 괴롭힘 예방, 관리",
+      "query": [
+        "직장 괴롭힘 예방",
+        "직장 내 괴롭힘 때문에 생기는 건강 문제와 대응 방법",
+        "직장 내 괴롭힘 건강장해 예방대책 OPS 사건처리 예방 관리"
+      ]
+    },
+    {
+      "record_id": "list1_43053",
+      "concat": "[TITLE] [Quick Message] 건설현장 우레탄 폼 캔 단열작업 화재사고 발생\n[SUMMARY] 최근 건축물의 단열, 보온작업에 우레탄 폼 캔 사용과정에서 화재사고가 연이어 발생하고 있으나 작업현장에서는 우레탄 폼 캔 용기의 화재, 폭발 위험성을 잘 모르고 있는 실정입니다. 이에, 안전작업방법 및 관련 콘텐츠 활용 링크를 안내해 드립니다.",
+      "query": [
+        "우레탄폼 화재",
+        "건설현장에서 우레탄 폼 캔을 쓰다가 화재나 폭발을 막는 방법",
+        "Quick Message 건설현장 우레탄 폼 캔 단열작업 화재사고"
+      ]
+    },
+    {
+      "record_id": "list1_43027",
+      "concat": "[TITLE] 고독성 TOP10 화학물질 관리요령 OPS\n[SUMMARY] <고독성 TOP10 화학물질 관리요령> 급성독성, 직업성 암 등 심각한 건강장해를 일으키는 화학물질 취급시 이렇게 관리하세요! 1. 메틸알코올 2. 디메틸포름아미드 3. N,N-디메틸아세트아미드 4. 퍼클로로에틸렌 5. 아크릴로니트릴 6. 트리클로로에틸렌 7. 6가크롬화합물 8. 카드뮴 9. 납 10. 포름알데히드 ※ MSDS 필수정보(CHEM-i) 확인 → https://msds.kosha.or.kr/MSDSInfo/",
+      "query": [
+        "독성 화학물질 관리",
+        "건강에 해로운 화학물질을 취급할 때 안전하게 관리하는 방법",
+        "고독성 TOP10 화학물질 관리요령 OPS MSDS CHEM-i"
+      ]
+    },
+    {
+      "record_id": "list1_43057",
+      "concat": "[TITLE] 화학물질 노출정보 알리미 사업 OPS\n[SUMMARY] ※ 화학물질 노출정보 알리미 사업이란? 근로자가 어떤 유해위험 화학물질에 노출되고 있는지 공단에서 무료로 제공하는 시료채취기를 사용하여 본인이 직접 측정하고 그 결과를 안내받을 수 있습니다.",
+      "query": [
+        "화학물질 노출 측정",
+        "근로자가 어떤 유해 화학물질에 노출되는지 확인하는 무료 측정 사업",
+        "화학물질 노출정보 알리미 사업 OPS 시료채취기 측정 결과 안내"
+      ]
+    },
+    {
+      "record_id": "list1_43002",
+      "concat": "[TITLE] 안전보건교육 과정 개설 안내 OPS\n[SUMMARY] 코로나19 장기화에 따라 사업장의 안전보건활동을 지원하기 위하여 인터넷 교육센터에 개설한 안전보건교육 과정을 안내",
+      "query": [
+        "안전보건교육 인터넷",
+        "사업장에서 받을 수 있는 온라인 안전보건교육 과정을 찾고 있다",
+        "안전보건교육 과정 개설 안내 OPS 인터넷 교육센터"
+      ]
+    },
+    {
+      "record_id": "list1_42999",
+      "concat": "[TITLE] 2021 추락방지용 안전시설(건설업 클린) 지원사업 안내 OPS\n[SUMMARY] 2021 추락방지용 안전시설(건설업 클린) 지원사업 안내",
+      "query": [
+        "추락방지 지원사업",
+        "건설현장 추락방지 안전시설 설치비 지원을 받을 수 있는 사업",
+        "추락방지용 안전시설 건설업 클린 지원사업 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_42988",
+      "concat": "[TITLE] 코로나19 감염증 예방을 위해 꼭! 기억해야 할 사업장 내 감염예방 수칙 OPS\n[SUMMARY] 코로나19 감염증 예방을 위한 사업장 내 감염예방 수칙",
+      "query": [
+        "사업장 코로나 예방",
+        "회사에서 코로나19 감염을 막기 위해 지켜야 할 예방수칙",
+        "코로나19 감염증 예방 사업장 내 감염예방 수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_42956",
+      "concat": "[TITLE] 산재예방시설 융자금 지원사업 안내(OPS)\n[SUMMARY] 2021년도 산재예방시설 융자금 지원사업 안내 OPS 미디어 자료 - 지원대상, 지원설비, 추가 안내사항(보조지원사업) 등",
+      "query": [
+        "산재예방 융자금",
+        "산재예방시설을 설치할 때 융자금 지원을 받는 방법",
+        "산재예방시설 융자금 지원사업 안내 OPS 지원대상 지원설비 보조지원사업"
+      ]
+    },
+    {
+      "record_id": "list1_42974",
+      "concat": "[TITLE] 작업 전 안전점검(크레인) - 자율안전점검표 포함\n[SUMMARY] 작업 전 안전점검(크레인) - 재해사례 및 자율안전 점검표",
+      "query": [
+        "크레인 안전점검",
+        "크레인 작업 전에 점검해야 할 사항과 사고 사례",
+        "작업 전 안전점검 크레인 자율안전점검표 재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_42975",
+      "concat": "[TITLE] 작업 전 안전점검(프레스) - 자율안전점검표 포함\n[SUMMARY] 작업 전 안전점검(프레스) - 재해사례 및 자율안전 점검표",
+      "query": [
+        "프레스 안전점검",
+        "프레스 작업 전에 확인해야 할 안전점검표와 사고 사례",
+        "작업 전 안전점검 프레스 자율안전점검표 재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_43210",
+      "concat": "[TITLE] 지붕공사 중 안전대 부착설비 안전사용 안내 OPS\n[SUMMARY] 지붕작업 등 공사 시 추락방지시설(안전블록 세트)의 안전한 사용을 위한 안전대 부착설비의 안전사용 안내",
+      "query": [
+        "지붕공사 안전대",
+        "지붕 작업에서 안전대를 어디에 걸고 어떻게 써야 하는지",
+        "지붕공사 안전대 부착설비 안전사용 안내 OPS 추락방지시설 안전블록 세트"
+      ]
+    },
+    {
+      "record_id": "list1_43180",
+      "concat": "[TITLE] 고소작업대(차량탑재형) 안전난간 해체 금지 OPS\n[SUMMARY] - 중대재해 발생현황 - 안전난간 미설치 및 불법개조 사례 - 고소작업대(차량탭재형) 안전작업 점검표",
+      "query": [
+        "고소작업대 안전난간",
+        "차량탑재형 고소작업대에서 안전난간을 해체하면 안 되는 이유",
+        "고소작업대 차량탑재형 안전난간 해체 금지 OPS 중대재해 불법개조 안전작업 점검표"
+      ]
+    },
+    {
+      "record_id": "list1_43179",
+      "concat": "[TITLE] 고소작업대(시저형) 설치 및 사용 가이드 OPS\n[SUMMARY] - 고소작업대 사용 시 보호구 착용 철저 - 과상승방지장치 설치, 사용 - 제어장치 연동구조 설치 및 사용 - 고소작업대(시저형) 안전작업 점검표",
+      "query": [
+        "시저형 고소작업대",
+        "시저형 고소작업대를 설치하고 사용할 때 지켜야 할 안전수칙",
+        "고소작업대 시저형 설치 사용 가이드 OPS 보호구 과상승방지장치 제어장치 안전작업 점검표"
+      ]
+    },
+    {
+      "record_id": "list1_43201",
+      "concat": "[TITLE] 폐기물처리업 사망사고 예방대책 OPS\n[SUMMARY] 폐기물처리업 사망사고 예방을 위한 OPS",
+      "query": [
+        "폐기물처리업 사망사고",
+        "폐기물 처리 작업 중 사망사고를 예방하는 대책 자료",
+        "폐기물처리업 사망사고 예방대책 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43215",
+      "concat": "[TITLE] [Quick Message] 건설현장 비계 추락사고\n[SUMMARY] 최근 건설현장 비계에서 추락으로 인한 사망사고가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "비계 추락사고",
+        "건설현장 비계에서 떨어지는 사고를 막는 안전작업 방법",
+        "Quick Message 건설현장 비계 추락사고"
+      ]
+    },
+    {
+      "record_id": "list1_43167",
+      "concat": "[TITLE] [Quick Message] 차량계 건설기계 깔림/끼임사고\n[SUMMARY] 최근 건설현장에서 차량계 건설기계에 의한 사망사고가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "건설기계 깔림 끼임",
+        "건설현장에서 굴착기나 덤프트럭에 깔리거나 끼이는 사고를 막는 방법",
+        "Quick Message 차량계 건설기계 깔림 끼임사고"
+      ]
+    }
+  ]
+}

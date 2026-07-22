@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 70,
+  "items": [
+    {
+      "record_id": "list1_38990",
+      "concat": "[TITLE] 폐수집수조내 인화성가스 폭발_중대재해사례\n[SUMMARY] 안전보건OPL(업종), 폐수집수조내 인화성가스 폭발_중대재해사례",
+      "query": [
+        "폐수조 가스 폭발",
+        "폐수 집수조 안에서 인화성 가스가 폭발한 사고 사례를 찾고 싶다",
+        "폐수집수조 인화성가스 폭발 중대재해사례 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_38992",
+      "concat": "[TITLE] 사일로 보수작업중 분진 폭발_중대재해사례\n[SUMMARY] 사일로 보수작업중 분진 폭발 안전보건OPL(업종)",
+      "query": [
+        "사일로 분진 폭발",
+        "사일로를 보수하다가 먼지 때문에 폭발한 사고 사례 자료가 필요하다",
+        "사일로 보수작업 분진 폭발 중대재해사례 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_38991",
+      "concat": "[TITLE] 의약원료 투입작업중 화재 폭발_중대재해사례\n[SUMMARY] 의약원료 투입작업중 화재 폭발_중대재해사례-안전보건OPL(업종)",
+      "query": [
+        "의약 원료 화재 폭발",
+        "의약품 원료를 넣는 작업 중 화재나 폭발이 난 사례를 찾고 있다",
+        "의약원료 투입작업 화재 폭발 중대재해사례 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39017",
+      "concat": "[TITLE] 도크내 선박건조 작업 시 안전보건관리\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "선박 건조 안전",
+        "도크에서 배를 만들 때 지켜야 하는 안전관리 자료가 필요하다",
+        "도크 선박건조 작업 안전보건관리 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39015",
+      "concat": "[TITLE] 수목 등주 작업시 안전관리\n[SUMMARY] 안전보건OPL(직종) : 수목 등주 작업시 안전관리",
+      "query": [
+        "나무 오르기 안전",
+        "나무에 올라가서 작업할 때 사고를 막는 안전관리 자료를 찾고 있다",
+        "수목 등주 작업 안전관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39019",
+      "concat": "[TITLE] 제과제빵 사업장의 안전관리\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "제과제빵 안전",
+        "빵이나 과자를 만드는 사업장에서 필요한 안전관리 자료가 필요하다",
+        "제과제빵 사업장 안전관리 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39016",
+      "concat": "[TITLE] 선박 내부에서 도장작업 시 안전관리\n[SUMMARY] 안전보건OPL(업종) - 선박 내부에서 도장작업 시 안전관리",
+      "query": [
+        "선박 도장 안전",
+        "배 안에서 페인트칠 작업을 할 때 필요한 안전관리 자료를 찾고 있다",
+        "선박 내부 도장작업 안전관리 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39020",
+      "concat": "[TITLE] 구제역 등 방역작업자의 건강관리\n[SUMMARY] 안전보건OPL(직종), 구제역 등 방역작업자의 건강관리",
+      "query": [
+        "방역작업 건강관리",
+        "구제역 같은 방역 작업을 하는 사람의 건강관리 자료가 필요하다",
+        "구제역 방역작업자 건강관리 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39021",
+      "concat": "[TITLE] 잠수작업자의 잠수용 장비 점검 관리요령-공기압축기\n[SUMMARY] 잠수작업자의 잠수용 장비 점검 관리요령-공기압축기 안전보건OPL(직종)",
+      "query": [
+        "잠수 장비 점검",
+        "잠수 작업자가 쓰는 공기압축기 같은 장비 점검 방법을 찾고 있다",
+        "잠수작업자 잠수용 장비 점검 관리요령 공기압축기 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39022",
+      "concat": "[TITLE] 체인톱의 사용 작업 안전\n[SUMMARY] 안전보건OPL(직종) 체인톱의 사용 작업 안전",
+      "query": [
+        "체인톱 작업 안전",
+        "체인톱을 사용할 때 사고를 막는 작업 안전 자료가 필요하다",
+        "체인톱 사용 작업 안전 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39026",
+      "concat": "[TITLE] 섬유 재단기 사용 작업시 안전\n[SUMMARY] 섬유 재단기 사용 작업시 안전에 관한 안전보건OPL",
+      "query": [
+        "섬유 재단기 안전",
+        "섬유 재단기를 사용할 때 손이나 몸이 다치지 않게 하는 안전수칙을 찾고 있다",
+        "섬유 재단기 사용 작업 안전 안전보건OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39023",
+      "concat": "[TITLE] 동력식 수동대패 작업 안전\n[SUMMARY] 안전보건OPL(직종)",
+      "query": [
+        "수동대패 작업 안전",
+        "동력식 수동대패를 사용할 때 필요한 작업 안전 자료가 필요하다",
+        "동력식 수동대패 작업 안전 안전보건OPL 직종"
+      ]
+    },
+    {
+      "record_id": "list1_39025",
+      "concat": "[TITLE] 육절기(슬라이서) 사용 작업 시 안전\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "육절기 안전",
+        "고기 슬라이서를 사용할 때 지켜야 할 안전수칙 자료를 찾고 있다",
+        "육절기 슬라이서 사용 작업 안전 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39024",
+      "concat": "[TITLE] 차량경정비(2주식 리프트) 사용 작업시 안전\n[SUMMARY] 안전보건OPL(업종) 차량경정비(2주식 리프트) 사용 작업시 안전",
+      "query": [
+        "차량 리프트 안전",
+        "자동차 경정비에서 2주식 리프트를 쓸 때 안전하게 작업하는 방법을 찾고 있다",
+        "차량경정비 2주식 리프트 사용 작업 안전 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39027",
+      "concat": "[TITLE] 목재가공용 루터기 기계 사용 작업 시 안전\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "목재 루터기 안전",
+        "목재 가공용 루터기 기계를 사용할 때 필요한 안전수칙을 찾고 있다",
+        "목재가공용 루터기 기계 사용 작업 안전 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39476",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 단순노무자 - 건설업 - 비계 위에서의 작업\n[SUMMARY] [외국인 노동자용 OPL] 단순노무자 - 건설업 - 비계 위에서의 작업(16개 언어)",
+      "query": [
+        "건설 비계 작업",
+        "외국인 단순노무자가 건설현장 비계 위에서 일할 때 보는 안전자료가 필요하다",
+        "외국인 노동자용 OPL 단순노무자 건설업 비계 위 작업 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39028",
+      "concat": "[TITLE] 목재 파쇄기 사용 작업 시 안전\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "목재 파쇄기 안전",
+        "목재 파쇄기를 사용할 때 사고를 막는 작업 안전 자료가 필요하다",
+        "목재 파쇄기 사용 작업 안전 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39030",
+      "concat": "[TITLE] 고온 염색기계 사용 작업 시 안전\n[SUMMARY] 안전보건OPL(업종)",
+      "query": [
+        "염색기계 안전",
+        "고온 염색기계를 사용할 때 화상이나 사고를 막는 안전자료를 찾고 있다",
+        "고온 염색기계 사용 작업 안전 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39029",
+      "concat": "[TITLE] 골절기의 사용 작업시 안전\n[SUMMARY] 골절기의 사용 작업시 안전 : 안전보건OPL(업종)",
+      "query": [
+        "골절기 작업 안전",
+        "골절기를 사용할 때 다치지 않게 작업하는 안전수칙이 필요하다",
+        "골절기 사용 작업 안전 안전보건OPL 업종"
+      ]
+    },
+    {
+      "record_id": "list1_39475",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 동력식 수동대패 사용 시 작업 안전\n[SUMMARY] [외국인 노동자용 OPL] 동력식 수동대패 사용 시 작업 안전(16개 언어)",
+      "query": [
+        "수동대패 외국인 안전",
+        "외국인 노동자가 동력식 수동대패를 사용할 때 볼 수 있는 안전자료가 필요하다",
+        "외국인 노동자용 OPL 동력식 수동대패 사용 작업 안전 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39473",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 섬유재단기 사용 시 작업 안전\n[SUMMARY] [외국인 노동자용 OPL] 섬유재단기 사용 시 작업 안전(16개 언어)",
+      "query": [
+        "섬유재단기 외국인 안전",
+        "외국인 노동자가 섬유재단기를 사용할 때 보는 작업 안전 자료를 찾고 있다",
+        "외국인 노동자용 OPL 섬유재단기 사용 작업 안전 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39472",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 단순노무자 - 제조업 - 집수조 수리작업 중 황화수소에 중독\n[SUMMARY] [외국인 노동자용 OPL] 단순노무자 - 제조업 - 집수조 수리작업 중 황화수소에 중독(16개 언어)",
+      "query": [
+        "집수조 황화수소 중독",
+        "제조업 단순노무자가 집수조 수리 중 황화수소에 중독되는 사고 예방 자료가 필요하다",
+        "외국인 노동자용 OPL 단순노무자 제조업 집수조 수리작업 황화수소 중독 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39474",
+      "concat": "[TITLE] [외국인 노동자용 OPL] 종이재단기 사용 시 작업 안전\n[SUMMARY] [외국인 노동자용 OPL] 종이재단기 사용 시 작업 안전(16개 언어)",
+      "query": [
+        "종이재단기 안전",
+        "외국인 노동자가 종이재단기를 사용할 때 지켜야 하는 작업 안전 자료를 찾고 있다",
+        "외국인 노동자용 OPL 종이재단기 사용 작업 안전 16개 언어"
+      ]
+    },
+    {
+      "record_id": "list1_39408",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]그냥 들어가면 바로 사망.즉사!(오폐수처리장, 맨홀작업)\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL",
+      "query": [
+        "맨홀 질식 사고",
+        "오폐수처리장이나 맨홀에 그냥 들어갔다가 질식하는 사고 예방 자료가 필요하다",
+        "산재 사고사망 절반 줄이기 오폐수처리장 맨홀작업 질식 즉사 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39407",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]지게차 불량작업 추방\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL",
+      "query": [
+        "지게차 위험 작업",
+        "지게차를 잘못 사용하는 불량작업을 줄이기 위한 안전자료를 찾고 있다",
+        "산재 사고사망 절반 줄이기 지게차 불량작업 추방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39412",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]지자체 발주공사, 이것만은 반드시 확인!\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL",
+      "query": [
+        "지자체 공사 안전",
+        "지자체가 발주한 공사에서 꼭 확인해야 할 안전사항 자료가 필요하다",
+        "산재 사고사망 절반 줄이기 지자체 발주공사 확인 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39413",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]생활폐기물 수집 운반작업, 이것만은 반드시 확인!\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL",
+      "query": [
+        "생활폐기물 수거 안전",
+        "생활폐기물 수집 운반 작업에서 꼭 확인해야 하는 안전수칙 자료를 찾고 있다",
+        "산재 사고사망 절반 줄이기 생활폐기물 수집 운반작업 확인 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39409",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]그냥 들어가면 바로 사망. 즉사!(양돈농장 분료처리 작업)\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL, 양돈농장 분료처리 작업",
+      "query": [
+        "양돈농장 질식 사고",
+        "양돈농장 분뇨 처리 작업 중 질식 사고를 막는 자료가 필요하다",
+        "산재 사고사망 절반 줄이기 양돈농장 분료처리 작업 질식 즉사 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39411",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]벌목 전지작업, 이것만은 반드시 확인!\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL",
+      "query": [
+        "벌목 전지 안전",
+        "벌목이나 나무 전지 작업 전에 꼭 확인해야 하는 안전수칙을 찾고 있다",
+        "산재 사고사망 절반 줄이기 벌목 전지작업 확인 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_39414",
+      "concat": "[TITLE] [산재 사고사망 절반 줄이기]노후 하수관로 개보수작업, 이것만은 반드시 확인!\n[SUMMARY] 산재 사고사망 절반 줄이기 OPL",
+      "query": [
+        "하수관로 보수 안전",
+        "오래된 하수관로를 고치거나 보수할 때 확인해야 할 안전자료가 필요하다",
+        "산재 사고사망 절반 줄이기 노후 하수관로 개보수작업 확인 OPL"
+      ]
+    }
+  ]
+}

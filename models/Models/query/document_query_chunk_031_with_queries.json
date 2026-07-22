@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 31,
+  "items": [
+    {
+      "record_id": "list1_46477",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(사출성형기)\n[SUMMARY] 사고다발 위험설비 Key Message(사출성형기) - Message 내용 : 안전문 열린 상태로 작업 금지",
+      "query": [
+        "사출성형기 안전문",
+        "사출성형기 작업할 때 안전문을 열어두면 안 되는 내용",
+        "사고다발 위험설비 Key Message 사출성형기 안전문 작업 금지"
+      ]
+    },
+    {
+      "record_id": "list1_46473",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(고소작업대)\n[SUMMARY] 사고다발 위험설비 Key Message(고소작업대) - Message 내용 : 안전난간 해체 금지",
+      "query": [
+        "고소작업대 안전난간",
+        "고소작업대에서 안전난간을 해체하면 안 된다는 안전자료",
+        "사고다발 위험설비 Key Message 고소작업대 안전난간 해체 금지"
+      ]
+    },
+    {
+      "record_id": "list1_46475",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(컨베이어1)\n[SUMMARY] 사고다발 위험설비 Key Message(컨베이어1) - Message 내용 : 돌발정지 시 전원 차단",
+      "query": [
+        "컨베이어 전원 차단",
+        "컨베이어가 갑자기 멈췄을 때 전원을 끄는 안전수칙",
+        "사고다발 위험설비 Key Message 컨베이어 돌발정지 전원 차단"
+      ]
+    },
+    {
+      "record_id": "list1_46474",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(이동식크레인)\n[SUMMARY] 사고다발 위험설비 Key Message(이동식크레인) - Message 내용 : 불법탑승설비 부착 금지",
+      "query": [
+        "이동식크레인 탑승 금지",
+        "이동식 크레인에 사람 태우는 장치를 붙이면 안 된다는 내용",
+        "사고다발 위험설비 Key Message 이동식크레인 불법탑승설비 부착 금지"
+      ]
+    },
+    {
+      "record_id": "list1_46472",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(프레스)\n[SUMMARY] 사고다발 위험설비 Key Message(프레스) - Message 내용 : 금형교체 및 조정 작업 시 안전블록 사용",
+      "query": [
+        "프레스 안전블록",
+        "프레스 금형을 바꾸거나 조정할 때 안전블록을 쓰는 방법",
+        "사고다발 위험설비 Key Message 프레스 금형교체 조정 작업 안전블록 사용"
+      ]
+    },
+    {
+      "record_id": "list1_46471",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(산업용로봇)\n[SUMMARY] 사고다발 위험설비 Key Message(산업용로봇) - Message 내용 : 수리·점검 시 전원 차단",
+      "query": [
+        "산업용로봇 전원 차단",
+        "산업용 로봇을 수리하거나 점검할 때 전원을 꺼야 하는 안전수칙",
+        "사고다발 위험설비 Key Message 산업용로봇 수리 점검 전원 차단"
+      ]
+    },
+    {
+      "record_id": "list1_46699",
+      "concat": "[TITLE] 2024년 동절기 건설현장 핵심안전수칙_OPS\n[SUMMARY] 동절기 건설현장 핵심안전수칙, 동절기 위험요인별 핵심점검사항 등",
+      "query": [
+        "건설현장 겨울 안전",
+        "겨울철 건설현장에서 점검해야 할 위험요인과 안전수칙",
+        "동절기 건설현장 핵심안전수칙 OPS 위험요인 핵심점검사항"
+      ]
+    },
+    {
+      "record_id": "list1_46766",
+      "concat": "[TITLE] 한랭질환 예방 퀵가이드\n[SUMMARY] 한랭질환 예방 퀵가이드",
+      "query": [
+        "한랭질환 예방",
+        "추운 날씨에 일할 때 한랭질환을 막는 간단한 가이드",
+        "한랭질환 예방 퀵가이드"
+      ]
+    },
+    {
+      "record_id": "list1_46811",
+      "concat": "[TITLE] 2024년 한랭질환 예방가이드 OPS_외국어버전\n[SUMMARY] 2024년 한랭질환 예방가이드 OPS_외국어버전",
+      "query": [
+        "한랭질환 외국어",
+        "외국인 근로자도 볼 수 있는 한랭질환 예방 안내자료",
+        "한랭질환 예방가이드 OPS 외국어버전"
+      ]
+    },
+    {
+      "record_id": "list1_46723",
+      "concat": "[TITLE] 키메세지(11월_이삿짐 운반용 리프트 재해예방)\n[SUMMARY] - 이삿짐 운반용 리프트 재해 예방 대책 안내 - 이삿짐 운반용 리프트 재해 예방 관련 콘텐츠 안내 (콘텐츠 바로가기 링크 탑재)",
+      "query": [
+        "이삿짐 리프트 사고",
+        "이삿짐 운반용 리프트 작업 중 사고를 예방하는 안내자료",
+        "키메세지 이삿짐 운반용 리프트 재해예방 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46820",
+      "concat": "[TITLE] 키메세지(12월_동절기 재해예방)\n[SUMMARY] 한랭질환, 방동제 중독, 질식, 무너짐 등 동절기 재해 예방대책 안내",
+      "query": [
+        "겨울철 재해 예방",
+        "한랭질환이나 질식 같은 겨울철 사고를 막는 예방대책",
+        "키메세지 동절기 재해예방 한랭질환 방동제 중독 질식 무너짐"
+      ]
+    },
+    {
+      "record_id": "list1_46765",
+      "concat": "[TITLE] 2024년 한랭질환 예방가이드\n[SUMMARY] 2024년 한랭질환 예방가이드",
+      "query": [
+        "한랭질환 예방가이드",
+        "겨울철 한랭질환을 예방하기 위한 자세한 가이드",
+        "한랭질환 예방가이드"
+      ]
+    },
+    {
+      "record_id": "list1_46402",
+      "concat": "[TITLE] 이동식 크레인 작업안전(16개국어)\n[SUMMARY] 위험기계·기구(이동식 크레인) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "이동식 크레인 안전",
+        "외국인 근로자도 볼 수 있는 이동식 크레인 작업 안전자료",
+        "이동식 크레인 작업안전 위험기계 기구 근로자용 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46401",
+      "concat": "[TITLE] 지게차 작업안전(16개국어)\n[SUMMARY] 위험기계·기구(지게차) 작업안전에 관한 근로자용 OPS 자료입니다.",
+      "query": [
+        "지게차 작업안전",
+        "외국인 근로자도 볼 수 있는 지게차 작업 안전자료",
+        "지게차 작업안전 위험기계 기구 근로자용 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46369",
+      "concat": "[TITLE] [학교근로자] 시설관리 및 유지보수업무 주요 재해예방 안전수칙\n[SUMMARY] 대구광역시교육청과 공동으로 개발한 학교 시설관리 근로자 재해예방을 위한 주요 안전수칙 자료",
+      "query": [
+        "학교 시설관리 안전",
+        "학교 시설관리와 유지보수 업무 중 사고를 막는 안전수칙",
+        "학교근로자 시설관리 유지보수업무 주요 재해예방 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_46368",
+      "concat": "[TITLE] [학교근로자] 급식실 내 주요 재해예방 안전수칙\n[SUMMARY] 대구광역시교육청과 공동으로 개발한 학교 급식실 근로자 재해예방을 위한 주요 안전수칙 자료",
+      "query": [
+        "학교 급식실 안전",
+        "학교 급식실에서 일하는 근로자를 위한 사고 예방 안전수칙",
+        "학교근로자 급식실 주요 재해예방 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_46399",
+      "concat": "[TITLE] 키메세지(8월_질식재해예방)\n[SUMMARY] - 밀폐공간 질식재해 예방 대책 안내 - 질식재해 관련 콘텐츠 안내 (콘텐츠 바로가기 링크 탑재)",
+      "query": [
+        "밀폐공간 질식 예방",
+        "밀폐공간 작업에서 질식 사고를 예방하는 안내자료",
+        "키메세지 질식재해예방 밀폐공간 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46355",
+      "concat": "[TITLE] 폐기물 재활용업 화재예방\n[SUMMARY] 폐기물이란? 폐기물 재활용업의 화재사고 사례 폐기물 화재 예방 핵심 안전수칙 폐기물 작업 중 화재사고 예방 자체점검표",
+      "query": [
+        "폐기물 화재 예방",
+        "폐기물 재활용 작업장에서 화재 사고를 줄이는 안전수칙",
+        "폐기물 재활용업 화재예방 화재사고 사례 핵심 안전수칙 자체점검표"
+      ]
+    },
+    {
+      "record_id": "list1_46427",
+      "concat": "[TITLE] 키메세지(9월_예초기 재해예방)\n[SUMMARY] - 예초기 재해 예방 대책 안내 - 예초재해 예방 관련 콘텐츠 안내 (콘텐츠 바로가기 링크 탑재)",
+      "query": [
+        "예초기 사고 예방",
+        "예초기 작업 중 다치지 않도록 하는 재해 예방 안내자료",
+        "키메세지 예초기 재해예방 예방대책 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_46371",
+      "concat": "[TITLE] [학교근로자] 일반업무 주요 재해예방 안전수칙\n[SUMMARY] 대구광역시교육청과 공동으로 개발한 학교 내 당직경비, 환경미화청소, 시설관리 근로자 재해예방을 위한 주요 안전수칙 자료",
+      "query": [
+        "학교 일반업무 안전",
+        "학교 당직 경비 청소 시설관리 업무 사고 예방 안전수칙",
+        "학교근로자 일반업무 주요 재해예방 안전수칙 당직경비 환경미화청소 시설관리"
+      ]
+    },
+    {
+      "record_id": "list1_46370",
+      "concat": "[TITLE] [학교근로자] 화학물질 사용 주요 재해예방 안전수칙\n[SUMMARY] 대구광역시교육청과 공동으로 개발한 학교 내 화학물질 사용에 따른 재해예방 주요 안전수칙 자료",
+      "query": [
+        "학교 화학물질 안전",
+        "학교에서 화학물질을 사용할 때 지켜야 할 사고 예방 수칙",
+        "학교근로자 화학물질 사용 주요 재해예방 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_46389",
+      "concat": "[TITLE] 공단 업무직 직종별 안전작업 절차 QR코드집\n[SUMMARY] 공단 업무직 직종별(6개 직종)로 분리한 안전작업 절차를 QR코드와 연동한 모음집을 제작하여 업무직 직원이 쉽게 접근하여 활용",
+      "query": [
+        "안전작업 QR코드",
+        "공단 업무직 직종별 안전작업 절차를 QR코드로 모아둔 자료",
+        "공단 업무직 직종별 안전작업 절차 QR코드집"
+      ]
+    },
+    {
+      "record_id": "list1_46290",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(혼합기,파쇄기,분쇄기)\n[SUMMARY] 사고다발 위험설비 Key Message(혼합기,파쇄기,분쇄기) - Message 내용 : 개구부 끼임 주의",
+      "query": [
+        "혼합기 끼임 주의",
+        "혼합기 파쇄기 분쇄기 개구부에서 끼임 사고를 조심하라는 자료",
+        "사고다발 위험설비 Key Message 혼합기 파쇄기 분쇄기 개구부 끼임 주의"
+      ]
+    },
+    {
+      "record_id": "list1_46289",
+      "concat": "[TITLE] 사고다발 위험설비 Key Message(이삿짐운반용리프트)\n[SUMMARY] 사고다발 위험설비 Key Message(이삿짐운반용리프트) - Message 내용 : 이삿짐운반용리프트 넘어짐 주의",
+      "query": [
+        "이삿짐 리프트 넘어짐",
+        "이삿짐 운반용 리프트가 넘어지는 사고를 조심하라는 안전자료",
+        "사고다발 위험설비 Key Message 이삿짐운반용리프트 넘어짐 주의"
+      ]
+    },
+    {
+      "record_id": "list1_46647",
+      "concat": "[TITLE] 화재 예방을 위한 소화기 사용법\n[SUMMARY] * 케이조선에서 제공 받은 소화기 사용법 OPS 입니다. * 단순 참고용으로만 사용하시기 바라며, 사업장에 맞게 내용을 수정하여 사용하시기 바랍니다. * 해당 언어는 7개국 언어로 번역되어 있습니다. - 한국어, 우즈베키스탄, 스리랑카, 베트남, 인도네시아, 러시아, 태국, 필리핀",
+      "query": [
+        "소화기 사용법",
+        "사업장에서 화재를 막기 위해 소화기를 쓰는 방법",
+        "화재 예방 소화기 사용법 OPS 외국어 번역"
+      ]
+    },
+    {
+      "record_id": "list1_46524",
+      "concat": "[TITLE] 안전화 착용 OPL (8개 외국어)\n[SUMMARY] 안전화 착용 OPL(외국인 근로자)",
+      "query": [
+        "안전화 착용",
+        "외국인 근로자에게 안전화 착용을 안내하는 자료",
+        "안전화 착용 OPL 외국어 외국인 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_46634",
+      "concat": "[TITLE] 12대 안전수칙(19개국 언어 번역)\n[SUMMARY] * 삼성중공업에서 제공 받은 12대 안전수칙입니다. * 단순 참고용으로만 사용하시기 바라며, 사업장에 맞게 내용을 수정하여 사용하시기 바랍니다. * 해당 언어는 19개국 언어로 번역되어 있습니다. - 한국어, 영어, 중국, 우즈베키스탄, 베트남, 러시아, 스리랑카, 미얀마, 태국, 카자흐스탄, 필리핀, 네팔, 우크라이나, 인도네시아, 캄보디아, 키르기스스탄, 에디오피아, 일본, 투르크메니스탄, 타지키스탄",
+      "query": [
+        "작업장 안전수칙",
+        "여러 나라 언어로 번역된 현장 기본 안전수칙 자료",
+        "12대 안전수칙 언어 번역"
+      ]
+    },
+    {
+      "record_id": "list1_46646",
+      "concat": "[TITLE] 심폐소생술(CPR)과 자동심장충격기(AED)\n[SUMMARY] * 케이조선에서 제공 받은 심폐소생술(CPR)과 자동심장충격기(AED) OPS입니다. * 단순 참고용으로만 사용하시기 바라며, 사업장에 맞게 내용을 수정하여 사용하시기 바랍니다. * 해당 언어는 8개국 언어로 번역되어 있습니다. - 한국어, 우즈베키스탄, 스리랑카, 베트남, 인도네시아, 러시아, 태국, 필리핀",
+      "query": [
+        "심폐소생술 자동심장충격기",
+        "응급상황에서 심폐소생술과 자동심장충격기를 사용하는 안내자료",
+        "심폐소생술 CPR 자동심장충격기 AED OPS"
+      ]
+    },
+    {
+      "record_id": "list1_46525",
+      "concat": "[TITLE] 안전대 착용 OPL (8개 외국어)\n[SUMMARY] 안전대 착용 OPL(외국인 근로자)",
+      "query": [
+        "안전대 착용",
+        "외국인 근로자에게 안전대 착용을 안내하는 자료",
+        "안전대 착용 OPL 외국어 외국인 근로자"
+      ]
+    },
+    {
+      "record_id": "list1_46523",
+      "concat": "[TITLE] 안전모 착용 OPL (8개 외국어)\n[SUMMARY] 안전모 착용 OPL (외국인 근로자)",
+      "query": [
+        "안전모 착용",
+        "외국인 근로자에게 안전모 착용을 안내하는 자료",
+        "안전모 착용 OPL 외국어 외국인 근로자"
+      ]
+    }
+  ]
+}

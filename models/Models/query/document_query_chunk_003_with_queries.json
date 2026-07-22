@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 3,
+  "items": [
+    {
+      "record_id": "list1_51807",
+      "concat": "[TITLE] 외국인노동자 안전보건앱(FORS365) 홍보 OPS\n[SUMMARY] 외국인노동자 안전보건앱(FORS365) 홍보 OPS",
+      "query": [
+        "외국인 노동자 안전 앱",
+        "외국인 노동자가 안전보건 정보를 볼 수 있는 앱 안내 자료",
+        "외국인노동자 안전보건앱 FORS365 홍보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52291",
+      "concat": "[TITLE] 이륜차 사고예방 교육 OPS\n[SUMMARY] 이륜차 사고예방 교육 OPS",
+      "query": [
+        "오토바이 사고 예방",
+        "오토바이 배달이나 운전 중 사고를 줄이는 교육 자료",
+        "이륜차 사고예방 교육 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52283",
+      "concat": "[TITLE] 부정수급 위험 사이렌 [2026-02호]\n[SUMMARY] 재정지원사업 부정수급 발생 사례를 전파하여 부정수급 예방",
+      "query": [
+        "부정수급 사례",
+        "지원금 부정수급을 예방하려고 실제 사례를 찾고 있어요",
+        "부정수급 위험 사이렌"
+      ]
+    },
+    {
+      "record_id": "list1_52285",
+      "concat": "[TITLE] 부정수급 위험 사이렌 [2026-03호]\n[SUMMARY] 재정지원사업 부정수급 사례를 전파하여 부정수급 예방",
+      "query": [
+        "재정지원 부정수급",
+        "재정지원사업에서 부정수급이 어떻게 생기는지 사례 자료",
+        "부정수급 위험 사이렌"
+      ]
+    },
+    {
+      "record_id": "list1_52189",
+      "concat": "[TITLE] 해빙기 건설현장 안전수칙 OPS\n[SUMMARY] 해빙기 건설현장 위험요인별 안전관리 및 안전보건교육자료(OPS)",
+      "query": [
+        "해빙기 공사장 안전",
+        "봄철 땅이 녹을 때 건설현장에서 조심해야 할 안전수칙",
+        "해빙기 건설현장 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52286",
+      "concat": "[TITLE] 중대재해 발생 알림_26년 2월 (중대재해사이렌,17개국어)\n[SUMMARY] 중대재해 사이렌을 17개 언어로 번역하여 보급하고자 함",
+      "query": [
+        "중대재해 알림",
+        "외국인 노동자도 볼 수 있는 중대재해 발생 사례 안내",
+        "중대재해 발생 알림 중대재해사이렌 17개국어"
+      ]
+    },
+    {
+      "record_id": "list1_52229",
+      "concat": "[TITLE] 키메시지(4호_떨어짐)\n[SUMMARY] [사회이슈] 떨어짐 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "떨어짐 사고 예방",
+        "작업 중 높은 곳에서 떨어지는 사고를 막는 예방 자료",
+        "키메시지 떨어짐 사고 예방대책 관련 콘텐츠"
+      ]
+    },
+    {
+      "record_id": "list1_52204",
+      "concat": "[TITLE] 2026년 외국인 안전리더 모집 안내\n[SUMMARY] 외국인 노동자의 언어 장벽으로 인한 산업재해 예방을 위해 모국어와 한국어가 능숙한 외국인을 안전리더로 선발하기 위한 2026년 외국인 안전리더 모집 안내문",
+      "query": [
+        "외국인 안전리더 모집",
+        "한국어와 모국어가 가능한 외국인을 안전 활동 리더로 뽑는 안내",
+        "외국인 안전리더 모집 안내"
+      ]
+    },
+    {
+      "record_id": "list1_52214",
+      "concat": "[TITLE] 건설안전패스란?\n[SUMMARY] (근로자용)건설업 기초안전보건교육 이수증을 스마트폰에서 발급 관리하고, 중소규모 건설현장으 안전관리 활동을 지원하는 건설현장 전용 안전보건 앱입니다.",
+      "query": [
+        "건설안전패스 앱",
+        "건설업 기초안전보건교육 이수증을 휴대폰에서 관리하는 방법",
+        "건설안전패스 근로자용 건설업 기초안전보건교육 이수증 안전보건 앱"
+      ]
+    },
+    {
+      "record_id": "list1_52215",
+      "concat": "[TITLE] 건설안전패스 알아보기\n[SUMMARY] (관리자용)건설업 기초안전보건교육 전용앱으로 중소규모 건설현장의 안전관리 활동을 지원합니다.",
+      "query": [
+        "건설안전패스 관리자",
+        "중소 건설현장 관리자가 안전관리 활동에 쓰는 전용 앱 안내",
+        "건설안전패스 관리자용 건설업 기초안전보건교육 전용앱 안전관리"
+      ]
+    },
+    {
+      "record_id": "list1_52271",
+      "concat": "[TITLE] 부정수급 위험 사이렌 [2026-01호]\n[SUMMARY] 부정수급 사례를 전파하여 부정수급 예방을 위한 OPS",
+      "query": [
+        "부정수급 예방",
+        "지원금을 잘못 받는 사례를 보고 예방하는 자료",
+        "부정수급 위험 사이렌 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_52176",
+      "concat": "[TITLE] 전주작업 중 추락·감전 사망사고 예방\n[SUMMARY] 전주작업 중 추락 및 감전으로 인한 사망사고 예방",
+      "query": [
+        "전봇대 추락 감전",
+        "전주 위에서 작업할 때 떨어지거나 감전되는 사고를 막는 자료",
+        "전주작업 추락 감전 사망사고 예방"
+      ]
+    },
+    {
+      "record_id": "list1_51058",
+      "concat": "[TITLE] [철도운송 재해사례] 쇄정장치 해체 중 스패너 이탈로 맞음\n[SUMMARY] [철도운송 재해사례] 쇄정장치 해체 중 스패너 이탈로 맞음",
+      "query": [
+        "철도 스패너 사고",
+        "철도 설비를 해체하다 공구가 튀어서 맞는 사고 사례",
+        "철도운송 재해사례 쇄정장치 해체 스패너 이탈 맞음"
+      ]
+    },
+    {
+      "record_id": "list1_51073",
+      "concat": "[TITLE] [철도운송 재해사례] 승강기안전문 설비 점검 중 전동차와 부딪힘\n[SUMMARY] [철도운송 재해사례] 승강기안전문 설비 점검 중 전동차와 부딪힘",
+      "query": [
+        "철도 승강장문 점검 사고",
+        "지하철 안전문 설비를 점검하다 전동차와 부딪힌 사고 사례",
+        "철도운송 재해사례 승강기안전문 설비 점검 전동차 부딪힘"
+      ]
+    },
+    {
+      "record_id": "list1_51075",
+      "concat": "[TITLE] [철도운송] 궤도 보선작업\n[SUMMARY] [철도운송] 궤도 보선작업",
+      "query": [
+        "철도 선로 보수",
+        "철도 궤도나 선로를 보수할 때 필요한 안전 자료",
+        "철도운송 궤도 보선작업"
+      ]
+    },
+    {
+      "record_id": "list1_51080",
+      "concat": "[TITLE] [철도운송] 감정노동 등으로 인한 직무스트레스 관리\n[SUMMARY] [철도운송] 감정노동 등으로 인한 직무스트레스 관리",
+      "query": [
+        "철도 직무 스트레스",
+        "철도 업무에서 고객 응대나 감정노동으로 생기는 스트레스 관리 자료",
+        "철도운송 감정노동 직무스트레스 관리"
+      ]
+    },
+    {
+      "record_id": "list1_51059",
+      "concat": "[TITLE] [철도운송] 차량 정비작업\n[SUMMARY] [철도운송] 차량 정비작업",
+      "query": [
+        "철도 차량 정비",
+        "열차나 철도 차량을 정비할 때 필요한 안전 작업 자료",
+        "철도운송 차량 정비작업"
+      ]
+    },
+    {
+      "record_id": "list1_51074",
+      "concat": "[TITLE] [철도운송] 차량 입환작업\n[SUMMARY] [철도운송] 차량 입환작업",
+      "query": [
+        "철도 입환 작업",
+        "철도 차량을 연결하거나 이동시키는 작업 안전 자료",
+        "철도운송 차량 입환작업"
+      ]
+    },
+    {
+      "record_id": "list1_51076",
+      "concat": "[TITLE] [철도운송] 열차감시원 안전수칙\n[SUMMARY] [철도운송] 열차감시원 안전수칙",
+      "query": [
+        "열차감시원 안전",
+        "선로 작업 중 열차를 지켜보는 감시원이 지켜야 할 안전수칙",
+        "철도운송 열차감시원 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51053",
+      "concat": "[TITLE] [항만 사고사례] 선박 줄잡이 작업 중 끼임 또는 떨어짐\n[SUMMARY] [항만 사고사례] 선박 줄잡이 작업 중 끼임 또는 떨어짐",
+      "query": [
+        "선박 줄잡이 사고",
+        "항구에서 배 줄을 잡다가 끼이거나 떨어지는 사고 사례",
+        "항만 사고사례 선박 줄잡이 작업 끼임 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_51065",
+      "concat": "[TITLE] [항만 사고사례] 항만 배후단지 보행 중 대형 물류장비에 부딪힘\n[SUMMARY] [항만 사고사례] 항만 배후단지 보행 중 대형 물류장비에 부딪힘",
+      "query": [
+        "항만 보행 사고",
+        "항만 배후단지에서 걸어가다 큰 물류 장비와 부딪힌 사고 사례",
+        "항만 사고사례 항만 배후단지 보행 대형 물류장비 부딪힘"
+      ]
+    },
+    {
+      "record_id": "list1_51063",
+      "concat": "[TITLE] [항만 안전] 검수 작업 시 안전수칙\n[SUMMARY] [항만 안전] 검수 작업 시 안전수칙",
+      "query": [
+        "항만 검수 안전",
+        "항만에서 화물을 확인하는 검수 작업할 때 지켜야 할 안전수칙",
+        "항만 안전 검수 작업 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_51064",
+      "concat": "[TITLE] [항만 안전] 달기구(하역도구)의 안전한 사용\n[SUMMARY] [항만 안전] 달기구(하역도구)의 안전한 사용",
+      "query": [
+        "하역 도구 안전",
+        "항만 하역 작업에서 달기구를 안전하게 쓰는 방법",
+        "항만 안전 달기구 하역도구 안전한 사용"
+      ]
+    },
+    {
+      "record_id": "list1_51062",
+      "concat": "[TITLE] [항만 안전] 라싱 작업 시 안전수칙\n[SUMMARY] [항만 안전] 라싱 작업 시 안전수칙",
+      "query": [
+        "라싱 작업 안전",
+        "항만에서 화물을 묶는 작업을 할 때 필요한 안전수칙",
+        "항만 안전 라싱 작업 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_52373",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 34. 피트. 맨홀, 오·폐수 처리시설 등 밀폐된 장소에서의 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 34. 피트. 맨홀, 오·폐수 처리시설 등 밀폐된 장소에서의 작업",
+      "query": [
+        "맨홀 밀폐공간 작업",
+        "맨홀이나 오폐수 처리시설 같은 밀폐된 곳에서 일할 때 위험한 점",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 피트 맨홀 오·폐수 처리시설 밀폐된 장소 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52374",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 35. 혼재작업(작업자·작업차량)\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 35. 혼재작업(작업자·작업차량)",
+      "query": [
+        "작업자 차량 혼재",
+        "작업자와 작업차량이 같은 공간에서 움직일 때 사고를 막는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 혼재작업 작업자 작업차량"
+      ]
+    },
+    {
+      "record_id": "list1_52341",
+      "concat": "[TITLE] 건설업 사망사고 유발 SIF(크레인작업)\n[SUMMARY] 건설현장 내 사망사고를 유발하는 요인을 이해하기 쉽게 인포그래픽을 반영한 OPS형태로 제작",
+      "query": [
+        "건설 크레인 사고",
+        "건설현장에서 크레인 작업 중 사망사고를 부르는 위험요인",
+        "건설업 사망사고 유발 SIF 크레인작업"
+      ]
+    },
+    {
+      "record_id": "list1_52372",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 33. 폐기물 수거·선별 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 33. 폐기물 수거·선별 작업",
+      "query": [
+        "폐기물 수거 안전",
+        "폐기물을 수거하거나 선별하는 작업에서 사고를 줄이는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 폐기물 수거 선별 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52371",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 32. 크레인(천장주행, 갠트리, 지브 등) 사용 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 32. 크레인(천장주행, 갠트리, 지브 등) 사용 작업",
+      "query": [
+        "공장 크레인 작업",
+        "천장크레인이나 갠트리 크레인을 사용할 때 위험요인 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 크레인 천장주행 갠트리 지브 사용 작업"
+      ]
+    },
+    {
+      "record_id": "list1_52368",
+      "concat": "[TITLE] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 29. 지붕, 천장 등 위에서 작업\n[SUMMARY] (제조업등)사망사고 고위험요인(SIF) 인포그래픽 - 29. 지붕, 천장 등 위에서 작업",
+      "query": [
+        "지붕 작업 추락",
+        "지붕이나 천장 위에서 일할 때 떨어지는 사고를 막는 자료",
+        "제조업등 사망사고 고위험요인 SIF 인포그래픽 지붕 천장 위 작업"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 76,
+  "items": [
+    {
+      "record_id": "list1_38256",
+      "concat": "[TITLE] 거푸집동바리 설치·해체 작업안전(미얀마)\n[SUMMARY] 거푸집동바리 설치·해체 작업안전(미얀마)",
+      "query": [
+        "거푸집동바리 안전",
+        "미얀마 근로자에게 거푸집동바리 설치와 해체 안전을 알려주는 자료",
+        "거푸집동바리 설치 해체 작업안전 미얀마"
+      ]
+    },
+    {
+      "record_id": "list1_38015",
+      "concat": "[TITLE] 요양보호사 재해예방 OPL\n[SUMMARY] 동 자료는 2016년도 요양보호사 재해현황을 토대로, 재해사례별 예방대책을 소개하여 일선현장에서 교육이나 자체 안전보건활동에 사용하기 위해 제작하였음.",
+      "query": [
+        "요양보호사 재해예방",
+        "요양보호사가 일하다 다치는 사고를 줄이는 교육자료",
+        "요양보호사 재해예방 OPL 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_38269",
+      "concat": "[TITLE] 거푸집동바리 설치·해체 작업안전(중국)\n[SUMMARY] 거푸집동바리 설치·해체 작업안전(중국)",
+      "query": [
+        "거푸집동바리 중국어",
+        "중국어로 된 거푸집동바리 설치 해체 안전 자료",
+        "거푸집동바리 설치 해체 작업안전 중국"
+      ]
+    },
+    {
+      "record_id": "list1_38255",
+      "concat": "[TITLE] 갱폼제작 및 설치·해체 작업 안전(미얀마)\n[SUMMARY] 갱폼제작 및 설치·해체 작업 안전(미얀마)",
+      "query": [
+        "갱폼 작업 안전",
+        "미얀마 근로자에게 갱폼 제작 설치 해체 안전을 설명하는 자료",
+        "갱폼제작 설치 해체 작업 안전 미얀마"
+      ]
+    },
+    {
+      "record_id": "list1_38276",
+      "concat": "[TITLE] 철근배근 작업안전(태국)\n[SUMMARY] 철근배근 작업안전(태국)",
+      "query": [
+        "철근배근 안전",
+        "태국어로 된 철근 배근 작업 안전 자료",
+        "철근배근 작업안전 태국"
+      ]
+    },
+    {
+      "record_id": "list1_38264",
+      "concat": "[TITLE] 거푸집동바리 설치·해체 작업안전(영어)\n[SUMMARY] 거푸집동바리 설치·해체 작업안전(영어)",
+      "query": [
+        "거푸집동바리 영어",
+        "영어로 된 거푸집동바리 설치 해체 안전 자료",
+        "거푸집동바리 설치 해체 작업안전 영어"
+      ]
+    },
+    {
+      "record_id": "list1_38262",
+      "concat": "[TITLE] 철근배근 작업안전(스리랑카)\n[SUMMARY] 철근배근 작업안전(스리랑카)",
+      "query": [
+        "철근배근 안전",
+        "스리랑카 근로자에게 철근 배근 작업 안전을 알려주는 자료",
+        "철근배근 작업안전 스리랑카"
+      ]
+    },
+    {
+      "record_id": "list1_37949",
+      "concat": "[TITLE] 이륜자동차 운영관련 법령(산업안전보건기준에관한규칙) 개정 안내자료\n[SUMMARY] 2017.03.03. 이륜자동차 운영관련 산업안전보건기준에 관한 규칙 개정안이 공포·시행됨에 따라, 해당 내용에 대한 안내자료(OPL)를 제작",
+      "query": [
+        "이륜자동차 법령",
+        "오토바이 운영 관련 산업안전보건 기준이 바뀐 내용을 알려주는 자료",
+        "이륜자동차 운영관련 법령 산업안전보건기준에관한규칙 개정 안내자료 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38006",
+      "concat": "[TITLE] 건설현장 안전보건지킴이 중점순찰대상 OPS(화재폭발)\n[SUMMARY] 건설현장 안전보건지킴이 중점순찰대상 OPS(화재폭발)",
+      "query": [
+        "건설현장 화재폭발",
+        "건설현장에서 화재나 폭발 위험을 중점적으로 순찰할 때 보는 자료",
+        "건설현장 안전보건지킴이 중점순찰대상 OPS 화재폭발"
+      ]
+    },
+    {
+      "record_id": "list1_38261",
+      "concat": "[TITLE] 거푸집동바리 설치·해체 작업안전(스리랑카)\n[SUMMARY] 거푸집동바리 설치·해체 작업안전(스리랑카)",
+      "query": [
+        "거푸집동바리 안전",
+        "스리랑카 근로자에게 거푸집동바리 설치 해체 안전을 알려주는 자료",
+        "거푸집동바리 설치 해체 작업안전 스리랑카"
+      ]
+    },
+    {
+      "record_id": "list1_37931",
+      "concat": "[TITLE] 이삿짐 운반용 리프트 안전수칙 OPL\n[SUMMARY] 이삿짐 운반용 리프트 작업 근로자의 재해예방을 위한 안전수칙 및 사업주와 근로자 준수사항을 OPL 형태로 제작함",
+      "query": [
+        "이삿짐 리프트 안전",
+        "이삿짐 운반용 리프트를 사용할 때 지켜야 할 안전수칙 자료",
+        "이삿짐 운반용 리프트 안전수칙 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37745",
+      "concat": "[TITLE] 이동식크레인 중대재해사례(턴테이블 볼트 파단으로 붐에 맞음) OPL\n[SUMMARY] 이동식크레인 중대재해사례(턴테이블 볼트 파단으로 붐에 맞음) 및 재해예방대책 OPL",
+      "query": [
+        "이동식크레인 사고",
+        "이동식크레인 턴테이블 볼트가 부러져 붐에 맞은 사고 예방자료",
+        "이동식크레인 중대재해사례 턴테이블 볼트 파단 붐에 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37926",
+      "concat": "[TITLE] 입주민이 알아야 할 이사 안전수칙\n[SUMMARY] 공동주택 입주민이 이사 시 알아야하는 안전수칙을 OPS로 제작하여 공동주택에 게시, 홍보",
+      "query": [
+        "이사 안전수칙",
+        "아파트 입주민이 이사할 때 알아야 하는 안전수칙 자료",
+        "입주민 이사 안전수칙 공동주택 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_37743",
+      "concat": "[TITLE] 고소작업대 중대재해 사례(붐 인출용 와이어로프 체인 고정볼트 파단으로 떨어짐) OPL\n[SUMMARY] 고소작업대 중대재해 사례(붐 인출용 와이어로프 체인 고정볼트 파단으로 떨어짐) 및 재해예방 대책 OPL",
+      "query": [
+        "고소작업대 추락",
+        "고소작업대 와이어로프 체인 고정볼트가 부러져 떨어진 사고 예방자료",
+        "고소작업대 중대재해 사례 붐 인출용 와이어로프 체인 고정볼트 파단 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37744",
+      "concat": "[TITLE] 고소작업대 중대재해 사례(턴테이블 볼트 파단으로 떨어짐) OPL\n[SUMMARY] 고소작업대 중대재해 사례(턴테이블 볼트 파단으로 떨어짐) 및 재해예방대책 OPL",
+      "query": [
+        "고소작업대 사고",
+        "고소작업대 턴테이블 볼트가 부러져 떨어진 사고 예방자료",
+        "고소작업대 중대재해 사례 턴테이블 볼트 파단 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37085",
+      "concat": "[TITLE] 직업건강 가이드라인 OPS_06 - 방송출연, 보조자\n[SUMMARY] 직업건강 가이드라인 OPS_06",
+      "query": [
+        "방송 보조자 건강",
+        "방송 출연 보조자가 일하면서 건강을 지키는 방법 자료",
+        "직업건강 가이드라인 OPS 방송출연 보조자"
+      ]
+    },
+    {
+      "record_id": "list1_37086",
+      "concat": "[TITLE] 직업건강 가이드라인 OPS_07 - 버스운전원\n[SUMMARY] 직업건강 가이드라인 OPS_07",
+      "query": [
+        "버스운전원 건강",
+        "버스 운전원이 일하면서 건강을 관리하는 직업건강 자료",
+        "직업건강 가이드라인 OPS 버스운전원"
+      ]
+    },
+    {
+      "record_id": "list1_37084",
+      "concat": "[TITLE] 직업건강 가이드라인 OPS_05 - 발열성\n[SUMMARY] 직업건강 가이드라인 OPS_05",
+      "query": [
+        "발열성 건강",
+        "발열성 작업 관련 직업건강 가이드 자료",
+        "직업건강 가이드라인 OPS 발열성"
+      ]
+    },
+    {
+      "record_id": "list1_37081",
+      "concat": "[TITLE] 직업건강 가이드라인 OPS_02 - 금융상담창구\n[SUMMARY] 금융상담창구 사무원 고객응대 상황별 대처요령",
+      "query": [
+        "금융상담창구 응대",
+        "은행이나 금융상담 창구에서 고객응대 상황별 대처법을 알려주는 자료",
+        "직업건강 가이드라인 OPS 금융상담창구 고객응대 대처요령"
+      ]
+    },
+    {
+      "record_id": "list1_37083",
+      "concat": "[TITLE] 직업건강 가이드라인 OPS_04 - 패스트푸드\n[SUMMARY] 직업건강 가이드라인 OPS_04 - 패스트푸드업 근로자 고객응대 상황별 대처요령",
+      "query": [
+        "패스트푸드 고객응대",
+        "패스트푸드 근로자가 고객응대 상황에서 대처하는 방법 자료",
+        "직업건강 가이드라인 OPS 패스트푸드업 근로자 고객응대 대처요령"
+      ]
+    },
+    {
+      "record_id": "list1_37087",
+      "concat": "[TITLE] 실험실연구원 직업건강가이드\n[SUMMARY] 직업건강 가이드라인 OPS_08",
+      "query": [
+        "실험실연구원 건강",
+        "실험실 연구원이 일하면서 건강을 관리하는 가이드 자료",
+        "실험실연구원 직업건강가이드 직업건강 가이드라인 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_37089",
+      "concat": "[TITLE] 직업건강 가이드라인 OPS_10 - 전자제품수리업\n[SUMMARY] 직업건강 가이드라인 OPS_10 -전자제품수리종사자 직업건강가이드",
+      "query": [
+        "전자제품수리 건강",
+        "전자제품 수리 종사자가 일하면서 건강을 관리하는 가이드 자료",
+        "직업건강 가이드라인 OPS 전자제품수리업 전자제품수리종사자 직업건강가이드"
+      ]
+    },
+    {
+      "record_id": "list1_37088",
+      "concat": "[TITLE] 직업건강 가이드라인 OPS_09 - 잠수작업자\n[SUMMARY] 직업건강 가이드라인 OPS_09, 잠수작업자 직업건강가이드",
+      "query": [
+        "잠수작업자 건강",
+        "잠수 작업자가 일할 때 건강을 관리하는 직업건강 자료",
+        "직업건강 가이드라인 OPS 잠수작업자 직업건강가이드"
+      ]
+    },
+    {
+      "record_id": "list1_37461",
+      "concat": "[TITLE] 소형탱크 세정 작업안전\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "소형탱크 세정",
+        "작은 탱크를 청소하거나 세정할 때 작업 안전을 알려주는 자료",
+        "소형탱크 세정 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37462",
+      "concat": "[TITLE] 위험물 운송 탱크로리 입출하 작업안전\n[SUMMARY] 위험물 운송 탱크로리 입출하 작업안전에 관한 안전보건 OPL",
+      "query": [
+        "탱크로리 작업안전",
+        "위험물을 운송하는 탱크로리 입출하 작업 안전 자료",
+        "위험물 운송 탱크로리 입출하 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37082",
+      "concat": "[TITLE] 직업건강 가이드라인 OPS_03 - 톨게이트 수납원\n[SUMMARY] 직업건강 가이드라인 OPS_03",
+      "query": [
+        "톨게이트 수납원 건강",
+        "톨게이트 수납원이 일하면서 건강을 관리하는 직업건강 자료",
+        "직업건강 가이드라인 OPS 톨게이트 수납원"
+      ]
+    },
+    {
+      "record_id": "list1_37459",
+      "concat": "[TITLE] 분진폭발방지 안전수칙\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "분진폭발 안전수칙",
+        "분진 폭발을 막기 위해 현장에서 지켜야 할 안전수칙 자료",
+        "분진폭발방지 안전수칙 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37460",
+      "concat": "[TITLE] 소규모사업장 화기 작업안전\n[SUMMARY] 안전보건 OPL-소규모사업장 화기 작업안전",
+      "query": [
+        "화기 작업안전",
+        "소규모 사업장에서 불꽃 작업을 할 때 지켜야 할 안전 자료",
+        "소규모사업장 화기 작업안전 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37395",
+      "concat": "[TITLE] 콜센터 근로자 직무스트레스 예방\n[SUMMARY] 안전보건 OPL",
+      "query": [
+        "콜센터 스트레스",
+        "콜센터 근로자의 직무 스트레스를 예방하는 자료",
+        "콜센터 근로자 직무스트레스 예방 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_38257",
+      "concat": "[TITLE] 철근배근 작업안전(미얀마)\n[SUMMARY] 철근배근 작업안전(미얀마)",
+      "query": [
+        "철근배근 안전",
+        "미얀마 근로자에게 철근 배근 작업 안전을 알려주는 자료",
+        "철근배근 작업안전 미얀마"
+      ]
+    }
+  ]
+}

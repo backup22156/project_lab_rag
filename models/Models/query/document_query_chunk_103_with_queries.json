@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 103,
+  "items": [
+    {
+      "record_id": "list1_31575",
+      "concat": "[TITLE] (기타제조업)세미겐트리크레인\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "공장 크레인 안전",
+        "공장에서 세미겐트리크레인을 다룰 때 주의할 점",
+        "기타제조업 세미겐트리크레인 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31574",
+      "concat": "[TITLE] (기타제조업)방사기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "실 뽑는 기계 안전",
+        "섬유 공장에서 방사기를 사용할 때 위험한 점",
+        "기타제조업 방사기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31595",
+      "concat": "[TITLE] (전기업)미분기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "석탄 분쇄기 안전",
+        "발전소에서 석탄을 곱게 가는 설비 작업 안전자료",
+        "전기업 미분기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31573",
+      "concat": "[TITLE] (기타제조업)누전차단기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "누전차단기 안전",
+        "공장에서 전기 차단기를 점검할 때 조심할 내용",
+        "기타제조업 누전차단기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31596",
+      "concat": "[TITLE] (전기업)발전기 수소치환 작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "발전기 수소 치환",
+        "발전소에서 발전기 내부 수소를 바꾸는 작업 안전자료",
+        "전기업 발전기 수소치환 작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31616",
+      "concat": "[TITLE] (건물관리업)바닥 개구부\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "바닥 구멍 추락",
+        "건물 관리 중 바닥에 뚫린 곳에서 떨어지지 않게 하는 안전자료",
+        "건물관리업 바닥 개구부 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31617",
+      "concat": "[TITLE] (건물관리업)비상발전기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "비상발전기 안전",
+        "건물 비상 발전기를 점검할 때 주의사항",
+        "건물관리업 비상발전기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31614",
+      "concat": "[TITLE] (건물관리업)가로등\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "가로등 작업 안전",
+        "건물 주변 가로등을 점검하거나 교체할 때 위험요인",
+        "건물관리업 가로등 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31615",
+      "concat": "[TITLE] (건물관리업)단부(가장자리)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "작업장 가장자리 추락",
+        "건물 관리 작업 중 가장자리에서 떨어지지 않게 하는 자료",
+        "건물관리업 단부 가장자리 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31611",
+      "concat": "[TITLE] (가스업)암모니아가스 취급안전\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "암모니아 가스 안전",
+        "암모니아 가스를 다룰 때 누출이나 중독을 막는 방법",
+        "가스업 암모니아가스 취급안전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31612",
+      "concat": "[TITLE] (가스업)염소가스 취급안전\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "염소 가스 안전",
+        "염소가스 취급 중 누출 사고를 예방하는 안전자료",
+        "가스업 염소가스 취급안전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31613",
+      "concat": "[TITLE] (건물관리업)주차용 승강기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "주차 리프트 안전",
+        "건물 주차장 자동차 승강기를 사용할 때 사고 예방 자료",
+        "건물관리업 주차용 승강기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31392",
+      "concat": "[TITLE] 선박갑판 승무원 및 관련종사자 - 선적 및 하역작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "배 하역 작업 안전",
+        "선박에서 짐을 싣고 내릴 때 사고를 막는 자료",
+        "선박갑판 승무원 관련종사자 선적 하역작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31390",
+      "concat": "[TITLE] 선박 기관사 및 기술종사자 - 선박 수리작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "선박 수리 안전",
+        "배 안에서 수리 작업할 때 위험요인과 안전대책",
+        "선박 기관사 기술종사자 선박 수리작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31391",
+      "concat": "[TITLE] 선박 기관사 및 기술종사자 - 엔진 정비작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "선박 엔진 정비",
+        "배 엔진을 정비할 때 조심해야 할 사고 예방 자료",
+        "선박 기관사 기술종사자 엔진 정비작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31393",
+      "concat": "[TITLE] 섬유가공기계 조작 종사자 - 염색작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "섬유 염색 안전",
+        "염색 공정에서 기계를 다룰 때 위험요인과 안전수칙",
+        "섬유가공기계 조작 종사자 염색작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31394",
+      "concat": "[TITLE] 섬유가공기계 조작 종사자 - 원사, 원단 가공작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "원단 가공 안전",
+        "섬유 공장에서 실이나 원단을 가공할 때 필요한 안전자료",
+        "섬유가공기계 조작 종사자 원사 원단 가공작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31395",
+      "concat": "[TITLE] 수중 기능 종사자 - 스쿠버 잠수작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "스쿠버 잠수 안전",
+        "스쿠버 장비로 물속 작업을 할 때 사고 예방 자료",
+        "수중 기능 종사자 스쿠버 잠수작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31396",
+      "concat": "[TITLE] 수중 기능 종사자 - 표면공급식 잠수작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "공급식 잠수 안전",
+        "공기줄을 연결하고 물속에서 작업할 때 필요한 안전자료",
+        "수중 기능 종사자 표면공급식 잠수작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31378",
+      "concat": "[TITLE] 기능원 및 관련기능 종사자 - 대리석 부착작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "대리석 부착 안전",
+        "벽이나 바닥에 대리석을 붙이는 작업 중 사고 예방 자료",
+        "기능원 관련기능 종사자 대리석 부착작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31376",
+      "concat": "[TITLE] 기계공구 조작 종사자 - 밀링기 조작\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "밀링기 안전",
+        "공작기계로 금속을 깎을 때 손 끼임 사고 예방 자료",
+        "기계공구 조작 종사자 밀링기 조작 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31377",
+      "concat": "[TITLE] 기계설치 및 정비 기능 종사자 - 특수차량 정비\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "특수차량 정비 안전",
+        "특수차량을 고치거나 점검할 때 필요한 사고 예방 자료",
+        "기계설치 정비 기능 종사자 특수차량 정비 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31358",
+      "concat": "[TITLE] 건설 및 이동장치 운전 종사자 - 이동식 크레인 운전\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "이동식 크레인 운전",
+        "건설현장에서 이동식 크레인을 운전할 때 주의사항",
+        "건설 이동장치 운전 종사자 이동식 크레인 운전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31359",
+      "concat": "[TITLE] 건설 및 이동장치 운전 종사자 - 천공장비 조작\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "구멍 뚫는 장비 안전",
+        "건설현장에서 땅이나 구조물에 구멍 뚫는 장비를 조작할 때 안전자료",
+        "건설 이동장치 운전 종사자 천공장비 조작 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31362",
+      "concat": "[TITLE] 고정기계장치 및 시스템 조작 종사자 - 산업용 로봇\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "산업용 로봇 안전",
+        "공장에서 로봇 설비를 다룰 때 끼임 사고를 막는 자료",
+        "고정기계장치 시스템 조작 종사자 산업용 로봇 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31361",
+      "concat": "[TITLE] 고무제품용 기계 조작 종사자 - 고무 혼련작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "고무 반죽 작업 안전",
+        "고무 원료를 섞는 기계 작업 중 위험요인과 안전대책",
+        "고무제품용 기계 조작 종사자 고무 혼련작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31360",
+      "concat": "[TITLE] 고무제품용 기계 조작 종사자 - 고무 압축성형작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "고무 성형 안전",
+        "고무를 금형에 넣고 눌러 만드는 작업의 사고 예방 자료",
+        "고무제품용 기계 조작 종사자 고무 압축성형작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31363",
+      "concat": "[TITLE] 고정기계장치 및 시스템 조작 종사자 - 장치 운전\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "설비 운전 안전",
+        "공장 고정 설비를 운전할 때 위험요인과 안전대책",
+        "고정기계장치 시스템 조작 종사자 장치 운전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31364",
+      "concat": "[TITLE] 공구 제조 및 관련 종사자 - SPOT 용접작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "스폿 용접 안전",
+        "공구 제작 현장에서 점용접 작업할 때 화상이나 끼임을 예방하는 자료",
+        "공구 제조 관련 종사자 SPOT 용접작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31365",
+      "concat": "[TITLE] 광원 및 채석 종사자 - 채광작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "광산 채광 안전",
+        "광산이나 채석 현장에서 광물을 캐는 작업 안전자료",
+        "광원 채석 종사자 채광작업 OPL"
+      ]
+    }
+  ]
+}

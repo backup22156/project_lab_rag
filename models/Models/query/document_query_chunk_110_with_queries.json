@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 110,
+  "items": [
+    {
+      "record_id": "list1_31164",
+      "concat": "[TITLE] [중대재해사례]보 거푸집 조립작업 중 추락\n[SUMMARY] [중대재해사례]보 거푸집 조립작업 중 추락",
+      "query": [
+        "거푸집 추락 사고",
+        "보 거푸집을 조립하다가 떨어진 사고 사례",
+        "중대재해사례 보 거푸집 조립작업 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31166",
+      "concat": "[TITLE] [중대재해사례]외부 쌍줄비계에서 이동 중 추락\n[SUMMARY] [중대재해사례]외부 쌍줄비계에서 이동 중 추락",
+      "query": [
+        "쌍줄비계 추락",
+        "외부 비계에서 이동하다가 떨어진 사고 사례",
+        "중대재해사례 외부 쌍줄비계 이동 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31167",
+      "concat": "[TITLE] [중대재해사례]이동식비계 위에서 작업 중 추락\n[SUMMARY] 이동식비계 위에서 작업 중 추락[중대재해사례]",
+      "query": [
+        "이동식비계 추락",
+        "이동식 비계 위에서 작업하다가 떨어진 사고 사례",
+        "중대재해사례 이동식비계 작업 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31247",
+      "concat": "[TITLE] [중대재해사례]시설점검용 개구부에 추락\n[SUMMARY] [중대재해사례]시설점검용 개구부에 추락",
+      "query": [
+        "개구부 추락 사고",
+        "시설 점검용 구멍이나 개구부에 빠진 사고 사례",
+        "중대재해사례 시설점검용 개구부 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31248",
+      "concat": "[TITLE] [중대재해사례]작동중인 자동세차기에 협착\n[SUMMARY] [중대재해사례]작동중인 자동세차기에 협착",
+      "query": [
+        "자동세차기 협착",
+        "작동 중인 자동세차기에 끼인 사고 사례",
+        "중대재해사례 작동중 자동세차기 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31246",
+      "concat": "[TITLE] [중대재해사례]스티로폼 분쇄기 점검 중 협착\n[SUMMARY] [중대재해사례]스티로폼 분쇄기 점검 중 협착",
+      "query": [
+        "스티로폼 분쇄기 협착",
+        "스티로폼 분쇄기를 점검하다가 끼인 사고 사례",
+        "중대재해사례 스티로폼 분쇄기 점검 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31218",
+      "concat": "[TITLE] [중대재해사례]철근적재용 받침목 다발 선적 중 낙하\n[SUMMARY] [중대재해사례]철근적재용 받침목 다발 선적 중 낙하",
+      "query": [
+        "철근 받침목 낙하",
+        "철근 받침목 다발을 선적하다가 떨어진 사고 사례",
+        "중대재해사례 철근적재용 받침목 다발 선적 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31217",
+      "concat": "[TITLE] [중대재해사례]선박 통로에서 홀드바닥으로 추락\n[SUMMARY] [중대재해사례]선박 통로에서 홀드바닥으로 추락",
+      "query": [
+        "선박 통로 추락",
+        "선박 통로에서 홀드 바닥으로 떨어진 사고 사례",
+        "중대재해사례 선박 통로 홀드바닥 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31216",
+      "concat": "[TITLE] [중대재해사례]선박 승선 중 바다에 빠져 익사\n[SUMMARY] [중대재해사례]선박 승선 중 바다에 빠져 익사",
+      "query": [
+        "선박 승선 익사",
+        "선박에 올라타던 중 바다에 빠진 사고 사례",
+        "중대재해사례 선박 승선 바다 익사"
+      ]
+    },
+    {
+      "record_id": "list1_31214",
+      "concat": "[TITLE] [중대재해사례]차량하부 점검 중 바퀴에 협착\n[SUMMARY] [중대재해사례]차량하부 점검 중 바퀴에 협착",
+      "query": [
+        "차량하부 바퀴 협착",
+        "차량 밑을 점검하다가 바퀴에 끼인 사고 사례",
+        "중대재해사례 차량하부 점검 바퀴 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31215",
+      "concat": "[TITLE] [중대재해사례]붕괴되는 파이프 적재물에 협착\n[SUMMARY] [중대재해사례]붕괴되는 파이프 적재물에 협착",
+      "query": [
+        "파이프 적재물 협착",
+        "쌓아둔 파이프가 무너지면서 깔리거나 끼인 사고 사례",
+        "중대재해사례 파이프 적재물 붕괴 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31244",
+      "concat": "[TITLE] [중대재해사례]굴삭기를 화물자동차에 싣던 중 협착\n[SUMMARY] [중대재해사례]굴삭기를 화물자동차에 싣던 중 협착",
+      "query": [
+        "굴삭기 상차 협착",
+        "굴삭기를 화물차에 싣다가 끼인 사고 사례",
+        "중대재해사례 굴삭기 화물자동차 상차 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31245",
+      "concat": "[TITLE] [중대재해사례]굴삭기에 철판이 부딪치면서 넘어짐\n[SUMMARY] [중대재해사례]굴삭기에 철판이 부딪치면서 넘어짐",
+      "query": [
+        "굴삭기 철판 사고",
+        "굴삭기에 철판이 부딪혀 넘어지는 사고 사례",
+        "중대재해사례 굴삭기 철판 부딪침 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_31243",
+      "concat": "[TITLE] [중대재해사례]후진하는 덤프트럭 바퀴에 협착\n[SUMMARY] [중대재해사례]후진하는 덤프트럭 바퀴에 협착",
+      "query": [
+        "덤프트럭 후진 협착",
+        "후진하는 덤프트럭 바퀴에 끼인 사고 사례",
+        "중대재해사례 후진 덤프트럭 바퀴 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31222",
+      "concat": "[TITLE] [중대재해사례]크레인 줄걸이 작업 중 협착\n[SUMMARY] [중대재해사례]크레인 줄걸이 작업 중 협착",
+      "query": [
+        "크레인 줄걸이 협착",
+        "크레인 줄걸이 작업을 하다가 끼인 사고 사례",
+        "중대재해사례 크레인 줄걸이 작업 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31223",
+      "concat": "[TITLE] [중대재해사례]호퍼 내부작업 중 사료에 매몰\n[SUMMARY] [중대재해사례]호퍼 내부작업 중 사료에 매몰",
+      "query": [
+        "호퍼 매몰 사고",
+        "호퍼 안에서 작업하다가 사료에 묻힌 사고 사례",
+        "중대재해사례 호퍼 내부작업 사료 매몰"
+      ]
+    },
+    {
+      "record_id": "list1_31225",
+      "concat": "[TITLE] [중대재해사례]리치스태커로 야적중인 컨테이너에 협착\n[SUMMARY] [중대재해사례]리치스태커로 야적중인 컨테이너에 협착",
+      "query": [
+        "리치스태커 컨테이너 협착",
+        "리치스태커로 컨테이너를 야적하다가 끼인 사고 사례",
+        "중대재해사례 리치스태커 야적 컨테이너 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31224",
+      "concat": "[TITLE] [중대재해사례]공장 내 이동 중 지게차와 충돌\n[SUMMARY] [중대재해사례]공장 내 이동 중 지게차와 충돌",
+      "query": [
+        "지게차 충돌 사고",
+        "공장 안에서 이동하다가 지게차와 부딪힌 사고 사례",
+        "중대재해사례 공장 이동 지게차 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_31229",
+      "concat": "[TITLE] [중대재해사례]건물 외벽 청소작업 중 추락\n[SUMMARY] [중대재해사례]건물 외벽 청소작업 중 추락",
+      "query": [
+        "외벽 청소 추락",
+        "건물 외벽을 청소하다가 떨어진 사고 사례",
+        "중대재해사례 건물 외벽 청소작업 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31226",
+      "concat": "[TITLE] [중대재해사례]지게차로 하역중이던 석고보드 붕괴\n[SUMMARY] [중대재해사례]지게차로 하역중이던 석고보드 붕괴",
+      "query": [
+        "석고보드 하역 붕괴",
+        "지게차로 석고보드를 하역하다가 무너진 사고 사례",
+        "중대재해사례 지게차 하역 석고보드 붕괴"
+      ]
+    },
+    {
+      "record_id": "list1_31227",
+      "concat": "[TITLE] [중대재해사례]화물차량에 덮개를 씌우던 중 추락\n[SUMMARY] 화물차량에 덮개를 씌우던 중 추락[중대재해사례]",
+      "query": [
+        "화물차 덮개 추락",
+        "화물차에 덮개를 씌우다가 떨어진 사고 사례",
+        "중대재해사례 화물차량 덮개 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31228",
+      "concat": "[TITLE] [중대재해사례]화물차량에 적재중이던 레일이 낙하\n[SUMMARY] [중대재해사례]화물차량에 적재중이던 레일이 낙하",
+      "query": [
+        "화물차 레일 낙하",
+        "화물차에 싣던 레일이 떨어진 사고 사례",
+        "중대재해사례 화물차량 적재 레일 낙하"
+      ]
+    },
+    {
+      "record_id": "list1_31230",
+      "concat": "[TITLE] [중대재해사례]기계식 주차설비 상부에서 추락\n[SUMMARY] [중대재해사례]기계식 주차설비 상부에서 추락",
+      "query": [
+        "기계식 주차장 추락",
+        "기계식 주차설비 위에서 떨어진 사고 사례",
+        "중대재해사례 기계식 주차설비 상부 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31232",
+      "concat": "[TITLE] [중대재해사례]사다리에서 내려오던 중 추락\n[SUMMARY] [중대재해사례]사다리에서 내려오던 중 추락",
+      "query": [
+        "사다리 추락 사고",
+        "사다리에서 내려오다가 떨어진 사고 사례",
+        "중대재해사례 사다리 하강 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31233",
+      "concat": "[TITLE] [중대재해사례]옥상에서 방수공사 중 추락\n[SUMMARY] [중대재해사례]옥상에서 방수공사 중 추락",
+      "query": [
+        "옥상 방수 추락",
+        "옥상에서 방수공사를 하다가 떨어진 사고 사례",
+        "중대재해사례 옥상 방수공사 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31234",
+      "concat": "[TITLE] [중대재해사례]탑승식 청소차가 넘어지며 기둥에 협착\n[SUMMARY] [중대재해사례]탑승식 청소차가 넘어지며 기둥에 협착",
+      "query": [
+        "탑승식 청소차 협착",
+        "탑승식 청소차가 넘어지며 기둥 사이에 끼인 사고 사례",
+        "중대재해사례 탑승식 청소차 전도 기둥 협착"
+      ]
+    },
+    {
+      "record_id": "list1_31237",
+      "concat": "[TITLE] [중대재해사례]고압용기 내 잔류물질 방출 중 용기 비래\n[SUMMARY] [중대재해사례]고압용기 내 잔류물질 방출 중 용기 비래",
+      "query": [
+        "고압용기 비래 사고",
+        "고압용기 안의 잔류물질을 빼내다 용기가 날아간 사고 사례",
+        "중대재해사례 고압용기 잔류물질 방출 용기 비래"
+      ]
+    },
+    {
+      "record_id": "list1_31238",
+      "concat": "[TITLE] [중대재해사례]쓰레기수거 운반차량에서 추락\n[SUMMARY] [중대재해사례]쓰레기수거 운반차량에서 추락",
+      "query": [
+        "쓰레기수거차 추락",
+        "쓰레기 수거 운반차량에서 떨어진 사고 사례",
+        "중대재해사례 쓰레기수거 운반차량 추락"
+      ]
+    },
+    {
+      "record_id": "list1_31235",
+      "concat": "[TITLE] [중대재해사례]폭우로 침수된 지하계단에서 실족\n[SUMMARY] [중대재해사례]폭우로 침수된 지하계단에서 실족",
+      "query": [
+        "지하계단 실족",
+        "폭우로 침수된 지하계단에서 미끄러진 사고 사례",
+        "중대재해사례 폭우 침수 지하계단 실족"
+      ]
+    },
+    {
+      "record_id": "list1_31239",
+      "concat": "[TITLE] [중대재해사례]쓰레기수거차량 적재함에서 추락\n[SUMMARY] [중대재해사례]쓰레기수거차량 적재함에서 추락",
+      "query": [
+        "쓰레기수거차 적재함 추락",
+        "쓰레기수거차 적재함에서 떨어진 사고 사례",
+        "중대재해사례 쓰레기수거차량 적재함 추락"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 41,
+  "items": [
+    {
+      "record_id": "list1_44964",
+      "concat": "[TITLE] 찾아가는 질식재해예방 One-Call 서비스 OPS\n[SUMMARY] 찾아가는 질식재해예방 One-Call 서비스 OPS",
+      "query": [
+        "질식재해 예방 서비스",
+        "밀폐공간 질식사고 예방을 도와주는 방문 서비스 자료",
+        "찾아가는 질식재해예방 One-Call 서비스 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44939",
+      "concat": "[TITLE] 안전보건교육 대상여부 조회시스템 및 고용노동부 지정 안전보건교육기관 사칭 주의보 OPS\n[SUMMARY] 안전보건교육 대상여부 조회시스템 및 고용노동부 지정 안정보건교육기관 사칭 주의보 안내자료",
+      "query": [
+        "안전보건교육 사칭 주의",
+        "안전보건교육 대상인지 확인하고 가짜 교육기관을 피하는 방법",
+        "안전보건교육 대상여부 조회시스템 고용노동부 지정 안전보건교육기관 사칭 주의보 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44906",
+      "concat": "[TITLE] 23년도 안전투자 혁신사업 안내 OPS\n[SUMMARY] 23년도 안전투자 혁신사업 안내 OPS 자료",
+      "query": [
+        "안전투자 지원사업",
+        "사업장 안전시설 개선 비용을 지원받는 사업 안내",
+        "안전투자 혁신사업 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44898",
+      "concat": "[TITLE] 해빙기 건설현장 안전수칙 OPL\n[SUMMARY] 해빙기 건설현장 안전수칙 OPL",
+      "query": [
+        "해빙기 건설현장 안전",
+        "봄철 땅이 녹을 때 건설현장에서 지켜야 할 안전수칙",
+        "해빙기 건설현장 안전수칙 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_44919",
+      "concat": "[TITLE] 출근에서 퇴근까지 안전하고 건강한 일터, 행복한 대한민국을 위한 3대 사고유형 8대 요인 특별관리\n[SUMMARY] 출근에서 퇴근까지 안전하고 건강한 일터, 행복한 대한민국을 위한 3대 사고유형 8대 요인 특별관리 추락,끼임,부딪힘 재해예방 전파 등 활용",
+      "query": [
+        "추락 끼임 부딪힘",
+        "일터에서 많이 나는 추락 끼임 부딪힘 사고 예방 자료",
+        "3대 사고유형 8대 요인 특별관리 추락 끼임 부딪힘 재해예방"
+      ]
+    },
+    {
+      "record_id": "list1_44886",
+      "concat": "[TITLE] 2023년 추락방지용 안전시설(건설업 클린사업) 지원 안내\n[SUMMARY] 2023년 추락방지용 안전시설(건설업 클린사업) 지원 안내",
+      "query": [
+        "추락방지 안전시설 지원",
+        "건설현장 추락 방지 시설 설치비 지원 받는 방법",
+        "추락방지용 안전시설 건설업 클린사업 지원 안내"
+      ]
+    },
+    {
+      "record_id": "list1_44885",
+      "concat": "[TITLE] 2023년 산재예방시설 융자금 지원사업 안내\n[SUMMARY] 2023년 산재예방시설 융자금 지원사업 안내",
+      "query": [
+        "산재예방시설 융자",
+        "사업장 안전시설 설치를 위한 융자금 지원 안내",
+        "산재예방시설 융자금 지원사업 안내"
+      ]
+    },
+    {
+      "record_id": "list1_44884",
+      "concat": "[TITLE] 2023년 사망사고 등 고위험개선 사업 안내\n[SUMMARY] 2023년 사망사고 등 고위험개선 사업 안내",
+      "query": [
+        "고위험 개선 지원",
+        "사망사고 위험이 큰 작업환경 개선 지원사업 안내",
+        "사망사고 등 고위험개선 사업 안내"
+      ]
+    },
+    {
+      "record_id": "list1_43539",
+      "concat": "[TITLE] 가지치기 작업시 주요작업별 안전대책\n[SUMMARY] 가지치기 작업시 주요작업별 안전대책",
+      "query": [
+        "가지치기 안전대책",
+        "나무 가지치기 작업할 때 사고를 막는 안전대책",
+        "가지치기 작업시 주요작업별 안전대책"
+      ]
+    },
+    {
+      "record_id": "list1_44895",
+      "concat": "[TITLE] 2023년도 안전보건교육 운영 안내 자료\n[SUMMARY] 일선기관 및 교육센터에서 운영하는 안전보건교육 과정 안내",
+      "query": [
+        "안전보건교육 과정",
+        "일선기관이나 교육센터에서 받을 수 있는 안전보건교육 과정 안내",
+        "안전보건교육 운영 안내 자료"
+      ]
+    },
+    {
+      "record_id": "list1_43538",
+      "concat": "[TITLE] 전지작업시 사다리 떨어짐\n[SUMMARY] 전지작업시 사다리 떨어짐",
+      "query": [
+        "사다리 작업 떨어짐",
+        "나무 전지작업 중 사다리에서 떨어지는 사고 예방 자료",
+        "전지작업시 사다리 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_44746",
+      "concat": "[TITLE] [모아서 보는] 굴착기 재해예방 안전수칙\n[SUMMARY] 7페이지로 압축한 굴착기 재해예방 안전수칙입니다. 업무에 참고하시기 바랍니다.",
+      "query": [
+        "굴착기 안전수칙",
+        "굴착기 작업 중 사고를 예방하는 핵심 안전수칙 모음",
+        "모아서 보는 굴착기 재해예방 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_43537",
+      "concat": "[TITLE] 전지작업중 감전\n[SUMMARY] 전지작업중 감전",
+      "query": [
+        "전지작업 감전",
+        "나무 전지작업 중 전기에 감전되는 사고 예방 자료",
+        "전지작업중 감전"
+      ]
+    },
+    {
+      "record_id": "list1_43536",
+      "concat": "[TITLE] 전지작업시 버킷에서 떨어짐\n[SUMMARY] 전지작업시 작업차량의 버킷에서 떨어짐",
+      "query": [
+        "버킷 작업 떨어짐",
+        "전지작업을 하다가 작업차량 버킷에서 떨어지는 사고 예방 자료",
+        "전지작업시 버킷에서 떨어짐"
+      ]
+    },
+    {
+      "record_id": "list1_44758",
+      "concat": "[TITLE] 조선업 시운전원 안전관리모델 개발 및 배포 알림\n[SUMMARY] 1. 조선업 안전관리모델 개발 사업 관련 설명 및 디지털 자료 게시 위치 명시를 통한 홍보 2. 안전관리모델(시운전원)에 포함된 내용 중 일부 재해발생 유형 분석 및 재해사례 소개",
+      "query": [
+        "조선업 시운전 안전",
+        "조선소 시운전원이 겪는 사고 유형과 안전관리 자료",
+        "조선업 시운전원 안전관리모델 개발 배포 알림"
+      ]
+    },
+    {
+      "record_id": "list1_44757",
+      "concat": "[TITLE] 조선업 배관공 안전관리모델 개발 및 배포 알림 OPS\n[SUMMARY] 1. 조선업 안전관리모데 개발 사업 관련 설명 및 디지털자료 게시 위치 명시를 통한 홍보 2. 안전관리모델(배관공)에 포함된 내용 중 일부 재해발생 유형 분석 및 재해사례 소개",
+      "query": [
+        "조선업 배관공 안전",
+        "조선소 배관공 사고 유형과 안전관리 자료",
+        "조선업 배관공 안전관리모델 개발 배포 알림 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44752",
+      "concat": "[TITLE] 장년근로자의 안전보건(운전원)\n[SUMMARY] 장년근로자(운전원)의 안전하고 건강한 근로환경 조성을 위한 OPS",
+      "query": [
+        "장년 운전원 안전보건",
+        "나이 많은 운전원이 안전하고 건강하게 일하기 위한 자료",
+        "장년근로자 안전보건 운전원"
+      ]
+    },
+    {
+      "record_id": "list1_44753",
+      "concat": "[TITLE] 장년ㆍ여성근로자의 안전보건(돌봄서비스종사원)\n[SUMMARY] 필수노동자인 돌봄서비스종사원의 안전하고 건강한 근로환경 조성을 위한 OPS",
+      "query": [
+        "돌봄서비스 안전보건",
+        "돌봄서비스 종사자가 안전하고 건강하게 일하기 위한 자료",
+        "장년 여성근로자 안전보건 돌봄서비스종사원"
+      ]
+    },
+    {
+      "record_id": "list1_44751",
+      "concat": "[TITLE] 장년ㆍ여성근로자의 안전보건(주방보조원)\n[SUMMARY] 장년ㆍ여성근로자(주방보조원)의 안전하고 건강한 근로환경 조성을 위한 OPS",
+      "query": [
+        "주방보조원 안전보건",
+        "주방보조원이 일하면서 다치지 않고 건강을 지키는 방법",
+        "장년 여성근로자 안전보건 주방보조원"
+      ]
+    },
+    {
+      "record_id": "list1_44750",
+      "concat": "[TITLE] 장년근로자의 안전보건(환경미화원)\n[SUMMARY] 장년근로자(환경미화원)의 안전하고 건강한 근로환경 조성을 위한 OPS",
+      "query": [
+        "환경미화원 안전보건",
+        "환경미화원이 안전하고 건강하게 일하기 위한 자료",
+        "장년근로자 안전보건 환경미화원"
+      ]
+    },
+    {
+      "record_id": "list1_44749",
+      "concat": "[TITLE] 장년ㆍ여성근로자의 안전보건(건물청소원)\n[SUMMARY] 장년ㆍ여성근로자(건물관리원)의 안전하고 건강한 근로환경 조성을 위한 OPS",
+      "query": [
+        "건물청소원 안전보건",
+        "건물 청소 일을 하는 장년 여성 근로자를 위한 안전보건 자료",
+        "장년 여성근로자 안전보건 건물청소원"
+      ]
+    },
+    {
+      "record_id": "list1_44470",
+      "concat": "[TITLE] [외국인]산업현장 안전보건수칙 10계명(10개언어)\n[SUMMARY] [외국인]산업현장 안전보건수칙 10계명(10개언어)",
+      "query": [
+        "외국인 안전수칙",
+        "외국인 근로자가 산업현장에서 지켜야 할 기본 안전보건수칙",
+        "외국인 산업현장 안전보건수칙 10계명 10개언어"
+      ]
+    },
+    {
+      "record_id": "list1_44748",
+      "concat": "[TITLE] 장년근로자의 안전보건(건물관리원)\n[SUMMARY] 장년근로자(건물관리원)의 안전하고 건강한 근로환경 조성을 위한 OPS",
+      "query": [
+        "건물관리원 안전보건",
+        "건물관리원이 안전하고 건강하게 일하기 위한 자료",
+        "장년근로자 안전보건 건물관리원"
+      ]
+    },
+    {
+      "record_id": "list1_44617",
+      "concat": "[TITLE] 미세먼지로 인한 건강장해 예방가이드\n[SUMMARY] 미세먼지로 인한 건강장해 예방가이드",
+      "query": [
+        "미세먼지 건강 예방",
+        "미세먼지 때문에 생길 수 있는 건강 문제를 예방하는 방법",
+        "미세먼지로 인한 건강장해 예방가이드"
+      ]
+    },
+    {
+      "record_id": "list1_44588",
+      "concat": "[TITLE] [Quick Message] 13호 어업 작업 중 사망 사고 연속 발생\n[SUMMARY] 어업 작업 중 사망 사고 연속발생 관련 퀵메세지 입니다.",
+      "query": [
+        "어업 사망사고",
+        "어업 작업 중 사망 사고가 잇따라 발생했을 때 보는 안전 안내",
+        "Quick Message 어업 작업 중 사망 사고 연속 발생"
+      ]
+    },
+    {
+      "record_id": "list1_44495",
+      "concat": "[TITLE] 화물 적재 안전작업 가이드 2종\n[SUMMARY] 안전한 화물 적재방법 : 화물 쌓기 + 화물 결박 컨테이너 화물 적재 및 안전작업 가이드",
+      "query": [
+        "화물 적재 안전",
+        "화물을 쌓고 묶을 때 안전하게 작업하는 방법",
+        "화물 적재 안전작업 가이드 화물 쌓기 화물 결박 컨테이너"
+      ]
+    },
+    {
+      "record_id": "list1_44373",
+      "concat": "[TITLE] 경비원 뇌심혈관계 질환 예방 OPS\n[SUMMARY] 경비원의 뇌심혈관계 질환 예방을 위한 의심 증상 체크리스트, 상담 안내 등",
+      "query": [
+        "경비원 심혈관 질환",
+        "경비원이 뇌심혈관계 질환 의심 증상을 확인하고 상담받는 안내",
+        "경비원 뇌심혈관계 질환 예방 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_44564",
+      "concat": "[TITLE] 굴착기 안전장치 보조지원 사업 안내\n[SUMMARY] 사업 추진을 위한 굴착기 안전장치(자동안전 퀵커플러·AVM·충돌재해예방설비 지원) 사업 안내",
+      "query": [
+        "굴착기 안전장치 지원",
+        "굴착기 자동안전 퀵커플러나 충돌 예방 장치 지원사업 안내",
+        "굴착기 안전장치 보조지원 사업 안내 자동안전 퀵커플러 AVM 충돌재해예방설비"
+      ]
+    },
+    {
+      "record_id": "list1_44573",
+      "concat": "[TITLE] 겨울철 한파로 인한 한랭질환 예방가이드(2022년)\n[SUMMARY] 겨울철 한파로 인한 한랭질환 예방가이드(2022년)",
+      "query": [
+        "겨울 한파 한랭질환",
+        "추운 날씨에 일하다 생길 수 있는 한랭질환 예방 방법",
+        "겨울철 한파로 인한 한랭질환 예방가이드"
+      ]
+    },
+    {
+      "record_id": "list1_44518",
+      "concat": "[TITLE] 현장교육(강평) 시범운영 OPL\n[SUMMARY] 현장교육(강평) 시범운영에 대한 사업장 안내용",
+      "query": [
+        "현장교육 강평",
+        "사업장에서 현장교육 강평을 시범 운영할 때 보는 안내자료",
+        "현장교육 강평 시범운영 OPL"
+      ]
+    }
+  ]
+}

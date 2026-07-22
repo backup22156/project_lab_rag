@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 115,
+  "items": [
+    {
+      "record_id": "list1_30744",
+      "concat": "[TITLE] 퀵 서비스 배달업무 이런사고 많이 납니다!\n[SUMMARY] 0 퀵서비스 종사자의 재해예방을 위한 OPL자료 - 재해사례 - 예방대책",
+      "query": [
+        "퀵서비스 배달 사고",
+        "오토바이로 급하게 배달할 때 자주 나는 사고와 예방 방법",
+        "퀵 서비스 배달업무 사고 재해예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30647",
+      "concat": "[TITLE] 싱겁게 먹기 운동 OPL\n[SUMMARY] 고혈압의 주된 요인인 소금섭취량을 줄이기 위한 홍보 자료",
+      "query": [
+        "싱겁게 먹기 고혈압",
+        "소금 섭취를 줄여서 혈압을 관리하는 홍보 자료",
+        "싱겁게 먹기 운동 OPL 소금섭취량 고혈압"
+      ]
+    },
+    {
+      "record_id": "list1_30302",
+      "concat": "[TITLE] (어업)선박충돌사고\n[SUMMARY] 선박충돌사고",
+      "query": [
+        "어선 충돌 사고",
+        "배를 타고 일하다 다른 선박과 부딪히는 사고 자료",
+        "어업 선박충돌사고"
+      ]
+    },
+    {
+      "record_id": "list1_30309",
+      "concat": "[TITLE] (어업)감김끼임재해사례\n[SUMMARY] 감김끼임재해사례",
+      "query": [
+        "어업 끼임 사고",
+        "어선 작업 중 줄이나 장비에 감기거나 끼이는 재해 사례",
+        "어업 감김끼임재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_30310",
+      "concat": "[TITLE] (어업)넘어짐재해사례\n[SUMMARY] 넘어짐재해사례",
+      "query": [
+        "어업 넘어짐 사고",
+        "배 위에서 미끄러지거나 넘어지는 사고 사례",
+        "어업 넘어짐재해사례"
+      ]
+    },
+    {
+      "record_id": "list1_30305",
+      "concat": "[TITLE] (어업)퇴선생존요령\n[SUMMARY] 퇴선생존요령과 관련한 리플릿",
+      "query": [
+        "배 탈출 생존",
+        "선박 사고 때 배에서 빠져나와 살아남는 요령 자료",
+        "어업 퇴선생존요령 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30306",
+      "concat": "[TITLE] (어업)수중작업사고\n[SUMMARY] 수중작업사고 OPL",
+      "query": [
+        "수중작업 사고",
+        "어업에서 물속 작업하다 발생하는 사고 예방 자료",
+        "어업 수중작업사고 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30307",
+      "concat": "[TITLE] (어업)선원추락사고\n[SUMMARY] 선원추락사고",
+      "query": [
+        "선원 추락 사고",
+        "배에서 일하는 사람이 떨어지는 사고 사례",
+        "어업 선원추락사고"
+      ]
+    },
+    {
+      "record_id": "list1_30308",
+      "concat": "[TITLE] (어업)섬유로프 사용지침\n[SUMMARY] 섬유로프 사용지침",
+      "query": [
+        "섬유로프 사용법",
+        "어선 작업에서 밧줄을 안전하게 쓰는 방법",
+        "어업 섬유로프 사용지침"
+      ]
+    },
+    {
+      "record_id": "list1_30304",
+      "concat": "[TITLE] (어업)선박안전운항수칙\n[SUMMARY] 선박안전운항수칙",
+      "query": [
+        "선박 안전 운항",
+        "어선이나 배를 안전하게 운항할 때 지켜야 할 수칙",
+        "어업 선박안전운항수칙"
+      ]
+    },
+    {
+      "record_id": "list1_30276",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)휠 발란서 안전작업\n[SUMMARY] (자동차에 의한 여객운수업)휠 발란서 안전작업",
+      "query": [
+        "휠 발란서 안전",
+        "자동차 정비할 때 휠 밸런스 장비를 안전하게 쓰는 방법",
+        "자동차에 의한 여객운수업 휠 발란서 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30312",
+      "concat": "[TITLE] (농업)고령농업인의 작업안전관리\n[SUMMARY] 고령농업인의 작업안전관리",
+      "query": [
+        "고령 농업인 안전",
+        "나이 많은 농업인이 농작업할 때 조심해야 하는 안전관리",
+        "농업 고령농업인 작업안전관리"
+      ]
+    },
+    {
+      "record_id": "list1_30311",
+      "concat": "[TITLE] (어업)선내화재대처요령\n[SUMMARY] 선내화재대처요령",
+      "query": [
+        "선박 화재 대처",
+        "배 안에서 불이 났을 때 어떻게 대응해야 하는지",
+        "어업 선내화재대처요령"
+      ]
+    },
+    {
+      "record_id": "list1_30313",
+      "concat": "[TITLE] (농업)경운기 안전작업\n[SUMMARY] 경운기 안전작업",
+      "query": [
+        "경운기 안전 작업",
+        "농사일에서 경운기를 다룰 때 사고를 막는 방법",
+        "농업 경운기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30317",
+      "concat": "[TITLE] (농업)방제기 안전작업\n[SUMMARY] 방제기 안전작업",
+      "query": [
+        "방제기 안전 작업",
+        "농약 뿌리는 기계를 사용할 때 안전하게 작업하는 방법",
+        "농업 방제기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30314",
+      "concat": "[TITLE] (농업)트랙터 안전작업\n[SUMMARY] 트랙터 안전작업",
+      "query": [
+        "트랙터 안전 작업",
+        "농장에서 트랙터 운전이나 작업할 때 사고 예방 방법",
+        "농업 트랙터 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30315",
+      "concat": "[TITLE] (농업)이앙기 안전작업\n[SUMMARY] 이앙기 안전작업",
+      "query": [
+        "이앙기 안전 작업",
+        "모내기 기계를 사용할 때 안전하게 작업하는 방법",
+        "농업 이앙기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30316",
+      "concat": "[TITLE] (농업)콤바인 안전작업\n[SUMMARY] 콤바인 안전작업",
+      "query": [
+        "콤바인 안전 작업",
+        "수확 기계를 운전하거나 점검할 때 지켜야 할 안전수칙",
+        "농업 콤바인 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30319",
+      "concat": "[TITLE] (농업)농약중독 예방\n[SUMMARY] 농약중독 예방",
+      "query": [
+        "농약 중독 예방",
+        "농약을 뿌리거나 다룰 때 중독을 막는 방법",
+        "농업 농약중독 예방"
+      ]
+    },
+    {
+      "record_id": "list1_30320",
+      "concat": "[TITLE] (농업)농작업편이장비를 활용한 근골격계 질환 예방\n[SUMMARY] 농작업편이장비를 활용한 근골격계 질환 예방",
+      "query": [
+        "농작업 근골격계 예방",
+        "농사일할 때 몸에 무리가 가는 것을 줄이는 편이장비 자료",
+        "농업 농작업편이장비 근골격계 질환 예방"
+      ]
+    },
+    {
+      "record_id": "list1_30321",
+      "concat": "[TITLE] (농업)온열 및 온실작업환경\n[SUMMARY] 온열 및 온실작업환경",
+      "query": [
+        "온실 작업 더위",
+        "비닐하우스나 온실에서 일할 때 더위와 작업환경 관리하는 방법",
+        "농업 온열 온실작업환경"
+      ]
+    },
+    {
+      "record_id": "list1_30273",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)자동차 리프트 안전작업\n[SUMMARY] 자동차 리프트 안전작업",
+      "query": [
+        "자동차 리프트 안전",
+        "차량을 들어 올리는 리프트를 안전하게 사용하는 방법",
+        "자동차에 의한 여객운수업 자동차 리프트 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30274",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)공기압축기 안전작업\n[SUMMARY] 공기압축기 안전작업",
+      "query": [
+        "공기압축기 안전",
+        "자동차 정비 현장에서 압축기를 안전하게 쓰는 방법",
+        "자동차에 의한 여객운수업 공기압축기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30275",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)대형선풍기 안전\n[SUMMARY] 대형선풍기 안전작업 리플릿",
+      "query": [
+        "대형 선풍기 안전",
+        "작업장에서 큰 선풍기를 사용할 때 사고를 막는 방법",
+        "자동차에 의한 여객운수업 대형선풍기 안전작업 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30291",
+      "concat": "[TITLE] (소형화물운수업)구내운반차 안전작업\n[SUMMARY] 구내운반차 안전작업",
+      "query": [
+        "구내운반차 안전",
+        "사업장 안에서 물건을 나르는 차량을 안전하게 운전하는 방법",
+        "소형화물운수업 구내운반차 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30290",
+      "concat": "[TITLE] (소형화물운수업)계단형리프트 안전작업\n[SUMMARY] 계단형리프트 안전작업",
+      "query": [
+        "계단형 리프트 안전",
+        "계단에서 짐을 옮기는 리프트를 안전하게 사용하는 방법",
+        "소형화물운수업 계단형리프트 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30292",
+      "concat": "[TITLE] (소형화물운수업)리프트게이트 안전작업\n[SUMMARY] 리프트게이트 안전작업",
+      "query": [
+        "리프트게이트 안전",
+        "화물차 뒤 리프트로 짐을 싣고 내릴 때 안전수칙",
+        "소형화물운수업 리프트게이트 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30293",
+      "concat": "[TITLE] (소형화물운수업)사다리차 안전작업\n[SUMMARY] 사다리차 안전작업",
+      "query": [
+        "사다리차 안전",
+        "이삿짐이나 화물을 사다리차로 옮길 때 사고를 막는 방법",
+        "소형화물운수업 사다리차 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30294",
+      "concat": "[TITLE] (소형화물운수업)슬라이딩랙 안전작업\n[SUMMARY] 슬라이딩랙 안전작업",
+      "query": [
+        "슬라이딩랙 안전",
+        "화물 보관대나 이동식 선반을 사용할 때 끼임 사고를 막는 방법",
+        "소형화물운수업 슬라이딩랙 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30295",
+      "concat": "[TITLE] (소형화물운수업)윙바디트럭 안전작업\n[SUMMARY] 윙바디트럭 안전작업",
+      "query": [
+        "윙바디트럭 안전",
+        "윙바디 화물차 문을 열고 닫거나 상하차할 때 안전수칙",
+        "소형화물운수업 윙바디트럭 안전작업"
+      ]
+    }
+  ]
+}

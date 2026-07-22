@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 74,
+  "items": [
+    {
+      "record_id": "list1_39079",
+      "concat": "[TITLE] (캄보디아) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (캄보디아) 외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "캄보디아 서비스 안전",
+        "캄보디아 근로자가 서비스업에서 볼 수 있는 안전보건 자료",
+        "캄보디아 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39080",
+      "concat": "[TITLE] (스리랑카) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (스리랑카) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "스리랑카 외국인 안전",
+        "스리랑카 근로자가 공통으로 알아야 하는 안전보건 자료",
+        "스리랑카 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_39083",
+      "concat": "[TITLE] (스리랑카) 외국인 근로자용 안전보건 OPL(서비스)\n[SUMMARY] (스리랑카) 외국인 근로자용 안전보건 OPL(서비스)",
+      "query": [
+        "스리랑카 서비스 안전",
+        "스리랑카 근로자가 서비스업에서 참고할 안전보건 안내",
+        "스리랑카 외국인 근로자용 안전보건 OPL 서비스"
+      ]
+    },
+    {
+      "record_id": "list1_39082",
+      "concat": "[TITLE] (스리랑카) 외국인 근로자용 안전보건 OPL(건설)\n[SUMMARY] (스리랑카) 외국인 근로자용 안전보건 OPL(건설)",
+      "query": [
+        "스리랑카 건설 안전",
+        "스리랑카 근로자가 건설현장에서 볼 수 있는 안전보건 자료",
+        "스리랑카 외국인 근로자용 안전보건 OPL 건설"
+      ]
+    },
+    {
+      "record_id": "list1_39081",
+      "concat": "[TITLE] (스리랑카) 외국인 근로자용 안전보건 OPL(제조)\n[SUMMARY] (스리랑카) 외국인 근로자용 안전보건 OPL(제조)",
+      "query": [
+        "스리랑카 제조 안전",
+        "스리랑카 근로자가 제조업에서 알아야 할 안전보건 자료",
+        "스리랑카 외국인 근로자용 안전보건 OPL 제조"
+      ]
+    },
+    {
+      "record_id": "list1_38795",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(미얀마)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(미얀마)",
+      "query": [
+        "미얀마 안전보건자료",
+        "미얀마 근로자에게 안전보건 자료를 어떻게 활용하는지 알려주는 안내서",
+        "외국인 근로자용 안전보건자료 활용가이드 미얀마"
+      ]
+    },
+    {
+      "record_id": "list1_39084",
+      "concat": "[TITLE] (미얀마) 외국인 근로자용 안전보건 OPL(공통)\n[SUMMARY] (미얀마) 외국인 근로자용 안전보건 OPL(공통)",
+      "query": [
+        "미얀마 외국인 안전",
+        "미얀마 근로자가 공통으로 알아야 하는 안전보건 자료",
+        "미얀마 외국인 근로자용 안전보건 OPL 공통"
+      ]
+    },
+    {
+      "record_id": "list1_38796",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(방글라데시)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(방글라데시)",
+      "query": [
+        "방글라데시 안전보건자료",
+        "방글라데시 근로자에게 안전보건 자료를 활용하는 방법을 설명한 안내서",
+        "외국인 근로자용 안전보건자료 활용가이드 방글라데시"
+      ]
+    },
+    {
+      "record_id": "list1_38798",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(스리랑카)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(스리랑카)",
+      "query": [
+        "스리랑카 안전보건자료",
+        "스리랑카 근로자용 안전보건 자료를 어떻게 쓰는지 알려주는 안내서",
+        "외국인 근로자용 안전보건자료 활용가이드 스리랑카"
+      ]
+    },
+    {
+      "record_id": "list1_38801",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(중국)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(중국)",
+      "query": [
+        "중국 안전보건자료",
+        "중국 근로자에게 안전보건 자료 활용 방법을 알려주는 안내서",
+        "외국인 근로자용 안전보건자료 활용가이드 중국"
+      ]
+    },
+    {
+      "record_id": "list1_38797",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(베트남)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(베트남)",
+      "query": [
+        "베트남 안전보건자료",
+        "베트남 근로자에게 안전보건 자료를 활용하는 방법을 설명한 자료",
+        "외국인 근로자용 안전보건자료 활용가이드 베트남"
+      ]
+    },
+    {
+      "record_id": "list1_38799",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(우즈베키스탄)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(우즈베키스탄)",
+      "query": [
+        "우즈베키스탄 안전보건자료",
+        "우즈베키스탄 근로자용 안전보건 자료 사용 방법을 안내한 문서",
+        "외국인 근로자용 안전보건자료 활용가이드 우즈베키스탄"
+      ]
+    },
+    {
+      "record_id": "list1_38802",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(캄보디아)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(캄보디아)",
+      "query": [
+        "캄보디아 안전보건자료",
+        "캄보디아 근로자에게 안전보건 자료 활용 방법을 알려주는 안내서",
+        "외국인 근로자용 안전보건자료 활용가이드 캄보디아"
+      ]
+    },
+    {
+      "record_id": "list1_38800",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(인도네시아)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(인도네시아)",
+      "query": [
+        "인도네시아 안전보건자료",
+        "인도네시아 근로자에게 안전보건 자료를 어떻게 쓰는지 설명한 안내서",
+        "외국인 근로자용 안전보건자료 활용가이드 인도네시아"
+      ]
+    },
+    {
+      "record_id": "list1_38803",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(태국)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(태국)",
+      "query": [
+        "태국 안전보건자료",
+        "태국 근로자용 안전보건 자료 활용 방법을 찾고 싶을 때 보는 안내서",
+        "외국인 근로자용 안전보건자료 활용가이드 태국"
+      ]
+    },
+    {
+      "record_id": "list1_38804",
+      "concat": "[TITLE] 외국인 근로자용 안전보건자료 활용가이드(파키스탄)\n[SUMMARY] 외국인 근로자용 안전보건자료 활용가이드(파키스탄)",
+      "query": [
+        "파키스탄 안전보건자료",
+        "파키스탄 근로자에게 안전보건 자료 활용 방법을 설명한 안내서",
+        "외국인 근로자용 안전보건자료 활용가이드 파키스탄"
+      ]
+    },
+    {
+      "record_id": "list1_38607",
+      "concat": "[TITLE] 쯔쯔가무시 예방에 대한 안전조치\n[SUMMARY] 쯔쯔가무시 예방에 대한 안전조치 ops",
+      "query": [
+        "쯔쯔가무시 예방",
+        "야외 작업 중 쯔쯔가무시를 예방하려면 어떤 안전조치를 해야 하나요",
+        "쯔쯔가무시 예방 안전조치 ops"
+      ]
+    },
+    {
+      "record_id": "list1_38606",
+      "concat": "[TITLE] 벌쏘임에 대한 안전조치\n[SUMMARY] 벌쏘임에 대한 안전조치",
+      "query": [
+        "벌쏘임 안전",
+        "작업 중 벌에 쏘이지 않도록 주의해야 할 안전조치",
+        "벌쏘임 안전조치"
+      ]
+    },
+    {
+      "record_id": "list1_38592",
+      "concat": "[TITLE] 식품공장 인근 사업장 화학물질 취급 수칙\n[SUMMARY] 식품공장 인근 화학물질 취급 사업장을 대상으로 화학물질 제조, 사용, 배출, 폐기방법에 대한 안전수칙 홍보",
+      "query": [
+        "화학물질 취급 수칙",
+        "식품공장 주변에서 화학물질을 다룰 때 지켜야 할 안전수칙",
+        "식품공장 인근 사업장 화학물질 취급 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_37303",
+      "concat": "[TITLE] (보호구) 안면부 여과식 호흡용 보호구 - 세척\n[SUMMARY] 외국인 근로자를 위한 안전보건 매뉴얼(37개언어-중국어, 네팔어, 몽골어, 미얀마어, 방글라데시어, 베트남어, 스리랑카어, 우즈베키스탄어, 인도네시아어, 캄보디아어, 태국어, 파키스탄어)",
+      "query": [
+        "마스크 세척",
+        "안면부 여과식 호흡 보호구를 세척하는 방법",
+        "보호구 안면부 여과식 호흡용 보호구 세척"
+      ]
+    },
+    {
+      "record_id": "list1_37304",
+      "concat": "[TITLE] (보호구) 호흡용 보호구 보관\n[SUMMARY] 외국인 근로자를 위한 안전보건 OPL(중국어, 네팔어, 몽골어, 미얀마어, 방글라데시어, 베트남어, 스리랑카어, 우즈베키스탄어, 인도네시아어, 캄보디아어, 태국어, 파키스탄어)",
+      "query": [
+        "호흡 보호구 보관",
+        "호흡용 보호구를 사용 후 어떻게 보관해야 하는지 찾고 있어요",
+        "보호구 호흡용 보호구 보관"
+      ]
+    },
+    {
+      "record_id": "list1_37309",
+      "concat": "[TITLE] (직종) 농업 및 임업 ATV(4륜 구동 오토바이) 운전자\n[SUMMARY] 외국인 근로자를 위한 안전보건 매뉴얼(13개언어-중국어, 네팔어, 몽골어, 미얀마어, 방글라데시어, 베트남어, 스리랑카어, 우즈베키스탄어, 인도네시아어, 캄보디아어, 태국어, 파키스탄어)",
+      "query": [
+        "ATV 운전자 안전",
+        "농업이나 임업에서 4륜 오토바이를 운전할 때 필요한 안전수칙",
+        "직종 농업 임업 ATV 4륜 구동 오토바이 운전자"
+      ]
+    },
+    {
+      "record_id": "list1_37742",
+      "concat": "[TITLE] 고소작업대 중대재해 사례(붐 인출용 와이어로프 파단으로 떨어짐) OPL\n[SUMMARY] 고소작업대 중대재해 사례(붐 인출용 와이어로프 파단으로 떨어짐) 및 재해예방대책 OPL",
+      "query": [
+        "고소작업대 추락 사고",
+        "고소작업대 와이어로프가 끊어져 떨어진 사고 사례와 예방법",
+        "고소작업대 중대재해 사례 붐 인출용 와이어로프 파단 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37741",
+      "concat": "[TITLE] 고소작업대 중대재해 사례(붐 파단으로 떨어짐 등) OPL\n[SUMMARY] 고소작업대 중대재해 사례(붐 파단으로 떨어짐 등) 및 예방대책 OPL",
+      "query": [
+        "고소작업대 붐 파단",
+        "고소작업대 붐이 부러져 떨어지는 사고 사례와 예방대책",
+        "고소작업대 중대재해 사례 붐 파단 떨어짐 예방대책 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_36829",
+      "concat": "[TITLE] 5대 건설기계장비 안전점검표(트럭류)\n[SUMMARY] 5대 건설기계장비 재해예방을 위한 안전점검표(체크리스트) 리플렛 제작 배포 - 지게차",
+      "query": [
+        "트럭 안전점검표",
+        "건설현장에서 트럭류 장비를 점검할 때 쓰는 체크리스트",
+        "건설기계장비 안전점검표 트럭류"
+      ]
+    },
+    {
+      "record_id": "list1_37289",
+      "concat": "[TITLE] (설비별) 공기압축기\n[SUMMARY] 외국인 근로자를 위한 안전보건 OPL(중국어, 네팔어, 몽골어, 미얀마어, 방글라데시어, 베트남어, 스리랑카어, 우즈베키스탄어, 인도네시아어, 캄보디아어, 태국어, 파키스탄어)",
+      "query": [
+        "공기압축기 안전",
+        "공기압축기를 사용할 때 외국인 근로자가 알아야 할 안전보건 자료",
+        "설비별 공기압축기 외국인 근로자 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_37259",
+      "concat": "[TITLE] 차량계 하역운반기계 작업\n[SUMMARY] 차량계 하역운반기계 작업 (중국어, 네팔어, 몽골어, 미얀마어, 방글라데시어, 베트남어, 스리랑카어, 우즈베키스탄어, 인도네시아어, 캄보디아어, 태국어, 파키스탄어)",
+      "query": [
+        "하역운반기계 작업",
+        "차량으로 짐을 싣고 나르는 작업에서 필요한 안전수칙",
+        "차량계 하역운반기계 작업"
+      ]
+    },
+    {
+      "record_id": "list1_37274",
+      "concat": "[TITLE] 일반 작업용 리프트\n[SUMMARY] 일반 작업용 리프트 (중국어, 네팔어, 몽골어, 미얀마어, 방글라데시어, 베트남어, 스리랑카어, 우즈베키스탄어, 인도네시아어, 캄보디아어, 태국어, 파키스탄어)",
+      "query": [
+        "작업용 리프트",
+        "일반 작업용 리프트를 사용할 때 필요한 안전수칙",
+        "일반 작업용 리프트"
+      ]
+    },
+    {
+      "record_id": "list1_36826",
+      "concat": "[TITLE] 5대 건설기계장비 안전점검표(지게차)\n[SUMMARY] 건설기계장비 재해예방을 위한 안전점검표(체크리스트) 리플렛 제작 배포 - 4종",
+      "query": [
+        "지게차 안전점검표",
+        "건설현장에서 지게차를 점검할 때 쓰는 체크리스트",
+        "건설기계장비 안전점검표 지게차"
+      ]
+    },
+    {
+      "record_id": "list1_36824",
+      "concat": "[TITLE] 5대 건설기계장비 안전점검표(굴삭기)\n[SUMMARY] 건설기계장비 재해예방을 위한 안전점검표(체크리스트) 리플렛을 제작하여 건설현장 등 배포 - 5종(굴삭기, 트럭류, 이동식크레인, 고소작업대, 지게차",
+      "query": [
+        "굴삭기 안전점검표",
+        "건설현장에서 굴삭기를 점검할 때 쓰는 체크리스트",
+        "건설기계장비 안전점검표 굴삭기"
+      ]
+    }
+  ]
+}

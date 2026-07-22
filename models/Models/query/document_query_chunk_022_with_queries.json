@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 22,
+  "items": [
+    {
+      "record_id": "list1_50710",
+      "concat": "[TITLE] (필리핀)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 가공설비 안전",
+        "필리핀 근로자에게 설명할 가공설비 사망사고 위험요인 자료",
+        "필리핀 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50727",
+      "concat": "[TITLE] (파키스탄)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 가공설비 안전",
+        "파키스탄 근로자에게 설명할 가공설비 사망사고 위험요인 자료",
+        "파키스탄 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50730",
+      "concat": "[TITLE] (타지키스탄)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 가공설비 안전",
+        "타지키스탄 근로자에게 설명할 가공설비 사망사고 위험요인 자료",
+        "타지키스탄 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50715",
+      "concat": "[TITLE] [현장실습 전, 이것만은 꼭!] 조선업 안전 가이드\n[SUMMARY] [현장실습 전, 이것만은 꼭!] 조선업 안전 가이드 OPS - 예비산업인력을 위한 현장실습 전 작업장 위험 요소에 따른 예방 대책 빈칸 채우기 (학습지 자료)",
+      "query": [
+        "조선업 현장실습 안전",
+        "실습 나가기 전에 조선소 작업장 위험을 배우는 자료",
+        "현장실습 전 이것만은 꼭 조선업 안전 가이드 OPS 예비산업인력 학습지"
+      ]
+    },
+    {
+      "record_id": "list1_50751",
+      "concat": "[TITLE] (파키스탄)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 질식사고 안전수칙",
+        "파키스탄어로 된 질식사고 예방 안전수칙 자료",
+        "파키스탄 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50728",
+      "concat": "[TITLE] (우즈베키스탄)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 가공설비 안전",
+        "우즈베키스탄 근로자에게 설명할 가공설비 사망사고 위험요인 자료",
+        "우즈베키스탄 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50752",
+      "concat": "[TITLE] (라오스)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 질식사고 안전수칙",
+        "라오스어로 된 질식사고 예방 안전수칙 자료",
+        "라오스 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50729",
+      "concat": "[TITLE] (키르기스스탄)가공설비 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 가공설비 안전",
+        "키르기스스탄 근로자에게 설명할 가공설비 사망사고 위험요인 자료",
+        "키르기스스탄 가공설비 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50753",
+      "concat": "[TITLE] (우즈베키스탄)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 질식사고 안전수칙",
+        "우즈베키스탄어로 된 질식사고 예방 안전수칙 자료",
+        "우즈베키스탄 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50754",
+      "concat": "[TITLE] (태국)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "태국 질식사고 안전수칙",
+        "태국어로 된 질식사고 예방 안전수칙 자료",
+        "태국 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50755",
+      "concat": "[TITLE] (베트남)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 질식사고 안전수칙",
+        "베트남어로 된 질식사고 예방 안전수칙 자료",
+        "베트남 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50756",
+      "concat": "[TITLE] (몽골)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "몽골 질식사고 안전수칙",
+        "몽골어로 된 질식사고 예방 안전수칙 자료",
+        "몽골 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50758",
+      "concat": "[TITLE] (방글라데시)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "방글라데시 질식사고 안전수칙",
+        "방글라데시 근로자에게 설명할 질식사고 예방 안전수칙 자료",
+        "방글라데시 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50760",
+      "concat": "[TITLE] (타지키스탄)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 질식사고 안전수칙",
+        "타지키스탄어로 된 질식사고 예방 안전수칙 자료",
+        "타지키스탄 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50761",
+      "concat": "[TITLE] (영어)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "영어 질식사고 안전수칙",
+        "외국인에게 영어로 설명할 질식사고 예방 수칙 자료",
+        "영어 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50757",
+      "concat": "[TITLE] (중국)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 질식사고 안전수칙",
+        "중국어로 된 질식사고 예방 안전수칙 자료",
+        "중국 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50759",
+      "concat": "[TITLE] (키르기스스탄)질식사고 예방 3대 안전수칙 OPS\n[SUMMARY] 질식사고 예방 3대 안전수칙을 18개 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 질식사고 안전수칙",
+        "키르기스스탄어로 된 질식사고 예방 안전수칙 자료",
+        "키르기스스탄 질식사고 예방 3대 안전수칙 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50771",
+      "concat": "[TITLE] 유류저장용기 절단작업 OPS\n[SUMMARY] 유류저장용기 절단작업 OPS",
+      "query": [
+        "기름통 절단 안전",
+        "기름 저장 용기를 자를 때 폭발이나 화재를 막는 안전자료",
+        "유류저장용기 절단작업 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50797",
+      "concat": "[TITLE] 지하 작업장에서 용접용단 작업 시 화재폭발 예방 안전수칙\n[SUMMARY] 지하 작업장에서 용접용단 작업 시 화재폭발 예방 안전수칙",
+      "query": [
+        "지하 용접 화재폭발",
+        "지하 작업장에서 용접이나 절단 작업할 때 화재 폭발을 막는 안전수칙",
+        "지하 작업장 용접용단 작업 화재폭발 예방 안전수칙"
+      ]
+    },
+    {
+      "record_id": "list1_50802",
+      "concat": "[TITLE] 물질안전보건자료(MSDS) 작성 및 제공 제도 안내\n[SUMMARY] 유통업체의 물질안전보건자료(MSDS) 작성 및 제공 제도 안내 OPS",
+      "query": [
+        "MSDS 작성 제공",
+        "유통업체가 물질안전보건자료를 작성하고 제공해야 하는 제도 안내",
+        "물질안전보건자료 MSDS 작성 제공 제도 안내 유통업체 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50829",
+      "concat": "[TITLE] 키메세지(17호_폭발)\n[SUMMARY] [사회이슈] 폭발 사고 예방대책 및 관련 콘텐츠 안내 등",
+      "query": [
+        "폭발 사고 예방",
+        "폭발 사고를 막기 위한 예방대책과 관련 자료 안내",
+        "키메세지 폭발 사고 예방대책 관련 콘텐츠 안내"
+      ]
+    },
+    {
+      "record_id": "list1_50798",
+      "concat": "[TITLE] 전기스팀보일러 안전사용\n[SUMMARY] 전기스팀보일러 안전사용",
+      "query": [
+        "전기스팀보일러 안전",
+        "전기로 쓰는 스팀보일러를 안전하게 사용하는 방법",
+        "전기스팀보일러 안전사용"
+      ]
+    },
+    {
+      "record_id": "list1_50775",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 동영상 VR 콘텐츠 목록\n[SUMMARY] 안전보건공단 VR 콘텐츠 목록 QR로 확인하세요! 소개된 목록은 일부이며, 더 많은 VR콘텐츠는 VR전용관에서 확인하실 수 있습니다.",
+      "query": [
+        "VR 안전 콘텐츠",
+        "안전보건공단에서 볼 수 있는 동영상 VR 안전교육 콘텐츠 목록",
+        "VR 콘텐츠 미리보기 동영상 VR 콘텐츠 목록 안전보건공단 QR VR전용관"
+      ]
+    },
+    {
+      "record_id": "list1_50830",
+      "concat": "[TITLE] 안전한 일터 프로젝트(12대 핵심 안전수칙 및 체크리스트)\n[SUMMARY] 안전한 일터 프로젝트의 12대 핵심 안전수칙 및 체크리스트(5대 중대재해+폭염 핵심 확인사항)",
+      "query": [
+        "일터 안전수칙 체크리스트",
+        "중대재해와 폭염을 확인할 수 있는 작업장 안전 체크리스트",
+        "안전한 일터 프로젝트 12대 핵심 안전수칙 체크리스트 5대 중대재해 폭염 핵심 확인사항"
+      ]
+    },
+    {
+      "record_id": "list1_50776",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 사진 VR 콘텐츠 목록\n[SUMMARY] 안전보건공단 VR 콘텐츠 목록 QR로 확인하세요! 소개된 목록은 일부이며, 더 많은 VR콘텐츠는 VR전용관에서 확인하실 수 있습니다.",
+      "query": [
+        "VR 안전 사진",
+        "안전보건공단에서 볼 수 있는 사진 VR 안전교육 콘텐츠 목록",
+        "VR 콘텐츠 미리보기 사진 VR 콘텐츠 목록 안전보건공단 QR VR전용관"
+      ]
+    },
+    {
+      "record_id": "list1_50328",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 예초조경작업 OPS\n[SUMMARY] 2024년도 VR 예초조경작업 콘텐츠 속 핵심 내용을 담았습니다. 예초조경작업의 유해·위험요인과 안전수칙을 확인하세요. - 벌쏘임 후 사다리 떨어짐 재해 -VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1256&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "예초 조경 안전",
+        "예초나 조경 작업 중 벌쏘임과 사다리 사고를 다룬 VR 안전자료",
+        "VR 콘텐츠 미리보기 예초조경작업 OPS 벌쏘임 사다리 떨어짐 재해"
+      ]
+    },
+    {
+      "record_id": "list1_50329",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 지게차 재해사례 OPS\n[SUMMARY] 2024년도 VR 지게차 재해사례 콘텐츠 속 핵심 내용을 담았습니다. 물류센터 지게차 작업의 유해·위험요인과 안전수칙을 확인하세요. - 지게차 부딪힘, 떨어짐, 끼임 재해사례 -VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1280&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "지게차 사고 안전",
+        "물류센터 지게차 작업 중 부딪힘 떨어짐 끼임 사고를 배우는 VR 자료",
+        "VR 콘텐츠 미리보기 지게차 재해사례 OPS 물류센터 부딪힘 떨어짐 끼임"
+      ]
+    },
+    {
+      "record_id": "list1_50330",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 조선업 떨어짐 재해사례 OPS\n[SUMMARY] 2024년도 VR 조선업 떨어짐 재해사례 콘텐츠 속 핵심 내용을 담았습니다. 사다리 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 사다리 넘어짐 방지(고박) 조치 미실시 및 3타점 미준수 떨어짐 · 블록 상부 작업 단부 안전난간 미설치 및 안전대 미착용 떨어짐 · 블록 내부 조도 불량, 개구부 덮개 미설치 떨어짐 -VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1281&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "조선업 떨어짐 사고",
+        "조선소 사다리나 블록 작업에서 떨어짐 사고를 예방하는 VR 안전자료",
+        "VR 콘텐츠 미리보기 조선업 떨어짐 재해사례 OPS 사다리 블록 안전난간 안전대"
+      ]
+    },
+    {
+      "record_id": "list1_50331",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 조선업 동시 혼재 작업 OPS\n[SUMMARY] 2024년도 VR 조선업 동시·혼재 작업 콘텐츠 속 핵심 내용을 담았습니다. 조선업 동시동시·혼재 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 크레인 이용 중량물 이송 시 하부통제 미실시 깔림 · 상부 비계 해체작업 하부 사상작업 동시 실시 맞음 · 선박 내부 용접 및 도장중비 작업 동시 실시 화재 -VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1282&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "조선업 혼재작업 안전",
+        "조선소에서 여러 작업을 동시에 할 때 깔림 맞음 화재 위험을 설명한 VR 자료",
+        "VR 콘텐츠 미리보기 조선업 동시 혼재 작업 OPS 크레인 비계 용접 도장 화재"
+      ]
+    },
+    {
+      "record_id": "list1_50333",
+      "concat": "[TITLE] [VR 콘텐츠 미리보기] 건설업 안전난간 임의해체 떨어짐 OPS\n[SUMMARY] 2024년도 VR 건설업 안전난간 임의해체 떨어짐 콘텐츠 속 핵심 내용을 담았습니다. 건설업 중량물 권상 작업의 유해·위험요인과 안전수칙을 확인하세요. ○ 위험 요소 · 개인보호구 미착용, 위험구역 내 출입금지 미실시로 낙하물 맞음 위험 · 안전난간 임의해체 및 안전대 미체결로 떨어짐 위험 -VR 영상 링크 : https://360vr.kosha.or.kr/contentDetail?contSq=1285&cateSq=8&subCateSq=0&codeId=mc01,mc02,mc03,mc04&sortOrder=createOrder",
+      "query": [
+        "건설 안전난간 추락",
+        "건설현장에서 안전난간을 임의로 해체해 떨어지는 사고를 다룬 VR 자료",
+        "VR 콘텐츠 미리보기 건설업 안전난간 임의해체 떨어짐 OPS 중량물 권상 낙하물 안전대"
+      ]
+    }
+  ]
+}

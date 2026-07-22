@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 89,
+  "items": [
+    {
+      "record_id": "list1_34505",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_염산\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "염산 사고 예방",
+        "염산을 다룰 때 화재나 누출을 막는 방법",
+        "화재폭발누출 사고예방 염산 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34507",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_암모니아수\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "암모니아수 누출",
+        "암모니아수를 취급할 때 사고를 예방하는 자료",
+        "화재폭발누출 사고예방 암모니아수 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34503",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_디이소프로필 퍼옥시디카보네이트\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "과산화물 사고 예방",
+        "디이소프로필 퍼옥시디카보네이트 취급 시 화재나 누출 예방",
+        "화재폭발누출 사고예방 디이소프로필 퍼옥시디카보네이트 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34506",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_황산\n[SUMMARY] 유해위험물질 취급관리 - 황산",
+      "query": [
+        "황산 취급 안전",
+        "황산을 사용할 때 화재 폭발 누출을 예방하는 방법",
+        "화재폭발누출 사고예방 황산 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34504",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_불산\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "불산 누출 안전",
+        "불산을 취급할 때 사고를 막기 위한 안전자료",
+        "화재폭발누출 사고예방 불산 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34508",
+      "concat": "[TITLE] [중대재해_기계기구]_천장크레인 수리 작업 중 끼임\n[SUMMARY] [중대재해_기계기구]_천장크레인 수리 작업 중 끼임 : 중대재해사례 OPL",
+      "query": [
+        "천장크레인 수리 끼임",
+        "천장크레인을 고치다가 끼인 중대사고 사례",
+        "중대재해 기계기구 천장크레인 수리 작업 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34492",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_삼불화 붕소\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "삼불화 붕소 안전",
+        "삼불화 붕소 취급 중 화재나 누출 사고 예방",
+        "화재폭발누출 사고예방 삼불화 붕소 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34491",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_메틸에틸케톤과산화물\n[SUMMARY] 유해위험물질 취급관리 - 메틸에틸케톤 과산화물",
+      "query": [
+        "메틸에틸케톤과산화물 안전",
+        "메틸에틸케톤 과산화물 취급 사고 예방 자료",
+        "화재폭발누출 사고예방 메틸에틸케톤과산화물 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34490",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_붕소 트리염화물\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "붕소 트리염화물 누출",
+        "붕소 트리염화물을 취급할 때 사고를 예방하는 방법",
+        "화재폭발누출 사고예방 붕소 트리염화물 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34545",
+      "concat": "[TITLE] [중대재해_기타제조]_비닐 성형 인쇄 작업 중 전동기 절연파괴로 감전\n[SUMMARY] 비닐 성형 인쇄 작업 중 전동기 절연파괴로 감전 중대재해사례 OPL",
+      "query": [
+        "비닐 인쇄 감전",
+        "비닐 성형 인쇄 작업 중 전동기 문제로 감전된 사고 사례",
+        "중대재해 기타제조 비닐 성형 인쇄 작업 전동기 절연파괴 감전 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34580",
+      "concat": "[TITLE] [중대재해_건설업]_교량 강선 인장작업 중 고소작업대 넘어짐\n[SUMMARY] 교량 강선 인장작업 중대재해사례 OPL",
+      "query": [
+        "교량 고소작업대 넘어짐",
+        "교량에서 강선 인장 작업 중 고소작업대가 넘어진 사고",
+        "중대재해 건설업 교량 강선 인장작업 고소작업대 넘어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34579",
+      "concat": "[TITLE] [중대재해_건설업]_전주 현수애자 교체작업 중 충전부에 접촉\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "전주 작업 감전",
+        "전주에서 애자를 교체하다가 충전부에 닿은 사고",
+        "중대재해 건설업 전주 현수애자 교체작업 충전부 접촉 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34578",
+      "concat": "[TITLE] [중대재해_건설업]_고소작업대 상승 작업 중 천장 부분에서 끼임\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "고소작업대 천장 끼임",
+        "고소작업대를 올리다가 천장 부분에 끼인 사고",
+        "중대재해 건설업 고소작업대 상승 작업 천장 부분 끼임 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34509",
+      "concat": "[TITLE] [중대재해_기계기구]_체인블록 사용 작업 중 떨어진 중량물에 맞음\n[SUMMARY] 중대재해사례 OPL - 체인블록 사용 작업 중 떨어진 중량물에 맞음",
+      "query": [
+        "체인블록 중량물 사고",
+        "체인블록으로 작업하다가 떨어진 중량물에 맞은 사례",
+        "중대재해 기계기구 체인블록 사용 작업 떨어진 중량물 맞음 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34493",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_니트로아닐린\n[SUMMARY] [화재폭발누출 사고예방]_니트로아닐린 : 유해위험물질 취급관리",
+      "query": [
+        "니트로아닐린 안전",
+        "니트로아닐린을 취급할 때 화재나 누출을 예방하는 자료",
+        "화재폭발누출 사고예방 니트로아닐린 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34494",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_염소 트리플루오르화물\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "염소 트리플루오르화물 안전",
+        "염소 트리플루오르화물 취급 중 사고를 예방하는 방법",
+        "화재폭발누출 사고예방 염소 트리플루오르화물 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34499",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_과산화벤조일\n[SUMMARY] [화재폭발누출 사고예방]과산화벤조일유해위험물질 취급관리",
+      "query": [
+        "과산화벤조일 사고 예방",
+        "과산화벤조일을 다룰 때 화재 폭발 누출을 막는 자료",
+        "화재폭발누출 사고예방 과산화벤조일 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34500",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_과염소산 암모늄\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "과염소산 암모늄 안전",
+        "과염소산 암모늄 취급 시 사고 예방 자료",
+        "화재폭발누출 사고예방 과염소산 암모늄 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34497",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_질소 트리풀루오르화물\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "질소 트리풀루오르화물 안전",
+        "질소 트리풀루오르화물 취급 중 화재나 누출 예방",
+        "화재폭발누출 사고예방 질소 트리풀루오르화물 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34498",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_니트로 셀롤로오스\n[SUMMARY] 유해위험물질 취급관리, 니트로 셀롤로오스",
+      "query": [
+        "니트로 셀롤로오스 안전",
+        "니트로 셀롤로오스를 취급할 때 사고를 예방하는 자료",
+        "화재폭발누출 사고예방 니트로 셀롤로오스 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34496",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_시아누르 플루오르화물\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "시아누르 플루오르화물 안전",
+        "시아누르 플루오르화물 취급 중 사고 예방 방법",
+        "화재폭발누출 사고예방 시아누르 플루오르화물 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34495",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_불소\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "불소 누출 안전",
+        "불소를 취급할 때 화재 폭발 누출을 예방하는 방법",
+        "화재폭발누출 사고예방 불소 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34501",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_디클로로실란\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "디클로로실란 사고 예방",
+        "디클로로실란 취급 중 화재나 누출을 막는 자료",
+        "화재폭발누출 사고예방 디클로로실란 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34502",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_디에틸 알루미늄 염화물\n[SUMMARY] 유해위험물질 취급관리를 위한 리플릿",
+      "query": [
+        "디에틸 알루미늄 염화물 안전",
+        "디에틸 알루미늄 염화물을 취급할 때 사고 예방 자료",
+        "화재폭발누출 사고예방 디에틸 알루미늄 염화물 유해위험물질 취급관리 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_34581",
+      "concat": "[TITLE] [중대재해_건설업]_철골빔 상부에서 볼트 체결작업 중 떨어짐\n[SUMMARY] 중대재해사례 OPL - 철골빔 상부에서 볼트 체결작업 중 떨어짐",
+      "query": [
+        "철골빔 추락 사고",
+        "철골빔 위에서 볼트 체결하다가 떨어진 사고 사례",
+        "중대재해 건설업 철골빔 상부 볼트 체결작업 떨어짐 중대재해사례 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34481",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_톨루엔디이소시아네이트\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "톨루엔디이소시아네이트 안전",
+        "톨루엔디이소시아네이트 취급 중 사고 예방 자료",
+        "화재폭발누출 사고예방 톨루엔디이소시아네이트 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34479",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_발연황산\n[SUMMARY] 유해위험물질 취급관리 - 발연황산",
+      "query": [
+        "발연황산 취급 안전",
+        "발연황산을 다룰 때 화재나 누출을 예방하는 방법",
+        "화재폭발누출 사고예방 발연황산 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34478",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_질산\n[SUMMARY] [화재폭발누출 사고예방]_질산 : 유해위험물질 취급관리",
+      "query": [
+        "질산 누출 안전",
+        "질산을 취급할 때 사고를 예방하는 자료",
+        "화재폭발누출 사고예방 질산 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34480",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_과산화수소\n[SUMMARY] 유해위험물질 취급관리",
+      "query": [
+        "과산화수소 사고 예방",
+        "과산화수소 취급 중 화재 폭발 누출을 막는 자료",
+        "화재폭발누출 사고예방 과산화수소 유해위험물질 취급관리"
+      ]
+    },
+    {
+      "record_id": "list1_34483",
+      "concat": "[TITLE] [화재폭발누출 사고예방]_브롬화수소\n[SUMMARY] 유해위험물질 취급관리, 브롬화수소",
+      "query": [
+        "브롬화수소 누출",
+        "브롬화수소를 취급할 때 사고를 예방하는 방법",
+        "화재폭발누출 사고예방 브롬화수소 유해위험물질 취급관리"
+      ]
+    }
+  ]
+}

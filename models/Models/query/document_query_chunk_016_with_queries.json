@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 16,
+  "items": [
+    {
+      "record_id": "list1_50502",
+      "concat": "[TITLE] (스리랑카)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 높은 곳 사고",
+        "스리랑카 언어로 된 높은 곳 작업 중 추락 같은 사망사고 위험을 설명한 안전자료",
+        "스리랑카 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50500",
+      "concat": "[TITLE] (키르기스스탄)비정형 작업(청소) 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 청소 작업 사고",
+        "키르기스스탄 언어로 된 청소 작업 중 갑자기 생길 수 있는 사망사고 위험 안내자료",
+        "키르기스스탄 비정형 작업 청소 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50504",
+      "concat": "[TITLE] (라오스)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 높은 곳 사고",
+        "라오스 언어로 된 높은 곳 작업 중 추락 같은 사망사고 위험을 설명한 안전자료",
+        "라오스 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50503",
+      "concat": "[TITLE] (파키스탄)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 높은 곳 사고",
+        "파키스탄 언어로 된 높은 곳 작업 중 추락 같은 사망사고 위험을 설명한 안전자료",
+        "파키스탄 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50506",
+      "concat": "[TITLE] (베트남)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 높은 곳 사고",
+        "베트남 언어로 된 높은 곳 작업 중 추락 같은 사망사고 위험을 설명한 안전자료",
+        "베트남 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50531",
+      "concat": "[TITLE] (중국)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 상하차 화물 사고",
+        "중국 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "중국 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50505",
+      "concat": "[TITLE] (우즈베키스탄)높은 장소 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 높은 곳 사고",
+        "우즈베키스탄 언어로 된 높은 곳 작업 중 추락 같은 사망사고 위험을 설명한 안전자료",
+        "우즈베키스탄 높은 장소 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50532",
+      "concat": "[TITLE] (키르기스스탄)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 상하차 화물 사고",
+        "키르기스스탄 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "키르기스스탄 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50533",
+      "concat": "[TITLE] (타지키스탄)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 상하차 화물 사고",
+        "타지키스탄 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "타지키스탄 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50535",
+      "concat": "[TITLE] (동티모르)위험물질 취급 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 위험물질 사고",
+        "동티모르 언어로 위험물질을 다룰 때 큰 사고를 막기 위해 보는 안전자료",
+        "동티모르 위험물질 취급 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50534",
+      "concat": "[TITLE] (네팔)위험물질 취급 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 위험물질 사고",
+        "네팔 언어로 위험물질을 다룰 때 큰 사고를 막기 위해 보는 안전자료",
+        "네팔 위험물질 취급 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50536",
+      "concat": "[TITLE] (미얀마)위험물질 취급 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 위험물질 사고",
+        "미얀마 언어로 위험물질을 다룰 때 큰 사고를 막기 위해 보는 안전자료",
+        "미얀마 위험물질 취급 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50538",
+      "concat": "[TITLE] (캄보디아)위험물질 취급 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 위험물질 사고",
+        "캄보디아 언어로 위험물질을 다룰 때 큰 사고를 막기 위해 보는 안전자료",
+        "캄보디아 위험물질 취급 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50537",
+      "concat": "[TITLE] (필리핀)위험물질 취급 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 위험물질 사고",
+        "필리핀 언어로 위험물질을 다룰 때 큰 사고를 막기 위해 보는 안전자료",
+        "필리핀 위험물질 취급 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50539",
+      "concat": "[TITLE] (우즈베키스탄)위험물질 취급 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "우즈베키스탄 위험물질 사고",
+        "우즈베키스탄 언어로 위험물질을 다룰 때 큰 사고를 막기 위해 보는 안전자료",
+        "우즈베키스탄 위험물질 취급 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50540",
+      "concat": "[TITLE] (방글라데시)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "방글라데시 이동 운반 사고",
+        "방글라데시 언어로 작업장 이동이나 사람이 물건을 옮길 때 사고 위험을 알려주는 자료",
+        "방글라데시 작업장 이동 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50541",
+      "concat": "[TITLE] (키르기스스탄)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "키르기스스탄 이동 운반 사고",
+        "키르기스스탄 언어로 작업장 이동이나 사람이 물건을 옮길 때 사고 위험을 알려주는 자료",
+        "키르기스스탄 작업장 이동 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50519",
+      "concat": "[TITLE] (몽골)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "몽골 이동 운반 사고",
+        "몽골 언어로 작업장 이동이나 사람이 물건을 옮길 때 사고 위험을 알려주는 자료",
+        "몽골 작업장 이동 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50542",
+      "concat": "[TITLE] (네팔)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "네팔 상하차 화물 사고",
+        "네팔 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "네팔 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50520",
+      "concat": "[TITLE] (중국)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "중국 이동 운반 사고",
+        "중국 언어로 작업장 이동이나 사람이 물건을 옮길 때 사고 위험을 알려주는 자료",
+        "중국 작업장 이동 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50521",
+      "concat": "[TITLE] (타지키스탄)작업장 이동 및 인력운반 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "타지키스탄 이동 운반 사고",
+        "타지키스탄 언어로 작업장 이동이나 사람이 물건을 옮길 때 사고 위험을 알려주는 자료",
+        "타지키스탄 작업장 이동 인력운반 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50524",
+      "concat": "[TITLE] (필리핀)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "필리핀 상하차 화물 사고",
+        "필리핀 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "필리핀 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50523",
+      "concat": "[TITLE] (스리랑카)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "스리랑카 상하차 화물 사고",
+        "스리랑카 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "스리랑카 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50522",
+      "concat": "[TITLE] (미얀마)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "미얀마 상하차 화물 사고",
+        "미얀마 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "미얀마 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50525",
+      "concat": "[TITLE] (캄보디아)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "캄보디아 상하차 화물 사고",
+        "캄보디아 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "캄보디아 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50526",
+      "concat": "[TITLE] (파키스탄)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "파키스탄 상하차 화물 사고",
+        "파키스탄 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "파키스탄 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50527",
+      "concat": "[TITLE] (라오스)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "라오스 상하차 화물 사고",
+        "라오스 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "라오스 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50529",
+      "concat": "[TITLE] (베트남)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "베트남 상하차 화물 사고",
+        "베트남 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "베트남 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50544",
+      "concat": "[TITLE] (인도네시아)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "인도네시아 상하차 화물 사고",
+        "인도네시아 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "인도네시아 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    },
+    {
+      "record_id": "list1_50543",
+      "concat": "[TITLE] (동티모르)적재된 화물 및 상하차 작업 사망사고 유발 고위험요인(SIF)\n[SUMMARY] 사망사고 유발 고위험요인(SIF) 17종을 17개국 언어로 번역한 OPS 자료입니다.",
+      "query": [
+        "동티모르 상하차 화물 사고",
+        "동티모르 언어로 화물을 싣고 내리거나 쌓아둔 화물 때문에 생기는 사고 위험 자료",
+        "동티모르 적재된 화물 상하차 작업 사망사고 유발 고위험요인 SIF OPS"
+      ]
+    }
+  ]
+}

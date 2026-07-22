@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 178,
+  "items": [
+    {
+      "record_id": "list3_34716",
+      "concat": "[TITLE] 주물 및 단조작업\n[SUMMARY] 주물 및 단조작업교재",
+      "query": [
+        "주물 단조 작업",
+        "쇳물 붓거나 금속 두드리는 작업 안전 교육 자료",
+        "주물 단조작업 교재"
+      ]
+    },
+    {
+      "record_id": "list3_34728",
+      "concat": "[TITLE] 안전가시설 작업\n[SUMMARY] 안전가시설 작업 관련 교재임",
+      "query": [
+        "가시설 작업 안전",
+        "공사장에서 임시로 설치하는 안전시설 작업 교육 자료",
+        "안전가시설 작업 교재"
+      ]
+    },
+    {
+      "record_id": "list3_34730",
+      "concat": "[TITLE] 현장 작업자를 위한 철골작업 안전\n[SUMMARY] 현장 작업자를 위한 철골작업 안전에 대한 교육 교재",
+      "query": [
+        "철골 작업 안전",
+        "현장에서 철골 세우는 작업자 안전 교육 자료",
+        "현장 작업자 철골작업 안전 교육 교재"
+      ]
+    },
+    {
+      "record_id": "list3_34476",
+      "concat": "[TITLE] 작업환경측정에 있어서 위험성평가 기법 적용에 관한 연구\n[SUMMARY] 작업환경측정 결과를 활용하여 작업환경개선으로 이어지게 함으로써 근로자의 건강관리 및 증진에 이바지하고자 함.",
+      "query": [
+        "작업환경측정 위험성평가",
+        "작업환경 측정 결과로 위험도를 평가하고 개선하는 연구 자료",
+        "작업환경측정 위험성평가 기법 적용 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34433",
+      "concat": "[TITLE] 외국인 근로자를 위한 산업안전보건법(방글라데시어)\n[SUMMARY] 외국인 근로자를 위한 산업안전보건법(방글라데시어) 책자입니다.",
+      "query": [
+        "방글라데시어 안전보건법",
+        "방글라데시 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인 근로자 산업안전보건법 방글라데시어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34438",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(몽골어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(몽골어) 책자입니다",
+      "query": [
+        "몽골어 안전보건법",
+        "몽골 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 몽골어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34437",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(인도네시아어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(인도네시아어) 책자입니다",
+      "query": [
+        "인도네시아어 안전보건법",
+        "인도네시아 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 인도네시아어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34453",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(스리랑카어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(스리랑카어) 책자 입니다.",
+      "query": [
+        "스리랑카어 보호구",
+        "스리랑카 출신 노동자에게 개인 보호장비를 설명하는 자료",
+        "외국인근로자 개인보호구 스리랑카어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34436",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(중국어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(중국어) 책자 입니다",
+      "query": [
+        "중국어 안전보건법",
+        "중국어로 된 외국인 노동자 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 중국어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34439",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(파키스탄어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(파키스탄어)",
+      "query": [
+        "파키스탄어 안전보건법",
+        "파키스탄 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 파키스탄어"
+      ]
+    },
+    {
+      "record_id": "list3_34447",
+      "concat": "[TITLE] 외국인근로자를 위한 개인보호구(영어)\n[SUMMARY] 외국인근로자를 위한 개인보호구(영어)",
+      "query": [
+        "영어 개인보호구",
+        "외국인 노동자에게 보호장비 사용을 영어로 설명한 자료",
+        "외국인근로자 개인보호구 영어"
+      ]
+    },
+    {
+      "record_id": "list3_34446",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(네팔어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(네팔어) 책자입니다.",
+      "query": [
+        "네팔어 안전보건법",
+        "네팔 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 네팔어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34440",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(스리랑카어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(스리랑카어) 책자 입니다.",
+      "query": [
+        "스리랑카어 안전보건법",
+        "스리랑카 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 스리랑카어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34443",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(베트남어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(베트남어) 책자입니다.",
+      "query": [
+        "베트남어 안전보건법",
+        "베트남 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 베트남어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34445",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(미얀마어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(미얀마어) 책자 입니다.",
+      "query": [
+        "미얀마어 안전보건법",
+        "미얀마 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 미얀마어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34444",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(캄보디아어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(캄보디아어) 책자입니다",
+      "query": [
+        "캄보디아어 안전보건법",
+        "캄보디아 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 캄보디아어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34442",
+      "concat": "[TITLE] 외국인근로자를 위한 산업안전보건법(우즈벡어)\n[SUMMARY] 외국인근로자를 위한 산업안전보건법(우즈벡어) 책자 입니다",
+      "query": [
+        "우즈벡어 안전보건법",
+        "우즈벡 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인근로자 산업안전보건법 우즈벡어 책자"
+      ]
+    },
+    {
+      "record_id": "list3_34426",
+      "concat": "[TITLE] 외국인 근로자를 위한 산업안전보건법(필리핀)\n[SUMMARY] 외국인근로자를위한 산업안전 보건법 책자 파일 입니다",
+      "query": [
+        "필리핀 안전보건법",
+        "필리핀 출신 노동자가 볼 수 있는 산업 안전 법 안내 자료",
+        "외국인 근로자 산업안전보건법 필리핀 책자"
+      ]
+    },
+    {
+      "record_id": "list3_31801",
+      "concat": "[TITLE] 직종별 직업건강 가이드라인\n[SUMMARY] 직업활동에서 필연적으로 발생할 수 있는 유해,위험요인 등에 관한 포괄적인 관리방안 제시 등",
+      "query": [
+        "직업건강 가이드",
+        "일하면서 생기는 유해 위험요인을 직종별로 관리하는 방법 자료",
+        "직종별 직업건강 가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_31774",
+      "concat": "[TITLE] 매장판매종사자의 직업건강가이드라인\n[SUMMARY] 각 직종별로 직업활동을 통패 필연적으로 발생할 수 있는 유해,위험을 큰 틀에서 관리하고.. 문화적인 접근방법을 제시하기 위함.",
+      "query": [
+        "매장판매 건강관리",
+        "매장에서 판매하는 직원의 직업 건강 위험을 관리하는 자료",
+        "매장판매종사자 직업건강가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_30857",
+      "concat": "[TITLE] 석면함유 건축물 유지관리방법\n[SUMMARY] 고용노동부에서 시달한 석면함유 건축물의 안전한 유지관리방법을 자료로 제작",
+      "query": [
+        "석면 건축물 관리",
+        "석면이 들어간 건물을 안전하게 유지관리하는 방법 자료",
+        "석면함유 건축물 유지관리방법"
+      ]
+    },
+    {
+      "record_id": "list3_31776",
+      "concat": "[TITLE] 병원청소원의 직업건강가이드라인\n[SUMMARY] 각 직종별로 직업활동을 통패 필연적으로 발생할 수 있는 유해,위험을 큰 틀에서 관리하고.. 문화적인 접근방법을 제시하기 위함.",
+      "query": [
+        "병원청소원 건강관리",
+        "병원에서 청소하는 직원의 직업 건강 위험을 관리하는 자료",
+        "병원청소원 직업건강가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_34660",
+      "concat": "[TITLE] 안전보건관리자 고용형태 등에 따른 산업재해 발생 비교\n[SUMMARY] 안전보건관리자 선임형태에 따른 재해발생 현황을 파악하고 안전보건관리자 고용형태 및 민간위탁 대행과의 관계를 파악함",
+      "query": [
+        "안전관리자 재해 비교",
+        "안전보건관리자를 어떻게 고용했는지에 따라 산업재해가 달라지는지 본 연구",
+        "안전보건관리자 고용형태 산업재해 발생 비교"
+      ]
+    },
+    {
+      "record_id": "list3_34653",
+      "concat": "[TITLE] 사업주 안전의식 고취를 위한 특별교육실시 방안 연구\n[SUMMARY] 사업주의 안전의식 고취를 위한 특별교육 실시 방안을 제시하기 위해 사업주 교육 사례 및 사업주 특별교육의 필요성을 분석하고, 사업주 특별교육을 설계함",
+      "query": [
+        "사업주 안전교육",
+        "사장님 안전의식을 높이기 위한 특별 교육 방법 연구 자료",
+        "사업주 안전의식 고취 특별교육 실시 방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34314",
+      "concat": "[TITLE] 사업장 안전보건담당자 지정제도 신설에 관한 연구\n[SUMMARY] 안전보건관리지원자 제도에 대한 국내 현장 실태조사를 실시하며, 안전보건관리지원자 제도 도입에 대한 규제영향 분석을 실시하여 안전보건관리지원자 제도의 신설 가능성을 검토하고자 함.",
+      "query": [
+        "안전보건담당자 제도",
+        "사업장에 안전보건 담당자를 지정하는 제도를 새로 만드는 연구",
+        "사업장 안전보건담당자 지정제도 신설 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34652",
+      "concat": "[TITLE] 주요 업종별 원하도급업체 실태조사 및 맞춤형 재해예방사업의 효과적인 확대방안에 관한 연구\n[SUMMARY] 주요 업종별(조선업, 자동차 및 철강업)로 안전보건활동 및 모기업·협력업체의 관계 등에 관하여 재해통계조사와 실태조사를 실시함",
+      "query": [
+        "원하도급 재해예방",
+        "조선 자동차 철강 업종에서 원청과 하청 안전보건 실태를 조사한 연구",
+        "주요 업종별 원하도급업체 실태조사 맞춤형 재해예방사업 확대방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34649",
+      "concat": "[TITLE] 라돈의 직업적 노출실태 및 평가 방안 연구\n[SUMMARY] 라돈에 대해 제조업 사업장의 사무실 및 공장을 대상으로 라돈농도를 측정 및 평가하고 관리기준을 설정하기 위한 기초자료를 제시함",
+      "query": [
+        "라돈 노출 평가",
+        "제조업 사무실과 공장에서 라돈이 얼마나 나오는지 측정한 연구",
+        "라돈 직업적 노출실태 평가 방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34656",
+      "concat": "[TITLE] 안전인증 및 안전검사 수수료 현실화 방안\n[SUMMARY] 안전인증 및 안전검사업무 수행을 위한 검사물량 및 인력에 대한 원단위 분석과 서비스의 질 저하를 방지하기 위한 수수료의 현실화 방안을 제시함",
+      "query": [
+        "안전검사 수수료",
+        "안전인증과 안전검사 비용을 현실적으로 정하는 방안 자료",
+        "안전인증 안전검사 수수료 현실화 방안"
+      ]
+    },
+    {
+      "record_id": "list3_34654",
+      "concat": "[TITLE] 유해위험작업의 취업제한에 관한 규칙 개정방안 연구\n[SUMMARY] 국내 외 관련 법규 조사를 통해 유해 위험작업의 취업제한에 관한 규칙에서 정한 작업과 연관된 국내의 법규와 외국의 유사한 제도를 조사 및 비교함",
+      "query": [
+        "유해위험작업 취업제한",
+        "위험한 작업을 할 수 있는 사람의 자격 제한 규칙을 바꾸는 연구",
+        "유해위험작업 취업제한 규칙 개정방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_34641",
+      "concat": "[TITLE] 한국형 감정노동 및 폭력(2013년도 연구) 조사도구 적용 연구\n[SUMMARY] 2013년 개발된 ‘한국형 감정노동 및 작업장 폭력 평가도구’에 대한 현장적용을 위한 타당성 평가를 수행함",
+      "query": [
+        "감정노동 폭력 조사",
+        "직장에서 감정노동과 폭력을 평가하는 한국형 조사도구를 적용한 연구",
+        "한국형 감정노동 폭력 조사도구 적용 연구"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 116,
+  "items": [
+    {
+      "record_id": "list1_30296",
+      "concat": "[TITLE] (소형화물운수업)전동파렛트트럭 안전작업\n[SUMMARY] 전동파렛트트럭 안전작업",
+      "query": [
+        "전동 파렛트트럭 안전",
+        "소형 화물 운송에서 전동 파렛트트럭을 안전하게 쓰는 방법",
+        "소형화물운수업 전동파렛트트럭 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30297",
+      "concat": "[TITLE] (소형화물운수업)카캐리어 안전작업\n[SUMMARY] 카캐리어 안전작업",
+      "query": [
+        "카캐리어 안전",
+        "차를 싣고 나르는 카캐리어 작업 안전수칙",
+        "소형화물운수업 카캐리어 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30300",
+      "concat": "[TITLE] (어업)기상악화 예측 및 대비요령\n[SUMMARY] 기상악화 예측 및 대비요령",
+      "query": [
+        "어선 기상 악화",
+        "바다에서 날씨가 나빠질 때 미리 확인하고 대비하는 방법",
+        "어업 기상악화 예측 대비요령"
+      ]
+    },
+    {
+      "record_id": "list1_30298",
+      "concat": "[TITLE] (소형화물운수업)탑차 안전작업\n[SUMMARY] 탑차 안전작업",
+      "query": [
+        "탑차 안전작업",
+        "소형 화물 탑차로 짐을 옮길 때 지켜야 할 안전수칙",
+        "소형화물운수업 탑차 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30301",
+      "concat": "[TITLE] (어업)태풍권내 운항방법 및 묘박법\n[SUMMARY] 태풍권내 운항방법 및 묘박법",
+      "query": [
+        "태풍 어선 운항",
+        "태풍이 올 때 배를 어떻게 운항하고 정박해야 하는지 찾고 싶다",
+        "어업 태풍권내 운항방법 묘박법"
+      ]
+    },
+    {
+      "record_id": "list1_30299",
+      "concat": "[TITLE] (어업)기관점검 및 사고사례\n[SUMMARY] 기관점검 및 사고사례",
+      "query": [
+        "어선 기관 점검",
+        "어선 엔진이나 기관을 점검할 때 생길 수 있는 사고 사례",
+        "어업 기관점검 사고사례"
+      ]
+    },
+    {
+      "record_id": "list1_30278",
+      "concat": "[TITLE] 교류아크용접기 안전작업 OPS\n[SUMMARY] 교류아크용접기 안전작업",
+      "query": [
+        "아크용접기 안전",
+        "교류 아크용접기를 사용할 때 필요한 안전작업 수칙",
+        "교류아크용접기 안전작업 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_30277",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)타이어 탈착기 안전작업\n[SUMMARY] 타이어 탈착기 안전작업",
+      "query": [
+        "타이어 탈착기 안전",
+        "자동차 정비할 때 타이어 탈착기를 안전하게 쓰는 방법",
+        "자동차 여객운수업 타이어 탈착기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30279",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)산소절단기 안전작업\n[SUMMARY] 산소절단기 안전작업",
+      "query": [
+        "산소절단기 안전",
+        "자동차 정비 현장에서 산소절단기를 쓸 때 안전하게 작업하는 법",
+        "자동차 여객운수업 산소절단기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30281",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)직류아크용접기 안전작업\n[SUMMARY] 직류아크용접기 안전작업",
+      "query": [
+        "직류아크용접기 안전",
+        "자동차 정비 작업에서 직류 아크용접기를 안전하게 사용하는 방법",
+        "자동차 여객운수업 직류아크용접기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30283",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)휴대용연삭기 안전작업\n[SUMMARY] 휴대용연삭기 안전작업",
+      "query": [
+        "휴대용 연삭기 안전",
+        "자동차 정비 중 휴대용 그라인더를 안전하게 쓰는 방법",
+        "자동차 여객운수업 휴대용연삭기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30282",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)탁상용연삭기 안전작업\n[SUMMARY] 탁상용연삭기 안전작업",
+      "query": [
+        "탁상용 연삭기 안전",
+        "자동차 정비 현장에서 탁상용 연삭기를 안전하게 사용하는 방법",
+        "자동차 여객운수업 탁상용연삭기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30284",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)타이어 입출고 안전작업\n[SUMMARY] 타이어 입출고 안전작업",
+      "query": [
+        "타이어 입출고 안전",
+        "타이어를 창고에 넣고 꺼낼 때 다치지 않게 작업하는 방법",
+        "자동차 여객운수업 타이어 입출고 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30286",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)파렛트랙 안전작업\n[SUMMARY] 파렛트랙 안전작업",
+      "query": [
+        "파렛트랙 안전",
+        "자동차 정비 사업장에서 파렛트랙을 안전하게 사용하는 방법",
+        "자동차 여객운수업 파렛트랙 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30285",
+      "concat": "[TITLE] (자동차에 의한 여객운수업)전동임팩트렌치 안전작업\n[SUMMARY] 전동임팩트렌치 안전작업",
+      "query": [
+        "전동 임팩트렌치 안전",
+        "자동차 정비할 때 전동 임팩트렌치를 안전하게 쓰는 법",
+        "자동차 여객운수업 전동임팩트렌치 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30288",
+      "concat": "[TITLE] (소형화물운수업)견인차 안전작업\n[SUMMARY] 견인차 안전작업",
+      "query": [
+        "견인차 안전작업",
+        "소형 화물 운송에서 견인차 작업할 때 필요한 안전수칙",
+        "소형화물운수업 견인차 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30287",
+      "concat": "[TITLE] (소형화물운수업)가축수송차량 안전작업\n[SUMMARY] 가축수송차량 안전작업",
+      "query": [
+        "가축수송차 안전",
+        "가축을 싣고 나르는 차량 작업에서 사고를 막는 방법",
+        "소형화물운수업 가축수송차량 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30289",
+      "concat": "[TITLE] (소형화물운수업)계단운반차 안전작업\n[SUMMARY] 계단운반차 안전작업",
+      "query": [
+        "계단 운반차 안전",
+        "계단에서 짐을 옮기는 운반차를 안전하게 쓰는 방법",
+        "소형화물운수업 계단운반차 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30303",
+      "concat": "[TITLE] (어업)선박전복사고\n[SUMMARY] 선박전복사고",
+      "query": [
+        "어선 전복 사고",
+        "배가 뒤집히는 사고를 예방하고 대응하는 어업 안전자료",
+        "어업 선박전복사고"
+      ]
+    },
+    {
+      "record_id": "list1_30255",
+      "concat": "[TITLE] (정밀금형제조업)연삭기 안전작업\n[SUMMARY] 연삭기 안전작업",
+      "query": [
+        "연삭기 안전작업",
+        "정밀금형 작업장에서 연삭기를 안전하게 사용하는 방법",
+        "정밀금형제조업 연삭기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30206",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)비딩기 안전작업\n[SUMMARY] 비딩기 안전작업",
+      "query": [
+        "비딩기 안전",
+        "전기기계기구 제조 현장에서 비딩기를 안전하게 쓰는 방법",
+        "일상생활용 전기기계기구제조업 비딩기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30204",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)도장부스 안전작업\n[SUMMARY] 도장설비 안전작업",
+      "query": [
+        "도장부스 안전",
+        "전기기계기구 제조 현장에서 도장부스를 안전하게 사용하는 방법",
+        "일상생활용 전기기계기구제조업 도장부스 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30205",
+      "concat": "[TITLE] (일상생활용 전기기계기구제조업)롤러컨베이어 안전작업\n[SUMMARY] 롤러컨베이어 안전작업",
+      "query": [
+        "롤러컨베이어 안전",
+        "제조 현장에서 롤러컨베이어 작업 중 사고를 막는 방법",
+        "일상생활용 전기기계기구제조업 롤러컨베이어 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30203",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)포밍기 안전작업\n[SUMMARY] 포밍기 안전작업",
+      "query": [
+        "포밍기 안전",
+        "산업용 기계 제조 현장에서 포밍기를 안전하게 쓰는 방법",
+        "일반산업용 기계장치제조업 포밍기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30201",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)전단기 안전작업\n[SUMMARY] (일반산업용 기계장치제조업)전단기 안전작업 OPL",
+      "query": [
+        "전단기 안전",
+        "기계 제조 작업장에서 전단기를 안전하게 사용하는 방법",
+        "일반산업용 기계장치제조업 전단기 안전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_30202",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)절곡기 안전작업\n[SUMMARY] 절곡기 안전작업",
+      "query": [
+        "절곡기 안전",
+        "기계 제조 현장에서 절곡기 작업을 안전하게 하는 방법",
+        "일반산업용 기계장치제조업 절곡기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30200",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)시밍기 안전작업\n[SUMMARY] (일반산업용 기계장치제조업)시밍기 안전작업 리플릿",
+      "query": [
+        "시밍기 안전",
+        "산업용 기계 제조 현장에서 시밍기를 안전하게 쓰는 방법",
+        "일반산업용 기계장치제조업 시밍기 안전작업 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_30199",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)스폿용접기 안전작업\n[SUMMARY] 스폿용접기 안전작업",
+      "query": [
+        "스폿용접기 안전",
+        "기계 제조 현장에서 스폿용접기를 안전하게 사용하는 방법",
+        "일반산업용 기계장치제조업 스폿용접기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30198",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)산소절단기 안전작업\n[SUMMARY] 산소절단기 안전작업",
+      "query": [
+        "산소절단기 안전",
+        "기계 제조 작업장에서 산소절단기를 안전하게 쓰는 방법",
+        "일반산업용 기계장치제조업 산소절단기 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_30196",
+      "concat": "[TITLE] (일반산업용 기계장치제조업)베이비그라인더 안전작업\n[SUMMARY] 베이비그라인더 안전작업",
+      "query": [
+        "베이비그라인더 안전",
+        "기계 제조 현장에서 베이비그라인더를 안전하게 사용하는 방법",
+        "일반산업용 기계장치제조업 베이비그라인더 안전작업"
+      ]
+    }
+  ]
+}

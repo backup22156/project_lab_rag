@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 102,
+  "items": [
+    {
+      "record_id": "list1_31583",
+      "concat": "[TITLE] (건설기계)굴삭기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "굴삭기 안전",
+        "굴삭기 작업할 때 위험한 점과 안전수칙 찾고 싶어",
+        "건설기계 굴삭기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31580",
+      "concat": "[TITLE] (기타제조업)제함기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "제함기 안전",
+        "상자 만드는 기계 작업 중 다치지 않게 주의할 점",
+        "기타제조업 제함기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31581",
+      "concat": "[TITLE] (기타제조업)편망기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "편망기 작업 안전",
+        "그물 짜는 기계를 사용할 때 위험요인과 안전수칙",
+        "기타제조업 편망기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31578",
+      "concat": "[TITLE] (기타제조업)자동화설비 취급작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "자동화 설비 안전",
+        "공장 자동화 기계를 다룰 때 작업자가 조심해야 할 내용",
+        "기타제조업 자동화설비 취급작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31577",
+      "concat": "[TITLE] (기타제조업)오면가공기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "오면가공기 안전",
+        "금속 가공기계 작업 중 사고를 막는 방법을 찾고 싶어",
+        "기타제조업 오면가공기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31576",
+      "concat": "[TITLE] (기타제조업)연신/연사기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "연신기 연사기 안전",
+        "실이나 섬유를 늘리고 꼬는 기계를 쓸 때 주의할 점",
+        "기타제조업 연신 연사기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31379",
+      "concat": "[TITLE] 기타 기계조작 종사자 - 순환골재 생산설비 조작\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "순환골재 설비 안전",
+        "폐콘크리트 같은 골재 생산설비를 조작할 때 위험요인과 안전대책",
+        "기타 기계조작 종사자 순환골재 생산설비 조작 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31604",
+      "concat": "[TITLE] (전기업)전력용 변압기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "변압기 작업 안전",
+        "발전소 전력용 변압기를 다룰 때 감전이나 사고를 예방하는 방법",
+        "전기업 전력용 변압기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31605",
+      "concat": "[TITLE] (전기업)축전지 충방전\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "축전지 충전 안전",
+        "배터리를 충전하거나 방전할 때 작업자가 조심해야 할 사항",
+        "전기업 축전지 충방전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31380",
+      "concat": "[TITLE] 기타 화학물 가공장치 조작 종사자 - 건조작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "건조작업 안전",
+        "화학물 가공 설비에서 건조 작업할 때 위험요인과 안전대책",
+        "기타 화학물 가공장치 조작 종사자 건조작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31381",
+      "concat": "[TITLE] 기타 화학물 가공장치 조작 종사자 - 원료투입 작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "원료투입 작업 안전",
+        "화학 원료를 설비에 넣는 작업에서 사고를 막는 방법",
+        "기타 화학물 가공장치 조작 종사자 원료투입 작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31382",
+      "concat": "[TITLE] 농공업용 기계설치 및 정비 종사자 - 수리 및 시운전작업 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "기계 수리 시운전 안전",
+        "농공업용 기계를 고치고 시험 운전할 때 주의할 점",
+        "농공업용 기계설치 및 정비 종사자 수리 및 시운전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31385",
+      "concat": "[TITLE] 대장원 및 단조관련 종사자 - 열간 단조작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "열간 단조 안전",
+        "뜨거운 금속을 단조하는 작업에서 위험요인과 안전수칙",
+        "대장원 및 단조관련 종사자 열간 단조작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31383",
+      "concat": "[TITLE] 농공업용 기계설치 및 정비 종사자 - 수리 및 시운전작업 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "기계 시운전 안전",
+        "농공업용 기계 수리 후 시험 운전할 때 안전하게 하는 방법",
+        "농공업용 기계설치 및 정비 종사자 수리 및 시운전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31386",
+      "concat": "[TITLE] 도살, 생선가공관련 기능종사자 - 도축, 육가공작업 1\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "도축 육가공 안전",
+        "도축이나 고기 가공 작업 중 베임 사고를 예방하는 방법",
+        "도살 생선가공관련 기능종사자 도축 육가공작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31387",
+      "concat": "[TITLE] 도살, 생선가공관련 기능종사자 - 도축, 육가공작업 2\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "육가공 작업 안전",
+        "고기 가공 현장에서 칼이나 기계 작업을 안전하게 하는 방법",
+        "도살 생선가공관련 기능종사자 도축 육가공작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31610",
+      "concat": "[TITLE] (가스업)수소가스 취급안전\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "수소가스 안전",
+        "수소가스를 취급할 때 폭발이나 누출을 막기 위한 주의사항",
+        "가스업 수소가스 취급안전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31388",
+      "concat": "[TITLE] 석재 절단, 재단 및 조각 종사자 - 석재 재단작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "석재 재단 안전",
+        "돌을 크기에 맞게 자르는 작업에서 위험요인과 안전대책",
+        "석재 절단 재단 및 조각 종사자 석재 재단작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31389",
+      "concat": "[TITLE] 석재 절단, 재단 및 조각 종사자 - 석재 절단작업\n[SUMMARY] 직종별 OPL(One Point Lesson)자료로 주요 위험요인, 작업안전대책, 재해사례로 구성되어 있음.",
+      "query": [
+        "석재 절단 안전",
+        "석재를 절단하는 작업 중 분진과 절단 사고를 예방하는 방법",
+        "석재 절단 재단 및 조각 종사자 석재 절단작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31609",
+      "concat": "[TITLE] (가스업)고압가스용기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "고압가스용기 안전",
+        "고압가스 용기를 보관하거나 사용할 때 주의해야 할 점",
+        "가스업 고압가스용기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31608",
+      "concat": "[TITLE] (가스업)가스운송안전\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "가스 운송 안전",
+        "가스를 운반할 때 누출이나 폭발 사고를 예방하는 방법",
+        "가스업 가스운송안전 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31607",
+      "concat": "[TITLE] (전기업)CO2 소화설비\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "CO2 소화설비 안전",
+        "이산화탄소 소화설비를 점검하거나 사용할 때 조심해야 할 내용",
+        "전기업 CO2 소화설비 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31599",
+      "concat": "[TITLE] (전기업)복합화력 천연가스(NG) 치환작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "천연가스 치환 안전",
+        "복합화력 설비에서 천연가스로 치환 작업할 때 안전수칙",
+        "전기업 복합화력 천연가스 NG 치환작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31606",
+      "concat": "[TITLE] (전기업)터빈 설치 및 취외작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "터빈 설치 안전",
+        "발전소 터빈을 설치하거나 빼낼 때 위험요인과 안전대책",
+        "전기업 터빈 설치 및 취외작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31597",
+      "concat": "[TITLE] (전기업)보일러 노내 점검작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "보일러 점검 안전",
+        "보일러 내부를 점검할 때 질식이나 화상 사고를 막는 방법",
+        "전기업 보일러 노내 점검작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31598",
+      "concat": "[TITLE] (전기업)보일러 튜브 화학세정\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "보일러 화학세정 안전",
+        "보일러 튜브를 약품으로 세척할 때 작업자가 조심해야 할 사항",
+        "전기업 보일러 튜브 화학세정 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31601",
+      "concat": "[TITLE] (전기업)세이프티밸브 테스트\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "안전밸브 테스트",
+        "세이프티밸브를 시험할 때 압력 사고를 예방하는 방법",
+        "전기업 세이프티밸브 테스트 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31600",
+      "concat": "[TITLE] (전기업)비파괴검사\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "비파괴검사 안전",
+        "발전 설비 비파괴검사 작업 중 위험요인과 안전수칙",
+        "전기업 비파괴검사 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31602",
+      "concat": "[TITLE] (전기업)소내 정전작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "정전작업 안전",
+        "발전소 안에서 전기를 차단하고 작업할 때 감전 예방 방법",
+        "전기업 소내 정전작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31603",
+      "concat": "[TITLE] (전기업)전기유압식 조속기 오일플러싱\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "조속기 오일플러싱",
+        "전기유압식 조속기 오일을 플러싱할 때 작업자가 주의할 점",
+        "전기업 전기유압식 조속기 오일플러싱 OPL"
+      ]
+    }
+  ]
+}

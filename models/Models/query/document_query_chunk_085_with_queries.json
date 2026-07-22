@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 85,
+  "items": [
+    {
+      "record_id": "list1_35757",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 전기 작업에 대한 위험방지\n[SUMMARY] [일터에서의 안전보건 OPL] 전기 작업에 대한 위험방지",
+      "query": [
+        "전기작업 안전",
+        "전기 작업할 때 감전이나 사고를 막는 안전수칙을 찾고 있어",
+        "전기 작업 위험방지 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35771",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 컨베이어\n[SUMMARY] [일터에서의 안전보건 OPL] 컨베이어",
+      "query": [
+        "컨베이어 안전",
+        "공장 컨베이어 작업할 때 끼임 사고를 예방하는 자료가 필요해",
+        "컨베이어 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35773",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 차량계 하역운반기계 등 : 고소작업대\n[SUMMARY] [일터에서의 안전보건 OPL] 차량계 하역운반기계 등 : 고소작업대",
+      "query": [
+        "고소작업대 안전",
+        "차량에 달린 고소작업대를 쓸 때 작업자가 조심해야 할 내용을 찾고 있어",
+        "차량계 하역운반기계 고소작업대 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35739",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 병원체에 의한 건강장해의 예방\n[SUMMARY] [일터에서의 안전보건 OPL] 병원체에 의한 건강장해의 예방",
+      "query": [
+        "병원체 감염 예방",
+        "일터에서 병원체 때문에 생길 수 있는 건강 문제를 예방하는 방법을 찾고 있어",
+        "병원체 건강장해 예방 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35774",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 차량계 하역운반기계 등 : 지게차/구내운반차\n[SUMMARY] [일터에서의 안전보건 OPL] 차량계 하역운반기계 등 : 지게차/구내운반차",
+      "query": [
+        "지게차 안전",
+        "사업장에서 지게차나 구내운반차를 운전할 때 필요한 안전수칙을 알고 싶어",
+        "차량계 하역운반기계 지게차 구내운반차 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35778",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 기계ㆍ기구 및 그 밖의 설비에 의한 위험예방 : 원심기 및 분쇄기\n[SUMMARY] [일터에서의 안전보건 OPL] 기계ㆍ기구 및 그 밖의 설비에 의한 위험예방 : 원심기 및 분쇄기에 관한 opl 자료",
+      "query": [
+        "원심기 분쇄기 안전",
+        "원심기나 분쇄기 같은 기계를 사용할 때 위험을 줄이는 방법을 찾고 있어",
+        "기계 기구 설비 위험예방 원심기 분쇄기 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35706",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 컨베이어\n[SUMMARY] [작업전 안전점검 OPL_설비별] 컨베이어",
+      "query": [
+        "컨베이어 점검",
+        "컨베이어 작업 전에 어떤 부분을 확인해야 하는지 체크할 자료를 찾고 있어",
+        "작업전 안전점검 설비별 컨베이어 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35708",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 지게차\n[SUMMARY] [작업전 안전점검 OPL_설비별] 지게차",
+      "query": [
+        "지게차 점검",
+        "지게차 운전 전에 확인해야 할 안전점검 항목을 찾고 있어",
+        "작업전 안전점검 설비별 지게차 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35737",
+      "concat": "[TITLE] [작업전 안전점검 OPL_계절별] 장마철 감전재해 예방\n[SUMMARY] [작업전 안전점검 OPL_계절별] 장마철 감전재해 예방",
+      "query": [
+        "장마철 감전",
+        "비가 많이 오는 장마철 전기 감전 사고를 예방하는 자료가 필요해",
+        "작업전 안전점검 계절별 장마철 감전재해 예방 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35705",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 선반\n[SUMMARY] [작업전 안전점검 OPL_설비별] 선반",
+      "query": [
+        "선반 점검",
+        "선반 기계를 사용하기 전에 안전하게 점검하는 방법을 찾고 있어",
+        "작업전 안전점검 설비별 선반 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35710",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 전단기\n[SUMMARY] [작업전 안전점검 OPL_설비별] 전단기 작업전 안전점검",
+      "query": [
+        "전단기 점검",
+        "전단기 작업 전에 손 끼임 같은 사고를 막기 위한 점검 내용을 찾고 있어",
+        "작업전 안전점검 설비별 전단기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35709",
+      "concat": "[TITLE] [작업전 안전점검 OPL_설비별] 전기기계기구\n[SUMMARY] [작업전 안전점검 OPL_설비별] 전기기계기구",
+      "query": [
+        "전기기계 점검",
+        "전기 기계나 기구를 다루기 전에 확인해야 할 안전점검 자료가 필요해",
+        "작업전 안전점검 설비별 전기기계기구 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35758",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 배선 및 이동전선으로 인한 위험방지\n[SUMMARY] [일터에서의 안전보건 OPL] 배선 및 이동전선으로 인한 위험방지",
+      "query": [
+        "이동전선 안전",
+        "작업장에서 배선이나 이동전선 때문에 생기는 감전 위험을 막는 방법을 찾고 있어",
+        "배선 이동전선 위험방지 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35759",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 비상전원/임시 전등 사용 시 위험방지\n[SUMMARY] [일터에서의 안전보건 OPL] 비상전원/임시 전등 사용 시 위험방지",
+      "query": [
+        "임시전등 안전",
+        "비상전원이나 임시 조명을 사용할 때 사고를 막는 안전수칙이 필요해",
+        "비상전원 임시 전등 사용 위험방지 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35761",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 전기기계, 기구 등의 충전부 방호 및 접지\n[SUMMARY] [일터에서의 안전보건 OPL] 전기기계, 기구 등의 충전부 방호 및 접지",
+      "query": [
+        "충전부 접지",
+        "전기기계의 전기가 통하는 부분을 막고 접지하는 방법을 찾고 있어",
+        "전기기계 기구 충전부 방호 접지 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35760",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 전기기계, 기구 적정 설치/누전차단기 등에 의한 감전방지\n[SUMMARY] 전기기계, 기구 적정 설치/누전차단기 등에 의한 감전방지 [일터에서의 안전보건 OPL]",
+      "query": [
+        "누전차단기 감전방지",
+        "전기기계를 설치할 때 누전차단기로 감전을 예방하는 기준을 알고 싶어",
+        "전기기계 기구 적정 설치 누전차단기 감전방지 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35763",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 아세틸렌 용접장치 및 가스집합용접장치\n[SUMMARY] [일터에서의 안전보건 OPL] 아세틸렌 용접장치 및 가스집합용접장치",
+      "query": [
+        "아세틸렌 용접 안전",
+        "가스 용접장치를 사용할 때 폭발이나 화재를 막는 안전수칙을 찾고 있어",
+        "아세틸렌 용접장치 가스집합용접장치 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35762",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물 누출에 의한 위험방지\n[SUMMARY] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물 누출에 의한 위험방지",
+      "query": [
+        "폭발 화재 예방",
+        "위험물이 새거나 불이 나서 폭발하는 사고를 막는 방법을 찾고 있어",
+        "폭발 화재 위험물 누출 위험방지 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35765",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물누출에 의한 위험방지 : 화학설비ㆍ압력용기 등(Ⅰ)\n[SUMMARY] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물누출에 의한 위험방지 : 화학설비ㆍ압력용기 등(Ⅰ)",
+      "query": [
+        "화학설비 압력용기",
+        "화학설비나 압력용기에서 화재 폭발 위험을 예방하는 자료가 필요해",
+        "폭발 화재 위험물누출 위험방지 화학설비 압력용기 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35764",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물누출에 의한 위험방지 : 화학설비ㆍ압력용기 등(Ⅱ)\n[SUMMARY] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물누출에 의한 위험방지 : 화학설비ㆍ압력용기 등(Ⅱ)",
+      "query": [
+        "화학설비 압력용기",
+        "화학설비나 압력용기에서 위험물 누출과 폭발을 막는 안전자료를 찾고 있어",
+        "폭발 화재 위험물누출 위험방지 화학설비 압력용기 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35766",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물누출에 의한 위험방지 : 화기 등의 관리\n[SUMMARY] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물누출에 의한 위험방지 : 화기 등의 관리",
+      "query": [
+        "화기 관리",
+        "작업장에서 불꽃이나 화기를 관리해 화재를 예방하는 방법을 찾고 있어",
+        "폭발 화재 위험물누출 위험방지 화기 관리 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35767",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물누출에 의한 위험방지 : 위험물 등의 취급\n[SUMMARY] [일터에서의 안전보건 OPL] 폭발ㆍ화재 및 위험물누출에 의한 위험방지 : 위험물 등의 취급",
+      "query": [
+        "위험물 취급",
+        "위험물을 다룰 때 누출이나 화재 사고를 막는 안전수칙이 필요해",
+        "폭발 화재 위험물누출 위험방지 위험물 취급 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35768",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 산업용 로봇\n[SUMMARY] [일터에서의 안전보건 OPL] 산업용 로봇",
+      "query": [
+        "산업용 로봇 안전",
+        "산업용 로봇을 사용하는 작업장에서 끼임이나 충돌 사고를 예방하는 자료를 찾고 있어",
+        "산업용 로봇 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_35776",
+      "concat": "[TITLE] [일터에서의 안전보건 OPL] 기계ㆍ기구 및 그 밖의 설비에 의한 위험예방 : 양중기 총칙\n[SUMMARY] [일터에서의 안전보건 OPL] 기계ㆍ기구 및 그 밖의 설비에 의한 위험예방 : 양중기 총칙",
+      "query": [
+        "양중기 안전",
+        "크레인 같은 양중기를 사용할 때 기본적으로 지켜야 할 안전수칙을 찾고 있어",
+        "기계 기구 설비 위험예방 양중기 총칙 일터 안전보건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34568",
+      "concat": "[TITLE] [중대재해_건설업]_부재 운반 중 로프에서 빠진 철골 부재에 맞음\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "철골 운반 사고",
+        "건설현장에서 철골 부재를 옮기다가 맞는 중대사고 사례를 찾고 있어",
+        "중대재해 건설업 부재 운반 로프 철골 부재 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34571",
+      "concat": "[TITLE] [중대재해_건설업]_철거 작업 중 발코니 바닥 슬라브가 무너져 떨어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "발코니 붕괴 추락",
+        "철거 작업 중 발코니 바닥이 무너져 떨어진 건설 사고 사례가 필요해",
+        "중대재해 건설업 철거 작업 발코니 바닥 슬라브 무너짐 떨어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34569",
+      "concat": "[TITLE] [중대재해_건설업]_화물자동차에서 떨어진 배관파이프에 맞음\n[SUMMARY] 중대재해사례 OPL - 화물자동차에서 떨어진 배관파이프에 맞음",
+      "query": [
+        "배관파이프 낙하",
+        "화물차에서 떨어진 배관 파이프에 맞은 건설현장 사고 사례를 찾고 있어",
+        "중대재해 건설업 화물자동차 배관파이프 맞음 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34572",
+      "concat": "[TITLE] [중대재해_건설업]_준공청소 작업을 위해 내부 계단을 통해 이동 중 넘어짐\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "준공청소 넘어짐",
+        "준공청소 중 계단으로 이동하다가 넘어진 건설현장 사고 사례를 찾고 있어",
+        "중대재해 건설업 준공청소 내부 계단 이동 넘어짐 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34570",
+      "concat": "[TITLE] [중대재해_건설업]_굴삭기로 철판을 인양·운반 중 철판이 쓰러져 깔림\n[SUMMARY] 중대재해사례 OPL",
+      "query": [
+        "굴삭기 철판 깔림",
+        "굴삭기로 철판을 옮기다가 철판이 쓰러져 깔린 사고 사례가 필요해",
+        "중대재해 건설업 굴삭기 철판 인양 운반 쓰러짐 깔림 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_34573",
+      "concat": "[TITLE] [중대재해_건설업]_고소작업대 위에서 작업 중 붐 하강으로 붐에 끼임\n[SUMMARY] 중대재해사례 OPL, 고소작업대 위에서 작업 중 붐 하강으로 붐에 끼임",
+      "query": [
+        "고소작업대 끼임",
+        "고소작업대에서 작업하다가 붐이 내려와 끼인 사고 사례를 찾고 있어",
+        "중대재해 건설업 고소작업대 붐 하강 끼임 OPL"
+      ]
+    }
+  ]
+}

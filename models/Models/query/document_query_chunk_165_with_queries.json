@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 165,
+  "items": [
+    {
+      "record_id": "list3_41746",
+      "concat": "[TITLE] (특수형태근로종사자) 굴착기 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "굴착기 운전자 안전",
+        "굴착기 운전자가 처음 일하기 전에 볼 안전교육 자료",
+        "특수형태근로종사자 굴착기 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_41836",
+      "concat": "[TITLE] 연료용 액화석유가스(LPG)의 공정안전관리 규정량 조정에 대한 안전성 연구\n[SUMMARY] 공정안전관리 규정량 개정과 관련해 LPG의 규정량 완화가 적절한지에 대한 위험성 평가를 객관적이고 종합적으로 하여 사업장내의 중대산업사고를 예방하고자함.",
+      "query": [
+        "LPG 공정안전",
+        "사업장 LPG 보관량 기준이 안전한지 검토한 연구",
+        "연료용 액화석유가스 LPG 공정안전관리 규정량 조정 안전성 연구"
+      ]
+    },
+    {
+      "record_id": "list3_41743",
+      "concat": "[TITLE] (교재) 대리운전자의 안전보건(특수형태근로종사자)\n[SUMMARY] 특수형태근로종사자(대리운전자의 안전보건) 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "대리운전 안전보건",
+        "대리운전 기사에게 필요한 안전보건 교육 자료",
+        "대리운전자 안전보건 특수형태근로종사자 교재"
+      ]
+    },
+    {
+      "record_id": "list3_41626",
+      "concat": "[TITLE] 의료기관 간호사 직무스트레스 도구 현장 적용\n[SUMMARY] 직무스트레스의 예방을 위한 평가도구",
+      "query": [
+        "간호사 직무스트레스",
+        "병원 간호사 직무스트레스를 평가하는 도구 자료",
+        "의료기관 간호사 직무스트레스 도구 현장 적용"
+      ]
+    },
+    {
+      "record_id": "list3_41837",
+      "concat": "[TITLE] PSM 대상 사업장에서 비일상 작업 시의 재해 조사 연구\n[SUMMARY] 국내 PSM 대상 화학제품제조업에서 과거 10년간 발생한 재해사례를 분석하여 비일상작업 중 사고를 예방하기 위한 대책을 마련할 수 있는 기초 통계 자료를 제공하고 안전 정책 수립을 위한 기초자료로 활용하고자함.",
+      "query": [
+        "PSM 비일상 작업",
+        "화학공장에서 평소와 다른 작업 중 난 사고를 분석한 연구",
+        "PSM 대상 사업장 비일상 작업 재해 조사 연구"
+      ]
+    },
+    {
+      "record_id": "list3_42206",
+      "concat": "[TITLE] 2020년 화학사고 사례연구(인산제조공정 내 황린누출사고)\n[SUMMARY] 전북권 2020년 화학사고 사례연구(인산제조공정 내 황린누출사고)",
+      "query": [
+        "황린 누출 사고",
+        "인산 만드는 공정에서 황린이 새어 나온 화학사고 사례",
+        "화학사고 사례연구 인산제조공정 황린누출사고"
+      ]
+    },
+    {
+      "record_id": "list3_42204",
+      "concat": "[TITLE] 2020년 화학사고 사례연구(출하 중 과산화수소 누출 사고)\n[SUMMARY] 경북권 2020년 화학사고 사례연구(출하 중 과산화수소 누출 사고)",
+      "query": [
+        "과산화수소 누출",
+        "출하 작업 중 과산화수소가 누출된 화학사고 사례",
+        "화학사고 사례연구 출하 중 과산화수소 누출 사고"
+      ]
+    },
+    {
+      "record_id": "list3_42203",
+      "concat": "[TITLE] 2020년 화학사고 사례연구(정비보수 중 저장탱크 폭발 사고)\n[SUMMARY] 경남권 2020년 화학사고 사례연구(정비보수 중 저장탱크 폭발 사고)",
+      "query": [
+        "저장탱크 폭발",
+        "정비보수 작업 중 저장탱크가 폭발한 화학사고 사례",
+        "화학사고 사례연구 정비보수 중 저장탱크 폭발 사고"
+      ]
+    },
+    {
+      "record_id": "list3_42208",
+      "concat": "[TITLE] 2020년 화학사고 사례연구(화장품 원료 반응 중 반응폭주로 인한 폭발사고)\n[SUMMARY] 충북권 2020년 화학사고 사례연구(화장품 원료 반응 중 반응폭주로 인한 폭발사고)",
+      "query": [
+        "화장품 원료 폭발",
+        "화장품 원료 반응 중 반응이 폭주해 폭발한 사고 사례",
+        "화학사고 사례연구 화장품 원료 반응 반응폭주 폭발사고"
+      ]
+    },
+    {
+      "record_id": "list3_43078",
+      "concat": "[TITLE] (발간 안내)2021년 월간 안전보건 4월호\n[SUMMARY] 2021년 월간 안전보건 4월호가 발간됐습니다. 4월호 주제는 '추락' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 아카이브>월간 안전보건 메뉴 접속",
+      "query": [
+        "추락 안전보건",
+        "추락 사고를 주제로 한 월간 안전보건 자료",
+        "월간 안전보건 추락"
+      ]
+    },
+    {
+      "record_id": "list3_42205",
+      "concat": "[TITLE] 2020년 화학사고 사례연구(열교환기 채널 커버 인화성가스 누출화재사고)\n[SUMMARY] 전남권 2020년 화학사고 사례연구(열교환기 채널 커버 인화성가스 누출화재사고)",
+      "query": [
+        "열교환기 가스 화재",
+        "열교환기 채널 커버에서 인화성가스가 새어 불난 사례",
+        "화학사고 사례연구 열교환기 채널 커버 인화성가스 누출화재사고"
+      ]
+    },
+    {
+      "record_id": "list3_42207",
+      "concat": "[TITLE] 2020년 화학사고 사례연구(스티렌모노머(SM) 혼합물 누출사고)\n[SUMMARY] 충남권 2020년 화학사고 사례연구(스티렌모노머(SM) 혼합물 누출사고)",
+      "query": [
+        "스티렌모노머 누출",
+        "SM 혼합물이 누출된 화학사고 사례를 찾고 싶을 때",
+        "화학사고 사례연구 스티렌모노머 SM 혼합물 누출사고"
+      ]
+    },
+    {
+      "record_id": "list3_42202",
+      "concat": "[TITLE] 2020년 화학사고 사례연구(감광제 생산공정 반응기 화재사고)\n[SUMMARY] 수도권 2020년도 화학사고 사례연구(감광제 생산공정 반응기 화재사고)",
+      "query": [
+        "감광제 반응기 화재",
+        "감광제를 만드는 공정 반응기에서 불이 난 사고 사례",
+        "화학사고 사례연구 감광제 생산공정 반응기 화재사고"
+      ]
+    },
+    {
+      "record_id": "list3_42449",
+      "concat": "[TITLE] S마크 기술문서 작성안내서\n[SUMMARY] S마크 기술문서 작성을 위한 안내 책자",
+      "query": [
+        "S마크 기술문서",
+        "S마크 신청할 때 기술문서 작성 방법을 알고 싶을 때",
+        "S마크 기술문서 작성안내서"
+      ]
+    },
+    {
+      "record_id": "list3_41742",
+      "concat": "[TITLE] (교재) 택배원의 안전보건(특수형태근로종사자)\n[SUMMARY] 특수형태근로종사자(택배원의 안전보건) 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "택배원 안전보건",
+        "택배 기사에게 필요한 안전보건 교육 자료",
+        "택배원 안전보건 특수형태근로종사자 교재"
+      ]
+    },
+    {
+      "record_id": "list3_42965",
+      "concat": "[TITLE] 2020년도 산업안전보건연구 요약집\n[SUMMARY] 2020년도 산업안전보건연구 요약집",
+      "query": [
+        "산업안전보건 연구",
+        "산업안전보건 연구 내용을 한눈에 요약한 자료",
+        "산업안전보건연구 요약집"
+      ]
+    },
+    {
+      "record_id": "list3_41750",
+      "concat": "[TITLE] (특수형태근로종사자)기중기 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "기중기 운전자 안전",
+        "기중기 운전자가 처음 일하기 전에 보는 안전교육 자료",
+        "특수형태근로종사자 기중기 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_42943",
+      "concat": "[TITLE] 원격조종(소형) 타워크레인 안전작업 매뉴얼\n[SUMMARY] 원격조종(소형) 타워크레인 안전작업 매뉴얼입니다. ※ 내용문의: 공단 산업안전보건연구원 052-703-0844",
+      "query": [
+        "소형 타워크레인 안전",
+        "원격으로 조종하는 작은 타워크레인 작업 안전 매뉴얼",
+        "원격조종 소형 타워크레인 안전작업 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_41763",
+      "concat": "[TITLE] (교재) 기타건설기계 운전자의 안전보건(특수형태근로종사자_건설기계)\n[SUMMARY] 특수형태근로자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "건설기계 운전자 안전",
+        "특수건설기계 말고 기타 건설기계 운전자를 위한 안전교육 자료",
+        "기타건설기계 운전자 안전보건 특수형태근로종사자 건설기계 교재"
+      ]
+    },
+    {
+      "record_id": "list3_42997",
+      "concat": "[TITLE] (발간 안내)2021년 월간 안전보건 3월호\n[SUMMARY] 2021년 월간 안전보건 3월호가 발간됐습니다. 3월호 주제는 '제조업 끼임' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 아카이브>월간 안전보건 메뉴 접속",
+      "query": [
+        "제조업 끼임 사고",
+        "제조업에서 끼임 사고를 다룬 월간 안전보건 자료",
+        "월간 안전보건 제조업 끼임"
+      ]
+    },
+    {
+      "record_id": "list3_41761",
+      "concat": "[TITLE] (교재) 특수건설기계 운전자의 안전보건(특수형태근로종사자_건설기계)\n[SUMMARY] 특수형태근로자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "특수건설기계 안전",
+        "특수건설기계 운전자가 처음 일할 때 보는 안전보건 교육 자료",
+        "특수건설기계 운전자 안전보건 특수형태근로종사자 건설기계 교재"
+      ]
+    },
+    {
+      "record_id": "list3_41752",
+      "concat": "[TITLE] (특수형태근로종사자) 롤러 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "롤러 운전자 안전",
+        "롤러 운전자가 처음 일하기 전에 보는 안전교육 자료",
+        "특수형태근로종사자 롤러 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_41757",
+      "concat": "[TITLE] (특수형태근로종사자)공기압축기 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "공기압축기 운전자 안전",
+        "공기압축기 운전자가 처음 일할 때 필요한 안전보건 교육",
+        "특수형태근로종사자 공기압축기 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_41749",
+      "concat": "[TITLE] (특수형태근로종사자) 덤프트럭 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "덤프트럭 운전자 안전",
+        "덤프트럭 운전자가 처음 일하기 전에 보는 안전교육 자료",
+        "특수형태근로종사자 덤프트럭 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_41753",
+      "concat": "[TITLE] (특수형태근로종사자)콘크리트펌프 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "콘크리트펌프 안전",
+        "콘크리트펌프 운전자를 위한 안전보건 교육 자료",
+        "특수형태근로종사자 콘크리트펌프 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_41751",
+      "concat": "[TITLE] (특수형태근로종사자) 모터그레이더 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "모터그레이더 안전",
+        "모터그레이더 운전자가 처음 일하기 전에 보는 안전교육 자료",
+        "특수형태근로종사자 모터그레이더 운전자 안전보건교육"
+      ]
+    },
+    {
+      "record_id": "list3_41758",
+      "concat": "[TITLE] (특수형태근로종사자)천공기 운전자의 안전보건\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "천공기 운전자 안전",
+        "천공기 운전자가 처음 일할 때 필요한 안전보건 자료",
+        "특수형태근로종사자 천공기 운전자 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_41756",
+      "concat": "[TITLE] (특수형태근로종사자)쇄석기 운전자의 안전보건\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "쇄석기 운전자 안전",
+        "쇄석기 운전자가 처음 일할 때 필요한 안전보건 자료",
+        "특수형태근로종사자 쇄석기 운전자 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_42951",
+      "concat": "[TITLE] (발간 안내)2021년 월간 안전보건 2월호\n[SUMMARY] 2021년 월간 안전보건 2월호가 발간됐습니다. 2월호 주제는 '건설기계 충돌' 입니다. ★ e-Book 보기 및 파일다운 ★ : 오른쪽 안전보건 아카이브>월간 안전보건 메뉴 접속",
+      "query": [
+        "건설기계 충돌",
+        "건설기계 충돌 사고를 주제로 한 월간 안전보건 자료",
+        "월간 안전보건 건설기계 충돌"
+      ]
+    },
+    {
+      "record_id": "list3_41759",
+      "concat": "[TITLE] (특수형태근로종사자)항타 및 항발기 운전자 안전보건교육\n[SUMMARY] 특수형태근로종사자 최초 노무제공시 활용할 수 있는 교육자료입니다.",
+      "query": [
+        "항타 항발기 안전",
+        "항타기나 항발기 운전자가 처음 일하기 전에 보는 안전교육 자료",
+        "특수형태근로종사자 항타 및 항발기 운전자 안전보건교육"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 169,
+  "items": [
+    {
+      "record_id": "list3_40586",
+      "concat": "[TITLE] 불편하고 힘든 작업 개선을 위한 바로 가이드(건물건설업)\n[SUMMARY] 부정형작업 대표직종인 건물건설업에 근골격계질환 위험성을 평가해 보고 개선안 도출에 활용토록 제시",
+      "query": [
+        "건설 작업 자세 개선",
+        "건설 현장에서 몸에 부담되는 작업을 줄이는 방법 자료",
+        "불편하고 힘든 작업 개선 바로 가이드 건물건설업 근골격계질환 위험성 평가 개선안"
+      ]
+    },
+    {
+      "record_id": "list3_40588",
+      "concat": "[TITLE] 불편하고 힘든 작업 개선을 위한 바로 가이드(환경미화원)\n[SUMMARY] 비정형작업 대표직종인 환경미화 직종에 근골격계질환 위험성을 평가해 보고 개선안 도출에 활용토록 제시",
+      "query": [
+        "환경미화원 작업 부담",
+        "청소나 수거 일을 하는 환경미화원의 힘든 작업 개선 자료",
+        "불편하고 힘든 작업 개선 바로 가이드 환경미화원 근골격계질환 위험성 평가 개선안"
+      ]
+    },
+    {
+      "record_id": "list3_40599",
+      "concat": "[TITLE] 2019년 서비스분야 안전보건활동 우수사례집\n[SUMMARY] 2019년 산업안전보건강조주간 서비스분야 안전보거활동 우수사례 발표대회를 위해 선정된 최종 발표사업장의 \"안전보건활동 우수사례\"를 책자 형태로 제작, 보급",
+      "query": [
+        "서비스업 안전보건 사례",
+        "서비스업 회사들이 안전보건 활동을 잘한 사례를 모아둔 자료",
+        "서비스분야 안전보건활동 우수사례집 산업안전보건강조주간 발표사업장"
+      ]
+    },
+    {
+      "record_id": "list3_40012",
+      "concat": "[TITLE] 청소노동자 직업건강가이드\n[SUMMARY] 청소노동자 직업건강가이드",
+      "query": [
+        "청소노동자 건강",
+        "청소하는 노동자에게 생길 수 있는 직업 건강 문제 안내 자료",
+        "청소노동자 직업건강가이드"
+      ]
+    },
+    {
+      "record_id": "list3_38586",
+      "concat": "[TITLE] 산업안전보건 관련 행정규칙 체계 정비 방안\n[SUMMARY] 산업안전보건관련 행정규칙의 체계 정비사항 발굴 및 정리",
+      "query": [
+        "산업안전 규칙 정리",
+        "산업안전보건 관련 행정규칙을 체계적으로 정비하는 방안 자료",
+        "산업안전보건 행정규칙 체계 정비 방안"
+      ]
+    },
+    {
+      "record_id": "list3_40027",
+      "concat": "[TITLE] 민원대응 직원 감정노동 실태조사\n[SUMMARY] 직업건강분야 위탁연구과제 - 민원대응 직원 감정노동 실태조사 연구결과 보고서",
+      "query": [
+        "민원 직원 감정노동",
+        "민원 응대 직원들이 겪는 감정노동 실태를 조사한 자료",
+        "민원대응 직원 감정노동 실태조사 직업건강 위탁연구과제"
+      ]
+    },
+    {
+      "record_id": "list3_40026",
+      "concat": "[TITLE] 근로자 건강진단 제도개선 방안 연구\n[SUMMARY] 직업건강분야 위탁연구과제 - 근로자 건강진단 제도개선 방안 연구 보고서",
+      "query": [
+        "근로자 건강검진 제도",
+        "직장인 건강진단 제도를 어떻게 개선할지 다룬 연구 자료",
+        "근로자 건강진단 제도개선 방안 연구 직업건강 위탁연구과제"
+      ]
+    },
+    {
+      "record_id": "list3_40025",
+      "concat": "[TITLE] 근골격계질환의 특수건강진단 적용 연구(1)- 청소, 요식업 종사자\n[SUMMARY] 직업건강분야 위탁연구과제 - 근골격계질환의 특수건강진단 적용 연구(1)_청소, 요식업 종사자",
+      "query": [
+        "청소 요식업 근골격계",
+        "청소업이나 요식업 종사자 근골격계질환을 특수건강진단에 적용하는 자료",
+        "근골격계질환 특수건강진단 적용 연구 청소 요식업 종사자"
+      ]
+    },
+    {
+      "record_id": "list3_39995",
+      "concat": "[TITLE] 노동자 구강건강증진 매뉴얼 개발\n[SUMMARY] 노동자의 구강건강 향상을 위한 구강건강증진 매뉴얼을 개발",
+      "query": [
+        "노동자 구강건강",
+        "직장에서 노동자 치아와 구강 건강을 높이는 방법 매뉴얼",
+        "노동자 구강건강증진 매뉴얼 개발"
+      ]
+    },
+    {
+      "record_id": "list3_39997",
+      "concat": "[TITLE] 감정노동 종사 노동자의 스트레스 평가도구 개선 및 활용방안 마련\n[SUMMARY] 2018년 직업건강분야 위탁연구과제 최종 보고서_감정노동 종사 노동자의 스트레스 평가도구 개선 및 활용방안 마련_‘감정노동 종사자를 위한 직무 환경 평가 도구(WCQKEL)’는 고객응대 업무를 수행하는 과정에서 경험하는 직무스트레스, 감정노동, 그리고 직장 폭력의 노출과 강도를 평가하고, 이로 인한 건강 장해를 유발할 수 있는 요인들을 도출하여 감정노동 종사자들의 건강 장해를 예방하기 위한 목적으로 개발된 도구이다.",
+      "query": [
+        "감정노동 스트레스 평가",
+        "고객응대 노동자의 스트레스를 평가하고 활용하는 도구 자료",
+        "감정노동 종사 노동자 스트레스 평가도구 개선 활용방안 WCQKEL 직무 환경 평가 도구"
+      ]
+    },
+    {
+      "record_id": "list3_39993",
+      "concat": "[TITLE] 특수형태근로종사자에 대한 건강관리 방안 연구\n[SUMMARY] 특수형태 근로종사자의 건강진단을 중심으로한 건강관리방안",
+      "query": [
+        "특수고용 건강관리",
+        "계약 형태가 특수한 노동자의 건강진단과 관리 방안을 다룬 자료",
+        "특수형태근로종사자 건강관리 방안 건강진단"
+      ]
+    },
+    {
+      "record_id": "list3_39994",
+      "concat": "[TITLE] 과로사(과로자살) 예방을 위한 정책 연구(2)\n[SUMMARY] 과로사의 실태를 파악하고 예방을 위한 정책제시",
+      "query": [
+        "과로사 예방 정책",
+        "일을 너무 많이 해서 발생하는 과로사와 과로자살을 예방하는 정책 자료",
+        "과로사 과로자살 예방 정책 연구"
+      ]
+    },
+    {
+      "record_id": "list3_39054",
+      "concat": "[TITLE] 작업자세에 따른 미끄러짐 위험성 연구\n[SUMMARY] OWAS 기반으로 일반보행, 중량물 운반자세 6가지 조건, 대차 끌기 자세 3조건, 대차 밀기 자세 3조건에 대한 실험 수행, 작업자세에 따른 미끄러짐 위험성 연구",
+      "query": [
+        "작업자세 미끄러짐",
+        "물건을 들거나 대차를 밀 때 자세에 따른 미끄러짐 위험 자료",
+        "작업자세 미끄러짐 위험성 연구 OWAS 일반보행 중량물 운반 대차 끌기 밀기"
+      ]
+    },
+    {
+      "record_id": "list3_38971",
+      "concat": "[TITLE] 야간근무자의 수면장애 실태 및 관리방안\n[SUMMARY] 이 연구는 야간근무에 종사하는 근로자의 수면장애를 위한 관리방안을 마련하기 위한 연구로서, 수면장애의 관리방안을 마련하기 위한 기초자료로서 수면장애의 실태를 파악하고 분석하는 것을 목표로 한다. The prevalence of mild insomnia was 61,072 in men and 37,165 in women at 2014. The prevalence of moderate insomnia was 10,359 in men and 7,645 in women. The prevalence of severe insomnia was 2,430 in men and 2,024 in women. The prevalence of mild insomnia was 136,889 in men and 69,095 at 2015. The prevalence of moderate insomnia was 19,660 in men and 10,913 in women. The prevalence of severe insomnia was 3,809 in men and 2,261 in women. The prevalence of moderate to severe insomnia was 7.0% (15 out of 214) in the apartment workers, 16.6% (29 out of 295) in the hospital workers, and 12.2% (27 out of 222) in the taxi drivers. The factors associated with sleep disorder differed by group. Depressive symptom and fatigue were found to increase the risk of sleep disturbance in all three groups. Caffeine intake and the number of night work were significant variables in apartment workers, nap during night work was significant variable in hospital workers, and satisfaction with income was significant variable in taxi drivers. In order to manage the sleep disorder of night shift workers, it is needed to understand work contents, working conditions and shift work schedule of night shift workers, and recommend appropriate sleep hygiene accordingly. More research is needed in order to recommend sleep hygiene appropriate for various jobs, occupations, and shift work types.",
+      "query": [
+        "야간근무 수면장애",
+        "밤에 일하는 근로자의 불면증과 수면 문제 관리 방법 자료",
+        "야간근무자 수면장애 실태 관리방안"
+      ]
+    },
+    {
+      "record_id": "list3_38957",
+      "concat": "[TITLE] 건설업 발주자 안전보건 책무부여 제도 도입 방안\n[SUMMARY] 건설공사 발주자에게 근로자 안전보건 역할과 의무를 부여하는 제도도입 방안을 연구함",
+      "query": [
+        "건설 발주자 안전의무",
+        "건설공사 발주자가 근로자 안전보건 책임을 지는 제도 자료",
+        "건설업 발주자 안전보건 책무부여 제도 도입 방안"
+      ]
+    },
+    {
+      "record_id": "list3_38966",
+      "concat": "[TITLE] 근골격계부담작업 유해요인조사의 실효성 강화방안 연구(2)\n[SUMMARY] 현행 근골격계부담작업 유해요인조사 제도의 실효성을 강화하기 위한 연구가 2016-2017년 과제로 계획되어 수행되었다. 2016년에 수행된 1차년도 과제가 제도 개선을 위한 ‘정책방향 제시’에 중점을 두었다면, 2017년 2차년도 과제는 이미 제시된 정책방향 또는 단기적인 제도 개선안에 따라 이행되는 과정을 확인하면서 중장기적 과제의 근거 자료를 마련하는데 중점을 두었다. 중장기 과제는 유해요인조사 결과보고 의무 신설, 조사자 또는 전문기관의 자격기준 신설, 근골격계질환 예방관리프로그램 인정제도 도입이었다. 이 연구의 목적은 근골격계부담작업 유해요인조사 제도 관련 문헌고찰, 부담작업 관련 Data 통계분석, 1차년도 연구자료 검토, 연구용역을 통해 부담작업 보유 사업장 규모 파악, 중장기적 과제의 근거자료 마련, 유해요인조사를 위한 감독매뉴얼 개발을 수행함으로써 유해요인조사의 실효성 강화를 위한 기초자료를 제공하고자 하였다.",
+      "query": [
+        "근골격계 유해요인조사",
+        "사업장에서 근골격계 부담작업 유해요인조사를 제대로 운영하는 방안 자료",
+        "근골격계부담작업 유해요인조사 실효성 강화방안 연구 감독매뉴얼 예방관리프로그램 인정제도"
+      ]
+    },
+    {
+      "record_id": "list3_38947",
+      "concat": "[TITLE] 가설구조물 안전성 확보를 위한 안전보건규칙 개선방안 연구\n[SUMMARY] 가설구조물 안전보건규칙 개선초안을 마련하기 위해 가설 구조물 관련 국내외 규정(법규), 기준 등 비교를 위한 문헌조사를 통하여 개선초안을 수립함",
+      "query": [
+        "가설구조물 안전규칙",
+        "공사 현장의 임시 구조물 안전보건 규칙을 개선하는 자료",
+        "가설구조물 안전성 확보 안전보건규칙 개선방안 연구"
+      ]
+    },
+    {
+      "record_id": "list3_39901",
+      "concat": "[TITLE] 산업별 재생산업 규모 예측 및 안전보건 기준 개선 연구\n[SUMMARY] 건축물 노후부분 보수 및 철거 재생산업 현황조사",
+      "query": [
+        "건축물 철거 보수 안전",
+        "낡은 건축물을 보수하거나 철거하는 재생산업 안전보건 기준 자료",
+        "산업별 재생산업 규모 예측 안전보건 기준 개선 연구 건축물 보수 철거"
+      ]
+    },
+    {
+      "record_id": "list3_40416",
+      "concat": "[TITLE] 감정노동자 보호 인식제고 및 문화조성 방문캠페인사업 표준업무수행 매뉴얼\n[SUMMARY] 감정노동 방문캠페인 사업 수행요원 교육용",
+      "query": [
+        "감정노동 보호 캠페인",
+        "감정노동자 보호 인식을 높이는 방문 캠페인 업무 매뉴얼",
+        "감정노동자 보호 인식제고 문화조성 방문캠페인사업 표준업무수행 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_39833",
+      "concat": "[TITLE] 생활폐기물 수집운반작업 환경미화원 작업안전수칙 가이드\n[SUMMARY] 지자체 환경미화원 재해발생 예방 등",
+      "query": [
+        "환경미화원 안전수칙",
+        "생활폐기물을 수집하고 운반하는 환경미화원의 작업 안전 자료",
+        "생활폐기물 수집운반작업 환경미화원 작업안전수칙 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_40228",
+      "concat": "[TITLE] ‘19년 소규모 사업장 안전보건 기술지원사업(민간위탁)보건분야 표준업무수행 매뉴얼\n[SUMMARY] ‘19년 소규모 사업장 안전보건 기술지원사업(민간위탁) 보건분야 표준업무수행 매뉴얼",
+      "query": [
+        "소규모 사업장 보건지원",
+        "작은 사업장 안전보건 기술지원 사업에서 보건 분야 업무를 수행하는 방법 자료",
+        "소규모 사업장 안전보건 기술지원사업 민간위탁 보건분야 표준업무수행 매뉴얼"
+      ]
+    },
+    {
+      "record_id": "list3_40265",
+      "concat": "[TITLE] 작업장 라돈관리 가이드\n[SUMMARY] 라돈의 용어 정의, 라돈농도의 측정과 관리계획, 라돈농도 수준에 따른 관리",
+      "query": [
+        "작업장 라돈 관리",
+        "사업장이나 작업장에서 라돈 농도를 측정하고 관리하는 방법 자료",
+        "작업장 라돈관리 가이드 라돈농도 측정 관리계획"
+      ]
+    },
+    {
+      "record_id": "list3_40038",
+      "concat": "[TITLE] 안전보건 OPL(모음집)\n[SUMMARY] 2018년 안전보건 OPL 모음집",
+      "query": [
+        "안전보건 자료 모음",
+        "현장에서 바로 볼 수 있는 안전보건 한장 자료를 모아둔 문서",
+        "안전보건 OPL 모음집"
+      ]
+    },
+    {
+      "record_id": "list3_40119",
+      "concat": "[TITLE] 겨울철 한파로 인한 한랭질환 예방가이드 이행매뉴얼\n[SUMMARY] 본 매뉴얼은 옥외작업자의 겨울철 한파로 인한 한랭질환을 예방하기 위하여 2018년 11월 배포한 \"겨울철 한파로 인한 한랭질환 예방가이드\"의 세부적인 이행사항을 제시하기 위하여 마련되었습니다.",
+      "query": [
+        "겨울철 한랭질환 예방",
+        "추운 겨울에 밖에서 일하는 근로자의 한랭질환 예방 실행 방법 자료",
+        "겨울철 한파 한랭질환 예방가이드 이행매뉴얼 옥외작업자"
+      ]
+    },
+    {
+      "record_id": "list3_39856",
+      "concat": "[TITLE] 건설기계장비 사망사고 예방을 위한 안전작업가이드라인(고소작업대-차량탑재형)\n[SUMMARY] 건설기계장비 사망사고 예방을 위한 안전작업가이드라인(고소작업대-차량탑재형) 고소작업대 안전작업계획서 작성요령 및 작성예시 고소작업대 안전작업수칙 고소작업대 관련 용어설명 등",
+      "query": [
+        "고소작업대 안전수칙",
+        "차량에 달린 고소작업대 작업 중 사망사고를 막는 안전작업 자료",
+        "건설기계장비 사망사고 예방 안전작업가이드라인 고소작업대 차량탑재형 안전작업계획서 안전작업수칙"
+      ]
+    },
+    {
+      "record_id": "list3_39855",
+      "concat": "[TITLE] 건설기계장비 사망사고 예방을 위한 안전작업가이드라인(타워크레인)\n[SUMMARY] 건설기계장비 사망사고 예방을 위한 안전작업가이드라인(타워크레인)",
+      "query": [
+        "타워크레인 안전작업",
+        "타워크레인 작업 중 사망사고를 예방하기 위한 안전 가이드 자료",
+        "건설기계장비 사망사고 예방 안전작업가이드라인 타워크레인"
+      ]
+    },
+    {
+      "record_id": "list3_39857",
+      "concat": "[TITLE] 건설기계장비 사망사고 예방을 위한 안전작업가이드라인(이동식크레인-차량탑재형)\n[SUMMARY] 건설기계장비 사망사고 예방을 위한 안전작업가이드라인(이동식크레인-차량탑재형) -이동식크레인 관련 용어설명 -이동식크레인(차량탑재형) 안전작업 수칙 -이동식크레인(차량탑재형) 안전작업계획서 작성요령 및 예싱 -이동식크레인(차량탑재형) 설치 시 준수사항 등",
+      "query": [
+        "이동식크레인 안전수칙",
+        "차량에 실린 이동식크레인 작업을 안전하게 하는 방법 자료",
+        "건설기계장비 사망사고 예방 안전작업가이드라인 이동식크레인 차량탑재형 안전작업계획서"
+      ]
+    },
+    {
+      "record_id": "list3_39858",
+      "concat": "[TITLE] 가연성 자재 등의 보관 가이드라인\n[SUMMARY] 건설현장 대형화재 예방을 위한 가연성 자재 등의 보관 가이드라인 - 건설현장 화재폭발사고 발생현황 - 건설현장 자재보관 실태 - 화재발생 메카니즘 - 건설현장 가연성 자재 보관 및 취급관리 가이드 등",
+      "query": [
+        "건설현장 화재 자재",
+        "공사 현장에서 불이 잘 붙는 자재를 안전하게 보관하는 방법 자료",
+        "가연성 자재 보관 가이드라인 건설현장 대형화재 화재폭발사고 자재보관 취급관리"
+      ]
+    },
+    {
+      "record_id": "list3_38696",
+      "concat": "[TITLE] 살생물제(biocide) 취급근로자 작업환경 실태 및 건강관리 방안 연구\n[SUMMARY] 살생물제 인벤토리를 구축하여 국내 유통가능한 살생물질을 제품 유형별로 일괄 목록화 EU 살생물제 제품 유형을 기초로 살생물질 근로자 노출 우려가 있는 제품유형을 선정하고, 해당 제품 유형에 해당하는 국내 산업업종을 분류 및 연구 대상 사업장 정보 조사 근로자 노출 위험이 높은 살생물질로서 CMR 물질 조사",
+      "query": [
+        "살생물제 작업자 건강",
+        "살생물제를 다루는 근로자의 작업환경과 건강관리 방안을 조사한 자료",
+        "살생물제 biocide 취급근로자 작업환경 실태 건강관리 방안 연구 CMR 물질"
+      ]
+    },
+    {
+      "record_id": "list3_39806",
+      "concat": "[TITLE] [산재사망사고 절반 줄이기] 질식재해예방(특별안전·보건교육)\n[SUMMARY] 1. 산재 사망사고 절반 줄이기 대책을 이해 2. 주체별 책임과 역할 이해 및 현장 작동성 강화 3. 질식재해 발생 기전 및 재해예방을 위한 안전한 작업방법의 실행력 확보를 학습목표로 하는 교육자료",
+      "query": [
+        "질식사고 예방 교육",
+        "산업현장에서 질식 사고가 생기는 이유와 안전한 작업방법 교육 자료",
+        "산재사망사고 절반 줄이기 질식재해예방 특별안전 보건교육"
+      ]
+    }
+  ]
+}

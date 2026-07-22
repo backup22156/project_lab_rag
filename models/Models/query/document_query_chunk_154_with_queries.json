@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 154,
+  "items": [
+    {
+      "record_id": "list3_50086",
+      "concat": "[TITLE] 2025년 산재예방요율제 사업주교육 스텝3\n[SUMMARY] 산재예방요율제 사업주교육 활용 교재",
+      "query": [
+        "산재예방요율제 교육 스텝3",
+        "사업주가 산재예방요율제 교육 단계별 교재를 찾고 있어요",
+        "산재예방요율제 사업주교육 스텝3 교재"
+      ]
+    },
+    {
+      "record_id": "list3_50105",
+      "concat": "[TITLE] 2025년 산재예방요율제 사업주교육 스텝2\n[SUMMARY] 산재예방요율제 사업주교육 활용 교재",
+      "query": [
+        "산재예방요율제 교육 스텝2",
+        "사업주가 산재예방요율제 두 번째 단계 교육자료를 찾고 있어요",
+        "산재예방요율제 사업주교육 스텝2 교재"
+      ]
+    },
+    {
+      "record_id": "list3_50104",
+      "concat": "[TITLE] 2025년 산재예방요율제 사업주교육 스텝1\n[SUMMARY] 산재예방요율제 사업주교육 활용 교재",
+      "query": [
+        "산재예방요율제 교육 스텝1",
+        "사업주가 산재예방요율제 처음 듣는 교육 교재를 찾고 있어요",
+        "산재예방요율제 사업주교육 스텝1 교재"
+      ]
+    },
+    {
+      "record_id": "list3_45989",
+      "concat": "[TITLE] 조리 종사자 건강영향\n[SUMMARY] - 조리 종사자 산재특성 - 학교 급식조리종사자의 폐암건강검진 결과의 의미 - 산업체 급식조리종사자의 호흡기 건강",
+      "query": [
+        "조리종사자 건강 폐암",
+        "급식실이나 조리 일을 하는 사람들의 산재와 호흡기 건강 자료를 찾고 있어요",
+        "조리 종사자 건강영향 산재특성 급식조리종사자 폐암 호흡기 건강"
+      ]
+    },
+    {
+      "record_id": "list3_50270",
+      "concat": "[TITLE] 소규모 사업장 안전보건교육 가이드\n[SUMMARY] 소규모 사업장 안전보건교육 가이드",
+      "query": [
+        "소규모 사업장 안전교육",
+        "작은 사업장에서 근로자 안전보건교육을 어떻게 해야 하는지 알려주는 자료",
+        "소규모 사업장 안전보건교육 가이드"
+      ]
+    },
+    {
+      "record_id": "list3_50340",
+      "concat": "[TITLE] 「안전한 일터 프로젝트」 주요 안전보건자료\n[SUMMARY] 「안전한 일터 프로젝트」시 참고할 안전보건자료 및 기술정보를 담은 소책자",
+      "query": [
+        "안전한 일터 자료",
+        "안전한 일터 만들 때 참고할 안전보건 자료와 기술정보가 필요해요",
+        "안전한 일터 프로젝트 주요 안전보건자료 기술정보 소책자"
+      ]
+    },
+    {
+      "record_id": "list3_46795",
+      "concat": "[TITLE] 근로자 건강진단 실무지침 제2권\n[SUMMARY] 근로자 건강진단 실시기준(고용노동부고시 제2023-8호) 제9조제1항에 의거하여 발간하는 근로자 건강진단 실무지침 제1권(특수건강진단 개요)",
+      "query": [
+        "근로자 건강진단 지침",
+        "근로자 건강검진 업무를 할 때 참고하는 실무 기준 자료를 찾고 있어요",
+        "근로자 건강진단 실무지침 제2권"
+      ]
+    },
+    {
+      "record_id": "list3_46590",
+      "concat": "[TITLE] 과로로 인한 건강장해예방에 대한 해외정책 및 제도 조사 연구\n[SUMMARY] 과로로 인한 건강장해예방에 대한 해외정책 및 제도 조사 연구 보고서",
+      "query": [
+        "과로 건강장해 예방",
+        "과로 때문에 생기는 건강문제를 막기 위한 해외 정책과 제도 자료",
+        "과로 건강장해예방 해외정책 제도 조사 연구 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46554",
+      "concat": "[TITLE] 직업성 폐질환 진단을 위한 흉부방사선분야의 신뢰성 향상 방안\n[SUMMARY] 직업성 폐질환 진단을 위한 흉부방사선분야의 신뢰성 향상 방안 보고서",
+      "query": [
+        "직업성 폐질환 방사선",
+        "직업병으로 폐질환을 진단할 때 흉부 엑스레이 판독 신뢰도를 높이는 자료",
+        "직업성 폐질환 진단 흉부방사선 신뢰성 향상 방안 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_50895",
+      "concat": "[TITLE] (인도네시아)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "인도네시아 안전수칙 포켓북",
+        "인도네시아 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "인도네시아 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50894",
+      "concat": "[TITLE] (스리랑카)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "스리랑카 안전수칙 포켓북",
+        "스리랑카 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "스리랑카 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50319",
+      "concat": "[TITLE] 2025년 월간 안전보건 8월호\n[SUMMARY] 2025년 월간 안전보건 8월호 - 파일 다운은 월간 안전보건 e-book 탭에서 하시기 바랍니다.",
+      "query": [
+        "월간 안전보건 8월",
+        "안전보건 잡지 8월호 파일을 찾고 있어요",
+        "월간 안전보건"
+      ]
+    },
+    {
+      "record_id": "list3_46553",
+      "concat": "[TITLE] 직업병 발생 위험도 평가를 위한 MSM 가이드라인 개발 연구\n[SUMMARY] 직업병 발생 위험도 평가를 위한 MSM 가이드라인 개발 연구 보고서",
+      "query": [
+        "직업병 위험도 MSM",
+        "직업병 발생 위험을 평가하는 MSM 가이드라인 연구 자료",
+        "직업병 발생 위험도 평가 MSM 가이드라인 개발 연구 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_50896",
+      "concat": "[TITLE] (필리핀)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "필리핀 안전수칙 포켓북",
+        "필리핀 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "필리핀 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50898",
+      "concat": "[TITLE] (라오스)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "라오스 안전수칙 포켓북",
+        "라오스 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "라오스 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50899",
+      "concat": "[TITLE] (우즈베키스탄)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "우즈베키스탄 안전수칙 포켓북",
+        "우즈베키스탄 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "우즈베키스탄 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50900",
+      "concat": "[TITLE] (베트남)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "베트남 안전수칙 포켓북",
+        "베트남 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "베트남 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50902",
+      "concat": "[TITLE] (방글라데시)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "방글라데시 안전수칙 포켓북",
+        "방글라데시 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "방글라데시 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50901",
+      "concat": "[TITLE] (중국)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "중국 안전수칙 포켓북",
+        "중국 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "중국 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50903",
+      "concat": "[TITLE] (키르기스스탄)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "키르기스스탄 안전수칙 포켓북",
+        "키르기스스탄 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "키르기스스탄 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50904",
+      "concat": "[TITLE] (타지키스탄)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "타지키스탄 안전수칙 포켓북",
+        "타지키스탄 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "타지키스탄 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_50940",
+      "concat": "[TITLE] 귀금속 및 관련 제품 제조업 직업건강가이드라인\n[SUMMARY] 귀금속 및 관련 제품 제조업 직업건강 가이드라인",
+      "query": [
+        "귀금속 제조 건강",
+        "귀금속 제품을 만드는 작업장에서 직업건강 관리 방법을 찾고 있어요",
+        "귀금속 및 관련 제품 제조업 직업건강가이드라인"
+      ]
+    },
+    {
+      "record_id": "list3_50920",
+      "concat": "[TITLE] (몽골)외국인 노동자를 위한 안전보건 포켓북\n[SUMMARY] 외국인 노동자를 위하여 기초안전수칙 등을 쉬운 우리말로 제작하여 17개언어로 번역한 자료",
+      "query": [
+        "몽골 안전수칙 포켓북",
+        "몽골 출신 외국인 노동자에게 줄 기초 안전수칙 자료",
+        "몽골 외국인 노동자 안전보건 포켓북"
+      ]
+    },
+    {
+      "record_id": "list3_46552",
+      "concat": "[TITLE] 근로자 만성질환 코호트 구축 및 운영 타당성 검토\n[SUMMARY] 근로자 만성질환 코호트 구축 및 운영 타당성 검토 보고서",
+      "query": [
+        "근로자 만성질환 코호트",
+        "근로자 만성질환 자료를 장기적으로 모아 관리할 수 있는지 검토한 연구",
+        "근로자 만성질환 코호트 구축 운영 타당성 검토 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46549",
+      "concat": "[TITLE] 노화에 따른 근감소증의 직업적 유해요인 탐색 연구\n[SUMMARY] 노화에 따른 근감소증의 직업적 유해요인 탐색 연구 보고서",
+      "query": [
+        "근감소증 직업 유해요인",
+        "나이가 들면서 생기는 근감소증과 관련된 직업적 위험요인을 찾는 연구",
+        "노화 근감소증 직업적 유해요인 탐색 연구 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46551",
+      "concat": "[TITLE] 조선업 용접 작업자의 건강보호를 위한 환기방안 연구\n[SUMMARY] 조선업 용접 작업자의 건강보호를 위한 환기방안 연구 보고서",
+      "query": [
+        "조선업 용접 환기",
+        "조선소 용접 작업자의 건강보호를 위해 환기를 어떻게 해야 하는지 찾고 있어요",
+        "조선업 용접 작업자 건강보호 환기방안 연구 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46550",
+      "concat": "[TITLE] 리튬기반 이차전지 산업 근로자의 건강관리 실태조사(Ⅱ)\n[SUMMARY] 리튬기반 이차전지 산업 근로자의 건강관리 실태조사(Ⅱ) 보고서",
+      "query": [
+        "이차전지 근로자 건강관리",
+        "리튬 배터리 산업 근로자의 건강관리 실태를 조사한 자료",
+        "리튬기반 이차전지 산업 근로자 건강관리 실태조사Ⅱ 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46547",
+      "concat": "[TITLE] 정신건강 예방증진 가이드라인 마련\n[SUMMARY] 정신건강 예방증진 가이드라인 마련 보고서",
+      "query": [
+        "정신건강 예방 가이드",
+        "직장에서 정신건강 문제를 예방하고 증진하는 기준 자료를 찾고 있어요",
+        "정신건강 예방증진 가이드라인 마련 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46545",
+      "concat": "[TITLE] 휴게시설 설치의무 이행 실태조사\n[SUMMARY] 휴게시설 설치의무 이행 실태조사 보고서",
+      "query": [
+        "휴게시설 설치 실태",
+        "사업장에서 휴게시설 설치 의무를 제대로 지키는지 조사한 자료",
+        "휴게시설 설치의무 이행 실태조사 보고서"
+      ]
+    },
+    {
+      "record_id": "list3_46546",
+      "concat": "[TITLE] 건강분야 위험성평가 이행력 강화방안 연구\n[SUMMARY] 건강분야 위험성평가 이행력 강화방안 연구 보고서",
+      "query": [
+        "건강 위험성평가 강화",
+        "건강 분야 위험성평가를 더 잘 이행하게 하는 방안 연구 자료",
+        "건강분야 위험성평가 이행력 강화방안 연구 보고서"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 101,
+  "items": [
+    {
+      "record_id": "list1_31631",
+      "concat": "[TITLE] (위생 및 유사서비스업)암롤박스\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "암롤박스 작업 주의",
+        "쓰레기 수거 박스 작업할 때 주의할 점",
+        "위생 및 유사서비스업 암롤박스 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31632",
+      "concat": "[TITLE] (위생 및 유사서비스업)연막소독기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "연막소독기 사용 주의",
+        "소독할 때 연기 뿌리는 기계 사용법 자료",
+        "위생 및 유사서비스업 연막소독기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31636",
+      "concat": "[TITLE] (음식및숙박업)세탁기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "세탁기 작업 주의",
+        "숙박업소에서 세탁기 돌릴 때 필요한 작업 주의사항",
+        "음식및숙박업 세탁기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31635",
+      "concat": "[TITLE] (음식및숙박업)룸메이드카트\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "룸메이드 카트 작업",
+        "객실 청소 카트 사용할 때 주의할 점",
+        "음식및숙박업 룸메이드카트 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31633",
+      "concat": "[TITLE] (위생 및 유사서비스업)이동식 코드릴\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "이동식 코드릴 사용",
+        "현장에서 긴 전선 감아 쓰는 장비 주의사항",
+        "위생 및 유사서비스업 이동식 코드릴 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31634",
+      "concat": "[TITLE] (위생 및 유사서비스업)폐품 분쇄기/파쇄기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "폐품 분쇄기 작업",
+        "버리는 물건 잘게 부수는 기계 사용할 때 주의할 점",
+        "위생 및 유사서비스업 폐품 분쇄기 파쇄기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31637",
+      "concat": "[TITLE] (음식및숙박업)연육기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "연육기 사용 주의",
+        "고기 손질 기계 작업할 때 조심해야 할 점",
+        "음식및숙박업 연육기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31638",
+      "concat": "[TITLE] (음식및숙박업)전기히터(돼지꼬리)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "돼지꼬리 히터 주의",
+        "전기 물 데우는 히터 사용할 때 주의할 점",
+        "음식및숙박업 전기히터 돼지꼬리 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31640",
+      "concat": "[TITLE] (보건 및 사회복지사업)환자용 목욕침대\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "환자 목욕침대 사용",
+        "환자 목욕시킬 때 쓰는 침대 작업 주의사항",
+        "보건 및 사회복지사업 환자용 목욕침대 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31639",
+      "concat": "[TITLE] (보건 및 사회복지사업)전동휠체어\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "전동휠체어 사용 주의",
+        "환자 이동용 전동 휠체어 다룰 때 주의사항",
+        "보건 및 사회복지사업 전동휠체어 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31643",
+      "concat": "[TITLE] (교육서비스업)배기후드\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "배기후드 작업 주의",
+        "주방 환기 후드 사용할 때 알아야 할 점",
+        "교육서비스업 배기후드 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31641",
+      "concat": "[TITLE] (교육서비스업)글루건\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "글루건 사용 주의",
+        "뜨거운 접착제 총 사용할 때 조심할 점",
+        "교육서비스업 글루건 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31645",
+      "concat": "[TITLE] (교육서비스업)컵회수카트\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "컵 회수 카트 작업",
+        "학교에서 컵 모으는 카트 사용할 때 주의사항",
+        "교육서비스업 컵회수카트 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31644",
+      "concat": "[TITLE] (교육서비스업)식기세척작업\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "식기세척 작업 주의",
+        "학교 급식실에서 그릇 씻는 작업 주의사항",
+        "교육서비스업 식기세척작업 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31642",
+      "concat": "[TITLE] (교육서비스업)바닥광택기(왁싱머신)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "바닥광택기 사용 주의",
+        "바닥 왁스칠 기계 돌릴 때 주의할 점",
+        "교육서비스업 바닥광택기 왁싱머신 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31646",
+      "concat": "[TITLE] (교육서비스업)통학용 버스\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "통학버스 운행 주의",
+        "학생 태우는 버스 업무할 때 주의할 점",
+        "교육서비스업 통학용 버스 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31619",
+      "concat": "[TITLE] (건물관리업)승강기(엘리베이터)\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "엘리베이터 관리 작업",
+        "건물에서 승강기 관련 업무할 때 주의사항",
+        "건물관리업 승강기 엘리베이터 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31618",
+      "concat": "[TITLE] (건물관리업)순찰업무\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "순찰 업무 주의",
+        "건물 관리자가 순찰할 때 알아야 할 작업 주의사항",
+        "건물관리업 순찰업무 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31594",
+      "concat": "[TITLE] (전기업)급탄기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "급탄기 작업 주의",
+        "연료 넣는 기계 작업할 때 주의할 점",
+        "전기업 급탄기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31593",
+      "concat": "[TITLE] (전기업)공기예열기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "공기예열기 작업",
+        "발전 설비에서 공기 데우는 장치 작업 주의사항",
+        "전기업 공기예열기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31592",
+      "concat": "[TITLE] (건설기계)항타기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "항타기 작업 주의",
+        "말뚝 박는 건설기계 사용할 때 주의할 점",
+        "건설기계 항타기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31591",
+      "concat": "[TITLE] (건설기계)콘크리트 펌프카\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "콘크리트 펌프카 작업",
+        "콘크리트 붓는 펌프 차량 작업할 때 주의사항",
+        "건설기계 콘크리트 펌프카 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31590",
+      "concat": "[TITLE] (건설기계)카고 크레인\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "카고 크레인 작업",
+        "화물차에 달린 크레인 사용할 때 주의할 점",
+        "건설기계 카고 크레인 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31587",
+      "concat": "[TITLE] (건설기계)이동식 크레인\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "이동식 크레인 작업",
+        "현장에서 움직이는 크레인 사용할 때 주의사항",
+        "건설기계 이동식 크레인 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31589",
+      "concat": "[TITLE] (건설기계)천공기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "천공기 작업 주의",
+        "땅에 구멍 뚫는 건설기계 사용할 때 주의할 점",
+        "건설기계 천공기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31588",
+      "concat": "[TITLE] (건설기계)지반다짐용 롤러\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "롤러 다짐 작업",
+        "땅을 눌러 다지는 롤러 장비 작업 주의사항",
+        "건설기계 지반다짐용 롤러 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31586",
+      "concat": "[TITLE] (건설기계)불도저\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "불도저 작업 주의",
+        "흙 미는 건설기계 운전할 때 주의할 점",
+        "건설기계 불도저 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31585",
+      "concat": "[TITLE] (건설기계)모터그레이더\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "모터그레이더 작업",
+        "도로면 고르는 건설기계 사용할 때 주의사항",
+        "건설기계 모터그레이더 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31582",
+      "concat": "[TITLE] (기타제조업)핸드믹서기\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "핸드믹서기 사용 주의",
+        "손으로 들고 쓰는 믹서기 작업할 때 조심할 점",
+        "기타제조업 핸드믹서기 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_31584",
+      "concat": "[TITLE] (건설기계)로더\n[SUMMARY] 기계기구 및 작업공정과 관련된 내용을 이해하기 쉽게 OPL(One Point Lesson)로 제작하였습니다.",
+      "query": [
+        "로더 작업 주의",
+        "흙이나 자재를 퍼 나르는 장비 사용할 때 주의사항",
+        "건설기계 로더 OPL"
+      ]
+    }
+  ]
+}

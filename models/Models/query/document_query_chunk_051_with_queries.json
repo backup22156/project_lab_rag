@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 51,
+  "items": [
+    {
+      "record_id": "list1_41954",
+      "concat": "[TITLE] 코로나19 관련 건설업 기초안전보건교육 이수증 카드 재발급 방식 변경 안내\n[SUMMARY] 코로나19 관련 건설업 기초안전보건교육 이수증 카드 재발급 방식 변경 안내 OPL을 제작하여 일용근로자에게 홍보하고자 함",
+      "query": [
+        "건설 기초안전교육 이수증 재발급",
+        "코로나 때문에 건설업 기초안전보건교육 카드 다시 받는 방법",
+        "코로나19 건설업 기초안전보건교육 이수증 카드 재발급 방식 변경 안내"
+      ]
+    },
+    {
+      "record_id": "list1_42013",
+      "concat": "[TITLE] 코로나19 콜센터 예방지침\n[SUMMARY] 코로나19 확산방지를 위한 콜센터 예방지침",
+      "query": [
+        "콜센터 코로나 예방",
+        "콜센터에서 코로나19 감염을 막는 방법",
+        "코로나19 콜센터 예방지침"
+      ]
+    },
+    {
+      "record_id": "list1_41941",
+      "concat": "[TITLE] 제조업 특별기획점검 시 중점 점검사항\n[SUMMARY] 제조업 특별기획점검 시 중점 점검사항 OPS자료, 사업장에서 사용하는 기계·설비에 대한 안전 조치사항, 기계설비의 정비·청소·수리 등 비정형작업 시 안전 조치사항",
+      "query": [
+        "제조업 안전 점검사항",
+        "제조업 현장에서 기계 설비와 정비 작업 안전점검할 때 볼 내용",
+        "제조업 특별기획점검 중점 점검사항 기계 설비 비정형작업"
+      ]
+    },
+    {
+      "record_id": "list1_42041",
+      "concat": "[TITLE] 코로나19 확산 방지 및 추락사망 예방을 위한 사업장 준수사항\n[SUMMARY] 1. 사회적 거리 두기 2. 코로나19 예방수칙 3. 건설업 추락사망 예방 수칙",
+      "query": [
+        "사업장 코로나 추락 예방",
+        "현장에서 코로나 확산도 막고 건설 작업 추락사고도 예방하는 수칙",
+        "코로나19 확산 방지 추락사망 예방 사업장 준수사항"
+      ]
+    },
+    {
+      "record_id": "list1_41999",
+      "concat": "[TITLE] 코로나19 꼭 기억해야 할 근로자 수칙\n[SUMMARY] 사업장 내 코로나19 확산 방지를 위하여 근로자가 지켜야할 수칙을 안내하고자함.",
+      "query": [
+        "근로자 코로나 수칙",
+        "회사에서 근로자가 코로나19 예방을 위해 지켜야 할 행동수칙",
+        "코로나19 꼭 기억해야 할 근로자 수칙"
+      ]
+    },
+    {
+      "record_id": "list1_41995",
+      "concat": "[TITLE] 산업용 방진마스크 올바른 사용법\n[SUMMARY] 코로나19관련 산업용 방진마스크 올바른 사용법 홍보 자료",
+      "query": [
+        "방진마스크 사용법",
+        "산업용 방진마스크를 제대로 쓰는 방법",
+        "산업용 방진마스크 올바른 사용법"
+      ]
+    },
+    {
+      "record_id": "list1_41993",
+      "concat": "[TITLE] 코로나19 예방 및 확산 방지를 위한 사업장 자체 점검표(영문판,중국어판)\n[SUMMARY] 「코로나19 예방 및 확산 방지를 위한 사업장 자체 점검표」(영문판, 중국어판) 번역본",
+      "query": [
+        "사업장 코로나 점검표",
+        "영어 중국어로 된 사업장 코로나19 예방 점검표",
+        "코로나19 예방 확산 방지 사업장 자체 점검표 영문판 중국어판"
+      ]
+    },
+    {
+      "record_id": "list1_41964",
+      "concat": "[TITLE] 안전보건자료 활용가이드 OPL\n[SUMMARY] 안전보건자료 활용방법을 한장으로 정리한 OPL 입니다.",
+      "query": [
+        "안전보건자료 활용",
+        "안전보건자료를 현장에서 어떻게 활용하는지 알려주는 자료",
+        "안전보건자료 활용가이드 OPL"
+      ]
+    },
+    {
+      "record_id": "list1_41891",
+      "concat": "[TITLE] 외국인노동자용 코로나바이러스감염증-19 예방수칙\n[SUMMARY] 외국인 고용허가제 송출국가 16개국 언어 번역 - 압축파일 참조 (중국,베트남,우즈베키스탄,네팔,몽골,태국,캄보디아,스리랑카,인도네시아,미얀마,키르기스스탄,파키스탄,필리핀,방글라데시,동티모르,라오스)",
+      "query": [
+        "외국인노동자 코로나 예방",
+        "외국인 근로자에게 보여줄 여러 나라 언어 코로나19 예방수칙",
+        "외국인노동자용 코로나바이러스감염증-19 예방수칙 번역"
+      ]
+    },
+    {
+      "record_id": "list1_41894",
+      "concat": "[TITLE] 지게차 법 개정사항 주요 Q&A\n[SUMMARY] 산업안전보건법 개정에 따른 지게차 범위 확대, 교육이수 등 주요 질문사항 정리 자료",
+      "query": [
+        "지게차 법 개정",
+        "지게차 관련 산업안전보건법이 바뀐 내용과 교육 이수 궁금한 점",
+        "지게차 법 개정사항 주요 Q&A 산업안전보건법 교육이수"
+      ]
+    },
+    {
+      "record_id": "list1_41968",
+      "concat": "[TITLE] 코로나-19 행동 요령 및 자체 점검표\n[SUMMARY] 「코로나-19 행동 요령 및 자체 점검표」를 제작하여 고객응대가 많은 서비스업종, 외국인 고용 중소 제조업, 다중이용시설 등에 보급",
+      "query": [
+        "코로나 행동요령 점검표",
+        "고객응대 업종이나 제조업에서 쓰는 코로나19 행동요령과 자체 점검표",
+        "코로나-19 행동 요령 자체 점검표 서비스업 외국인 고용 제조업"
+      ]
+    },
+    {
+      "record_id": "list1_41895",
+      "concat": "[TITLE] 산업안전보건법 전부개정 안내 리플릿\n[SUMMARY] 산업안전보건법 전부개정 안내 리플릿입니다.",
+      "query": [
+        "산업안전보건법 개정",
+        "산업안전보건법이 전부 개정된 내용을 쉽게 설명한 안내자료",
+        "산업안전보건법 전부개정 안내 리플릿"
+      ]
+    },
+    {
+      "record_id": "list1_41890",
+      "concat": "[TITLE] 사망사고 다발 고위험 작업 시설.장비 개선 비용지원\n[SUMMARY] 사망사고 등 고위험개선 OPS",
+      "query": [
+        "고위험 작업 비용지원",
+        "사망사고가 자주 나는 위험 작업 시설이나 장비 개선 지원금",
+        "사망사고 다발 고위험 작업 시설 장비 개선 비용지원 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_41693",
+      "concat": "[TITLE] 이사 안전확인 사항\n[SUMMARY] 안전한 이사를 위한 입주민 및 작업자용 안전확인 사항",
+      "query": [
+        "이사 안전 확인",
+        "이사할 때 입주민과 작업자가 확인해야 하는 안전사항",
+        "이사 안전확인 사항 입주민 작업자"
+      ]
+    },
+    {
+      "record_id": "list1_40715",
+      "concat": "[TITLE] 생식독성물질 취급 근로자 직업건강 가이드라인\n[SUMMARY] 생식독성물질 정의, 발현증상, 재해사례, 건강관리방안 등",
+      "query": [
+        "생식독성물질 건강관리",
+        "생식독성물질을 취급하는 근로자의 증상과 건강관리 방법",
+        "생식독성물질 취급 근로자 직업건강 가이드라인"
+      ]
+    },
+    {
+      "record_id": "list1_40735",
+      "concat": "[TITLE] (안전보건 OPL) 화학공장 3대 사망사고 예방\n[SUMMARY] 1. 핵심실천사항 : 정비작업 전원차단, 불량비계 사용금지, 용접불티 비산차단2. 재해사례3. 주요 위험요인 및 점검항목",
+      "query": [
+        "화학공장 사망사고 예방",
+        "화학공장에서 정비작업 비계 용접불티 사고를 막는 안전수칙",
+        "안전보건 OPL 화학공장 사망사고 예방 정비작업 전원차단 불량비계 용접불티"
+      ]
+    },
+    {
+      "record_id": "list1_41707",
+      "concat": "[TITLE] 비정형작업 끼임 사망사고 예방 기술자료\n[SUMMARY] 비정형작업 끼임 사망사고 예방 기술자료 및 사고사례",
+      "query": [
+        "끼임 사고 예방",
+        "정비 청소 수리 같은 비정형작업 중 끼임 사망사고를 막는 자료",
+        "비정형작업 끼임 사망사고 예방 기술자료 사고사례"
+      ]
+    },
+    {
+      "record_id": "list1_41715",
+      "concat": "[TITLE] 한랭질환 예방 가이드\n[SUMMARY] 겨울철 한파로 인한 한랭질환 발생 예방을 위하여 가이드를 제작 함",
+      "query": [
+        "한랭질환 예방",
+        "겨울철 한파 작업장에서 한랭질환을 예방하는 방법",
+        "한랭질환 예방 가이드 겨울철 한파"
+      ]
+    },
+    {
+      "record_id": "list1_40736",
+      "concat": "[TITLE] (안전보건 OPL) 조선업 추락재해 2대 핵심예방수칙\n[SUMMARY] 1. 조선업 추락재해 현황 2. 핵심실천사항 : 안전난간, 개구부 덮개, 안전대 착용 3. 주요 위험요인 4. 점검항목",
+      "query": [
+        "조선업 추락 예방",
+        "조선소 작업 중 추락사고를 막기 위한 안전난간과 안전대 수칙",
+        "안전보건 OPL 조선업 추락재해 핵심예방수칙 안전난간 개구부 덮개 안전대"
+      ]
+    },
+    {
+      "record_id": "list1_40734",
+      "concat": "[TITLE] (안전보건 OPL) 건설업 추락재해예방 안전시설\n[SUMMARY] 1. 핵심실천사항 : 안전대 부착설비, 작업발판, 안전난간 2. 재해사례 3. 주요 위험요인 및 점검항목",
+      "query": [
+        "건설 추락 안전시설",
+        "건설현장에서 추락사고를 예방하는 작업발판 안전난간 설치 기준",
+        "안전보건 OPL 건설업 추락재해예방 안전시설 안전대 부착설비 작업발판 안전난간"
+      ]
+    },
+    {
+      "record_id": "list1_40737",
+      "concat": "[TITLE] (안전보건 OPL) 저장용기 등 질식위험장소 안전작업\n[SUMMARY] 저장용기 등 질식 위험장소 안전작업",
+      "query": [
+        "질식위험장소 안전작업",
+        "저장용기 안에서 질식 위험이 있는 작업을 안전하게 하는 방법",
+        "안전보건 OPL 저장용기 질식위험장소 안전작업"
+      ]
+    },
+    {
+      "record_id": "list1_40740",
+      "concat": "[TITLE] (안전보건 OPS) 열사병등 혹서기 온열질환 예방\n[SUMMARY] 1. 온열질환 예방 3대 수칙 : 물, 그늘, 휴식 2. 작업현장 준수사항 3. 온열질환 사례 및 예방대책",
+      "query": [
+        "온열질환 예방",
+        "무더운 여름 작업장에서 열사병을 막기 위한 물 그늘 휴식 수칙",
+        "안전보건 OPS 열사병 혹서기 온열질환 예방 물 그늘 휴식"
+      ]
+    },
+    {
+      "record_id": "list1_40738",
+      "concat": "[TITLE] (안전보건 OPL) 지자체 2대 위험작업 재해예방(벌목, 폐기물)\n[SUMMARY] 위험반경 접근금지, 암롤박스 등 상부 탑승금지",
+      "query": [
+        "벌목 폐기물 안전",
+        "지자체 벌목 작업이나 폐기물 작업에서 사고를 예방하는 방법",
+        "안전보건 OPL 지자체 위험작업 재해예방 벌목 폐기물 암롤박스"
+      ]
+    },
+    {
+      "record_id": "list1_40744",
+      "concat": "[TITLE] (안전보건 OPL) 올바른 수공구 취급작업\n[SUMMARY] 1.핵심실천사항 :적합한 수공구 사용, 신체에 맞는 수공구 사용, 올바른 자세유지. 2.대표적 질환 : 수근관증후군, 건초염, 드퀘르병, 방아쇠 손가락, 백지병",
+      "query": [
+        "수공구 사용법",
+        "손공구를 바른 자세로 사용하고 손목 질환을 예방하는 방법",
+        "안전보건 OPL 올바른 수공구 취급작업 수근관증후군 건초염 드퀘르병 방아쇠 손가락 백지병"
+      ]
+    },
+    {
+      "record_id": "list1_40742",
+      "concat": "[TITLE] (안전보건 OPL) 동절기 뇌심혈관계질환 예방\n[SUMMARY] 1. 핵심실천사항 : 운동하기, 스트레칭하기, 음주 및 흡연 멀리하기 2. 주요질환 및 발생원인 3. 뇌심혈관질환 유발요소 4. 뇌심혈관계질환 의심 증상 3.",
+      "query": [
+        "겨울 뇌심혈관질환 예방",
+        "추운 계절에 작업자가 뇌심혈관질환을 예방하기 위한 생활수칙과 증상",
+        "안전보건 OPL 동절기 뇌심혈관계질환 예방 운동 스트레칭 금주 금연"
+      ]
+    },
+    {
+      "record_id": "list1_40749",
+      "concat": "[TITLE] (안전보건 OPL) 사무직 종사 노동자 안전한 작업방법\n[SUMMARY] 1. 사무직 종사 노동자의 특징 2. 핵심실천사항 : 올바른 컴퓨터 작업, 중량물 취급, 작업환경 3. 위험요인 : 시력저하, 거북목, 어깨통증, 부적절한 자세, 과도한 힘",
+      "query": [
+        "사무직 안전 작업",
+        "사무실에서 컴퓨터 작업할 때 거북목 어깨통증을 줄이는 안전한 작업방법",
+        "안전보건 OPL 사무직 종사 노동자 안전한 작업방법 컴퓨터 중량물 작업환경"
+      ]
+    },
+    {
+      "record_id": "list1_40743",
+      "concat": "[TITLE] (안전보건 OPL) 장년노동자를 위한 올바른 작업자세\n[SUMMARY] 1. 장년노동자의 산업재해 2. 핵심실천사항: 전용 운반구, 화물크기, 동선 확보, 스트레칭, 작업자세",
+      "query": [
+        "장년노동자 작업자세",
+        "나이가 있는 근로자가 물건을 옮기거나 일할 때 안전한 자세",
+        "안전보건 OPL 장년노동자 올바른 작업자세 운반구 화물크기 동선 스트레칭"
+      ]
+    },
+    {
+      "record_id": "list1_40746",
+      "concat": "[TITLE] (안전보건 OPL) 숙련노동자의 안전한 화학공장 화기작업\n[SUMMARY] 1. 숙련노동자의 특징 2. 핵심실천사항 : 화기작업 금지, 불티비산 방지조치, 소화설비 사용 3. 재해사례",
+      "query": [
+        "화학공장 화기작업",
+        "숙련 근로자가 화학공장에서 용접이나 불꽃 작업을 안전하게 하는 방법",
+        "안전보건 OPL 숙련노동자 안전한 화학공장 화기작업 불티비산 소화설비"
+      ]
+    },
+    {
+      "record_id": "list1_40745",
+      "concat": "[TITLE] (안전보건 OPL) 숙련노동자의 안전한 휴대형 전동공구 사용\n[SUMMARY] 1. 숙련노동자의 특징 2. 핵심실천사항: 누전차단기 및 접지, 진동방지장갑, 방호덮개 설치",
+      "query": [
+        "전동공구 안전 사용",
+        "숙련 근로자가 휴대용 전동공구를 쓸 때 감전과 진동을 막는 방법",
+        "안전보건 OPL 숙련노동자 안전한 휴대형 전동공구 사용 누전차단기 접지 진동방지장갑 방호덮개"
+      ]
+    },
+    {
+      "record_id": "list1_40741",
+      "concat": "[TITLE] (안전보건 OPL) 가을철 발열성질환 예방\n[SUMMARY] 1. 핵심실천사항 : 보호장구류 착용, 풀밭에 눕지 않기, 작업 후 샤워나 목욕 2. 주요질환 및 발생원인 - 쯔쯔가무시증, 중증열성혈소판감소증후군, 신증후군 출열혈, 렙토스피라증 3. 재해사례",
+      "query": [
+        "가을 발열성질환 예방",
+        "가을 야외 작업 뒤 쯔쯔가무시증 같은 감염병을 예방하는 방법",
+        "안전보건 OPL 가을철 발열성질환 예방 쯔쯔가무시증 중증열성혈소판감소증후군 신증후군 출열혈 렙토스피라증"
+      ]
+    }
+  ]
+}

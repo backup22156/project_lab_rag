@@ -1,0 +1,276 @@
+{
+  "task": "Fill exactly three Korean search queries in the query array for each item. Set query[0] to a sparse lay keyword query: a short list of 2-4 natural terms that a general user might actually type. Use plain everyday wording where possible. Avoid unnatural bureaucratic phrasing, over-structured expert terms, exact document titles, program names, acronyms, and document-type labels unless they are clearly ordinary user vocabulary. Set query[1] to a general-public tip-of-the-tongue natural-language query: the user describes the needed document or situation with more context, but still without necessarily knowing the exact document title, program name, acronym, product name, or official term. Set query[2] to a title-keyword query that preserves the key nouns, target group, official terms, acronyms, program names, and useful document-type words that appear in concat. For query[2], remove list numbers, sequence numbers, bullet numbers, section numbers, publication years, date/month markers, issue numbers, and decorative punctuation that do not help retrieval. Keep numbers only when removing them would break the meaning of a named entity, such as a law/standard name, model name, chemical name, measurement, or official identifier. Generate all queries from concat, using the title as the primary source and the summary only as context when the title is ambiguous. Do not invent facts not supported by concat. Preserve record_id and concat unchanged. Return valid JSON only.",
+  "chunk_index": 46,
+  "items": [
+    {
+      "record_id": "list1_43516",
+      "concat": "[TITLE] [항만하역 재해사례] 산화물 야적작업 중 복포시트 고정용 타이어가 굴러 충돌\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "항만 타이어 충돌 사고",
+        "항만에서 야적 작업하다 타이어가 굴러와 부딪힌 사고 사례",
+        "항만하역 재해사례 산화물 야적작업 복포시트 고정용 타이어 충돌"
+      ]
+    },
+    {
+      "record_id": "list1_43515",
+      "concat": "[TITLE] [항만하역 재해사례] 빗물에 젖은 코일 위에서 작업 중 추락\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "코일 작업 추락 사고",
+        "항만에서 젖은 코일 위에서 일하다 떨어진 사고 사례",
+        "항만하역 재해사례 빗물 젖은 코일 작업 추락"
+      ]
+    },
+    {
+      "record_id": "list1_43514",
+      "concat": "[TITLE] [항만하역 재해사례] 복포작업 중 과도한 힘과 동작으로 인한 근골격계질환\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "복포 작업 근골격계 질환",
+        "항만 복포 작업 중 무리한 힘 때문에 근골격계 질환 생기는 사례",
+        "항만하역 재해사례 복포작업 과도한 힘 동작 근골격계질환"
+      ]
+    },
+    {
+      "record_id": "list1_43513",
+      "concat": "[TITLE] [항만하역 재해사례] 펄프 스프레더에 부딪혀 추락\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "펄프 작업 추락 사고",
+        "항만에서 펄프 스프레더에 부딪혀 떨어진 사고 사례",
+        "항만하역 재해사례 펄프 스프레더 부딪힘 추락"
+      ]
+    },
+    {
+      "record_id": "list1_43512",
+      "concat": "[TITLE] [항만하역 재해사례] 파이프 선적작업 중 파이프 틈새에 발이 끼어 넘어짐\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "파이프 선적 넘어짐",
+        "파이프 싣는 작업 중 발이 틈새에 끼어 넘어진 사고 사례",
+        "항만하역 재해사례 파이프 선적작업 파이프 틈새 발 끼임 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_43511",
+      "concat": "[TITLE] [항만하역 재해사례] 파이프 육상 스프레더 줄걸이 작업 중 미끄러져 넘어짐\n[SUMMARY] 항만근로자 재해예방을 위해 안전보건공단과 울산항만공사가 공동으로 제작한 항만하역 재해사례 OPS 입니다.",
+      "query": [
+        "파이프 줄걸이 넘어짐",
+        "항만에서 파이프 줄걸이 작업 중 미끄러져 넘어진 사례",
+        "항만하역 재해사례 파이프 육상 스프레더 줄걸이 작업 미끄러짐 넘어짐"
+      ]
+    },
+    {
+      "record_id": "list1_43331",
+      "concat": "[TITLE] FRC 적재작업 가이드 및 자율점검표 OPS\n[SUMMARY] 최근 발생한 평택학 항만사고의 동종재해 예방을 위한 FRC 적재작업에 대한 안전작업 가이드",
+      "query": [
+        "FRC 적재 안전",
+        "항만에서 FRC 적재 작업을 안전하게 하는 방법과 점검표 찾기",
+        "FRC 적재작업 가이드 자율점검표 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43396",
+      "concat": "[TITLE] (추락예방) 올바른 안전대 사용 ABC OPS\n[SUMMARY] 안전대, 착용만 한다고 추락위험으로부터 안전한 것은 아닙니다! 올바른 안전대 사용법 ABC를 안내하기 위한 OPS입니다. A : Anchorage, 고정점/고정장치(스트랩, 빔난간대, H빔앵커 등) B : Body support, 안전대 C : Connector, 연결장치(죔줄, D링, 카라비너, 안전블록 등)",
+      "query": [
+        "안전대 사용법 추락",
+        "추락을 막으려면 안전대를 어떻게 고정하고 연결해야 하는지 찾기",
+        "추락예방 올바른 안전대 사용 ABC OPS Anchorage Body support Connector"
+      ]
+    },
+    {
+      "record_id": "list1_43274",
+      "concat": "[TITLE] 지붕작업 사고사례 및 핵심예방조치 안내\n[SUMMARY] 지붕작업 사고사례 및 핵심예방조치 안내 - 재해사례 및 자율안전점검표",
+      "query": [
+        "지붕 작업 추락 예방",
+        "지붕에서 일하다 사고 나는 사례와 꼭 해야 할 예방조치 찾기",
+        "지붕작업 사고사례 핵심예방조치 자율안전점검표"
+      ]
+    },
+    {
+      "record_id": "list1_43391",
+      "concat": "[TITLE] [Quick Message] 제조공장 전기판넬 점검 중 감전사고 발생\n[SUMMARY] 최근 제조공장에서 전기판넬 점검 중 감전으로 인한 사망사고가 발생하였고, 곧 다가올 장마철에 빈번히 발생하는 감전재해를 예방하기 위해 안전작업방법 및 관련 콘텐츠 활용 링크를 안내드립니다.",
+      "query": [
+        "전기판넬 감전 사고",
+        "제조공장에서 전기판넬 점검하다 감전된 사고와 안전작업 방법",
+        "Quick Message 제조공장 전기판넬 점검 감전사고"
+      ]
+    },
+    {
+      "record_id": "list1_43382",
+      "concat": "[TITLE] [Quick Message] 폭염 옥외작업 중 사망 연속발생\n[SUMMARY] 최근 폭염이 지속되어 온열질환(추정)으로 인한 사망재해가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "폭염 야외 작업 사망",
+        "무더위에 밖에서 일하다 온열질환으로 사망한 사고 예방 자료",
+        "Quick Message 폭염 옥외작업 사망 온열질환"
+      ]
+    },
+    {
+      "record_id": "list1_43370",
+      "concat": "[TITLE] 산업용(일반작업용)리프트 점검 및 수리 작업안전 가이드 및 점검표 OPS\n[SUMMARY] - 산업용리프트 사고 사례 - 리프트 점검 및 수리 안전 작업 방법 - 산업용(일반작업용)리프트 안전작업 점검표",
+      "query": [
+        "산업용 리프트 점검 수리",
+        "일반 작업용 리프트를 점검하거나 수리할 때 안전하게 작업하는 방법",
+        "산업용 일반작업용 리프트 점검 수리 작업안전 가이드 점검표 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43362",
+      "concat": "[TITLE] [Quick Message] 리프트 작업 중 추락 사망사고 연속발생\n[SUMMARY] 최근 리프트 작업 중 와이어로프 파단 등으로 운반구와 함께 추락하는 사망사고가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "리프트 추락 사망",
+        "리프트 작업 중 와이어로프가 끊겨 운반구와 떨어진 사고 사례",
+        "Quick Message 리프트 작업 추락 사망사고 와이어로프 파단"
+      ]
+    },
+    {
+      "record_id": "list1_43337",
+      "concat": "[TITLE] (캠페인) 추락사고 예방 일제점검 안내 및 자율점검표 OPS\n[SUMMARY] - 추락사고 예방 일제점검 안내 - 추락 예방을 위한 자율점검표 - 코로나19 방역 및 폭염 관련 점검표",
+      "query": [
+        "추락 예방 점검표",
+        "사업장에서 추락사고 예방을 위해 스스로 점검할 표를 찾기",
+        "캠페인 추락사고 예방 일제점검 안내 자율점검표 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43338",
+      "concat": "[TITLE] (캠페인) 끼임사고 예방 일제점검 안내 및 자율점검표 OPS\n[SUMMARY] - 끼임사고 예방 일제점검 안내 - 끼임 예방을 위한 자율점검표 - 코로나19 방역 및 폭염 관련 점검표",
+      "query": [
+        "끼임 사고 점검표",
+        "기계 끼임 사고를 막기 위한 사업장 자율 점검표 찾기",
+        "캠페인 끼임사고 예방 일제점검 안내 자율점검표 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43342",
+      "concat": "[TITLE] 공정안전관리 12대 실천과제 OPS\n[SUMMARY] 공정안전관리 12대 실천과제 OPS",
+      "query": [
+        "공정안전관리 실천과제",
+        "공정안전관리를 위해 현장에서 지켜야 할 주요 과제 자료",
+        "공정안전관리 12대 실천과제 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43344",
+      "concat": "[TITLE] [Quick Message] 중량물 취급작업 중 로프 파단으로 인한 사고\n[SUMMARY] 최근 중량물 취급작업 중 로프 파단으로 인한 사망사고가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "중량물 로프 파단",
+        "무거운 물건을 들다가 로프가 끊어진 사망사고 예방 방법",
+        "Quick Message 중량물 취급작업 로프 파단 사고"
+      ]
+    },
+    {
+      "record_id": "list1_43333",
+      "concat": "[TITLE] (캠페인) 추락·끼임사고 예방 일제점검 안내 OPS\n[SUMMARY] 사고사망 감축을 위한 추락·끼임사고 예방 일제점검 관련 안내",
+      "query": [
+        "추락 끼임 점검",
+        "사고 사망을 줄이기 위한 추락과 끼임 예방 일제점검 안내",
+        "캠페인 추락 끼임사고 예방 일제점검 안내 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43186",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(사출성형기)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "사출성형기 사고 예방",
+        "사출성형기에서 자주 나는 사고를 막기 위한 핵심 안전 메시지",
+        "사고다발 위험 설비 Key message 사출성형기"
+      ]
+    },
+    {
+      "record_id": "list1_42937",
+      "concat": "[TITLE] 안전의식 수준 현황 리포트\n[SUMMARY] 안전의식 수준향상 프로그램에 참여한 데이터를 다각도로 분석하여, 많은 사업장이 참고할 수 있는 다양한 정보를 제공하는 리포트(OPS)",
+      "query": [
+        "안전의식 수준",
+        "사업장의 안전의식 수준을 분석한 참고용 리포트 찾기",
+        "안전의식 수준 현황 리포트 OPS"
+      ]
+    },
+    {
+      "record_id": "list1_43187",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(컨베이어)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "컨베이어 사고 예방",
+        "컨베이어에서 자주 발생하는 위험을 줄이는 핵심 안전 메시지",
+        "사고다발 위험 설비 Key message 컨베이어"
+      ]
+    },
+    {
+      "record_id": "list1_43324",
+      "concat": "[TITLE] [Quick Message] 사다리 작업 중 추락사고 연속발생\n[SUMMARY] 최근 이동식사다리 작업 중 추락 사망사고가 연이어 발생함에 따라, 안전한 작업방법 및 관련 콘텐츠 링크를 안내해드립니다.",
+      "query": [
+        "사다리 추락 사고",
+        "이동식사다리 작업 중 떨어지는 사고를 예방하는 안전작업 방법",
+        "Quick Message 사다리 작업 추락사고 이동식사다리"
+      ]
+    },
+    {
+      "record_id": "list1_43200",
+      "concat": "[TITLE] 산업재해예방을 위한 OPS (산업용로봇)\n[SUMMARY] 산업재해예방을 위한 재해사례 및 예방대책 안내를 위한 OPS",
+      "query": [
+        "산업용 로봇 재해",
+        "산업용 로봇 작업 중 사고 사례와 예방대책 자료",
+        "산업재해예방 OPS 산업용로봇 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_43185",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(리프트)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "리프트 사고 예방",
+        "리프트에서 자주 나는 사고를 줄이기 위한 핵심 안전 메시지",
+        "사고다발 위험 설비 Key message 리프트"
+      ]
+    },
+    {
+      "record_id": "list1_43184",
+      "concat": "[TITLE] 사고다발 위험 설비 Key message(크레인)\n[SUMMARY] 사고다발 위험 설비 Key message 전파를 통한 사업장 안전 문화 도모",
+      "query": [
+        "크레인 사고 예방",
+        "크레인 작업에서 자주 발생하는 위험을 알려주는 핵심 안전 메시지",
+        "사고다발 위험 설비 Key message 크레인"
+      ]
+    },
+    {
+      "record_id": "list1_43199",
+      "concat": "[TITLE] 산업재해예방을 위한 OPS (전단기)\n[SUMMARY] 산업재해예방을 위한 재해사례 및 예방대책 안내를 위한 OPS",
+      "query": [
+        "전단기 재해 예방",
+        "전단기 작업 중 사고 사례와 예방대책 자료",
+        "산업재해예방 OPS 전단기 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_43197",
+      "concat": "[TITLE] 산업재해예방을 위한 OPS (이동식크레인)\n[SUMMARY] 산업재해예방을 위한 재해사례 및 예방대책 안내를 위한 OPS",
+      "query": [
+        "이동식크레인 재해 예방",
+        "이동식 크레인 작업 사고 사례와 예방대책 자료",
+        "산업재해예방 OPS 이동식크레인 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_43198",
+      "concat": "[TITLE] 산업재해예방을 위한 OPS (프레스)\n[SUMMARY] 산업재해예방을 위한 재해사례 및 예방대책 안내를 위한 OPS",
+      "query": [
+        "프레스 재해 예방",
+        "프레스 작업 중 사고 사례와 예방대책 자료",
+        "산업재해예방 OPS 프레스 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_43196",
+      "concat": "[TITLE] 산업재해예방을 위한 OPS (컨베이어)\n[SUMMARY] 산업재해예방을 위한 재해사례 및 예방대책 안내를 위한 OPS",
+      "query": [
+        "컨베이어 재해 예방",
+        "컨베이어 작업 중 사고 사례와 예방대책 자료",
+        "산업재해예방 OPS 컨베이어 재해사례 예방대책"
+      ]
+    },
+    {
+      "record_id": "list1_43195",
+      "concat": "[TITLE] 산업재해예방을 위한 OPS (사출성형기)\n[SUMMARY] 산업재해예방을 위한 재해사례 및 예방대책 안내를 위한 OPS",
+      "query": [
+        "사출성형기 재해 예방",
+        "사출성형기 작업 중 사고 사례와 예방대책 자료",
+        "산업재해예방 OPS 사출성형기 재해사례 예방대책"
+      ]
+    }
+  ]
+}
