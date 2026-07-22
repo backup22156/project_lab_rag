@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Chroma DB
+**/chroma_db/
+*.sqlite3
+*.bin
+*.pickle
+

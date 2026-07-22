@@ -1,0 +1,9 @@
+﻿model_name,test_size,top1_accuracy,top6_recall,top1_hit_count,top6_hit_count
+koe5,28,10.71,28.57,3,8
+snowflake_arctic_l_v2,28,3.57,28.57,1,8
+nemotron_1b,28,10.71,25.0,3,7
+bge_m3_ko,28,7.14,25.0,2,7
+kure_v1,28,3.57,25.0,1,7
+bge_m3,28,7.14,21.43,2,6
+qwen3_embedding_0.6b,28,3.57,21.43,1,6
+e5_large,28,3.57,21.43,1,6
