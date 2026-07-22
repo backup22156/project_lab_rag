@@ -1,0 +1,2 @@
+﻿model,test_size,dense_top_k,bm25_top_k,rrf_k,weights,candidate_k,final_k,top1_accuracy,top6_recall,top1_hit,top6_hit
+koe5 + bm25 + bge-reranker-base,28,50,50,10,"[0.8, 0.2]",10,6,7.14,35.71,2,10

@@ -1,0 +1,2 @@
+﻿model,test_size,dense_top_k,bm25_top_k,rrf_k,final_k,top1_accuracy,top6_recall,top1_hit,top6_hit
+koe5 + bm25 + bge-reranker-v2-m3,28,30,20,60,6,3.57,28.57,1,8

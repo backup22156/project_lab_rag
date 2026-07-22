@@ -1,0 +1,2 @@
+﻿setting,min_score,test_size,dense_top_k,bm25_top_k,rrf_k1,weights1,candidate_k,rrf_k2,original_weight,expanded_weight,final_k,top1_hit,top6_hit,top1_accuracy,top6_recall,avg_selected_query_num,no_routing_count,no_routing_ratio
+multi_query_before_rerank,0.7,28,50,50,10,"[0.8, 0.2]",10,10,0.4,0.6,6,4,10,14.29,35.71,1.679,5,17.86

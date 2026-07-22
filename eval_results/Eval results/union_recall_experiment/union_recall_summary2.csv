@@ -1,0 +1,6 @@
+﻿k,test_size,dense_recall,bm25_recall,union_oracle_recall,union_gain_over_dense,dense_hit_count,bm25_hit_count,union_hit_count,bm25_added_gold_count,dense_only_gold_count,both_hit_count,neither_hit_count,avg_dense_candidate_size,avg_bm25_candidate_size,avg_union_candidate_size,avg_overlap_jaccard
+6,28,32.14,21.43,42.86,10.71,9,6,12,3,6,3,16,6.0,6.0,10.79,0.1278
+10,28,35.71,32.14,42.86,7.14,10,9,12,2,3,7,16,10.0,10.0,17.5,0.161
+30,28,46.43,39.29,53.57,7.14,13,11,15,2,4,9,13,30.0,30.0,50.14,0.2189
+50,28,57.14,60.71,71.43,14.29,16,17,20,4,3,13,8,50.0,50.0,84.36,0.2062
+100,28,60.71,60.71,71.43,10.71,17,17,20,3,3,14,8,100.0,98.64,171.79,0.171

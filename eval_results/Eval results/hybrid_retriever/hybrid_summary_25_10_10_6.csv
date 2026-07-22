@@ -1,0 +1,2 @@
+﻿model,test_size,dense_top_k,bm25_top_k,rrf_k,final_k,top1_accuracy,top6_recall,top1_hit,top6_hit
+koe5 + bm25,28,25,10,10,6,7.14,28.57,2,8
